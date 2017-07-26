@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- Temporada 1  -->
+<item>
+   <title>[COLOR white][COLOR blue]* [/COLOR]Temporada 1[/COLOR] </title>
+   <thumbnail>https://image.tmdb.org/t/p/w500/dqrGzmoN8vktDE2ocIREGBMASyR.jpg</thumbnail>
+   <fanart>https://image.tmdb.org/t/p/original/yhubKTEexrog9K355jkSJVCo1Um.jpg</fanart>
+   	<genre>
+	[COLOR yellow]Acción, Crimen, Drama, Romance, Suspense
+	[COLOR blue]Año : [/COLOR][COLOR yellow]2013[/COLOR][COLOR blue] Duracion : [/COLOR][COLOR yellow] min[/COLOR]
+	[COLOR blue]Votos : [/COLOR][COLOR yellow]2[/COLOR] [COLOR blue]IMDB : [/COLOR][COLOR yellow]9.8[/COLOR]</genre>
+	<info>[COLOR cyan]La serie narra la historia de Aurelio Casillas, uno de los narcotraficante más importantes de México en los años 90. La única ambición de Aurelio era convertirse en el narco más poderoso de todo México, sin importarle ser cauteloso y mucho menos llamativo. Logró tener fortuna, mujeres, casas, edificios y mansiones sin mucho esfuerzo.
+
+Aurelio, cuando era pequeño, no sabía escribir ni leer. Perdió a su padre desde joven y tuvo que levantar a su familia junto con su hermano Víctor Casillas. Con la ayuda de El Letrudo, Aurelio aprendió a escribir y leer. Ximena, la mujer de su vida y madre de sus hijos, vivió en el mundo del narcotráfico desde pequeña: su padre, Don Cleto, era uno de los narcos más poderosos de la época. A los 15 años, ella conoce a Aurelio y se enamora perdidamente de él.
+
+Tras seguir creciendo y obtener fama y fortuna, Aurelio se hace enemigo del Cártel de los Robles, en el cual la hermana menor de los Robles, Mónica Robles, maneja las finanzas de sus hermanos; sin embargo, su lado débil es su secreto enamoramiento hacía a Aurelio. Ella oculta sus sentimientos para no perder el control y no ser derrotada fácilmente por sus enemigos. Cuando Aurelio asesina a sus dos hermanos, Isidro y Guadalupes, Mónica intenta vengarse, pero solo pierde el control sobre sí misma y continua enamorada de Aurelio, ayudándolo con sus crimines en lo sucesivo.
+
+Marco Mejía, un policía de México que perdió a su padre por culpa de Aurelio, logra hacer que el rostro de Casillas sea revelado por la prensa y medios noticiosos, los cuales le apodaron El Señor de los Cielos. Tras haberse revelado el rostro de Aurelio, la policía y sus enemigos comienzan a atacar su organización para quitarle todo su poder.
+
+Después de varios meses, Marco logra hacer caer a Aurelio, expropiándole sus terrenos, mansiones y joyas. Aurelio, tras verse acorralado, decide hacerse una operación de rostro, muriendo en una camilla de hospital.[/COLOR]
+	[COLOR blue]Dirección : [/COLOR][COLOR yellow][/COLOR] [COLOR blue]Guionistas : [/COLOR][COLOR yellow][/COLOR] 
+	[COLOR blue]Casting : [/COLOR][COLOR yellow][/COLOR]</info>
+	<link>$doregex[makelist]</link>
+<regex>
+      <name>makelist</name>
+      <listrepeat><![CDATA[
+               <title>[COLOR green]Mex[/COLOR][COLOR white]-Flix = [/COLOR][COLOR red]Capitulo[/COLOR][COLOR yellow][/COLOR] [makelist.param0]</title>
+               <link>$doregex[finalURL]</link>
+   <thumbnail>https://image.tmdb.org/t/p/w500/dqrGzmoN8vktDE2ocIREGBMASyR.jpg</thumbnail>
+   <fanart>https://image.tmdb.org/t/p/original/yhubKTEexrog9K355jkSJVCo1Um.jpg</fanart>
+      ]]></listrepeat>
+      <expres><![CDATA[data-file-id="([^"]+)">.*\n.*\n.*\n.*action="\/(.*?)" class="download.*Token".*?value="(.*?)"]]></expres>
+      <page>http://diskokosmiko.mx/seri5/srci1-31138/list,1,4</page>
+      <cookieJar></cookieJar>
+</regex>
+
+<regex>
+      <name>finalURL</name>
+      <expres>Url":"(.*?)"</expres>
+      <page>http://diskokosmiko.mx/[makelist.param2]</page>
+      <rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=[makelist.param3]</rawpost>
+      <referer>http://diskokosmiko.mx/</referer>
+      <x-req>XMLHttpRequest</x-req>
+      <cookiejar></cookiejar>
+</regex>
+</item>	
+
+<!-- Temporada 2  -->
+<item>
+   <title>[COLOR white][COLOR blue]* [/COLOR]Temporada 2[/COLOR]</title>
+   <thumbnail>https://image.tmdb.org/t/p/w396/xDQLdam03NijKY3TVaaGrO7lSTP.jpg</thumbnail>
+   <fanart>https://image.tmdb.org/t/p/original/yhubKTEexrog9K355jkSJVCo1Um.jpg</fanart>
+   	<genre>
+	[COLOR yellow]Acción, Crimen, Drama, Romance, Suspense
+	[COLOR blue]Año : [/COLOR][COLOR yellow]2013[/COLOR][COLOR blue] Duracion : [/COLOR][COLOR yellow] min[/COLOR]
+	[COLOR blue]Votos : [/COLOR][COLOR yellow]2[/COLOR] [COLOR blue]IMDB : [/COLOR][COLOR yellow]9.8[/COLOR]</genre>
+	<info>[COLOR cyan]La serie narra la historia de Aurelio Casillas, uno de los narcotraficante más importantes de México en los años 90. La única ambición de Aurelio era convertirse en el narco más poderoso de todo México, sin importarle ser cauteloso y mucho menos llamativo. Logró tener fortuna, mujeres, casas, edificios y mansiones sin mucho esfuerzo.
+
+Aurelio, cuando era pequeño, no sabía escribir ni leer. Perdió a su padre desde joven y tuvo que levantar a su familia junto con su hermano Víctor Casillas. Con la ayuda de El Letrudo, Aurelio aprendió a escribir y leer. Ximena, la mujer de su vida y madre de sus hijos, vivió en el mundo del narcotráfico desde pequeña: su padre, Don Cleto, era uno de los narcos más poderosos de la época. A los 15 años, ella conoce a Aurelio y se enamora perdidamente de él.
+
+Tras seguir creciendo y obtener fama y fortuna, Aurelio se hace enemigo del Cártel de los Robles, en el cual la hermana menor de los Robles, Mónica Robles, maneja las finanzas de sus hermanos; sin embargo, su lado débil es su secreto enamoramiento hacía a Aurelio. Ella oculta sus sentimientos para no perder el control y no ser derrotada fácilmente por sus enemigos. Cuando Aurelio asesina a sus dos hermanos, Isidro y Guadalupes, Mónica intenta vengarse, pero solo pierde el control sobre sí misma y continua enamorada de Aurelio, ayudándolo con sus crimines en lo sucesivo.
+
+Marco Mejía, un policía de México que perdió a su padre por culpa de Aurelio, logra hacer que el rostro de Casillas sea revelado por la prensa y medios noticiosos, los cuales le apodaron El Señor de los Cielos. Tras haberse revelado el rostro de Aurelio, la policía y sus enemigos comienzan a atacar su organización para quitarle todo su poder.
+
+Después de varios meses, Marco logra hacer caer a Aurelio, expropiándole sus terrenos, mansiones y joyas. Aurelio, tras verse acorralado, decide hacerse una operación de rostro, muriendo en una camilla de hospital.[/COLOR]
+	[COLOR blue]Dirección : [/COLOR][COLOR yellow][/COLOR] [COLOR blue]Guionistas : [/COLOR][COLOR yellow][/COLOR] 
+	[COLOR blue]Casting : [/COLOR][COLOR yellow][/COLOR]</info>
+	<link>$doregex[makelist]</link>
+<regex>
+      <name>makelist</name>
+      <listrepeat><![CDATA[
+               <title>[COLOR green]Mex[/COLOR][COLOR white]-Flix[/COLOR][COLOR red]Capitulo[/COLOR][COLOR yellow][/COLOR] [makelist.param0]</title>
+               <link>$doregex[finalURL]</link>
+   <thumbnail>https://image.tmdb.org/t/p/w396/xDQLdam03NijKY3TVaaGrO7lSTP.jpg</thumbnail>
+   <fanart>https://image.tmdb.org/t/p/original/yhubKTEexrog9K355jkSJVCo1Um.jpg</fanart>
+      ]]></listrepeat>
+      <expres><![CDATA[data-file-id="([^"]+)">.*\n.*\n.*\n.*action="\/(.*?)" class="download.*Token".*?value="(.*?)"]]></expres>
+      <page>http://diskokosmiko.mx/seri5/srci2-31140/list,1,4</page>
+      <cookieJar></cookieJar>
+</regex>
+
+<regex>
+      <name>finalURL</name>
+      <expres>Url":"(.*?)"</expres>
+      <page>http://diskokosmiko.mx/[makelist.param2]</page>
+      <rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=[makelist.param3]</rawpost>
+      <referer>http://diskokosmiko.mx/</referer>
+      <x-req>XMLHttpRequest</x-req>
+      <cookiejar></cookiejar>
+</regex>	
+</item>
+
+<!-- Temporada 3  -->
+<item>
+   <title>[COLOR white][COLOR blue]* [/COLOR]Temporada 3[/COLOR] </title>
+   <thumbnail>https://image.tmdb.org/t/p/w396/ckfbhbGQwcD2jjPAdGW7cjZLeRQ.jpg</thumbnail>
+   <fanart>https://image.tmdb.org/t/p/original/yhubKTEexrog9K355jkSJVCo1Um.jpg</fanart>
+   	<genre>
+	[COLOR yellow]Acción, Crimen, Drama, Romance, Suspense
+	[COLOR blue]Año : [/COLOR][COLOR yellow]2013[/COLOR][COLOR blue] Duracion : [/COLOR][COLOR yellow] min[/COLOR]
+	[COLOR blue]Votos : [/COLOR][COLOR yellow]2[/COLOR] [COLOR blue]IMDB : [/COLOR][COLOR yellow]9.8[/COLOR]</genre>
+	<info>[COLOR cyan]La serie narra la historia de Aurelio Casillas, uno de los narcotraficante más importantes de México en los años 90. La única ambición de Aurelio era convertirse en el narco más poderoso de todo México, sin importarle ser cauteloso y mucho menos llamativo. Logró tener fortuna, mujeres, casas, edificios y mansiones sin mucho esfuerzo.
+
+Aurelio, cuando era pequeño, no sabía escribir ni leer. Perdió a su padre desde joven y tuvo que levantar a su familia junto con su hermano Víctor Casillas. Con la ayuda de El Letrudo, Aurelio aprendió a escribir y leer. Ximena, la mujer de su vida y madre de sus hijos, vivió en el mundo del narcotráfico desde pequeña: su padre, Don Cleto, era uno de los narcos más poderosos de la época. A los 15 años, ella conoce a Aurelio y se enamora perdidamente de él.
+
+Tras seguir creciendo y obtener fama y fortuna, Aurelio se hace enemigo del Cártel de los Robles, en el cual la hermana menor de los Robles, Mónica Robles, maneja las finanzas de sus hermanos; sin embargo, su lado débil es su secreto enamoramiento hacía a Aurelio. Ella oculta sus sentimientos para no perder el control y no ser derrotada fácilmente por sus enemigos. Cuando Aurelio asesina a sus dos hermanos, Isidro y Guadalupes, Mónica intenta vengarse, pero solo pierde el control sobre sí misma y continua enamorada de Aurelio, ayudándolo con sus crimines en lo sucesivo.
+
+Marco Mejía, un policía de México que perdió a su padre por culpa de Aurelio, logra hacer que el rostro de Casillas sea revelado por la prensa y medios noticiosos, los cuales le apodaron El Señor de los Cielos. Tras haberse revelado el rostro de Aurelio, la policía y sus enemigos comienzan a atacar su organización para quitarle todo su poder.
+
+Después de varios meses, Marco logra hacer caer a Aurelio, expropiándole sus terrenos, mansiones y joyas. Aurelio, tras verse acorralado, decide hacerse una operación de rostro, muriendo en una camilla de hospital.[/COLOR]
+	[COLOR blue]Dirección : [/COLOR][COLOR yellow][/COLOR] [COLOR blue]Guionistas : [/COLOR][COLOR yellow][/COLOR] 
+	[COLOR blue]Casting : [/COLOR][COLOR yellow][/COLOR]</info>
+	<link>$doregex[makelist]</link>
+<regex>
+      <name>makelist</name>
+      <listrepeat><![CDATA[
+               <title>[COLOR green]Mex[/COLOR][COLOR white]-Flix[/COLOR][COLOR red]Capitulo[/COLOR][COLOR yellow][/COLOR] [makelist.param0]</title>
+               <link>$doregex[finalURL]</link>
+   <thumbnail>https://image.tmdb.org/t/p/w396/ckfbhbGQwcD2jjPAdGW7cjZLeRQ.jpg</thumbnail>
+   <fanart>https://image.tmdb.org/t/p/original/yhubKTEexrog9K355jkSJVCo1Um.jpg</fanart>
+      ]]></listrepeat>
+      <expres><![CDATA[data-file-id="([^"]+)">.*\n.*\n.*\n.*action="\/(.*?)" class="download.*Token".*?value="(.*?)"]]></expres>
+      <page>http://diskokosmiko.mx/seri5/srci3-31221/list,1,5</page>
+      <cookieJar></cookieJar>
+</regex>
+
+<regex>
+      <name>finalURL</name>
+      <expres>Url":"(.*?)"</expres>
+      <page>http://diskokosmiko.mx/[makelist.param2]</page>
+      <rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=[makelist.param3]</rawpost>
+      <referer>http://diskokosmiko.mx/</referer>
+      <x-req>XMLHttpRequest</x-req>
+      <cookiejar></cookiejar>
+</regex>
+</item>
+
+<!-- Temporada 4  -->
+<item>
+   <title>[COLOR white][COLOR blue]* [/COLOR]Temporada 4[/COLOR] </title>
+   <thumbnail>http://www.seriespepino.com/wp-content/uploads/2016/04/poster-el-senor-de-los-cielos-4-610x700.jpg</thumbnail>
+   <fanart>http://tve-static-telemundo.nbcuni.com/prod/image/864/255/ESDLC4_TVE_RETINA_2560x1450_1280x725_653553731703.jpg</fanart>
+   	<genre>
+	[COLOR yellow]Acción, Crimen, Drama, Romance, Suspense
+	[COLOR blue]Año : [/COLOR][COLOR yellow]2013[/COLOR][COLOR blue] Duracion : [/COLOR][COLOR yellow] min[/COLOR]
+	[COLOR blue]Votos : [/COLOR][COLOR yellow]2[/COLOR] [COLOR blue]IMDB : [/COLOR][COLOR yellow]9.8[/COLOR]</genre>
+	<info>[COLOR cyan]La serie narra la historia de Aurelio Casillas, uno de los narcotraficante más importantes de México en los años 90. La única ambición de Aurelio era convertirse en el narco más poderoso de todo México, sin importarle ser cauteloso y mucho menos llamativo. Logró tener fortuna, mujeres, casas, edificios y mansiones sin mucho esfuerzo.
+
+Aurelio, cuando era pequeño, no sabía escribir ni leer. Perdió a su padre desde joven y tuvo que levantar a su familia junto con su hermano Víctor Casillas. Con la ayuda de El Letrudo, Aurelio aprendió a escribir y leer. Ximena, la mujer de su vida y madre de sus hijos, vivió en el mundo del narcotráfico desde pequeña: su padre, Don Cleto, era uno de los narcos más poderosos de la época. A los 15 años, ella conoce a Aurelio y se enamora perdidamente de él.
+
+Tras seguir creciendo y obtener fama y fortuna, Aurelio se hace enemigo del Cártel de los Robles, en el cual la hermana menor de los Robles, Mónica Robles, maneja las finanzas de sus hermanos; sin embargo, su lado débil es su secreto enamoramiento hacía a Aurelio. Ella oculta sus sentimientos para no perder el control y no ser derrotada fácilmente por sus enemigos. Cuando Aurelio asesina a sus dos hermanos, Isidro y Guadalupes, Mónica intenta vengarse, pero solo pierde el control sobre sí misma y continua enamorada de Aurelio, ayudándolo con sus crimines en lo sucesivo.
+
+Marco Mejía, un policía de México que perdió a su padre por culpa de Aurelio, logra hacer que el rostro de Casillas sea revelado por la prensa y medios noticiosos, los cuales le apodaron El Señor de los Cielos. Tras haberse revelado el rostro de Aurelio, la policía y sus enemigos comienzan a atacar su organización para quitarle todo su poder.
+
+Después de varios meses, Marco logra hacer caer a Aurelio, expropiándole sus terrenos, mansiones y joyas. Aurelio, tras verse acorralado, decide hacerse una operación de rostro, muriendo en una camilla de hospital.[/COLOR]
+	[COLOR blue]Dirección : [/COLOR][COLOR yellow][/COLOR] [COLOR blue]Guionistas : [/COLOR][COLOR yellow][/COLOR] 
+	[COLOR blue]Casting : [/COLOR][COLOR yellow][/COLOR]</info>
+	<link>$doregex[makelist]</link>
+<regex>
+      <name>makelist</name> 
+	  
+      <listrepeat><![CDATA[
+               <title>[COLOR green]Mex[/COLOR][COLOR white]-Flix[/COLOR][COLOR red]Capitulo[/COLOR][COLOR yellow][/COLOR] [makelist.param0]</title>
+               <link>$doregex[finalURL]</link>
+   <thumbnail>http://www.seriespepino.com/wp-content/uploads/2016/04/poster-el-senor-de-los-cielos-4-610x700.jpg</thumbnail>
+   <fanart>http://tve-static-telemundo.nbcuni.com/prod/image/864/255/ESDLC4_TVE_RETINA_2560x1450_1280x725_653553731703.jpg</fanart>
+      ]]></listrepeat>
+      <expres><![CDATA[data-file-id="([^"]+)">.*\n.*\n.*\n.*action="\/(.*?)" class="download.*Token".*?value="(.*?)"]]></expres>
+      <page>http://diskokosmiko.mx/seri5/srci4-31279/list,1,5</page>
+      <cookieJar></cookieJar>
+</regex>
+
+<regex>
+      <name>finalURL</name>
+      <expres>Url":"(.*?)"</expres>
+      <page>http://diskokosmiko.mx/[makelist.param2]</page>
+      <rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=[makelist.param3]</rawpost>
+      <referer>http://diskokosmiko.mx/</referer>
+      <x-req>XMLHttpRequest</x-req>
+      <cookiejar></cookiejar>
+</regex>
+</item>	

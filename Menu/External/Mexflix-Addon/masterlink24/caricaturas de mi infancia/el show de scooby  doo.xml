@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>EL SHOW DE SCOOBY DOO</name>
+<thumbnail>http://4.bp.blogspot.com/-PiFH8KTiSUc/VQSl0nizITI/AAAAAAAAAPY/COYLb19AgeU/s1600/PLACA%2BSCOOBY%2BDOO%2BSHOW.JPG</thumbnail>
+<fanart>http://i.dailymail.co.uk/i/pix/2015/08/17/21/2B729F8200000578-0-Reboot_Warner_Bros_announced_on_Monday_that_it_would_make_a_new_-m-32_1439844780314.jpg</fanart>
+<items>
+
+<item>
+<title>[B][COLOR gold][COLOR gold][/COLOR] EL SHOW DE SCOOBY DOO[/B]</title> @mexflix
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://4.bp.blogspot.com/-PiFH8KTiSUc/VQSl0nizITI/AAAAAAAAAPY/COYLb19AgeU/s1600/PLACA%2BSCOOBY%2BDOO%2BSHOW.JPG</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/el-show-de-scooby-doo-20479/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/el-show-de-scooby-doo-20479/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-PiFH8KTiSUc/VQSl0nizITI/AAAAAAAAAPY/COYLb19AgeU/s1600/PLACA%2BSCOOBY%2BDOO%2BSHOW.JPG</thumbnail>
+<fanart>http://i.dailymail.co.uk/i/pix/2015/08/17/21/2B729F8200000578-0-Reboot_Warner_Bros_announced_on_Monday_that_it_would_make_a_new_-m-32_1439844780314.jpg</fanart>
+</item>
+</items>
+</channel>

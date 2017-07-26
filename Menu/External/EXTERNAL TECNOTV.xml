@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>[COLOR white] LISTAS [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV[/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink></externallink>
+</item>
+ 
+<item>
+<title>[COLOR white] VISITA | www.[/COLOR][COLOR orange]TECNO[/COLOR][COLOR white]TV.info |[/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink></externallink>
+</item>
+ 
+<item>
+<title>[COLOR orange]TECNO[/COLOR][COLOR white] TV[/COLOR][COLOR gold] ADDON [/COLOR][COLOR yellow] INGRESAR ===> [/COLOR]</title>
+<fanart>http://i.imgur.com/yz7RQxM.jpg</fanart>
+<thumbnail>http://tecnotv.info/logoss/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.info/kodi/addon.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR orange]TECNO[/COLOR][COLOR white] TV KIDS[/COLOR][COLOR gold] ADDON [/COLOR][COLOR yellow] INGRESAR ===> [/COLOR]</title>
+<fanart>http://i.imgur.com/MIEG4kh.jpg</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.info/kids.htm</externallink>
+</item>
+
+ 
+<item>
+<title>[COLOR white]--------------------------------------------------[/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink></externallink>
+</item>
+ 
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [CHANNEL][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>http://ecuastream.net:1935/UCSGHQ/UCSGHQ/playlist.m3u8</link>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [OTT PLAYER][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.cf/ott.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [PREMIUM][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.info/kodi/premium.m3u</externallink>
+</item>
+http://tecnotv.info/kodi/premium.m3u
+ 
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [SIN GEOBLOQUEO][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.info/singeo.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [OPCION 1][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.info/1.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [OPCION 2][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.info/2.m3u</externallink>
+</item>
+ 
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [SMART TV][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.info/smartv.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [ROSADIN][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.info/rosadin.htm</externallink>
+</item>
+ 
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [LD] [SOLO MX][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.info/bc.m3u</externallink>
+</item>
+ 
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [SD] [SOLO MX][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.info/sd.m3u</externallink>
+</item>
+ 
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [HD] [SOLO MX][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.info/hd.m3u</externallink>
+</item>
+ 
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [MOVIES][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.info/peliculas.m3u</externallink>
+</item>
+ 
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [KIDS][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.info/kids.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [SPAIN][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.info/esp.m3u</externallink>
+</item>

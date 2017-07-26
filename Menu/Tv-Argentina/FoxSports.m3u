@@ -1,0 +1,37 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="http://2.bp.blogspot.com/-A1gWaipSmKg/VmYCdOJvEVI/AAAAAAAAASs/DvxCh0L_DY0/s1600/FSHD.png",[COLOR white]FOX SPORTS[/COLOR][COLOR lime] HD [/COLOR]
+http://link.theplatform.com/s/flac/nM8cCUC8Vx9L?mbr=true&feed=FoxPlay%20Live%20Events&manifest=M3U&auth=lZ4PzsEq7QN8IlnWAxo20eCAcFCgoHBm&manifest=m3u8
+
+#EXTINF:-1 tvg-logo="http://2.bp.blogspot.com/-A1gWaipSmKg/VmYCdOJvEVI/AAAAAAAAASs/DvxCh0L_DY0/s1600/FSHD.png",[COLOR white]FOX SPORTS[/COLOR][COLOR lime] HD [/COLOR]
+http://link.theplatform.com/s/flac/nM8cCUC8Vx9L?mbr=true&feed=FoxPlay%20Live%20Events&manifest=M3U&auth=s09d3wXWk6R6UrmCA1pokWACEAD8MJCu&manifest=m3u8
+
+#EXTINF:-1 tvg-logo="http://2.bp.blogspot.com/-A1gWaipSmKg/VmYCdOJvEVI/AAAAAAAAASs/DvxCh0L_DY0/s1600/FSHD.png",[COLOR white]FOX SPORTS 2[/COLOR][COLOR blue] SD [/COLOR]
+http://live.latino-webtv.com/live_3.m3u8?token=U2FsdGVkX18KV2zHnHwGv%2BcaNaFPvz%2F6t2mrFhO9ejdXOziePCboe4lEBkVBcD%2B8tglgTbxQSsUY76DsaNTMzA%3D%3D
+
+#EXTINF:-1 tvg-logo="http://2.bp.blogspot.com/-A1gWaipSmKg/VmYCdOJvEVI/AAAAAAAAASs/DvxCh0L_DY0/s1600/FSHD.png",[COLOR white]FOX SPORTS 3[/COLOR][COLOR blue] SD [/COLOR]
+plugin://plugin.video.live.streamspro/?url=http%3A%2F%2F%24doregex%5Bip%5D%24doregex%5Bm3u8%5D&mode=17&regexs=%7Bu%27ip%27%3A%20%7B%27expres%27%3A%20u%27redirect%3D%28.%2A%29%27%2C%20%27referer%27%3A%20u%27www.http%3A//janjua.tv%27%2C%20%27name%27%3A%20u%27ip%27%2C%20%27page%27%3A%20u%27http%3A//www.janjuapublisher.com%3A1935/loadbalancer%27%7D%2C%20u%27m3u8%27%3A%20%7B%27expres%27%3A%20u%27ea%20%5C%5C%2B%20%22%28.%2A%3F%29%22%27%2C%20%27referer%27%3A%20u%27http%3A//www.janjua.tv%27%2C%20%27name%27%3A%20u%27m3u8%27%2C%20%27agent%27%3A%20u%27Mozilla/5.0%20%28iPhone%3B%20U%3B%20CPU%20iPhone%20OS%204_2_1%20like%20Mac%20OS%20X%3B%20en-us%29%20AppleWebKit/533.17.9%20%28KHTML%2C%20like%20Gecko%29%20Version/5.0.2%20Mobile/8C148%20Safari/6533.18.5%27%2C%20%27page%27%3A%20u%27http%3A//janjua.tv/membedplayer/sports3alicia/1/500/400%27%7D%7D&iconimage=http://2.bp.blogspot.com/-A1gWaipSmKg/VmYCdOJvEVI/AAAAAAAAASs/DvxCh0L_DY0/s1600/FSHD.png
+
+#EXTINF:-1 tvg-logo="http://2.bp.blogspot.com/-A1gWaipSmKg/VmYCdOJvEVI/AAAAAAAAASs/DvxCh0L_DY0/s1600/FSHD.png",[COLOR white]FOX SPORTS 3[/COLOR][COLOR blue] SD [/COLOR]
+http://190.57.234.164/V5/1/1.m3u8
+
+#EXTINF:-1 tvg-logo="http://foromedios.com/uploads/gallery/category_2/gallery_1178_2_13968.png" group-title="FOX SPORTS", [COLOR white]FOX SPORTS CHILE[/COLOR][COLOR lime] HD [/COLOR]
+http://link.theplatform.com/s/flac/80Wqf2qD7W5V?mbr=true&feed=FoxPlay%20Live%20Events&manifest=M3U&auth=lZ4PzsEq7QN8IlnWAxo20eCAcFCgoHBm&manifest=m3u8?iptvgratis?chile.m3u8
+
+#EXTINF:-1 tvg-logo="http://foromedios.com/uploads/gallery/category_2/gallery_1178_2_13968.png" group-title="FOX SPORTS", [COLOR white]FOX SPORTS CHILE[/COLOR][COLOR lime] HD [/COLOR]
+http://link.theplatform.com/s/flac/80Wqf2qD7W5V?mbr=true&feed=FoxPlay%20Sports%20Live%20Events&manifest=M3U&auth=lZ4PzsEq7QN8IlnWAxo20eCAcFCgoHBm&manifest=m3u8?iptvgratis?chile.m3u8
+
+#EXTINF:-1 tvg-id="Fox Sports" tvg-name="Fox Sports" tvg-logo="http://i.imgur.com/qXuM4hT.png" group-title="FOX SPORTS", [COLOR white]FOX SPORTS ARGENTINA[/COLOR][COLOR lime] HD [/COLOR]
+http://link.theplatform.com/s/flac/nM8cCUC8Vx9L?mbr=true&feed=FoxPlay%20Live%20Events&manifest=M3U&auth=lZ4PzsEq7QN8IlnWAxo20eCAcFCgoHBm&manifest=m3u8?iptvgratis?chile.m3u8
+
+#EXTINF:-1 tvg-id="Fox Sports" tvg-name="Fox Sports" tvg-logo="http://i.imgur.com/qXuM4hT.png" group-title="FOX SPORTS", [COLOR white]FOX SPORTS ARGENTINA[/COLOR][COLOR lime] HD [/COLOR]
+http://link.theplatform.com/s/flac/nM8cCUC8Vx9L?mbr=true&feed=FoxPlay%20Live%20Events&manifest=M3U&auth=s09d3wXWk6R6UrmCA1pokWACEAD8MJCu&manifest=m3u8?iptvgratis?chile.m3u8
+
+#EXTINF:-1 tvg-id="Fox Sports" tvg-name="Fox Sports" tvg-logo="http://i.imgur.com/qXuM4hT.png" group-title="FOX SPORTS", [COLOR white]FOX SPORTS MEXICO[/COLOR][COLOR lime] HD [/COLOR]
+http://link.theplatform.com/s/flac/xr8_wTxx_f5i?mbr=true&feed=FoxPlay%20Live%20Events&manifest=M3U&auth=lZ4PzsEq7QN8IlnWAxo20eCAcFCgoHBm&manifest=m3u8?iptvgratis?chile.m3u8
+
+#EXTINF:-1 tvg-id="Fox Sports" tvg-name="Fox Sports" tvg-logo="http://i.imgur.com/qXuM4hT.png" group-title="FOX SPORTS", [COLOR white]FOX SPORTS BRASIL[/COLOR][COLOR lime] HD [/COLOR]
+http://link.theplatform.com/s/flac/pDqM__z_pkCD?mbr=true&feed=FoxPlay%20Sports%20Live%20Events&manifest=M3U&auth=lZ4PzsEq7QN8IlnWAxo20eCAcFCgoHBm&manifest=m3u8?iptvgratis?chile.m3u8
+
+#EXTINF:-1 tvg-id="Fox Sports" tvg-name="Fox Sports" tvg-logo="http://i.imgur.com/qXuM4hT.png" group-title="FOX SPORTS", [COLOR white]FOX SPORTS 2 BRASIL[/COLOR][COLOR lime] HD [/COLOR]
+http://link.theplatform.com/s/flac/8sGhDeM4tLBi?mbr=true&feed=FoxPlay%20Sports%20Live%20Events&manifest=M3U&auth=s09d3wXWk6R6UrmCA1pokWACEAD8MJCu&manifest=m3u8

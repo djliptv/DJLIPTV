@@ -1,0 +1,353 @@
+#EXTM3U
+#EXTINF:-1 tvg-ID="" tvg-name="==========IPTV PRIVADO==========" tvg-logo="" group-title="Spain",==========Spain==========
+http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7231.ts
+#EXTINF:-1 tvg-ID="" tvg-name="---------- TDT ----------" tvg-logo="" group-title="Spain",---------- TDT ----------
+http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13657.ts
+#EXTINF:-1 tvg-ID="LA1.es" tvg-name="SP: LA1 HD" tvg-logo="http://logoss.ddns.net/html/sp/La_1_HD_TVE.jpg" group-title="Spain",SP: LA 1 HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13643.ts&streamtype=TSDOWNLOADER&name=[ES] C  LA 1 HD
+#EXTINF:-1 tvg-ID="LA1.es" tvg-name="SP: LA 1" tvg-logo="http://icons.alphacs.tv/icons1/sp/tve1_madrid.png" group-title="Spain",SP: LA 1
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/33.ts&streamtype=TSDOWNLOADER&name=[ES] C  LA 1
+#EXTINF:-1 tvg-ID="LA2.es" tvg-name="SP: LA 2" tvg-logo="http://icons.alphacs.tv/icons1/sp/tve2.png" group-title="Spain",SP: LA 2
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/34.ts&streamtype=TSDOWNLOADER&name=[ES] C  LA 2
+#EXTINF:-1 tvg-ID="Antena3.sp" tvg-name="SP: ANTENA 3 HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/antena3.png" group-title="Spain",SP: ANTENA 3 HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13640.ts&streamtype=TSDOWNLOADER&name=[ES] C  ANTENA 3 HD
+#EXTINF:-1 tvg-ID="Antena3.sp" tvg-name="SP: ANTENA 3" tvg-logo="http://icons.alphacs.tv/icons1/sp/antena3.png" group-title="Spain",SP: ANTENA 3
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/407.ts&streamtype=TSDOWNLOADER&name=[ES] C  ANTENA 3
+#EXTINF:-1 tvg-ID="Cuatro.sp" tvg-name="SP: CUATRO HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/cuatro_es.png" group-title="Spain",SP: CUATRO HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13671.ts&streamtype=TSDOWNLOADER&name=[ES] C  CUATRO HD
+#EXTINF:-1 tvg-ID="Cuatro.sp" tvg-name="SP: CUATRO" tvg-logo="http://icons.alphacs.tv/icons1/sp/cuatro_es.png" group-title="Spain",SP: CUATRO
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/24.ts&streamtype=TSDOWNLOADER&name=[ES] C  CUATRO
+#EXTINF:-1 tvg-ID="Telecinco.sp" tvg-name="SP: TELECINCO HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/telecinco.png" group-title="Spain",SP: TELECINCO HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7209.ts&streamtype=TSDOWNLOADER&name=[ES] C  TELECINCO HD
+#EXTINF:-1 tvg-ID="Telecinco.sp" tvg-name="SP: TELECINCO" tvg-logo="http://icons.alphacs.tv/icons1/sp/telecinco.png" group-title="Spain",SP: TELECINCO
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/44.ts&streamtype=TSDOWNLOADER&name=[ES] C  TELECINCO
+#EXTINF:-1 tvg-ID="LaSexta.sp" tvg-name="SP: LA SEXTA HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/la_sexta_es.png" group-title="Spain",SP: LA SEXTA HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/408.ts&streamtype=TSDOWNLOADER&name=[ES] C  LA SEXTA HD
+#EXTINF:-1 tvg-ID="LaSexta.sp" tvg-name="SP: LA SEXTA" tvg-logo="http://icons.alphacs.tv/icons1/sp/la_sexta_es.png" group-title="Spain",SP: LA SEXTA
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/35.ts&streamtype=TSDOWNLOADER&name=[ES] C  LA SEXTA
+#EXTINF:-1 tvg-ID="Neox.sp" tvg-name="SP: NEOX" tvg-logo="http://logoss.ddns.net/html/spnew/antena_neox.png" group-title="Spain",SP: NEOX
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7194.ts&streamtype=TSDOWNLOADER&name=[ES] C  NEOX
+#EXTINF:-1 tvg-ID="Nova.sp" tvg-name="SP: NOVA" tvg-logo="http://icons.alphacs.tv/icons1/sp/antena_nova.png" group-title="Spain",SP: NOVA
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/42.ts&streamtype=TSDOWNLOADER&name=[ES] C  NOVA
+#EXTINF:-1 tvg-ID="" tvg-name="SP: MEGA TV" tvg-logo="http://logoss.ddns.net/html/sp/mega.png" group-title="Spain",SP: MEGA TV
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7200.ts&streamtype=TSDOWNLOADER&name=[ES] C  MEGA TV
+#EXTINF:-1 tvg-ID="FoxLife.sp" tvg-name="SP: FDF" tvg-logo="http://logoss.ddns.net/html/sp/fdf.png" group-title="Spain",SP: FDF
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/404.ts&streamtype=TSDOWNLOADER&name=[ES] C  FDF
+#EXTINF:-1 tvg-ID="Divinity.es" tvg-name="SP: DIVINITY" tvg-logo="http://icons.alphacs.tv/icons1/sp/divinity_tv_es.png" group-title="Spain",SP: DIVINITY
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7196.ts&streamtype=TSDOWNLOADER&name=[ES] C  DIVINITY
+#EXTINF:-1 tvg-ID="Energy.es" tvg-name="SP: ENERGY" tvg-logo="http://icons.alphacs.tv/icons1/sp/energy_tv_es.png" group-title="Spain",SP: ENERGY
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/405.ts&streamtype=TSDOWNLOADER&name=[ES] C ENERGY
+#EXTINF:-1 tvg-ID="GaliciaTV.sp" tvg-name="SP: TV GALICIA" tvg-logo="http://icons.alphacs.tv/icons1/sp/galicia_tv_eu.png" group-title="Spain",SP: TV GALICIA
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/410.ts&streamtype=TSDOWNLOADER&name=[ES] C  TV GALICIA
+#EXTINF:-1 tvg-ID="AndaluciaTVsat.sp" tvg-name="SP: ANDALUCIA TV" tvg-logo="http://icons.alphacs.tv/icons1/sp/canal_sur_andalucia_es.png" group-title="Spain",SP: ANDALUCIA TV
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7195.ts&streamtype=TSDOWNLOADER&name=[ES] C  ANDALUCIA TV
+#EXTINF:-1 tvg-ID="" tvg-name="---------- MOVISTAR + ----------" tvg-logo="" group-title="Spain",---------- MOVISTAR + ----------
+http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13658.ts
+#EXTINF:-1 tvg-ID="#0.es" tvg-name="SP: #0 HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_0.png" group-title="Spain",SP: #0 HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13606.ts&streamtype=TSDOWNLOADER&name=[ES] C  #0 HD
+#EXTINF:-1 tvg-ID="#0.es" tvg-name="SP: #0" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_0.png" group-title="Spain",SP: #0
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7262.ts&streamtype=TSDOWNLOADER&name=[ES] C #0
+#EXTINF:-1 tvg-ID="" tvg-name="---------- CINE ----------" tvg-logo="" group-title="Spain",---------- CINE ----------
+http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13651.ts
+#EXTINF:-1 tvg-ID="CanalPlusEstrenos.sp" tvg-name="SP: M. ESTRENOS HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_estrenos.png" group-title="Spain",SP: M. ESTRENOS HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18704.ts&streamtype=TSDOWNLOADER&name=[ES] . ESTRENOS HD (1080)
+#EXTINF:-1 tvg-ID="CanalPlusEstrenos.sp" tvg-name="SP: M. ESTRENOS HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_estrenos.png" group-title="Spain",SP: M. ESTRENOS HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/425.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. ESTRENOS HD
+#EXTINF:-1 tvg-ID="CanalPlusEstrenos.sp" tvg-name="SP: M. ESTRENOS SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_estrenos.png" group-title="Spain",SP: M. ESTRENOS SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/9.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. ESTRENOS SD
+#EXTINF:-1 tvg-ID="CanalPlusAccion.es" tvg-name="SP: M. ACCION HD(1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_accion.png" group-title="Spain",SP: M. ACCION HD(1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18703.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. ACCION HD(1080)
+#EXTINF:-1 tvg-ID="CanalPlusAccion.es" tvg-name="SP: M. ACCION HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_accion.png" group-title="Spain",SP: M. ACCION HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13603.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. ACCION HD
+#EXTINF:-1 tvg-ID="CanalPlusComedia.es" tvg-name="SP: M. ACCION" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_accion.png" group-title="Spain",SP: M. ACCION
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/5.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. ACCION
+#EXTINF:-1 tvg-ID="CanalPlusComedia.es" tvg-name="SP:  M. COMEDIA HD(1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_comedia.png" group-title="Spain",SP:  M. COMEDIA HD(1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18702.ts&streamtype=TSDOWNLOADER&name=[ES] C   M. COMEDIA HD(1080)
+#EXTINF:-1 tvg-ID="CanalPlusComedia.es" tvg-name="SP: M. COMEDIA HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_comedia.png" group-title="Spain",SP: M. COMEDIA HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7211.ts&streamtype=TSDOWNLOADER&name=[ES] C   M. COMEDIA HD
+#EXTINF:-1 tvg-ID="CanalPlusComedia.es" tvg-name="SP: M. COMEDIA" tvg-logo="http://logoss.ddns.net/html/spnew/movistar_es_comedia.png" group-title="Spain",SP: M. COMEDIA
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/6.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. COMEDIA
+#EXTINF:-1 tvg-ID="DCineEsp.sp" tvg-name="SP: M. DCINE HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_d_cine.png" group-title="Spain",SP: M. DCINE HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18705.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. DCINE HD (1080)
+#EXTINF:-1 tvg-ID="DCineEsp.sp" tvg-name="SP: M. DCINE HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_cine_espanol.png" group-title="Spain",SP: M. DCINE HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7210.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. DCINE HD
+#EXTINF:-1 tvg-ID="DCineEsp.sp" tvg-name="SP: M. DCINE" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_d_cine.png" group-title="Spain",SP: M. DCINE
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/25.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. DCINE
+#EXTINF:-1 tvg-ID="CanalPlusXtra.sp" tvg-name="SP: M. XTRA HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_xtra.png" group-title="Spain",SP: M. XTRA HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13625.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. XTRA HD
+#EXTINF:-1 tvg-ID="CanalPlusXtra.sp" tvg-name="SP: M. XTRA" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_xtra.png" group-title="Spain",SP: M. XTRA
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/16.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. XTRA
+#EXTINF:-1 tvg-ID="DCineEsp.sp" tvg-name="SP: M CINE ESPANOL" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_cine_espanol.png" group-title="Spain",SP: M CINE ESPANOL
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7224.ts&streamtype=TSDOWNLOADER&name=[ES] C  M CINE ESPANOL
+#EXTINF:-1 tvg-ID="" tvg-name="---------- SERIES ----------" tvg-logo="" group-title="Spain",---------- SERIES ----------
+http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13652.ts
+#EXTINF:-1 tvg-ID="CanalPlusSeries.sp" tvg-name="SP: M SERIES HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_series_xtra.png" group-title="Spain",SP: M SERIES HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18706.ts&streamtype=TSDOWNLOADER&name=[ES] C  M SERIES HD (1080)
+#EXTINF:-1 tvg-ID="CanalPlusSeries.sp" tvg-name="SP: M. SERIES HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_series.png" group-title="Spain",SP: M. SERIES HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13605.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. SERIES HD
+#EXTINF:-1 tvg-ID="CanalPlusSeries.sp" tvg-name="SP: M. SERIES" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_series.png" group-title="Spain",SP: M. SERIES
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. SERIES
+#EXTINF:-1 tvg-ID="CanalPlusXtra.sp" tvg-name="SP: M. SERIES XTRA HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_series_xtra.png" group-title="Spain",SP: M. SERIES XTRA HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18707.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. SERIES XTRA HD (1080)
+#EXTINF:-1 tvg-ID="CanalPlusSeriesXtra.sp" tvg-name="SP: M. SERIES XTRA HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_series_xtra.png" group-title="Spain",SP: M. SERIES XTRA HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13628.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. SERIES XTRA HD
+#EXTINF:-1 tvg-ID="CanalPlusSeriesXtra.sp" tvg-name="SP: M. SERIES XTRA" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_series_xtra.png" group-title="Spain",SP: M. SERIES XTRA
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/14.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. SERIES XTRA
+#EXTINF:-1 tvg-ID="ComedyCentral.sp" tvg-name="SP: COMEDY CENTRAL HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/comedy_central_us.png" group-title="Spain",SP: COMEDY CENTRAL HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13634.ts&streamtype=TSDOWNLOADER&name=[ES] C  COMEDY CENTRAL HD
+#EXTINF:-1 tvg-ID="ComedyCentral.sp" tvg-name="SP: COMEDY CENTRAL SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/comedy_central_us.png" group-title="Spain",SP: COMEDY CENTRAL SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7216.ts&streamtype=TSDOWNLOADER&name=[ES] C  COMEDY CENTRAL SD
+#EXTINF:-1 tvg-ID="Hollywood.sp" tvg-name="SP: H0LLYWOOD HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/canal_hollywood_es.png" group-title="Spain",SP: H0LLYWOOD HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18708.ts&streamtype=TSDOWNLOADER&name=[ES] C  H0LLYWOOD HD (1080)
+#EXTINF:-1 tvg-ID="Hollywood.sp" tvg-name="SP: HOLLYWOOD HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/canal_hollywood_es.png" group-title="Spain",SP: HOLLYWOOD HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13593.ts&streamtype=TSDOWNLOADER&name=[ES] C  HOLLYWOOD HD
+#EXTINF:-1 tvg-ID="Hollywood.sp" tvg-name="SP: HOLLYWOOD SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/canal_hollywood_es.png" group-title="Spain",SP: HOLLYWOOD SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/32.ts&streamtype=TSDOWNLOADER&name=[ES] C  HOLLYWOOD SD
+#EXTINF:-1 tvg-ID="Paramount.es" tvg-name="SP: PARAMOUNT" tvg-logo="http://icons.alphacs.tv/icons1/sp/paramount_channel_us.png" group-title="Spain",SP: PARAMOUNT
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7212.ts&streamtype=TSDOWNLOADER&name=[ES] C  PARAMOUNT
+#EXTINF:-1 tvg-ID="Fox.sp" tvg-name="SP: FOX HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/fox_life_global.png" group-title="Spain",SP: FOX HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18713.ts&streamtype=TSDOWNLOADER&name=[ES] C  FOX HD (1080)
+#EXTINF:-1 tvg-ID="Fox.sp" tvg-name="SP: FOX HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/fox_global.png" group-title="Spain",SP: FOX HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13594.ts&streamtype=TSDOWNLOADER&name=[ES] C  FOX HD
+#EXTINF:-1 tvg-ID="Fox.sp" tvg-name="SP: FOX" tvg-logo="http://icons.alphacs.tv/icons1/sp/fox_global.png" group-title="Spain",SP: FOX
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/29.ts&streamtype=TSDOWNLOADER&name=[ES] C  FOX
+#EXTINF:-1 tvg-ID="FoxLife.sp" tvg-name="SP: FOX LIFE HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/fox_life_global.png" group-title="Spain",SP: FOX LIFE HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13622.ts&streamtype=TSDOWNLOADER&name=[ES] C  FOX LIFE HD
+#EXTINF:-1 tvg-ID="FoxLife.sp" tvg-name="SP: FOX LIFE SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/fox_life_global.png" group-title="Spain",SP: FOX LIFE SD
+lugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/30.tsp&streamtype=TSDOWNLOADER&name=[ES] C FOX LIFE SD
+#EXTINF:-1 tvg-ID="AMC.es" tvg-name="SP: AMC HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/amc_us.png" group-title="Spain",SP: AMC HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18709.ts&streamtype=TSDOWNLOADER&name=[ES] C  AMC HD (1080)
+#EXTINF:-1 tvg-ID="AMC.es" tvg-name="SP: AMC HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/amc_us.png" group-title="Spain",SP: AMC HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13702.ts&streamtype=TSDOWNLOADER&name=[ES] C  AMC HD
+#EXTINF:-1 tvg-ID="AMC.es" tvg-name="SP: AMC" tvg-logo="http://icons.alphacs.tv/icons1/sp/amc_us.png" group-title="Spain",SP: AMC
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13665.ts&streamtype=TSDOWNLOADER&name=[ES] C  AMC
+#EXTINF:-1 tvg-ID="AXNhd.sp" tvg-name="SP: AXN HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/axn_global.png" group-title="Spain",SP: AXN HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13589.ts&streamtype=TSDOWNLOADER&name=[ES] C  AXN HD
+#EXTINF:-1 tvg-ID="AXNhd.sp" tvg-name="SP: AXN" tvg-logo="http://icons.alphacs.tv/icons1/sp/axn_global.png" group-title="Spain",SP: AXN
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/3.ts&streamtype=TSDOWNLOADER&name=[ES] C  AXN
+#EXTINF:-1 tvg-ID="AXNWhite.es" tvg-name="SP: AXN WHITE HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/axn_white_es.png" group-title="Spain",SP: AXN WHITE HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13624.ts&streamtype=TSDOWNLOADER&name=[ES] C AXN WHITE HD
+#EXTINF:-1 tvg-ID="AXNWhite.es" tvg-name="SP: AXN WHITE" tvg-logo="http://icons.alphacs.tv/icons1/sp/axn_white_es.png" group-title="Spain",SP: AXN WHITE
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/4.ts&streamtype=TSDOWNLOADER&name=[ES] C  AXN WHITE
+#EXTINF:-1 tvg-ID="Scifi.sp" tvg-name="SP: SYFY HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/syfy_us_global.png" group-title="Spain",SP: SYFY HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13633.ts&streamtype=TSDOWNLOADER&name=[ES] C  SYFY HD
+#EXTINF:-1 tvg-ID="Scifi.sp" tvg-name="SP:  SYFY" tvg-logo="http://icons.alphacs.tv/icons1/sp/syfy_us_global.png" group-title="Spain",SP:  SYFY
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/48.ts&streamtype=TSDOWNLOADER&name=[ES] C SYFY 
+#EXTINF:-1 tvg-ID="TNT.sp" tvg-name="SP: TNT HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/tnt_es.png" group-title="Spain",SP: TNT HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13592.ts&streamtype=TSDOWNLOADER&name=[ES] C  TNT HD
+#EXTINF:-1 tvg-ID="TNT.sp" tvg-name="SP: TNT" tvg-logo="http://icons.alphacs.tv/icons1/sp/tnt_es.png" group-title="Spain",SP: TNT
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/46.ts&streamtype=TSDOWNLOADER&name=[ES] C TNT
+#EXTINF:-1 tvg-ID="TCM.sp" tvg-name="SP: TCM HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/tcm_global.png" group-title="Spain",SP: TCM HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13604.ts&streamtype=TSDOWNLOADER&name=[ES] C  TMC HD
+#EXTINF:-1 tvg-ID="TCM.sp" tvg-name="SP: TCM HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/tcm_global.png" group-title="Spain",SP: TCM HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18710.ts&streamtype=TSDOWNLOADER&name=[ES] C  TMC HD (1080)
+#EXTINF:-1 tvg-ID="TCM.sp" tvg-name="SP: TCM" tvg-logo="http://icons.alphacs.tv/icons1/sp/tcm_global.png" group-title="Spain",SP: TCM
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/43.ts&streamtype=TSDOWNLOADER&name=[ES] C TMC
+#EXTINF:-1 tvg-ID="Sundance.es" tvg-name="SP: SUNDANCE" tvg-logo="http://icons.alphacs.tv/icons1/sp/sundance_tv_us.png" group-title="Spain",SP: SUNDANCE
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13691.ts&streamtype=TSDOWNLOADER&name=[ES] C  SUNDANCE
+#EXTINF:-1 tvg-ID="Calle13.sp" tvg-name="SP: CALLE 13 HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/calle13_universal.png" group-title="Spain",SP: CALLE 13 HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13645.ts&streamtype=TSDOWNLOADER&name=[ES] C  CALLE 13
+#EXTINF:-1 tvg-ID="Calle13.sp" tvg-name="SP: CALLE 13" tvg-logo="http://icons.alphacs.tv/icons1/sp/calle13_universal.png" group-title="Spain",SP: CALLE 13
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/17.ts&streamtype=TSDOWNLOADER&name=[ES] C  CALLE 13
+#EXTINF:-1 tvg-ID="AandE.es" tvg-name="SP: A&E" tvg-logo="http://icons.alphacs.tv/icons1/sp/ae_us.png" group-title="Spain",SP: A&E
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/2.ts&streamtype=TSDOWNLOADER&name=[ES] C A&E
+#EXTINF:-1 tvg-ID="" tvg-name="---------- EXTRA ----------" tvg-logo="" group-title="Spain",---------- EXTRA ----------
+http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13660.ts
+#EXTINF:-1 tvg-ID="CanalPlusToros.es" tvg-name="SP: TOROS HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/toros_tv_es.png" group-title="Spain",SP: TOROS HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18711.ts&streamtype=TSDOWNLOADER&name=[ES] C  movistar Toros HD
+#EXTINF:-1 tvg-ID="CanalPlusToros.es" tvg-name="SP: TOROS HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/toros_tv_es.png" group-title="Spain",SP: TOROS HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13602.ts&streamtype=TSDOWNLOADER&name=[ES] C  movistar Toros HD
+#EXTINF:-1 tvg-ID="CanalPlusToros.es" tvg-name="SP: TOROS" tvg-logo="http://icons.alphacs.tv/icons1/sp/toros_tv_es.png" group-title="Spain",SP: TOROS
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/15.ts&streamtype=TSDOWNLOADER&name=[ES] C  movistar Toros HD
+#EXTINF:-1 tvg-ID="CazayPesca.es" tvg-name="SP: CAZA Y PESCA" tvg-logo="http://icons.alphacs.tv/icons1/sp/caza_y_pesca_es.png" group-title="Spain",SP: CAZA Y PESCA
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/21.ts&streamtype=TSDOWNLOADER&name=[ES] C  CAZA Y PESCA
+#EXTINF:-1 tvg-ID="IberaliaTV.es" tvg-name="SP: IBERALIA TV" tvg-logo="http://logoss.ddns.net/html/sp/iberalia.jpg" group-title="Spain",SP: IBERALIA TV
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13936.ts&streamtype=TSDOWNLOADER&name=[ES] IBERALIA TV
+#EXTINF:-1 tvg-ID="" tvg-name="---------- DOCUMENTALES ----------" tvg-logo="" group-title="Spain",---------- DOCUMENTALES ----------
+http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13654.ts
+#EXTINF:-1 tvg-ID="Historia.sp" tvg-name="SP: HISTORIA" tvg-logo="http://icons.alphacs.tv/icons1/sp/historia_es.png" group-title="Spain",SP: HISTORIA
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/31.ts&streamtype=TSDOWNLOADER&name=[ES] C HISTORIA
+#EXTINF:-1 tvg-ID="Odisea.sp" tvg-name="SP: CANAL ODISEA" tvg-logo="http://icons.alphacs.tv/icons1/sp/odisea_es.png" group-title="Spain",SP: CANAL ODISEA
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7225.ts&streamtype=TSDOWNLOADER&name=[ES] C CANAL ODISEA
+#EXTINF:-1 tvg-ID="NatGeoHD.sp" tvg-name="SP: NAT GEO HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/nat_geo_us.png" group-title="Spain",SP: NAT GEO HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13590.ts&streamtype=TSDOWNLOADER&name=[ES] C NAT GEO HD
+#EXTINF:-1 tvg-ID="NationalGeographic.sp" tvg-name="SP: NATIONAL GEOGRAPHIC" tvg-logo="http://icons.alphacs.tv/icons1/sp/nat_geo_us.png" group-title="Spain",SP: NATIONAL GEOGRAPHIC
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/38.ts&streamtype=TSDOWNLOADER&name=[ES] C NATIONAL GEOGRAPHIC
+#EXTINF:-1 tvg-ID="NatGeoWild.sp" tvg-name="SP: NAT GEO WILD" tvg-logo="http://icons.alphacs.tv/icons1/sp/nat_geo_wild_us.png" group-title="Spain",SP: NAT GEO WILD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/39.ts&streamtype=TSDOWNLOADER&name=[ES] C NAT GEO WILD
+#EXTINF:-1 tvg-ID="Viajar.sp" tvg-name="SP: VIAJAR" tvg-logo="http://icons.alphacs.tv/icons1/sp/viajar.png" group-title="Spain",SP: VIAJAR
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13623.ts&streamtype=TSDOWNLOADER&name=[ES] C VIAJAR
+#EXTINF:-1 tvg-ID="CrimeAndInvestigation.es" tvg-name="SP: CRIME & INVESTIGATION" tvg-logo="http://icons.alphacs.tv/icons1/sp/crimen_investigacion.png" group-title="Spain",SP: CRIME & INVESTIGATION
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7226.ts&streamtype=TSDOWNLOADER&name=[ES] C CRIME & INVESTIGATION
+#EXTINF:-1 tvg-ID="DiscoveryChannel.sp" tvg-name="SP: DISCOVERY" tvg-logo="http://icons.alphacs.tv/icons1/sp/discovery_global_us.png" group-title="Spain",SP: DISCOVERY
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13692.ts&streamtype=TSDOWNLOADER&name=[ES] C DISCOVERY
+#EXTINF:-1 tvg-ID="NonStopPeople.es" tvg-name="SP: NON STOP PEOPLE" tvg-logo="http://icons.alphacs.tv/icons1/sp/non_stop_people_es.png" group-title="Spain",SP: NON STOP PEOPLE
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13935.ts&streamtype=TSDOWNLOADER&name=[ES] C NON STOP PEOPLE
+#EXTINF:-1 tvg-ID="" tvg-name="---------- MUSICA ----------" tvg-logo="" group-title="Spain",---------- MUSICA ----------
+http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13656.ts
+#EXTINF:-1 tvg-ID="Mezzo.sp" tvg-name="SP: MEZZO" tvg-logo="http://icons.alphacs.tv/icons1/sp/mezzo.png" group-title="Spain",SP: MEZZO
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13701.ts&streamtype=TSDOWNLOADER&name=[ES] C MEZZO
+#EXTINF:-1 tvg-ID="VH1.sp" tvg-name="SP: VH1" tvg-logo="http://icons.alphacs.tv/icons1/sp/vh1_global.png" group-title="Spain",SP: VH1
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/47.ts&streamtype=TSDOWNLOADER&name=[ES] C VH1
+#EXTINF:-1 tvg-ID="M.eSports.sp" tvg-name="SP: M. eSports" tvg-logo="http://logoss.ddns.net/html/sp/40tv.png" group-title="Spain",SP: M. eSports
+lugin://plugin.video.f4mTester/?url=&streamtype=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/426.tspTSDOWNLOADER&name=[ES] C M. eSports
+#EXTINF:-1 tvg-ID="MTVEsp.sp" tvg-name="SP: MTV" tvg-logo="http://icons.alphacs.tv/icons1/sp/mtv_us.png" group-title="Spain",SP: MTV
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13667.ts&streamtype=TSDOWNLOADER&name=[ES] C MTV
+#EXTINF:-1 tvg-ID="" tvg-name="---------- ESTILO DE VIDA ----------" tvg-logo="" group-title="Spain",---------- ESTILO DE VIDA ----------
+http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13659.ts
+#EXTINF:-1 tvg-ID="CosmopolitanHD.es" tvg-name="SP: COSMO HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/cosmopolitan_tv_es.png" group-title="Spain",SP: COSMO HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18712.ts&streamtype=TSDOWNLOADER&name=[ES] C COSMO HD (1080)
+#EXTINF:-1 tvg-ID="CosmopolitanHD.es" tvg-name="SP: COSMO HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/cosmopolitan_tv_es.png" group-title="Spain",SP: COSMO HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13629.ts&streamtype=TSDOWNLOADER&name=[ES] C COSMO HD
+#EXTINF:-1 tvg-ID="Cocina.sp" tvg-name="SP: CANAL COCINA" tvg-logo="http://icons.alphacs.tv/icons1/sp/canal_cocina.png" group-title="Spain",SP: CANAL COCINA
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7201.ts&streamtype=TSDOWNLOADER&name=[ES] C CANAL COCINA
+#EXTINF:-1 tvg-ID="Decasa.sp" tvg-name="SP: CANAL DECASA" tvg-logo="http://icons.alphacs.tv/icons1/sp/decasa.png" group-title="Spain",SP: CANAL DECASA
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/1760.ts&streamtype=TSDOWNLOADER&name=[ES] C CANAL DECASA
+#EXTINF:-1 tvg-ID="CanalOrbe21.es" tvg-name="SP: CANAL ORBE 21" tvg-logo="http://icons.alphacs.tv/icons1/sp/canal_orbe_21_ar.png" group-title="Spain",SP: CANAL ORBE 21
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13937.ts&streamtype=TSDOWNLOADER&name=[ES] C CANAL ORBE 21
+#EXTINF:-1 tvg-ID="Canal24Horas.es" tvg-name="SP: 24 HORAS" tvg-logo="http://icons.alphacs.tv/icons1/sp/tve_canal_24horas.png" group-title="Spain",SP: 24 HORAS
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13939.ts&streamtype=TSDOWNLOADER&name=[ES] C 24 HORAS
+#EXTINF:-1 tvg-ID="" tvg-name="---------- INFANTILES ----------" tvg-logo="" group-title="Spain",---------- INFANTILES ----------
+http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13655.ts
+#EXTINF:-1 tvg-ID="DisneyChannel.sp" tvg-name="SP: DISNEY CHANNEL" tvg-logo="http://icons.alphacs.tv/icons1/sp/disney_channel_global.png" group-title="Spain",SP: DISNEY CHANNEL
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/26.ts&streamtype=TSDOWNLOADER&name=[ES] C DISNEY CHANNEL
+#EXTINF:-1 tvg-ID="DisneyJr.sp" tvg-name="SP: DISNEY JUNIOR" tvg-logo="http://icons.alphacs.tv/icons1/sp/disney_junior_us.png" group-title="Spain",SP: DISNEY JUNIOR
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/27.ts&streamtype=TSDOWNLOADER&name=[ES] C DISNEY JUNIOR
+#EXTINF:-1 tvg-ID="DisneyXD.sp" tvg-name="SP: DISNEY XD" tvg-logo="http://icons.alphacs.tv/icons1/sp/disney_xd_us.png" group-title="Spain",SP: DISNEY XD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/28.ts&streamtype=TSDOWNLOADER&name=[ES] C DISNEY XD
+#EXTINF:-1 tvg-ID="NickJunior.sp" tvg-name="SP: NICK JR" tvg-logo="http://icons.alphacs.tv/icons1/sp/nick_jr_us.png" group-title="Spain",SP: NICK JR
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/41.ts&streamtype=TSDOWNLOADER&name=[ES] C NICK JR
+#EXTINF:-1 tvg-ID="ClanTVE.sp" tvg-name="SP: CLAN TVE" tvg-logo="http://icons.alphacs.tv/icons1/sp/tve_clan.png" group-title="Spain",SP: CLAN TVE
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/413.ts&streamtype=TSDOWNLOADER&name=[ES] C CLAN TVE
+#EXTINF:-1 tvg-ID="Boing.sp" tvg-name="SP: BOING" tvg-logo="http://icons.alphacs.tv/icons1/sp/boing_es.png" group-title="Spain",SP: BOING
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/409.ts&streamtype=TSDOWNLOADER&name=[ES] C BOING
+#EXTINF:-1 tvg-ID="Nickelodeon.sp" tvg-name="SP: NICKELODEON" tvg-logo="http://icons.alphacs.tv/icons1/sp/nickelodeon_us.png" group-title="Spain",SP: NICKELODEON
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/40.ts&streamtype=TSDOWNLOADER&name=[ES] C NICKELODEON
+#EXTINF:-1 tvg-ID="BabyTV.sp" tvg-name="SP: BABY TV" tvg-logo="http://icons.alphacs.tv/icons1/sp/baby_tv_eu.png" group-title="Spain",SP: BABY TV
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13666.ts&streamtype=TSDOWNLOADER&name=[ES] C BABY TV
+#EXTINF:-1 tvg-ID="Panda.es" tvg-name="SP: CANAL PANDA" tvg-logo="http://icons.alphacs.tv/icons1/sp/canal_panda_es.png" group-title="Spain",SP: CANAL PANDA
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13669.ts&streamtype=TSDOWNLOADER&name=[ES] C CANAL PANDA
+#EXTINF:-1 tvg-ID="" tvg-name="---------- DEPORTES ----------" tvg-logo="" group-title="Spain",---------- DEPORTES ----------
+http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13653.ts
+#EXTINF:-1 tvg-ID="BeINLaLiga.es" tvg-name="SP: BEIN SPORTS HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_es_la_liga.png" group-title="Spain",SP: BEIN SPORTS HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18684.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN SPORTS HD (1080)
+#EXTINF:-1 tvg-ID="BeINSports.es" tvg-name="SP: BEIN SPORTS HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_max_hd.png" group-title="Spain",SP: BEIN SPORTS HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/5983.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN SPORTS HD
+#EXTINF:-1 tvg-ID="" tvg-name="SP: BEIN SPORTS SD" tvg-logo="http://logoss.ddns.net/html/sp/bein-laliga-md.png" group-title="Spain",SP: BEIN SPORTS SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/587.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN SPORTS SD
+#EXTINF:-1 tvg-ID="BeINLaLiga.es" tvg-name="SP: BEIN LA LIGA HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_es_la_liga.png" group-title="Spain",SP: BEIN LA LIGA HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18683.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN LA LIGA HD (1080)
+#EXTINF:-1 tvg-ID="BeINLaLiga.es" tvg-name="SP: BEIN LA LIGA HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_es_la_liga.png" group-title="Spain",SP: BEIN LA LIGA HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13932.ts&streamtype=TSDOWNLOADER&name=[ES] C HISTORIA
+#EXTINF:-1 tvg-ID="BeINLaLiga.es" tvg-name="SP: BEIN LA LIGA SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_es_la_liga.png" group-title="Spain",SP: BEIN LA LIGA SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13914.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN LA LIGA SD
+#EXTINF:-1 tvg-ID="" tvg-name="SP: LA LIGA TV BAR (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/la_liga_es.png" group-title="Spain",SP: LA LIGA TV BAR (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18685.ts&streamtype=TSDOWNLOADER&name=[ES] C LA LIGA TV BAR (1080)
+#EXTINF:-1 tvg-ID="BarcaTV.es" tvg-name="SP: LA LIGA TV BAR HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/barca_tv.png" group-title="Spain",SP: LA LIGA TV BAR HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13933.ts&streamtype=TSDOWNLOADER&name=[ES] C LA LIGA TV BAR HD
+#EXTINF:-1 tvg-ID="BarcaTV.es" tvg-name="SP: LA LIGA TV BAR SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/barca_tv.png" group-title="Spain",SP: LA LIGA TV BAR SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/12.ts&streamtype=TSDOWNLOADER&name=[ES] C LA LIGA TV BAR SD
+#EXTINF:-1 tvg-ID="BarcaTV.es" tvg-name="SP: LA LIGA BAR TV 1" tvg-logo="http://icons.alphacs.tv/icons1/sp/barca_tv.png" group-title="Spain",SP: LA LIGA BAR TV 1
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13940.ts&streamtype=TSDOWNLOADER&name=[ES] C LA LIGA BAR TV 1
+#EXTINF:-1 tvg-ID="GOL.es" tvg-name="SP: GOL TV" tvg-logo="http://icons.alphacs.tv/icons1/sp/gol_es.png" group-title="Spain",SP: GOL TV
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13934.ts&streamtype=TSDOWNLOADER&name=[ES] C  GOL TV
+#EXTINF:-1 tvg-ID="" tvg-name="SP: M. PARTIDAZO HD (1080)" tvg-logo="" group-title="Spain",SP: M. PARTIDAZO HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18692.ts&streamtype=TSDOWNLOADER&name=[ES] C  M. PARTIDAZO HD (1080)
+#EXTINF:-1 tvg-ID="" tvg-name="SP: M. PARTIDAZO HD" tvg-logo="http://logoss.ddns.net/html/sp/Logo-partidazo.png" group-title="Spain",SP: M. PARTIDAZO HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13649.ts&streamtype=TSDOWNLOADER&name=[ES] C M. PARTIDAZO HD
+#EXTINF:-1 tvg-ID="" tvg-name="SP: M. PARTIDAZO SD" tvg-logo="http://logoss.ddns.net/html/sp/Logo-partidazo.png" group-title="Spain",SP: M. PARTIDAZO SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/9190.ts&streamtype=TSDOWNLOADER&name=[ES] C M. PARTIDAZO SD
+#EXTINF:-1 tvg-ID="" tvg-name="SP: M. FUTBOL HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_futbol.png" group-title="Spain",SP: M. FUTBOL HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18686.ts&streamtype=TSDOWNLOADER&name=[ES] C M. FUTBOL HD (1080)
+#EXTINF:-1 tvg-ID="CanalPlusFutbol.es" tvg-name="SP: M.  FUTBOL HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_futbol.png" group-title="Spain",SP: M.  FUTBOL HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13596.ts&streamtype=TSDOWNLOADER&name=[ES] C M.  FUTBOL HD
+#EXTINF:-1 tvg-ID="CanalPlusFutbol.es" tvg-name="SP: M. FUTBOL" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_futbol.png" group-title="Spain",SP: M. FUTBOL
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/10.ts&streamtype=TSDOWNLOADER&name=[ES] C M. FUTBOL
+#EXTINF:-1 tvg-ID="CanalPlusDeportes.es" tvg-name="SP: M. DEPORTES 1 HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_deportes_1.png" group-title="Spain",SP: M. DEPORTES 1 HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18690.ts&streamtype=TSDOWNLOADER&name=[ES] C M. DEPORTES 1 HD (1080)
+#EXTINF:-1 tvg-ID="CanalPlusDeportes.es" tvg-name="SP: M. DEPORTES 1 HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_deportes_1.png" group-title="Spain",SP: M. DEPORTES 1 HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13600.ts&streamtype=TSDOWNLOADER&name=[ES] C HISTORIA
+#EXTINF:-1 tvg-ID="CanalPlusDeportes.es" tvg-name="SP: M.  DEPORTES 1 SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/tve_teledeporte.png" group-title="Spain",SP: M.  DEPORTES 1 SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/419.ts&streamtype=TSDOWNLOADER&name=[ES] C M.  DEPORTES 1 SD
+#EXTINF:-1 tvg-ID="CanalPlusDeportes2.es" tvg-name="SP: M. DEPORTES 2 HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_deportes_2.png" group-title="Spain",SP: M. DEPORTES 2 HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18691.ts&streamtype=TSDOWNLOADER&name=[ES] C M. DEPORTES 2 HD (1080)
+#EXTINF:-1 tvg-ID="CanalPlusDeportes2.es" tvg-name="SP: M. DEPORTES 2 HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_deportes_2.png" group-title="Spain",SP: M. DEPORTES 2 HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13627.ts&streamtype=TSDOWNLOADER&name=[ES] C M. DEPORTES 2 HD
+#EXTINF:-1 tvg-ID="CanalPlusDeportes2.es" tvg-name="SP: M. DEPORTES 2" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_deportes_2.png" group-title="Spain",SP: M. DEPORTES 2
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7197.ts&streamtype=TSDOWNLOADER&name=[ES] C M. DEPORTES 2
+#EXTINF:-1 tvg-ID="Golf.sp" tvg-name="SP: M. GOLF HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_golf.png" group-title="Spain",SP: M. GOLF HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18689.ts&streamtype=TSDOWNLOADER&name=[ES] C M. GOLF HD (1080)
+#EXTINF:-1 tvg-ID="Golf.sp" tvg-name="SP: M. GOLF HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_golf.png" group-title="Spain",SP: M. GOLF HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7202.ts&streamtype=TSDOWNLOADER&name=[ES] C M. GOLF HD
+#EXTINF:-1 tvg-ID="Golf.sp" tvg-name="SP: M. GOLF" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_golf.png" group-title="Spain",SP: M. GOLF
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/11.ts&streamtype=TSDOWNLOADER&name=[ES] C M. GOLF
+#EXTINF:-1 tvg-ID="MovistarFormula1.es" tvg-name="SP: M. F1 HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_formula_1.png" group-title="Spain",SP: M. F1 HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18687.ts&streamtype=TSDOWNLOADER&name=[ES] C M. F1 HD (1080)
+#EXTINF:-1 tvg-ID="MovistarFormula1.es" tvg-name="SP: M. F1 HD" tvg-logo="http://logoss.ddns.net/html/sp/movistar%20f1.jpg" group-title="Spain",SP: M. F1 HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13642.ts&streamtype=TSDOWNLOADER&name=[ES] C M. F1 HD
+#EXTINF:-1 tvg-ID="MovistarFormula1.es" tvg-name="SP: M. F1 SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_formula_1.png" group-title="Spain",SP: M. F1 SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/5963.ts&streamtype=TSDOWNLOADER&name=[ES] C M. F1 SD
+#EXTINF:-1 tvg-ID="MovistarMotoGP.es" tvg-name="SP: M. MOTOGP HD (1080)" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_moto_gp.png" group-title="Spain",SP: M. MOTOGP HD (1080)
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/18688.ts&streamtype=TSDOWNLOADER&name=[ES] C M. MOTOGP HD (1080)
+#EXTINF:-1 tvg-ID="MovistarMotoGP.es" tvg-name="SP:  M. MOTO GP HD" tvg-logo="http://logoss.ddns.net/html/sp/movistar%20motogp.jpg" group-title="Spain",SP:  M. MOTO GP HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13641.ts&streamtype=TSDOWNLOADER&name=[ES] C M. MOTO GP HD
+#EXTINF:-1 tvg-ID="MovistarMotoGP.es" tvg-name="SP: M. MOTO GP" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_moto_gp.png" group-title="Spain",SP: M. MOTO GP
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/5962.ts&streamtype=TSDOWNLOADER&name=[ES] C M. MOTO GP
+#EXTINF:-1 tvg-ID="Eurosport1.es" tvg-name="SP: Eurosport 1 HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/eurosport_fr_1.png" group-title="Spain",SP: Eurosport 1 HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13587.ts&streamtype=TSDOWNLOADER&name=[ES] C Eurosport 1 HD
+#EXTINF:-1 tvg-ID="EurosportHD.sp" tvg-name="SP: EUROSPORT 1 SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/eurosport_fr_1.png" group-title="Spain",SP: EUROSPORT 1 SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13668.ts&streamtype=TSDOWNLOADER&name=[ES] C EUROSPORT 1 SD
+#EXTINF:-1 tvg-ID="Eurosport2.es" tvg-name="SP: EUROSPORT 2 SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/eurosport_fr_2.png" group-title="Spain",SP: EUROSPORT 2 SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13670.ts&streamtype=TSDOWNLOADER&name=[ES] C EUROSPORT 2 SD
+#EXTINF:-1 tvg-ID="BeINLaLigaMAX1.es" tvg-name="SP: BEIN LA LIGA 1 SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_es_la_liga.png" group-title="Spain",SP: BEIN LA LIGA 1 SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13700.ts&streamtype=TSDOWNLOADER&name=[ES] C HISTORIA
+#EXTINF:-1 tvg-ID="BeINLaLigaMAX2.es" tvg-name="SP: LA LIGA TV 2 SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_es_la_liga.png" group-title="Spain",SP: LA LIGA TV 2 SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13699.ts&streamtype=TSDOWNLOADER&name=[ES] C LA LIGA TV 2 SD
+#EXTINF:-1 tvg-ID="LA2.es" tvg-name="SP: LA LIGA TV 3 SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/la_liga_es.png" group-title="Spain",SP: LA LIGA TV 3 SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13698.ts&streamtype=TSDOWNLOADER&name=[ES] C LA LIGA TV 3 SD
+#EXTINF:-1 tvg-ID="" tvg-name="SP: LA LIGA TV 4 SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/la_liga_es.png" group-title="",SP: LA LIGA TV 4 SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13697.ts&streamtype=TSDOWNLOADER&name=[ES] C LA LIGA TV 4 SD
+#EXTINF:-1 tvg-ID="" tvg-name="SP: LA LIGA TV 5 SD" tvg-logo="http://icons.alphacs.tv/icons1/sp/la_liga_es.png" group-title="Spain",SP: LA LIGA TV 5 SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13696.ts&streamtype=TSDOWNLOADER&name=[ES] C LA LIGA TV 5 SD
+#EXTINF:-1 tvg-ID="" tvg-name="SP: LA LIGA TV 6 SD" tvg-logo="http://logoss.ddns.net/html/sp/bein-laliga-md.png" group-title="Spain",SP: LA LIGA TV 6 SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13695.ts&streamtype=TSDOWNLOADER&name=[ES] C LA LIGA TV 6 SD
+#EXTINF:-1 tvg-ID="" tvg-name="SP: LA LIGA TV 7 SD" tvg-logo="http://logoss.ddns.net/html/sp/bein-laliga-md.png" group-title="Spain",SP: LA LIGA TV 7 SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13694.ts&streamtype=TSDOWNLOADER&name=[ES] C LA LIGA TV 7 SD
+#EXTINF:-1 tvg-ID="" tvg-name="SP: LA LIGA TV 8 SD" tvg-logo="http://logoss.ddns.net/html/sp/bein-laliga-md.png" group-title="Spain",SP: LA LIGA TV 8 SD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13693.ts&streamtype=TSDOWNLOADER&name=[ES] C LA LIGA TV 8 SD
+#EXTINF:-1 tvg-ID="BeINSportsMAX1.es" tvg-name="SP: BEIN MAX 1 HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_max_01_hd.png" group-title="Spain",SP: BEIN MAX 1 HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13646.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN MAX 1 HD
+#EXTINF:-1 tvg-ID="BeINLaLigaMAX2.es" tvg-name="SP: BEIN MAX 2 HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_max_02_hd.png" group-title="Spain",SP: BEIN MAX 2 HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13647.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN MAX 2 HD
+#EXTINF:-1 tvg-ID="BeINSportsMAX3.es" tvg-name="SP: BEIN MAX 3 HD" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_max_hd.png" group-title="Spain",SP: BEIN MAX 3 HD
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13648.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN MAX 3 HD
+#EXTINF:-1 tvg-ID="BeINLaLigaMAX1.es" tvg-name="SP: BEIN MAX 1" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_max_01_hd.png" group-title="Spain",SP: BEIN MAX 1
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13948.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN MAX 1
+#EXTINF:-1 tvg-ID="BeINLaLigaMAX2.es" tvg-name="SP: BEIN MAX 2" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_max_02_hd.png" group-title="Spain",SP: BEIN MAX 2
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13947.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN MAX 2
+#EXTINF:-1 tvg-ID="BeINLaLigaMAX3.es" tvg-name="SP: BEIN MAX 3" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_max_hd.png" group-title="Spain",SP: BEIN MAX 3
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13946.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN MAX 3
+#EXTINF:-1 tvg-ID="BeINLaLigaMAX4.es" tvg-name="SP: BEIN MAX 4" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_max_hd.png" group-title="Spain",SP: BEIN MAX 4
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13945.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN MAX 4
+#EXTINF:-1 tvg-ID="BeINSportsMAX5.es" tvg-name="SP: BEIN MAX 5" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_max_hd.png" group-title="Spain",SP: BEIN MAX 5
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13944.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN MAX 5
+#EXTINF:-1 tvg-ID="BeINSportsMAX6.es" tvg-name="SP: BEIN MAX 6" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_max_hd.png" group-title="Spain",SP: BEIN MAX 6
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13943.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN MAX 6
+#EXTINF:-1 tvg-ID="BeINSportsMAX7.es" tvg-name="SP: BEIN MAX 7" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_max_hd.png" group-title="Spain",SP: BEIN MAX 7
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13942.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN MAX 7
+#EXTINF:-1 tvg-ID="BeINSportsMAX8.es" tvg-name="SP: BEIN MAX 8" tvg-logo="http://icons.alphacs.tv/icons1/sp/be_in_mena_sports_max_hd.png" group-title="Spain",SP: BEIN MAX 8
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13941.ts&streamtype=TSDOWNLOADER&name=[ES] C BEIN MAX 8
+#EXTINF:-1 tvg-ID="CanalPlusDeportes.es" tvg-name="SP: MULTIDEPORTES 1" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_multi_x1.png" group-title="Spain",SP: MULTIDEPORTES 1
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/16837.ts&streamtype=TSDOWNLOADER&name=[ES] C MULTIDEPORTES 1
+#EXTINF:-1 tvg-ID="CanalPlusDeportes.es" tvg-name="SP: MULTIDEPORTES 2" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_multi_x1.png" group-title="Spain",SP: MULTIDEPORTES 2
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/16838.ts&streamtype=TSDOWNLOADER&name=[ES] C MULTIDEPORTES 2
+#EXTINF:-1 tvg-ID="CanalPlusDeportes.es" tvg-name="SP: MULTIDEPORTES 3" tvg-logo="http://icons.alphacs.tv/icons1/sp/movistar_es_multi_x3.png" group-title="Spain",SP: MULTIDEPORTES 3
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/16839.ts&streamtype=TSDOWNLOADER&name=[ES] C MULTIDEPORTES 3
+#EXTINF:-1 tvg-ID="" tvg-name="SP: MULTIDEPORTES 4" tvg-logo="http://logoss.ddns.net/html/spnew/movistar_es_multideporte.png" group-title="Spain",SP: MULTIDEPORTES 4
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/16840.ts&streamtype=TSDOWNLOADER&name=[ES] C MULTIDEPORTES 4
+#EXTINF:-1 tvg-ID="BarcaTV.es" tvg-name="SP: BARCA TV" tvg-logo="http://icons.alphacs.tv/icons1/sp/barca_tv.png" group-title="Spain",SP: BARCA TV
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/7213.ts&streamtype=TSDOWNLOADER&name=[ES] C BARCA TV
+#EXTINF:-1 tvg-ID="RMTV.es" tvg-name="SP: REAL MADRID" tvg-logo="http://icons.alphacs.tv/icons1/sp/real_madrid_tv_es.png" group-title="Spain",SP: REAL MADRID
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/422.ts&streamtype=TSDOWNLOADER&name=[ES] C REAL MADRID
+#EXTINF:-1 tvg-ID="Teledeporte.sp" tvg-name="SP: TELEDEPORTES" tvg-logo="http://icons.alphacs.tv/icons1/sp/tve_teledeporte.png" group-title="Spain",SP: TELEDEPORTES
+plugin://plugin.video.f4mTester/?url=http://bestiptv01.com:999/live/familiandaluza/2KKjPYwaKr/13917.ts&streamtype=TSDOWNLOADER&name=[ES] C TELEDEPORTES

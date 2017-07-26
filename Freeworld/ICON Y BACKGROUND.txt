@@ -1,0 +1,9 @@
+
+
+[SERIE NAME]--- tv series icon png 512 x 512 transparent
+[SERIE NAME]---tv series cover
+
+
+
+[MOVIE NAME]---movie icon png 512 x 512 transparent
+[MOVIE NAME]---movie cover art 1920 x 1080

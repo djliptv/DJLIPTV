@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1,==========Spain==========
+http://193.70.12.239:8080/live/ster/ster/7231.ts
+#EXTINF:-1,---------- TDT ----------
+http://193.70.12.239:8080/live/ster/ster/13657.ts
+#EXTINF:-1,ADELE
+plugin://plugin.video.youtube/play/?video_id=rYEDA3JcQqw

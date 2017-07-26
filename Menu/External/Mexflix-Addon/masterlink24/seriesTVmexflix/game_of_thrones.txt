@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<items>
+
+
+<item>
+<title>[COLOR=yellow]                                      <<[/COLOR][COLOR=yellow] Temporada 1 [/COLOR][COLOR=yellow]>>[/COLOR]</title>  
+<link>http://??</link>
+<thumbnail>https://usatftw.files.wordpress.com/2016/03/game-of-thrones1.jpg?w=1000&h=600&crop=1</thumbnail>
+</item>
+
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 1: Se acerca el invierno[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/7b4dfa804cea3fdffdd93b2555eecc08/194000/194313/194313.mp4</link>
+<thumbnail>http://3.bp.blogspot.com/-bInpow3YbWo/UcT6nY2DjJI/AAAAAAAABg8/ZZVsxDyYtzE/s1600/Game+Of+Thrones+(Juego+de+Tronos)+-+Temporada+1+-+Espa%C3%B1ol+Latino+-+Online.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 2: El camino real[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/78082a3a99095f166cc35d4f731edf4c/194000/194317/194317.mp4</link>
+<thumbnail>http://3.bp.blogspot.com/-bInpow3YbWo/UcT6nY2DjJI/AAAAAAAABg8/ZZVsxDyYtzE/s1600/Game+Of+Thrones+(Juego+de+Tronos)+-+Temporada+1+-+Espa%C3%B1ol+Latino+-+Online.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 3: Lord Nieve[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/93e7fc3dc192c936d195668925133609/194000/194324/194324.mp4</link>
+<thumbnail>http://3.bp.blogspot.com/-bInpow3YbWo/UcT6nY2DjJI/AAAAAAAABg8/ZZVsxDyYtzE/s1600/Game+Of+Thrones+(Juego+de+Tronos)+-+Temporada+1+-+Espa%C3%B1ol+Latino+-+Online.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 4: Tullidos, bastardos y cosas rotas[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/462e005df37ef767c4251ea89dc22bf1/194000/194325/194325.mp4</link>
+<thumbnail>http://3.bp.blogspot.com/-bInpow3YbWo/UcT6nY2DjJI/AAAAAAAABg8/ZZVsxDyYtzE/s1600/Game+Of+Thrones+(Juego+de+Tronos)+-+Temporada+1+-+Espa%C3%B1ol+Latino+-+Online.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 5: El lobo y el leon[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/53a6112c2c61feb79d9ed1643631c9a8/194000/194329/194329.mp4</link>
+<thumbnail>http://3.bp.blogspot.com/-bInpow3YbWo/UcT6nY2DjJI/AAAAAAAABg8/ZZVsxDyYtzE/s1600/Game+Of+Thrones+(Juego+de+Tronos)+-+Temporada+1+-+Espa%C3%B1ol+Latino+-+Online.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 6: Una corona de oro[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/b02af173fb0abdc3a6fc776caeabea71/194000/194330/194330.mp4</link>
+<thumbnail>http://3.bp.blogspot.com/-bInpow3YbWo/UcT6nY2DjJI/AAAAAAAABg8/ZZVsxDyYtzE/s1600/Game+Of+Thrones+(Juego+de+Tronos)+-+Temporada+1+-+Espa%C3%B1ol+Latino+-+Online.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 7: Ganas o mueres[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/b75523a43ad550e86928d33f3edbc248/194000/194332/194332.mp4</link>
+<thumbnail>http://3.bp.blogspot.com/-bInpow3YbWo/UcT6nY2DjJI/AAAAAAAABg8/ZZVsxDyYtzE/s1600/Game+Of+Thrones+(Juego+de+Tronos)+-+Temporada+1+-+Espa%C3%B1ol+Latino+-+Online.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 8: Por el lado de la punta[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/1e80dd1d3285de9d112f3befae18d3ce/194000/194333/194333.mp4</link>
+<thumbnail>http://3.bp.blogspot.com/-bInpow3YbWo/UcT6nY2DjJI/AAAAAAAABg8/ZZVsxDyYtzE/s1600/Game+Of+Thrones+(Juego+de+Tronos)+-+Temporada+1+-+Espa%C3%B1ol+Latino+-+Online.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 9: Baelor[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/13f882c11c4651074cf38e2ee050de11/194000/194335/194335.mp4</link>
+<thumbnail>http://3.bp.blogspot.com/-bInpow3YbWo/UcT6nY2DjJI/AAAAAAAABg8/ZZVsxDyYtzE/s1600/Game+Of+Thrones+(Juego+de+Tronos)+-+Temporada+1+-+Espa%C3%B1ol+Latino+-+Online.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 10: Fuego y sangre[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/e0b36bf0dc51b3db65b7144e6fe76b22/194000/194336/194336.mp4</link>
+<thumbnail>http://3.bp.blogspot.com/-bInpow3YbWo/UcT6nY2DjJI/AAAAAAAABg8/ZZVsxDyYtzE/s1600/Game+Of+Thrones+(Juego+de+Tronos)+-+Temporada+1+-+Espa%C3%B1ol+Latino+-+Online.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+
+ 
+<item>
+<title>[COLOR=yellow]                                      <<[/COLOR][COLOR=yellow] Temporada 2 [/COLOR][COLOR=yellow]>>[/COLOR]</title>  
+<link>http://??</link>
+<thumbnail>https://usatftw.files.wordpress.com/2016/03/game-of-thrones1.jpg?w=1000&h=600&crop=1</thumbnail>
+</item>
+
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 1: El norte no olvida[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/f96858e52df42d674d255a6a51b61991/194000/194430/194430.mp4</link>
+<thumbnail>http://i1165.photobucket.com/albums/q596/irwin0411/game%20t2/Game-of-Thrones-Season-2-Poster-game-of-thrones-24250987-1024-1516</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 2: Las tierras de la noche[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/32aaca27ad8bc093233293fd5b727603/194000/194435/194435.mp4</link>
+<thumbnail>http://i1165.photobucket.com/albums/q596/irwin0411/game%20t2/Game-of-Thrones-Season-2-Poster-game-of-thrones-24250987-1024-1516</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 3: Lo que esta muerto no puede morir[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/eb658bf8e51113f99c1bcebfa447386a/194000/194442/194442.mp4</link>
+<thumbnail>http://i1165.photobucket.com/albums/q596/irwin0411/game%20t2/Game-of-Thrones-Season-2-Poster-game-of-thrones-24250987-1024-1516</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 4: Jardin de huesos[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/cde97304e60ce6562243fb62aad3a479/194000/194449/194449.mp4</link>
+<thumbnail>http://i1165.photobucket.com/albums/q596/irwin0411/game%20t2/Game-of-Thrones-Season-2-Poster-game-of-thrones-24250987-1024-1516</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 5: El fantasma de Harrenhal[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/065c92c4b6d216c63e89fdbb2ce8dcd4/194000/194452/194452.mp4</link>
+<thumbnail>http://i1165.photobucket.com/albums/q596/irwin0411/game%20t2/Game-of-Thrones-Season-2-Poster-game-of-thrones-24250987-1024-1516</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 6: El fantasma de Harrenhal[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/a56eac574d5316b36100ee01d2258d18/194000/194453/194453.mp4</link>
+<thumbnail>http://i1165.photobucket.com/albums/q596/irwin0411/game%20t2/Game-of-Thrones-Season-2-Poster-game-of-thrones-24250987-1024-1516</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 7: Un hombre sin honor[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/8e34e5cbcd1fbcf057b4279f163cd37d/194000/194455/194455.mp4</link>
+<thumbnail>http://i1165.photobucket.com/albums/q596/irwin0411/game%20t2/Game-of-Thrones-Season-2-Poster-game-of-thrones-24250987-1024-1516</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 8: Un principe de Invernalia[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/b2e0abe78a329839f525aee337f6d458/194000/194462/194462.mp4</link>
+<thumbnail>http://i1165.photobucket.com/albums/q596/irwin0411/game%20t2/Game-of-Thrones-Season-2-Poster-game-of-thrones-24250987-1024-1516</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 9: Aguas Negras[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/3e19f7b5d7364060b92196fd0161cf37/194000/194463/194463.mp4</link>
+<thumbnail>http://i1165.photobucket.com/albums/q596/irwin0411/game%20t2/Game-of-Thrones-Season-2-Poster-game-of-thrones-24250987-1024-1516</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+ 
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 10: Valar morghuli[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/8ed471a0800be9359b80e752cf9e9c24/194000/194474/194474.mp4</link>
+<thumbnail>http://i1165.photobucket.com/albums/q596/irwin0411/game%20t2/Game-of-Thrones-Season-2-Poster-game-of-thrones-24250987-1024-1516</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+ 
+
+<item>
+<title>[COLOR=yellow]                                      <<[/COLOR][COLOR=yellow] Temporada 3 [/COLOR][COLOR=yellow]>>[/COLOR]</title>  
+<link>http://??</link>
+<thumbnail>https://usatftw.files.wordpress.com/2016/03/game-of-thrones1.jpg?w=1000&h=600&crop=1</thumbnail>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 1: Valar Dohaeris[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/68e5145fd4b97a56c293737e6230a581/194000/194479/194479.mp4</link>
+<thumbnail>http://ganoolmovie.com/wp-content/uploads/2015/03/GAME-OF-THRONES-SEASON-3.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 2: Alas negras, palabras negras[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/8b3066101fb55c451420c46c6203bcb6/194000/194491/194491.mp4</link>
+<thumbnail>http://ganoolmovie.com/wp-content/uploads/2015/03/GAME-OF-THRONES-SEASON-3.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 3: El camino del castigo[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/6e3b95baff93accbb13918152ca71a1d/194000/194495/194495.mp4</link>
+<thumbnail>http://ganoolmovie.com/wp-content/uploads/2015/03/GAME-OF-THRONES-SEASON-3.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 4: Y ahora su guardia ha terminado[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/b61612ceb4290808e1f78ffd77d3a95e/194000/194500/194500.mp4</link>
+<thumbnail>http://ganoolmovie.com/wp-content/uploads/2015/03/GAME-OF-THRONES-SEASON-3.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 5: Besado por el fuego[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/d06c5223aa59b69c2cb19e2b79f3a4cd/194000/194503/194503.mp4</link>
+<thumbnail>http://ganoolmovie.com/wp-content/uploads/2015/03/GAME-OF-THRONES-SEASON-3.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 6: El ascenso[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/73f0369718c3e47873c3ee586eac5c0e/194000/194782/194782.mp4</link>
+<thumbnail>http://ganoolmovie.com/wp-content/uploads/2015/03/GAME-OF-THRONES-SEASON-3.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 7: El oso y la doncella[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/74ba26e4e5899297478e6110b50644ac/194000/194784/194784.mp4</link>
+<thumbnail>http://ganoolmovie.com/wp-content/uploads/2015/03/GAME-OF-THRONES-SEASON-3.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 8: Los segundos hijos[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/e1866e5447cfdf333ab3cce63f683705/194000/194787/194787.mp4</link>
+<thumbnail>http://ganoolmovie.com/wp-content/uploads/2015/03/GAME-OF-THRONES-SEASON-3.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 9: Las lluvias de Castamere[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/8c92c1a533123af9e9661a26356f7ae7/194000/194791/194791.mp4</link>
+<thumbnail>http://ganoolmovie.com/wp-content/uploads/2015/03/GAME-OF-THRONES-SEASON-3.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 10: Mhysa[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/afaefaf7cdf7ce7e5696864f20379dd0/194000/194799/194799.mp4</link>
+<thumbnail>http://ganoolmovie.com/wp-content/uploads/2015/03/GAME-OF-THRONES-SEASON-3.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+
+
+<item>
+<title>[COLOR=yellow]                                      <<[/COLOR][COLOR=yellow] Temporada 4 [/COLOR][COLOR=yellow]>>[/COLOR]</title>  
+<link>http://??</link>
+<thumbnail>https://usatftw.files.wordpress.com/2016/03/game-of-thrones1.jpg?w=1000&h=600&crop=1</thumbnail>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 1: Dos Espadas[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/ec329c44c55bb641b81237ffb26df024/194000/194809/194809.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/8/80/Game_of_Thrones_Season_4.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 2: El leon y la rosa [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/07827835925f283956f41fbeb80e1087/194000/194812/194812.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/8/80/Game_of_Thrones_Season_4.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 3: Rompedora de cadenas[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/b103e49d6be9afbf4d889a8646b3d465/194000/194820/194820.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/8/80/Game_of_Thrones_Season_4.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 4: Guardajuramentos [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/7661cd900e35ecda7adf7fd905250115/194000/194865/194865.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/8/80/Game_of_Thrones_Season_4.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 5: El primero de su nombre [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/c53ec41ec0241306a1ced1f8cda629c0/194000/194866/194866.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/8/80/Game_of_Thrones_Season_4.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 6: Leyes de dioses y hombres[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/299da83b4fe9c8c17b5f4d1f06ea2ed2/194000/194871/194871.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/8/80/Game_of_Thrones_Season_4.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 7: Sinsonte [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/fdad10950f24d514e6860c8883936555/194000/194879/194879.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/8/80/Game_of_Thrones_Season_4.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 8: La montaña y la vibora[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/d35f502089acc2619846459295f5aabe/194000/194895/194895.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/8/80/Game_of_Thrones_Season_4.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 9: Los vigilantes del Muro[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/7eeb3af3b3da7fac6f25b51dd3e693bd/194000/194905/194905.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/8/80/Game_of_Thrones_Season_4.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 10: Los niños[/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/d0b2ae80497200e6089d241763151792/194000/194912/194912.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/8/80/Game_of_Thrones_Season_4.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+
+
+<item>
+<title>[COLOR=yellow]                                      <<[/COLOR][COLOR=yellow] Temporada 5 [/COLOR][COLOR=yellow]>>[/COLOR]</title>  
+<link>http://??</link>
+<thumbnail>https://usatftw.files.wordpress.com/2016/03/game-of-thrones1.jpg?w=1000&h=600&crop=1</thumbnail>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 1: Las guerras por venir [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/d46a22710912a770b93db6a2f7adc9d0/194000/194919/194919.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/59/Game_of_Thrones_Season_5.png</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 2: La casa de negro y blanco [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/3ba4830f2d406a463bc3eb34c5f03847/194000/194928/194928.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/59/Game_of_Thrones_Season_5.png</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 3: Gorrión supremo [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/611febf459e0be3a599da6aa7a355cae/195000/195080/195080.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/59/Game_of_Thrones_Season_5.png</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 4: Hijos de la arpia [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/805778dffb2d536d9bec4c3ebec612c3/195000/195085/195085.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/59/Game_of_Thrones_Season_5.png</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 5: Matad al chico [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/0d254d391eb2d1564553e69caec53ceb/195000/195096/195096.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/59/Game_of_Thrones_Season_5.png</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 6: Nunca doblegado, nunca roto [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/c61f85e94149a84f00a432022726d906/195000/195128/195128.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/59/Game_of_Thrones_Season_5.png</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 7: El regalo [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/c305aa4dcc63cc6a9ae02f5e40ac46fe/195000/195136/195136.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/59/Game_of_Thrones_Season_5.png</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 8: Casa austera [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/cb6bb3c0fe3051637cc62f027ed5abf5/195000/195143/195143.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/59/Game_of_Thrones_Season_5.png</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 9: Danza de dragones [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/6b56bf29948aa5603d2e44fbda9d3a9c/195000/195152/195152.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/59/Game_of_Thrones_Season_5.png</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 10: Misericordia [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/4c333c2a0c7ae30892961491a7ce6235/195000/195159/195159.mp4</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/59/Game_of_Thrones_Season_5.png</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[COLOR=yellow]                                      <<[/COLOR][COLOR=yellow] Temporada 6 [/COLOR][COLOR=yellow]>>[/COLOR]</title>  
+<link>http://??</link>
+<thumbnail>https://usatftw.files.wordpress.com/2016/03/game-of-thrones1.jpg?w=1000&h=600&crop=1</thumbnail>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 1: La mujer roja [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/2f48b7b62078e477943ca86aba59c4f1/195000/195182/195182.mp4</link>
+<thumbnail>http://www.nerdmuch.com/wp-content/uploads/2015/06/Season-6.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 2: Hogar [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/7cd2098c9e64fed72d06311a4eaa6384/195000/195186/195186.mp4</link>
+<thumbnail>http://www.nerdmuch.com/wp-content/uploads/2015/06/Season-6.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 3: Rompejuramentos [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/fa0c1b1f0aa4412df29ce6675f57e603/195000/195188/195188.mp4</link>
+<thumbnail>http://www.nerdmuch.com/wp-content/uploads/2015/06/Season-6.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 4: Libro del extraño [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/e8b3f5468fb5e9b327cdcc2c2fef444e/195000/195190/195190.mp4</link>
+<thumbnail>http://www.nerdmuch.com/wp-content/uploads/2015/06/Season-6.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 5: La puerta [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/b98f36ff77013b97eba75ae4f155358d/195000/195192/195192.mp4</link>
+<thumbnail>http://www.nerdmuch.com/wp-content/uploads/2015/06/Season-6.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 6: Sangre de mi sangre [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/28d9ecd06e82bec1b822514373bbee01/197000/197467/197467.mp4</link>
+<thumbnail>http://www.nerdmuch.com/wp-content/uploads/2015/06/Season-6.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 7: El Hombre destrozado [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/6/eb4a593e7f245cb8994d0e873f5c4edb/200000/200361/200361.mp4</link>
+<thumbnail>http://www.nerdmuch.com/wp-content/uploads/2015/06/Season-6.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 8: Nadie [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/8/678a92c1be92d6136f8cad959744d092/205000/205455/205455.mp4</link>
+<thumbnail>http://www.nerdmuch.com/wp-content/uploads/2015/06/Season-6.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 9: La batalla de los bastardos [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/8/daa3c23e2bc931cf98e35a16d7546a18/205000/205420/205420.mp4</link>
+<thumbnail>http://www.nerdmuch.com/wp-content/uploads/2015/06/Season-6.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR cyan][COLOR white][COLOR green]• [/COLOR] Capitulo 10: Vientos de invierno [/COLOR] (Sub)</title>
+<link>http://www.spruto.tv/get_file/8/1439a3c6a860cc12f34144ccdf68b526/205000/205283/205283.mp4</link>
+<thumbnail>http://www.nerdmuch.com/wp-content/uploads/2015/06/Season-6.jpg</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+
+</items>

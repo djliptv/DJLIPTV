@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[COLOR chocolate][B]*[/B][/COLOR][COLOR crimson] LATINO WEB/ cortesia[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green]ME[COLOR white]XFL[COLOR red]IX[/COLOR][COLOR lime]*[/COLOR][B][COLOR white][makelist.param1][/COLOR][/B]</title>
+<link>$doregex[Final_URL]|User-Agent=iPad&amp;Referer=http://latino-webtv.com/player/jwplayer.flash.swf</link>
+<regex>
+<name>Final_URL</name>
+<expres>$pyFunction: '$doregex[getURL1]' if not '$doregex[getURL1]'=='' else 'plugin://plugin.video.youtube/play/?video_id=CEGSitBJ7Gw' </expres>
+<page></page>
+</regex>
+<regex>
+<name>getURL1</name>
+<expres>file: [",'](.*?)[",'],</expres>
+<page>$doregex[frame]</page>
+<referer>http://latino-webtv.com/</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>frame</name>
+<expres>frame NAME=.*?[SRC,src]=[",'](.*?)[",'] FRAMEBORDER="\d</expres>
+<page>$doregex[Final_Frame]</page>
+<referer>http://latino-webtv.com/</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>Final_Frame</name>
+<expres>$pyFunction: '$doregex[Frame1]' if not '$doregex[Frame1]'=='' else '$doregex[Frame2]' </expres>
+<page></page>
+</regex>
+<regex>
+<name>Frame1</name>
+<expres>iframe src=[",'](.*?)[",'] width="\d</expres>
+<page>http://latino-webtv.com/[makelist.param1]/</page>
+<referer>http://latino-webtv.com/</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres>a href=[",']([^<]*)/[",'].*?src=[",']([^<]*)[",']\W</expres>
+<page>http://latino-webtv.com/</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.davidkaufer.com/wp-content/uploads/2012/03/channel_logos.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/ANM-dq5USTc/maxresdefault_live.jpg</fanart>
+</item>

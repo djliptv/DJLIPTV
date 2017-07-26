@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[COLOR white]Solo Mexico[/COLOR]</title>
+<fanart>https://2.bp.blogspot.com/-niz4w8sNk7Y/Vnfbgqgf4UI/AAAAAAAAPnE/uCSdiTuAdsk/s1600/TV%2BUltimate%2BFor%2BKodi%2BXbmc%2B3.png</fanart>
+<thumbnail>https://2.bp.blogspot.com/-niz4w8sNk7Y/Vnfbgqgf4UI/AAAAAAAAPnE/uCSdiTuAdsk/s1600/TV%2BUltimate%2BFor%2BKodi%2BXbmc%2B3.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://iptv.tvultimate.mx/mexico.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white]Solo Mexico + XXX[/COLOR]</title>
+<fanart>https://2.bp.blogspot.com/-niz4w8sNk7Y/Vnfbgqgf4UI/AAAAAAAAPnE/uCSdiTuAdsk/s1600/TV%2BUltimate%2BFor%2BKodi%2BXbmc%2B3.png</fanart>
+<thumbnail>https://2.bp.blogspot.com/-niz4w8sNk7Y/Vnfbgqgf4UI/AAAAAAAAPnE/uCSdiTuAdsk/s1600/TV%2BUltimate%2BFor%2BKodi%2BXbmc%2B3.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://iptv.tvultimate.mx/mexico_x.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white]Mundial[/COLOR]</title>
+<fanart>https://2.bp.blogspot.com/-niz4w8sNk7Y/Vnfbgqgf4UI/AAAAAAAAPnE/uCSdiTuAdsk/s1600/TV%2BUltimate%2BFor%2BKodi%2BXbmc%2B3.png</fanart>
+<thumbnail>https://2.bp.blogspot.com/-niz4w8sNk7Y/Vnfbgqgf4UI/AAAAAAAAPnE/uCSdiTuAdsk/s1600/TV%2BUltimate%2BFor%2BKodi%2BXbmc%2B3.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://iptv.tvultimate.mx/mundial.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white]Mundial + XXX[/COLOR]</title>
+<fanart>https://2.bp.blogspot.com/-niz4w8sNk7Y/Vnfbgqgf4UI/AAAAAAAAPnE/uCSdiTuAdsk/s1600/TV%2BUltimate%2BFor%2BKodi%2BXbmc%2B3.png</fanart>
+<thumbnail>https://2.bp.blogspot.com/-niz4w8sNk7Y/Vnfbgqgf4UI/AAAAAAAAPnE/uCSdiTuAdsk/s1600/TV%2BUltimate%2BFor%2BKodi%2BXbmc%2B3.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://iptv.tvultimate.mx/mundial_x.m3u</externallink>
+</item>

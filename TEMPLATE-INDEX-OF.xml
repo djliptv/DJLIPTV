@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+<title>[COLOR dodgerblue][B]MOVIES[/B][/COLOR][COLOR yellow][B]INDEX OF[/B][/COLOR]</title> <!--- titulo a mostrar --->
+<link>$doregex[makelist0]</link>
+
+<regex>
+<name>makelist0</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lightblue] [makelist0.param2] [/COLOR][/B] </title>
+<link>http://condor1726.dedicatedpanel.com/series/APB/[makelist0.param1]</link> <!--- ruta que contiene la serie o pelicula archivos mkv,avi,mp4 etc. --->
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)<]]></expres>
+<page>http://condor1726.dedicatedpanel.com/series/APB/</page> <!--- ruta que contiene la serie o pelicula archivos mkv,avi,mp4 etc. --->
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+<fanart>http://i.huffpost.com/gen/1244965/images/o-CROWDED-MOVIE-THEATER-facebook.jpg</fanart> <!--- portada --->
+<thumbnail>http://www.itouchapps.net/images/wubu-guess-the-app/movies.jpg</thumbnail> <!--- fondo --->
+</item>

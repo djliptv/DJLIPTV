@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<!-- TEMPLATES INICIO
+
+-- === ZONA 1 - MOVIES INFANTILES DISKOKOSMIKO Y OTROS === --
+<item>
+<title>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 1][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[makelist2.param1]</title>
+		<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+		<fanart>[makelist2.param4]</fanart>
+		]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" thu:"(.*?)" fan:"(.*?)"; server:"(.*?)"</expres>
+<page>https://www.dropbox.com/s/hu7rzp2l7h7cbru/DB.xml?dl=1</page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+		<fanart>[makelist2.param4]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,100</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param5]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param5]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param5]/[makelist.param2]</page>
+<referer>[makelist2.param5]</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://bestforkodi.com/wp-content/uploads/2015/11/KIDS-MOVIES.png</thumbnail>
+<fanart>http://woodland-church.com/files/Kidzone/KidZone%20Logo%20600dpi.jpg</fanart>
+</item>
+
+-- === ZONA 2 - MOVIES INFANTILES COPIAPOP === --
+<item>
+<title>[COLOR white]+[/COLOR] [COLOR blue][COLOR deepskyblue]Movies[/COLOR] [COLOR white]Infantiles[/COLOR] [COLOR gold][ZONA 2][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[makelist2.param1]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+		<fanart>[makelist2.param4]</fanart>
+        ]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" thu:"(.*?)" fan:"(.*?)"; server:"(.*?)"</expres>
+<page>https://www.dropbox.com/s/hu7rzp2l7h7cbru/DB.xml?dl=1</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param2]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+		<fanart>[makelist2.param4]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,100</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re , requests ,json
+def GetLSProData(page_data,Cookie_Jar,m):
+ ref = 'http://copiapop.com/' 
+ url='http://copiapop.com[makelist.param1]'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr = requests.post('http://copiapop.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'amistad' , 'Password' : 'asegurada'}
+ nr1 = requests.post('http://copiapop.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://copiapop.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://bestforkodi.com/wp-content/uploads/2015/11/KIDS-MOVIES.png</thumbnail>
+<fanart>http://woodland-church.com/files/Kidzone/KidZone%20Logo%20600dpi.jpg</fanart>
+</item>
+TEMPLATES FIN-->
+
+
+KBA:"http://kbagi.com 4k" url:"http://kbagi.com/Maruxa/pelis-4k-561480" thu:"" fan:""; server:"http://kbagi.com"
+
+
+<!-- ************************************************************************************************************************************************************************** -->
+
+<!-- EJEMPLO | Name:"" url:"" thu:"" fan:""; server:"" | --->
+
+<!-- ZONA 1 - SDK , SRDK, SIDK | MDK, MIDK, MSDK | MVDK |
+	 ZONA 2 - SCP , SRCP, SICP | MCP, MICP, MSCP | MVCP 
+	 S - SERIE, SR - SERIES RETRO, SI - SERIES INFANTILES, M - MOVIES, MI - MOVIES INFANTILES, MS - MOVIE SAGAS, MV - MUSIC VIDEOS
+	 ---> 
+
+<!-- *** ZONA 1 - DISKOKOSMIKO Y OTROS === ***-->
+
+<!-- === ZONA 1 - SERIES DISKOKOSMIKO Y OTROS === -->
+SDK:"                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Series[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+SDK:"===================================================" url:"" thu:"" fan:""; server:""
+Name:"" url:"" thu:"" fan:""; server:"http://diskokosmiko.mx"
+
+<!-- === ZONA 1 - SERIES RETRO DISKOKOSMIKO Y OTROS === -->
+SRDK:"                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Series Retro[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+SRDK:"===================================================" url:"" thu:"" fan:""; server:""
+Name:"" url:"" thu:"" fan:""; server:"http://diskokosmiko.mx"
+
+<!-- === ZONA 1 - SERIES INFANTILES DISKOKOSMIKO Y OTROS === -->
+SIDK:"                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Series Infantiles[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+SIDK:"===================================================" url:"" thu:"" fan:""; server:""
+Name:"" url:"" thu:"" fan:""; server:"http://diskokosmiko.mx"
+
+<!-- === ZONA 1 - MOVIES DISKOKOSMIKO Y OTROS === -->
+MDK:"                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+MDK:"===================================================" url:"" thu:"" fan:""; server:""
+name:"[COLOR blue]SUPER COLECCION DE PELICULAS [/COLOR][COLOR white][AUDIO LATINO][/COLOR]" url:"http://diskokosmiko.mx/IngArturo/super-coleccion-de-pelis-audio-latino-20342" thu:"https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1" fan:"https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1"; server:"http://diskokosmiko.mx"
+name:"[COLOR blue]SUPER COLECCION DE PELICULAS 2 [/COLOR][COLOR white][AUDIO LATINO][/COLOR]" url:"http://diskokosmiko.mx/marcos20/peticiones-16957" thu:"https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1" fan:"https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1"; server:"http://diskokosmiko.mx"
+MDK:"[COLOR blue]PELICULAS [/COLOR][COLOR cyan] HD [/COLOR][COLOR white][VARIOS | AUD & SUBS][/COLOR]" url:"http://diskokosmiko.mx/ermejor/peliculas-hd-varios-idiomas-de-audio-y-subtit-29815" thu:"https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1" fan:"https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1"; server:"http://diskokosmiko.mx"
+MDK:"[COLOR blue]PELICULAS [/COLOR][COLOR cyan] HD 2 [/COLOR][COLOR white][DUAL AUDIO][/COLOR]" url:"http://diskokosmiko.mx/jml/peliculas-25581" thu:"https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1" fan:"https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1"; server:"http://diskokosmiko.mx"
+MDK:"[COLOR blue]PELICULAS[/COLOR] [COLOR cyan] FULL HD [/COLOR][COLOR orange](1080P) [/COLOR][COLOR white][AUDIO LATINO][/COLOR]" url:"http://diskokosmiko.mx/danonaba89/fileuploader-46197" thu:"https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1" fan:"https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1"; server:"http://diskokosmiko.mx"
+MDK:"[COLOR blue]PELICULAS[/COLOR] [COLOR cyan] FULL HD 2 [/COLOR][COLOR orange](1080P) [/COLOR][COLOR white][AUDIO LATINO][/COLOR]" url:"http://diskokosmiko.mx/danonaba89/newcollection-46197" thu:"https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1" fan:"https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1"; server:"http://diskokosmiko.mx"
+MDK:"[COLOR blue]PELICULAS[/COLOR] [COLOR cyan] DE NAVIDAD [/COLOR][COLOR white][AUDIO LATINO][/COLOR]" url:"http://diskokosmiko.mx/marcos20/peliculas-de-navidad-en-espanol-latino-17084" thu:"https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1" fan:"https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1"; server:"http://diskokosmiko.mx"
+MDK:"[COLOR blue]PELICULAS[/COLOR] [COLOR cyan] DE ACCION [/COLOR][COLOR white][AUDIO LATINO][/COLOR]" url:"http://diskokosmiko.mx/marcos20/peliculas-de-accion-en-espanol-latino-16521" thu:"https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1" fan:"https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1"; server:"http://diskokosmiko.mx"
+MDK:"[COLOR blue]PELICULAS[/COLOR] [COLOR cyan] DE DRAMA [/COLOR][COLOR white][AUDIO LATINO][/COLOR]" url:"http://diskokosmiko.mx/marcos20/peliculas-de-drama-en-espanol-latino-18845" thu:"https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1" fan:"https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1"; server:"http://diskokosmiko.mx"
+MDK:"[COLOR blue]PELICULAS[/COLOR] [COLOR cyan] VARIADOS [/COLOR][COLOR white][AUDIO LATINO][/COLOR]" url:"http://diskokosmiko.mx/marco18/peliculas-de-marco-castillo-47264" thu:"https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1" fan:"https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1"; server:"http://diskokosmiko.mx"
+MDK:"[COLOR blue]PELICULAS[/COLOR] [COLOR cyan] ENGLISH [/COLOR][COLOR white][SUBTITULADAS][/COLOR]" url:"http://diskokosmiko.mx/INTERALIOS/coleccion-ghibli-13783" thu:"https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1" fan:"https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1"; server:"http://diskokosmiko.mx"
+MDK:"[COLOR white]COLECCION [/COLOR][COLOR gold]WESTERN[/COLOR]" url:"http://diskokosmiko.mx/naredo/western-19889" thu:"https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1" fan:"https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1"; server:"http://diskokosmiko.mx"
+
+<!-- === ZONA 1 - MOVIES INFANTILES DISKOKOSMIKO Y OTROS === -->
+MIDK:"                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies Infantiles[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+MIDK:"===================================================" url:"" thu:"" fan:""; server:""
+MIDK:"Justice League" url:"http://diskokosmiko.mx/djl/jl-63247" thu:"https://s-media-cache-ak0.pinimg.com/originals/1d/12/19/1d12196e00a4760afced932469fa481f.png" fan:"https://ae01.alicdn.com/kf/HTB1Bu3VHpXXXXbMaXXXq6xXFXXXG/Free-shipping-font-b-Justice-b-font-font-b-League-b-font-font-b-logo-b.jpg"; server:"http://diskokosmiko.mx"
+MIDK:"Movies Pack" url:"http://diskokosmiko.mx/SHIRKAM/peliculas-infantiles-50752" thu:"http://img.huffingtonpost.com/asset/scalefit_970_noupscale/55e72f351700009a015694cb.jpeg" fan:"http://www.unitedfamily.com/wp-content/uploads/2013/09/Kids-Movies-Now1.png"; server:"http://diskokosmiko.mx"
+MIDK:"Walt Disney" url:"http://diskokosmiko.mx/SHIRKAM/walt-disney-49946" thu:"https://s-media-cache-ak0.pinthu.com/originals/05/54/79/055479600e02acd988f06fdf251692e0.jpg" fan:"http://akns-images.eonline.com/eol_images/Entire_Site/2014617/rs_560x349-140717140914-1024.disney.cm.71714_copy.jpg"; server:"http://diskokosmiko.mx"
+MIDK:"Walt Disney/Dreamworks Animated Collection (1937-2009)[COLOR white] [ENG] [/COLOR]" url:"http://diskokosmiko.mx/movies/disneydreamworks-animated-collection-1937-2009-1188" thu:"https://s-media-cache-ak0.pinimg.com/originals/05/54/79/055479600e02acd988f06fdf251692e0.jpg" fan:"http://akns-images.eonline.com/eol_images/Entire_Site/2014617/rs_560x349-140717140914-1024.disney.cm.71714_copy.jpg"; server:"http://diskokosmiko.mx"
+
+<!-- === ZONA 1 - MOVIES SAGAS DISKOKOSMIKO Y OTROS === -->
+MSDK:"                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies Sagas[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+MSDK:"===================================================" url:"" thu:"" fan:""; server:""
+MSDK:"[COLOR white]SAGA [/COLOR][COLOR blue]ROCKY[/COLOR]" url:"http://diskokosmiko.mx/catoal/saga-rocky-30512" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_SY1000_CR0,0,666,1000_AL_.jpg" fan:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_SY1000_CR0,0,666,1000_AL_.jpg"; server:"http://diskokosmiko.mx"
+MSDK:"[COLOR white]SAGA [/COLOR][COLOR blue]LOCA ACADEMIA DE POLICIA[/COLOR]" url:"http://diskokosmiko.mx/naredo/loca-academia-de-policia-19983" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjNiMWVhNjAtMzgyYS00NzRhLWJmNGUtNzdiOGFhMmY5NDUwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,661,1000_AL_.jpg" fan:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjNiMWVhNjAtMzgyYS00NzRhLWJmNGUtNzdiOGFhMmY5NDUwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,661,1000_AL_.jpg"; server:"http://diskokosmiko.mx"
+
+<!-- === ZONA 1 - VIDEOS MUSICALES DISKOKOSMIKO Y OTROS === -->
+MVDK:"                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Videos Musicales[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+MVDK:"===================================================" url:"" thu:"" fan:""; server:""
+Name:"" url:"" thu:"" fan:""; server:"http://diskokosmiko.mx"
+
+<!-- ************************************************************************************************************************************************************************** -->
+
+<!-- *** ZONA 2 - COPIAPOP ***-->
+
+<!-- === ZONA 2 - SERIES COPIAPOP === -->
+SCP:"                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies Sagas[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+SCP:"===================================================" url:"" thu:"" fan:""; server:""
+Name:"" url:"" thu:"" fan:""; server:"http://copiapop.com"
+
+SCP-PB:"Prison Break - Season 1" url:"http://copiapop.com/avaleb/prison-break-temporada-1-71143" thu:"https://upload.wikimedia.org/wikipedia/commons/c/cd/Prisonbreaklogo.png" fan:"https://fanart.tv/fanart/tv/75340/seasonposter/prison-break-5352d88491590.jpg"; server:"http://copiapop.com"
+SCP-PB:"Prison Break - Season 2" url:"http://copiapop.com/avaleb/prison-break-temporada-2-71228" thu:"https://upload.wikimedia.org/wikipedia/commons/c/cd/Prisonbreaklogo.png" fan:"https://fanart.tv/fanart/tv/75340/seasonposter/prison-break-5352d88fee894.jpg"; server:"http://copiapop.com"
+SCP-PB:"Prison Break - Season 3" url:"http://copiapop.com/avaleb/prison-break-temporada-3-71387" thu:"https://upload.wikimedia.org/wikipedia/commons/c/cd/Prisonbreaklogo.png" fan:"https://annieinmn.wordpress.com/files/2008/04/SCP3.jpg"; server:"http://copiapop.com"
+SCP-PB:"Prison Break - Season 4" url:"http://copiapop.com/avaleb/prison-break-temporada-4-71520" thu:"https://upload.wikimedia.org/wikipedia/commons/c/cd/Prisonbreaklogo.png" fan:"https://fanart.tv/fanart/tv/75340/seasonposter/prison-break-5352d8a521cce.jpg"; server:"http://copiapop.com"
+SCP-PB:"Prison Break - Season 5" url:"http://copiapop.com/djl/SCPs5-111283" thu:"https://upload.wikimedia.org/wikipedia/commons/c/cd/Prisonbreaklogo.png" fan:"https://s-media-cache-ak0.pinthu.com/236x/d6/24/79/d62479b73e72dc2a312393eef443e9ab.jpg"; server:"http://copiapop.com"
+
+<!-- === ZONA 2 - SERIES RETRO COPIAPOP === -->
+SRCP:"                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies Sagas[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+SRCP:"===================================================" url:"" thu:"" fan:""; server:""
+Name:"" url:"" thu:"" fan:""; server:"http://copiapop.com"
+
+SRCP-DYJ:"Drake y Josh Temporada 1" url:"http://copiapop.com/avaleb/drake-y-josh-temporada-1-69873" thu:"http://2.bp.blogspot.com/-QuKG-aRHPsM/T6xCri9b3wI/AAAAAAAAA6o/7v_4nytueEg/s1600/Render+drake+e+josh.png" fan:"http://2.bp.blogspot.com/-UsuoapxTcA0/T5ikWNeo_wI/AAAAAAAANyk/dRwT6GdDsJw/s1600/Drake_And_Josh_Wallpaper__by_PowderThorn.jpg"; server:"http://copiapop.com"
+SRCP-DYJ:"Drake y Josh Temporada 2" url:"http://copiapop.com/avaleb/drake-y-josh-temporada-2-70200" thu:"http://2.bp.blogspot.com/-QuKG-aRHPsM/T6xCri9b3wI/AAAAAAAAA6o/7v_4nytueEg/s1600/Render+drake+e+josh.png" fan:"http://2.bp.blogspot.com/-UsuoapxTcA0/T5ikWNeo_wI/AAAAAAAANyk/dRwT6GdDsJw/s1600/Drake_And_Josh_Wallpaper__by_PowderThorn.jpg"; server:"http://copiapop.com"
+SRCP-DYJ:"Drake y Josh Temporada 3" url:"http://copiapop.com/avaleb/drake-y-josh-temporada-3-70249" thu:"http://2.bp.blogspot.com/-QuKG-aRHPsM/T6xCri9b3wI/AAAAAAAAA6o/7v_4nytueEg/s1600/Render+drake+e+josh.png" fan:"http://2.bp.blogspot.com/-UsuoapxTcA0/T5ikWNeo_wI/AAAAAAAANyk/dRwT6GdDsJw/s1600/Drake_And_Josh_Wallpaper__by_PowderThorn.jpg"; server:"http://copiapop.com"
+SRCP-DYJ:"Drake y Josh Temporada 4" url:"http://copiapop.com/avaleb/drake-y-josh-temporada-4-70256" thu:"http://2.bp.blogspot.com/-QuKG-aRHPsM/T6xCri9b3wI/AAAAAAAAA6o/7v_4nytueEg/s1600/Render+drake+e+josh.png" fan:"http://2.bp.blogspot.com/-UsuoapxTcA0/T5ikWNeo_wI/AAAAAAAANyk/dRwT6GdDsJw/s1600/Drake_And_Josh_Wallpaper__by_PowderThorn.jpg"; server:"http://copiapop.com"
+
+<!-- === ZONA 2 - SERIES INFANTILES COPIAPOP === -->
+SICP:"                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies Sagas[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+SICP:"===================================================" url:"" thu:"" fan:""; server:""
+Name:"" url:"" thu:"" fan:""; server:"http://copiapop.com"
+
+SICP-hemanas:"Toda La Serie" src="http://copiapop.com/karurosu15/he-man-83725/list,1,6";
+SICP-hemaness:"He-Man And She-Ra El Secreto de la Espada" src="http://copiapop.com/karurosu15/he-man-she-ra-el-secreto-de-la-espada-90028/list,1,6";
+SICP-hemanece:"He-Man And She-Ra Especial De Navidad" src="http://copiapop.com/karurosu15/he-man-y-she-ra-especial-navidad-90030/list,1,3";
+SICP-heman:"Toda La Serie" src="http://copiapop.com/karurosu15/he-man-83725/list,1,6";
+SICP-heman:"He-man y She-Ra El Secreto de la Espada" src="http://copiapop.com/karurosu15/he-man-she-ra-el-secreto-de-la-espada-90028/list,1,6";
+SICP-heman:"He-Man y She-Ra Especial Navidad" src="http://copiapop.com/karurosu15/he-man-y-she-ra-especial-navidad-90030/list,1,3";
+
+SICP-simpsons:"Temporada 1" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-1-62598/list,1,1";
+SICP-simpsons:"Temporada 2" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-2-62612/list,1,1";
+SICP-simpsons:"Temporada 3" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-3-62651/list,1,2";
+SICP-simpsons:"Temporada 4" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-4-62703/list,1,1";
+SICP-simpsons:"Temporada 5" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-5-62704/list,1,1";
+SICP-simpsons:"Temporada 6" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-6-62705/list,1,2";
+SICP-simpsons:"Temporada 7" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-7-62706/list,1,2";
+SICP-simpsons:"Temporada 8" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-8-62707/list,1,2";
+SICP-simpsons:"Temporada 9" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-9-62708/list,1,2";
+SICP-simpsons:"Temporada 10" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-10-62736/list,1,2";
+SICP-simpsons:"Temporada 11" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-11-62737/list,1,1";
+SICP-simpsons:"Temporada 12" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-12-62738/list,1,1";
+SICP-simpsons:"Temporada 13" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-13-62739/list,1,1";
+SICP-simpsons:"Temporada 14" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-14-62740/list,1,1";
+SICP-simpsons:"Temporada 15" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-15-62741/list,1,1";
+SICP-simpsons:"Temporada 16" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-16-62742/list,1,1";
+SICP-simpsons:"Temporada 17" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-17-62743/list,1,1";
+SICP-simpsons:"Temporada 18" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-18-62744/list,1,1";
+SICP-simpsons:"Temporada 19" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-19-62745/list,1,1";
+SICP-simpsons:"Temporada 20" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-20-62746/list,1,1";
+SICP-simpsons:"Temporada 21" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-21-62747/list,1,1";
+SICP-simpsons:"Temporada 22" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-22-62748/list,1,1";
+SICP-simpsons:"Temporada 23" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-23-62749/list,1,1";
+SICP-simpsons:"Temporada 24" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-24-62750/list,1,1";
+SICP-simpsons:"Temporada 25" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-25-62751/list,1,1";
+SICP-simpsons:"Temporada 26" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-26-62752/list,1,1";
+SICP-simpsonsesp:"Temporada 01/25" src="http://copiapop.com/Koba1994/los-simpsons-72489/list,1,24";
+
+<!-- === ZONA 2 - MOVIES COPIAPOP === -->
+
+MCP:"                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 2][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+MCP:"===================================================" url:"" thu:"" fan:""; server:""
+MCP:"MOVIES PACK 1 [COLOR white] PELICULAS DE HOY[/COLOR]" url:"http://copiapop.com/sorprenent/peliculas-actuales-50567" thu:"" fan:""; server:"http://copiapop.com";
+MCP:"MOVIES PACK 2 [COLOR white] SAGAS Y PELICULAS[/COLOR][COLOR orange] (1080P)[/COLOR]" url:"http://copiapop.com/Papelillio/otras-sagas-y-peliculas-54991" thu:"" fan:""; server:"http://copiapop.com";
+MCP:"MOVIES PACK 3 [COLOR white] VARIADOS[/COLOR][COLOR orange] (1080P)[/COLOR]" url:"http://copiapop.com/rominaaraujo1316/pelis-hd1080-42661" thu:"" fan:""; server:"http://copiapop.com";
+MCP:"MOVIES PACK 4 [COLOR white] VARIADOS[/COLOR]" url:"http://copiapop.com/rominaaraujo1316/13-02-2016-47304" thu:"" fan:""; server:"http://copiapop.com";
+MCP:"MOVIES PACK 5 [COLOR white] VARIADOS[/COLOR]" url:"http://copiapop.com/jashpubli/peliculas-mkv-53881" thu:"" fan:""; server:"http://copiapop.com";
+MZL:"HP" url:"http://copiapop.com/EnixLyne/saga-harry-potter-1080-dual-v-extendida-66798" thu:"" fan:""; server:"http://copiapop.com"
+MZL:"SW" url:"http://copiapop.com/EnixLyne/saga-star-wars-1080-dual-remasterizada-66630" thu:"" fan:""; server:"http://copiapop.com"
+MZL:"BAT" url:"http://copiapop.com/EnixLyne/coleccion-batman-66628" thu:"" fan:""; server:"http://copiapop.com"
+MZL:"LOTR" url:"http://copiapop.com/EnixLyne/saga-el-senor-de-los-anillos-1080-dual-v-extendida-66611" thu:"" fan:""; server:"http://copiapop.com"
+Name:"" url:"" thu:"" fan:""; server:"http://copiapop.com"
+Name:"" url:"" thu:"" fan:""; server:"http://copiapop.com"
+Name:"" url:"" thu:"" fan:""; server:"http://copiapop.com"
+Name:"" url:"" thu:"" fan:""; server:"http://copiapop.com"
+
+
+
+
+<!-- === ZONA 2 - MOVIES INFANTILES COPIAPOP === -->
+MICP:"                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies Infantiles[/COLOR] [COLOR gold][ZONA 2][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+MICP:"===================================================" url:"" thu:"" fan:""; server:""
+MICP:"WALT DISNEY" url:"http://copiapop.com/iiirepublica/cine-infantil-disney-59881" thu:"https://s-media-cache-ak0.pinimg.com/originals/05/54/79/055479600e02acd988f06fdf251692e0.jpg" fan:"http://akns-images.eonline.com/eol_images/Entire_Site/2014617/rs_560x349-140717140914-1024.disney.cm.71714_copy.jpg"; server:"http://copiapop.com"
+Name:"" url:"" thu:"" fan:"" server:"http://copiapop.com";
+
+<!-- === ZONA 2 - MOVIES SAGAS COPIAPOP === -->
+MSCP:"                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies Sagas[/COLOR] [COLOR gold][ZONA 2][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+MSCP:"===================================================" url:"" thu:"" fan:""; server:""
+Name:"" url:"" thu:"" fan:""; server:"http://copiapop.com"
+
+<!-- === ZONA 2 - VIDEOS MUSICALES COPIAPOP === -->
+MVCP:"                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Videos Musicales[/COLOR] [COLOR gold][ZONA 2][/COLOR] [COLOR white]| :::[/COLOR]" url:"" thu:"" fan:""; server:""
+MVCP:"===================================================" url:"" thu:"" fan:""; server:""
+MVCP:"VIDEOS MUSICALES PACK 1" url:"http://copiapop.com/aguilerapan/videos-musicales-65842" thu:"" fan:""; server:"http://copiapop.com";
+MVCP:"VIDEOS MUSICALES PACK 2" url:"http://copiapop.com/djl/mv-107919?f=1" thu:"" fan:""; server:"http://copiapop.com";
+Name:"" url:"" thu:"" fan:""; server:"http://copiapop.com"
+
+<!-- ************************************************************************************************************************************************************************** -->
+
+<!--- *** PARA REVISAR *** -->
+
+<!-- === SERIES === -->
+GOT:"Juego de Tronos [Castellano]" url:"http://diskokosmiko.mx/trivianita/juego-de-tronos-castellanoel-rockero-31788" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwOTcxODc2Ml5BMl5BanBnXkFtZTgwMjMyMDk2MTI@._V1_SX300.jpg" fan:"http://0.media.dorkly.cvcdn.com/61/82/220876d476cf6ea27101d80913796c6a.jpg"; server:"http://diskokosmiko.mx"
+Name:"Juego de Tronos [Castellano]" url:"http://diskokosmiko.mx/trivianita/juego-de-tronos-castellanoel-rockero-31788" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwOTcxODc2Ml5BMl5BanBnXkFtZTgwMjMyMDk2MTI@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"Flash [Castellano] " url:"http://diskokosmiko.mx/garroteca/the-flash-47866" thu:"https://s-media-cache-ak0.pinthu.com/originals/22/72/09/2272099b26e58c601cc4fa2c85f6e64d.jpg"; server:"http://diskokosmiko.mx"
+Name:"Gotham Temporada 1  [Castellano]" url:"http://diskokosmiko.mx/chicho306/gotham-t1-34140" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjI5MjAwNTg0NF5BMl5BanBnXkFtZTgwNDk1NTk4OTE@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"Mr Robot Temporada 1 " url:"http://diskokosmiko.mx/SeriesHD/mr-robot-t1-dual-34884" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzMDE2MzI4MF5BMl5BanBnXkFtZTgwNTkxODgxOTE@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"Marco Polo Temporada 1 " url:"http://diskokosmiko.mx/SeriesHD/marco-polo-t1-34873" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjM5NTk1MTc4OF5BMl5BanBnXkFtZTgwNTE5ODIxOTE@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"Marco Polo Temporada 2" url:"http://diskokosmiko.mx/SeriesHD/marco-polo-t2-34872" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjM5NTk1MTc4OF5BMl5BanBnXkFtZTgwNTE5ODIxOTE@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"The Leftovers  T1" url:"http://diskokosmiko.mx/SeriesHD/the-leftovers-t1-34957" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BNzA5NDE0ODExMF5BMl5BanBnXkFtZTgwODQzNzY3MTI@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"The Leftovers  T2" url:"http://diskokosmiko.mx/SeriesHD/the-leftovers-t2-34959" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BNzA5NDE0ODExMF5BMl5BanBnXkFtZTgwODQzNzY3MTI@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"The Big bang Theory [Completa]" url:"http://diskokosmiko.mx/darioman/the-big-bang-theory-48854" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyNDMxNjQyN15BMl5BanBnXkFtZTgwNzA4NDQwMDI@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"12 Monkeys" url:"http://diskokosmiko.mx/trivianita/12-monos-el-rockero-50205" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTkwOTcxNzMzOV5BMl5BanBnXkFtZTgwODYxNjg0ODE@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"24 Legacy" url:"http://partagora.com/chicho306/24-legacy-dual-t1-65707/" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4OTI1NTA2MV5BMl5BanBnXkFtZTgwOTc2MzQ4MDI@._V1_SX300.jpg"; server:"http://partagora.com"
+Name:"Absuelto Temporada 1" url:"http://partagora.com/chicho306/absuelto-t1-68893" thu:"http://ia.media-imdb.com/images/M/MV5BMTkzNjIwNjM0MF5BMl5BanBnXkFtZTcwNzgwODg0MQ@@._V1_SX300.jpg"; server:"http://partagora.com"
+Name:"Absuelto Temporada 2" url:"http://partagora.com/chicho306/absuelto-t2-68896" thu:"http://ia.media-imdb.com/images/M/MV5BMTkzNjIwNjM0MF5BMl5BanBnXkFtZTcwNzgwODg0MQ@@._V1_SX300.jpg"; server:"http://partagora.com"
+Name:"Agents of Shield T1" url:"http://partagora.com/chicho306/marvel-agentes-of-shield-t1-66682" thu:""; server:"http://partagora.com"
+Name:"Juego de Tronos T1 [Castellano]" url:"http://diskokosmiko.mx/monnet/juegos-de-tronos-serie-temporada-1-completo-27785" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwOTcxODc2Ml5BMl5BanBnXkFtZTgwMjMyMDk2MTI@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"Juego de Tronos T2 [Castellano]" url:"http://diskokosmiko.mx/monnet/juego-de-tronos-serie-temporada-2-completa-27784/" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwOTcxODc2Ml5BMl5BanBnXkFtZTgwMjMyMDk2MTI@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"Por Trece Razones [Castellano]" url:"http://partagora.com/chicho306/por-trece-razones-dual-t1-71761" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BYTFmNzRlNWYtMmFmNi00ZTFiLWJhODgtOGM5ODQ5NTgxZWUwL2ltYWdlXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_SX300.jpg"; server:"http://partagora.com"
+Name:"Trece Razones Porque [Latino]" url:"http://partagora.com/rufotheone/13razonesporque-72825" thu:"https://images-na.ssl-images-amazon.com/images/M/MV5BYTFmNzRlNWYtMmFmNi00ZTFiLWJhODgtOGM5ODQ5NTgxZWUwL2ltYWdlXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_SX300.jpg"; server:"http://partagora.com"
+
+<!-- === SERIES INFANTILES === -->
+south:"South Park" src="http://copiapop.com/Koba1994/south-park-39449/list,1,19";
+futu:"Futurama" src="http://copiapop.com/allupserie/futurama-espanol-71670/list,1,41";
+oveja:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/la-oveja-shaun-77901/list,1,2";
+koala:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/los-hermanos-koala-77888/list,1,3";
+pat:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/pat-el-cartero-77731/list,1,4";
+pica:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/los-picapiedra-latino-77649/list,1,7";
+ben:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/el-pequeno-reino-de-ben-y-holly-77545/list,1,3";
+jelly:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/jelly-jamm-77535/list,1,3";
+ben:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/el-pequeno-reino-de-ben-y-holly-77545/list,1,3";
+ben:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/el-pequeno-reino-de-ben-y-holly-77545/list,1,3";
+
+power:"Power Ranger Mighty Morphin Castellano" src="http://copiapop.com/TarifaDescarga/power-ranger-mighty-morphin-castellano-83774/list,1,7";
+power:"Power Rangers Zeo Castellano!!" src="http://copiapop.com/TarifaDescarga/power-rangers-zeo-castellano-83674/list,1,10";
+power:"Power Rangers Turbo Castellano" src="http://copiapop.com/TarifaDescarga/power-rangers-turbo-castellano-84328/list,1,7";
+power:"Power Rangers en el espacio (In Space)" src="http://copiapop.com/TarifaDescarga/power-rangers-en-el-espacio-in-space-84407/list,1,7";
+power:"Power Rangers Lost Galaxy " src="http://copiapop.com/TarifaDescarga/power-rangers-lost-galaxy-84493/list,1,7";
+power:"Power Rangers Rescate Relampago" src="http://copiapop.com/TarifaDescarga/power-rangers-rescate-relampago-84851/list,1,7";
+power:"Power Rangers Time Force Castellano" src="http://copiapop.com/TarifaDescarga/power-rangers-time-force-castellano-84953/list,1,7";
+power:"Power Rangers Poder Salvaje" src="http://copiapop.com/TarifaDescarga/power-rangers-poder-salvaje-85095/list,1,7";
+power:"Power Rangers Ninja Storm" src="http://copiapop.com/TarifaDescarga/power-rangers-ninja-storm-85127/list,1,7";
+power:"Power Rangers Dino Thunder Castellano" src="http://copiapop.com/TarifaDescarga/power-rangers-dino-thunder-castellano-85227/list,1,7";
+power:"Power Rangers S.P.D castellano" src="http://copiapop.com/TarifaDescarga/power-rangers-s-p-d-castellano-85319/list,1,7";
+power:"Power Rangers Fuerza Mística" src="http://copiapop.com/TarifaDescarga/power-rangers-fuerza-mistica-85487/list,1,7";
+power:"Power Rangers Operation Overdrive Castellano" src="http://copiapop.com/TarifaDescarga/power-rangers-operation-overdrive-castellano-85503/list,1,7";
+power:"Power Rangers Jungle Fury Castellano" src="http://copiapop.com/TarifaDescarga/power-rangers-jungle-fury-castellano-85719/list,1,7";
+power:"Power Rangers Samurai Castellano" src="http://copiapop.com/TarifaDescarga/power-rangers-samurai-castellano-85846/list,1,7";
+power:"Power Rangers Super Samurai" src="http://copiapop.com/TarifaDescarga/power-rangers-super-samurai-85854/list,1,7";
+power:"Power Rangers Megaforce/ SuperMegaforce" src="http://copiapop.com/TarifaDescarga/power-rangers-megaforce-supermegaforce-85912/list,1,7";
+
+dora:"http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t1-castellano-44536" name:"Temporada 1";
+dora:"http://diskokosmiko.mx/gemma-valencia/dora-la-explroradora-t2-castellano-44627" name:"Temporada 2";
+dora:"http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t3-castellano-44721" name:"Temporada 3";
+dora:"http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t4-castellano-44766" name:"Temporada 4";
+dora:"http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t5-castellano-44774" name:"Temporada 5";
+
+mouse:"http://diskokosmiko.mx/gemma-valencia/la-casa-de-mickey-mause-t1-castellano-44850" name:"Temporada 1";
+mouse:"http://diskokosmiko.mx/gemma-valencia/la-casa-de-mickey-mouse-t2-castellano-44867" name:"Temporada 2";
+mouse:"http://diskokosmiko.mx/gemma-valencia/la-casa-de-mickey-mouse-t3-castellano-45018" name:"Temporada 3";
+
+hora:"Disfruta de la serie" src="http://copiapop.com/aisha/hora-de-aventuras-53248/list,1,10";
+
+FREEWORLD
+
+Name:"[B][COLOR cyan]sons-of-anarchy-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t1-34589" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]sons-of-anarchy-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t2-34593" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]sons-of-anarchy-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/Cuspide/sons-of-anarchy-t3-34604" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]24-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/Cuspide/24-t1-d-34459" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]24-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/Cuspide/24-t2-d-34452" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]24-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/Cuspide/24-t3-d-34367" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]24-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/Cuspide/24-t4-d-34350" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]24-t5[/COLOR][/B]" url:"http://diskokosmiko.mx/Cuspide/24-t5-34265" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]24-t6[/COLOR][/B]" url:"http://diskokosmiko.mx/Cuspide/24-t6-d-34112" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]24-t7[/COLOR][/B]" url:"http://diskokosmiko.mx/Cuspide/24-t7-33997" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]24-t8[/COLOR][/B]" url:"http://diskokosmiko.mx/Cuspide/24-t8-33949" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]24-t9[/COLOR][/B]" url:"http://diskokosmiko.mx/Cuspide/24-vive-otro-dia-t9-34526" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]prision-break-all season[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/prision-break-temporadas-1234-23760" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]anatomia-de-grey-temporadas-891011[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/anatomia-de-grey-temporadas-891011-22057" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]casados-a-primera-vista-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/casados-a-primera-vista-temporada-2-20691" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]la-dama-velada-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/la-dama-velada-temporada-1-16625" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]whitney-t12[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/whitney-temporadas-12-16615" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]magnum-pi-t12345678[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/magnum-pi-temporadas-12345678-15957" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]un-paso-adelante[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/un-paso-adelante-14630" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]embrujadas-t5678[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/embrujadas-temporadas-5678-14600" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]aguila-roja-t12345[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/aguila-roja-temporadas-12345-14585" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]los-rompecorazones[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/los-rompecorazones-14580" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]dexter-t12345[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/dexter-temporadas-12345-14570" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]breaking-bad[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/breaking-bad-14550" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]cheers-t123456789[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/cheers-temp-123456789-14518" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]como-conoci-a-vuestra-madre-t456789[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/como-conoci-a-vuestra-madre-temp-456789-14497" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]fisica-o-quimica-t1234567[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/fisica-o-quimica-temp-1234567-14494" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]cuentame-como-paso-t1 to 14[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/cuentame-como-paso-temp-1-14-14395" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]los-problemas-crecen-t12345[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/los-problemas-crecen-temporadas-12345-14387" img:""; server:"http://diskokosmiko.mx"Name:"[B][COLOR cyan][/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]la-casa-de-los-lios[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/la-casa-de-los-lios-14277" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]detective-conan-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/detective-conan-serie-completa-14208" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]walker-ranger-texas-t123456789[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/walker-ranger-texas-temp-12345678-9-13639" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]joyas-sobre-ruedas[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/joyas-sobre-ruedas-13619" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]roswell[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/roswell-13559" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]treinta-y-tantos-t134[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/treinta-y-tantos-temp-134-13537" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]felicity-t1234[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/felicity-temp-1234-13526" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]apartamento-para-tres-t345678[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/apartamento-para-tres-temp-34567-8-13524" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]mentes-criminales-t123456789[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/mentes-criminales-temporadas-123456789-12258" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]sexo-en-nueva-york-t12345[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/sexo-en-nueva-york-temporadas-12345-y-6-12175" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]hermanos-de-sangre-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/hermanos-de-sangre-temporada-1-12174" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]7-vidas-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/7-vidas-siete-vidas-completa-11882" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]juana-y-sergio[/COLOR][/B]" url:"http://diskokosmiko.mx/lokario1/dos-fueras-de-serie-juana-y-sergio-castellano-11853" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]true-detective1[/COLOR][/B]" url:"http://diskokosmiko.mx/seri5/true-detective1-28592" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]truedetective t2[/COLOR][/B]" url:"http://diskokosmiko.mx/jamesplo4/tro3d3t3ct2-26231" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]under-the-dome t1[/COLOR][/B]" url:"http://diskokosmiko.mx/seri5/under-the-dome-28585" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]under-the-dome t2[/COLOR][/B]" url:"http://diskokosmiko.mx/seri5/under-the-dome2-28586" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]z-nation1[/COLOR][/B]" url:"http://diskokosmiko.mx/seri5/z-nation1-28569" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]z-nation2[/COLOR][/B]" url:"http://diskokosmiko.mx/seri5/z-nation2-28570" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]white-collar1[/COLOR][/B]" url:"http://diskokosmiko.mx/seri5/white-collar-28571" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]white-collar2[/COLOR][/B]" url:"http://diskokosmiko.mx/seri5/white-collar2-28572" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]white-collar3[/COLOR][/B]" url:"http://diskokosmiko.mx/seri5/white-collar3-28573" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]white-collar4[/COLOR][/B]" url:"http://diskokosmiko.mx/seri5/white-collar4-28574" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]cuatro-estaciones[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/cuatro-estaciones-en-la-habana-miniserie-51621" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]crossing-lines-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/crossing-lines-t1-51405" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bloodline-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bloodline-t3-69999" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]por-trece-razones-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/por-trece-razones-dual-t1-64424" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]la-guerra-en-hollywood-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/la-guerra-en-hollywood-t1-64423" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-americans-dual-t5[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-americans-dual-t5-63936" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]ingobernable-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/ingobernable-t1-63916" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]la-reina-del-sur-2[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/la-reina-del-sur-parte-2-2806" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]la-reina-del-sur-1[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/la-reina-del-sur-parte-1-2807" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]escobar-el-patron-del-mal[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/escobar-el-patron-del-mal-2799" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]casados-con-hijos-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/casados-con-hijos-serie-completa-2798" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]torchwood-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/torchwood-2t-completa-2703" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]torchwood-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/torchwood-1t-completa-spanish-2702" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]modern-family-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/modern-family-temp-1-hdtvspanish-2676" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]flashforward-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/flashforward-serie-completa-22-capitulos-spanish-2675" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]arrow-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/arrow-t1-completa-hd720pspanish-2674" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]mentes-criminales[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/mentes-criminales-7-tem2005-2012spanish-2673" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]scrubs-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/scrubs-serie-completa-t1-t9-espanolspanish-2672" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]grimm-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/grimm-seasons-123-hdtv-subtitulado-esp-sc-2671" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]top-gear-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/top-gear-bbc-seasons-1-to-18-complete-2669" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]csi-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/csi-seasons-1-12-complete-2668" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]er-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/er-all-seasons-1-15-2667" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-a-team-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/the-a-team-all-five-seasons-complete-2619" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]macgyver-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/macgyver-the-complete-collectors-edition-2618" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]breaking-bad-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/breaking-bad-subtitulado-spanish-espanol-t1-t3-2526" img:""; server:"http://diskokosmiko.mx"Name:"[B][COLOR cyan][/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]veronica-mars-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/veronica-mars-3-temporada-espanol-2525" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]24-temporada-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/24-temporada-2-espanol-2522" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]elementary[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/elementary-season-1-and-2-subtitulados-espanol-2521" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]anatomia-de-grey-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/anatomia-de-grey-temporada-1-espanol-1275" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-walking-dead-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/the-walking-dead-temporada-1-espanol-1274" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]dr-house-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/dr-house-temporada-4-sub-espanol-1270" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]vikings-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/vikings-temporada-1-completa-hd-1268" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]silicon-valley-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/silicon-valley-s01-sub-espanol-1260" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]two-and-a-half-men-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/two-and-a-half-men-all-season-1259" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]black-mirror-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/miniserie-black-mirror-completa-espanol-1167" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-walking-dead-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/the-walking-dead-temporada-3-espanol-1164" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]breaking-bad-t5[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/breaking-bad-s05-sub-espanol-complete-1161" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]friends-serie-completa[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/friends-serie-completa-1156" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]veronica-mars-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/veronica-mars-2-temporada-espanol-1155" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]veronica-mars-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/titotv/veronica-mars-1-temporada-espanol-1154" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-legacy-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-legacy-t3-63915" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-last-kingdom-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-last-kingdom-dual-t2-63835" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]crisis-in-six-scenes-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/crisis-in-six-scenes-dual-t1-63678" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]catastrophe-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/catastrophe-t3-63668" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]into-the-badlands-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/into-the-badlands-dual-t2-63667" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-arrangement-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-arrangement-dual-t1-63666" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]younger-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/younger-t1-63592" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]agente-carter-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/agente-carter-dual-t1-61973" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]agente-carter-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/agente-carter-dual-t2-63591" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]alli-abajo-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/alli-abajo-t3-63421" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]idiotsitter-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/idiotsitter-t1-63420" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]iron-fist-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/iron-fist-dual-t1-63095" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]one-mississippi-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/one-mississippi-dual-t1-63044" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]you-are-wanted-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/you-are-wanted-dual-t1-63043" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]channel-zero-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/channel-zero-dual-t1-63010" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]when-we-rise-dual-miniserie[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/when-we-rise-dual-miniserie-62887" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]american-crime-dual-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/american-crime-dual-t3-62605" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]hand-of-god-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/hand-of-god-dual-t2-62481" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-unit-dual-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-unit-dual-t4-62422" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-unit-dual-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-unit-dual-t3-62418" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-unit-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-unit-dual-t2-62405" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-unit-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-unit-dual-t1-62397" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]marc-marquez-de-cervera-a-tokio[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/marc-marquez-de-cervera-a-tokio-62379" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]mama-contra-corriente-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/mama-contra-corriente-t1-62278" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]love-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/love-dual-t2-62277" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]feud-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/feud-dual-t1-62276" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bitten-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bitten-dual-t1-49434" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bitten-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bitten-dual-t2-52414" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bitten-dual-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bitten-dual-t3-62275" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]red-oaks-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/red-oaks-dual-t2-62170" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]duda-razonable-doubt-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/duda-razonable-doubt-t1-62169" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]crazy-ex-girlfriend-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/crazy-ex-girlfriend-dual-t2-62168" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]community-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/community-t1-52205" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]community-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/community-t4-52208" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]community-t5[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/community-t5-52209" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]community-dual-t6[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/community-dual-t6-52355" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]halfworlds-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/halfworlds-t2-61952" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]ifamily-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/ifamily-t1-61861" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]las-leyendas-animacion-t1-61662[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/las-leyendas-animacion-t1-61662" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]motive-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/motive-t4-61602" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]tutankamon-dual-miniserie[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/tutankhamun-tutankamon-dual-miniserie-61571" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-blacklist-redemption-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-blacklist-redemption-dual-t1-61570" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]teen-wolf-t5[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/teen-wolf-t5-61556" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]search-party-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/search-party-dual-t1-61526" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]greenleaf-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/greenleaf-dual-t1-61440" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-good-fight-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-good-fight-t1-61328" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]dead-of-summer-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/dead-of-summer-dual-t1-61319" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]la-caza-the-fall-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/la-caza-the-fall-t3-61194" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]training-day-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/training-day-dual-t1-61072" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]oficina-de-infiltrados-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/oficina-de-infiltrados-dual-t1-60949" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]another-period-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/another-period-t2-60906" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]kazoops-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/kazoops-t2-60822" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]z-the-beginning-of-everything-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/z-the-beginning-of-everything-dual-t1-59552" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]como-defender-a-un-asesino-dual-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/como-defender-a-un-asesino-dual-t3-55420" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]ransom-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/ransom-dual-t1-54288" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-collection-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-collection-t1-54199" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]dragon-ball-super-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/dragon-ball-super-t1-54167" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]billions-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/billions-dual-t2-54164">Billions (Dual) T2" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]crashing-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/crashing-dual-t1-54163" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]goliath-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/goliath-dual-t1-53763" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]scandal-dual-t6[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/scandal-dual-t6-53650" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]fortitude-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/fortitude-dual-t2-53649" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]chicago-p-d-dual-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/chicago-p-d-dual-t3-53647" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]los-100-dual-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/los-100-dual-t4-53525" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]legion-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/legion-dual-t1-53425" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]cyborg-009[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/cyborg-009-animacion-t1-53254" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]24-legacy-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/24-legacy-t1-53102" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]fleabag-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/fleabag-dual-t1-53031" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]la-extrana-pareja-dual-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/la-extrana-pareja-dual-t3-52594" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]your-lie-in-april-animacion-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/your-lie-in-april-animacion-t1-52524" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]riverdale-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/riverdale-dual-t1-52416" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]santa-clarita-diet-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/santa-clarita-diet-dual-t1-52363" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]this-is-us-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/this-is-us-t1-52357" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-man-in-the-high-castle-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-man-in-the-high-castle-dual-t2-52356" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]homeland-dual-t6[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/homeland-dual-t6-52262" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-magicians-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-magicians-dual-t2-52169" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]black-sails-dual-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/black-sails-dual-t4-52011" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]crossing-lines-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/crossing-lines-t3-51407" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]crossing-lines-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/crossing-lines-t2-51406" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]crossing-lines-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/crossing-lines-t1-51405" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bedlam-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bedlam-t2-51370" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bedlam-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bedlam-t1-51369" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]battle-creek-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/battle-creek-t1-51368" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]show-me-a-hero[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/show-me-a-hero-miniserie-51338" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]xiii-la-serie-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/xiii-la-serie-t2-51318" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]einstein-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/einstein-t1-51245" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]imborrable-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/imborrable-t4-51187" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]imborrable-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/imborrable-t3-51186" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]imborrable-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/imborrable-t2-51185" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]imborrable-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/imborrable-t1-51184" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]alpha-house-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/alpha-house-t2-51068" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]alpha-house-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/alpha-house-t1-51067" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]awake-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/awake-t1-51066" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]review-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/review-dual-t2-51065" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]review-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/review-dual-t1-51064" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]wolf-hall[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/wolf-hall-miniserie-51049" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]reinas[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/reinas-miniserie-51047" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]matador-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/matador-t1-51045" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]vera-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/vera-t3-50975" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]vera-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/vera-t2-50974" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]vera-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/vera-t1-50973" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]startup-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/startup-dual-t1-50968" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]ballers-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/ballers-t1-50791" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]los-crimenes-de-fjallbacka[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/los-crimenes-de-fjallbacka-miniserie-50745" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-outcast[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-outcast-miniserie-50615" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]frontera-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/frontera-t1-50490" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]six-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/six-dual-t1-50312" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]kazoops-animacion-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/kazoops-animacion-t1-50216" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]se-quien-eres-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/se-quien-eres-t1-50057" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-goldbergs-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-goldbergs-t4-50056" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]recien-llegados-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/recien-llegados-t2-49860" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]recien-llegados-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/recien-llegados-t1-49859" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]tyrant-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/tyrant-t2-49762" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]tyrant-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/tyrant-t1-49761" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]emerald-city-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/emerald-city-dual-t1-49594" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]desdichas-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/una-serie-de-catastroficas-desdichas-dual-t1-49593" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]raices[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/raices-2016-dual-miniserie-49482" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]rectify-dual-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/rectify-dual-t4-49481" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]grimm-dual-t6[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/grimm-dual-t6-49480" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]vikingos-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/vikingos-al-descubierto-docuserie-t1-49437" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]taboo-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/taboo-dual-t1-49436" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]las-supernenas[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/las-supernenas-2016-animacion-t1-49435" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]aftermath-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/aftermath-dual-t1-49388" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]el-final-del-camino-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/el-final-del-camino-t1-49387" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]humans-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/humans-dual-t2-49386" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]nikita-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/nikita-t4-49344" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]nikita-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/nikita-t3-49343" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]nikita-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/nikita-t2-49342" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]nikita-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/nikita-t1-49335" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]poldark-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/poldark-t1-49259" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]pulsaciones-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/pulsaciones-t1-49258" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-crown-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-crown-t1-49244" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]tarzan-y-jane[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/tarzan-y-jane-animacion-t1-48905" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]dia-a-dia-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/dia-a-dia-t1-48904" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]angie-tribeca-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/angie-tribeca-dual-t2-48901" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]angie-tribeca-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/angie-tribeca-dual-t1-48900" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]falling-water-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/falling-water-dual-t1-48842" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]orphan-black-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/orphan-black-t4-48669" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]orphan-black-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/orphan-black-t3-48668" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]orphan-black-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/orphan-black-t2-48667" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]orphan-black-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/orphan-black-t1-48666" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]shadowhunters-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/shadowhunters-t1-48572" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]sherlock-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/sherlock-t3-48520" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]sherlock-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/sherlock-t2-48514" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]sherlock-dual-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/sherlock-dual-t4-48440" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]sherlock-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/sherlock-t1-48438" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bonnie-y-clyde[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bonnie-y-clyde-dual-miniserie-capitulo-unico-1y2-48257" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]1992-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/1992-t1-48243" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]rita-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/rita-t2-48210" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]trollhunters[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/trollhunters-animacion-t1-48033" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]wynonna-earp-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/wynonna-earp-dual-t1-48032" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]el-valle-silencioso[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/el-valle-silencioso-miniserie-48025" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]savage-kingdom-docuserie-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/savage-kingdom-docuserie-t1-47828" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]mozart-in-the-jungle-dual-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/mozart-in-the-jungle-dual-t3-47827" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]umbre-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/umbre-t1-47583" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]sense8-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/sense8-dual-t2-47582" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]codicia-mamon-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/codicia-mamon-t1-47579" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bosch-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bosch-dual-t1-46443" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bosch-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bosch-dual-t2-47576" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]viajeros-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/viajeros-t1-47571" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]wataha-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/wataha-t1-47463" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]childhoods-end-dual[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/childhoods-end-dual-miniserie-47319" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]crazyhead-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/crazyhead-t1-47188" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]beyond-the-walls-dual[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/beyond-the-walls-dual-miniserie-47149" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]rita-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/rita-t1-47076" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]hawaii-5-0-dual-t7[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/hawaii-5-0-dual-t7-47070" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]dice-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/dice-dual-t1-46848" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]ronja-la-hija-del-bandolero-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/ronja-la-hija-del-bandolero-t1-46846" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]van-helsing-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/van-helsing-dual-t1-46752" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]adventure-of-sinbad-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/magi-adventure-of-sinbad-t1-46672" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-oa-dual[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-oa-dual-miniserie-46668" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-secret[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-secret-dual-miniserie-46619" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]madres-forzosas-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/madres-forzosas-t1-46566" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]agentes-of-shield-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/marvel-agentes-of-shield-t3-46489" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]agentes-of-shield-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/marvel-agentes-of-shield-t2-46488" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]agentes-of-shield-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/marvel-agentes-of-shield-t1-46487" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-path-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-path-dual-t1-46447" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]red-oaks-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/red-oaks-dual-t1-46446" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-man-in-the-high-castle-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-man-in-the-high-castle-dual-t1-46445" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]hand-of-god-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/hand-of-god-dual-t1-46444" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]crazy-ex-girlfriend-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/crazy-ex-girlfriend-dual-t1-46440" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]braquo-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/braquo-t3-46374" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]braquo-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/braquo-t2-46372" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]braquo-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/braquo-t1-46371" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]abierto-hasta-el-amanecer-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/abierto-hasta-el-amanecer-t2-46358" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]abierto-hasta-el-amanecer-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/abierto-hasta-el-amanecer-t1-46325" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]los-soprano-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/los-soprano-t1-46157" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]los-soprano-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/los-soprano-t2-46045" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]los-soprano-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/los-soprano-t3-45997" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]los-soprano-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/los-soprano-t4-45989" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]heartless-t1-46147[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/heartless-t1-46147" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]cinco-dias[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/five-days-cinco-dias-miniserie-46121" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]dirk-gently-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/dirk-gently-dual-t1-46120" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]cerca-de-tu-enemigo-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/cerca-de-tu-enemigo-t1-46119" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-americans-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-americans-t4-48189" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-americans-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-americans-t3-48145" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-americans-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-americans-t2-48144" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-americans-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-americans-t1-48142" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]madres-forzosas-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/madres-forzosas-dual-t2-45943" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]into-the-badlands-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/into-the-badlands-t1-45939" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]humans-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/humans-t1-45934" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]somos-osos-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/somos-osos-t1-45890" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]los-mosqueteros-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/los-mosqueteros-t3-45863" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]casual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/casual-t1-45862" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bates-motel-dual-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bates-motel-dual-t4-44480" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bates-motel-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bates-motel-t3-45843" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bates-motel-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bates-motel-t2-45842" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bates-motel-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bates-motel-t1-45841" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]muerte-en-leon[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/muerte-en-leon-documentales-serie-45824" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]vikingos-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/vikingos-t4-45804" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]vikingos-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/vikingos-t3-45802" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]vikingos-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/vikingos-t2-45801" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]vikingos-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/vikingos-t1-45800" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]atrapados-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/atrapados-dual-t1-45797" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]la-pipa-del-tiempo[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/la-pipa-del-tiempo-dual-miniserie-45796" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]gerenation-kill-dual[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/gerenation-kill-dual-t-u-45719" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]halfworlds-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/halfworlds-t1-45709" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]el-padre-de-cain[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/el-padre-de-cain-miniserie-45708" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]kuromukuro-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/kuromukuro-t1-45624" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]dc-legends-of-tomorrow-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/dc-legends-of-tomorrow-dual-t2-45562" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]infierno-sobre-ruedas-dual-t5[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/infierno-sobre-ruedas-dual-t5-45541" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]infierno-sobre-ruedas-dual-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/infierno-sobre-ruedas-dual-t4-45540" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]infierno-sobre-ruedas-dual-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/infierno-sobre-ruedas-dual-t3-45527" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]infierno-sobre-ruedas-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/infierno-sobre-ruedas-dual-t2-45526" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]infierno-sobre-ruedas-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/infierno-sobre-ruedas-dual-t1-45525" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]daredevil-t1-45441[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/daredevil-t1-45441" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]halt-and-catch-fire-t1-45421[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/halt-and-catch-fire-t1-45421" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]halt-and-catch-fire-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/halt-and-catch-fire-t2-45420" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-flash-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-flash-t1-45403" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]fauda-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/fauda-t1-45401" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]dc-legends-of-tomorrow-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/dc-legends-of-tomorrow-t2-45305" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bronbroen-el-puente-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bronbroen-el-puente-t3-45295" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]aranyelet-una-vida-regalada-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/aranyelet-una-vida-regalada-t1-45293" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]codigo-negro-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/codigo-negro-dual-t1-45272" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]halt-and-catch-fire-dual-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/halt-and-catch-fire-dual-t3-45271" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]insecure-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/insecure-t1-45269" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-flash-dual-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-flash-dual-t3-45268" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]high-maintenance-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/high-maintenance-dual-t1-45214" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]miles-del-futuro-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/miles-del-futuro-t1-45161" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-affair-dual-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-affair-dual-t3-45160" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]vice-principals-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/vice-principals-t1-45151" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]house-of-lies-t5[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/house-of-lies-t5-45111" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]house-of-lies-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/house-of-lies-t4-45110" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]house-of-lies-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/house-of-lies-t3-45109" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]house-of-lies-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/house-of-lies-t1-45107" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-librarians-dual-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-librarians-dual-t3-45095" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]blue-bloods-t7[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/blue-bloods-t7-45094" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]south-park-t19[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/south-park-t19-45089" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]quarry-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/quarry-t1-45067" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]better-things-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/better-things-t1-45066" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-young-pope-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-young-pope-t1-45065" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]south-park-t20[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/south-park-t20-45053" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]infieles-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/infieles-t3-45016" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]star-wars-rebels-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/star-wars-rebels-t1-43865" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]star-wars-rebels-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/star-wars-rebels-t2-45005" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]star-wars-rebels-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/star-wars-rebels-t3-45012" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-exorcist-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-exorcist-dual-t1-45009" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]ash-vs-evil-dead-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/ash-vs-evil-dead-dual-t2-45008" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]lucifer-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/lucifer-dual-t2-44979" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]preacher-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/preacher-dual-t1-44978" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]frequency-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/frequency-dual-t1-44977" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]black-mirror-white-chirstmas[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/black-mirror-white-chirstmas-44797" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]american-horror-story-dual-t6[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/american-horror-story-dual-t6-44765" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]dark-angel[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/dark-angel-miniserie-44764" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]chicas-gilmore[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/las-4-estaciones-de-las-chicas-gilmore-miniserie-44763" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]dr-slump[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/dr-slump-44734" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]black-sails-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/black-sails-t1-44733" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]black-sails-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/black-sails-t2-44732" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]black-sails-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/black-sails-t3-44730" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]elfen-lied-anime-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/elfen-lied-anime-t1-44722" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]berserk-anime[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/berserk-anime-temporada-unica-44710" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]los-vampiros[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/el-reino-de-los-vampiros-anime-t1-44707" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]infieles-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/infieles-t2-44662" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]ncis-los-angeles-t7[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t7-44659" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]ncis-los-angeles-t6[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t6-44658" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]ncis-los-angeles-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t4-44656" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]ncis-los-angeles-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t3-44655" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]ncis-los-angeles-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t2-44654" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]ncis-los-angeles-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t1-44653" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]brooklyn-nine-nine-dual-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/brooklyn-nine-nine-dual-t4-44626" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]chicago-p-d-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/chicago-p-d-dual-t2-44604" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]strike-back-t5[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/strike-back-t5-43601" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]strike-back-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/strike-back-t4-44599" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]strike-back-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/strike-back-t3-44598" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]strike-back-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/strike-back-t2-44597" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]strike-back-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/strike-back-t1-44596" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]chicago-p-d-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/chicago-p-d-t1-44557" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]scorpion-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/scorpion-t1-44537" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]scorpion-dual-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/scorpion-dual-t3-44535" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]lo-que-escondian-sus-ojos-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/lo-que-escondian-sus-ojos-t1-44534" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]asuntos-de-estado-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/asuntos-de-estado-t1-44510" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-missing-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-missing-t1-44507" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]rectify-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/rectify-t3-44502" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]rectify-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/rectify-t2-44501" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]rectify-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/rectify-t1-44499" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]billions-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/billions-t1-dual-44498" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]buena-conducta-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/buena-conducta-dual-t1-44497" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]shooter-el-tirador-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/shooter-el-tirador-dual-t1-44492" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]vinyl-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/vinyl-dual-t1-44491" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-night-of-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-night-of-dual-t1-44490" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]scrotal-recall-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/scrotal-recall-t2-44489" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]emergencies[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/emergencies-44486" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]paranoia[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/paranoia-miniserie-44484" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]westworld-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/westworld-dual-t1-44483" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]absuelto-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/absuelto-t2-44481" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-missing-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-missing-dual-t2-44479" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]cazadores-de-leyendas-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/cazadores-de-leyendas-dual-t1-44477" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-five-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-five-t1-44475" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]atlanta-dual-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/atlanta-dual-t1-44474" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]quantico-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/quantico-dual-t2-44444" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]new-girl-t5[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/new-girl-t5-44427" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]new-girl-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/new-girl-t4-44424" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]new-girl-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/new-girl-t3-44420" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]new-girl-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/new-girl-t2-44415" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]new-girl-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/new-girl-t1-44412" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]supergirl-dual-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/supergirl-dual-t2-44980" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]prodigiosa-las-aventuras-de-ladybug-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/prodigiosa-las-aventuras-de-ladybug-t1-43864" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]muerte-en-directo[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/dead-set-muerte-en-directo-miniserie-43752" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]poldark-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/poldark-t2-43725" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]black-ish[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/black-ish-t3-d-43674" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]primeval-el-nuevo-mundo-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/primeval-el-nuevo-mundo-t1-d-43605" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]downton-abbey-t6[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/downton-abbey-t6-43585" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]eres-lo-peor-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/eres-lo-peor-t3-43582" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]turno-de-noche-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/turno-de-noche-t3-43564" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]elementary-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/elementary-t4-43538" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]eyewitness-us-testigo-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/eyewitness-us-testigo-t1-43511" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]elementary-t5[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/elementary-t5-43482" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-enfield-haunting[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-enfield-haunting-miniserie-43481" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]patrulla-canina-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/patrulla-canina-t3-43450" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]downton-abbey-t5[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/downton-abbey-t5-43407" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]downton-abbey-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/downton-abbey-t4-43406" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]downton-abbey-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/downton-abbey-t3-43405" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]downton-abbey-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/downton-abbey-t2-43404" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]downton-abbey-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/downton-abbey-t1-43403" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]la-extrana-pareja-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/la-extrana-pareja-t2-43340" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]la-hormiga-atomica[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/la-hormiga-atomica-43312" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]agents-of-shield-t4[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/agents-of-shield-t4-43280" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bloodline-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bloodline-t2-43214" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bloodline-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bloodline-t1-43204" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]bull-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/bull-t1-43180" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]victor-ros-t2[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/victor-ros-t2-43179" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]puro-genio-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/puro-genio-t1-43163" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]peaky-blinders-t3[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/peaky-blinders-t3-43156" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]the-expanse-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/the-expanse-t1-43113" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]erase-una-vez-t6[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/erase-una-vez-t6-43099" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]american-gothic-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/american-gothic-t1-43083" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]notorious-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/notorious-t1-43082" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]ncis-los-angeles-t8[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t8-43081" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]conviction-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/conviction-t1-43070" img:""; server:"http://diskokosmiko.mx"
+Name:"[B][COLOR cyan]american-crime-story-t1[/COLOR][/B]" url:"http://diskokosmiko.mx/SeriesHD/american-crime-story-t1-42916" img:""; server:"http://diskokosmiko.mx"

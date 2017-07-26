@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<item>
+<title>                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Videos Musicales[/COLOR] [COLOR gold][ZONA 3][/COLOR] [COLOR white]| :::[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>Página [makelist2.param1]</title>
+<link>$doregex[makelist3]</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres> (.*?),</expres>
+<page>$doregex[get-number]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+            <name>makelist3</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist3.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
+                        <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>$doregex[get-source-page]</page>
+             <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>get-number</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):            
+
+ import requests
+ import re
+ url='https://www.youtube.com/watch?v=t8nu-crjc8E&index=25&list=PL7074F24FB985F7A0' 
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
+
+ rr = requests.get(url, headers=headers)
+ number = re.findall('</a></li><li>(.*?) vid', rr.text)[0]
+ #number = number.encode('unicode-escape')
+ number = number.replace(',', '')
+ real = int(float(number)) / 100
+ real2 = real + 3
+
+ liste = list(range(real2))
+ return liste
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-source-page</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+
+ import requests
+ import re
+ import json
+
+ pageUrl='https://www.youtube.com/watch?v=t8nu-crjc8E&index=25&list=PL7074F24FB985F7A0'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
+ r1 = requests.get(pageUrl, headers = headers)
+ source = r1.text
+ page = [makelist2.param1]
+ N = int(float(page))
+ pre = 'https://www.youtube.com'
+ if (N > 1):
+
+   for itr in range (1,N):
+    continuex = re.findall('data-uix-load-more-href="(.*?)"', source)[0]
+    continuationx = pre + continuex
+    r = requests.get(continuationx, headers = headers)
+    source = r.text
+    jdata = json.loads(source)
+    source = jdata["load_more_widget_html"]
+    page = jdata["content_html"]
+   return page
+    
+ else:
+
+  return source
+]]></expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR gold]:::: [/COLOR][COLOR white][B] ¡¡¡ YOUTUBE PLUGIN VERSION 5.3.12 REQUERIDO !!! [/B][/COLOR][COLOR gold]:::: [/COLOR]</title>
+<link>http://</link>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] Clasicos de ayer y de hoy</title>
+<link>$doregex[makelist]</link>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+						<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLVS8L6lb4C1n0j6qQRTS5mP8bkwaRXL-Y</page>
+			<referer>https://www.youtube.com/playlist?list=PLVS8L6lb4C1mW84u0fQkAVuYCVYAMHJdq/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] Mixes</title>
+<link>$doregex[makelist]</link>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+						<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLVS8L6lb4C1me_LugyqucfZT9eE7zIJIA</page>
+			<referer>https://www.youtube.com/playlist?list=PLVS8L6lb4C1me_LugyqucfZT9eE7zIJIA/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] New Latin Hits 2017: New Latino Songs (POP En Espanol, Reggaeton etc.)</title>
+<link>$doregex[makelist]</link>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+						<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PL3oW2tjiIxvQ3gD_VGKYzwkQJG0uSIC-C</page>
+			<referer>https://www.youtube.com/channel/UCrMlZB8oBO6PzQasVd2tmiQ/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] Los 40 Principales Latinos: Los Éxitos 2017</title>
+<link>$doregex[makelist]</link>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+						<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PL-PXKb5jSjwbHPWzYXL9E9yXBmneEOgDi</page>
+			<referer>https://www.youtube.com/channel/UCn3uYZIYTMSvJraGKW2Blhw/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] Europa FM 2017</title>
+<link>$doregex[makelist]</link>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+						<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PL4LL0QYtyua_j-wufOXfbdoLPt4J3rVKQ</page>
+			<referer>https://www.youtube.com/playlist?list=PL4LL0QYtyua_j-wufOXfbdoLPt4J3rVKQ/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] TOP 40 MIX COMPILATIONS</title>
+<link>$doregex[makelist]</link>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+						<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PL9cN_s8zHvO8gD_I5mMgvokiyLodY63j3</page>
+			<referer>https://www.youtube.com/channel/UCIGzDgn6LlPzk3KMwVRP5Xg/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] POP LATINO 2017 - MEGAMIX HD: Carlos Vives, Shakira, Ricky Martin y Mas</title>
+<link>$doregex[makelist]</link>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+						<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://youtu.be/4XyZEagEAiY?list=RD4XyZEagEAiY</page>
+			<referer>https://www.youtube.com/channel/UCIGzDgn6LlPzk3KMwVRP5Xg/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] Global Deejays</title>
+<link>$doregex[makelist]</link>
+<fanart>https://img.discogs.com/Oj0MwPVVjv8rZMFjE9dCDJOQ0Bs=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6847226-1427882188-4878.png.jpg</fanart>
+<thumbnail>https://img.discogs.com/Oj0MwPVVjv8rZMFjE9dCDJOQ0Bs=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6847226-1427882188-4878.png.jpg</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://img.discogs.com/Oj0MwPVVjv8rZMFjE9dCDJOQ0Bs=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6847226-1427882188-4878.png.jpg</fanart>
+						<thumbnail>https://img.discogs.com/Oj0MwPVVjv8rZMFjE9dCDJOQ0Bs=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6847226-1427882188-4878.png.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLhv7oQXIzB-YrQ8HNQ6xNlocErZV37NEQ</page>
+			<referer>https://www.youtube.com/channel/UCIQujJ_stFTPEHaiVkG76cQ/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<!---
+<item>
+<title></title>
+<urlsolve></urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+--->

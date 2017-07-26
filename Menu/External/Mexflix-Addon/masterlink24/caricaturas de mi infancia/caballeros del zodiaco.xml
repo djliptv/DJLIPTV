@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>Caballeros Del Zodiaco</name>
+<thumbnail>https://noticiasaztecapuebla.mx/wp-content/uploads/2016/03/maxresdefault2.jpg</thumbnail>
+<fanart>http://i.imgur.com/h5D513P.jpg</fanart>
+<items>
+
+<item>
+<title> Caballeros Del Zodiaco</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://noticiasaztecapuebla.mx/wp-content/uploads/2016/03/maxresdefault2.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/alex-guzman/caballeros-del-zodiaco-espanol-latino-18342/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/alex-guzman/caballeros-del-zodiaco-espanol-latino-18342/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://noticiasaztecapuebla.mx/wp-content/uploads/2016/03/maxresdefault2.jpg</thumbnail>
+<fanart>http://i.imgur.com/h5D513P.jpg</fanart>
+</item>
+</items>
+</channel>

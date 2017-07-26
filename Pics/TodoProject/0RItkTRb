@@ -1,0 +1,1 @@
+<script type="text/javascript">       var txt;var r = confirm("Valida Captcha Nuevamente");if (r == true) {    window.location="/inicio";    			} 

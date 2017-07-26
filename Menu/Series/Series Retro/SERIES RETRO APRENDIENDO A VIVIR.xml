@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>Aprendiendo a vivir Temporada 1</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.series21.com/thumbs/series_180x270_85/340.jpg</thumbnail>
+		 <fanart>http://www.series21.com/thumbs/series_180x270_85/340.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/pecoso84/0007-34120/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/pecoso84/0007-34120/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.series21.com/thumbs/series_180x270_85/340.jpg</thumbnail>
+		 <fanart>http://www.series21.com/thumbs/series_180x270_85/340.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>Aprendiendo a vivir Temporada 2</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://1.bp.blogspot.com/-IFblpTm6rOw/VpMWMWy7yhI/AAAAAAAADIE/UB5A-WyaLPo/s320/0.jpg</thumbnail>
+		 <fanart>https://1.bp.blogspot.com/-IFblpTm6rOw/VpMWMWy7yhI/AAAAAAAADIE/UB5A-WyaLPo/s320/0.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/pecoso84/0008-34122/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/pecoso84/0008-34122/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://1.bp.blogspot.com/-IFblpTm6rOw/VpMWMWy7yhI/AAAAAAAADIE/UB5A-WyaLPo/s320/0.jpg</thumbnail>
+		 <fanart>https://1.bp.blogspot.com/-IFblpTm6rOw/VpMWMWy7yhI/AAAAAAAADIE/UB5A-WyaLPo/s320/0.jpg</fanart>
+</item>
+
+
+<item>
+<title>Aprendiendo a vivir Temporada 3</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://1.bp.blogspot.com/-6-QyHnhtxnQ/Vq64xAbKNuI/AAAAAAAADNw/0TpgCDutpNo/s1600/0.jpg</thumbnail>
+		 <fanart>http://1.bp.blogspot.com/-6-QyHnhtxnQ/Vq64xAbKNuI/AAAAAAAADNw/0TpgCDutpNo/s1600/0.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/pecoso84/0009-34126/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/pecoso84/0009-34126/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://1.bp.blogspot.com/-6-QyHnhtxnQ/Vq64xAbKNuI/AAAAAAAADNw/0TpgCDutpNo/s1600/0.jpg</thumbnail>
+		 <fanart>http://1.bp.blogspot.com/-6-QyHnhtxnQ/Vq64xAbKNuI/AAAAAAAADNw/0TpgCDutpNo/s1600/0.jpg</fanart>
+</item>
+
+
+<item>
+<title>Aprendiendo a vivir Temporada 4</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://1.bp.blogspot.com/-LIuO-ixoDAE/VeMXtnFNHTI/AAAAAAAACq0/G0iCAkwHPSU/s320/0003.jpg</thumbnail>
+		 <fanart>https://1.bp.blogspot.com/-LIuO-ixoDAE/VeMXtnFNHTI/AAAAAAAACq0/G0iCAkwHPSU/s320/0003.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/pecoso84/0010-34127/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/pecoso84/0010-34127/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://1.bp.blogspot.com/-LIuO-ixoDAE/VeMXtnFNHTI/AAAAAAAACq0/G0iCAkwHPSU/s320/0003.jpg</thumbnail>
+		 <fanart>https://1.bp.blogspot.com/-LIuO-ixoDAE/VeMXtnFNHTI/AAAAAAAACq0/G0iCAkwHPSU/s320/0003.jpg</fanart>
+</item>
+
+
+<item>
+<title>Aprendiendo a vivir Temporada 5</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://1.bp.blogspot.com/-4H9APsbKKVk/VlZ4gUaSoRI/AAAAAAAAC3M/VLvVI7oYwPQ/s320/BMW-4.jpg</thumbnail>
+		 <fanart>https://1.bp.blogspot.com/-4H9APsbKKVk/VlZ4gUaSoRI/AAAAAAAAC3M/VLvVI7oYwPQ/s320/BMW-4.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/pecoso84/0011-34235/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/pecoso84/0011-34235/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://1.bp.blogspot.com/-4H9APsbKKVk/VlZ4gUaSoRI/AAAAAAAAC3M/VLvVI7oYwPQ/s320/BMW-4.jpg</thumbnail>
+		 <fanart>https://1.bp.blogspot.com/-4H9APsbKKVk/VlZ4gUaSoRI/AAAAAAAAC3M/VLvVI7oYwPQ/s320/BMW-4.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>Aprendiendo a vivir Temporada 6</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://2.bp.blogspot.com/-qjHa8FQPKFg/T_fLnAXSxxI/AAAAAAAAAVQ/kwjDSmXg144/s1600/boymeetsworld6yq7.png</thumbnail>
+		 <fanart>http://2.bp.blogspot.com/-qjHa8FQPKFg/T_fLnAXSxxI/AAAAAAAAAVQ/kwjDSmXg144/s1600/boymeetsworld6yq7.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/pecoso84/0012-34245/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/pecoso84/0012-34245/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-qjHa8FQPKFg/T_fLnAXSxxI/AAAAAAAAAVQ/kwjDSmXg144/s1600/boymeetsworld6yq7.png</thumbnail>
+		 <fanart>http://2.bp.blogspot.com/-qjHa8FQPKFg/T_fLnAXSxxI/AAAAAAAAAVQ/kwjDSmXg144/s1600/boymeetsworld6yq7.png</fanart>
+</item>
+
+
+<item>
+<title>Aprendiendo a vivir Temporada 7</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://2.bp.blogspot.com/-CvEpCBjgYwg/VtZWKtyGRmI/AAAAAAAADW0/ncB_jGkTKWM/s320/0.jpg</thumbnail>
+		 <fanart>https://2.bp.blogspot.com/-CvEpCBjgYwg/VtZWKtyGRmI/AAAAAAAADW0/ncB_jGkTKWM/s320/0.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/pecoso84/0013-34246/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/pecoso84/0013-34246/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://2.bp.blogspot.com/-CvEpCBjgYwg/VtZWKtyGRmI/AAAAAAAADW0/ncB_jGkTKWM/s320/0.jpg</thumbnail>
+		 <fanart>https://2.bp.blogspot.com/-CvEpCBjgYwg/VtZWKtyGRmI/AAAAAAAADW0/ncB_jGkTKWM/s320/0.jpg</fanart>
+</item>

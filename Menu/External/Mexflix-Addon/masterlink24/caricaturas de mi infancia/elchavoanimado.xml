@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>El chavo animado</name>
+<thumbnail>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</thumbnail>
+<fanart>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</fanart>
+<items>
+
+<item>
+<title>Temporada 1</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/anime1/el-chavo-animado-temp1-23772/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/anime1/el-chavo-animado-temp1-23772/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</thumbnail>
+<fanart>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</fanart>
+</item>
+
+
+<item>
+<title>Temporada 2</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/anime1/el-chavo-animado-temp2-24458/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/anime1/el-chavo-animado-temp2-24458/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</thumbnail>
+<fanart>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</fanart>
+</item>
+
+<item>
+<title>Temporada 3</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/anime1/el-chavo-animado-temp3-24456</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/anime1/el-chavo-animado-temp3-24456</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</thumbnail>
+<fanart>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</fanart>
+</item>
+
+<item>
+<title>Temporada 4</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/anime1/el-chavo-animado-temp4-24460</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/anime1/el-chavo-animado-temp4-24460</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</thumbnail>
+<fanart>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</fanart>
+</item>
+
+<item>
+<title>Temporada 5</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/anime1/el-chavo-animado-temp5-24461</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/anime1/el-chavo-animado-temp5-24461</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</thumbnail>
+<fanart>http://vignette2.wikia.nocookie.net/animaestudios/images/8/80/936full-el-chavo-animado-poster.jpg/revision/latest?cb=20120608044440&path-prefix=es</fanart>
+</item>
+</items>
+</channel>

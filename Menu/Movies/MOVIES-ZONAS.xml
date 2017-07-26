@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channels>
+    <channels_info> <!-- this is opitonal -->
+      <title>DJLIPTV</title> <!-- if channels_info, a title is required, other elements are optional -->
+      <genre>Television</genre>
+      <description>Lista de Movies DJLIPTV  </description>
+       <thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail><fanart>http://i.imgur.com/UAQY3DI.jpg</fanart>
+      <date>01.01.2017</date>
+      <credits>http://bit.ly/DJLIPTVWEB</credits>
+    </channels_info>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 1][/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+        
+		<items>
+                
+			<item>
+				<title>                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]SUPER COLECCION DE PELICULAS [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<page>http://diskokosmiko.mx/IngArturo/super-coleccion-de-pelis-audio-latino-20342/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/IngArturo/super-coleccion-de-pelis-audio-latino-20342/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+			<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+			<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]SUPER COLECCION DE PELICULAS 2 [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<page>http://diskokosmiko.mx/marcos20/peticiones-16957/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/marcos20/peticiones-16957/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]PELICULAS [/COLOR][COLOR cyan] HD [/COLOR][COLOR white][VARIOS | AUD & SUBS][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<page>http://diskokosmiko.mx/ermejor/peliculas-hd-varios-idiomas-de-audio-y-subtit-29815/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/ermejor/peliculas-hd-varios-idiomas-de-audio-y-subtit-29815/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]PELICULAS [/COLOR][COLOR cyan] HD 2 [/COLOR][COLOR white][DUAL AUDIO][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<page>http://diskokosmiko.mx/jml/peliculas-25581/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/jml/peliculas-25581/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]PELICULAS[/COLOR] [COLOR cyan] FULL HD [/COLOR][COLOR orange](1080P) [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<page>http://diskokosmiko.mx/danonaba89/fileuploader-46197/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/danonaba89/fileuploader-46197/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]PELICULAS[/COLOR] [COLOR cyan] FULL HD 2 [/COLOR][COLOR orange](1080P) [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<page>http://diskokosmiko.mx/danonaba89/newcollection-46197/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/danonaba89/newcollection-46197/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]PELICULAS[/COLOR] [COLOR cyan] DE NAVIDAD [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<page>http://diskokosmiko.mx/marcos20/peliculas-de-navidad-en-espanol-latino-17084/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/marcos20/peliculas-de-navidad-en-espanol-latino-17084/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]PELICULAS[/COLOR] [COLOR cyan] DE ACCION [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<page>http://diskokosmiko.mx/marcos20/peliculas-de-accion-en-espanol-latino-16521/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/marcos20/peliculas-de-accion-en-espanol-latino-16521/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]PELICULAS[/COLOR] [COLOR cyan] DE DRAMA [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<page>http://diskokosmiko.mx/marcos20/peliculas-de-drama-en-espanol-latino-18845/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/marcos20/peliculas-de-drama-en-espanol-latino-18845/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]PELICULAS[/COLOR] [COLOR cyan] VARIADOS [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<page>http://diskokosmiko.mx/marco18/peliculas-de-marco-castillo-47264/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/marco18/peliculas-de-marco-castillo-47264/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]PELICULAS[/COLOR] [COLOR cyan] ENGLISH [/COLOR][COLOR white][SUBTITULADAS][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<page>http://diskokosmiko.mx/INTERALIOS/coleccion-ghibli-13783/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/INTERALIOS/coleccion-ghibli-13783/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]COLECCION [/COLOR][COLOR gold]WESTERN[/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<page>http://diskokosmiko.mx/naredo/western-19889/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/naredo/western-19889/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+						
+		</items>
+	
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 2][/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+        
+		<items>
+                
+			<item>
+				<title>                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 2][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+			
+			<!-- === ZONA 2 - MOVIES COPIAPOP === -->
+<item>
+<title>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 2][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[makelist2.param1]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+		<fanart>[makelist2.param4]</fanart>
+        ]]></listrepeat>
+<expres>MCP:"(.*?)" url:"(.*?)" thu:"(.*?)" fan:"(.*?)"; server:"(.*?)"</expres>
+<page>https://www.dropbox.com/s/hu7rzp2l7h7cbru/DB.xml?dl=1</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param2]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+		<fanart>[makelist2.param4]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,100</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re , requests ,json
+def GetLSProData(page_data,Cookie_Jar,m):
+ ref = 'http://copiapop.com/' 
+ url='http://copiapop.com[makelist.param1]'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr = requests.post('http://copiapop.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'amistad' , 'Password' : 'asegurada'}
+ nr1 = requests.post('http://copiapop.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://copiapop.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+</item>
+			
+	</channel>		
+			
+	<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 3][/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+        
+		<items>
+                
+			<item>
+				<title>                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 3][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [COLOR orange]DJL[/COLOR][COLOR white] IPTV[/COLOR] [COLOR white][AUDIO LATINO][/COLOR][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://www.dropbox.com/s/cccxgbldx2cloo7/MOVIES%20DJLIPTV.xml?dl=1</externallink>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR] [COLOR deepskyblue] Movies [COLOR violet]FLUXUS CINEMA[/COLOR] [COLOR white][AUDIO INGLES / LATINO][/COLOR]</title>
+				<thumbnail>http://i.imgur.com/wnH0Xga.png</thumbnail>
+				<fanart>http://i.imgur.com/wnH0Xga.png</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/fluxustv/Channels/master/VOD.m3u</externallink>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [COLOR white][VARIADAS / SUB Y LAT][/COLOR][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=0</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=0</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://www.dropbox.com/s/5gk2egwey4trrzr/MOVIES_ALL.XML?dl=1</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR white] [AUDIO LATINO][/COLOR]</title>
+				<thumbnail>https://i2.wp.com/blog.exabytetv.info/wp-content/uploads/2016/09/icontex.png?fit=1022%2C1022</thumbnail>
+				<fanart>http://mundokodi.com/wp-content/uploads/2016/06/portada_exabyte.jpg</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>http://exabytetv.info/peliculas.m3u</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR] 2 [COLOR white] [AUDIO LATINO][/COLOR]</title>
+				<thumbnail>https://i2.wp.com/blog.exabytetv.info/wp-content/uploads/2016/09/icontex.png?fit=1022%2C1022</thumbnail>
+				<fanart>http://mundokodi.com/wp-content/uploads/2016/06/portada_exabyte.jpg</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>http://exabytetv.info/peliculas-roku.m3u</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV[/COLOR]</title>
+				<fanart>http://tecnotv.info/logoss.png</fanart>
+				<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+				<link>$doregex[makelist]</link>
+				<externallink>http://tecnotv.info/peliculas.m3u</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies - PelixMax [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/6i5opkwwb79ol8p/pelixmax.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/6i5opkwwb79ol8p/pelixmax.jpg?dl=1</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>http://galeon.com/pelixmax1/iptv/PelixMax.m3u</externallink>
+			</item>
+
+<!--- http://peliculashd.netau.net/Peliculas/PelixMax.m3u --->
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies - PelixMax 1 [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/6i5opkwwb79ol8p/pelixmax.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/6i5opkwwb79ol8p/pelixmax.jpg?dl=1</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://pastebin.com/raw/Re5UdXYd</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies - PelixMax 1 [/COLOR][COLOR white][AUDIO LATINO][/COLOR] [COLOR gold][OPCION 2][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/6i5opkwwb79ol8p/pelixmax.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/6i5opkwwb79ol8p/pelixmax.jpg?dl=1</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>http://pastebin.com/raw/b3mRy541</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies - PPV[/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
+				<thumbnail></thumbnail>
+				<fanart></fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>http://pastebin.com/raw/dmAWPVy9</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR white]SR REGIO[/COLOR]</title>
+				<thumbnail>https://i.ytimg.com/vi/ERhXObS7QM0/hqdefault.jpg</thumbnail>
+				<fanart>https://i.ytimg.com/vi/ERhXObS7QM0/hqdefault.jpg</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>http://srregio.net/regiopeliculas.m3u</externallink><!--- http://srregio.com/regiopeliculas.m3u --->
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR white]SR REGIO [Opcion 2][/COLOR]</title>
+				<thumbnail>https://i.ytimg.com/vi/ERhXObS7QM0/hqdefault.jpg</thumbnail>
+				<fanart>https://i.ytimg.com/vi/ERhXObS7QM0/hqdefault.jpg</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://bit.ly/srregiopeliculas</externallink>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies (13/06/17) [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
+				<thumbnail></thumbnail>
+				<fanart></fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://pastebin.com/raw/uxEW2sr3</externallink>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR orange]FREEWORLD[/COLOR][COLOR red] NETFLIX[/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>https://www.wired.com/wp-content/uploads/2016/06/NetflixLogo2016.jpg</thumbnail>
+				<fanart>https://s3.amazonaws.com/media.34s.dpn/1579_netflix-logoo.jpg</fanart>
+				<externallink>http://kodideveloper.Com/xxx/netflix.xml</externallink>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR orange]FREEWORLD[/COLOR][COLOR white] CINE LATINO[/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>https://www.wired.com/wp-content/uploads/2016/06/NetflixLogo2016.jpg</thumbnail>
+				<fanart>https://s3.amazonaws.com/media.34s.dpn/1579_netflix-logoo.jpg</fanart>
+				<externallink>http://kodideveloper.com/xxx/cinelatino.txt</externallink>
+			</item>
+<!---			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [/COLOR][COLOR deepskyblue] Movies El Infierno 1 [/COLOR][COLOR white][AUDIO[/COLOR] [COLOR red]E[/COLOR][COLOR yellow]S[/COLOR][COLOR red]P[/COLOR][COLOR white]-[/COLOR][COLOR darkblue]E[/COLOR][COLOR yellow]U[/COLOR][COLOR darkblue]R[/COLOR][COLOR white]][/COLOR]</title>
+				<thumbnail>http://i2.esmas.com/2015/11/10/817728/diablo-624x351.jpg</thumbnail>
+				<fanart>http://i2.esmas.com/2015/11/10/817728/diablo-624x351.jpg</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/lokiyotnt69/Netflix/master/EL%20INFIERNO.xml</externallink>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [/COLOR][COLOR deepskyblue] Movies El Infierno 1 [/COLOR]][COLOR white][AUDIO[/COLOR] [COLOR red]E[/COLOR][COLOR yellow]S[/COLOR][COLOR red]P[/COLOR][COLOR white]-[/COLOR][COLOR darkblue]E[/COLOR][COLOR yellow]U[/COLOR][COLOR darkblue]R[/COLOR][COLOR white]][/COLOR]</title>
+				<thumbnail>http://i2.esmas.com/2015/11/10/817728/diablo-624x351.jpg</thumbnail>
+				<fanart>http://i2.esmas.com/2015/11/10/817728/diablo-624x351.jpg</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/lokiyotnt69/Netflix/master/ELINFIERNO22.xml</externallink>
+			</item>
+--->			
+			
+
+<!-- 
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies[/COLOR][COLOR red] XXX [/COLOR]</title>
+<fanart>http://fonteremita.com.br/wp-content/uploads/2016/02/18-only.png</fanart>
+<thumbnail>http://fonteremita.com.br/wp-content/uploads/2016/02/18-only.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/zn0wgze08wxsdyb/Movies-XXX.xml?dl=1</externallink>
+</item>
+ 
+---> 
+			<item>
+				<title> </title>
+				<link>$doregex[makelist]</link>
+				<externallink>https://www.dropbox.com/s/iewn7sx5b3zlxdu/TEST-MENU.xml?dl=1</externallink>
+			</item>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies Sagas[/COLOR] [COLOR gold][ZONA 1][/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+        
+		<items>
+                
+			<item>
+				<title>                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies Sagas[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>[COLOR white]SAGA [/COLOR][COLOR blue]ROCKY[/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_SY1000_CR0,0,666,1000_AL_.jpg</thumbnail>
+					<fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_SY1000_CR0,0,666,1000_AL_.jpg</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+					<page>http://diskokosmiko.mx/catoal/saga-rocky-30512/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/catoal/saga-rocky-30512/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_SY1000_CR0,0,666,1000_AL_.jpg</thumbnail>
+				<fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_SY1000_CR0,0,666,1000_AL_.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]SAGA [/COLOR][COLOR blue]LOCA ACADEMIA DE POLICIA[/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjNiMWVhNjAtMzgyYS00NzRhLWJmNGUtNzdiOGFhMmY5NDUwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,661,1000_AL_.jpg</thumbnail>
+					<fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjNiMWVhNjAtMzgyYS00NzRhLWJmNGUtNzdiOGFhMmY5NDUwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,661,1000_AL_.jpg</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+					<page>http://diskokosmiko.mx/naredo/loca-academia-de-policia-19983/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/naredo/loca-academia-de-policia-19983/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjNiMWVhNjAtMzgyYS00NzRhLWJmNGUtNzdiOGFhMmY5NDUwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,661,1000_AL_.jpg</thumbnail>
+				<fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjNiMWVhNjAtMzgyYS00NzRhLWJmNGUtNzdiOGFhMmY5NDUwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,661,1000_AL_.jpg</fanart>
+			</item>
+			
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies Sagas[/COLOR] [COLOR gold][ZONA 2][/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+        
+		<items>
+                
+			<item>
+				<title>                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 2][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+			
+			<!-- === ZONA 2 - MOVIES SAGAS COPIAPOP === -->
+<item>
+<title>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies Sagas[/COLOR] [COLOR gold][ZONA 2][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[makelist2.param1]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+		<fanart>[makelist2.param4]</fanart>
+        ]]></listrepeat>
+<expres>MSCP:"(.*?)" url:"(.*?)" thu:"(.*?)" fan:"(.*?)"; server:"(.*?)"</expres>
+<page>https://www.dropbox.com/s/hu7rzp2l7h7cbru/DB.xml?dl=1</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param2]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+		<fanart>[makelist2.param4]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,100</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re , requests ,json
+def GetLSProData(page_data,Cookie_Jar,m):
+ ref = 'http://copiapop.com/' 
+ url='http://copiapop.com[makelist.param1]'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr = requests.post('http://copiapop.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'amistad' , 'Password' : 'asegurada'}
+ nr1 = requests.post('http://copiapop.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://copiapop.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+</item>
+			
+	</channel>	
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies Infantiles[/COLOR]</name>
+		<thumbnail>http://bestforkodi.com/wp-content/uploads/2015/11/KIDS-MOVIES.png</thumbnail>
+		<fanart>http://woodland-church.com/files/Kidzone/KidZone%20Logo%20600dpi.jpg</fanart>
+        
+		<items>
+                
+			<item>
+				<title>                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies Infantiles[/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR] [COLOR deepskyblue]Justice League[/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/1d/12/19/1d12196e00a4760afced932469fa481f.png</thumbnail>
+					<fanart>https://ae01.alicdn.com/kf/HTB1Bu3VHpXXXXbMaXXXq6xXFXXXG/Free-shipping-font-b-Justice-b-font-font-b-League-b-font-font-b-logo-b.jpg</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+					<page>http://diskokosmiko.mx/djl/jl-63247/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/djl/jl-63247/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/1d/12/19/1d12196e00a4760afced932469fa481f.png</thumbnail>
+				<fanart>https://ae01.alicdn.com/kf/HTB1Bu3VHpXXXXbMaXXXq6xXFXXXG/Free-shipping-font-b-Justice-b-font-font-b-League-b-font-font-b-logo-b.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]Pack[/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>http://img.huffingtonpost.com/asset/scalefit_970_noupscale/55e72f351700009a015694cb.jpeg</thumbnail>
+					<fanart>http://www.unitedfamily.com/wp-content/uploads/2013/09/Kids-Movies-Now1.png</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+					<page>http://diskokosmiko.mx/SHIRKAM/peliculas-infantiles-50752/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/SHIRKAM/peliculas-infantiles-50752/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>http://img.huffingtonpost.com/asset/scalefit_970_noupscale/55e72f351700009a015694cb.jpeg</thumbnail>
+				<fanart>http://www.unitedfamily.com/wp-content/uploads/2013/09/Kids-Movies-Now1.png</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]Walt Disney [/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://s-media-cache-ak0.pinthu.com/originals/05/54/79/055479600e02acd988f06fdf251692e0.jpg</thumbnail>
+					<fanart>http://akns-images.eonline.com/eol_images/Entire_Site/2014617/rs_560x349-140717140914-1024.disney.cm.71714_copy.jpg</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+					<page>http://diskokosmiko.mx/SHIRKAM/walt-disney-49946/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/SHIRKAM/walt-disney-49946/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://s-media-cache-ak0.pinthu.com/originals/05/54/79/055479600e02acd988f06fdf251692e0.jpg</thumbnail>
+				<fanart>http://akns-images.eonline.com/eol_images/Entire_Site/2014617/rs_560x349-140717140914-1024.disney.cm.71714_copy.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]Walt Disney/Dreamworks Animated Collection (1937-2009)[/COLOR][COLOR white] [ENG] [/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://s-media-cache-ak0.pinthu.com/originals/05/54/79/055479600e02acd988f06fdf251692e0.jpg</thumbnail>
+					<fanart>http://akns-images.eonline.com/eol_images/Entire_Site/2014617/rs_560x349-140717140914-1024.disney.cm.71714_copy.jpg</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+					<page>http://diskokosmiko.mx/movies/disneydreamworks-animated-collection-1937-2009-1188/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/movies/disneydreamworks-animated-collection-1937-2009-1188/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://s-media-cache-ak0.pinthu.com/originals/05/54/79/055479600e02acd988f06fdf251692e0.jpg</thumbnail>
+				<fanart>http://akns-images.eonline.com/eol_images/Entire_Site/2014617/rs_560x349-140717140914-1024.disney.cm.71714_copy.jpg</fanart>
+			</item>
+			
+	</channel>
+	
+</channels>
+
+<!--- ejemplo
+	<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 2][/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+        
+		<items>
+                
+			<item>
+				<title>                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 2][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+			
+			
+			
+	</channel>	
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]COLECCION [/COLOR][COLOR gold]WESTERN[/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+					<page>http://diskokosmiko.mx/naredo/western-19889/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/naredo/western-19889/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR lightblue] C5N Argentina[/COLOR]</title>
+				<link>http://us.watcha.live/ch1/hi.m3u8|User-Agent=VLC</link>
+			</item>
+			
+	
+--->

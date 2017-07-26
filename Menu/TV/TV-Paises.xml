@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- ID 1 = POLONIA --->
+<item>
+<title>[COLOR white]+ [/COLOR][COLOR white]Polonia[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+			<title>[makelist.param2]</title>
+			
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Catoal +[makelist.param2]</link>
+			
+			<regex>
+			<name>hash</name>
+			<expres>\/embed\/(.*?)"</expres>
+			<page>http://freelive365.com/[makelist.param1]</page>
+			<referer>http://freelive365.com/</referer>
+			</regex>
+			<regex>
+			<name>code</name>
+			<expres>$pyFunction:('[makelist.param1]').replace(' ','%20')</expres>
+			<page></page>
+			</regex>
+
+			
+			<thumbnail>http://freelive365.com/[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>href='(.*?)\&[\w\W\s]{0,95}70%>(.*?)<[\w\W\s]{0,25}src="(.*?)"</expres>
+<page>http://freelive365.com/live_info.php?id=1</page>
+</regex>
+<thumbnail>http://www.industry-forum.org/wp-content/uploads/2015/10/Eurozone-Photo-4-570x455.png</thumbnail>
+<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
+</item>
+
+<!-- ID 2 = INGLATERRA --->
+<item>
+<title>[COLOR white]+ [/COLOR][COLOR white]Inglatera[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+			<title>[makelist.param2]</title>
+			
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Catoal +[makelist.param2]</link>
+			
+			<regex>
+			<name>hash</name>
+			<expres>\/embed\/(.*?)"</expres>
+			<page>http://freelive365.com/[makelist.param1]</page>
+			<referer>http://freelive365.com/</referer>
+			</regex>
+			<regex>
+			<name>code</name>
+			<expres>$pyFunction:('[makelist.param1]').replace(' ','%20')</expres>
+			<page></page>
+			</regex>
+
+			
+			<thumbnail>http://freelive365.com/[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>href='(.*?)\&[\w\W\s]{0,95}70%>(.*?)<[\w\W\s]{0,25}src="(.*?)"</expres>
+<page>http://freelive365.com/live_info.php?id=2</page>
+</regex>
+<thumbnail>http://www.industry-forum.org/wp-content/uploads/2015/10/Eurozone-Photo-4-570x455.png</thumbnail>
+<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
+</item>
+
+<!-- ID 3 = PAISES BAJOS --->
+<item>
+<title>[COLOR white]+ [/COLOR][COLOR white]Países Bajos[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+			<title>[makelist.param2]</title>
+			
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Catoal +[makelist.param2]</link>
+			
+			<regex>
+			<name>hash</name>
+			<expres>\/embed\/(.*?)"</expres>
+			<page>http://freelive365.com/[makelist.param1]</page>
+			<referer>http://freelive365.com/</referer>
+			</regex>
+			<regex>
+			<name>code</name>
+			<expres>$pyFunction:('[makelist.param1]').replace(' ','%20')</expres>
+			<page></page>
+			</regex>
+
+			
+			<thumbnail>http://freelive365.com/[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>href='(.*?)\&[\w\W\s]{0,95}70%>(.*?)<[\w\W\s]{0,25}src="(.*?)"</expres>
+<page>http://freelive365.com/live_info.php?id=3</page>
+</regex>
+<thumbnail>http://www.industry-forum.org/wp-content/uploads/2015/10/Eurozone-Photo-4-570x455.png</thumbnail>
+<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
+</item>
+
+<!-- ID 4 = FRANCIA --->
+<item>
+<title>[COLOR white]+ [/COLOR][COLOR white]Francia[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+			<title>[makelist.param2]</title>
+			
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Catoal +[makelist.param2]</link>
+			
+			<regex>
+			<name>hash</name>
+			<expres>\/embed\/(.*?)"</expres>
+			<page>http://freelive365.com/[makelist.param1]</page>
+			<referer>http://freelive365.com/</referer>
+			</regex>
+			<regex>
+			<name>code</name>
+			<expres>$pyFunction:('[makelist.param1]').replace(' ','%20')</expres>
+			<page></page>
+			</regex>
+
+			
+			<thumbnail>http://freelive365.com/[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>href='(.*?)\&[\w\W\s]{0,95}70%>(.*?)<[\w\W\s]{0,25}src="(.*?)"</expres>
+<page>http://freelive365.com/live_info.php?id=4</page>
+</regex>
+<thumbnail>http://www.industry-forum.org/wp-content/uploads/2015/10/Eurozone-Photo-4-570x455.png</thumbnail>
+<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
+</item>
+
+<!-- ID 5 = RUMANIA --->
+<item>
+<title>[COLOR white]+ [/COLOR][COLOR white]Rumania[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+			<title>[makelist.param2]</title>
+			
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Catoal +[makelist.param2]</link>
+			
+			<regex>
+			<name>hash</name>
+			<expres>\/embed\/(.*?)"</expres>
+			<page>http://freelive365.com/[makelist.param1]</page>
+			<referer>http://freelive365.com/</referer>
+			</regex>
+			<regex>
+			<name>code</name>
+			<expres>$pyFunction:('[makelist.param1]').replace(' ','%20')</expres>
+			<page></page>
+			</regex>
+
+			
+			<thumbnail>http://freelive365.com/[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>href='(.*?)\&[\w\W\s]{0,95}70%>(.*?)<[\w\W\s]{0,25}src="(.*?)"</expres>
+<page>http://freelive365.com/live_info.php?id=5</page>
+</regex>
+<thumbnail>http://www.industry-forum.org/wp-content/uploads/2015/10/Eurozone-Photo-4-570x455.png</thumbnail>
+<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
+</item>
+
+<!-- ID 6 = ESPAÑA --->
+<item>
+<title>[COLOR white]+ [/COLOR][COLOR white]España[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+			<title>[makelist.param2]</title>
+			
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Catoal +[makelist.param2]</link>
+			
+			<regex>
+			<name>hash</name>
+			<expres>\/embed\/(.*?)"</expres>
+			<page>http://freelive365.com/[makelist.param1]</page>
+			<referer>http://freelive365.com/</referer>
+			</regex>
+			<regex>
+			<name>code</name>
+			<expres>$pyFunction:('[makelist.param1]').replace(' ','%20')</expres>
+			<page></page>
+			</regex>
+
+			
+			<thumbnail>http://freelive365.com/[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>href='(.*?)\&[\w\W\s]{0,95}70%>(.*?)<[\w\W\s]{0,25}src="(.*?)"</expres>
+<page>http://freelive365.com/live_info.php?id=6</page>
+</regex>
+<thumbnail>http://www.industry-forum.org/wp-content/uploads/2015/10/Eurozone-Photo-4-570x455.png</thumbnail>
+<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
+</item>
+
+<!-- ID 7 = VARIOS --->
+<item>
+<title>[COLOR white]+ [/COLOR][COLOR white]Varios[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+			<title>[makelist.param2]</title>
+			
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Catoal +[makelist.param2]</link>
+			
+			<regex>
+			<name>hash</name>
+			<expres>\/embed\/(.*?)"</expres>
+			<page>http://freelive365.com/[makelist.param1]</page>
+			<referer>http://freelive365.com/</referer>
+			</regex>
+			<regex>
+			<name>code</name>
+			<expres>$pyFunction:('[makelist.param1]').replace(' ','%20')</expres>
+			<page></page>
+			</regex>
+
+			
+			<thumbnail>http://freelive365.com/[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>href='(.*?)\&[\w\W\s]{0,95}70%>(.*?)<[\w\W\s]{0,25}src="(.*?)"</expres>
+<page>http://freelive365.com/live_info.php?id=7</page>
+</regex>
+<thumbnail>http://www.industry-forum.org/wp-content/uploads/2015/10/Eurozone-Photo-4-570x455.png</thumbnail>
+<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
+</item>
+
+<!-- ID 8 = DEPORTES EN VIVO --->
+<item>
+<title>[COLOR white]+ [/COLOR][COLOR white]Deportes en Vivo[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+			<title>[makelist.param2]</title>
+			
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Catoal +[makelist.param2]</link>
+			
+			<regex>
+			<name>hash</name>
+			<expres>\/embed\/(.*?)"</expres>
+			<page>http://freelive365.com/[makelist.param1]</page>
+			<referer>http://freelive365.com/</referer>
+			</regex>
+			<regex>
+			<name>code</name>
+			<expres>$pyFunction:('[makelist.param1]').replace(' ','%20')</expres>
+			<page></page>
+			</regex>
+
+			
+			<thumbnail>http://freelive365.com/[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>href='(.*?)\&[\w\W\s]{0,95}70%>(.*?)<[\w\W\s]{0,25}src="(.*?)"</expres>
+<page>http://freelive365.com/live_info.php?id=1526</page>
+</regex>
+<thumbnail>http://www.industry-forum.org/wp-content/uploads/2015/10/Eurozone-Photo-4-570x455.png</thumbnail>
+<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR blue]FR/PT/BR[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+         <title>[COLOR lime] [makelist.param2] [/COLOR]</title>
+         
+         <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=acestream +[makelist.param2]</link>
+         
+         <regex>
+         <name>hash</name>
+         <expres>\/embed\/(.*?)"</expres>
+         <page>http://freelive365.com/[makelist.param1]</page>
+         <referer>http://freelive365.com/</referer>
+         </regex>
+         <regex>
+         <name>code</name>
+         <expres>$pyFunction:('[makelist.param1]').replace(' ','%20')</expres>
+         <page></page>
+         </regex>
+
+         
+         <thumbnail>http://freelive365.com/[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>href='(.*?)\&[\w\W\s]{0,95}70%>(.*?)<[\w\W\s]{0,25}src="(.*?)"</expres>
+<page>http://freelive365.com/live_info.php?id=4</page>
+</regex>
+<thumbnail>http://redeneobux.com/wp-content/uploads/2015/03/1.jpg</thumbnail>
+<fanart>http://redeneobux.com/wp-content/uploads/2015/03/1.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]UK/USA/CA[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+         <title>[COLOR lime] [makelist.param2] [/COLOR]</title>
+         
+         <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=acestream +[makelist.param2]</link>
+         
+         <regex>
+         <name>hash</name>
+         <expres>\/embed\/(.*?)"</expres>
+         <page>http://freelive365.com/[makelist.param1]</page>
+         <referer>http://freelive365.com/</referer>
+         </regex>
+         <regex>
+         <name>code</name>
+         <expres>$pyFunction:('[makelist.param1]').replace(' ','%20')</expres>
+         <page></page>
+         </regex>
+
+         
+         <thumbnail>http://freelive365.com/[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>href='(.*?)\&[\w\W\s]{0,95}70%>(.*?)<[\w\W\s]{0,25}src="(.*?)"</expres>
+<page>http://freelive365.com/live_info.php?id=2</page>
+</regex>
+<thumbnail>http://redeneobux.com/wp-content/uploads/2015/03/1.jpg</thumbnail>
+<fanart>http://redeneobux.com/wp-content/uploads/2015/03/1.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]VARIOUS[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+         <title>[COLOR lime] [makelist.param2] [/COLOR]</title>
+         
+         <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=acestream +[makelist.param2]</link>
+         
+         <regex>
+         <name>hash</name>
+         <expres>\/embed\/(.*?)"</expres>
+         <page>http://freelive365.com/[makelist.param1]</page>
+         <referer>http://freelive365.com/</referer>
+         </regex>
+         <regex>
+         <name>code</name>
+         <expres>$pyFunction:('[makelist.param1]').replace(' ','%20')</expres>
+         <page></page>
+         </regex>
+
+         
+         <thumbnail>http://freelive365.com/[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>href='(.*?)\&[\w\W\s]{0,95}70%>(.*?)<[\w\W\s]{0,25}src="(.*?)"</expres>
+<page>http://freelive365.com/live_info.php?id=7</page>
+</regex>
+<thumbnail>http://redeneobux.com/wp-content/uploads/2015/03/1.jpg</thumbnail>
+<fanart>http://redeneobux.com/wp-content/uploads/2015/03/1.jpg</fanart>
+</item>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+
+
+
+
+<item>
+<title>[COLOR green][B] * [/B][/COLOR][COLOR chocolate] Gnula Alfabeticamente[/COLOR]</title>
+<link>$doregex[makelist4]</link>
+        <thumbnail>http://st-listas.20minutos.es/images/2014-02/376760/4334929_640px.jpg?1391688835</thumbnail>
+        <fanart>http://st-listas.20minutos.es/images/2014-02/376760/4334929_640px.jpg?1391688835</fanart>
+
+
+<regex>
+<name>makelist4</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][B] * [/B][/COLOR][COLOR chocolate] Letra [makelist4.param2] [/COLOR] </title>
+<link>$doregex[makelist3]</link>
+]]></listrepeat>
+<expres>href="/lista-de-series/(.*?)">(.*?)<</expres>
+<page>http://gnula.se/lista-de-series/[makelist4.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+
+
+
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue] [makelist3.param2] [/COLOR] </title>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres>capitulos/(.*?)" title="(.*?)"</expres>
+<page>http://gnula.se/lista-de-series/[makelist4.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue] [makelist2.param3] [makelist2.param2][/COLOR] </title>
+<link>$doregex[makelist]</link>
+]]></listrepeat>
+<expres>href="http://gnula.se/capitulo/(.*?)"[\w\W\s]{0,9}>(.*?)<[\w\W\s]{0,9}-(.*?)<</expres>
+<page>http://gnula.se/capitulos/[makelist3.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+<!-- href="http://gnula.se/capitulo/(.*?)"[\w\W\s]{0,3}strong>(.*?)<[\w\W\s]{0,7}> - (.*?)< -->
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+
+<title>[makelist2.param3] [makelist2.param2] - [COLOR lightblue]Idioma:[makelist.param2][/COLOR]</title>
+<link>$doregex[id]</link>
+
+
+<regex>
+<name>id</name>
+<expres>file:'(.*)'</expres>
+<page>http://streamin.to/embed-[makelist.param1]-740x360.html</page>
+<referer>http://streamin.to</referer>
+</regex>
+
+
+<thumbnail> </thumbnail>
+<fanart> </fanart>
+
+]]></listrepeat>
+
+<expres>href="http://streamin.to/(.*?)"[\w\W\s]{0,300}lng/(.*?).png</expres>
+<page>http://gnula.se/capitulo/[makelist2.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+</item>
+
+
+
+
+<item>
+<title>[COLOR green][B] * [/B][/COLOR][COLOR chocolate] Gnula Mas Vistas[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+        <thumbnail>http://st-listas.20minutos.es/images/2014-02/376760/4334929_640px.jpg?1391688835</thumbnail>
+        <fanart>http://st-listas.20minutos.es/images/2014-02/376760/4334929_640px.jpg?1391688835</fanart>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][B] * [/B][/COLOR][COLOR chocolate] [makelist2.param2] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+<thumbnail>[makelist2.param3]</thumbnail>
+]]></listrepeat>
+<expres>capitulos/(.*?)" title="(.*?)".*src="(http://gnula.se/img/.*?)"</expres>
+<page>http://gnula.se/series-mas-vistas/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item>
+<title>[makelist.param3] - [makelist.param2]</title>
+<link>$doregex[id]</link>
+
+<regex>
+<name>id</name>
+<expres>file:'(.*)'</expres>
+<page>http://streamin.to/embed-$doregex[link]-740x360.html</page>
+<referer>http://streamin.to</referer>
+</regex>
+
+<regex>
+<name>link</name>
+<expres>http://streamin.to/(.*?)\"</expres>
+<page>http://gnula.se/capitulo/[makelist.param1]</page>
+<referer>http://streamin.to</referer>
+</regex>
+
+<thumbnail> </thumbnail>
+<fanart> </fanart>
+
+</item>
+]]></listrepeat>
+
+<expres>href="http://gnula.se/capitulo/(.*?)"[\w\W\s]{0,9}>(.*?)<[\w\W\s]{9}-(.*?)<</expres>
+<page>http://gnula.se/capitulos/[makelist2.param1]/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR green][B] * [/B][/COLOR][COLOR chocolate] SERIES  PEPITO[/COLOR]</title>
+<link>$doregex[makelist3]</link>
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][B] * [/B][/COLOR][COLOR chocolate] [makelist3.param2] [/COLOR] </title>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres>href="http://www.seriespepito.to/lista-series-(.*?)">(.*?)<</expres>
+<page>http://www.seriespepito.to/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR coral] [makelist2.param1] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+<thumbnail>[makelist2.param4]</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)" href="(.*?)"[\w\W\s]{0,7}alt="(.*?)" src="(.*?)"</expres>
+<page>http://www.seriespepito.to/lista-series-[makelist3.param1]/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2]</title>
+<link>$doregex[link]</link>
+<regex>
+<name>link</name>
+<expres>file:'(.*)'</expres>
+<page>http://streamin.to/embed-$doregex[id]-740x360.html</page>
+<referer>http://streamin.to</referer>
+</regex>	 
+<regex>	 
+<name>id</name>	 
+<expres>streamin.to/(.*?)"</expres>	 
+<page>http://www.seriespepito.to/s/$doregex[web]</page>	 
+<referer>http://www.seriespepito.to</referer>	 
+</regex>	 
+<regex>	 
+<name>web</name>	 
+<expres>Streamin[\w\W\s]{0,135}href="http://www.seriespepito.to/s/(.*?)"</expres>	 
+<page>http://www.seriespepito.to/series/[makelist.param1]</page> 
+<referer>http://www.seriespepito.to</referer>
+</regex>
+]]></listrepeat>
+<expres>href="http://www.seriespepito.to/series/(.*?)"[\w\W\s]{0,270}strong>(.*?)<</expres>
+<page>[makelist2.param2]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.elboletin.com/imagenes/destacada/series-pepito-d.jpg</thumbnail>
+<fanart>http://www.elboletin.com/imagenes/destacada/series-pepito-d.jpg</fanart>
+        </item>
+
+
+
+
+<item>
+<title>[COLOR green][B] * [/B][/COLOR][COLOR chocolate] SERIES COPIAPOP[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR green][B] * [/B][/COLOR][COLOR chocolate][makelist2.param2][/COLOR]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+        ]]></listrepeat>
+<expres>class="name" href="(.*?)">(.*?)<[\w\W\s]{0,160}src="(.*?)"</expres>
+<page>http://copiapop.com/JOE221277</page>
+<cookieJar></cookieJar>
+</regex>
+
+
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://copiapop.com[makelist2.param1]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://copiapop.com/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://copiapop.com/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://copiapop.com/[makelist.param2]</page>
+<referer>http://copiapop.com[makelist2.param1]/list,1,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://lh3.googleusercontent.com/YHilwpYe7pJRbDch0wg3VKs9lPyV7WaGglj1fW-yo8Zx9Cg_CeHjx5aRHFkCLIzrag=w300</thumbnail><fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR green][B] * [/B][/COLOR][COLOR chocolate] WEB SERIES[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR green][B] * [/B][/COLOR][COLOR chocolate][makelist2.param2][/COLOR]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+        ]]></listrepeat>
+<expres>class="name" href="(.*?)">(.*?)<[\w\W\s]{0,160}src="(.*?)"</expres>
+<page>http://copiapop.com/Koba1994</page>
+<cookieJar></cookieJar>
+</regex>
+
+
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://copiapop.com[makelist2.param1]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://copiapop.com/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://copiapop.com/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://copiapop.com/[makelist.param2]</page>
+<referer>http://copiapop.com[makelist2.param1]/list,1,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.unrestrictedview.co.uk/wp-content/uploads/2016/04/web-series.jpg</thumbnail><fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR green][B] * [/B][/COLOR][COLOR chocolate] SERIES SCO[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR green][B] * [/B][/COLOR][COLOR chocolate][makelist2.param2][/COLOR]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+        ]]></listrepeat>
+<expres>class="name" href="(.*?)">(.*?)<[\w\W\s]{0,160}src="(.*?)"</expres>
+<page>http://diskokosmiko.mx/naredo</page>
+<cookieJar></cookieJar>
+</regex>
+
+
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx[makelist2.param1]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx[makelist2.param1]/list,1,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-flqcf1B-vLs/U0kKldamD1I/AAAAAAAAEZI/EzZjutttxhs/s1600/LOGO-SCO.png</thumbnail><fanart></fanart>
+</item>

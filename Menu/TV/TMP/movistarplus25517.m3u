@@ -1,0 +1,83 @@
+#EXTM3U
+#EXTINF:-1,ES: TV3
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3310.ts
+#EXTINF:-1,ES: SYFY
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3278.ts
+#EXTINF:-1,ES: RTV Ceuta
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3312.ts
+#EXTINF:-1,ES: RT Spain
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3313.ts
+#EXTINF:-1,ES: Real Madrid Tv
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3314.ts
+#EXTINF:-1,ES: PLAYBOY TV
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3304.ts
+#EXTINF:-1,ES: NONSTOPEOPLE
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3280.ts
+#EXTINF:-1,ES: NAT GEOGRAPH
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3281.ts
+#EXTINF:-1,ES: MOVISTAR GP HD
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3315.ts
+#EXTINF:-1,ES: LA SEXTA HD
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3285.ts
+#EXTINF:-1,ES: Hollywood
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3287.ts
+#EXTINF:-1,ES: HISTORIA
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3288.ts
+#EXTINF:-1,ES: Fox Life
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3299.ts
+#EXTINF:-1,ES: Fox
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3298.ts
+#EXTINF:-1,ES: EUROSPORT HD
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3289.ts
+#EXTINF:-1,ES: DISNEY XD
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3282.ts
+#EXTINF:-1,ES: DISNEY JR
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3290.ts
+#EXTINF:-1,ES: DISCOVERY
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3295.ts
+#EXTINF:-1,ES: DCINE ESPA¹OL
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3296.ts
+#EXTINF:-1,ES: CRIMEN INVES
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3297.ts
+#EXTINF:-1,ES: COSMO
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3300.ts
+#EXTINF:-1,ES: CAZA Y PESCA
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3301.ts
+#EXTINF:-1,ES: CANAL SUR A.
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3302.ts
+#EXTINF:-1,ES: CANAL ODISEA
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3303.ts
+#EXTINF:-1,ES: CANAL DECASA
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3305.ts
+#EXTINF:-1,ES: CALLE 13
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3306.ts
+#EXTINF:-1,ES: C TOROS HD
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3291.ts
+#EXTINF:-1,ES: C DEPORTES HD
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3325.ts
+#EXTINF:-1,ES: C DCINE
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3322.ts
+#EXTINF:-1,ES: C COMEDIA HD
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3323.ts
+#EXTINF:-1,ES: C ACCION HD
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3324.ts
+#EXTINF:-1,ES: C  GOLF
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3307.ts
+#EXTINF:-1,ES: Boing
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3283.ts
+#EXTINF:-1,ES: BEIN SPORT HD
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3293.ts
+#EXTINF:-1,ES: AXN White
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3277.ts
+#EXTINF:-1,ES: AXN
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3276.ts
+#EXTINF:-1,ES: ANDALUCIA TV
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3294.ts
+#EXTINF:-1,ES: Alfa TV
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3316.ts
+#EXTINF:-1,ES: A&E
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3308.ts
+#EXTINF:-1,ES: 24 HORAS
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3309.ts
+#EXTINF:-1,ES: #0
+http://192.99.149.20:8080/live/grspan/sxlk2slkx/3275.ts

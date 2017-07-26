@@ -1,0 +1,90 @@
+<item>
+			<title>Canal de las Estrellas (HD) </title>
+			<link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/CEST/tu1_1.m3u8</link>
+
+
+
+				 <item>
+			<title>Canal Cinco (_Zony_)</title>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://cdn.pubzony.com:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.zony.tv/membedplayer/$doregex[id]/1/660/450</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.zony.tv</referer>
+			</regex>
+			<regex>
+			<name>id</name>
+			<expres>channel='(.*?)'</expres>
+			<page>http://telerisatv.com/2012/04/cinco.html</page>
+			</regex>
+
+			</item>	
+
+
+				 <item>
+			<title>Canal De Las Estrellas</title>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://cdn.pubzony.com:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.zony.tv/membedplayer/$doregex[id]/1/660/450</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.zony.tv</referer>
+			</regex>
+			<regex>
+			<name>id</name>
+			<expres>channel='(.*?)'</expres>
+			<page>http://www.chingonatv.com/2010/12/canal-de-las-estrellas.html</page>
+			</regex>
+
+			</item>	
+
+			 <item>
+			<title>HBO</title>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://cdn.pubzony.com:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.zony.tv/membedplayer/$doregex[id]/1/660/450</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.zony.tv</referer>
+			</regex>
+			<regex>
+			<name>id</name>
+			<expres>channel='(.*?)'</expres>
+			<page>http://www.chingonatv.com/2010/12/hbo.html</page>
+			</regex>
+
+			</item>	
+
+
+
+<item><title>Gala TV Cancun</title>
+			<link>http://74.222.3.185:1935/live/ngrp:galatvcancun_all/playlist.m3u8</link>
+			</item>
+
+<item>
+			<title>Azteca Deportes</title>
+			<link>http://aztecalive-lh.akamaihd.net/i/0sa0dg2r9_1@167681/index_2_av-p.m3u8</link>
+			</item>
+
+
+
+

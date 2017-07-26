@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>Pasion De Gavilanes</name>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/61emGhdVoTL.jpg</thumbnail>
+<fanart>http://www.supermusic.sk/obrazky/2590432_Pasion-de-Gavilanes-telenovelas-4411665-1024-768.jpg</fanart>
+<items>
+
+<item>
+<title>[B][COLOR gold][COLOR pink][/COLOR] Pasion De Gavilanes[/B]</title> @mexflix
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/I/61emGhdVoTL.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/pasion-de-gavilanes-completa-40845/list,1,8</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/pasion-de-gavilanes-completa-40845/list,1,8</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/61emGhdVoTL.jpg</thumbnail>
+<fanart>http://kingofwallpapers.com/candy-candy/candy-candy-014.jpg</fanart>
+</item>
+</items>
+</channel>

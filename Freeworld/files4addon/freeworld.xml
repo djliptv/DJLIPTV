@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+
+
+ <item>
+<title>               [B][COLOR yellow]C O R T E S I A[/COLOR][COLOR deepskyblue]   F R E E W O R L D[/COLOR][COLOR red]   M E D I A[/COLOR][/B] </title>
+<link>http://ignora.me</link>
+<externallink>http://no link</externallink>
+<thumbnail>https://i.ytimg.com/vi/tvhgGXCU0Gw/maxresdefault.jpg</thumbnail><fanart>https://kfiretv-cn396iwnnfhyi.netdna-ssl.com/wp-content/uploads/2017/04/kodi-17.1-on-firestick-1024x436.jpg</fanart>
+</item>
+ <item>
+<title>            [B][COLOR yellow]NO TE OLVIDES DE[/COLOR][COLOR deepskyblue]   SUBSCRIBER[/COLOR][COLOR white]  A MI CANAL[/COLOR][/B] </title>
+<link>http://ignora.me</link>
+<externallink>http://frepo.org/stalker.m3u</externallink>
+<thumbnail>https://i.ytimg.com/vi/tvhgGXCU0Gw/maxresdefault.jpg</thumbnail><fanart>http://legionworldtv.com/master/movies/fanart.PNG</fanart>
+</item>
+ <item>
+<title>                [B][COLOR red]http://[/COLOR][COLOR lime]www.youtube.com/freeworld[/COLOR][COLOR white]kodi[/COLOR][/B] </title>
+<link>http://ignora.me</link>
+<externallink>http://frepo.org/stalker.m3u</externallink>
+<thumbnail>https://i.ytimg.com/vi/tvhgGXCU0Gw/maxresdefault.jpg</thumbnail><fanart>https://kfiretv-cn396iwnnfhyi.netdna-ssl.com/wp-content/uploads/2017/04/kodi-17.1-on-firestick-1024x436.jpg</fanart>
+</item>
+ 
+<thumbnail>https://i.ytimg.com/vi/tvhgGXCU0Gw/maxresdefault.jpg</thumbnail><fanart>https://kfiretv-cn396iwnnfhyi.netdna-ssl.com/wp-content/uploads/2017/04/kodi-17.1-on-firestick-1024x436.jpg</fanart>
+<info></info></item>
+<item>
+<title>                                   [B][COLOR hotpink] LA SECCION LATINA[/COLOR][/B] </title>            
+<link>$doregex[makelist]</link>
+ 
+<thumbnail>https://i.ytimg.com/vi/tvhgGXCU0Gw/maxresdefault.jpg</thumbnail><fanart>https://kfiretv-cn396iwnnfhyi.netdna-ssl.com/wp-content/uploads/2017/04/kodi-17.1-on-firestick-1024x436.jpg</fanart>
+<info></info></item>
+<item>
+<title>[COLOR white][B]________________________________________________________________________[/B][/COLOR]</title>           
+<link>$doregex[makelist]</link>
+ 
+<thumbnail>https://i.ytimg.com/vi/tvhgGXCU0Gw/maxresdefault.jpg</thumbnail><fanart>https://kfiretv-cn396iwnnfhyi.netdna-ssl.com/wp-content/uploads/2017/04/kodi-17.1-on-firestick-1024x436.jpg</fanart>
+<info></info></item>
+
+<item>
+<title>[COLOR azure][B]W A R N I N G   [/B][/COLOR][COLOR lime] [B]O N L Y + 1 8[/B]  [/COLOR][COLOR skyblue] [B]A D U L T  Z O N E[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][B][makelist.param2][/B][/COLOR]</title>
+        <link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres><![CDATA[<a href="(\/tags.+?)"><b>(.+?)<\/b><span]]></expres>
+<page>http://www.xvideos.com/tags</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[B][COLOR hotpink][makelist2.param3][/COLOR][/B]</title>
+        <link>$doregex[getsrcadult]</link>
+        <thumbnail>[makelist2.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[div id.+<a href="(.+?)".+img src="(.+?)".+title="(.+?)">]]></expres>
+<page>http://www.xvideos.com[makelist.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getsrcadult</name>
+<expres><![CDATA[setVideoUrlHigh\('(.+?)'\)]]></expres>
+<page>http://www.xvideos.com[makelist2.param1]</page>
+</regex>
+<thumbnail>https://i.ytimg.com/vi/tvhgGXCU0Gw/maxresdefault.jpg</thumbnail><fanart>https://kfiretv-cn396iwnnfhyi.netdna-ssl.com/wp-content/uploads/2017/04/kodi-17.1-on-firestick-1024x436.jpg</fanart>
+</item>
+
+ 
+<item>
+<title>[COLOR white][B]S E R V I D O R E S [/COLOR][COLOR red]  D I S K O[/COLOR][COLOR deepskyblue]K O S M I C O[/B][/COLOR] </title>
+<link>$doregex[makelist3]</link>
+
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR skyblue][makelist3.param2] - [makelist3.param3][/COLOR]</title>
+        <link>$doregex[makelist2]</link>
+<thumbnail>http://legionworldtv.com/master/movies/icon.PNG</thumbnail><fanart>http://legionworldtv.com/master/movies/fanart.PNG</fanart>
+        ]]></listrepeat>
+<expres>playlist:"(.*?)" name:"(.*?)" info:"(.*?)";</expres>
+<page>http://legionworldtv.com/master/movies/diskoserver.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+
+
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR skyblue][makelist2.param2][/COLOR]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+        ]]></listrepeat>
+<expres>class="name" href="(.*?)">(.*?)<[\w\W\s]{0,190}src="(.*?)"</expres>
+<page>[makelist3.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx[makelist2.param1]/list,1,20</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx[makelist2.param1]/list,1,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://legionworldtv.com/master/movies/icon.PNG</thumbnail><fanart>http://legionworldtv.com/master/movies/fanart.PNG</fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR white][B]S E R V I D O R E S[/COLOR][COLOR yellow]  P O R[/COLOR][COLOR deepskyblue]  C A T E G O R I A[/B][/COLOR] </title>  
+<link>$doregex[makelist2]</link>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR skyblue][makelist2.param1][/COLOR]</title>
+        <link>$doregex[makelist]</link>
+<thumbnail>https://i.ytimg.com/vi/tvhgGXCU0Gw/maxresdefault.jpg</thumbnail><fanart>http://legionworldtv.com/master/movies/fanart.PNG</fanart>
+        ]]></listrepeat>
+<expres>Server:"(.*?)" src="(.*?)"</expres>
+<page>http://legionworldtv.com/master/movies/diskoserver.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR deepskyblue][makelist.param3]  [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>[makelist2.param2]</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://legionworldtv.com/master/movies/icon.PNG</thumbnail><fanart>http://legionworldtv.com/master/movies/fanart.PNG</fanart>
+</item>
+
+
+<item>
+<title>[COLOR white][B]S E R V I D O R E S [/COLOR][COLOR yellow]  D E[/COLOR][COLOR deepskyblue]   S E R I E S[/B][/COLOR] </title>  
+<link>$doregex[makelist2]</link>
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+  <SetViewMode>55</SetViewMode>
+        <title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>http://legionworldtv.com/master/movies/diskoserver.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/freeworld/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.ytimg.com/vi/tvhgGXCU0Gw/maxresdefault.jpg</thumbnail><fanart>https://kfiretv-cn396iwnnfhyi.netdna-ssl.com/wp-content/uploads/2017/04/kodi-17.1-on-firestick-1024x436.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR white][B]S E R I E S  [/COLOR][COLOR yellow]  D E[/COLOR][COLOR deepskyblue]   C O N D O R[/B][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://legionworldtv.com/master/movies/condor76.m3u</externallink>
+<thumbnail>http://legionworldtv.com/master/movies/icon.PNG</thumbnail><fanart>http://legionworldtv.com/master/movies/fanart.PNG</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[COLOR white][B]P E L I C U L A S  [/COLOR][COLOR yellow]  O N L I N E[/COLOR][COLOR deepskyblue]   R E C I E N T E S[/B][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://legionworldtv.com/master/movies/new.xml</externallink>
+<thumbnail>http://legionworldtv.com/master/movies/icon.PNG</thumbnail><fanart>http://legionworldtv.com/master/movies/fanart.PNG</fanart>
+<info></info>
+</item>
+
+
+
+
+<item>
+<title>[COLOR white][B]T E L E N O V E L A S  [/COLOR][COLOR yellow]  A U D I O[/COLOR][COLOR deepskyblue]   L A T I N O[/B][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://legionworldtv.com/master/movies/teleseerver.txt</externallink>
+<thumbnail>http://legionworldtv.com/master/movies/icon.PNG</thumbnail><fanart>http://legionworldtv.com/master/movies/fanart.PNG</fanart>
+<info></info>
+
+
+
+<item>
+<title>[B][COLOR white]L A    V I D A[/COLOR][COLOR deepskyblue]   D E   J E S U S[/B][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://legionworldtv.com/master/joshua/JOSHUA.txt</externallink>
+<thumbnail>http://legionworldtv.com/master/movies/icon.PNG</thumbnail><fanart>http://legionworldtv.com/master/movies/fanart.PNG</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[B][COLOR white]L I V E   T V[/COLOR][COLOR deepskyblue]   M3U   P L A Y L I S T S[/B][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://legionworldtv.com/master/movies/iptvplaylist-1.m3u</externallink>
+<thumbnail>http://legionworldtv.com/master/movies/icon.PNG</thumbnail><fanart>http://legionworldtv.com/master/movies/fanart.PNG</fanart>
+<info></info>
+</item>
+
+    
+
+<item>
+<title>[COLOR white][B]M O V I E S  [/COLOR][COLOR yellow]  E N G L I S H [/COLOR][COLOR deepskyblue]   Z O N E[/B][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://legionworldtv.com/master/movies/mainmovies.xml</externallink>
+<thumbnail>http://legionworldtv.com/master/movies/icon.PNG</thumbnail><fanart>http://legionworldtv.com/master/movies/fanart.PNG</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR white][B]I N T E R N E T [/COLOR][COLOR yellow]  P R O T O C O L O [/COLOR][COLOR deepskyblue]   T E L E V I S I O N[/B][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://legionworldtv.com/master/movies/canales.xml</externallink>
+<thumbnail>http://legionworldtv.com/master/movies/icon.PNG</thumbnail><fanart>http://legionworldtv.com/master/movies/fanart.PNG</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR white][B]________________________________________________________________________[/B][/COLOR]</title>           
+<link>$doregex[makelist]</link>
+ 
+<thumbnail>http://legionworldtv.com/master/movies/icon.PNG</thumbnail><fanart>http://legionworldtv.com/master/movies/fanart.PNG</fanart>
+<info></info></item>
+
+
+<item>
+<title>*************[B][COLOR lime]ESPERO LO DISFRUTEN[/COLOR][COLOR lime]  QUE DIOS [/COLOR][COLOR lime]   LOS BENDIGA[/COLOR][/B]*************</title>
+<link>http://ignora.me</link>
+<externallink>http://legionworldtv.com/master/movies/dlmovies.xml</externallink>
+<thumbnail>http://legionworldtv.com/master/movies/icon.PNG</thumbnail><fanart>http://legionworldtv.com/master/movies/fanart.PNG</fanart>
+<info></info>
+</item>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>Daniel El Travieso</name>
+<thumbnail>http://orig00.deviantart.net/b98d/f/2016/096/a/f/daniel_el_travieso_v1_by_vamps1-d9xye0t.png</thumbnail>
+<fanart>http://cloud10.todocoleccion.online/cine-peliculas-dvd/tc/2015/07/13/18/50289474.jpg</fanart>
+<items>
+
+<item>
+<title>[B][COLOR gold][COLOR gold][/COLOR] Daniel El Travieso[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://orig00.deviantart.net/b98d/f/2016/096/a/f/daniel_el_travieso_v1_by_vamps1-d9xye0t.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/daniel-el-travieso-serie-animada-30804</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/daniel-el-travieso-serie-animada-30804</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig00.deviantart.net/b98d/f/2016/096/a/f/daniel_el_travieso_v1_by_vamps1-d9xye0t.png</thumbnail>
+<fanart>http://cloud10.todocoleccion.online/cine-peliculas-dvd/tc/2015/07/13/18/50289474.jpg</fanart>
+</item>
+</items>
+</channel>

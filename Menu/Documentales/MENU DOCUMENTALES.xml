@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--- MENU
+- 
+--->
+
+<!--- ENCABEZADO ######## INICIO --->
+
+<channels> 
+<channel>
+<name>[COLOR orange][B]DOCUMENTALES - MENU[/B][/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com</externallink>
+</channel>
+ </channels>
+ 
+ <channels>
+<channel>
+<name>[COLOR white]========================================[/COLOR]</name>
+<thumbnail>http://bit.ly/DJLIPTVUPDATE1</thumbnail>
+<fanart>http://bit.ly/DJLIPTVUPDATE</fanart>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com</externallink>
+</channel>
+ </channels> 
+
+<!--- ENCABEZADO ######## FIN --->
+
+<!--- MENU ######## INICIO --->
+ 
+<!--- ITEM - DOCUMENTALES - PACK 1 ######## INICIO ---> 
+ 
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] DOCUMENTALES - PACK 1[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignorame</link>
+<externallink>https://www.dropbox.com/s/5c5xw6dgcmvwv7u/DOCUMENTALES.m3u?dl=1</externallink>
+</channel>
+ </channels>
+
+<!--- ITEM - DOCUMENTALES - PACK 1 ######## FIN ---> 
+
+<!--- ITEM - DOCUMENTALES - PACK 2 ######## INICIO ---> 
+ 
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] DOCUMENTALES - PACK 2[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignorame</link>
+<externallink>https://www.dropbox.com/s/ytq6c28mbgecv1t/DOCUMENTALES1.xml?dl=1</externallink>
+</channel>
+ </channels>
+
+<!--- ITEM - DOCUMENTALES - PACK 3 ######## INICIO ---> 
+ 
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] DOCUMENTALES - PACK 3[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/gKWUXprn</externallink>
+</channel>
+ </channels>
+
+<!--- ITEM - DOCUMENTALES - ERASE UNA VEZ ######## INICIO ---> 
+ 
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] DOCUMENTALES - ERASE UNA VEZ[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignorame</link>
+<externallink>https://www.dropbox.com/s/ohmsjh6e52ks5au/EraseUnaVez.xml?dl=1</externallink>
+</channel>
+ </channels>
+
+<!--- ITEM - DOCUMENTALES - ERASE UNA VEZ ######## FIN ---> 
+
+<!--- ITEM - DOCUMENTALES - KGB ######## INICIO ---> 
+ 
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] DOCUMENTALES - KGB[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignorame</link>
+<externallink>https://www.dropbox.com/s/ug4tloxacwgwotm/Kgb.xml?dl=1</externallink>
+</channel>
+ </channels>
+
+<!--- ITEM - DOCUMENTALES - KGB ######## FIN ---> 
+
+<!--- MENU ######## FIN --->

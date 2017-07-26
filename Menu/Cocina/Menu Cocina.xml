@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<item>
+<title>                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Videos Cocina[/COLOR] [COLOR white]| :::[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>Página [makelist2.param1]</title>
+<link>$doregex[makelist3]</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres> (.*?),</expres>
+<page>$doregex[get-number]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+            <name>makelist3</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist3.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
+                        <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>$doregex[get-source-page]</page>
+             <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>get-number</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):            
+
+ import requests
+ import re
+ url='https://www.youtube.com/watch?v=t8nu-crjc8E&index=25&list=PL7074F24FB985F7A0' 
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
+
+ rr = requests.get(url, headers=headers)
+ number = re.findall('</a></li><li>(.*?) vid', rr.text)[0]
+ #number = number.encode('unicode-escape')
+ number = number.replace(',', '')
+ real = int(float(number)) / 100
+ real2 = real + 3
+
+ liste = list(range(real2))
+ return liste
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-source-page</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+
+ import requests
+ import re
+ import json
+
+ pageUrl='https://www.youtube.com/watch?v=t8nu-crjc8E&index=25&list=PL7074F24FB985F7A0'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
+ r1 = requests.get(pageUrl, headers = headers)
+ source = r1.text
+ page = [makelist2.param1]
+ N = int(float(page))
+ pre = 'https://www.youtube.com'
+ if (N > 1):
+
+   for itr in range (1,N):
+    continuex = re.findall('data-uix-load-more-href="(.*?)"', source)[0]
+    continuationx = pre + continuex
+    r = requests.get(continuationx, headers = headers)
+    source = r.text
+    jdata = json.loads(source)
+    source = jdata["load_more_widget_html"]
+    page = jdata["content_html"]
+   return page
+    
+ else:
+
+  return source
+]]></expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR gold]:::: [/COLOR][COLOR white][B] ¡¡¡ YOUTUBE PLUGIN VERSION 5.3.12 REQUERIDO !!! [/B][/COLOR][COLOR gold]:::: [/COLOR]</title>
+<link>http://</link>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] Variedad de Recetas</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLVS8L6lb4C1m-lI0QVqWMwZR1iGqshutg</page>
+			<referer>https://www.youtube.com/playlist?list=PLVS8L6lb4C1m-lI0QVqWMwZR1iGqshutg/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] Maestros del Asado</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLFTSy27NWFSOhiK77kLY3z8tVD1A7-p3E</page>
+			<referer>https://www.youtube.com/playlist?list=PLFTSy27NWFSOhiK77kLY3z8tVD1A7-p3E/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] Cocineros Argentinos</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLVS8L6lb4C1m-lI0QVqWMwZR1iGqshutg</page>
+			<referer>https://www.youtube.com/channel/UCFR_qeQnFcu7oY2u-UiKvUQ/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] Masas con Osvaldo Gross</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLjG1pSeImzYO9vx2B8qTACyEEMrM-9b_E</page>
+			<referer>https://www.youtube.com/playlist?list=PLjG1pSeImzYO9vx2B8qTACyEEMrM-9b_E/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] LOCOS X EL ASADO - RECETAS DE ACOMPAÑAMIENTOS</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLd89SMcWw53G6btBlRgk_FotE3SsAUCBI</page>
+			<referer>https://www.youtube.com/user/locosxelasado/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] LOCOS X EL ASADO - RECETAS CARNE DE RES</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLd89SMcWw53GuVLuFqMm-vNKRDNGrkasO</page>
+			<referer>https://www.youtube.com/user/locosxelasado/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] LOCOS X EL ASADO - RECETAS DE SANDWICHES</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLd89SMcWw53FpXkT_WuXszZBhoN4rGwwO</page>
+			<referer>https://www.youtube.com/user/locosxelasado/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] LOCOS X EL ASADO - RECETAS DE CERDO</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLd89SMcWw53EiFYWgTYhQG-soz-KHI0to</page>
+			<referer>https://www.youtube.com/user/locosxelasado/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] LOCOS X EL ASADO - RECETAS DE PESCADO</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLd89SMcWw53EFcaO6rfqZAHflt9SmSvNo</page>
+			<referer>https://www.youtube.com/user/locosxelasado/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] LOCOS X EL ASADO - RECETAS DE ADEREZOS</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLd89SMcWw53FihH9mbZog4C4R99yK9Lw7</page>
+			<referer>https://www.youtube.com/user/locosxelasado/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] LOCOS X EL ASADO - RECETAS DE POLLO</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLd89SMcWw53E0ZsAf8lRQJgmFG6fp66OG</page>
+			<referer>https://www.youtube.com/user/locosxelasado/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] LOCOS X EL ASADO - RECETAS DE ACHURAS Y EMBUTIDOS</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLd89SMcWw53E2BZhJ5Nuzgl2uxWltwHQE</page>
+			<referer>https://www.youtube.com/user/locosxelasado/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] LOCOS X EL ASADO - PATAGONIA VIVA</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLd89SMcWw53Ept0vAI_wocEPeflYdKdp4</page>
+			<referer>https://www.youtube.com/user/locosxelasado/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] LOCOS X EL ASADO - RECETAS DE CONEJO</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLd89SMcWw53Ept0vAI_wocEPeflYdKdp4</page>
+			<referer>https://www.youtube.com/user/locosxelasado/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] LOCOS X EL ASADO - RECETAS DE CORDERO</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLd89SMcWw53EG1TQEtb8OP2Qdg3HJc_SK</page>
+			<referer>https://www.youtube.com/user/locosxelasado/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] LOCOS X EL ASADO - RECETAS DE VEGETALES</title>
+<link>$doregex[makelist]</link>
+<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+						<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLd89SMcWw53FA-k2mJpGqVQauYr0QrJ65</page>
+			<referer>https://www.youtube.com/user/locosxelasado/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>

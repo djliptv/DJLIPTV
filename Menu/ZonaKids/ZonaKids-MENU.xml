@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<channels> 
+<channel>
+<name>[COLOR blue]=[/COLOR][COLOR yellow]=[/COLOR][COLOR red]=[/COLOR][COLOR green]=[/COLOR][COLOR blue]=[/COLOR][COLOR yellow]=[/COLOR][COLOR red]=[/COLOR][COLOR green]=[/COLOR][COLOR cyan] ZONA[/COLOR] [COLOR blue]K[/COLOR][COLOR yellow]I[/COLOR][COLOR red]D[/COLOR][COLOR green]S [/COLOR][COLOR blue]=[/COLOR][COLOR yellow]=[/COLOR][COLOR red]=[/COLOR][COLOR green]=[/COLOR][COLOR blue]=[/COLOR][COLOR yellow]=[/COLOR][COLOR red]=[/COLOR][COLOR green]=[/COLOR]</name>
+<thumbnail>https://www.dropbox.com/s/aprqrj3svsghvar/KidsThumbnail.png?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/k2dibz3b9entn0t/KidsFanart.jpg?dl=1</fanart>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com</externallink>
+</channel>
+</channels>
+
+<channels> 
+<channel>
+<name>[COLOR blue]=[/COLOR][COLOR yellow]=[/COLOR][COLOR red]=[/COLOR][COLOR green]=[/COLOR][COLOR blue]=[/COLOR][COLOR yellow]=[/COLOR][COLOR red]=[/COLOR][COLOR green]=[/COLOR][COLOR blue]=[/COLOR][COLOR yellow]=[/COLOR][COLOR red]=[/COLOR][COLOR green]=[/COLOR][COLOR blue]=[/COLOR][COLOR yellow]=[/COLOR][COLOR red]=[/COLOR][COLOR green]=[/COLOR][COLOR blue]=[/COLOR][COLOR yellow]=[/COLOR][COLOR red]=[/COLOR][COLOR green]=[/COLOR][COLOR blue]=[/COLOR][COLOR yellow]=[/COLOR][COLOR red]=[/COLOR][COLOR green]=[/COLOR]</name>
+<thumbnail>https://www.dropbox.com/s/aprqrj3svsghvar/KidsThumbnail.png?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/k2dibz3b9entn0t/KidsFanart.jpg?dl=1</fanart>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com</externallink>
+</channel>
+</channels>
+
+<channels>
+<channel>
+<name>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] ANIME[/COLOR]</name>
+<thumbnail>https://www.dropbox.com/s/93ikwgzk6r6s818/AnimeThumbnail.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/09v85f09hsvsxii/AnimeFanart.jpg?dl=1</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/o1vijl2rs2oykfj/ANIME-MENU.xml?dl=1</externallink>
+</channel>
+ </channels>
+<!--
+<channels>
+<channel>
+<name>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV PREMIUM[/COLOR][COLOR grey][I] [Canales de television por cable][/I][/COLOR]</name>
+<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/nsy4xkx2ixjb4ff/TV-Premium.xml?dl=1</externallink>
+</channel>
+ </channels> 
+ 
+ <!---
+<channels> 
+<channel>
+<name>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] TELEVISION[/COLOR]</name>
+<thumbnail>https://kidstvofficial.files.wordpress.com/2015/07/kids_tv_final_1920_1080_png.png</thumbnail>
+<fanart>http://ulango.tv/uploads/channels/30279/logo_kids-tv-gr.png</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/4wyzvjcm0ggmw40/channel.m3u?dl=1</externallink>
+</channel>
+</channels>
+--->
+<channels> 
+<channel>
+<name>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] SERIES INFANTILES[/COLOR]</name>
+<thumbnail>https://www.dropbox.com/s/mdsewbpawhm98ko/SeriesInfantilesThumbnail.png?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/v1yqoe50ohtfthf/SeriesInfantilesFanart.jpg?dl=1</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/u9zsar2vkwbamx1/SERIES%20INFANTILES.XML?dl=1</externallink>
+</channel>
+</channels>
+
+<channels> 
+<channel>
+<name>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] MOVIES INFANTILES[/COLOR]</name>
+<thumbnail>http://bestforkodi.com/wp-content/uploads/2015/11/KIDS-MOVIES.png</thumbnail>
+<fanart>http://woodland-church.com/files/Kidzone/KidZone%20Logo%20600dpi.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/eidzau3r7psrhnx/MOVIES%20INFANTILES.XML?dl=1</externallink>
+</channel>
+</channels>
+
+<channels> 
+<channel>
+<name>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] VIDEOS INFANTILES[/COLOR]</name>
+<thumbnail>https://www.dropbox.com/s/omlsslmpv45xusy/KIDS-VIDEOS.png?dl=1</thumbnail>
+<fanart>https://i.ytimg.com/vi/2IL9UDKe-ZU/maxresdefault.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/82od0p7m74udvl9/VIDEOS-MENU.xml?dl=1</externallink>
+</channel>
+</channels>

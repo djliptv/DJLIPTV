@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV CHANNELS [LISTAS DIARIAS][/COLOR]</name>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/q64b6tzm6mlfzrv/IPTVDailyLists.xml?dl=1</externallink>
+</channel>
+ </channels>
+
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV CHANNELS [MAYO 2017 - HACK VENENO][/COLOR]</name>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/y2t8ouv3hc40z8o/LISTAS%20IPTV%20MAYO%206%20By%20Hack%20Veneno.m3u?dl=1</externallink>
+</channel>
+ </channels>
+
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV CHANNELS [/COLOR]</name>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>https://pastebin.com/raw/00MR8unj</externallink>
+</channel>
+ </channels>
+
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV CHANNELS LATINOS 05-04-17[/COLOR]</name>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://pastebin.com/raw/jPvnw31b</externallink>
+</channel>
+ </channels>
+
+ <channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTVSMART 06-04-17[/COLOR]</name>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>https://goo.gl/FcF8at</externallink>
+</channel>
+ </channels>
+ 
+ <channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV CHANNELS CECEGEEK[/COLOR]</name>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://iptv.slynet.tv/FreeWorldTV.m3u</externallink>
+</channel>
+ </channels>
+ Http://iptv.slynet.tv/FreeWorldTV.m3u
+ 
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] DJL IPTV[/COLOR]</name>
+<thumbnail>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</fanart>
+<link>ignoreme.me</link>
+<externallink>https://www.dropbox.com/s/0nini4hicfpf41t/IPTV%20CHANNELS.xml?dl=1</externallink>
+</channel>
+ </channels>
+
+ <channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV VARIOS[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>ignoreme.me</link>
+<externallink>http://pastebin.com/raw/ZhYK4EjY</externallink>
+</channel>
+</channels> 
+ 
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV THE PLAYERS KLUB[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>ignoreme.me</link>
+<externallink>http://pastebin.com/raw/c6vMsN0w</externallink>
+</channel>
+</channels> 
+
+<!--- http://dns.theplayersklub.us:2095/get.php?username=husham&password=husham&type=m3u_plus&output=ts --->
+
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV FREEWORLD[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://legionworldtv.com/secure/opensource.m3u</externallink>
+</channel>
+</channels>
+
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV STALLION[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>ignoreme.me</link>
+<externallink>http://pastebin.com/raw/jPvNw31b</externallink>
+</channel>
+</channels>
+
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV STALLION (12/04/17)[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>ignoreme.me</link>
+<externallink>http://bit.ly/lista411</externallink>
+</channel>
+</channels>
+ 
+ <channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV HACK VENENO[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>ignoreme.me</link>
+<externallink>http://www.hackveneno.com/vip/TV.m3u</externallink>
+</channel>
+</channels>
+www.hackveneno.com/vip/TV.m3u 
+
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV HACK VENENO 2[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>ignoreme.me</link>
+<externallink>https://pastebin.com/raw/rdRP1Dy0</externallink>
+</channel>
+</channels>
+
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV PLAYER LATINO[/COLOR]</name>
+<thumbnail>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</fanart>
+<link>ignoreme.me</link>
+<externallink>http://live.tvplayerlatino.com/usuarios/lista/Hack.Veneno/DOX.m3u</externallink>
+</channel>
+</channels>
+
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV PLAYER LATINO HD[/COLOR]</name>
+<thumbnail>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</fanart>
+<link>ignoreme.me</link>
+<externallink>http://live.tvplayerlatino.com/usuarios/lista/Hack.Veneno/DOX/hd.m3u</externallink>
+</channel>
+ </channels> 
+
+ <channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV KODIMAN[/COLOR]</name>
+<thumbnail>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</fanart>
+<link>ignoreme.me</link>
+<externallink>http://pastebin.com/raw/BukGmkwM</externallink>
+</channel>
+ </channels> 
+ 
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV PAISES[/COLOR][B][COLOR white] [ADRYANLIST][/COLOR][/B]</name>
+<thumbnail>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</fanart>
+<link>ignoreme.me</link>
+<externallink>http://adryanlist.org/adryan/paises.xml</externallink>
+</channel>
+ </channels>
+
+<channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV INTERNACIONALES[/COLOR][B][COLOR white] [ELECDEKA][/COLOR][/B]</name>
+<thumbnail>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</fanart>
+<link>ignoreme.me</link>
+<externallink>https://pastebin.com/raw/Bk7CXLsS</externallink>
+</channel>
+ </channels>
+
+<!-- http://pastebin.com/raw/Ay8PVCri--> 
+ <channels>
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV PREMIUM[/COLOR][B][COLOR white] [ELECDEKA][/COLOR][/B]</name>
+<thumbnail>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</fanart>
+<link>ignoreme.me</link>
+<externallink>http://pastebin.com/raw/AxzHXkV8</externallink>
+</channel>
+ </channels>
+ 
+<channels>
+ 
+<channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV TEMPORALES[/COLOR]</name>
+<thumbnail>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</fanart>
+<link>ignoreme.me</link>
+<externallink>https://www.dropbox.com/s/yeczr4wxzq13qpv/MENU%20IPTV%20TEMP.xml?dl=1</externallink>
+</channel>
+ </channels>
+ 
+ <channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV GERMANY, ITALY, NTHERLAND, SPAIN, RUSSIA[/COLOR]</name>
+<thumbnail>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</fanart>
+<link>ignoreme.me</link>
+<externallink>https://www.dropbox.com/s/zz7v8zp8oucezd3/Germany%20IT%20NL%20Spain%20RU.m3u?dl=1</externallink>
+</channel>
+ </channels>
+ 
+ <channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV TURKEY, FRANCE, BELGIUM, ARABIC, BEIN[/COLOR]</name>
+<thumbnail>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</fanart>
+<link>ignoreme.me</link>
+<externallink>https://www.dropbox.com/s/pognf474xyxvc5i/Turkey%20France%20belgium%20Arabic%20beIN.m3u?dl=1</externallink>
+</channel>
+ </channels>
+ 
+ <channel>
+<name>[COLOR gold]+[/COLOR][COLOR cyan] IPTV UK, USA, LATIN AMERICA, PORTUGAL[/COLOR]</name>
+<thumbnail>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/6pdz4fdisd5lyqf/movies.jpg?dl=1</fanart>
+<link>ignoreme.me</link>
+<externallink>https://www.dropbox.com/s/3qremon5efygcpu/UK%20USA%20Latin%20America%20Portugal.m3u?dl=1</externallink>
+</channel>
+ </channels>

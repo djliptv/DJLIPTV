@@ -1,0 +1,19 @@
+SPORT-DEVIL TELEVISION 24/7
+
+<item>
+<title>****TITULO****</title>
+<sportsdevil>********PONER AQUI LA URL********</sportsdevil>
+<referer>https://www.arconaitv.me</referer>
+<thumbnail></thumbnail>
+</item>
+
+======================================================================
+
+SPORT-DEVIL CANALES DE TELEVISION
+
+<item>
+<title>****TITULO****</title>
+<sportsdevil>********PONER AQUI LA URL********</sportsdevil>
+<referer>http://www.shadow-net.org</referer>
+<thumbnail></thumbnail>
+</item>

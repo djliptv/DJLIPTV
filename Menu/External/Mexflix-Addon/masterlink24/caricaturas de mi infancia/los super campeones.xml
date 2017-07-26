@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>Los Super Campeones -(1983)</name>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/2e/f4/4f/2ef44f9b95ef9a31e9936cda41fc041f.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-_ny1aTBh6oc/UtLiSi-jCUI/AAAAAAAADIs/zTXH-wxivlI/s1600/Super+Campeones+Serie+Completa+DVDRip+ESPA%C3%91OL+LATINO.jpg</fanart>
+<items>
+
+<item>
+<title>Los Super Campeones </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://1.bp.blogspot.com/-_ny1aTBh6oc/UtLiSi-jCUI/AAAAAAAADIs/zTXH-wxivlI/s1600/Super+Campeones+Serie+Completa+DVDRip+ESPA%C3%91OL+LATINO.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/anime/capitan-tsubasa-super-campeones-1983-latino-1213/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/anime/capitan-tsubasa-super-campeones-1983-latino-1213/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://1.bp.blogspot.com/-_ny1aTBh6oc/UtLiSi-jCUI/AAAAAAAADIs/zTXH-wxivlI/s1600/Super+Campeones+Serie+Completa+DVDRip+ESPA%C3%91OL+LATINO.jpg</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/2e/f4/4f/2ef44f9b95ef9a31e9936cda41fc041f.jpg</fanart>
+</item>
+</items>
+</channel>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>PATOAVENTURAS</name>
+<thumbnail>http://cdn.tn.com.ar/sites/default/files/styles/1366x765/public/2014/11/13/ducktales.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/media/B-0M_6_UcAAJ5Q4.jpg</fanart>
+<items>
+
+<item>
+<title> las pato aventuras</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://cdn.tn.com.ar/sites/default/files/styles/1366x765/public/2014/11/13/ducktales.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/patoaventuras-20237/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/patoaventuras-20237/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cdn.tn.com.ar/sites/default/files/styles/1366x765/public/2014/11/13/ducktales.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/media/B-0M_6_UcAAJ5Q4.jpg</fanart>
+</item>
+</items>
+</channel>

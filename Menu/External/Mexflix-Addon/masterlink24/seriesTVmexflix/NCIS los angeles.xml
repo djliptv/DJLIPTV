@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[COLOR yellow]Temporada 1:[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://allserieslinamarcela.files.wordpress.com/2009/09/ncis-los-angeles-poster-341x500.jpg</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t1-44653/list,1,2</page>   
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t1-44653/list,1,2</referer>  
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>https://allserieslinamarcela.files.wordpress.com/2009/09/ncis-los-angeles-poster-341x500.jpg</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+</item>
+
+<item>
+<title>[COLOR yellow]Temporada 2:[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://1.bp.blogspot.com/-F6tH4-kZxaU/VgHHssktv8I/AAAAAAAAYWI/HzCGq8so2SQ/s1600/NCIS_Los_Angeles_Season_2.jpg</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t2-44654/list,1,2</page>   
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t2-44654/list,1,2</referer>  
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>http://1.bp.blogspot.com/-F6tH4-kZxaU/VgHHssktv8I/AAAAAAAAYWI/HzCGq8so2SQ/s1600/NCIS_Los_Angeles_Season_2.jpg</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+</item>
+
+<item>
+<title>[COLOR yellow]Temporada 3:[/COLOR] </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://1.bp.blogspot.com/-F6tH4-kZxaU/VgHHssktv8I/AAAAAAAAYWI/HzCGq8so2SQ/s1600/NCIS_Los_Angeles_Season_2.jpg</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t3-44655/list,1,2</page>   
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t3-44655/list,1,2</referer>  
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>http://1.bp.blogspot.com/-F6tH4-kZxaU/VgHHssktv8I/AAAAAAAAYWI/HzCGq8so2SQ/s1600/NCIS_Los_Angeles_Season_2.jpg</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+</item>
+
+<item>
+<title>[COLOR yellow]Temporada 4:[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://1.bp.blogspot.com/-F6tH4-kZxaU/VgHHssktv8I/AAAAAAAAYWI/HzCGq8so2SQ/s1600/NCIS_Los_Angeles_Season_2.jpg</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t4-44656/list,1,2</page>   
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t4-44656/list,1,2</referer>  
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>http://2.bp.blogspot.com/-IZyux4-zCVE/UkKMmlPzCBI/AAAAAAAARQ8/7G06UXm2JTo/s320/NCIS-Los-Angeles-The-4th-Season-6-Disc-Set-15344759-5.jpeg</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+</item>
+
+<item>
+<title>[COLOR yellow]Temporada 5:[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://1.bp.blogspot.com/-F6tH4-kZxaU/VgHHssktv8I/AAAAAAAAYWI/HzCGq8so2SQ/s1600/NCIS_Los_Angeles_Season_2.jpg</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t5-44657/list,1,2</page>   
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t5-44657/list,1,2</referer>  
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>https://1.bp.blogspot.com/-hkdK_Y6SzlU/VZZM21N_ysI/AAAAAAAADQI/FOhXEiSt7PY/s1600/NCIS%2BLos%2BAngeles%2BSeason%2B5.jpg</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+</item>
+
+<item>
+<title>[COLOR yellow]Temporada 6:[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://3.bp.blogspot.com/-VF1SO7_X-Ik/VgHIUFgL0bI/AAAAAAAAYWY/Es9k-BqnxTg/s1600/NCIS_Los_Angeles_6.jpg</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t6-44658/list,1,2</page>   
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t6-44658/list,1,2</referer>  
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>http://3.bp.blogspot.com/-VF1SO7_X-Ik/VgHIUFgL0bI/AAAAAAAAYWY/Es9k-BqnxTg/s1600/NCIS_Los_Angeles_6.jpg</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+</item>
+
+<item>
+<title>[COLOR yellow]Temporada 7:[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://himg.fileham.com/main/data/2016/01/08/43a4b_1452220805.jpg</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t7-44659/list,1,2</page>   
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t7-44659/list,1,2</referer>  
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>http://himg.fileham.com/main/data/2016/01/08/43a4b_1452220805.jpg</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+</item>
+
+<item>
+<title>[COLOR yellow]Temporada 8:[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.descargarpormega.org/imagenes/ncis-los-angeles-temporada-8-capitulos-1-2-3_1_680x1000.png</thumbnail> 
+  <fanart>https://image.tmdb.org/t/p/original/bPvom4oTC8HQwA9jDDjO9rP6MSZ.jpg</fanart>  
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t8-43081</page>   
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t8-43081</refe

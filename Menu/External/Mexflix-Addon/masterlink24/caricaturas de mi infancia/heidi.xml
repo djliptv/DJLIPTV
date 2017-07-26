@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name> Heidi</name>
+<thumbnail>https://img0.etsystatic.com/043/1/9665128/il_fullxfull.623149116_1rbf.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/5MODHN6ORnI/maxresdefault.jpg</fanart>
+<items>
+
+<item>
+<title>[B][COLOR gold][COLOR gold][/COLOR] Heidi[/B]</title> @mexflix
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://img0.etsystatic.com/043/1/9665128/il_fullxfull.623149116_1rbf.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/marcos20/heidi-serie-completa-52-capitulos-28421/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/marcos20/heidi-serie-completa-52-capitulos-28421/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://img0.etsystatic.com/043/1/9665128/il_fullxfull.623149116_1rbf.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/5MODHN6ORnI/maxresdefault.jpg</fanart>
+</item>
+</items>
+</channel>

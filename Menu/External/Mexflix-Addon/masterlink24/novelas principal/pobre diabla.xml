@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>Pobre Diabla</name>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/41qX%2BrlrukL.jpg</thumbnail>
+<fanart>https://lh3.googleusercontent.com/-cLAcmAfDZF0/TYw0F43LVmI/AAAAAAAABCQ/17CerlZ241g/s640/Pobre+Diabla.jpg</fanart>
+<items>
+
+<item>
+<title>[B][COLOR lime][COLOR pink][/COLOR] Pobre Diabla[/B]</title> @mexflix
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/I/41qX%2BrlrukL.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/pobre-diabla-version-mexicana-completa-39630/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/pobre-diabla-version-mexicana-completa-39630/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/41qX%2BrlrukL.jpg</thumbnail>
+<fanart>https://lh3.googleusercontent.com/-cLAcmAfDZF0/TYw0F43LVmI/AAAAAAAABCQ/17CerlZ241g/s640/Pobre+Diabla.jpg</fanart>
+</item>
+</items>
+</channel>

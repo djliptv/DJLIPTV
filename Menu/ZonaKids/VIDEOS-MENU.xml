@@ -1,0 +1,241 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[COLOR gold]                          VIDEOS INFANTILES[/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>Página [makelist2.param1]</title>
+<link>$doregex[makelist3]</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres> (.*?),</expres>
+<page>$doregex[get-number]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+            <name>makelist3</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist3.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
+                        <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>$doregex[get-source-page]</page>
+             <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>get-number</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):            
+
+ import requests
+ import re
+ url='https://www.youtube.com/watch?v=t8nu-crjc8E&index=25&list=PL7074F24FB985F7A0' 
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
+
+ rr = requests.get(url, headers=headers)
+ number = re.findall('</a></li><li>(.*?) vid', rr.text)[0]
+ #number = number.encode('unicode-escape')
+ number = number.replace(',', '')
+ real = int(float(number)) / 100
+ real2 = real + 3
+
+ liste = list(range(real2))
+ return liste
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-source-page</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+
+ import requests
+ import re
+ import json
+
+ pageUrl='https://www.youtube.com/watch?v=t8nu-crjc8E&index=25&list=PL7074F24FB985F7A0'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
+ r1 = requests.get(pageUrl, headers = headers)
+ source = r1.text
+ page = [makelist2.param1]
+ N = int(float(page))
+ pre = 'https://www.youtube.com'
+ if (N > 1):
+
+   for itr in range (1,N):
+    continuex = re.findall('data-uix-load-more-href="(.*?)"', source)[0]
+    continuationx = pre + continuex
+    r = requests.get(continuationx, headers = headers)
+    source = r.text
+    jdata = json.loads(source)
+    source = jdata["load_more_widget_html"]
+    page = jdata["content_html"]
+   return page
+    
+ else:
+
+  return source
+]]></expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR gold]:::: [/COLOR][COLOR white][B] ¡¡¡ YOUTUBE PLUGIN VERSION 5.3.12 REQUERIDO !!! [/B][/COLOR][COLOR gold]:::: [/COLOR]</title>
+<link>http://</link>
+</item>
+<!--
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] GALLINA PINTADITA[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://cde.laprensa.e3.pe/ima/0/0/1/0/5/105478.jpg</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/66/19/39/661939e14bc004153f1f0e2ffdcb264a.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>http://static.wixstatic.com/media/e9556d_2c99b08b6dc8496388b6e56719e21d6e.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/66/19/39/661939e14bc004153f1f0e2ffdcb264a.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLQiO4TFGhdL9k8t_3ycDGRMrXa7vOJVdo</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+-->
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] GALLINA PINTADITA[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://cde.laprensa.e3.pe/ima/0/0/1/0/5/105478.jpg</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/66/19/39/661939e14bc004153f1f0e2ffdcb264a.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>http://static.wixstatic.com/media/e9556d_2c99b08b6dc8496388b6e56719e21d6e.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/66/19/39/661939e14bc004153f1f0e2ffdcb264a.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLQiO4TFGhdL9k8t_3ycDGRMrXa7vOJVdo</page>
+			<referer>https://www.youtube.com/playlist?list=PLQiO4TFGhdL9k8t_3ycDGRMrXa7vOJVdo/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+	<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] BABY TV[/COLOR]</title>
+	<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+	<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+	<link>$doregex[makelist]</link>
+	<externallink>https://www.dropbox.com/s/e4kzrcs02w3k7fj/BABYTV-MENU.xml?dl=1</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] BERNARD BEAR[/COLOR]</title>
+	<fanart>https://s-media-cache-ak0.pinimg.com/736x/c4/ef/2f/c4ef2fd2910ffda413504eba6ff24285.jpg</fanart>
+	<thumbnail>http://images1.amebatv.com/contenticon/bernard_200.png</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink>https://www.dropbox.com/s/h2ztiy8jmhouy2x/Bernard%20Bear-MENU.xml?dl=1</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] LA CASA DE MICKEY MOUSE[/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<thumbnail>https://cdn.toyplanet.es/c/222-category/mickey-mouse.jpg</thumbnail>
+	<fanart>http://3.bp.blogspot.com/--_2ehvF1xCA/UlQIt526k4I/AAAAAAAAC48/hYfaFSDW63I/s1600/mickey-mouse-club-house.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://cdn.toyplanet.es/c/222-category/mickey-mouse.jpg</thumbnail>
+						<fanart>http://3.bp.blogspot.com/--_2ehvF1xCA/UlQIt526k4I/AAAAAAAAC48/hYfaFSDW63I/s1600/mickey-mouse-club-house.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PL781ABC5FD0C01400</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+	<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] PLIM PLIM[/COLOR]</title>
+	<fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+	<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink>https://www.dropbox.com/s/94lkq6kievf4ogy/PLIMPLIM-MENU.xml?dl=1</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] El Reino Infantil[/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<fanart>http://s2.dmcdn.net/PVWoG/240x240-xMV.png</fanart>
+	<thumbnail>https://1.bp.blogspot.com/-z2Ga3qYxkog/Vq4BnE7RdVI/AAAAAAAAZLc/jwFi0zRMKf4/s320/canal%2Bvideo%2Breino%2Binfantil.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>http://s2.dmcdn.net/PVWoG/240x240-xMV.png</fanart>
+						<thumbnail>https://1.bp.blogspot.com/-z2Ga3qYxkog/Vq4BnE7RdVI/AAAAAAAAZLc/jwFi0zRMKf4/s320/canal%2Bvideo%2Breino%2Binfantil.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=LLK1i2UviaXLUNrZlAFpw_jA</page>
+			<referer>https://www.youtube.com/user/ReinoMariaElenaWalsh/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] La Granja de Zenón[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>https://img.grouponcdn.com/needish/29h58rykoDUB78NsprVR7AYrNMpU/29-700x420/v1/c700x420.jpg</fanart>
+<thumbnail>http://caffarohnos.com.ar/img/c/694-scene_default.jpg</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://img.grouponcdn.com/needish/29h58rykoDUB78NsprVR7AYrNMpU/29-700x420/v1/c700x420.jpg</fanart>
+						<thumbnail>http://caffarohnos.com.ar/img/c/694-scene_default.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PL2KQv6-I8MwCpCsPHof7xzzIal3JFiz_B</page>
+			<referer>https://www.youtube.com/user/ReinoMariaElenaWalsh/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] [COLOR red]P[/COLOR][COLOR deepskyblue]O[/COLOR][COLOR green]C[/COLOR][COLOR purple]O[/COLOR][COLOR orange]Y[/COLOR][COLOR yellow]O[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>https://img.grouponcdn.com/needish/29h58rykoDUB78NsprVR7AYrNMpU/29-700x420/v1/c700x420.jpg</fanart>
+<thumbnail>http://caffarohnos.com.ar/img/c/694-scene_default.jpg</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://img.grouponcdn.com/needish/29h58rykoDUB78NsprVR7AYrNMpU/29-700x420/v1/c700x420.jpg</fanart>
+						<thumbnail>http://caffarohnos.com.ar/img/c/694-scene_default.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/watch?v=F_u_loZHlGs&list=PLiNcpyRLD5Lt7Qa7TFgmWhgjL-A2A4prY</page>
+			<referer>https://www.youtube.com/user/ReinoMariaElenaWalsh/playlists</referer>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+

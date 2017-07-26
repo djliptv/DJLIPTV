@@ -1,0 +1,280 @@
+﻿<item>
+<title>[COLOR lime]•[/COLOR][COLOR white]  [B]SERIES PACK 3[/B][/COLOR]</title>
+<link>$doregex[makelist3]</link>
+
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR skyblue][makelist3.param2] - [makelist3.param3][/COLOR]</title>
+        <link>$doregex[makelist2]</link>
+		<thumbnail></thumbnail>
+        ]]></listrepeat>
+<expres>playlist:"(.*?)" name:"(.*?)" info:"(.*?)";</expres>
+<page>http://tecnotv.info/kodi/list.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+
+
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR skyblue][makelist2.param2][/COLOR]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+        ]]></listrepeat>
+<expres>class="name" href="(.*?)">(.*?)<[\w\W\s]{0,190}src="(.*?)"</expres>
+<page>[makelist3.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx[makelist2.param1]/list,1,20</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx[makelist2.param1]/list,1,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tecnotv.info/logosss.png</thumbnail>
+<fanart>http://tecnotv.info/logosss.png</fanart>
+</item>
+
+
+
+Server:"Accion" src="http://diskokosmiko.mx/naredo/accion-20343/list,1,4";
+Server:"Animacion" src="http://diskokosmiko.mx/naredo/animacion-20219/list,1,3";
+Server:"Fantastico" src="http://diskokosmiko.mx/naredo/fantastico-20056/list,1,4";
+Server:"Terror" src="http://diskokosmiko.mx/naredo/terror-20055/list,1,2";
+Server:"Belicas" src="http://diskokosmiko.mx/naredo/belicas-20003/list,1,11";
+Server:"Piratas" src="http://diskokosmiko.mx/naredo/piratas-20002/list,1,1";
+Server:"Comedia" src="http://diskokosmiko.mx/naredo/comedia-19991/list,1,3";
+Server:"Misterio" src="http://diskokosmiko.mx/naredo/misterio-19965/list,1,3";
+Server:"Western" src="http://diskokosmiko.mx/naredo/western-19889/list,1,22";
+Server:"Peliculas" src="http://diskokosmiko.mx/INTERALIOS/peliculas-4976/list,1,3";
+
+
+http://copiapop.com/iiirepublica/cine-infantil-disney-59881/list,1,6
+http://copiapop.com/JOE221277/peliculas-s-50026/gallery,1,13
+
+
+
+
+
+
+
+playlist:"http://diskokosmiko.mx/naredo" name:"Series Clasicas" info:" ";
+playlist:"http://diskokosmiko.mx/titotv" name:"Tito TV" info:" ";
+playlist:"http://diskokosmiko.mx/trivianita" name:"Trivianita" info:" ";
+playlist:"http://diskokosmiko.mx/seri5" name:"Series 5" info:" ";
+playlist:"http://diskokosmiko.mx/monnet" name:"Series Latinas" info:"El Chema  y mas";
+playlist:"http://diskokosmiko.mx/FLAYSINA" name:"Flaysina" info:"Novelas y mas";
+playlist:"http://diskokosmiko.mx/SeriesHD" name:"Series HD" info:"series en Dual audio y mas";
+playlist:"http://diskokosmiko.mx/Nightwing" name:"Nightwing" info:" Pelis y Series";
+playlist:"http://diskokosmiko.mx/IngArturo" name:"IngAr" info:" 230 peliculas en Audio Latino";
+playlist:"http://diskokosmiko.mx/marcos20" name:"M20" info:"Top Series";
+playlist:"http://diskokosmiko.mx/Elnegro17" name:"Negro" info:"The Walking Dead, Juego de tronos";
+playlist:"http://diskokosmiko.mx/chicho306" name:"Series y Peliculas CH" info:"";
+playlist:"http://diskokosmiko.mx/Cuspide" name:"CuspidePlaylist" info:"";
+playlist:"http://diskokosmiko.mx/pupurb" name:"MegaTaquilla" info:"";
+playlist:"http://diskokosmiko.mx/ermejor" name:"Vip Peliculas" info:"";
+playlist:"http://diskokosmiko.mx/frankiepentangelli" name:"Cine Español" info:"";
+playlist:"http://diskokosmiko.mx/hector-jaime-lopez" name:"Series I" info:" mas Series";
+playlist:"http://diskokosmiko.mx/joshito" name:"Series II" info:" El Señor de los cielos entre otras";
+playlist:"http://diskokosmiko.mx/elibertol" name:"Peliculas Aleatorias I" info:" Dejate Sorprender";
+playlist:"http://diskokosmiko.mx/maxxcn" name:"Peliculas Aleatorias II" info:" Dejate Sorprender";
+playlist:"http://diskokosmiko.mx/COMPARTIENDO" name:"Compartiendo" info:" Expedientes Secretos - Febrero";
+ 
+
+
+
+peliculas:"http://diskokosmiko.mx/marcos20/peliculas-de-accion-en-espanol-latino-16521" name:"Peliculas Accion Audio Latino";
+peliculas:"http://diskokosmiko.mx/marcos20/peliculas-de-caricaturas-en-espanol-latino-16449" name:"Peliculas Infantiles Audio Latino"; 
+peliculas:"http://diskokosmiko.mx/marcos20/peliculas-de-drama-en-espanol-latino-18845" name:"Peliculas Drama Audio Latino"; 
+peliculas:"http://diskokosmiko.mx/marcos20/peliculas-de-comedia-en-espanol-latino-17449" name:"Peliculas Comedia Audio Latino"; 
+peliculas:"http://diskokosmiko.mx/marcos20/peliculas-de-navidad-en-espanol-latino-17084" name:"Peliculas Navideñas Audio Latino"; 
+peliculas:"http://diskokosmiko.mx/marcos20/peliculas-de-terror-en-espanol-latino-16623" name:"Peliculas de Terror Audio Latino"; 
+peliculas:"http://diskokosmiko.mx/movies/mega-pack-1183" name:"Mega Pack 700+"; 
+peliculas:"http://diskokosmiko.mx/movies/disneydreamworks-animated-collection-1937-2009-1188" name:"Peliculas Infantiles de Disney"; 
+peliculas:"http://diskokosmiko.mx/santy/peliculas-11035" name:"Peliculas Latinos"; 
+peliculas:"http://diskokosmiko.mx/movies/jackie-chan-dvdrip-ultra-super-dooper-mega-pack-1216" name:"Jackie Chan Movies"; 
+peliculas:"http://diskokosmiko.mx/santy/peliculas-mexicanas-11328" name:"Peliculas Mexicanas"; 
+peliculas:"http://diskokosmiko.mx/Jeviathan/cine-terror-23445" name:"Cine Terror"; 
+peliculas:"http://diskokosmiko.mx/naredo/animacion-20219" name:"Peliculas Infantiles"; 
+peliculas:"http://diskokosmiko.mx/naredo/belicas-20003" name:"Peliculas Belicas"; 
+peliculas:"http://diskokosmiko.mx/naredo/misterio-19965" name:"Peliculas Misterio"; 
+peliculas:"http://diskokosmiko.mx/naredo/fantastico-20056" name:"Cine Fantastico"; 
+peliculas:"http://diskokosmiko.mx/marcos20/peticiones-16957" name:"Peticiones de Peliculas"; 
+peliculas:"http://diskokosmiko.mx/darioman/peliculas-espanol-43260" name:"Peliculas Español"; 
+peliculas:"http://diskokosmiko.mx/PukinG/peliculas-antiguas-41154" name:"Peliculas antiguas - Sala 1";
+peliculas:"http://diskokosmiko.mx/PukinG/peliculas-antiguas-2-41773" name:"Peliculas antiguas - Sala 2";
+peliculas:"http://diskokosmiko.mx/PukinG/peliculas-antiguas-3-41991" name:"Peliculas antiguas - Sala 3";
+peliculas:"http://diskokosmiko.mx/PukinG/peliculas-antiguas-4-42339" name:"Peliculas antiguas - Sala 4";
+peliculas:"http://diskokosmiko.mx/PukinG/peliculas-antiguas-5-42683" name:"Peliculas antiguas - Sala 5";
+peliculas:"http://diskokosmiko.mx/PukinG/peliculas-antiguas-6-44636" name:"Peliculas antiguas - Sala 6";
+peliculas:"http://diskokosmiko.mx/PukinG/peliculas-antiguas-7-45847" name:"Peliculas antiguas - Sala 7";
+peliculas:"http://diskokosmiko.mx/maria-santos-lopez/peliculas-32997" name:"mas que ver";
+peliculas:"http://diskokosmiko.mx/jml/peliculas-25581" name:"Peliculas plus";
+
+
+Series:"http://diskokosmiko.mx/shipwreck/marvel-agente-carter-temp-1-20675" name:"Marvel Agente Carter Temporada 1"; 
+Series:"http://diskokosmiko.mx/joshito/el-senor-dl-cielos-t-04-1080p-latino-full-hd-mp4-24795" name:"el Seños de los Cielos Temporada 4"; 
+Series:"http://diskokosmiko.mx/Elnegro17/twd-the-walking-dead-36805" name:"Walking Dead"; 
+Series:"http://diskokosmiko.mx/Elnegro17/juego-de-tronos-123456-35879" name:"Juego de Tronos"; 
+Series:"http://diskokosmiko.mx/Elnegro17/espartacus-36803" name:"spartacus"; 
+Series:"http://diskokosmiko.mx/pupi/billy-y-mandy-temporada-1-26251" name:"billy y Mandy Temp 1"; 
+Series:"http://diskokosmiko.mx/pupi/billy-y-mandy-temporada-2-28684" name:"billy y Mandy Temp 2"; 
+
+
+
+
+
+
+
+copiapop:"adrianhn" name:"Exclusivas de Adryanlist";
+copiapop:"kike123" name:"One Piece";
+copiapop:"Catoal" name:"CTA Playlist";
+copiapop:"oscuridad" name:"Oscuridad List";
+copiapop:"pony" name:"PonyList";
+copiapop:"JOE221277" name:"Joe Seleccion";
+copiapop:"Koba1994" name:"Koba playlist";
+copiapop:"EmmanuelHDD" name:"WWE smackdown / Raw Show - Señor de los cielos ";
+copiapop:"manolo123" name:"Juego de Tronos opcion1 by manolo";
+copiapop:"juanitronic" name:"Juego de Tronos opcion2 by juanitronic"; 
+copiapop:"jorgebs" name:"Juego de Tronos plus by jorge"; 
+copiapop:"Demual" name:"Juego de Tronos HD y walking dead HD by Demual"; 
+
+
+
+
+espana:"http://tumarcador.xyz/verdirectotv/3" name:"MTV";
+espana:"http://tumarcador.xyz/verdirectotv/2" name:"BarcaTV";
+espana:"http://tumarcador.xyz/verdirectotv/1" name:"Estrenos";
+espana:"4" name:"OFF";
+espana:"http://tumarcador.xyz/accion" name:"Accion";
+
+espana:"http://tumarcador.xyz/dcine" name:"DCine";
+espana:"http://tumarcador.xyz/cocina" name:"Cocina";
+espana:"http://tumarcador.xyz/tnt" name:"TNT";
+espana:"http://tumarcador.xyz/axn" name:"AXN";
+
+espana:"http://tumarcador.xyz/" name:"Nat Geo";
+espana:"13" name:"NatGeo Wild";
+espana:"14" name:"RCN ";
+espana:"15" name:"Caza y Pesca";
+espana:"16" name:"FDF";
+espana:"http://tumarcador.xyz/fox" name:"FOX";
+espana:"18" name:"Calle13 ";
+espana:"19" name:"SyFy ";
+espana:"20" name:"Cinemax ";
+espana:"21" name:"OFF";
+espana:"22" name:"CI";
+espana:"23" name:"la1";
+espana:"24" name:"#0";
+espana:"25" name:"EuroSport";
+espana:"26" name:"AMC";
+espana:"27" name:"DMAX";
+espana:"28" name:"FOX";
+espana:"29" name:"TNT";
+espana:"30" name:"Azteca";
+espana:"31" name:"GOLF";
+espana:"32" name:"FOX Life";
+espana:"33" name:"TEN";
+espana:"34" name:"Odisea";
+
+espana:"35" name:"Win Sports";
+espana:"36" name:"Caracol Colombia";
+espana:"37" name:"AXN";
+espana:"38" name:" ";
+
+
+espana:"11" name:"XXX Hustler";
+espana:"6" name:"XXX Venus";
+
+
+
+
+
+brosports:"max19" id="1080" referer:"http://www.deportesmax.com/?canal=19";
+brosports:"stream29" id="158" referer:"http://wizhdsports.is/live/stream29.html";
+
+
+
+
+disney:"Películas Disney" src="http://copiapop.com/iiirepublica/cine-infantil-disney-59881/list,1,6";
+3d:"Películas 3D" src="http://copiapop.com/perales/peliculas-3d-52423/list,1,2";
+act:"Películas Actuales" src="http://copiapop.com/sorprenent/peliculas-actuales-50567/list,1,75";
+hd:"Películas en HD" src="http://copiapop.com/jashpubli/peliculas-hd-53626/list,1,5";
+http://copiapop.com/nivyed/peliculas-bdrip-dvdrip-latino-43992/list,1,8
+http://diskokosmiko.mx/pacharico/peliculas-hd-19324/list,1,32
+http://diskokosmiko.mx/peliculas
+
+-----youtubeç
+
+youtuber:"UCZAzceG77auy7kmLLrHorag" playlist:"PLIWPnU7ux416e1Ie26pYzEI56mERNyGZH" name:"Cine ORO Mexico I"; 
+youtuber:"UCqkkNbPLujCWvfsxMFGiC7A" playlist:"PLYbCuwhxtBtPcTjPvTBVwpQ8YiYB6SkRq" name:"Cine ORO Mexico II"; 
+youtuber:"UCo33CdhdNcdc8yMydb7-TBA" playlist:"PL71j_e-aCV2faJ7pbLAUEyt4r5vlxhbf7" name:"Cine ORO Mexico III"; 
+youtuber:"UCmCUPIRsOY1aCD_aEuF4iug" playlist:"PLVGmphDKGiGWqkppAj3f3ljEcKBZ0I8cu" name:"Cine ORO Mexico IV"; 
+
+
+youtuber:"UCaD7xWlVa9qK26BMnpXgHGQ" playlist:"PLTYC51_Jv_tTkbZsiFr5ZyNeGKJHBDR9V" name:"Antonio Aguilar Collecion pack 1";  
+youtuber:"UCaxQ5QpLWplxHsjI7YJh_MQ" playlist:"PLlZVHG9d9vPyuGI1SeRVFxBaALA4JoFiU" name:"Antonio Aguilar Collecion pack 2";  
+youtuber:"UCwi5GndE7uB4Yz7yUEiMdJA" playlist:"PL3N12duz_-IugT6rqCLaZsTtsBTsiAFh7" name:"Antonio Aguilar Collecion pack 3"; 
+youtuber:"UCQhAy5HspsHtx2fAComZ1iQ" playlist:"PLp9UBWMf4jjfdVKUtEKcY_UyXwpNnFAK2" name:"Antonio Aguilar Collecion pack 4"; 
+youtuber:"UCSOP5SJcOoT5WsPfdTyltRg" playlist:"PLbzzU_pNgO1_Q7Y2jaT5NHooIHZclVoXK" name:"Antonio Aguilar Collecion pack 5"; 
+
+youtuber:"UCLldCq01shPAC0Y3sCtdAew" playlist:"PLgHgWd_Zgg_C6h4WBmr5WVpcjEBM2SgSp" name:"Cantinflas I"; 
+youtuber:"UCwi5GndE7uB4Yz7yUEiMdJA" playlist:"PL3N12duz_-IuQ1NINr_PPvdxBS6v6yfqY" name:"Cantinflas II"; 
+youtuber:"UCF0FvD4amA7iQc84tnV8ayw" playlist:"PLXX7LFlnwAH1gt2wHJKOnaaVhnzlZ-3Xm" name:"Peliculas Mexicanas Antiguas"; 
+
+
+
+broadcast:"http://www.rivosportt.info/x1.html"name:"multicanal rivo x1";
+broadcast:"http://www.rivosportt.info/x3.html"name:"multicanal rivo x3";
+broadcast:"http://www.rivosportt.info/x3.html"name:"multicanal rivo x3";
+
+paginado:"1";
+paginado:"2";
+paginado:"3";
+paginado:"4";
+paginado:"5";
+paginado:"6";
+paginado:"7";
+paginado:"8";
+paginado:"9";
+paginado:"10";
+paginado:"11";
+paginado:"12";
+paginado:"13";
+paginado:"14";
+paginado:"15";
+
+
+
+
+
+
+

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!--- LISTADO ---
+- SERIES
+- SERIES INFANTILES
+- SERIES RETRO
+- SERIES CLASICAS
+- SERIES EXABYTE
+- SERIES PELIXMAX
+- SERIES DANKO
+--->
+
+<!--- SERIES ######## INICIO --->
+ 
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] SERIES[/COLOR]</title>
+<thumbnail>https://4.bp.blogspot.com/-6loyXT3YElQ/V1lL370EdhI/AAAAAAAABQU/09zmvbXiQ08OuhsmpOtScrJvqlWYyEMQQCLcB/s640/series.png</thumbnail>
+<fanart>http://www.elcineenlasombra.com/wp-content/uploads/2015/12/Series-TV-.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/h2bxp5gaxyht2d1/Series.xml?dl=1</externallink>
+</item>
+
+<!--- SERIES ######## FIN --->
+
+<!--- SERIES INFANTILES ######## INICIO --->
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] SERIES INFANTILES[/COLOR]</title>
+<thumbnail>https://4.bp.blogspot.com/-6loyXT3YElQ/V1lL370EdhI/AAAAAAAABQU/09zmvbXiQ08OuhsmpOtScrJvqlWYyEMQQCLcB/s640/series.png</thumbnail>
+<fanart>http://statics.viralizalo.com/virs/2016/01/VIR_95868_8151_recuerdas_el_nombre_de_estas_series_infantiles.jpg?cb=30593</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/u9zsar2vkwbamx1/SERIES%20INFANTILES.XML?dl=1</externallink>
+</item>
+
+<!--- SERIES INFANTILES ######## FIN --->
+
+<!--- SERIES RETRO ######## INICIO --->
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] SERIES RETRO[/COLOR]</title>
+<thumbnail>https://4.bp.blogspot.com/-6loyXT3YElQ/V1lL370EdhI/AAAAAAAABQU/09zmvbXiQ08OuhsmpOtScrJvqlWYyEMQQCLcB/s640/series.png</thumbnail>
+<fanart>http://www.elcineenlasombra.com/wp-content/uploads/2015/12/Series-TV-.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/tjfa5gihezhzq50/SERIES%20RETRO.xml?dl=1</externallink>
+</item>
+
+<!--- SERIES RETRO ######## FIN --->
+
+ <!--- SERIES CLASICAS ######## INICIO --->
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] SERIES CLASICAS[/COLOR]</title>
+<link>$doregex[makelist3]</link>
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR skyblue][makelist3.param2] - [makelist3.param3][/COLOR]</title>
+        <link>$doregex[makelist2]</link>
+		<thumbnail></thumbnail>
+        ]]></listrepeat>
+<expres>playlist:"(.*?)" name:"(.*?)" info:"(.*?)";</expres>
+<page>playlist:"http://diskokosmiko.mx/naredo" name:"SERIES CLASICAS" info:" ";</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR skyblue][makelist2.param2][/COLOR]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+        ]]></listrepeat>
+<expres>class="name" href="(.*?)">(.*?)<[\w\W\s]{0,190}src="(.*?)"</expres>
+<page>[makelist3.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx[makelist2.param1]/list,1,20</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx[makelist2.param1]/list,1,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://4.bp.blogspot.com/-6loyXT3YElQ/V1lL370EdhI/AAAAAAAABQU/09zmvbXiQ08OuhsmpOtScrJvqlWYyEMQQCLcB/s640/series.png</thumbnail>
+<fanart>http://www.elcineenlasombra.com/wp-content/uploads/2015/12/Series-TV-.jpg</fanart>
+</item>
+
+
+ <!--- SERIES CLASICAS ######## FIN --->
+
+<!--- SERIES EXABYTE ######## INICIO --->
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] SERIES [/COLOR][COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR white] [AUDIO LATINO][/COLOR]</title>
+<thumbnail>https://i2.wp.com/blog.exabytetv.info/wp-content/uploads/2016/09/icontex.png?fit=1022%2C1022</thumbnail>
+<fanart>http://mundokodi.com/wp-content/uploads/2016/06/portada_exabyte.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://exabytetv.info/series.m3u</externallink>
+</item>
+
+ <!--- SERIES PELIXMAX ########  --->
+
+ <item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] SERIES PELIXMAX [/COLOR]</title>
+<thumbnail>https://www.dropbox.com/s/6i5opkwwb79ol8p/pelixmax.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/6i5opkwwb79ol8p/pelixmax.jpg?dl=1</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://galeon.com/pelixmax1/iptv/SeriesPelixMax1.m3u</externallink>
+</item>
+
+ <!--- SERIES DANKO ######## INICIO --->
+ 
+ <item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] SERIES DANKO[/COLOR][COLOR gray] [I][Todas las Series][/I][/COLOR]</title>
+<link>$doregex[makelist3]</link>
+
+
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[makelist3.param3]</title>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres><![CDATA[href='/serie(.*?)'[\w\W\s]{0,2}title='(.*?)'[\w\W\s]{0,10}blank'>(.*?)<]]></expres>
+<page>http://seriesdanko.com/</page>
+</regex>
+ 
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[makelist2.param2]</title>
+<link>$doregex[makelist]</link>
+]]></listrepeat>
+<expres><![CDATA[href='capitulo(.*?)'>(.*?)<]]></expres>
+<page>http://seriesdanko.com//serie[makelist3.param1]</page>
+</regex>
+
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist2.param2]    - idioma:[makelist.param1]</title>
+
+
+<link>$doregex[url]/$doregex[id3]/v.flv</link>
+<regex>
+<name>url</name>
+<expres>vplayer[\w\W\s]{0,8}src="(.*?)\/i</expres>
+<page>http://streamin.to/embed-$doregex[id2]-740x360.html</page>	 
+<referer>http://streamin.to</referer>
+</regex>
+<regex>
+<name>id3</name>
+<expres>image\|[\w\W\s]{0,3}\|(.*?)\|file</expres>
+<page>http://streamin.to/embed-$doregex[id2]-740x360.html</page>	 
+<referer>http://streamin.to</referer>
+</regex>
+ 
+  <regex>
+ <name>id2</name>
+ <expres>streamin.to/(.*?)"</expres>
+ <page>http://seriesdanko.com/[makelist.param2]</page>	
+ <referer></referer>
+ </regex>
+ 
+ 
+ 
+<thumbnail>[makelist3.param3]</thumbnail>
+<fanart>[makelist3.param3]</fanart>
+]]></listrepeat>
+<expres>banderas/(.*?)png[\w\W\s]{0,180}streamin[\w\W\s]{0,120}href='(.*?)'</expres>
+<page>http://seriesdanko.com/capitulo[makelist2.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+

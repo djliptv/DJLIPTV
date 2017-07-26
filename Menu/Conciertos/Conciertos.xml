@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!--- CONCIERTOS (2013 - 2016) ######## INICIO --->
+<item>
+<title>CONCIERTOS (2013 - 2016)</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://eventshuttleservice.com/wp-content/uploads/2014/03/wilmington-nc-concert-620x414.jpg</thumbnail>
+		<fanart>http://wiii-fm.sagacom.com/wp-content/blogs.dir/53/files/2013/02/Live_in_concert-620x400.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/conciertos-2013-14-15-16-el-rockero-39797/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/conciertos-2013-14-15-16-el-rockero-39797/list,1,5</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://eventshuttleservice.com/wp-content/uploads/2014/03/wilmington-nc-concert-620x414.jpg</thumbnail>
+<fanart>http://wiii-fm.sagacom.com/wp-content/blogs.dir/53/files/2013/02/Live_in_concert-620x400.jpg</fanart>
+</item>
+<!--- CONCIERTOS (2013 - 2016) ######## INICIO --->
+
+<!--- ITEM - CONCIERTOS PACK 1######## INICIO ---> 
+ 
+<item>
+<title>CONCIERTOS PACK 1</title>
+<thumbnail>http://eventshuttleservice.com/wp-content/uploads/2014/03/wilmington-nc-concert-620x414.jpg</thumbnail>
+<fanart>http://wiii-fm.sagacom.com/wp-content/blogs.dir/53/files/2013/02/Live_in_concert-620x400.jpg</fanart>
+<link>http://ignorame</link>
+<externallink>https://www.dropbox.com/s/7y076delk1cfnun/Conciertos1.xml?dl=1</externallink>
+</item>
+
+
+<!--- ITEM - CONCIERTOS PACK 2######## INICIO ---> 
+<item>
+<title>CONCIERTOS PACK 2</title>
+<thumbnail>http://eventshuttleservice.com/wp-content/uploads/2014/03/wilmington-nc-concert-620x414.jpg</thumbnail>
+<fanart>http://wiii-fm.sagacom.com/wp-content/blogs.dir/53/files/2013/02/Live_in_concert-620x400.jpg</fanart>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/MpTGUxti</externallink>
+</item>
+
+<!--- ITEM - LOS MEJORES CONCIERTOS EN ESPAÑOL DE MUSICA ROMANTICA ######## INICIO ---> 
+<item>
+<title>LOS MEJORES CONCIERTOS EN ESPAÑOL DE MUSICA ROMANTICA </title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://eventshuttleservice.com/wp-content/uploads/2014/03/wilmington-nc-concert-620x414.jpg</thumbnail>
+<fanart>http://wiii-fm.sagacom.com/wp-content/blogs.dir/53/files/2013/02/Live_in_concert-620x400.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>http://eventshuttleservice.com/wp-content/uploads/2014/03/wilmington-nc-concert-620x414.jpg</thumbnail>
+						<fanart>http://wiii-fm.sagacom.com/wp-content/blogs.dir/53/files/2013/02/Live_in_concert-620x400.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PL0qf-h7_tcFlVRoYS6f0tjvk0NWdR3aD_</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<!--- ITEM - SUPER BOWL HALF-TIME SHOW ######## INICIO ---> 
+<item>
+<title>SUPER BOWL HALF-TIME SHOW</title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://eventshuttleservice.com/wp-content/uploads/2014/03/wilmington-nc-concert-620x414.jpg</thumbnail>
+<fanart>http://wiii-fm.sagacom.com/wp-content/blogs.dir/53/files/2013/02/Live_in_concert-620x400.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>http://eventshuttleservice.com/wp-content/uploads/2014/03/wilmington-nc-concert-620x414.jpg</thumbnail>
+						<fanart>http://wiii-fm.sagacom.com/wp-content/blogs.dir/53/files/2013/02/Live_in_concert-620x400.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRf0GrCHYtSDJfs-VgEjv3ecdug24OVpN</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<!--- ITEM - CONCIERTOS SALSA ######## INICIO ---> 
+<item>
+<title>CONCIERTOS SALSA </title>
+<thumbnail>http://eventshuttleservice.com/wp-content/uploads/2014/03/wilmington-nc-concert-620x414.jpg</thumbnail>
+<fanart>http://wiii-fm.sagacom.com/wp-content/blogs.dir/53/files/2013/02/Live_in_concert-620x400.jpg</fanart>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/exagBFjm</externallink>
+</item>

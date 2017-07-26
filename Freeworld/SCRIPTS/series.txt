@@ -1,0 +1,1 @@
+Name:"***PONER TITULO***" url:"*****PONER AQUI LA URL******" img:""; server:"http://diskokosmiko.mx"

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<channels>
+
+
+<channel>
+<name>TV Online</name>
+<thumbnail>http://i.imgur.com/A17b2T4.png</thumbnail>
+<externallink>http://www.mymetropolitan.info/mymetropolitan.info/metropolitan/tv</externallink>
+<fanart>http://i.imgur.com/6iygFmE.jpg</fanart>
+<info>Metropolitan</info>
+</channel>
+
+<!--
+<channel>
+  <name>Deadpool</name>
+  <thumbnail>http://i.imgur.com/uxjLcpd.png</thumbnail>
+  <fanart>http://i.imgur.com/q2mlY5D.jpg</fanart>
+  <externallink>http://deadpool.hostingvm.com/deadpool/tv/dishmx.xml</externallink>	
+  <info>Metropolitan</info>
+</channel>-->
+
+<channel>
+<name>Peliculas</name>
+<thumbnail>http://i.imgur.com/ZPFL9Fg.png</thumbnail>
+<externallink>http://www.mymetropolitan.info/mymetropolitan.info/metropolitan/peliculas</externallink>
+<fanart>http://i.imgur.com/q2mlY5D.jpg</fanart>
+<info>Metropolitan</info>
+</channel>
+
+<channel> 
+<name>Series</name>
+<thumbnail>http://i.imgur.com/FRJK15C.png</thumbnail>
+<externallink>http://www.mymetropolitan.info/mymetropolitan.info/metropolitan/series</externallink>
+<fanart>http://i.imgur.com/5nkMgEv.jpg</fanart>
+<info>Metropolitan</info>
+</channel>
+
+<channel>
+<name>Infantil</name>
+<thumbnail>http://i.imgur.com/FIWSoqQ.png</thumbnail>
+<externallink>http://www.mymetropolitan.info/mymetropolitan.info/metropolitan/infantil</externallink>
+<fanart>http://i.imgur.com/aWlovtN.jpg</fanart>
+<info>Metropolitan</info>
+</channel>
+<!---->
+<channel>
+<name>Anime</name>
+<thumbnail>http://i.imgur.com/FXyKvUN.png</thumbnail>
+<externallink>http://www.mymetropolitan.info/mymetropolitan.info/metropolitan/anime</externallink>
+<fanart>http://i.imgur.com/o0V620U.jpg</fanart>
+<info>Metropolitan</info>
+</channel>
+
+<channel>
+<name>Conciertos</name>
+<thumbnail>http://i.imgur.com/uZyDDH5.png</thumbnail>
+<externallink>http://www.mymetropolitan.info/mymetropolitan.info/metropolitan/conciertos</externallink>
+<fanart>http://i.imgur.com/OApddJ4.jpg</fanart>
+<info>Metropolitan</info>
+</channel>
+
+</channels>

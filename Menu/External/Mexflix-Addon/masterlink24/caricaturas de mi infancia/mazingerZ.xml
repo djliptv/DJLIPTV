@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>COLECCION MAZINGER Z</name>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/bc/c2/6b/bcc26b70922b71869ea064caa80a65b0.jpg</thumbnail>
+<fanart>http://orig03.deviantart.net/6f5b/f/2010/315/e/8/mazinger_z_wallpaper_by_zer013-d32mouc.jpg</fanart>
+<items>
+
+<item>
+<title>[B][COLOR yellow][COLOR pink][/COLOR] COLECCION MAZINGER Z[/B]</title> @mexflix{
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://s-media-cache-ak0.pinimg.com/originals/bc/c2/6b/bcc26b70922b71869ea064caa80a65b0.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/coleccion-mazinger-z-32288/list,1,11</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/coleccion-mazinger-z-32288/list,1,11</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>  [[[{{mexflix}}]]]
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/bc/c2/6b/bcc26b70922b71869ea064caa80a65b0.jpg</thumbnail>
+<fanart>http://orig03.deviantart.net/6f5b/f/2010/315/e/8/mazinger_z_wallpaper_by_zer013-d32mouc.jpg</fanart>
+</item>
+</items>
+</channel>

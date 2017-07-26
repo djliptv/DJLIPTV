@@ -1,0 +1,229 @@
+#EXTM3U
+#EXTINF:0 type="stream" , NICK TOONS USA
+http://208.86.19.13:8080/live/15.stream/index.m3u8
+#EXTINF:0 type="stream" , TNT USA
+http://208.86.19.13:8080/live/16.stream/index.m3u8
+#EXTINF:0 type="stream" , FREEFORM USA
+http://208.86.19.13:8080/live/27.stream/index.m3u8
+#EXTINF:0 type="stream" , LONDON LIVE usa
+http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master_900.m3u8
+#EXTINF:0 type="stream" , BBC AMERICA USA
+http://208.86.19.13:8080/live/34.stream/index.m3u8
+#EXTINF:0 type="stream" , TRU TV usa
+http://dwun498y9o8lf.cloudfront.net:80/coder5/coder.channels.channel2/hls/5/playlist.m3u8
+#EXTINF:0 type="stream" , DYSCOVERY USA
+http://208.86.19.13:8080/live/31.stream/index.m3u8
+#EXTINF:0 type="stream" , ANIMAL PLANET L!VE HD usa
+http://iphone-streaming.ustream.tv/uhls/12762028/streams/live/iphone/playlist.m3u8
+#EXTINF:0 type="stream" , ABC NEWS usa
+http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-b.m3u8?sd=10&b=1200&rebase=on#7
+#EXTINF:0 type="stream" , H2 usa
+http://fluvod1.giniko.com/all-documentaries/all-documentaries/tracks-5,6/index.m3u8
+#EXTINF:0 type="stream" , CNN USA
+http://208.86.19.13:8080/live/20.stream/index.m3u8
+#EXTINF:0 type="stream" , BBC WORLD NEWS usa
+http://lcdn.une.net.co/v1/AUTH_HLSLIVE/BBCW/tu1_1.m3u8?
+#EXTINF:0 type="stream" , CANAL DE LAS ESTRELLAS latinoamerica
+http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/CEST/tu1_1.m3u8
+#EXTINF:0 type="stream" , las estrellas
+http://0nlym3x-lh.akamaihd.net/i/c4nst02_1@175273/master.m3u8
+#EXTINF:0 type="stream" , ESTRELLA TV
+http://104.223.36.232:1935/live/myStream/playlist.m3u8
+#EXTINF:0 type="stream" channelId="1967" , Telemundo
+http://stream.ssh101.com:1935/live/anahix2/chunklist.m3u8
+#EXTINF:0 type="stream" , Univisión
+http://stream.ssh101.com:1935/live/anahix1/chunklist.m3u8
+#EXTINF:0 type="stream" channelId="2660" , azteca Trece HD
+http://aztecalive-lh.akamaihd.net/i/0oxnvzh8a_1@175671/index_3_av-b.m3u8
+#EXTINF:0 type="stream" channelId="2690" , Proyecto 40 HD
+http://urtmpkal-f.akamaihd.net/i/05i15qzql_1@149710/index_2_av-p.m3u8
+#EXTINF:0 type="stream" channelId="2497" , tvmas
+http://50.7.98.234:1935/rtv/videortv/chunklist.m3u8?hermoso.m3u8
+#EXTINF:0 type="stream" , ONCE TV
+http://159.203.34.7:8081/rstm/OnceTV/playlist.m3u8
+#EXTINF:0 type="stream" channelId="328" , FORO TV
+http://185417-f.akamaihd.net/i/n0tf0r0_1@81283/master.m3u8
+#EXTINF:0 type="stream" , MILENIO
+http://brightcove03-f.akamaihd.net/milenio_centro_512k@101956
+#EXTINF:0 type="stream" , Efekto TV HD
+http://grupomac-lh.akamaihd.net:80/i/004rss0k8_1@301782/index_3_av-p.m3u8
+#EXTINF:0 type="stream" , MVS NOTICIAS
+http://wos1.smartcast.com.mx:1935/mvs/mvs_radio/mvs_radio.m3u8
+#EXTINF:0 type="stream" , TVPACIFICO
+http://74.63.97.188:1935/gpacifico3/videogpacifico3/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2489" , Canal Once
+http://www.oncetvmexicolive.tv:1935/livepkgr2/smil:int.smil/playlist.m3u8
+#EXTINF:0 type="stream" , TDT
+http://coracyt.mega00.com:1935/live/coracyt/coracyt/playlist.m3u8
+#EXTINF:0 type="stream" , canal 4
+http://streaming.wirenetserver.com.ar:1935/canal4/live_1/playlist.m3u8
+#EXTINF:0 type="stream" , DW Latinoamerica
+http://www.metafilegenerator.de/DWelle/tv-latinoamerica/ios/master.m3u8
+#EXTINF:0 type="stream" , Rusia Today en Español
+http://rt.ashttp14.visionip.tv/live/RT_en_Espanol-SD/chunklist.m3u8
+#EXTINF:0 type="stream" , BYU Television
+http://byuhd2-lh.akamaihd.net/i/byutvintspanhd2_live@103133/master.m3u8
+#EXTINF:0 type="stream" , Una voz con todos
+http://urtmpkal-f.akamaihd.net/i/0queot4rb_1@327205/master.m3u8
+#EXTINF:0 type="stream" , DYSCOVERY
+http://q.gs:80/14608897/canal-6?USER=power-by-juan&PASS=stream.m3u8
+#EXTINF:0 type="stream" , NIU Tv
+http://cl.origin.grupoz.cl/niutv/smil:live.smil/chunklist_w224088368_b750000_slesp.m3u8
+#EXTINF:0 type="stream" , NICK 2 OPC 1
+http://190.57.234.164/V0/3/1.m3u8
+#EXTINF:0 type="stream" , Nick 2 OPC 2
+http://190.57.234.164/V3/3/1.m3u8
+#EXTINF:0 type="stream" , Cinematvplay
+http://servicioamerica.net:1935/cinematvplays/cinematvplays/chunklist_w1995939705.m3u8?token=yfU+kLqLqfZ31Yx5RgwFWADDQsAtzsn0JyAjDqCTXxRwvMGtx37LIVQo4lZqfP3TwZ6g0fs9MPq379+5bsFQ2fbTCNgZfX+5b3kujpkuCEOWlgC8Va2VBSkeUQLrGWnubuXDVIfwcmiXQA9Bp%2F%2FCePR8oSp3rXvGlAZnJRHEhps%3D%7CJu5jp+owWgLfUUCUo40DFq11rtqgA03rE0tVrZWyNss%3D.m3u8
+#EXTINF:0 type="stream" channelId="1310" , Sun Channel
+http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/SUN/tu1_1.m3u8
+#EXTINF:0 type="stream" channelId="140" , TV5 Monde
+http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/TV5/tu1_1.m3u8
+#EXTINF:0 type="stream" channelId="1719" , PARAMOUNT CHANNEL
+http://viacomitalytest-lh.akamaihd.net/i/sbshdlive_1@195657/index_2500_av-p.m3u8
+#EXTINF:0 type="stream" channelId="2207" , RAI MOVIE
+http://b2everyrai-lh.akamaihd.net/i/raimovie_1@67348/master.m3u8
+#EXTINF:0 type="stream" , ENTRETENIMIENTO:Antena 3 Internacional
+http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/ANT3/tu1_1.m3u8
+#EXTINF:0 type="stream" channelId="3123" , #0
+http://37.187.128.169:8000/live/545dfkdji/askdhfkaj477eej/5.ts
+#EXTINF:0 type="stream" channelId="2124" , Antena 3
+http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_4_av-b.m3u8?sd=10&rebase=on
+#EXTINF:0 type="stream" , LA CUATRO
+http://37.187.128.169:8000/live/545dfkdji/askdhfkaj477eej/3.ts
+#EXTINF:0 type="stream" , 5 HD
+http://37.187.128.169:8000/live/545dfkdji/askdhfkaj477eej/4.ts
+#EXTINF:0 type="stream" channelId="1692" , LA SEXTA
+http://a3live-lh.akamaihd.net/i/lasexta_1@35272/index_3_av-b.m3u8?sd=10&rebase=on
+#EXTINF:0 type="stream" , MEGA
+http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8
+#EXTINF:0 type="stream" , Atreseries
+http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8
+#EXTINF:0 type="stream" , a3series hd
+http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/index_4_av-b.m3u8?sd=10&rebase=on
+#EXTINF:0 type="stream" , SERIES XTRA
+http://37.187.128.169:8000/live/545dfkdji/askdhfkaj477eej/35.ts
+#EXTINF:0 type="stream" channelId="1076" , tv8
+http://comunidadiptv.org/online/estable/canal/TV8.m3u8
+#EXTINF:0 type="stream" channelId="1695" , Neox
+http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8
+#EXTINF:0 type="stream" channelId="2125" , Nova
+http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8
+#EXTINF:0 type="stream" channelId="1677" , COSMO
+http://37.187.128.169:8000/live/545dfkdji/askdhfkaj477eej/39.ts
+#EXTINF:0 type="stream" channelId="56" , NAT GEO
+http://37.187.128.169:8000/live/545dfkdji/askdhfkaj477eej/28.ts
+#EXTINF:0 type="stream" channelId="1667" , CALLE 13
+http://37.187.128.169:8000/live/545dfkdji/askdhfkaj477eej/13.ts
+#EXTINF:0 type="stream" channelId="1573" , AXN
+http://37.187.128.169:8000/live/545dfkdji/askdhfkaj477eej/37.ts
+#EXTINF:0 type="stream" channelId="1574" , AXN WHITE
+http://37.187.128.169:8000/live/545dfkdji/askdhfkaj477eej/38.ts
+#EXTINF:0 type="stream" channelId="1052" , TNT
+http://37.187.128.169:8000/live/545dfkdji/askdhfkaj477eej/40.ts
+#EXTINF:0 type="stream" , GOL
+http://37.187.128.169:8000/live/545dfkdji/askdhfkaj477eej/6.ts
+#EXTINF:0 type="stream" , COMEDIA
+http://37.187.128.169:8000/live/545dfkdji/askdhfkaj477eej/9.ts
+#EXTINF:0 type="stream" , Viva Nicaragua Canal 13
+http://iphone-streaming.ustream.tv/uhls/13870671/streams/live/iphone/playlist.m3u8
+#EXTINF:0 type="stream" channelId="1401" , TVO
+http://edge.wms28.lorini.net/tvo/tvo/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2587" , MAX PRIME
+http://servicioamerica.net:1935/8348/8348/playlist.m3u8
+#EXTINF:0 type="stream" channelId="1686" , GOL TV
+http://50.7.65.146/202/index.m3u8
+#EXTINF:0 type="stream" , DEPORTV
+http://190.57.234.164/V0/4/1.m3u8
+#EXTINF:0 type="stream" , DXTV
+http://190.57.234.164/V3/4/1.m3u8
+#EXTINF:0 type="stream" channelId="227" , AYM SPORTS
+http://190.57.234.164/V0/5/1.m3u8
+#EXTINF:0 type="stream" , AM Sports
+http://190.57.234.164/V3/5/1.m3u8
+#EXTINF:0 type="stream" , UFC NETWORK OPC 1
+http://190.57.234.164/V0/6/1.m3u8
+#EXTINF:0 type="stream" , UFC NETWORK OPC 2
+http://190.57.234.164/V0/6/2.m3u8
+#EXTINF:0 type="stream" , UFC Network OPC 3
+http://190.57.234.164/V3/6/1.m3u8
+#EXTINF:0 type="stream" , UFC Network OPC 4
+http://190.57.234.164/V3/6/2.m3u8
+#EXTINF:0 type="stream" channelId="1592" , bein sports 2
+http://37.187.128.169:8000/live/545dfkdji/askdhfkaj477eej/17.ts
+#EXTINF:0 type="stream" , win sports latino
+http://lcdn.une.net.co/v1/AUTH_HLSLIVE/0001/tu1/yt1_1.m3u8
+#EXTINF:0 type="stream" , DXTV
+http://edge02.dcarsat.com.ar:1935/DXTV/DXTV/chunklist_b800000_slesp.m3u8
+#EXTINF:0 type="stream" channelId="287" , ClaroSports
+http://jjoo2016ch01-hlsfix.clarovideo.com/Content/hls_clear/Live/Channel(jjoo2016ch01)/Stream(04)/index.m3u8
+#EXTINF:0 type="stream" channelId="225" , EUROSPORT 1HD
+http://81.7.13.162/hls/ss4/index.m3u8
+#EXTINF:0 type="stream" , RED BULL TV HD usa
+https://elementaldelta2.redbull.tv/30_5.m3u8
+#EXTINF:0 type="stream" , Fail Tv usa
+http://sacapunta.eltelon.com/channels/failarmytv/mid.m3u8
+#EXTINF:0 type="stream" , ONE TV
+http://server5.stweb.tv/radioone/live/playlist.m3u8
+#EXTINF:0 type="stream" , VIRGIN RADIO
+http://fms.105.net:1935/live/virgin1/.m3u8?
+#EXTINF:0 type="stream" , ESTRENO PPV GREMLINS
+https://1.bp.blogspot.com/U5Ds7cL-SAjVLbJwXTQUqxOD6svEfXb1BQVvdn-J_DkMr5GKbCFUbQVUWM4rYhDn66wsu4ehbQ=m15
+#EXTINF:0 type="stream" , ESTRENO PPV Sully
+http://byagustin@cort.as/pWER?iptvchile
+#EXTINF:0 type="stream" , ESTRENO PPV El Mecanico 2
+https://ia601506.us.archive.org/5/items/Th33pcial2/Th3_3%24pcial2.mp4
+#EXTINF:0 type="stream" , ESTRENO PPV Inferno
+https://onedrive.live.com/download?cid=D1C8A54A8182DE89&resid=D1C8A54A8182DE89!1783&authkey=!ADW6gv0yXudthZg
+#EXTINF:0 type="stream" , PPV  Mi Amigo El Gigante Latino
+https://onedrive.live.com/download?cid=B28F1B9702D791EA&resid=B28F1B9702D791EA%21312&authkey=AMxP4mExqT5bkk0
+#EXTINF:0 type="stream" , PPV  Peter y el Dragon
+https://onedrive.live.com/download?cid=B28F1B9702D791EA&resid=B28F1B9702D791EA%21310&authkey=AAMfiBlsYqR6-X4
+#EXTINF:0 type="stream" , PPV 1 Escuadron Suicida
+https://onedrive.live.com/download?cid=8BA83EC3113F8E2F&resid=8BA83EC3113F8E2F%21108&authkey=ADL3fN8lkTJiriw
+#EXTINF:0 type="stream" , PPV 2 Buscando a Dory
+https://onedrive.live.com/download?cid=8BA83EC3113F8E2F&resid=8BA83EC3113F8E2F%21107&authkey=AJwzs1ocAbSLq2o
+#EXTINF:0 type="stream" , PPV 3 Los Ilusionistas 2 Nada es lo que parece
+https://onedrive.live.com/download?cid=50032AD3A4385614&resid=50032AD3A4385614%21111&authkey=APyNG8JlCQl3MU4
+#EXTINF:0 type="stream" , PPV 4 Un Juego sin Reglas
+https://onedrive.live.com/download?cid=50032AD3A4385614&resid=50032AD3A4385614%21110&authkey=ALthTgiFnA5CWlA
+#EXTINF:0 type="stream" , PPV 5 Star Trek Sin Límites
+https://onedrive.live.com/download?cid=286196E287C83907&resid=286196E287C83907%21111&authkey=AOVrhXQYDn8s6h0
+#EXTINF:0 type="stream" , PPV 6 The Purge - Año de Elecciones
+https://onedrive.live.com/download?cid=286196E287C83907&resid=286196E287C83907%21110&authkey=AGqp4MCh8btrYCQ
+#EXTINF:0 type="stream" , PPV 7 Apuesta Maxima
+https://discontrol@goo.gl/RohWWR
+#EXTINF:0 type="stream" , PPV 8 Los Caza FantasmaS
+https://onedrive.live.com/download?cid=5A2A67AFFB0098A4&resid=5A2A67AFFB0098A4%21109&authkey=APEbrdQZLzYO3fQ
+#EXTINF:0 type="stream" , PPV 9 Una Pareja Dispareja
+https://onedrive.live.com/download?cid=328CBC1D46720CAA&resid=328CBC1D46720CAA%21108&authkey=APzATNWZmDoFmg8
+#EXTINF:0 type="stream" , PPV 10 Maldicion Ancestral
+https://onedrive.live.com/download?cid=328CBC1D46720CAA&resid=328CBC1D46720CAA%21111&authkey=AOJpMZ4wVAniblE
+#EXTINF:0 type="stream" , PPV 11 Los Busca Novias
+https://onedrive.live.com/download?cid=54D19E7BA016D9CC&resid=54D19E7BA016D9CC%21108&authkey=ABT1LprX2KfBsbg
+#EXTINF:0 type="stream" , PPV 12 Compadres
+https://onedrive.live.com/download?cid=54D19E7BA016D9CC&resid=54D19E7BA016D9CC%21109&authkey=AMmvK7c2qVBFrfA
+#EXTINF:0 type="stream" , PPV 13 La Vida Secreta De Tus Mascotas
+https://onedrive.live.com/download?cid=54D19E7BA016D9CC&resid=54D19E7BA016D9CC%21107&authkey=AA9m-RMKtmkPvgk
+#EXTINF:0 type="stream" , PPV 14 Infierno Azul
+https://onedrive.live.com/download?cid=54D19E7BA016D9CC&resid=54D19E7BA016D9CC%21106&authkey=ADSXj_1xJKT3JsM
+#EXTINF:0 type="stream" , PPV 15 Tortugas Ninja 2
+https://onedrive.live.com/download?cid=E2D3316A1B438A50&resid=E2D3316A1B438A50%21108&authkey=APWwzw21b3Vh15I
+#EXTINF:0 type="stream" , PPV 16 Dia de la Independencia 2
+https://onedrive.live.com/download?cid=50032AD3A4385614&resid=50032AD3A4385614%21109&authkey=ACsmYg7z4JfVKCA
+#EXTINF:0 type="stream" , PPV 17 Yo Antes De Ti
+https://onedrive.live.com/download?cid=4E55DF811B0EB258&resid=4E55DF811B0EB258%21110&authkey=ABelWmeC5_OdbkE
+#EXTINF:0 type="stream" , PPV 18 Buenos Vecinos 2
+https://onedrive.live.com/download?cid=4E55DF811B0EB258&resid=4E55DF811B0EB258%21109&authkey=AGLbo_xaFcAlHpk
+#EXTINF:0 type="stream" , PPV 19 La Era de Hielo 5
+https://onedrive.live.com/download?cid=2D0DC26A90CF9EB9&resid=2D0DC26A90CF9EB9%21129&authkey=AP709ZfbU9Y_VjA
+#EXTINF:0 type="stream" , PPV 20 El Conjuro 2
+https://onedrive.live.com/download?cid=2D0DC26A90CF9EB9&resid=2D0DC26A90CF9EB9%21128&authkey=AI3TSABSheorQDo
+#EXTINF:0 type="stream" , PPV 21 El Cazador y la Reina de Hielo
+https://onedrive.live.com/download?cid=A4A1F0763FCC8C65&resid=A4A1F0763FCC8C65%21117&authkey=AOHQ65nCGoFIA3M
+#EXTINF:0 type="stream" , PPV 22 Warcraft
+https://onedrive.live.com/download?cid=2F89020F612E5211&resid=2F89020F612E5211%21107&authkey=AH_0J07T7zdaVp4
+#EXTINF:0 type="stream" , PPV 23 Mi Amigo El Gigante Latino
+https://onedrive.live.com/download?cid=B28F1B9702D791EA&resid=B28F1B9702D791EA%21312&authkey=AMxP4mExqT5bkk0
+#EXTINF:0 type="stream" , PPV 24 Peter y el Dragon
+https://onedrive.live.com/download?cid=B28F1B9702D791EA&resid=B28F1B9702D791EA%21310&authkey=AAMfiBlsYqR6-X4

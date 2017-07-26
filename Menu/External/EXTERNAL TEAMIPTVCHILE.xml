@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[COLOR white] LISTAS [/COLOR][COLOR red]IPTV[/COLOR][COLOR blue] CHILE[/COLOR]</title>
+<fanart>http://www.iptvchile.xyz/images/pic02.jpg</fanart>
+<thumbnail>http://www.iptvchile.xyz/images/pic02.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink></externallink>
+</item>
+
+<item>
+<title>[COLOR white]========================================[/COLOR]</title>
+<fanart>http://www.iptvchile.xyz/images/pic02.jpg</fanart>
+<thumbnail>http://www.iptvchile.xyz/images/pic02.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink></externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR red]IPTV[/COLOR][COLOR blue] CHILE[/COLOR][COLOR white] PRINCIPAL[/COLOR]</title>
+<fanart>http://www.iptvchile.xyz/images/pic02.jpg</fanart>
+<thumbnail>http://www.iptvchile.xyz/images/pic02.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://iptvchile.xyz/TeamIPTVChile.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR red]IPTV[/COLOR][COLOR blue] CHILE[/COLOR][COLOR white] RADIOS [AUDIO][/COLOR]</title>
+<fanart>http://www.iptvchile.xyz/images/pic02.jpg</fanart>
+<thumbnail>http://www.iptvchile.xyz/images/pic02.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://iptvchile.xyz/radios.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR red]IPTV[/COLOR][COLOR blue] CHILE[/COLOR][COLOR white] PELICULAS[/COLOR]</title>
+<fanart>http://www.iptvchile.xyz/images/pic02.jpg</fanart>
+<thumbnail>http://www.iptvchile.xyz/images/pic02.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://iptvchile.xyz/peliculas.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR red]IPTV[/COLOR][COLOR blue] CHILE[/COLOR][COLOR white] CONCIERTOS[/COLOR]</title>
+<fanart>http://www.iptvchile.xyz/images/pic02.jpg</fanart>
+<thumbnail>http://www.iptvchile.xyz/images/pic02.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://iptvchile.xyz/conciertos.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR red]IPTV[/COLOR][COLOR blue] CHILE[/COLOR][COLOR white] ANIME[/COLOR]</title>
+<fanart>http://www.iptvchile.xyz/images/pic02.jpg</fanart>
+<thumbnail>http://www.iptvchile.xyz/images/pic02.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://iptvchile.xyz/anime.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR red]IPTV[/COLOR][COLOR blue] CHILE[/COLOR][COLOR white] KIDS[/COLOR]</title>
+<fanart>http://www.iptvchile.xyz/images/pic02.jpg</fanart>
+<thumbnail>http://www.iptvchile.xyz/images/pic02.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://iptvchile.xyz/kids.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR red]IPTV[/COLOR][COLOR blue] CHILE[/COLOR][COLOR white] SERIES[/COLOR]</title>
+<fanart>http://www.iptvchile.xyz/images/pic02.jpg</fanart>
+<thumbnail>http://www.iptvchile.xyz/images/pic02.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://iptvchile.xyz/Series.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR red]IPTV[/COLOR][COLOR blue] CHILE[/COLOR][COLOR white] KARAOKE[/COLOR]</title>
+<fanart>http://www.iptvchile.xyz/images/pic02.jpg</fanart>
+<thumbnail>http://www.iptvchile.xyz/images/pic02.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://iptvchile.xyz/karaoke.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR red]IPTV[/COLOR][COLOR blue] CHILE[/COLOR][COLOR white] PELIS TUBE[/COLOR]</title>
+<fanart>http://www.iptvchile.xyz/images/pic02.jpg</fanart>
+<thumbnail>http://www.iptvchile.xyz/images/pic02.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://iptvchile.xyz/pelistube.m3u</externallink>
+</item>

@@ -1,0 +1,8 @@
+_____________________________________________________________________
+SCRITPS YOUTUBE CHANNEL
+========================
+<item>
+<title>*****TITULO*******</title>
+<link>plugin://plugin.video.youtube/play/?video_id=*********</link>
+<thumbnail></thumbnail>
+</item>

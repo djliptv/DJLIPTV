@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>La Sombra del Pasado</name>
+<thumbnail>http://3.bp.blogspot.com/-Z_C-wKI8H8A/VMIQS2h3-wI/AAAAAAAAJXY/5C4D0M7iF7c/s1600/poster%2Btelenovela%2Bla%2Bsombra%2Bdel%2Bpasado%2B1.jpg</thumbnail>
+<fanart>https://1.bp.blogspot.com/-0QmeAA-WY3A/VQNi6Zesa9I/AAAAAAAAMWg/NyWU6VtnlOI/s1600/La+Sombra+del+Pasado.jpg</fanart>
+<items>
+
+<item>
+<title>[B][COLOR gold][COLOR pink][/COLOR]La Sombra del Pasado[/B]</title> @mexflix{
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://3.bp.blogspot.com/-Z_C-wKI8H8A/VMIQS2h3-wI/AAAAAAAAJXY/5C4D0M7iF7c/s1600/poster%2Btelenovela%2Bla%2Bsombra%2Bdel%2Bpasado%2B1.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/monnet/la-sombra-del-pasado-telenovelacompleta-43866/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/monnet/la-sombra-del-pasado-telenovelacompleta-43866/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>  [[[{{mexflix}}]]]
+<thumbnail>http://3.bp.blogspot.com/-Z_C-wKI8H8A/VMIQS2h3-wI/AAAAAAAAJXY/5C4D0M7iF7c/s1600/poster%2Btelenovela%2Bla%2Bsombra%2Bdel%2Bpasado%2B1.jpg</thumbnail>
+<fanart>https://1.bp.blogspot.com/-0QmeAA-WY3A/VQNi6Zesa9I/AAAAAAAAMWg/NyWU6VtnlOI/s1600/La+Sombra+del+Pasado.jpg</fanart>
+</item>
+</items>
+</channel>

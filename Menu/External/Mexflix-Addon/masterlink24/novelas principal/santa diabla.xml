@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>Santa Diabla</name>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/0/06/Santa_Diabla_Poster_(Telemundo_Produciton).png</thumbnail>
+<fanart>http://img12.deviantart.net/3f67/i/2013/259/4/5/telemundo___santa_diabla_by_feareffectinferno-d6mj3u8.png</fanart>
+<items>
+
+<item>
+<title>[B][COLOR gold][COLOR pink][/COLOR] Santa Diabla[/B]</title> @mexflix
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://upload.wikimedia.org/wikipedia/en/0/06/Santa_Diabla_Poster_(Telemundo_Produciton).png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/santa-diabla-completa-38498/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/santa-diabla-completa-38498/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/0/06/Santa_Diabla_Poster_(Telemundo_Produciton).png</thumbnail>
+<fanart>http://img12.deviantart.net/3f67/i/2013/259/4/5/telemundo___santa_diabla_by_feareffectinferno-d6mj3u8.png</fanart>
+</item>
+</items>
+</channel>

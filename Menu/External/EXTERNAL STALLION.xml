@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[COLOR white] LISTA [/COLOR][COLOR cyan]STALLION[/COLOR][COLOR white] IPTV ADDON[/COLOR]</title>
+<fanart>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</fanart>
+<thumbnail>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>https://pastebin.com/raw/AzvJ9S7F</externallink>
+</item>
+
+<item>
+<title>[COLOR white] LISTA [/COLOR][COLOR cyan]STALLION[/COLOR][COLOR white] IPTV ADDON 3.5[/COLOR]</title>
+<fanart>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</fanart>
+<thumbnail>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://pastebin.com/raw/0CknpKuE</externallink>
+</item>
+<!--- http://pastebin.com/raw/0CknpKuE --->
+
+<item>
+<title>[COLOR white] LISTA [/COLOR][COLOR cyan]STALLION[/COLOR][COLOR white] MOVIES[/COLOR]</title>
+<fanart>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</fanart>
+<thumbnail>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://pastebin.com/raw/HyLiiEy9</externallink>
+</item>
+
+<item>
+<title>[COLOR white] LISTA [/COLOR][COLOR cyan]STALLION[/COLOR][COLOR white] MOVIES [/COLOR][COLOR orange][OPCION 2][/COLOR]</title>
+<fanart>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</fanart>
+<thumbnail>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/n0e4m8bvvsz83ky/EXTERNAL%20STALLION%20MOVIES.m3u?dl=1</externallink>
+</item>
+ 
+<item>
+<title>[COLOR white] LISTA [/COLOR][COLOR cyan]STALLION[/COLOR][COLOR white] SMART TV[/COLOR]</title>
+<fanart>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</fanart>
+<thumbnail>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://pastebin.com/raw/CV7u4XM4</externallink>
+</item>
+
+<item>
+<title>[COLOR white] LISTA [/COLOR][COLOR cyan]STALLION[/COLOR][COLOR white] SMART TV [/COLOR][COLOR orange][OPCION 2][/COLOR]</title>
+<fanart>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</fanart>
+<thumbnail>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/g575jd1wl0kq9ib/EXTERNAL%20STALLION%20SMART%20TV.m3u?dl=1</externallink>
+</item>
+ 
+<item>
+<title>[COLOR white] LISTA [/COLOR][COLOR cyan]STALLION[/COLOR][COLOR white] LIST[/COLOR]</title>
+<fanart>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</fanart>
+<thumbnail>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://bit.ly/StallionList</externallink>
+</item>

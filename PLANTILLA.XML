@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--- LISTADO
+- ALF
+- BRIGADA A: LOS MAGNIFICOS
+- CHIPS: PATRULLA MOTORIZADA
+- LA FAMILIA INGALS (LA CASA EN LA PRADERA)
+- LOS TRES CHIFLADOS
+- SABRINA: LA BRUJA ADOLESCENTE
+--->
+<!--- ALF ######## INICIO --->
+<item>
+<title>ALF</title>
+<thumbnail>https://images-production.global.ssl.fastly.net/uploads/photos/file/43219/alf.jpg</thumbnail>
+<fanart>http://i.dailymail.co.uk/i/pix/2015/06/19/16/29C8A8F700000578-0-Problems_After_ALF_Max_starred_on_another_sitcom_but_later_dealt-m-42_1434729078483.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/lbpvunvgyvl20p2/SERIES%20RETRO%20ALF.xml?dl=1</externallink>
+</item>
+<!--- ALF ######## FIN --->
+
+<!--- BRIGADA A: LOS MAGNIFICOS ######## INICIO --->
+
+<item>
+<title>BRIGADA A: LOS MAGNIFICOS</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://www.deseries.com.ar/wp-content/uploads/2015/11/brigada-a.jpg</thumbnail>
+		<fanart>http://www.demasiadocine.com/wp-content/uploads/2015/09/brigada-a-506x296.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/AlejandroRuiz/los-magnificos-brigada-a-serie-48609</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/AlejandroRuiz/los-magnificos-brigada-a-serie-48609</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.deseries.com.ar/wp-content/uploads/2015/11/brigada-a.jpg</thumbnail>
+<fanart>http://www.demasiadocine.com/wp-content/uploads/2015/09/brigada-a-506x296.jpg</fanart>
+</item>
+
+<!--- BRIGADA A: LOS MAGNIFICOS ######## FIN --->
+
+<!--- CHIPS: PATRULLA MOTORIZADA ######## INICIO --->
+
+<item>
+<title>CHIPS: PATRULLA MOTORIZADA</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://www.bibliotecanegra.com/sites/default/files/series/patrullamotorizada.jpg</thumbnail>
+		<fanart>https://gcdn.emol.cl/los-80/files/2016/07/halloween-chips-2.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/chips-32084</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/chips-32084</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.bibliotecanegra.com/sites/default/files/series/patrullamotorizada.jpg</thumbnail>
+<fanart>https://gcdn.emol.cl/los-80/files/2016/07/halloween-chips-2.jpg</fanart>
+</item>
+
+<!--- CHIPS: PATRULLA MOTORIZADA ######## FIN --->
+
+<!--- LA FAMILIA INGALS (LA CASA EN LA PRADERA) ######## INICIO --->
+
+<item>
+<title>LA FAMILIA INGALS (LA CASA EN LA PRADERA)</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>https://famingallslatino.files.wordpress.com/2015/04/ingalls-temporada1.png</thumbnail>
+		<fanart>http://i2.cdn.cnn.com/cnnnext/dam/assets/140507180806-lhotp-01-horizontal-large-gallery.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/marcos20/la-familia-ingalls-la-casa-en-la-praderalat-x9t-28440/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/marcos20/la-familia-ingalls-la-casa-en-la-praderalat-x9t-28440/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://famingallslatino.files.wordpress.com/2015/04/ingalls-temporada1.png</thumbnail>
+<fanart>http://i2.cdn.cnn.com/cnnnext/dam/assets/140507180806-lhotp-01-horizontal-large-gallery.jpg</fanart>
+</item>
+
+<!--- LA FAMILIA INGALS (LA CASA EN LA PRADERA) ######## FIN --->
+
+<!--- LOS TRES CHIFLADOS ######## INICIO --->
+
+<item>
+<title>LOS TRES CHIFLADOS</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/en/a/ae/Healthywealthy.jpg</thumbnail>
+		<fanart>http://farm9.staticflickr.com/8736/17114671036_d2802cd03b_b.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/MaynorCabrera/lagarto-puerto-barrios-24975/list,1,7</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/MaynorCabrera/lagarto-puerto-barrios-24975/list,1,7</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/a/ae/Healthywealthy.jpg</thumbnail>
+<fanart>http://farm9.staticflickr.com/8736/17114671036_d2802cd03b_b.jpg</fanart>
+</item>
+
+<!--- LOS TRES CHIFLADOS ######## FIN --->
+
+<!--- SABRINA: LA BRUJA ADOLESCENTE ######## INICIO --->
+<item>
+<title>SABRINA: LA BRUJA ADOLESCENTE</title>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NjYwMjEwMV5BMl5BanBnXkFtZTcwMjE5MDU1MQ@@._V1_.jpg</thumbnail>
+<fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NjYwMjEwMV5BMl5BanBnXkFtZTcwMjE5MDU1MQ@@._V1_.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/kkyeukym96b98wz/SERIES%20RETRO%20SABRINA.xml?dl=1</externallink>
+</item>
+<!--- SABRINA: LA BRUJA ADOLESCENTE ######## FIN --->
+
+
+

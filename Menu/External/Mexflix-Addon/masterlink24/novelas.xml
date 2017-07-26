@@ -1,0 +1,58 @@
+
+
+<item> 
+<title>Novelas</title>
+<link>$doregex[makelist4]</link>
+<regex>
+<name>makelist4</name>
+<listrepeat><![CDATA[
+<title>[COLOR skyblue]   [makelist4.param2]  [/COLOR]   </title>
+<link>$doregex[makelist3]</link>
+]]></listrepeat>
+<expres>href="/(letra.*?)">(.*?)<</expres>
+<page>http://www.tunovela.cc/</page>
+</regex>
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[COLOR skyblue]   [makelist3.param2]  [/COLOR]   </title>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres>href="(.*?)"[\w\W\s]{0,2}title="(.*?)"[\w\W\s]{0,8}src="(.*?)"</expres>
+<page>http://www.tunovela.cc/[makelist4.param1]</page>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR skyblue]  [makelist2.param3][/COLOR]   </title>
+<link>$doregex[makelist]</link>
+]]></listrepeat>
+<expres>href="(.*?)" title="(.*?)" class="lcc">(.*?)<</expres>
+<page>http://www.tunovela.cc/[makelist3.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR lightgreen] [makelist2.param3] -  opcion:_[makelist.param1][/COLOR]</title>
+ <link>$doregex[url]/$doregex[id2]/v.flv</link>
+ <regex>
+<name>url</name>
+<expres>vplayer[\w\W\s]{0,8}src="(.*?)\/i</expres>
+<page>http://powvideo.net/embed-[makelist.param1]-740x360.html</page>	 
+<referer>http://powvideo.net</referer>
+</regex>
+<regex>
+<name>id2</name>
+<expres>image\|[\w\W\s]{0,3}\|(.*?)\|file</expres>
+<page>http://streamin.to/embed-[makelist.param1]-740x360.html</page>	 
+<referer>http://streamin.to</referer>
+</regex>
+]]></listrepeat>
+<expres>streamin\(\"(.*?)\"</expres>
+<page>http://www.novelashdgratis.tv[makelist2.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+</item>

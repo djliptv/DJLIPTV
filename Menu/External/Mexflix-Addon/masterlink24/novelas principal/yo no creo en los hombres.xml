@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>Yo No Creo en Los Hombres</name>
+<thumbnail>http://i2.esmas.com/2015/01/12/736385/yo-no-creo-en-los-hombres--860x480.jpg</thumbnail>
+<fanart>http://flash.tvolucion.com/bright/files/74091787001/201410/67/74091787001_3842026800001_Captura-de-pantalla-2014-10-15-a-la-s--22-11-18.jpg</fanart>
+<items>
+
+<item>
+<title>[B][COLOR red][COLOR pink][/COLOR]Yo No Creo en Los Hombres[/B]</title> @mexflix
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i2.esmas.com/2015/01/12/736385/yo-no-creo-en-los-hombres--860x480.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/yo-no-creo-en-los-hombres-completa-39219/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/yo-no-creo-en-los-hombres-completa-39219/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i2.esmas.com/2015/01/12/736385/yo-no-creo-en-los-hombres--860x480.jpg</thumbnail>
+<fanart>http://flash.tvolucion.com/bright/files/74091787001/201410/67/74091787001_3842026800001_Captura-de-pantalla-2014-10-15-a-la-s--22-11-18.jpg</fanart>
+</item>
+</items>
+</channel>

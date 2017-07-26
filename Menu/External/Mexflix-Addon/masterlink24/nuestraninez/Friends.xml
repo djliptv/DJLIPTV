@@ -1,0 +1,148 @@
+
+<item>
+<title>Temporada 1,2,3.</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.subtitles.to/v/4/4f0d9587774e124c585b0c6f4f3e2996.jpg</thumbnail>
+		<fanart>http://pixel.nymag.com/imgs/daily/vulture/2016/03/23/23-friends-cover-story-lede.w750.h560.2x.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/friends-t1-a-t3-22885/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/friends-t1-a-t3-22885/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.subtitles.to/v/4/4f0d9587774e124c585b0c6f4f3e2996.jpg</thumbnail>
+		<fanart>http://pixel.nymag.com/imgs/daily/vulture/2016/03/23/23-friends-cover-story-lede.w750.h560.2x.jpg</fanart>
+</item>
+
+<item>
+<title>Temporada 4,5,6.</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.subtitles.to/v/4/4f0d9587774e124c585b0c6f4f3e2996.jpg</thumbnail>
+		<fanart>http://pixel.nymag.com/imgs/daily/vulture/2016/03/23/23-friends-cover-story-lede.w750.h560.2x.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/friends-t4-a-t6-22905/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/friends-t4-a-t6-22905/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.subtitles.to/v/4/4f0d9587774e124c585b0c6f4f3e2996.jpg</thumbnail>
+		<fanart>http://pixel.nymag.com/imgs/daily/vulture/2016/03/23/23-friends-cover-story-lede.w750.h560.2x.jpg</fanart>
+</item>
+
+<item>
+<title>Temporada 7,8,9.</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.subtitles.to/v/4/4f0d9587774e124c585b0c6f4f3e2996.jpg</thumbnail>
+		<fanart>http://pixel.nymag.com/imgs/daily/vulture/2016/03/23/23-friends-cover-story-lede.w750.h560.2x.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/friends-t7-a-t10-22906/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/friends-t7-a-t10-22906/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.subtitles.to/v/4/4f0d9587774e124c585b0c6f4f3e2996.jpg</thumbnail>
+		<fanart>http://pixel.nymag.com/imgs/daily/vulture/2016/03/23/23-friends-cover-story-lede.w750.h560.2x.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://diskokosmiko.mx/chicho306/friends-t1-a-t3-22885/list,1,4
+
+http://diskokosmiko.mx/chicho306/friends-t4-a-t6-22905/list,1,4
+
+http://diskokosmiko.mx/chicho306/friends-t7-a-t10-22906/list,1,4

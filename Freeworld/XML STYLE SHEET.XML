@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<SetViewMode>500</SetViewMode> <!--- VISTA THUMBNAIL ---> 
+
+<tag>Freeworld Working 24/7 for You</tag> 
+
+ 
+
+<item> 
+
+<title>====>PONER AQUI NAME DE LA PELICULA</title> 
+
+<link>====>PONER AQUI URL DE LA PELICULA</link> 
+
+<thumbnail>====>PONER AQUI ICON DE LA PELICULA</thumbnail> 
+
+<fanart>====>PONER AQUI BACKGROUND DE LA PELICULA</fanart> 
+
+</item> 

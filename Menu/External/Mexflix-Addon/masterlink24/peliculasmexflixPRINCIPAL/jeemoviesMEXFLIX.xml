@@ -1,0 +1,53 @@
+
+ 
+<item> 
+<title>*****Peliculas de Estrenos*****</title>
+<link>$doregex[makelist3]</link>
+ <regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>Seccion  [makelist3.param2]</title>
+<link>$doregex[makelist2]</link>
+<thumbnail>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</thumbnail>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</fanart>
+]]></listrepeat>
+<expres><![CDATA[verpeliculas:"(.*?)" name:"(.*?)";]]></expres>
+<page>http://adryanlist.org/adryan/kozm.txt</page>
+</regex>
+ <regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[makelist2.param2]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>[makelist2.param1]</thumbnail>
+<fanart>[makelist2.param1]</fanart>
+]]></listrepeat>
+<expres><![CDATA[src="(.*?)".*cula(.*?)"[\w\W\s]{0,25}href="(.*?)"]]></expres>
+<page>[makelist3.param1]</page>
+</regex>
+ <regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[makelist2.param2] -   [makelist.param2]</title>
+<link>$doregex[getpage]</link>
+<regex>
+<name>getpage</name>
+<expres>$pyFunction:'$doregex[get_xpage]'.replace('\/','/')</expres>
+<page></page>
+</regex>
+ <regex>
+<name>get_xpage</name>
+<expres>"file":"(.*?)"</expres>
+<page>$doregex[getmovie]</page>
+</regex>
+ <regex>
+<name>getmovie</name>
+<expres>iframe src="(.*?)\&</expres>
+<page>http://ver-peliculas.org/core/node/[makelist.param1].html</page>
+</regex>
+<thumbnail>[makelist2.param1]</thumbnail>
+<fanart>[makelist2.param1]</fanart>
+]]></listrepeat>
+<expres><![CDATA[episode-id="(.*?)".*>(.*?)<]]></expres>
+<page>[makelist2.param3]</page>
+</regex>
+</item> 

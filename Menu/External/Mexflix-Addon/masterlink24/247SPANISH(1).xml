@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+editadoxmexflix? regex de adryan list
+
+<item>
+<title>[COLOR aqua]  *[/COLOR][COLOR gold] Canales 24/7 [COLOR][COLOR blue]  [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+
+<title>[makelist.param2]</title>
+<link>rtmp://$doregex[get_ip]/live?$doregex[get_key] app=live?$doregex[get_key] playpath=live_[makelist.param1]  swfUrl=http://vaughnlive.tv$doregex[get_channel] pageUrl=http://vaughnlive.tv/[makelist.param1]  live=true</link>
+<regex>
+<name>get_ip</name>
+<expres>([^;]*?);:</expres>    
+<page>http://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_[makelist.param1]?0.1.1.767_865-865-0.10672002471983433</page>                               
+<referer>http://vaughnlive.tv/</referer>
+<connection>keep-alive</connection>
+<agent>Mozilla/5.0</agent>
+<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>get_key</name>
+<expres>mvnkey-(.*?);</expres>  
+<page>http://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_[makelist.param1]?0.1.1.767_865-865-0.10672002471983433</page>                               
+<referer>http://vaughnlive.tv/</referer>
+<connection>keep-alive</connection>
+<agent>Mozilla/5.0</agent>
+<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>get_key2</name>
+<expres>;.*;(.*?)</expres>  
+<page>http://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_[makelist.param1]?0.1.1.767_865-865-0.10672002471983433</page>                               
+<referer>http://vaughnlive.tv/</referer>
+<connection>keep-alive</connection>
+<agent>Mozilla/5.0</agent>
+<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
+<cookieJar></cookieJar>
+</regex>
+
+_psn12v?
+
+
+<regex>
+<name>get_channel</name>
+<expres>embedSWF\(\"(.*?)"</expres>    
+<page>http://vaughnlive.tv/[makelist.param1]</page>                             
+<referer>http://vaughnlive.tv/</referer>
+<connection>keep-alive</connection>
+<agent>Mozilla/5.0</agent>
+<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
+<cookieJar></cookieJar>
+</regex>
+			<thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/[makelist.param2]_320.jpg</thumbnail>
+]]></listrepeat>
+<expres>a href="/(.*?)"[\w\W\s]{0,22}browseTxt">(.*?)<</expres>
+<page>http://vaughnlive.tv/browse/espanol</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://files.enjin.com/95016/pics/HBO-24-7-Logo1.jpg</thumbnail>
+</item>

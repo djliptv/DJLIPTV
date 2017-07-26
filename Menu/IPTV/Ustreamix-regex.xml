@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<item>
+<title>TELECINCO</title>
+<thumbnail>https://yt3.ggpht.com/-0I1bxdKi5WM/AAAAAAAAAAI/AAAAAAAAAAA/ShzlY02qpIU/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<link>$doregex[get-m3u8]</link>
+<regex>
+<name>get-m3u8</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import jscrypto, re
+  vars = re.findall(r'var stream = JSON.parse.Cr.*?\((.*?),\s?(.*?),',page_data)[1] 
+  ct = re.findall(r'var %s.*?ct":"(.*?)"'%vars[0],page_data)[0] 
+  salt = re.findall(r'var %s.*?s":"(.*?)"'%vars[0],page_data)[0]
+  passphrase = re.findall(r"var %s.*?'(.*?)'"%vars[1],page_data)[0]
+  url= (jscrypto.decode(ct,passphrase,salt.decode('hex'))).replace('\\/','/').replace('"','')
+  return url
+]]></expres>
+<page>https://ustreamix.com/stream.php?id=ab3-belgium</page>
+<referer>https://ustreamix.com/</referer>
+</regex>
+</item>

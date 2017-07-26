@@ -1,0 +1,187 @@
+ <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+
+
+<channels>
+    <channels_info>
+      <title>[COLOR green] MEXICO LISTAS,ADDON,FREE [/COLOR]</title>
+      <genre>IPTV</genre>
+      <description>Lista de canales IPTV</description>
+      <thumbnail>https://iptvkodi.files.wordpress.com/2015/05/mexico2.jpg</thumbnail>
+      <fanart>http://i0.wp.com/bancodeimagenesgratis.net/wp-content/uploads/2015/09/6.jpg</fanart>
+      <date>29.06.2015</date>
+      <credits>EDUARDO CISNEROS </credits>
+    </channels_info>
+<channels>
+
+ 
+<channel>
+      <name>[COLOR green][/COLOR][COLOR red]                                                            MEXICO,LISTAS,ADDON,[/COLOR]</name>
+  <thumbnail>https://iptvkodi.files.wordpress.com/2015/05/mexico2.jpg</thumbnail>
+<fanart>http://i0.wp.com/bancodeimagenesgratis.net/wp-content/uploads/2015/09/6.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://</externallink>
+</channel>
+  </channels>
+ 
+   
+ 
+ 
+ 
+<channels>
+ 
+<channel>
+      <name>[COLOR green][/COLOR][COLOR light blue]                                            Update:[/COLOR][COLOR red] 10[/COLOR]-marzo-2017[COLOR yellow][COLOR  lime][/COLOR]  [/COLOR]</name>
+  <thumbnail>http://www.clker.com/cliparts/D/3/W/C/i/P/update-button-purple-hi.png</thumbnail>7
+<fanart>http://www.sleeter.com/blog/wp-content/uploads/2015/08/featured_update.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://</externallink>
+</channel>
+  </channels>
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+<channels>
+ 
+<channel>
+      <name>[COLOR lime][COLOR  lime]DEPORTES[/COLOR] EDUARDO CISNEROS [/COLOR]</name>
+  <thumbnail>https://iptvkodi.files.wordpress.com/2015/05/mexico2.jpg</thumbnail>
+<fanart>http://st2.depositphotos.com/1265075/6709/v/950/depositphotos_67099643-Made-in-mexico.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://pastebin.com/raw/quKS1c3p</externallink>
+</channel>
+  </channels>
+ 
+ 
+
+<channels>
+ 
+<channel>
+      <name>[COLOR lime][COLOR  lime][/COLOR]DEPORTES [/COLOR]</name>
+  <thumbnail>https://iptvkodi.files.wordpress.com/2015/05/mexico2.jpg</thumbnail>
+<fanart>http://st2.depositphotos.com/1265075/6709/v/950/depositphotos_67099643-Made-in-mexico.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://dl.dropbox.com/s/ubfxdxhvu75enmw/DEPORTESTP.m3u</externallink>
+</channel>
+  </channels>
+ 
+
+
+ 
+
+
+ 
+<channels>
+ 
+<channel>
+      <name>[COLOR white][COLOR  lime]•  [/COLOR] CANALES TOTALPLAY[/COLOR]</name>
+  <thumbnail>https://iptvkodi.files.wordpress.com/2015/05/mexico2.jpg</thumbnail>
+<fanart>http://st2.depositphotos.com/1265075/6709/v/950/depositphotos_67099643-Made-in-mexico.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://dl.dropbox.com/s/3ip1gr0f8pmmxen/CANALESTOTALPLAY.txt</externallink>
+</channel>
+  </channels>
+ 
+ 
+
+
+
+ 
+ 
+ 
+
+<channels>
+ 
+<channel>
+      <name>[COLOR red][COLOR  lime]•  [/COLOR] CANALES INFANTILES[/COLOR]</name>
+  <thumbnail>https://iptvkodi.files.wordpress.com/2015/05/mexico2.jpg</thumbnail>
+<fanart>http://st2.depositphotos.com/1265075/6709/v/950/depositphotos_67099643-Made-in-mexico.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://dl.dropbox.com/s/m7tluaih3q18i3x/CANALES%20INFANTILES.txt</externallink>
+</channel>
+  </channels>
+
+
+
+ 
+
+
+
+<channels>
+ 
+<channel>
+      <name>[COLOR green][COLOR  lime]•  [/COLOR] PELICULAS NACIONALES E INTERNACIONALES[/COLOR]</name>
+  <thumbnail>https://iptvkodi.files.wordpress.com/2015/05/mexico2.jpg</thumbnail>
+<fanart>http://st2.depositphotos.com/1265075/6709/v/950/depositphotos_67099643-Made-in-mexico.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://pastebin.com/raw/Jvz6vmj7</externallink>
+</channel>
+  </channels>
+
+
+
+<channels>
+ 
+<channel>
+      <name>[COLOR white][COLOR  lime]•  [/COLOR] CANALES DE OTROS PAISES[/COLOR]</name>
+  <thumbnail>https://iptvkodi.files.wordpress.com/2015/05/mexico2.jpg</thumbnail>
+<fanart>http://st2.depositphotos.com/1265075/6709/v/950/depositphotos_67099643-Made-in-mexico.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://pastebin.com/raw/dS1eV29Y</externallink>
+</channel>
+  </channels>
+
+
+<channels>
+ 
+<channel>
+      <name>[COLOR red][COLOR  lime]•  [/COLOR] ESTACIONES DE RADIO[/COLOR]</name>
+  <thumbnail>https://iptvkodi.files.wordpress.com/2015/05/mexico2.jpg</thumbnail>
+<fanart>http://st2.depositphotos.com/1265075/6709/v/950/depositphotos_67099643-Made-in-mexico.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://pastebin.com/raw/9PG9kT4v</externallink>
+</channel>
+  </channels>
+
+
+<channels>
+ 
+<channel>
+      <name>[COLOR green][COLOR  lime]•  [/COLOR] CANALES MUSICALES[/COLOR]</name>
+  <thumbnail>https://iptvkodi.files.wordpress.com/2015/05/mexico2.jpg</thumbnail>
+<fanart>http://st2.depositphotos.com/1265075/6709/v/950/depositphotos_67099643-Made-in-mexico.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://dl.dropbox.com/s/1d3tmmblomdc7dr/CANALES%20MUSICALES%20TP.txt</externallink>
+</channel>
+  </channels>
+
+
+<channels>
+ 
+<channel>
+      <name>[COLOR blue][COLOR  lime]•  [/COLOR] SERIES  [/COLOR]</name>
+  <thumbnail>https://iptvkodi.files.wordpress.com/2015/05/mexico2.jpg</thumbnail>
+<fanart>http://st2.depositphotos.com/1265075/6709/v/950/depositphotos_67099643-Made-in-mexico.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://pastebin.com/raw/6RHDRPFb</externallink>
+</channel>
+  </channels>

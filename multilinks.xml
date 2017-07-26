@@ -1,0 +1,25 @@
+<item>
+<title>[UPPERCASE][COLOR skyblue] 24 H[/UPPERCASE][/COLOR] </title>
+<link>$$LSPlayOnlyOne$$</link>
+<link>http://iphonelive.rtve.es/24H_LV3_IPH/bitrate_1.m3u8$$lsname=24 H</link>
+<link>http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl8-24hlv3aomgl8/_definst_/live.m3u8$$lsname=24 H</link>
+ <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+
+	
+<item>
+<title>[UPPERCASE][COLOR skyblue] La 1[/UPPERCASE][/COLOR] </title>
+<link>$$LSPlayOnlyOne$$</link>
+<link>http://iphonelive.rtve.es/LA1_LV3_IPH/LA1_LV3_IPH.m3u8$$lsname=La 1</link>
+<link>http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl7-la1lv3aomgl7/_definst_/live.m3u8$$lsname=La 1</link>
+<link>http://dmtn-iptv.com:8080/live/696nad1909/N0MxSuUMZE/5160.ts$$lsname=La 1</link>
+ 
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+
+<item>
+<title>[COLOR orange]Taquilla 1:[/COLOR] [COLOR skyblue]Es por tu bien[/COLOR] </title>
+<link>http://streamcloud.eu/kuyenymkjguy/3s_pur_to_b13n_hd7_2.0_www.avi.html</link>
+<link>http://streamcloud.eu/13w3qgkq7dtd/Es.p0r.tu.b1en.HDCast.S256.avi.html</link>
+<link>http://streamcloud.eu/2d2b86hvqlyw/Es.p0r.tu.b1en.HDCast.S256.avi.html</link>
+<thumbnail>https://gsewl-easypromos.netdna-ssl.com/23/18123/main/thumb.large810.58a71b343dc22.jpg</thumbnail>
+<fanart>https://gsewl-easypromos.netdna-ssl.com/23/18123/main/thumb.large810.58a71b343dc22.jpg</fanart>
+</item>

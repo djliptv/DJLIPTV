@@ -1,0 +1,85 @@
+hemanas:"Toda La Serie" src="http://copiapop.com/karurosu15/he-man-83725/list,1,6";
+hemaness:"He-Man And She-Ra El Secreto de la Espada" src="http://copiapop.com/karurosu15/he-man-she-ra-el-secreto-de-la-espada-90028/list,1,6";
+hemanece:"He-Man And She-Ra Especial De Navidad" src="http://copiapop.com/karurosu15/he-man-y-she-ra-especial-navidad-90030/list,1,3";
+
+simpsons:"Temporada 1" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-1-62598/list,1,1";
+simpsons:"Temporada 2" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-2-62612/list,1,1";
+simpsons:"Temporada 3" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-3-62651/list,1,2";
+simpsons:"Temporada 4" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-4-62703/list,1,1";
+simpsons:"Temporada 5" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-5-62704/list,1,1";
+simpsons:"Temporada 6" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-6-62705/list,1,2";
+simpsons:"Temporada 7" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-7-62706/list,1,2";
+simpsons:"Temporada 8" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-8-62707/list,1,2";
+simpsons:"Temporada 9" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-9-62708/list,1,2";
+simpsons:"Temporada 10" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-10-62736/list,1,2";
+simpsons:"Temporada 11" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-11-62737/list,1,1";
+simpsons:"Temporada 12" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-12-62738/list,1,1";
+simpsons:"Temporada 13" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-13-62739/list,1,1";
+simpsons:"Temporada 14" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-14-62740/list,1,1";
+simpsons:"Temporada 15" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-15-62741/list,1,1";
+simpsons:"Temporada 16" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-16-62742/list,1,1";
+simpsons:"Temporada 17" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-17-62743/list,1,1";
+simpsons:"Temporada 18" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-18-62744/list,1,1";
+simpsons:"Temporada 19" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-19-62745/list,1,1";
+simpsons:"Temporada 20" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-20-62746/list,1,1";
+simpsons:"Temporada 21" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-21-62747/list,1,1";
+simpsons:"Temporada 22" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-22-62748/list,1,1";
+simpsons:"Temporada 23" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-23-62749/list,1,1";
+simpsons:"Temporada 24" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-24-62750/list,1,1";
+simpsons:"Temporada 25" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-25-62751/list,1,1";
+simpsons:"Temporada 26" src="http://copiapop.com/marcosjj12/los-simpsons-temporada-26-62752/list,1,1";
+simpsonsesp:"Temporada 01/25" src="http://copiapop.com/Koba1994/los-simpsons-72489/list,1,24";
+
+south:"South Park" src="http://copiapop.com/Koba1994/south-park-39449/list,1,19";
+
+futu:"Futurama" src="http://copiapop.com/allupserie/futurama-espanol-71670/list,1,41";
+
+oveja:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/la-oveja-shaun-77901/list,1,2";
+
+koala:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/los-hermanos-koala-77888/list,1,3";
+
+pat:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/pat-el-cartero-77731/list,1,4";
+
+pica:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/los-picapiedra-latino-77649/list,1,7";
+
+ben:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/el-pequeno-reino-de-ben-y-holly-77545/list,1,3";
+
+jelly:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/jelly-jamm-77535/list,1,3";
+
+ben:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/el-pequeno-reino-de-ben-y-holly-77545/list,1,3";
+
+ben:"Disfruta de tus Mejores Dibujos" src="http://copiapop.com/manzn/el-pequeno-reino-de-ben-y-holly-77545/list,1,3";
+
+
+
+power:"Power Ranger Mighty Morphin Castellano" src="http://copiapop.com/TarifaDescarga/power-ranger-mighty-morphin-castellano-83774/list,1,7";
+power:"Power Rangers Zeo Castellano!!" src="http://copiapop.com/TarifaDescarga/power-rangers-zeo-castellano-83674/list,1,10";
+power:"Power Rangers Turbo Castellano" src="http://copiapop.com/TarifaDescarga/power-rangers-turbo-castellano-84328/list,1,7";
+power:"Power Rangers en el espacio (In Space)" src="http://copiapop.com/TarifaDescarga/power-rangers-en-el-espacio-in-space-84407/list,1,7";
+power:"Power Rangers Lost Galaxy " src="http://copiapop.com/TarifaDescarga/power-rangers-lost-galaxy-84493/list,1,7";
+power:"Power Rangers Rescate Relampago" src="http://copiapop.com/TarifaDescarga/power-rangers-rescate-relampago-84851/list,1,7";
+power:"Power Rangers Time Force Castellano" src="http://copiapop.com/TarifaDescarga/power-rangers-time-force-castellano-84953/list,1,7";
+power:"Power Rangers Poder Salvaje" src="http://copiapop.com/TarifaDescarga/power-rangers-poder-salvaje-85095/list,1,7";
+power:"Power Rangers Ninja Storm" src="http://copiapop.com/TarifaDescarga/power-rangers-ninja-storm-85127/list,1,7";
+power:"Power Rangers Dino Thunder Castellano" src="http://copiapop.com/TarifaDescarga/power-rangers-dino-thunder-castellano-85227/list,1,7";
+power:"Power Rangers S.P.D castellano" src="http://copiapop.com/TarifaDescarga/power-rangers-s-p-d-castellano-85319/list,1,7";
+power:"Power Rangers Fuerza Mística" src="http://copiapop.com/TarifaDescarga/power-rangers-fuerza-mistica-85487/list,1,7";
+power:"Power Rangers Operation Overdrive Castellano" src="http://copiapop.com/TarifaDescarga/power-rangers-operation-overdrive-castellano-85503/list,1,7";
+power:"Power Rangers Jungle Fury Castellano" src="http://copiapop.com/TarifaDescarga/power-rangers-jungle-fury-castellano-85719/list,1,7";
+power:"Power Rangers Samurai Castellano" src="http://copiapop.com/TarifaDescarga/power-rangers-samurai-castellano-85846/list,1,7";
+power:"Power Rangers Super Samurai" src="http://copiapop.com/TarifaDescarga/power-rangers-super-samurai-85854/list,1,7";
+power:"Power Rangers Megaforce/ SuperMegaforce" src="http://copiapop.com/TarifaDescarga/power-rangers-megaforce-supermegaforce-85912/list,1,7";
+
+
+dora:"http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t1-castellano-44536" name:"Temporada 1";
+dora:"http://diskokosmiko.mx/gemma-valencia/dora-la-explroradora-t2-castellano-44627" name:"Temporada 2";
+dora:"http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t3-castellano-44721" name:"Temporada 3";
+dora:"http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t4-castellano-44766" name:"Temporada 4";
+dora:"http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t5-castellano-44774" name:"Temporada 5";
+
+mouse:"http://diskokosmiko.mx/gemma-valencia/la-casa-de-mickey-mause-t1-castellano-44850" name:"Temporada 1";
+mouse:"http://diskokosmiko.mx/gemma-valencia/la-casa-de-mickey-mouse-t2-castellano-44867" name:"Temporada 2";
+mouse:"http://diskokosmiko.mx/gemma-valencia/la-casa-de-mickey-mouse-t3-castellano-45018" name:"Temporada 3";
+
+hora:"Disfruta de la serie" src="http://copiapop.com/aisha/hora-de-aventuras-53248/list,1,10";
+

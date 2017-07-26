@@ -1,0 +1,522 @@
+                         
+   ►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►SUBSCRIBER TO THE BEST FREEWOLD MEDIA=►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►►
+						              ◄►http://www.youtube.com/c/freeworldkodi◄►
+                                    ==============================================
+
+						  
+						  
+
+◄◄◄◄=Server-MainLink-Adults para el LiveStreamPro=►►►►
+url=http://legionworldtv.com/master/movies/freeworld.xml
+				 
+◄◄◄◄=Pastebin-MainLink-Adults para el LiveStreamPro=►►►►
+url=https://pastebin.com/raw/gDmRZ
+
+◄◄◄◄=Pastebin-MainLink NOT Adults para el LiveStreamPro=►►►►
+url=https://pastebin.com/raw/Qnq1CAGR
+
+◄◄◄◄=plugin.video.bonnie=►►►► 
+url=http://legionworldtv.com/master/app/Addons/Bonnie%20Clyde/plugin.video.bonnie.zip
+	 
+◄◄◄◄=plugin.video.livestreampro=►►►►
+url=http://legionworldtv.com/master/app/Dependencias/Live.Streamspro/plugin.video.live.streamspro.zip
+
+				
+				
+				
+				
+				
+				
+_______________________________________________
+◄◄◄◄-WEB PAGE PARA VER PELICULAS,SERIES.LIVE TV-►►►► 
+===============================================
+
+url=https://yesmovies.to/
+url=https://cartoonhd.be/#
+url=https://www.arconaitv.me
+url=http://v2.ustreamix.com/
+____________________________________________________
+◄◄◄◄=MIRA PELICULAS Y SERIES DIRECTO DE TORRENT=►►►► 
+====================================================
+
+◄►http://www.opensubtitles.org/addons/player/OpenSubtitlesPlayer.exe◄►
+
+_______________________________________________
+◄◄◄◄=HTML PUBLICOS PARA MOVIES SERIES Y MUSIC=►►►► 
+===============================================
+url=http://dl2.downloado.site/dl2/Movie/
+url=http://dl2.downloado.site/dl2/TV%20Show/
+url=http://dl.tehmovies.com/94/95/
+url=http://dl.tehmovies.com/94/
+url=http://dl.tehmovies.com/94/series/
+url=http://dl.my-film.in/reza/film/
+url=http://avadl.uploadet.ir/DL7/
+url=http://dl2.mihanpix.com/Film/
+
+_______________________________________________________
+◄◄◄◄=REGEX FOR HTML PLUBICOS DE PELICULAS Y SERIES=►►►►
+=======================================================
+==>
+<item>
+<title>►►►►►►►►PONER AQUI EL TITULO◄◄◄◄◄◄◄◄</title>
+<link>$doregex[makelist0]</link>
+
+
+<regex>
+<name>makelist0</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lightblue] [makelist0.param2] [/COLOR][/B] </title>
+<link>http://dl2.mihanpix.com/Film/2016/[makelist0.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)<]]></expres>
+<page>►►►►►►►►PONER AQUI LA URL◄◄◄◄◄◄◄◄</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>====>PONER AQUI ICON DE LA PELICULA</thumbnail>
+<fanart>====>PONER AQUI BACKGROUND DE LA PELICULA</fanart>
+</item>
+
+
+ _____________________________________________
+◄◄◄◄=ONLINE IPTV SERVER=►►►► 
+◄◄◄◄url=http://www.iptvtools.net/-[PARA CHEQ IPTV LIST]=►►►► 
+===============================================
+PASTEBIN TRUCO PARA BUSCAR IPTV PLAYLIST
+wowza2.mysoltv
+
+url=https://www.oneplaylist.space/
+url=https://sourcetv.info/
+url=http://freetvip.com/free-list-m3u-iptv/
+url=http://www.diesl.com/iptv/
+url=http://www.geantsat.com/free-iptv/
+url=http://iptvsatlinks.blogspot.mx/search?max-results=40
+url=http://www.iptvultra.com/
+url=http://www.dailyiptvlist.com/
+url=http://iptvsatlinks.blogspot.mx/search?max-results=40
+url=http://www.iptvsharing.com/search?max-results=40
+url=http://www.oneplaylist.eu.pn/
+url=http://www.iptvsat.com/p/iptvsport.html
+url=http://www.iptvbin.com/search/label/Spain?max-results=18
+url=https://www.tvonlinestreams.com/
+url=http://www.embratoria.com/
+url=http://directorymedia.net/b/
+url=http://directorymedia.net/b/
+
+_______________________________________________
+◄◄◄◄=REGEX FOR CAPTURE IPTV LIST DIARIAS=►►►► 
+===============================================
+
+<item>
+<title>►►►►►►►►PONER AQUI EL TITULO◄◄◄◄◄◄◄◄</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[COLOR skyblue] [makelist.param2][/COLOR]</title>
+   <link>$doregex[makelist2]</link>
+   <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="([^"]+)">(.*?)</a]]></expres>
+<page>►►►►►►►►PONER AQUI LA URL◄◄◄◄◄◄◄◄</page>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <title>[COLOR deepskyblue] [makelist2.param1][/COLOR]</title>
+   <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
+<page>[makelist.param1]?get=download_m3u8</page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist2.param2]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&amp;Icy-MetaData=1')</expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+___________________________
+◄►IPTV LIST/ARCHIVOS HLS◄►
+===========================
+
+<item>
+<title>F4M TESTER-HLS</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=►►►►►►►►PONER AQUI LA URL◄◄◄◄◄◄◄◄</link>
+<thumbnail></thumbnail>
+</item>
+
+___________________________
+◄►IPTV LIST/ARCHIVOS TS◄►
+===========================
+
+<item>
+<title>F4M TESTER-TS</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=►►►►►►►►PONER AQUI LA URL◄◄◄◄◄◄◄◄</link> 
+<thumbnail></thumbnail>
+</item>
+
+___________________________
+◄►IPTV LIST/ARCHIVOS M3U8◄►
+===========================
+<item>
+<title>M3U8</title>
+<link>►►►►►►►►PONER AQUI LA URL◄◄◄◄◄◄◄◄</link>
+<thumbnail></thumbnail>
+</item>
+
+http://grupomac-lh.akamaihd.net/i/004rss0k8_1@301782/index_1_av-p.m3u8?iptvgratis?chile.m3u8
+
+_______________________________________________
+◄◄◄◄=LISTAS REMOTAS MOVIES,SERIES,LIVE TV=►►►► 
+===============================================
+
+url=http://exabytetv.info/lista.m3u
+url=http://exabytetv.info/peliculas.m3u
+url=http://exabytetv.info/series.m3u
+url=http://tecnotv.info/singeo.m3u
+url=http://tecnotv.info/peliculas.m3u
+url=https://pastebin.com/raw/CzP5w5xF
+url=https://pastebin.com/raw/d7NUJiA0
+url=https://pastebin.com/raw/Ac6mLf4t
+url=https://pastebin.com/raw/A3UWAhRA
+url=https://pastebin.com/raw/Fcc4WpRK
+url=https://pastebin.com/raw/kV29V5Ks
+url=https://pastebin.com/raw/sFJbquk2
+url=https://pastebin.com/raw/A2iaPys4
+______________________________
+◄◄◄◄=ANDROID APK STORES=►►►► 
+==============================
+url=url=https://apkpure.com/region-free-apk-download
+url=url=https://apkpure.com/app
+url=http://legionworldtv.com/master/apk/
+
+______________________________________________________
+◄◄◄◄=WINDOWS APP PARA VER LIVE TV,MOVIES Y SERIES=►►►► 
+
+url=ms-windows-store://publisher/?name=Enigma
+9ZSTORE-url=https://www.microsoft.com/store/apps/9nblggh4nkl5
+MUSIC DOWNLOAD-url=url=https://www.microsoft.com/store/apps/9nblggh50xqj
+GLOBAL TV-url=url=https://www.microsoft.com/store/apps/9nblggh51pg9
+ANIME-url=url=https://www.microsoft.com/store/apps/9p3q5199088h
+TOM and JERRY-url=url=https://www.microsoft.com/store/apps/9nblggh5p011
+CLUB-CARTTON-url=url=https://www.microsoft.com/store/apps/9nblggh4r3t5
+LOONEY TOONS-url=url=https://www.microsoft.com/store/apps/9nblggh4np9b
+GLOBAL TV-url=url=https://www.microsoft.com/store/apps/9p2l2xrp6kxv
+CINE BOX-url=http://10appstore.net/win10apps/cinebox-movies/229676/download.html
+
+
+___________________________
+◄◄◄◄=SPORTDEVIL.LINKS.SOURCES=►►►►
+==================================
+url=http://www.liveonlinetv247.info/tvchannels.php
+url=http://mamahd.com
+url=url=https://www.arconaitv.me
+url=url=https://www.ibrod.tv/tvchans.php'
+url=http://v2.ustreamix.com'
+url=http://www.shadow-net.org/'
+url=url=https://goo.gl/AeNptE'
+url=url=http://bit.ly/2onenoteiptv
+
+_______________________
+◄►SPORTDEVIL.REGEX◄►
+======================
+
+<item>
+<title>SPORT DEVIL</title>
+<sportsdevil>http://v2.ustreamix.com/stream.php?id=univision</sportsdevil>
+<referer>http://v2.ustreamix.com</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+_____________
+◄►YOUTUBE◄►
+=============
+<item>
+<title>Youtube</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=►►►►►►►►PONER AQUI EL ID◄◄◄◄◄◄◄◄</link>
+</item>
+
+<item>
+<title>Youtube</title>
+<link>plugin://plugin.video.youtube/playlist/►►►►►►►►PONER AQUI EL ID◄◄◄◄◄◄◄◄</link>
+</item>
+
+<item>
+<title>Youtube</title>
+<link>plugin://plugin.video.youtube/user/►►►►►►►►PONER AQUI EL ID◄◄◄◄◄◄◄◄</link>
+</item>
+
+<item>
+<title>Youtube</title>
+<link>plugin://plugin.video.youtube/channel/►►►►►►►►PONER AQUI EL ID◄◄◄◄◄◄◄◄</link>
+</item>
+
+<item>
+<title>Youtube</title>
+<link>plugin://plugin.video.youtube/watch?v=mywKnXHeD6U&list=PLYt64j46FmvpNAywqX2IGjjVIXcN82cqk</link>
+</item>
+
+_______________________________________________
+◄◄◄◄=CONVERT YOUTUBE VIDEO TO MP3=►►►► 
+===============================================
+url=http://www.youtubeinmp3.com/
+
+________________________________
+◄◄◄◄=DISKOKOSMICO SOURCE=►►►► 
+================================
+
+http://diskokosmiko.mx/IngArturo/super-coleccion-de-pelis-audio-latino-20342/list,1,11
+http://diskokosmiko.mx/ermejor/peliculas-hd-varios-idiomas-de-audio-y-subtit-29815/list,1,13
+http://diskokosmiko.mx/SeriesHD/pelis-2-45486/list,1,5
+http://diskokosmiko.mx/SeriesHD/pelis-3-50456/list,1,3
+http://diskokosmiko.mx/movies/disneydreamworks-animated-collection-1937-2009-1188/list,1,8
+http://diskokosmiko.mx/IngArturo/curso-de-ingles-26298
+http://diskokosmiko.mx/muhazimim/rmvb-cine-web-16062/list,1,39
+http://diskokosmiko.mx/danonaba89/newcollection-46197/list,1,50
+http://diskokosmiko.mx/marcos20/peticiones-16957
+http://diskokosmiko.mx/movies/mega-pack-1183
+http://diskokosmiko.mx/jml/peliculas-25581
+http://diskokosmiko.mx/IngArturo/super-coleccion-de-pelis-audio-latino-20342
+http://diskokosmiko.mx/xadracasino/peliculas-2014-50113/list,1,4
+http://diskokosmiko.mx/xadracasino/peliculas-2015-50047/list,1,3
+http://diskokosmiko.mx/xadracasino/peliculas-2016-49932/list,1,7
+http://diskokosmiko.mx/denon/peliculas-variadas-en-audio-latino-32477/list,1,7
+http://diskokosmiko.mx/INTERALIOS/peliculas-4976/list,1,3
+http://diskokosmiko.mx/naredo/accion-20343/list,1,4
+http://diskokosmiko.mx/marcos20/peliculas-de-accion-en-espanol-latino-16521/list,1,7
+http://diskokosmiko.mx/marcos20/peliculas-de-aventura-en-espanol-latino-19600/list,1,7
+http://diskokosmiko.mx/marcos20/peliculas-de-drama-en-espanol-latino-18845/list,1,7
+http://diskokosmiko.mx/disney/disney-1189/list,1,6
+http://diskokosmiko.mx/marcos20/peliculas-de-caricaturas-en-espanol-latino-16449
+http://diskokosmiko.mx/naredo/animacion-20219/list,1,3
+http://diskokosmiko.mx/marcos20/peliculas-de-caricaturas-en-espanol-latino-16449/list,1,7
+http://diskokosmiko.mx/naredo/fantastico-20056/list,1,4
+http://diskokosmiko.mx/naredo/misterio-19965/list,1,3
+http://diskokosmiko.mx/naredo/terror-20055/list,1,2
+http://diskokosmiko.mx/marcos20/peliculas-de-terror-en-espanol-latino-16623
+http://diskokosmiko.mx/naredo/belicas-20003/list,1,11
+http://diskokosmiko.mx/naredo/piratas-20002/list,1,1
+http://diskokosmiko.mx/naredo/comedia-19991/list,1,3
+http://diskokosmiko.mx/marcos20/peliculas-de-comedia-en-espanol-latino-17449/list,1,7
+http://diskokosmiko.mx/naredo/western-19889/list,1,22
+http://diskokosmiko.mx/trivianita/peliculas-navidenas-el-rockero-41241/list,1,4
+http://diskokosmiko.mx/marcos20/peliculas-de-navidad-en-espanol-latino-17084/list,1,7
+http://diskokosmiko.mx/oscaraday/musica-27140/list,1,3
+http://diskokosmiko.mx/catoal/now-thats-what-i-call-music-35081/list,1,23
+http://diskokosmiko.mx/shimplex/best-60s-41934/list,1,5
+http://diskokosmiko.mx/shimplex/best-70s-42093/list,1,5
+http://diskokosmiko.mx/trivianita/la-movida-de-los-80-2016el-rockero-45885/list,1,7
+http://diskokosmiko.mx/shimplex/super-dance-90-50861/list,1,5
+http://diskokosmiko.mx/shimplex/best-00s-41844/list,1,4
+http://diskokosmiko.mx/shimplex/best-80s-42170/list,1,3
+http://diskokosmiko.mx/shimplex/va-greatest-metal-ballads-of-80s-90s-48748/list,1,4
+http://diskokosmiko.mx/trivianita/videoclip-2017-el-rockero-72075/list,1,10
+__________________________________
+◄◄◄◄=REGEX FOR DISKOKOSMIKO=►►►►
+==================================
+
+<item>
+<title>►►►►►►►►PONER AQUI EL TITULO◄◄◄◄◄◄◄◄</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>====>PONER AQUI ICON DE LA PELICULA</thumbnail>
+<fanart>====>PONER AQUI BACKGROUND DE LA PELICULA</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>►►►►►►►►PONER AQUI LA URL◄◄◄◄◄◄◄◄</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>►►►►►►►►PONER AQUI LA URL◄◄◄◄◄◄◄◄</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>====>PONER AQUI ICON DE LA PELICULA</thumbnail>
+<fanart>====>PONER AQUI BACKGROUND DE LA PELICULA</fanart>
+</item>
+
+
+
+
+__________________________________
+◄◄◄◄=TEMPLATE FOR REPOSITORY=►►►►
+==================================
+
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="{addonid}" name="{name}" version="{version}" provider-name="{author}">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="{name}">
+            <info compressed="false">{url}{output_path}addons.xml</info>
+            <checksum>{url}{output_path}addons.xml.md5</checksum>
+            <datadir zip="true">{url}{output_path}</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>{summary}</summary>
+            <description>{description}</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+
+_______________________________
+◄◄◄◄=TEMPLATE FOR ADDONS=►►►►
+===============================
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.addon.id" name="Your Add-on" version="1.2.3" provider-name="You">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Your add-on's summary</summary>
+    <description lang="en_gb">Your add-on's description</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon></icon>
+        <fanart></fanart>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>
+
+_______________________________
+◄◄◄◄=TEMPLATE FOR SOURCE=►►►►
+===============================
+
+<sources>
+    <programs>
+        <default pathversion="1"></default>
+    </programs>
+    <video>
+        <default pathversion="1"></default>
+        <source>
+            <name>Video Addons</name>
+            <path pathversion="1">library://video/addons.xml/</path>
+            <thumbnail pathversion="1">DefaultVideoPlugins.png</thumbnail>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Video Library</name>
+            <path pathversion="1">videodb://</path>
+            <thumbnail pathversion="1">DefaultMovies.png</thumbnail>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>UPnP Media Servers (Auto-Discover)</name>
+            <path pathversion="1">upnp://</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Video Playlists</name>
+            <path pathversion="1">special://videoplaylists/</path>
+            <thumbnail pathversion="1">DefaultVideoPlaylists.png</thumbnail>
+            <allowsharing>true</allowsharing>
+        </source>
+    </video>
+    <music>
+        <default pathversion="1"></default>
+        <source>
+            <name>Music Library</name>
+            <path pathversion="1">musicdb://</path>
+            <thumbnail pathversion="1">DefaultMusicAlbums.png</thumbnail>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Music Playlists</name>
+            <path pathversion="1">special://musicplaylists/</path>
+            <thumbnail pathversion="1">DefaultMusicPlaylists.png</thumbnail>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>UPnP Media Servers (Auto-Discover)</name>
+            <path pathversion="1">upnp://</path>
+            <allowsharing>true</allowsharing>
+        </source>
+    </music>
+    <pictures>
+        <default pathversion="1"></default>
+    </pictures>
+    <files>
+        <default pathversion="1"></default>
+         <source>
+            <name></name>
+            <path pathversion="1"></path>
+            <allowsharing>true</allowsharing>
+        </source>                
+    </files>
+</sources>
+
+_____________________________________________
+◄◄◄◄=REPOSITORYS,SCRIPTS,ADDONS SOURCE=►►►► 
+=============================================
+
+url=http://canalnereo.com/canalnereo/
+url=http://zonalat.website/repo/
+url=http://wolfiptv.xyz/deancl/addons/
+url=http://repo.adryanlist.org
+url=http://eduardocisneros.esy.es/
+url=http://jgpaddons.esy.es/JGPADDONS/
+url=http://canalnereo.com/canalnereo/
+url=https://netstreams-source.000webhostapp.com/
+url=http://1-repo-services.4all.io/
+url=http://supremacy.org.uk/zip/repo/
+url=http://wolf-pack.netai.net/repo/
+url=http://kodi.filmkodi.com
+url=http://silenthunter.srve.io/zip/
+url=http://freetvforall.esy.es/repo/
+url=http://noobsandnerds.com/portal
+url=http://whitedevil.16mb.com/
+url=http://ajbuilds.uk/repo/
+url=http://matsbuilds.uk/goliath
+url=http://www.goodfellasteam.com/Repository
+url=http://muckys.mediaportal4kodi.ml/
+url=http://mediarepos.net/kodistuff
+url=http://kodi.filmkodi.com
+url=http://srp.nu
+url=http://roguemedia.x10.mx/install/repo/
+url=https://archive.org/download/titanrepo
+url=http://www.dandymedia.club/repo/
+url=http://noobsandnerds.com/portal
+url=http://mwiz.co.uk/repo/
+url=http://tinyurl.com/mqvq42w/
+url=http://www.goodfellasteam.com/Repository
+url=http://nan.aftermathwizard.net/nanrepo/
+url=http://kdil.co/repo/
+url=http://alphaaddon.co.uk/Repository/

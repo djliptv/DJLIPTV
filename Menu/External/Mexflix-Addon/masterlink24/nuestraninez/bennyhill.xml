@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Parte 1 **</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] **  [makelist.param1] **</title>
+<link>$doregex[final-url]</link>
+<referer></referer>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/0/06/The_Best_of_Benny_Hill_cover.jpg</thumbnail>
+<fanart>http://static.guim.co.uk/sys-images/Guardian/About/General/2011/5/4/1304534829965/Benny-Hill-007.jpg</fanart>
+]]></listrepeat>
+<expres>"link" title="(.*?)">.*? data-id="(.*?)"</expres>                (.*?)            ([^"]+)
+<page>http://www.dailymotion.com/playlist/x4mdd8_catoalkodi_benny-hill-2/1</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0</agent>
+</regex>
+
+<regex>
+<name>final-url</name>
+<expres>(.*)#</expres>
+<page>$doregex[url]&amp;redirect=0</page>
+</regex>
+
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\/','/')</expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-url</name>
+<expres>mpegURL.*"(http.*auth.*?)"</expres>
+<page>http://www.dailymotion.com/embed/video/[makelist.param2]</page>                                        
+<referer>http://www.dailymotion.com/</referer>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/0/06/The_Best_of_Benny_Hill_cover.jpg</thumbnail>
+<fanart>http://static.guim.co.uk/sys-images/Guardian/About/General/2011/5/4/1304534829965/Benny-Hill-007.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Parte 2 **</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] **  [makelist.param1] **</title>
+<link>$doregex[final-url]</link>
+<referer></referer>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/0/06/The_Best_of_Benny_Hill_cover.jpg</thumbnail>
+<fanart>http://static.guim.co.uk/sys-images/Guardian/About/General/2011/5/4/1304534829965/Benny-Hill-007.jpg</fanart>
+]]></listrepeat>
+<expres>"link" title="(.*?)">.*? data-id="(.*?)"</expres>                (.*?)            ([^"]+)
+<page>http://www.dailymotion.com/playlist/x4mdd8_catoalkodi_benny-hill-2/2</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0</agent>
+</regex>
+
+<regex>
+<name>final-url</name>
+<expres>(.*)#</expres>
+<page>$doregex[url]&amp;redirect=0</page>
+</regex>
+
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\/','/')</expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-url</name>
+<expres>mpegURL.*"(http.*auth.*?)"</expres>
+<page>http://www.dailymotion.com/embed/video/[makelist.param2]</page>                                        
+<referer>http://www.dailymotion.com/</referer>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/0/06/The_Best_of_Benny_Hill_cover.jpg</thumbnail>
+<fanart>http://static.guim.co.uk/sys-images/Guardian/About/General/2011/5/4/1304534829965/Benny-Hill-007.jpg</fanart>
+</item>

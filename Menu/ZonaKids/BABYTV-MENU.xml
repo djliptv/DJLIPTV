@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Pim y Pimba se divierten en la nieve [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqYWNFAg2cZUCODayMwo7w9s</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Billy Bam Bam - Cantar y jugar dentro [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqbr4PNZXHuIcekwx6ZqyHPU</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] ¿Quién Es? ¿Qué es? [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqbpjD09wX6aBpucyP9bUYk3</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Celebrar la Eurocopa [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqZN94q1zhL1QtQkpNe-08Dr</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Música y sonidos con Pitch y Potch [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqZNkyISVxuHzlJ7Hw_5LzwH</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] ¡Chu chu! ¡Viajeros al tren Tricky Tracks!  [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqbIo5SdSH4jud-1S2hlyKJv</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Canciones de BabyTV [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqYqw8hkrb3ObEBWPTy3bAxE</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Canciones infantiles #1 [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqbxKnr9SAmu-TG7fHMLawgx</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Canciones infantiles #2 [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqZOH3AdG2r2u8nBSatziWL2</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Hora de Juego - Juegos de adivinanzas con vehículos! [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqYKeKCbKuYDr6Z-d8A-NJve</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] ¡Oliver se divierte con animales! [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqbllyUE_qH8-NvxMOEuZGYe</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Big Bugs Band - Músicas del mundo [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqbD7V9-i2EmIz9rP98c9Swv</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Pim & Pimba - Aprende a compartir y a jugar juntos [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqaHqpRL4sejKlPrZ4ZwTaTJ</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Jammers - Estamos improvisando [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqY9VnTAYSMZdtkGuRkD3_sn</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Pim y Pimba se divierten en la nieve [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqao9e_teK3mVoWL1IEgJ1hf</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] ¡Eli, Froggie y Ducky se sumergen! [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqYkkiztrObmAY3y4OLBzmw2</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Canciones y juegos - Billy Bam Bam [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqZ9ELjTOsjLZ-LfgWHmFepi</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Vengan a jugar con Hippa Hippa Hey [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqajLXKGW3vAvEvA-_eYrea2</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Aventuras con Oliver -- Carros, aviones y barcas [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png</thumbnail>
+						<fanart>https://s-media-cache-ak0.pinimg.com/originals/3e/c9/b1/3ec9b1ce504f6660cc485e6f1af0f223.jpg</fanart>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLRmvqm21oHqbZmgO6r0qzg8XRkS_t0SgI</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>

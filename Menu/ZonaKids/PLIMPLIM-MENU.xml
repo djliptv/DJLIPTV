@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Las canciones de Plim Plim [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+						<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLW_5GrNJG1WhFa9GpuLsUZLahnR-IMRCJ</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Los Fails mas divertidos! (caidas, sorpresas, sustos) [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+						<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLW_5GrNJG1WhuHYCJeS1WC6iSg_NxxMr3</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Plim Plim y Familia Telerín [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+						<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLW_5GrNJG1WgOlauj1CrJ89ChTQUpXE9I</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Plim Plim & Canticuentos | Canciones infantiles [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+						<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLW_5GrNJG1WhEqpTo4dxpgYdNzKgMibiz</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Plim Plim Canciones de Navidad [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+						<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLW_5GrNJG1WjLgKyQmP1KrozJ_0OMKSO3</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Mix - Canciones infantiles[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+						<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLW_5GrNJG1Wh33kYW88IF5Y1aUjDSmoNY</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] El Reino a Jugar & Plim Plim Presenta [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+						<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLW_5GrNJG1Wj-U9kYqM5czMij2Oy83CwP</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Canciones de cuna | Canciones para dormir | Dormir a mi bebé [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+						<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLW_5GrNJG1Wj4qjSeLvRgygOdvYs517Mq</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Todos los videos de Plim Plim [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+						<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLW_5GrNJG1WjAISNNiYVO5Jq-QbNQLZLX</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Cantamos y aprendemos Valores Humanos [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+						<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLW_5GrNJG1WhuwBNj-9fzeDfsNkH3dbqy</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Capítulos - Plim Plim [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>http://cdn.serpadres.com/imgs/images/image-21417.jpg</fanart>
+						<thumbnail>http://www.plimplim.tv/img/plimLogo.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLW_5GrNJG1Wgfxb68s1nV8P6JRRJrK25R</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+

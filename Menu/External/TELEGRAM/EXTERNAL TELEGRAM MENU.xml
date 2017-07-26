@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>[COLOR white] LISTA [/COLOR][COLOR white] Partidos del dia[/COLOR][COLOR orange] Mario @Mager19[/COLOR]</title>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://pastebin.com/raw/wdXmANz9</externallink>
+</item>
+ 
+<item>
+<title>[COLOR white] LISTA [/COLOR][COLOR white] Canales IPTV[/COLOR][COLOR orange] Telegram STALLION PVR[/COLOR]</title>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/a0j3ly4gav8stzg/EXTERNAL%20TELEGRAM%20STALLION%20PVR.xml?dl=1</externallink>
+</item>
+ 
+<item>
+<title>[COLOR white] LISTA [/COLOR][COLOR white] Canales IPTV M3U[/COLOR][COLOR orange] Telegram EXATV[/COLOR]</title>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/h4ul0dovurpdfio/EXTERNAL%20TELEGRAM%20LISTA%20EXATV.xml?dl=0</externallink>
+
+    </item>

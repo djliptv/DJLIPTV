@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>Juana La Virgen</name>
+<thumbnail>https://0.viki.io/c/24259c/0c42932bd6.jpg</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/8a/00/2c/8a002cb7110d7d952d3eef7125c67a30.jpg</fanart>
+<items>
+
+<item>
+<title>[B][COLOR yellow][COLOR pink][/COLOR] Juana La Virgen[/B]</title> @mexflix
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://0.viki.io/c/24259c/0c42932bd6.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/juana-la-virgen-completa-40254/list,1,7</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/juana-la-virgen-completa-40254/list,1,7</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://0.viki.io/c/24259c/0c42932bd6.jpg</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/8a/00/2c/8a002cb7110d7d952d3eef7125c67a30.jpg</fanart>
+</item>
+</items>
+</channel>

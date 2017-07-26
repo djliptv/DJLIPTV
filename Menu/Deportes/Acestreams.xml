@@ -1,0 +1,2500 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+    <name>Acestreams</name>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+        <items>
+           <items_info> <!-- this is opitonal -->
+      <title>DJLIPTV </title>
+      <genre>Tv Live</genre>
+      <description>: Lista de Canales para el Livestreamspro :</description>
+      <thumbnail></thumbnail>
+      <fanart></fanart>
+      <date></date>
+      <credits>DJLIPTV</credits>
+    </items_info>
+			
+
+			<item>
+			<title>        [COLOR white]::: | DJLIPTV - Sports | :::[/COLOR]</title> 
+			<link>http://ignora.me</link>
+			<thumbnail></thumbnail>
+			</item>
+			
+			
+			<item>
+			<title>Addon PLEXUS Necesario</title> 
+			<link>http://ignora.me</link>
+			<thumbnail></thumbnail>
+			</item>
+			
+			
+			
+			<item>
+			<title>Agenda Arenavision http://arenavision.in/agenda</title> 
+			<link>http://ignora.me</link>
+			<thumbnail></thumbnail>
+			</item>
+			
+			
+			<item>
+			<title>ArenaVision 1</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av1</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+
+			
+			<item>
+			<title>ArenaVision 2</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av2</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			<item>
+			<title>ArenaVision 3</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av3</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			<item>
+			<title>ArenaVision 4</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av4</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			<item>
+			<title>ArenaVision 5</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av5</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			<item>
+			<title>ArenaVision 6</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av6</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			<item>
+			<title>ArenaVision 7</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av7</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			<item>
+			<title>ArenaVision 8</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av8</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			<item>
+			<title>ArenaVision 9</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av9</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			<item>
+			<title>ArenaVision 10</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av10</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			<item>
+			<title>ArenaVision 11</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av11</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			<item>
+			<title>ArenaVision 12</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av12</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			<item>
+			<title>ArenaVision 13</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av13</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			<item>
+			<title>ArenaVision 14</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av14</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			<item>
+			<title>ArenaVision 15</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av15</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			<item>
+			<title>ArenaVision 16</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av16</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			<item>
+			<title>ArenaVision 17</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av17</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			<item>
+			<title>ArenaVision 18</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av18</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			<item>
+			<title>ArenaVision 19</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av19</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			<item>
+			<title>ArenaVision 20</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av20</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			<item>
+			<title>ArenaVision 21</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av21</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			
+			<item>
+			<title>ArenaVision 22</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av22</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			
+			<item>
+			<title>ArenaVision 23</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av23</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			
+			<item>
+			<title>ArenaVision 24</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av24</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			
+			<item>
+			<title>ArenaVision 25</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av25</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			
+			
+			<item>
+			<title>ArenaVision 26</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av26</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			
+			
+			<item>
+			<title>ArenaVision 27</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av27</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			
+			
+			<item>
+			<title>ArenaVision 28</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av28</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			
+			
+			<item>
+			<title>ArenaVision 29</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av29</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			
+			<item>
+			<title>ArenaVision 30</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/av30</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			</item>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+
+<item>
+<title>ARENAVISION 1 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:$doregex[hash]&amp;mode=2&name=DJLIPTV+SopCast</link>
+<regex>
+<name>hash</name> 
+<expres>sop://broker.sopcast.com:(.*?)"</expres>
+<page>http://www.arenavision.in/avs1</page>
+<referer>http://www.arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+</item>
+
+
+
+<item>
+<title>ARENAVISION 2 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:$doregex[hash]&amp;mode=2&name=DJLIPTV+SopCast</link>
+<regex>
+<name>hash</name> 
+<expres>sop://broker.sopcast.com:(.*?)"</expres>
+<page>http://www.arenavision.in/avs2</page>
+<referer>http://www.arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+</item>
+
+
+
+
+<item>
+<title>ARENAVISION 3 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:$doregex[hash]&amp;mode=2&name=DJLIPTV+SopCast</link>
+<regex>
+<name>hash</name> 
+<expres>sop://broker.sopcast.com:(.*?)"</expres>
+<page>http://www.arenavision.in/avs3</page>
+<referer>http://www.arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+</item>
+
+
+
+
+<item>
+<title>ARENAVISION 4 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:$doregex[hash]&amp;mode=2&name=DJLIPTV+SopCast</link>
+<regex>
+<name>hash</name> 
+<expres>sop://broker.sopcast.com:(.*?)"</expres>
+<page>http://www.arenavision.in/avs4</page>
+<referer>http://www.arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+</item>
+
+
+
+
+
+<item>
+<title>ARENAVISION 5 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:$doregex[hash]&amp;mode=2&name=DJLIPTV+SopCast</link>
+<regex>
+<name>hash</name> 
+<expres>sop://broker.sopcast.com:(.*?)"</expres>
+<page>http://www.arenavision.in/avs5</page>
+<referer>http://www.arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+</item>
+
+
+
+
+<item>
+<title>ARENAVISION 6 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:$doregex[hash]&amp;mode=2&name=DJLIPTV+SopCast</link>
+<regex>
+<name>hash</name> 
+<expres>sop://broker.sopcast.com:(.*?)"</expres>
+<page>http://www.arenavision.in/avs6</page>
+<referer>http://www.arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+</item>
+
+
+
+
+<item>
+<title>ARENAVISION 7 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:$doregex[hash]&amp;mode=2&name=DJLIPTV+SopCast</link>
+<regex>
+<name>hash</name> 
+<expres>sop://broker.sopcast.com:(.*?)"</expres>
+<page>http://www.arenavision.in/avs7</page>
+<referer>http://www.arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+</item>
+
+
+
+
+
+<item>
+<title>ARENAVISION 8 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:$doregex[hash]&amp;mode=2&name=DJLIPTV+SopCast</link>
+<regex>
+<name>hash</name> 
+<expres>sop://broker.sopcast.com:(.*?)"</expres>
+<page>http://www.arenavision.in/avs8</page>
+<referer>http://www.arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+</item>
+
+
+
+
+<item>
+<title>ARENAVISION 9 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:$doregex[hash]&amp;mode=2&name=DJLIPTV+SopCast</link>
+<regex>
+<name>hash</name> 
+<expres>sop://broker.sopcast.com:(.*?)"</expres>
+<page>http://www.arenavision.in/avs9</page>
+<referer>http://www.arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+</item>
+
+
+
+
+<item>
+<title>ARENAVISION 10 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:$doregex[hash]&amp;mode=2&name=DJLIPTV+SopCast</link>
+<regex>
+<name>hash</name> 
+<expres>sop://broker.sopcast.com:(.*?)"</expres>
+<page>http://www.arenavision.in/avs10</page>
+<referer>http://www.arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+</item>
+
+
+
+
+<item>
+<title>ARENAVISION 22 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/258921&amp;mode=2&name=DJLIPTV+SopCast</link>
+</item>
+<item>
+<title>ARENAVISION 23 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/258922&amp;mode=2&name=DJLIPTV+SopCast</link>
+</item>
+<item>
+<title>ARENAVISION 24 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/258923&amp;mode=2&name=DJLIPTV+SopCast</link>
+</item>
+<item>
+<title>ARENAVISION 25 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/258924&amp;mode=2&name=DJLIPTV+SopCast</link>
+</item>
+<item>
+<title>ARENAVISION 26 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/258925&amp;mode=2&name=DJLIPTV+SopCast</link>
+</item>
+<item>
+<title>ARENAVISION 27 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/258926&amp;mode=2&name=DJLIPTV+SopCast</link>
+</item>
+<item>
+<title>ARENAVISION 28 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/258927&amp;mode=2&name=DJLIPTV+SopCast</link>
+</item>
+<item>
+<title>ARENAVISION 29 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/258928&amp;mode=2&name=DJLIPTV+SopCast</link>
+</item>
+<item>
+<title>ARENAVISION 30 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/258929&amp;mode=2&name=DJLIPTV+SopCast</link>
+</item>
+
+		
+<item>
+<title>ARENAVISION 31 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/259381&amp;mode=2&name=DJLIPTV+SopCast</link>
+</item>	
+<item>
+<title>ARENAVISION 32 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/259382&amp;mode=2&name=DJLIPTV+SopCast</link>
+</item>	
+<item>
+<title>ARENAVISION 33 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/259383&amp;mode=2&name=DJLIPTV+SopCast</link>
+</item>	
+<item>
+<title>ARENAVISION 34 [SopCast]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/259384&amp;mode=2&name=DJLIPTV+SopCast</link>
+</item>	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+
+			<item>
+			<title>Movistar Moto GP</title>
+			<link>plugin://program.plexus/?url=7c01784bfeba11565fce3626e155da1fcdb45976&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+
+			<item>
+			<title>Movistar F1</title>
+			<link>plugin://program.plexus/?url=98b327d19a16be09070212124826e9209cb97540&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+
+			<item>
+			<title>Canal+ Liga</title>
+			<link>plugin://program.plexus/?url=dd70dfe213f9cb4bf3d60d9801bfbdd3fcce7efa&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+
+			<item>
+			<title>Antena 3</title>
+			<link>plugin://program.plexus/?url=edf445b6ba5ac73cf17b6807c09d9a3d5456820f&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+
+			<item>
+			<title>Teledeporte</title>
+			<link>plugin://program.plexus/?url=c6635313ebda29534b908d1e67d724d443236a0a&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+
+			<item>
+			<title>Canal+ Comedia</title>
+			<link>plugin://program.plexus/?url=4194bf57823b1079c300b0104f86c99c9421cb00&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			<item>
+			<title>Canal+ Deportes</title>
+			<link>plugin://program.plexus/?url=a994a04ff801f11872fc1e89258d53c5601ccfbd&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+			
+			
+			
+			<item>
+			<title>Canal TDP</title>
+			<link>plugin://program.plexus/?url=c6635313ebda29534b908d1e67d724d443236a0a&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+			
+			
+			
+			<item>
+			<title>Canal+ Deportes 2</title>
+			<link>plugin://program.plexus/?url=7a3408bafc83d13ec6ecd8dcbc1d0511d4032963&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+			
+			
+	
+			<item>
+			<title>Canal+ Golf</title>
+			<link>plugin://program.plexus/?url=3e3f47c529724e5682ed518d691d0d1ac5190226&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+	
+	
+	
+			<item>
+			<title>Canal+ Toros</title>
+			<link>plugin://program.plexus/?url=b5b43500253f735b17c107637c98f4e9747d8a93&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+	
+	
+			<item>
+			<title>Canal+ Comedia</title>
+			<link>plugin://program.plexus/?url=4194bf57823b1079c300b0104f86c99c9421cb00&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+	
+	
+			<item>
+			<title>Canal+ HD</title>
+			<link>plugin://program.plexus/?url=8865d45b76b0e8b70dd9eed64930d3b218204520&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+	
+	
+			<item>
+			<title>Canal+ Futbol</title>
+			<link>plugin://program.plexus/?url=8bd19c12f5cd0fff9435ef48f0f7b3bb5e9d35da&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+			
+			<item>
+			<title>Canal+ LIGA</title>
+			<link>plugin://program.plexus/?url=dd70dfe213f9cb4bf3d60d9801bfbdd3fcce7efa&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+			
+			<item>
+			<title>Canal+ LIGA 2</title>
+			<link>plugin://program.plexus/?url=32d6e551fa22fb6b4d92609a09d6ce36824fad03&amp;mode=1&amp;name=DJLIPTV+Acestreams</link></item>
+	
+	
+		
+			
+			
+
+	
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/11644.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>11644</info><title>Arena Sport 1 ***</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/11266.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>11266</info><title>Arena Sport 2</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/10984.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>10984</info><title>Arena Sport 3</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/12121.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>12121</info><title>Bein Sports 1 HD France</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/11997.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>11997</info><title>Bein Sports 2 HD France</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/13562.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>13562</info><title>Boxnation</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/9220.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>9220</info><title>BT Sport 2</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/13090.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>13090</info><title>BT Sport ESPN</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/10188.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>10188</info><title>C More Tennis</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/13230.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>13230</info><title>Canal+ Deportes</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/13231.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>13231</info><title>Canal+ Deportes 2</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/13405.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>13405</info><title>Canal+ Futbol</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/9387.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>9387</info><title>Canal+ Liga</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/13404.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>13404</info><title>Canal+ Liga 2</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/12550.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>12550</info><title>CT Sport</title></item>
+	    
+	<item> <link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/13430.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>13430</info><title>Digi Sport 1</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/13431.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>13431</info><title>Digi Sport 2</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/12748.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>12748</info><title>Eurosport 2 British</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/12747.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>12747</info><title>Eurosport British</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/13250.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>13250</info><title>Eurospоrt 2 North-East</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/1814.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>1814</info><title>Extreme Sports</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/1483.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>1483</info><title>Motors TV</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/12712.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>12712</info><title>Motorsport</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/11642.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>11642</info><title>Movistar F1</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/12227.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>12227</info><title>Movistar MotoGP</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/9315.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>9315</info><title>Nova Sport</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/9688.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>9688</info><title>nSport + HD</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/9686.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>9686</info><title>Polsat Sport Extra HD</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/9685.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>9685</info><title>Polsat Sport HD</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/12817.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>12817</info><title>Polsat Sport News</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/6972.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>6972</info><title>Premier Sports</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/12247.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>12247</info><title>Setanta Sports + HD</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/6909.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>6909</info><title>Sky Sports 3</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/9299.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>9299</info><title>Sky Sports F1</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/12008.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>12008</info><title>Sky Sports F1 HD</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/10729.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>10729</info><title>Sport 1 Cz</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/10560.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>10560</info><title>Sport 1 DE</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/10873.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>10873</info><title>Sport 2 Cz</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/12557.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>12557</info><title>Sport 5</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/10480.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>10480</info><title>Sport TV 1</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/10481.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>10481</info><title>Sport TV 2</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/10482.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>10482</info><title>Sport TV 3</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/10483.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>10483</info><title>Sport TV 4</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/10484.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>10484</info><title>Sport TV 5</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/9217.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>9217</info><title>Super Tennis HD</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/11139.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>11139</info><title>Teledeporte</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/12959.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>12959</info><title>Viasat Fotboll</title></item>
+	    
+	<item><link>plugin://program.plexus/?url=http://super-pomoyka.us.to/trash/ttv-list/acelive/10048.acelive&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+	<info>10048</info><title>Viasat Hockey</title></item>
+	    
+
+			
+
+			
+			<item>
+<title>Canal+ Liga</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=103&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=103&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Canal+ Liga 2</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=150&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=150&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Canal+ Futbol</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=159&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=159&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Canal+ Deportes</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=156&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=156&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+tem>
+<title>Canal+ Deportes 2</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=157&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=157&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Movistar F1</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=107&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=107&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Movistar MotoGP</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=129&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=129&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Teledeporte</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=101&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=101&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sky Sports 1</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=114&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=114&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sky Sports 2</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=115&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=115&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sky Sports 3</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=116&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=116&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sky Sports 4</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=117&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=117&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sky Sports 5</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=118&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=118&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sky Sports F1</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=119&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=119&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>BT Sports 1</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=120&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=120&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>BT Sports 2</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=121&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=121&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>BT ESPN</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=102&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=102&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>SKY Bundesliga</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=110&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=110&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Premier Sport</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=113&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=113&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Motors TV</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=109&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=109&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Racing UK</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=163&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=163&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>British Eurosport</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=111&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=111&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>British Eurosport 2</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=112&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=112&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>NTV+ Futbol</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=132&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=132&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>NTV+ Futbol 2</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=133&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=133&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>NTV+ Futbol 3</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=140&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=140&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>NTV+ Sport</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=130&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=130&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>NTV+ Sport Plus</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=131&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=131&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>NTV+ Nash Futbol</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=134&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=134&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>NTV+ Tenis</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=138&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=138&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+
+<item>
+<title>NTV+ Basket</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=139&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=139&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Eurosport RU</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=105&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=105&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Eurosport 2 RU</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=106&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=106&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>NTV+ Futbol HD</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=178&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=178&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>NTV+ 2 Futbol HD</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=179&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=179&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>NTV+ 3 Futbol HD</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=180&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=180&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>NTV+ HD SPORT</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=136&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=136&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>KHL Ice Hockey</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=141&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=141&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Futbol 1 Ua</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=122&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=122&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Futbol 2 Ua</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=123&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=123&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sport 1 Ucrania</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=124&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=124&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sport 2 Ucrania</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=125&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=125&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sport Ruso</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=126&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=126&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sport 1 Ruso</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=127&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=127&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Rusia 2</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=128&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=128&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Extreme Sports</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=100&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=100&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Viasat Sport RU</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=142&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=142&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Viasat Sport Baltic</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=143&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=143&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Viasat Sport SW</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=145&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=145&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Viasat Motor</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=144&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=144&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Viasat TV3 Sport 1</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=146&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=146&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Viasat TV3 Sport 2</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=147&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=147&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Viasat Hockey</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=148&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=148&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Viasat Golf</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=155&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=155&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+
+
+<item>
+<title>Bein MAX ES</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=170&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=170&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+
+<item>
+<title>Sport TV1 PT</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=165&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=165&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sport TV2 PT</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=166&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=166&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sport TV3 PT</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=167&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=167&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sport TV4 PT</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=168&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=168&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sport TV5 PT</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=169&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=169&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Setanta Sports</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=149&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=149&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>NBA Live USA</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=177&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=177&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sport 1 CZ</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=153&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=153&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sport 2 CZ</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=154&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=154&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sport Klub 1</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=135&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=135&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sport Klub 2</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=137&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=137&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>Sport Klub 3</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=160&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=160&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+<item>
+<title>IDMAN</title>
+<link>plugin://program.plexus/?url=$doregex[url]/$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<regex>
+<name>url</name>
+<expres>var previo="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=161&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>httpid="(.*?)"</expres>
+<page>http://mebuscan.net/kos/contenedor.php?canal=161&amp;tipo=1&amp;nav=OTRO</page>
+</regex>
+</item> 
+
+
+
+
+			
+			
+	<item>
+<title>CANAL + LIGA </title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=9387</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>https://chinoataku.files.wordpress.com/2011/08/canal.jpg</thumbnail>
+<fanart>https://chinoataku.files.wordpress.com/2011/08/canal.jpg</fanart>
+</item>
+<item>
+<title>CANAL + DEPORTES </title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=13314</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://www.telebasura.net/wp-content/2011/02/tie_break_en_canal+_deportes.jpg</thumbnail>
+<fanart>http://www.telebasura.net/wp-content/2011/02/tie_break_en_canal+_deportes.jpg</fanart>
+</item>
+<item>
+<title>CANAL + DEPORTES 2</title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=13231</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://www.telebasura.net/wp-content/2011/02/tie_break_en_canal+_deportes.jpg</thumbnail>
+<fanart>http://www.telebasura.net/wp-content/2011/02/tie_break_en_canal+_deportes.jpg</fanart> 
+</item>
+<item>
+   <title>FORMULA 1 2015((MOVISTAR))</title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=11642</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>https://lh4.googleusercontent.com/-tA_wV01h8EA/UjhrGGYJxtI/AAAAAAAABD8/2t2yB9lqY8A/w536-h427-no/BOTO+WEB+formula+1.jpg</thumbnail>
+<fanart>https://lh4.googleusercontent.com/-tA_wV01h8EA/UjhrGGYJxtI/AAAAAAAABD8/2t2yB9lqY8A/w536-h427-no/BOTO+WEB+formula+1.jpg</fanart>
+</item>
+
+<item>
+<title>MOTOGP 2015 (MOVISTAR)  </title>
+ <link>plugin://program.plexus/?url=7c01784bfeba11565fce3626e155da1fcdb45976&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<thumbnail>http://imagenes.es.sftcdn.net/es/scrn/6652000/6652088/motogp-2012-01-400x535.png</thumbnail>
+<fanart>http://motorcyclefeed.com/wp-content/uploads/2015/01/2013-Indianopolis-MotoGP-Championship-race.png</fanart>
+</item>
+<item>
+<title>NTV + TENIS</title>
+<link>plugin://program.plexus/?url=131d343c5bb241600b70fe7e812d1e52b8f6fd4d&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<thumbnail>http://www.vodafoneteam.com/wp-content/uploads/2012/10/tenis_picvb-490x325.jpg</thumbnail>
+<fanart>http://www.vodafoneteam.com/wp-content/uploads/2012/10/tenis_picvb-490x325.jpg</fanart>
+</item>
+<item>
+<item>
+<title>FIGHT BOX CHANNEL</title>
+<link>plugin://program.plexus/?url=8f5afdd10c6e425018f5b8cd3a837c8393b21749&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ff/fight_box_hd.png</thumbnail>
+<fanart>http://www.lyngsat-logo.com/hires/ff/fight_box_hd.png</fanart>
+</item>
+<item>
+<item>
+<title>FIGHT BOX CHANNEL </title>
+<link>http://92.50.181.6/tv/1118/index.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ff/fight_box_hd.png</thumbnail>
+<fanart>http://www.lyngsat-logo.com/hires/ff/fight_box_hd.png</fanart>
+</item>
+<item>
+<item>
+<title>FIGHT  CHANNEL  </title>
+<link>http://87.248.160.8/edge/smil:boet/playlist.m3u8</link>
+<thumbnail>http://www.fightchannel.hr/fightchannel.hr/wp-content/uploads/fc-logo.jpg</thumbnail>
+<fanart>http://www.fightchannel.hr/fightchannel.hr/wp-content/uploads/fc-logo.jpg</fanart>
+</item>
+<item>
+
+<item>
+<title>VIASAT Hockey </title>
+<link>plugin://program.plexus/?url=548d364053e6650458e3f347dfbda0dd852781da&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+<thumbnail>http://img1.wikia.nocookie.net/__cb20100318124513/logopedia/images/d/de/Viasat_Hockey_logo.png</thumbnail>
+<fanart>http://img1.wikia.nocookie.net/__cb20100318124513/logopedia/images/d/de/Viasat_Hockey_logo.png</fanart>
+</item>
+<item>
+<item> 
+<title>FUTBOL 1 UA</title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=9079</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/hires/ff/futbol_ua_1.png</thumbnail>
+<fanart>http://www.ciudadfutbol.com/wp-content/uploads/2015/03/Liga-BBVA.jpg</fanart>
+</item>
+<item> 
+<title>BEING SPORT FR 1 </title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=13184</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://i.ytimg.com/vi/4j35GUTIZvI/maxresdefault.jpg</thumbnail>
+<fanart>http://i.ytimg.com/vi/4j35GUTIZvI/maxresdefault.jpg</fanart>
+</item>
+<item> 
+<title>BEING SPORT FR 2</title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=13110</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://i.ytimg.com/vi/4j35GUTIZvI/maxresdefault.jpg</thumbnail>
+<fanart>http://i.ytimg.com/vi/4j35GUTIZvI/maxresdefault.jpg</fanart>
+</item>
+<item>
+<item> 
+<title>BEING SPORT FR 3</title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=13176</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://i.ytimg.com/vi/4j35GUTIZvI/maxresdefault.jpg</thumbnail>
+<fanart>http://i.ytimg.com/vi/4j35GUTIZvI/maxresdefault.jpg</fanart>
+</item>
+<item>
+<item>
+<title>FUTBOL 2 UA  </title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=9251</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/hires/ff/futbol_ua_2.png</thumbnail>
+<fanart>http://www.wallpapersoccer.com/wp-content/uploads/2014/08/Barclays-Premier-League-Logo-hd-wallpaper-1080-1024x768.jpg</fanart>
+</item>
+<item>
+
+<item>
+<title>NTV + FUTBOL 1</title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=3256</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://www.fcrubin.ru/images/stories/pressa/ntv-plus-nash-football.jpg</thumbnail>
+<fanart>http://www.ciudadfutbol.com/wp-content/uploads/2015/03/Liga-BBVA.jpg</fanart>
+</item>
+<item>
+<item>
+<title>NTV + FUTBOL 2</title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=2977</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://www.fcrubin.ru/images/stories/pressa/ntv-plus-nash-football.jpg</thumbnail>
+<fanart>http://www.fcrubin.ru/images/stories/pressa/ntv-plus-nash-football.jpg</fanart>
+</item>
+<item>
+<item>
+<title>NTV + FUTBOL 3</title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=6313</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://www.fcrubin.ru/images/stories/pressa/ntv-plus-nash-football.jpg</thumbnail>
+<fanart>http://www.fcrubin.ru/images/stories/pressa/ntv-plus-nash-football.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>SKY SPORT 1</title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=10351</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://www.pictuhotpinkrome.net/files/Sky-Sports-Logo.jpg</thumbnail>
+<fanart>http://www.pictuhotpinkrome.net/files/Sky-Sports-Logo.jpg</fanart>
+</item>
+<item>
+<item>
+<title>SKY SPORT 2  </title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=12738</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://www.pictuhotpinkrome.net/files/Sky-Sports-Logo.jpg</thumbnail>
+<fanart>http://www.pictuhotpinkrome.net/files/Sky-Sports-Logo.jpg</fanart>
+</item>
+<item>
+<item>
+<title>SKY SPORT 3</title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=6909</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://www.pictuhotpinkrome.net/files/Sky-Sports-Logo.jpg</thumbnail>
+<fanart>http://www.pictuhotpinkrome.net/files/Sky-Sports-Logo.jpg</fanart>
+</item>
+<item>
+<item>
+<title>SKY SPORT 4  </title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=12739</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://www.pictuhotpinkrome.net/files/Sky-Sports-Logo.jpg</thumbnail>
+<fanart>http://www.pictuhotpinkrome.net/files/Sky-Sports-Logo.jpg</fanart>
+</item>
+<item>
+<item>
+<title>SKY SPORT 5  </title>
+<link>plugin://program.plexus/?url=$doregex[id]&amp;mode=1&amp;name=DJLIPTV+Acestream</link>
+<regex>
+<name>id</name> 
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://1ttv.net/iframe.php?site=2058&amp;channel=10285</page>
+<referer>http://www.serbiaplus.com</referer>
+</regex>
+<thumbnail>http://www.pictuhotpinkrome.net/files/Sky-Sports-Logo.jpg</thumbnail>
+<fanart>http://www.pictuhotpinkrome.net/files/Sky-Sports-Logo.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+			
+			
+			
+			
+			
+			
+			
+			<item>
+			<title>BT Sport</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+			<regex>
+				<name>hash</name>
+				<expres>this.loadTorrent."(.*?)"<expres>                                           
+				<page>http://torrent-tv.ru/torrent-online.php?translation=9220</page>
+				<setcookie>BHC=$doregex[getCookie]</setcookie>
+				<referer>http://torrent-tv.ru/torrent-online.php?translation=9220</referer>
+			</regex>
+			<regex>
+				<name>getCookie</name>
+				<expres>x-bh-token:(.*?)\s<expres>                                           
+				<page>http://torrent-tv.ru/banhammer/pid</page>
+				<includeheaders></includeheaders>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+			
+				
+				
+			<item>
+			<title>BT Sport</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+			<regex>
+				<name>hash</name>
+				<expres>this.loadTorrent."(.*?)"<expres>                                           
+				<page>http://torrent-tv.ru/torrent-online.php?translation=9688</page>
+				<setcookie>BHC=$doregex[getCookie]</setcookie>
+				<referer>http://torrent-tv.ru/torrent-online.php?translation=9688</referer>
+			</regex>
+			<regex>
+				<name>getCookie</name>
+				<expres>x-bh-token:(.*?)\s<expres>                                           
+				<page>http://torrent-tv.ru/banhammer/pid</page>
+				<includeheaders></includeheaders>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+			
+			<item>
+			<title>Sport TV 1</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+			<regex>
+				<name>hash</name>
+				<expres>this.loadTorrent."(.*?)"<expres>                                           
+				<page>http://torrent-tv.ru/torrent-online.php?translation=10480</page>
+				<setcookie>BHC=$doregex[getCookie]</setcookie>
+				<referer>http://torrent-tv.ru/torrent-online.php?translation=10480</referer>
+			</regex>
+			<regex>
+				<name>getCookie</name>
+				<expres>x-bh-token:(.*?)\s<expres>                                           
+				<page>http://torrent-tv.ru/banhammer/pid</page>
+				<includeheaders></includeheaders>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+			
+			<item>
+			<title>Sport TV 2</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+			<regex>
+				<name>hash</name>
+				<expres>this.loadTorrent."(.*?)"<expres>                                           
+				<page>http://torrent-tv.ru/torrent-online.php?translation=10481</page>
+				<setcookie>BHC=$doregex[getCookie]</setcookie>
+				<referer>http://torrent-tv.ru/torrent-online.php?translation=10481</referer>
+			</regex>
+			<regex>
+				<name>getCookie</name>
+				<expres>x-bh-token:(.*?)\s<expres>                                           
+				<page>http://torrent-tv.ru/banhammer/pid</page>
+				<includeheaders></includeheaders>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+			
+			<item>
+			<title>Sport TV 3</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+			<regex>
+				<name>hash</name>
+				<expres>this.loadTorrent."(.*?)"<expres>                                           
+				<page>http://torrent-tv.ru/torrent-online.php?translation=10482</page>
+				<setcookie>BHC=$doregex[getCookie]</setcookie>
+				<referer>http://torrent-tv.ru/torrent-online.php?translation=10482</referer>
+			</regex>
+			<regex>
+				<name>getCookie</name>
+				<expres>x-bh-token:(.*?)\s<expres>                                           
+				<page>http://torrent-tv.ru/banhammer/pid</page>
+				<includeheaders></includeheaders>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+			
+			<item>
+			<title>Sport TV 4</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+			<regex>
+				<name>hash</name>
+				<expres>this.loadTorrent."(.*?)"<expres>                                           
+				<page>http://torrent-tv.ru/torrent-online.php?translation=10483</page>
+				<setcookie>BHC=$doregex[getCookie]</setcookie>
+				<referer>http://torrent-tv.ru/torrent-online.php?translation=10483</referer>
+			</regex>
+			<regex>
+				<name>getCookie</name>
+				<expres>x-bh-token:(.*?)\s<expres>                                           
+				<page>http://torrent-tv.ru/banhammer/pid</page>
+				<includeheaders></includeheaders>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+			
+			<item>
+			<title>Sport TV 5</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+			<regex>
+				<name>hash</name>
+				<expres>this.loadTorrent."(.*?)"<expres>                                           
+				<page>http://torrent-tv.ru/torrent-online.php?translation=10484</page>
+				<setcookie>BHC=$doregex[getCookie]</setcookie>
+				<referer>http://torrent-tv.ru/torrent-online.php?translation=10484</referer>
+			</regex>
+			<regex>
+				<name>getCookie</name>
+				<expres>x-bh-token:(.*?)\s<expres>                                           
+				<page>http://torrent-tv.ru/banhammer/pid</page>
+				<includeheaders></includeheaders>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+			
+			
+			
+			
+			
+			<item>	<title>Eurosport HD</title>
+			<link>plugin://program.plexus/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://allfon.tv/?id=24#11</page>
+			<referer></referer></regex></item>
+			
+			<item>
+			<title>BT Sport</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+			<regex>
+				<name>hash</name>
+				<expres>this.loadTorrent."(.*?)"<expres>                                           
+				<page>http://torrent-tv.ru/torrent-online.php?translation=11777</page>
+				<setcookie>BHC=$doregex[getCookie]</setcookie>
+				<referer>http://torrent-tv.ru/torrent-online.php?translation=11777</referer>
+			</regex>
+			<regex>
+				<name>getCookie</name>
+				<expres>x-bh-token:(.*?)\s<expres>                                           
+				<page>http://torrent-tv.ru/banhammer/pid</page>
+				<includeheaders></includeheaders>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+			
+			
+			
+		 
+			
+			
+			
+			
+			<item>
+			<title>Sky Sports 3 </title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=DJLIPTV+Acestreams</link>
+			<regex>
+				<name>hash</name>
+				<expres>this.loadTorrent."(.*?)"<expres>                                           
+				<page>http://torrent-tv.ru/torrent-online.php?translation=6909</page>
+				<setcookie>BHC=$doregex[getCookie]</setcookie>
+				<referer>http://torrent-tv.ru/torrent-online.php?translation=6909</referer>
+			</regex>
+			<regex>
+				<name>getCookie</name>
+				<expres>x-bh-token:(.*?)\s<expres>                                           
+				<page>http://torrent-tv.ru/banhammer/pid</page>
+				<includeheaders></includeheaders>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+				<item>	<title>Musica: MTV Dance </title>
+			<link>plugin://program.plexus/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://allfon.tv/?id=97</page>
+			<referer></referer></regex></item>
+			
+			
+				<item>	<title>Musica: MTV Hits </title>
+			<link>plugin://program.plexus/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://allfon.tv/?id=112</page>
+			<referer></referer></regex></item>
+				<item>	<title>Musica: MTV Rock </title>
+			<link>plugin://program.plexus/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://allfon.tv/?id=98</page>
+			<referer></referer></regex></item>
+				<item>	<title>Musica: VH1 Classics </title>
+			<link>plugin://program.plexus/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://allfon.tv/?id=111</page>
+			<referer></referer></regex></item>
+				<item>	<title>Musica: VH1 Europa </title>
+			<link>plugin://program.plexus/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://allfon.tv/?id=110</page>
+			<referer></referer></regex></item>
+			
+			
+			
+			
+			
+</items>

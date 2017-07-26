@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- Temporada 1  -->
+
+
+<item>
+<title>[COLOR white][COLOR blue]• [/COLOR]Temporada 1[/COLOR] </title>
+   <thumbnail>https://i.ytimg.com/vi/6YRj_UPury4/maxresdefault.jpg</thumbnail>
+   <fanart>https://i.ytimg.com/vi/6YRj_UPury4/maxresdefault.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+      <name>makelist</name>
+      <listrepeat><![CDATA[
+               <title>[COLOR green]Mex[/COLOR][COLOR white]-Flix =[/COLOR][COLOR red]Capitulo[/COLOR][COLOR yellow][/COLOR][makelist.param0]</title>
+               <link>$doregex[finalURL]</link>
+   <thumbnail>https://i.ytimg.com/vi/6YRj_UPury4/maxresdefault.jpg</thumbnail>
+   <fanart>https://i.ytimg.com/vi/6YRj_UPury4/maxresdefault.jpg</fanart>
+      ]]></listrepeat>
+      <expres><![CDATA[data-file-id="([^"]+)">.*\n.*\n.*\n.*action="\/(.*?)" class="download.*Token".*?value="(.*?)"]]></expres>
+      <page>http://diskokosmiko.mx/jenrodbru/gossip-girl-temporada-1-20663</page>
+      <cookieJar></cookieJar>
+</regex>
+
+<regex>
+      <name>finalURL</name>
+      <expres>Url":"(.*?)"</expres>
+      <page>http://diskokosmiko.mx/[makelist.param2]</page>
+      <rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=[makelist.param3]</rawpost>
+      <referer>http://diskokosmiko.mx/</referer>
+      <x-req>XMLHttpRequest</x-req>
+      <cookiejar></cookiejar>
+</regex>
+</item>

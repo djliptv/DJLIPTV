@@ -1,0 +1,2693 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!--- LISTADO ---
+- EL REGRESO DE LUCAS
+--->
+
+<item>
+<title>El Pajaro Canta Hasta Morir [The Thorn Birds]</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/en/3/3a/The_Thorn_Birds_(miniseries).jpg</thumbnail>
+		<fanart>https://s-media-cache-ak0.pinimg.com/originals/ba/8e/31/ba8e3103665582d56b7b720a4b60af77.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SHIRKAM/el-pajaro-espino-1985-completa-46361</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SHIRKAM/el-pajaro-espino-1985-completa-46361</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/3/3a/The_Thorn_Birds_(miniseries).jpg</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/ba/8e/31/ba8e3103665582d56b7b720a4b60af77.jpg</fanart>
+</item>
+
+<!--- EL REGRESO DE LUCAS ######## INICIO --->
+
+<item>
+<title>El Regreso De Lucas</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQAboSc5snt1PPcRq5whMroyVlPNi5epgC_w165TWW9iJASfBDu</thumbnail>
+		<fanart>http://30959.http.cdn.softlayer.net/8030959/e.entretenimiento.americadigital.pe/ima/0/0/1/6/5/165981.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/djl/el-regreso-de-lucas-53872/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/djl/el-regreso-de-lucas-53872/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQAboSc5snt1PPcRq5whMroyVlPNi5epgC_w165TWW9iJASfBDu</thumbnail>
+<fanart>http://30959.http.cdn.softlayer.net/8030959/e.entretenimiento.americadigital.pe/ima/0/0/1/6/5/165981.jpg</fanart>
+</item>
+
+<!--- EL REGRESO DE LUCAS ######## FIN --->
+
+<item>
+<title>La Querida Del Centauro - Temporada 1</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://mysangrelatina.com/wp-content/uploads/2016/01/LQDC_Logo_F-e1454018904170.png</thumbnail>
+		<fanart>http://www.serialzone.cz/obrazky/fanart/13688-la-querida-del-centauro.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/monnet/la-querida-del-centauro-telenovela-completa-21829/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/monnet/la-querida-del-centauro-telenovela-completa-21829/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://mysangrelatina.com/wp-content/uploads/2016/01/LQDC_Logo_F-e1454018904170.png</thumbnail>
+<fanart>http://www.serialzone.cz/obrazky/fanart/13688-la-querida-del-centauro.jpg</fanart>
+</item>
+
+<item>
+<title>La Querida Del Centauro - Temporada 2 [EN EMISION]</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://mysangrelatina.com/wp-content/uploads/2016/01/LQDC_Logo_F-e1454018904170.png</thumbnail>
+		<fanart>http://www.serialzone.cz/obrazky/fanart/13688-la-querida-del-centauro.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/djl/lqdc2-68159/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/djl/lqdc2-68159/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://mysangrelatina.com/wp-content/uploads/2016/01/LQDC_Logo_F-e1454018904170.png</thumbnail>
+<fanart>http://www.serialzone.cz/obrazky/fanart/13688-la-querida-del-centauro.jpg</fanart>
+</item>
+
+<item>
+ <title>Sin Senos Si Hay Paraíso</title>
+ <thumbnail>http://seriesblanco.com/files/uploads/3839.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=igHZ1f9jPoQ&list=UUn3XSaEMiiMWNrGNw8TLSUA</page>
+ <referer>https://www.youtube.com/playlist?list=UUn3XSaEMiiMWNrGNw8TLSUA</referer>
+ <cookieJar></cookieJar>channel/UCn3XSaEMiiMWNrGNw8TLSUA
+ </regex>
+ </item>
+
+ 
+ 
+ <item>
+ <title>La Familia Peluche Temporada 1</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL58CD83942B0F72A1</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+ 
+ <item>
+ <title>La Familia Peluche Temporada 2</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLIzjTvBtK04UOY0N_0zCprWQiRCToi2SP</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+
+    <item>
+ <title>La Familia Peluche Temporada 3</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL93D694B1686D9A3B</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+
+
+    <item>
+ <title>Casados Con Hijos Colombia</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL0D1HUqobnEWn2DufQ_cleMph2zrWUrov</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+ 
+ 
+
+
+
+
+   <item>
+ <title>La fea mas Bella [HD]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLcZVB9jUoNq4wrzChDD1OmWi5DkcDugP3</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+
+
+
+ 
+ <item>
+ <title>Mi Destino Eres Tu</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL6vKV_wW7IkHU17GKn7iaG0kJAE3ySwYL</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+  <item>
+ <title>Mientras Haya vida (restringia en algunos paises)</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLgKzFnvAFPsZCP8TVfMhd2xQIiUR47E0Q</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+
+ 
+ 
+   <item>
+ <title>Salome</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLaSdi_UaCoKDFtu3VbE27pILi7ZJtj50y</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+    <item>
+ <title>Tierra de pasiones</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLvIuNKXhNZ3popeYnt9C5_2WU3vza5xn7</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+     <item>
+ <title>La Madrastra</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL1AD6449B69E1541B</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+ 
+ 
+ 
+ 
+      <item>
+ <title>Pasion prohibida</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLyMiScAVnaHd13uL41SJpu3CZiwEmPiHv</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>La Voz Mexico</title>
+<thumbnail>http://oi66.tinypic.com/2d8kroi.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[COLOR white][makelist.param3][/COLOR]</title>
+          <link>$doregex[makelist2]</link>
+          <thumbnail>http://oi66.tinypic.com/2d8kroi.jpg</thumbnail>
+   ]]></listrepeat>
+   <expres><![CDATA[a href="(.*?)" title="(.*?)">(La.*?)<]]></expres>
+   <page>http://www.tusnovelas.net/ver-telenovela/la-voz-mexico-2016</page>
+   <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[ 
+	<title>[COLOR white][makelist.param3][/COLOR]</title>
+	<link>$doregex[getRTPM] playpath=$doregex[path] swfUrl=http://powvideo.net/player6/jwplayer.flash.swf live=1 timeout=15 pageUrl=[makelist2.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[<IFRAME SRC="(.*gamo.*?)"\W]]></expres>
+<page>http://www.tusnovelas.net[makelist.param1]</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+ <name>getRTPM</name>
+ <expres><![CDATA[file: "(rtmp.*?h=.*?)\/]]></expres>
+ <page>[makelist2.param1]</page>
+ <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36</agent>
+<cookieJar></cookieJar>
+<connection>keep-alive</connection>
+</includeheaders>
+</regex>
+
+<regex>
+ <name>path</name>
+ <expres><![CDATA[file: "rtmp.*?h=.*?\/(.*?)"\W]]></expres>
+ <page>[makelist2.param1]</page>
+ <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36</agent>
+<cookieJar></cookieJar>
+<connection>keep-alive</connection>
+</includeheaders>
+</regex>
+</item>
+
+
+<item>
+<title>La Esclava Blanca</title>
+<thumbnail>http://oi66.tinypic.com/8z1hcg.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[COLOR white][makelist.param3][/COLOR]</title>
+          <link>$doregex[makelist2]</link>
+          <thumbnail></thumbnail>
+   ]]></listrepeat>
+   <expres><![CDATA[a href="(.*?)" title="(.*?)">(La.*?)<]]></expres>
+   <page>http://www.tusnovelas.net/ver-telenovela/la-esclava-blanca</page>
+   <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[ 
+	<title>[COLOR white][makelist.param3][/COLOR]</title>
+	<link>$doregex[getRTPM] playpath=$doregex[path] swfUrl=http://powvideo.net/player6/jwplayer.flash.swf live=1 timeout=15 pageUrl=[makelist2.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[<IFRAME SRC="(.*gamo.*?)"\W]]></expres>
+<page>http://www.tusnovelas.net[makelist.param1]</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+ <name>getRTPM</name>
+ <expres><![CDATA[file: "(rtmp.*?h=.*?)\/]]></expres>
+ <page>[makelist2.param1]</page>
+ <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36</agent>
+<cookieJar></cookieJar>
+<connection>keep-alive</connection>
+</includeheaders>
+</regex>
+
+<regex>
+ <name>path</name>
+ <expres><![CDATA[file: "rtmp.*?h=.*?\/(.*?)"\W]]></expres>
+ <page>[makelist2.param1]</page>
+ <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36</agent>
+<cookieJar></cookieJar>
+<connection>keep-alive</connection>
+</includeheaders>
+</regex>
+</item>
+
+<item>
+<title>Rosa Negra</title>
+<thumbnail>http://3.bp.blogspot.com/-UWK1CmBDvnk/VPXi4pb9zeI/AAAAAAAAAmk/ZFjNxOCUEpc/s1600/rosa-negra-capitulos-completos.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[COLOR gray][makelist.param2][/COLOR]</title>
+          <link>plugin://plugin.video.powerpack/?url=http%3A%2F%2Fvideomega.tv%2Fcdn.php%3Fref%3D$doregex[hash]&amp;mode=19</link>
+          <thumbnail>http://3.bp.blogspot.com/-UWK1CmBDvnk/VPXi4pb9zeI/AAAAAAAAAmk/ZFjNxOCUEpc/s1600/rosa-negra-capitulos-completos.jpg</thumbnail>
+   ]]></listrepeat>
+   <expres>strong..a href='(.*?)'.*blank'.(.*?)./a</expres>
+   <page>http://ver-novelas-online.com/video/rosa-negra-capitulos-completos/</page>
+   <cookieJar></cookieJar>
+</regex>
+<regex>
+<name>hash</name>
+<expres>hashkey=(.*?)"</expres>
+<page>[makelist.param1]</page>
+</regex>
+</item>
+
+
+<item>
+<title>El Hotel De Los Secretos</title>
+<thumbnail>http://4.bp.blogspot.com/-nITU8nr3Bi0/VpwTNMczCuI/AAAAAAAAAmo/efW-gzFNgo4/s1600/El-hotel-de-los-secretos.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[COLOR gray][makelist.param2][/COLOR]</title>
+          <link>plugin://plugin.video.deadpool/?url=http%3A%2F%2Fvideomega.tv%2Fcdn.php%3Fref%3D$doregex[hash]&amp;mode=19</link>
+          <thumbnail>http://4.bp.blogspot.com/-nITU8nr3Bi0/VpwTNMczCuI/AAAAAAAAAmo/efW-gzFNgo4/s1600/El-hotel-de-los-secretos.jpg</thumbnail>
+   ]]></listrepeat>
+   <expres>strong..a href='(.*?)'.*blank'.(.*?)./a</expres>
+   <page>http://ver-novelas-online.com/video/el-hotel-de-los-secretos-capitulos-completos/</page>
+   <cookieJar></cookieJar>
+</regex>
+<regex>
+<name>hash</name>
+<expres>hashkey=(.*?)"</expres>
+<page>[makelist.param1]</page>
+</regex>
+</item>
+
+<item>
+<title>El Secreto De Feriha</title>
+<thumbnail>http://4.bp.blogspot.com/-1Y2gM-NSP1Y/VnAf1_BZRmI/AAAAAAAAAlQ/X1DKcQtAFWw/s1600/el-secreto-de-feriha.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[COLOR gray][makelist.param2][/COLOR]</title>
+          <link>plugin://plugin.video.deadpool/?url=http%3A%2F%2Fvideomega.tv%2Fcdn.php%3Fref%3D$doregex[hash]&amp;mode=19</link>
+          <thumbnail>http://4.bp.blogspot.com/-1Y2gM-NSP1Y/VnAf1_BZRmI/AAAAAAAAAlQ/X1DKcQtAFWw/s1600/el-secreto-de-feriha.jpg</thumbnail>
+   ]]></listrepeat>
+   <expres>strong..a href='(.*?)'.*blank'.(.*?)./a</expres>
+   <page>http://ver-novelas-online.com/video/el-secreto-de-feriha-capitulos-completos/</page>
+   <cookieJar></cookieJar>
+</regex>
+<regex>
+<name>hash</name>
+<expres>hashkey=(.*?)"</expres>
+<page>[makelist.param1]</page>
+</regex>
+</item>
+
+<item>
+<title>EVA La Trailera</title>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[COLOR gray][makelist.param2][/COLOR]</title>
+          <link>plugin://plugin.video.deadpool/?url=http%3A%2F%2Fvideomega.tv%2Fcdn.php%3Fref%3D$doregex[hash]&amp;mode=19</link>
+          <thumbnail>http://1.bp.blogspot.com/-sHJdR-3cTKE/VqTdSTbkUiI/AAAAAAAAAnk/iUWbrqK2Q0U/s1600/EVA-LA-TRAILERA.jpg</thumbnail>
+   ]]></listrepeat>
+   <expres>strong..a href='(.*?)'.*blank'.(.*?)./a</expres>
+   <page>http://ver-novelas-online.com/video/eva-la-trailera-capitulos-completos/</page>
+   <cookieJar></cookieJar>
+</regex>
+<regex>
+<name>hash</name>
+<expres>hashkey=(.*?)"</expres>
+<page>[makelist.param1]</page>
+</regex>
+</item>
+
+<item>
+<title>Un Camino Hacia El Destino</title>
+<thumbnail>http://2.bp.blogspot.com/-nOcidFEO4Zw/VpwTMobsPQI/AAAAAAAAAmc/vyNAmZ2jL5Y/s1600/Un_camino_hacia_el_destino.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[COLOR gray][makelist.param2][/COLOR]</title>
+          <link>plugin://plugin.video.deadpool/?url=http%3A%2F%2Fvideomega.tv%2Fcdn.php%3Fref%3D$doregex[hash]&amp;mode=19</link>
+          <thumbnail>http://2.bp.blogspot.com/-nOcidFEO4Zw/VpwTMobsPQI/AAAAAAAAAmc/vyNAmZ2jL5Y/s1600/Un_camino_hacia_el_destino.jpg</thumbnail>
+   ]]></listrepeat>
+   <expres>strong..a href='(.*?)'.*blank'.(.*?)./a</expres>
+   <page>http://ver-novelas-online.com/video/un-camino-hacia-el-destino-capitulos-completos/</page>
+   <cookieJar></cookieJar>
+</regex>
+<regex>
+<name>hash</name>
+<expres>hashkey=(.*?)"</expres>
+<page>[makelist.param1]</page>
+</regex>
+</item>
+
+<item>
+ <title>La Reyna Del Sur</title>
+<thumbnail>http://www.telemundo.com/sites/nbcutelemundo/files/sites/nbcutelemundo/files/images/tv_show/10_LaReinaDelSur_1920x1080_2.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzDxiKY228MCT5C0fwGydsrT</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>Mi Destino Eres Tu</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL6vKV_wW7IkHU17GKn7iaG0kJAE3ySwYL</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>Que Bonito Amor</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL6vKV_wW7IkHJSQw3Prb9o_WysjpAvWid</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>Mariana De La Noche</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL6vKV_wW7IkElbNxKqBuK9vCysH7C0IZu</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+<item>
+ <title>Santa Diabla</title>
+<thumbnail>http://www.telemundo.com/sites/nbcutelemundo/files/sites/nbcutelemundo/files/images/tv_show/10_SantaDiabla_1920x1080_2.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzCnRBf1agV176UZJMmCKTNz</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>Marido En Alquiler</title>
+<thumbnail>http://www.telemundo.com/sites/nbcutelemundo/files/sites/nbcutelemundo/files/images/tv_show/10_MaridoAlquiler_1920x1080_2.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzCxH8F5-Etd9rC3vXdZiLlM</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>La Impostora</title>
+<thumbnail>http://www.telemundo.com/sites/nbcutelemundo/files/sites/nbcutelemundo/files/images/tv_show/10_LaImpostora_1920x1080_2.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzBKnjy8BkMugy3G9S20jUoo</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>Reyna De Corazones</title>
+<thumbnail>http://www.telemundo.com/sites/nbcutelemundo/files/images/promo/tv_show/2014/10/20/10_reinadecorazones_1920x1080.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzAch4NPCpUjFhqYz1XgaYks</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>Dama Y Obrero</title>
+<thumbnail>http://i2.esmas.com/2013/10/11/575008/dama-y-obrero-620x336.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzBiFeY2j9JfL8SYHE567Oxs</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>Mas Sabe El Diablo</title>
+<thumbnail>http://mediaticapro.com/tl_files/Imagenes/Producciones/Largometrajes/diablo_primer_golpe.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL59B6D83A1EB53A7A</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>La Patrona</title>
+<thumbnail>https://i.ytimg.com/vi/Lm8UbiIUkMA/maxresdefault.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzB2nwj0rDAmgFxTbvP-mR7P</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>Pasion Prohibida</title>
+<thumbnail>http://www.telemundo.com/sites/nbcutelemundo/files/sites/nbcutelemundo/files/images/tv_show/10_PasionProhibida_1920x1080_2.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzCRXJiRDNK2I-p5WvzOXqHX</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+
+<item>
+ <title>En Otra Piel</title>
+<thumbnail>http://television.televisa.com/television/fotos/articulos/2015/01/06/en-otra-piel-1000x826.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzCDXqv1r2-8LzDNA_QKKWmy</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>El Capo</title>
+<thumbnail>https://i.ytimg.com/vi/U4BX20-vJ2c/maxresdefault.jpg</thumbnail>z
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLB7tpbqoFMv06bLxT6lsRz3W6rzdT6iNK</page>
+ <referer>https://www.youtube.com/channel/UCxhnV5bHYHOhjhUhe_as1NA/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+
+
+
+<item>
+ <title>Tierra De Reyes</title>
+<thumbnail>http://television.televisa.com/television/fotos/2015/telemundo/tierradereyes/2015/08/11/stageTDR.jpg/jcr:content/renditions/cq5dam.thumbnail.624.468.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzBHRB14mWKQFRi7tPPNkypu</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+
+<item>
+ <title>Dueños Del Paraiso</title>
+<thumbnail>http://www.telemundo.com/sites/nbcutelemundo/files/images/promo/tv_show/2014/11/21/10_duenosparaiso_1920x1080v2.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzAaL8QksVy9-BR0YinMUmj9</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ <item>
+ <title>La Viuda de la Mafia</title>
+<thumbnail>http://www.latin.cz/uvod/odkazy/telenovely/la_viuda_de_la_mafia/2.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLS6Wbc0_v7eP5EAKx0KOinZu-_Xk6ZtAa</page>
+ <referer>https://www.youtube.com/channel/capitulosromanticos/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ <item>
+ <title>La Pola</title>
+<thumbnail>http://www.mundonets.com/images/stories/La-Pola/laPola11abr11.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLS6Wbc0_v7eNlw4sIhmIDJZ692HLCn1x3</page>
+ <referer>https://www.youtube.com/channel/capitulosromanticos/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ <item>
+ <title>Doña Bella</title>
+<thumbnail>http://www.miblogdecineytv.com/wp-content/uploads/2012/01/DonaBella0.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLS6Wbc0_v7eMAEYalUyPFTmKBPi0TQDoF</page>
+ <referer>https://www.youtube.com/channel/capitulosromanticos/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ <item>
+ <title>La Hija del Mariachi</title>
+<thumbnail>http://www.miblogdecineytv.com/imagenes/novelas/LaHijaMariachi/LaHijaMariachi0.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLS6Wbc0_v7eMKQx4vQG4fKPflEGA6Ft2j</page>
+ <referer>https://www.youtube.com/channel/capitulosromanticos/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+<item>
+<title>Por Siempre</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://www.ecured.cu/images/e/e5/Por-siempre-novela.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/por-siempre-subiendo-39155</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/por-siempre-subiendo-39155</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.ecured.cu/images/e/e5/Por-siempre-novela.png</thumbnail>
+<fanart>http://s2.dmcdn.net/R7hVD/1280x720-thN.jpg</fanart>
+</item>
+</items>
+</channel>
+
+<!-- Hasta Que Te Conoci !-->	
+
+<item>
+<title>Hasta Que Te Conoci</title>
+<thumbnail>https://images.bwwstatic.com/columnpic7/2E8F60D1-9F2D-09B4-69AE43FD4D43142E.jpg</thumbnail>
+<fanart>http://oi64.tinypic.com/1416oh4.jpg</fanart>
+<externallink>https://www.dropbox.com/s/mh9hohleon9u809/Hasta%20que%20te%20conoci.xml?dl=1</externallink>	  	 
+</item>
+
+
+
+<item>
+<title>La Viuda Negra 2</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.optimovision.com/wp-content/uploads/2016/03/viuda.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/la-viuda-negra-2-completa-46635/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/la-viuda-negra-2-completa-46635/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.optimovision.com/wp-content/uploads/2016/03/viuda.png</thumbnail>
+<fanart>http://cosmonovelas.net/wp-content/uploads/2016/02/LVN2.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>Pasion De Gavilanes</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/I/61emGhdVoTL.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/pasion-de-gavilanes-completa-40845/list,1,8</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/pasion-de-gavilanes-completa-40845/list,1,8</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/61emGhdVoTL.jpg</thumbnail>
+<fanart>http://kingofwallpapers.com/candy-candy/candy-candy-014.jpg</fanart>
+</item>
+</items>
+</channel>
+
+
+<item>
+<title>Ladie La Vendedora De Rosas</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://cdn-static.sidereel.com/tv_shows/3699/giant_2x/94321-1.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/lady-la-vendedora-de-rosas-completa-42586/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/lady-la-vendedora-de-rosas-completa-42586/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://pbs.twimg.com/media/CZqi5h4WYAITrHU.jpg</thumbnail>
+<fanart>https://4.bp.blogspot.com/-9BKQNtRUNMU/VykXM6YbMMI/AAAAAAAABVI/Q9BsWFjY4NAm1oDFlBjMzW6JXOMb9IFbgCLcB/s1600/lady%2Bla%2Bvendedora%2Bde%2Brosas%2Bposter%2B.jpg</fanart>
+</item>
+</items>
+</channel>
+
+
+<item>
+<title>Juana La Virgen</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://0.viki.io/c/24259c/0c42932bd6.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/juana-la-virgen-completa-40254/list,1,7</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/juana-la-virgen-completa-40254/list,1,7</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://0.viki.io/c/24259c/0c42932bd6.jpg</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/8a/00/2c/8a002cb7110d7d952d3eef7125c67a30.jpg</fanart>
+</item>
+</items>
+</channel>
+
+
+<item>
+<title>Mis 3 Hermanas</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://2.bp.blogspot.com/-muXYXaTwLIo/Uqh27TwJwfI/AAAAAAAAClc/F9r9kHv8fIY/s1600/telenovela.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/mis-tres-hermanas-completa-39714/list,1,7</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/mis-tres-hermanas-completa-39714/list,1,7</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-muXYXaTwLIo/Uqh27TwJwfI/AAAAAAAAClc/F9r9kHv8fIY/s1600/telenovela.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/agHaU5XLtUY/maxresdefault.jpg</fanart>
+</item>
+</items>
+</channel>
+
+
+<item>
+<title>Anita, No Te Rajes</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.telenovelasid.com/novelas/anita-no-te-rajes.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/anita-no-te-rajes-telenovela-completa-39707/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/anita-no-te-rajes-telenovela-completa-39707/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.telenovelasid.com/novelas/anita-no-te-rajes.jpg</thumbnail>
+<fanart>http://static.cinemagia.ro/img/resize/db/movie/01/27/50/anita-no-te-rajes-399612l-imagine.jpg</fanart>
+</item>
+</items>
+</channel>
+
+
+<item>
+<title>Pobre Diabla</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/I/41qX%2BrlrukL.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/pobre-diabla-version-mexicana-completa-39630/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/pobre-diabla-version-mexicana-completa-39630/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/41qX%2BrlrukL.jpg</thumbnail>
+<fanart>https://lh3.googleusercontent.com/-cLAcmAfDZF0/TYw0F43LVmI/AAAAAAAABCQ/17CerlZ241g/s640/Pobre+Diabla.jpg</fanart>
+</item>
+</items>
+</channel>
+
+
+<item>
+<title>Yo No Creo en Los Hombres</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i2.esmas.com/2015/01/12/736385/yo-no-creo-en-los-hombres--860x480.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/yo-no-creo-en-los-hombres-completa-39219/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/yo-no-creo-en-los-hombres-completa-39219/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i2.esmas.com/2015/01/12/736385/yo-no-creo-en-los-hombres--860x480.jpg</thumbnail>
+<fanart>http://flash.tvolucion.com/bright/files/74091787001/201410/67/74091787001_3842026800001_Captura-de-pantalla-2014-10-15-a-la-s--22-11-18.jpg</fanart>
+</item>
+</items>
+</channel>
+
+
+<item>
+<title>Santa Diabla</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://upload.wikimedia.org/wikipedia/en/0/06/Santa_Diabla_Poster_(Telemundo_Produciton).png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/santa-diabla-completa-38498/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/santa-diabla-completa-38498/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/0/06/Santa_Diabla_Poster_(Telemundo_Produciton).png</thumbnail>
+<fanart>http://img12.deviantart.net/3f67/i/2013/259/4/5/telemundo___santa_diabla_by_feareffectinferno-d6mj3u8.png</fanart>
+</item>
+</items>
+</channel>
+
+
+<item>
+<title>Pasion Y Poder</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/DNpM9lp.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/pasion-y-poder-telenovela-completa-34771/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/pasion-y-poder-telenovela-completa-34771/list,1,5</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/DNpM9lp.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/eMoWa_wwiDQ/maxresdefault.jpg</fanart>
+</item>
+</items>
+</channel>
+
+<item>
+<title>Hasta Que el Dinero Nos Separe</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://upload.wikimedia.org/wikipedia/en/6/69/Hastaqueeldineronossepare.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/hasta-que-dinero-nos-separe-tcompleta-33756/list,1,10</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/hasta-que-dinero-nos-separe-tcompleta-33756/list,1,10</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>  [[[{{mexflix}}]]]
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/6/69/Hastaqueeldineronossepare.jpg</thumbnail>
+<fanart>http://www.newvideo.com/wp-content/uploads/2014/12/TV3132-F.jpg</fanart>
+</item>
+</items>
+</channel>
+
+<item>
+<title>Amores Con Trampa</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://presenta.tvynovelas.com/amores-con-trampa/img/logo.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/amores-con-trampas-telenovela-completa-30697/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/amores-con-trampas-telenovela-completa-30697/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>  [[[{{mexflix}}]]]
+<thumbnail>http://presenta.tvynovelas.com/amores-con-trampa/img/logo.jpg</thumbnail>
+<fanart>https://i1.wp.com/webadictos.com/media/2015/08/final-de-amores-con-trampa.jpg</fanart>
+</item>
+</items>
+</channel>
+
+<item>
+<title>Alias el Mexicano</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.mustangimdb.com/images/jmovies/img_pictures/el_mejicano_novela.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/alia-el-mexicano-completa-42040/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/alia-el-mexicano-completa-42040/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>  [[[{{mexflix}}]]]
+<thumbnail>http://www.mustangimdb.com/images/jmovies/img_pictures/el_mejicano_novela.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/490vY4Ytums/maxresdefault.jpg</fanart>
+</item>
+</items>
+</channel>
+
+<item>
+<title>Antes Muerta que Lichita</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.novela.pl/wp-content/uploads/2015/08/antesmuertaquelichita-poster.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/antes-muerta-que-lichita-completa-41836/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/antes-muerta-que-lichita-completa-41836/list,1,5</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>  [[[{{mexflix}}]]]
+<thumbnail>http://www.novela.pl/wp-content/uploads/2015/08/antesmuertaquelichita-poster.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-d2rEzT2Pqyw/VeJCCcFeJVI/AAAAAAAAAg8/bPGstTNG2lw/s1600/ANTES-MUERTA-QUE-LICHITA%2Bposter.jpg</fanart>
+</item>
+</items>
+</channel>
+
+<item>
+<title>La Hija del Mariachi</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://lyricstranslate.com/files/La%20Hija%20Del%20Mariachi%20EJ21.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/la-hija-del-mariachi-t-completa-32724/list,1,7</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/la-hija-del-mariachi-t-completa-32724/list,1,7</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>  [[[{{mexflix}}]]]
+<thumbnail>http://lyricstranslate.com/files/La%20Hija%20Del%20Mariachi%20EJ21.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/ngOFBDuwhoM/maxresdefault.jpg</fanart>
+</item>
+</items>
+</channel>
+
+<!---
+<!===========================================================================================================================================>
+<!===========================================================================================================================================>
+<!===========================================================================================================================================>
+<!===========================================================================================================================================>
+--->
+
+<item>
+<title>Josue a tierra prometida</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+       <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://pics.filmaffinity.com/a_terra_prometida_tv_series-257762172-large.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://partagora.com/thehouse21/j-t-p-67937/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://partagora.com/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://partagora.com/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://partagora.com/[makelist.param2]</page>
+<referer>http://partagora.com/thehouse21/j-t-p-67937/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<info></info>
+<thumbnail>http://pics.filmaffinity.com/a_terra_prometida_tv_series-257762172-large.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Jose de Egipto</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+       <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://pics.filmaffinity.com/jose_do_egito_tv-543187310-large.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://partagora.com/thehouse21/j-d-egt0-67943/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://partagora.com/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://partagora.com/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://partagora.com/[makelist.param2]</page>
+<referer>http://partagora.com/thehouse21/j-d-egt0-67943/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<info></info>
+<thumbnail>http://pics.filmaffinity.com/jose_do_egito_tv-543187310-large.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+<item>
+<title>Su Nombre era Dolores</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+       <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMzE0NTdmZWUtNWY0My00YTQxLWFjN2EtZDgwYTJjNDZjZWM3L2ltYWdlXkEyXkFqcGdeQXVyNTUxNTA3Njg@._V1_UY268_CR3,0,182,268_AL_.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://partagora.com/Thehouse/a-029-67560/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://partagora.com/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://partagora.com/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://partagora.com/[makelist.param2]</page>
+<referer>http://partagora.com/Thehouse/a-029-67560/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<info>Narra la vida de jenny rivera</info>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMzE0NTdmZWUtNWY0My00YTQxLWFjN2EtZDgwYTJjNDZjZWM3L2ltYWdlXkEyXkFqcGdeQXVyNTUxNTA3Njg@._V1_UY268_CR3,0,182,268_AL_.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>Los 3 Caines</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.radiosantafe.com/wp-content/uploads/2013/03/tres-caines.jpg</thumbnail>
+		<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/seri5/b4kup-36859/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/seri5/b4kup-36859/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.radiosantafe.com/wp-content/uploads/2013/03/tres-caines.jpg</thumbnail>
+		<fanart></fanart>
+
+
+
+
+<item>
+<title>Señora acero</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.multivu.com/players/Spanish/7629451-telemundo-senora-acero-season-two-premiere/gallery/image/5f864570-efb2-4ae2-872b-c86b31236497.HR.jpg</thumbnail>
+		<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/claracr/senora-acero-temporada-1-43436/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/claracr/senora-acero-temporada-1-43436/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.multivu.com/players/Spanish/7629451-telemundo-senora-acero-season-two-premiere/gallery/image/5f864570-efb2-4ae2-872b-c86b31236497.HR.jpg</thumbnail>
+		<fanart></fanart>
+</item>
+
+<item>
+<title>Señora acero 3 temporada</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.multivu.com/players/Spanish/7629451-telemundo-senora-acero-season-two-premiere/gallery/image/5f864570-efb2-4ae2-872b-c86b31236497.HR.jpg</thumbnail>
+		<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/monnet/senora-acero-3-la-coyotecompleta-34398/list,1,4
+</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/monnet/senora-acero-3-la-coyotecompleta-34398/list,1,4
+</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.multivu.com/players/Spanish/7629451-telemundo-senora-acero-season-two-premiere/gallery/image/5f864570-efb2-4ae2-872b-c86b31236497.HR.jpg</thumbnail>
+		<fanart></fanart>
+
+
+
+
+
+
+
+
+<item>
+<title>Sin senos si hay paraiso</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgbox.com/gWuGIVdq.jpg</thumbnail>
+		<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/pecoso84/0070-39601/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/pecoso84/0070-39601/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgbox.com/gWuGIVdq.jpg</thumbnail>
+		<fanart></fanart>
+</item>
+
+
+<item>
+<title>El chema Venegas</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://image.tmdb.org/t/p/w396/hSBjuT7mfsqaooEvdDE1d8rcYP2.jpg</thumbnail>
+		<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chesvico/el-chema-45736/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chesvico/el-chema-45736/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://image.tmdb.org/t/p/w396/hSBjuT7mfsqaooEvdDE1d8rcYP2.jpg</thumbnail>
+		<fanart></fanart>
+
+</item>
+
+
+
+
+
+<item>
+<title>La Doña</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.optimovision.com/wp-content/uploads/2016/11/la-dona-p.jpg</thumbnail>
+		<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chesvico/la-dona-45239/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chesvico/la-dona-45239/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.optimovision.com/wp-content/uploads/2016/11/la-dona-p.jpg</thumbnail>
+		<fanart></fanart>
+
+</item>
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>MOISES Y LOS 10 MANDAMIENTOS COMPLETA</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://65.media.tumblr.com/778d5f23691b97791c95b8036ab01d5d/tumblr_o19e05eYf31tzxzc4o1_500.jpg</thumbnail>
+		<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/carryz/moises-y-los-diez-mandamientos-47019/list,1,11</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/carryz/moises-y-los-diez-mandamientos-47019/list,1,11</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://pics.filmaffinity.com/os_dez_mandamentos_tv_series-863382242-mmed.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>La querida el centauro</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://seriesblanco.com/files/uploads/3341.jpg</thumbnail>
+		<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/monnet/la-querida-del-centauro-telenovela-completa-21829/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/monnet/la-querida-del-centauro-telenovela-completa-21829/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://seriesblanco.com/files/uploads/3341.jpg</thumbnail>
+		<fanart></fanart>
+
+<item>
+<title>Quien es Quien</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://s-media-cache-ak0.pinimg.com/originals/14/68/4f/14684fa86a4b201b18bc1eb2ce69a44d.jpg</thumbnail>
+		<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/monnet/quien-es-quien-telenovela-completa-21781/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/monnet/quien-es-quien-telenovela-completa-21781/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/14/68/4f/14684fa86a4b201b18bc1eb2ce69a44d.jpg</thumbnail>
+		<fanart></fanart>
+</item>
+
+
+<item>
+<title>La escalava blanca</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://ia.media-imdb.com/images/M/MV5BZmIzNDQyYjktY2Q4NC00YWQ4LTgyMjEtZDUwYTg5NmI2MmU3XkEyXkFqcGdeQXVyMjM3MzA3ODA@._V1_UY1200_CR278,0,630,1200_AL_.jpg</thumbnail>
+		<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/monnet/la-esclava-blanca-completada-27202/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/monnet/la-esclava-blanca-completada-27202/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BZmIzNDQyYjktY2Q4NC00YWQ4LTgyMjEtZDUwYTg5NmI2MmU3XkEyXkFqcGdeQXVyMjM3MzA3ODA@._V1_UY1200_CR278,0,630,1200_AL_.jpg</thumbnail>
+		<fanart></fanart>
+
+
+
+<item>
+<title>Las mil y una noches</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.seriesdecoleccion.com/src/img_up/20042015.9.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/las-mil-y-una-noches-completa-44421/list,1,8</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/las-mil-y-una-noches-completa-44421/list,1,8</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.seriesdecoleccion.com/src/img_up/20042015.9.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>Betty la fea</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://pics.filmaffinity.com/yo_soy_betty_la_fea_tv_series-644572404-large.jpg</thumbnail>
+		<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/yo-soy-betty-la-fea-telenovela-completa-32181/list,1,7</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/yo-soy-betty-la-fea-telenovela-completa-32181/list,1,7</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://pics.filmaffinity.com/yo_soy_betty_la_fea_tv_series-644572404-large.jpg</thumbnail>
+		<fanart></fanart>
+</item>
+
+<item>
+<title>Kara Para ASK</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://upload.wikimedia.org/wikipedia/en/0/06/KaraParaA%C5%9Fk-diziafi%C5%9F.jpg</thumbnail>
+		<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/kara-para-ask-dinero-negro-amorcompleta-44647/list,1,8</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/kara-para-ask-dinero-negro-amorcompleta-44647/list,1,8</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/0/06/KaraParaA%C5%9Fk-diziafi%C5%9F.jpg</thumbnail>
+		<fanart></fanart>
+
+
+
+
+<item>
+<title>Muñeca Brava</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://latinoparaiso.ru/gallery/muneca-brava/c9be3497dfbc.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/muneca-brava-41866/list,1,8</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/muneca-brava-41866/list,1,8</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latinoparaiso.ru/gallery/muneca-brava/c9be3497dfbc.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>Asi en el barrio como en el cielo</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://goo.gl/fowDso</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/asi-en-el-barrio-como-en-el-cielo-completa-41431/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/asi-en-el-barrio-como-en-el-cielo-completa-41431/list,1,5</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://goo.gl/fowDso</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Cafe con aroma de mujer</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://brazil.nownetflix.com/wp-content/uploads/sites/44/2016/06/wpid-Cafe-Con-Aroma-de-Mujer.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/cafe-aroma-de-mujer-completa-41300/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>
+http://diskokosmiko.mx/FLAYSINA/cafe-aroma-de-mujer-completa-41300/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://brazil.nownetflix.com/wp-content/uploads/sites/44/2016/06/wpid-Cafe-Con-Aroma-de-Mujer.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Que culpa tiene fatmagul</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://pics.filmaffinity.com/fatmagul_un_sucu_ne_tv_series-162560200-large.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/que-culpa-tiene-fatmagul-completa-41003/list,1,10</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/que-culpa-tiene-fatmagul-completa-41003/list,1,10</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://pics.filmaffinity.com/fatmagul_un_sucu_ne_tv_series-162560200-large.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Pasion de Gavilanes</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://decine21.com/img/upload/obras/Pasion-de-gavilanes-7778/Pasion-de-gavilanes-7778-C.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/pasion-de-gavilanes-completa-40845/list,1,8</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/pasion-de-gavilanes-completa-40845/list,1,8</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://decine21.com/img/upload/obras/Pasion-de-gavilanes-7778/Pasion-de-gavilanes-7778-C.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Corazon salvaje</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/4d/Coraz%C3%B3n_salvaje_DVD.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/corazon-salvaje-1993-completa-40772/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/corazon-salvaje-1993-completa-40772/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+        <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/4d/Coraz%C3%B3n_salvaje_DVD.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Juana la virgen</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://http2.mlstatic.com/juana-la-virgen-telenovela-dvd-D_NQ_NP_708221-MLV20736858011_052016-F.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/juana-la-virgen-completa-40254/list,1,7</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/juana-la-virgen-completa-40254/list,1,7</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+        <thumbnail>https://http2.mlstatic.com/juana-la-virgen-telenovela-dvd-D_NQ_NP_708221-MLV20736858011_052016-F.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Hasta que el Dinero nos separe</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <fanart></fanart>
+<fanart>http://oi61.tinypic.com/5ba1bd.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/hasta-que-dinero-nos-separe-tcompleta-33756/list,1,10</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/hasta-que-dinero-nos-separe-tcompleta-33756/list,1,10</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+        <thumbnail>http://2.bp.blogspot.com/-QQkuo_hLt9w/UwQMHKj1jwI/AAAAAAAACTg/FGe6O8p93cI/s1600/hasta-dinero.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>En los tacones de Eva</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.miblogdecineytv.com/imagenes/novelas/TaconesEva/TaconesEva0.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/en-los-tacones-de-eva-t-completa-33334/list,1,7</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/en-los-tacones-de-eva-t-completa-33334/list,1,7</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+        <thumbnail>http://www.miblogdecineytv.com/imagenes/novelas/TaconesEva/TaconesEva0.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>La hija del mariachi</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://www.kaboomidea.com/shop/images/products/large_188_laHijaDelMariachiA.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/la-hija-del-mariachi-t-completa-32724/list,1,7</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/la-hija-del-mariachi-t-completa-32724/list,1,7</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+        <thumbnail>https://www.kaboomidea.com/shop/images/products/large_188_laHijaDelMariachiA.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Nuevo rico,nuevo pobre</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://mistelenovelasfavoritas.com/store/840-home_default/nuevo-rico-nuevo-pobre.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/nuevo-rico-nuevo-pobre-completa-26020/list,1,7</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/nuevo-rico-nuevo-pobre-completa-26020/list,1,7</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+        <thumbnail>http://mistelenovelasfavoritas.com/store/840-home_default/nuevo-rico-nuevo-pobre.jpg</thumbnail>
+<fanart></fanart>
+</item>

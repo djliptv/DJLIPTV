@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<!-- Club de Cuervos   -->
+
+<!-- Temporada1   -->
+
+<item>
+   <title>[COLOR white][COLOR blue]• [/COLOR]Temporada 1[/COLOR]  </title>
+   <fanart>https://image.tmdb.org/t/p/original/rT9ggHjlk4kUp9kOKnrMGzdz03M.jpg</fanart>
+   <thumbnail>https://image.tmdb.org/t/p/w500/iGaFCon7fJUuvHlolSoUDQKLfen.jpg</thumbnail>
+	<info>[COLOR white]El patriarca de una importante familia murió y sus herederos pelean para decidir quién asumirá el control de su adorado equipo de fútbol: Los cuervos de Nuevo Toledo. Egos, temperamentos y balones salen disparados en esta entrega del director, los productores y la estrella de “Nosotros los Nobles”, reunidos para darle vida a esta, aún más, absurda familia.[/COLOR][COLOR red]Dirección : [/COLOR][COLOR white]Gary Alazraky[/COLOR][COLOR red]Guionistas : [/COLOR][COLOR white][/COLOR] [COLOR red]Casting : [/COLOR][COLOR white]Luis Gerardo Méndez, Mariana Treviño, Stephanie Cayo, Daniel Giménez Cacho, Antonio de la Vega[/COLOR]</info>
+	<genre>[COLOR white]Drama, Comedia[/COLOR][COLOR red]Año : [/COLOR][COLOR white]2015[/COLOR][COLOR red]Duracion : [/COLOR][COLOR white] min[/COLOR][COLOR red]Votos : [/COLOR][COLOR white]2[/COLOR] [COLOR red]IMDB : [/COLOR][COLOR white]9.0/10[/COLOR]</genre>
+<link>$doregex[makelist]</link>
+<regex>
+      <name>makelist</name>
+      <listrepeat><![CDATA[
+               <title>[COLOR green]Mex[/COLOR][COLOR white]-Flix =[/COLOR][COLOR ]Capitulo[/COLOR][COLOR yellow][/COLOR] [makelist.param0]</title>
+		<info>[COLOR white]El patriarca de una importante familia murió y sus herederos pelean para decidir quién asumirá el control de su adorado equipo de fútbol: Los cuervos de Nuevo Toledo. Egos, temperamentos y balones salen disparados en esta entrega del director, los productores y la estrella de “Nosotros los Nobles”, reunidos para darle vida a esta, aún más, absurda familia.[/COLOR][COLOR red]Dirección : [/COLOR][COLOR white]Gary Alazraky[/COLOR][COLOR red]Guionistas : [/COLOR][COLOR white][/COLOR] [COLOR red]Casting : [/COLOR][COLOR white]Luis Gerardo Méndez, Mariana Treviño, Stephanie Cayo, Daniel Giménez Cacho, Antonio de la Vega[/COLOR]</info>
+	<genre>[COLOR white]Drama, Comedia[/COLOR][COLOR red]Año : [/COLOR][COLOR white]2015[/COLOR][COLOR red]Duracion : [/COLOR][COLOR white] min[/COLOR][COLOR red]Votos : [/COLOR][COLOR white]2[/COLOR] [COLOR red]IMDB : [/COLOR][COLOR white]9.0/10[/COLOR]</genre>
+               <link>$doregex[finalURL]</link>
+      <fanart>https://image.tmdb.org/t/p/original/rT9ggHjlk4kUp9kOKnrMGzdz03M.jpg</fanart>
+      <thumbnail>https://image.tmdb.org/t/p/w500/iGaFCon7fJUuvHlolSoUDQKLfen.jpg</thumbnail>
+      ]]></listrepeat>
+      <expres><![CDATA[data-file-id="([^"]+)">.*\n.*\n.*\n.*action="\/(.*?)" class="download.*Token".*?value="(.*?)"]]></expres>
+      <page>http://diskokosmiko.mx/seri5/c2u6dcu3rbo5-29432</page>
+      <cookieJar></cookieJar>
+</regex>
+<regex>
+      <name>finalURL</name>
+      <expres>Url":"(.*?)"</expres>
+      <page>http://diskokosmiko.mx/[makelist.param2]</page>
+      <rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=[makelist.param3]</rawpost>
+      <referer>http://diskokosmiko.mx/</referer>
+      <x-req>XMLHttpRequest</x-req>
+      <cookiejar></cookiejar>
+</regex>
+</item>

@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<channels>
+    <channels_info> <!-- this is opitonal -->
+      <title>DJLIPTV</title> <!-- if channels_info, a title is required, other elements are optional -->
+      <genre>Television</genre>
+      <description>Lista de Movies DJLIPTV  </description>
+       <thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail><fanart>http://i.imgur.com/UAQY3DI.jpg</fanart>
+      <date>01.01.2017</date>
+      <credits>http://bit.ly/DJLIPTVWEB</credits>
+    </channels_info>
+
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]SUPER CAMPEONES 1983[/COLOR][/B] [COLOR blue][SD][/COLOR]</name>
+		<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/02/e2/ac/02e2acf9cb8262df2d3cea1e2fd5ad90.jpg</thumbnail>
+		<fanart>https://i.ytimg.com/vi/GKzb523eb34/maxresdefault.jpg</fanart>
+        
+		<items>
+             
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [COLOR white]+[/COLOR] [B][COLOR skyblue]SUPER CAMPEONES 1983[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+	
+			<item>
+<title>[B][COLOR skyblue]SUPER CAMPEONES 1983[/COLOR][/B] [COLOR blue][SD][/COLOR]</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR skyblue][B][makelist.param3][/B][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/02/e2/ac/02e2acf9cb8262df2d3cea1e2fd5ad90.jpg</thumbnail>
+		<fanart>https://i.ytimg.com/vi/GKzb523eb34/maxresdefault.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/anime/capitan-tsubasa-super-campeones-1983-latino-1213/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/anime/capitan-tsubasa-super-campeones-1983-latino-1213/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/02/e2/ac/02e2acf9cb8262df2d3cea1e2fd5ad90.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/GKzb523eb34/maxresdefault.jpg</fanart>
+</item>
+	
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]SUPER CAMPEONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][ROAD TO 2002][/COLOR]</name>
+		<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+		<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]SUPER CAMPEONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][ROAD TO 2002][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+					
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2001.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2002.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2003.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2004.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2005.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2006.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2007.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2008.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2009.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2010.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x11[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2011.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x12[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2012.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x13[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2013.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x14[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2014.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x15[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2015.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x16[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2016.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x17[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2017.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x18[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2018.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x19[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2019.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x20[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2020.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x21[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2021.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x22[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2022.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x23[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2023.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x24[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2024.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x25[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2025.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x26[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2026.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x27[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2027.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x28[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2028.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x29[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2029.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x30[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2030.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x31[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2031.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x32[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2032.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x33[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2033.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x34[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2034.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x35[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2035.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x36[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2036.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x37[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2037.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x38[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2038.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x39[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2039.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x40[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2040.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x41[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2041.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x42[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2042.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x43[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2043.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x44[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2044.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x45[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2045.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x46[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2046.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x47[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2047.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x48[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2048.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x49[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2049.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x50[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2050.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x51[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2051.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x52[/B][/COLOR]</title>
+				<link>https://archive.org/download/CSRT2K2/CSRT2K2%20-%2052.mp4</link>
+				<thumbnail>http://es.mangahere.co/store/manga/7705/cover.jpg</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+			</item>
+		</items>
+	</channel>
+</channels>						

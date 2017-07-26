@@ -1,0 +1,67 @@
+﻿ <item>
+ <title>[COLOR red]  ••• [/COLOR][COLOR lime]insistir varias veces si no la abre[/COLOR][COLOR red]  •••  [/COLOR]</title>
+ <link>http://none</link>
+ </item>
+    <item>
+ <title>[COLOR orange]  ••••••••••••••••••••••••••••••••••••••••••••••••••••••••  [/COLOR]</title>
+ <link>http://none</link>
+ </item>
+ 
+ 
+  
+ 
+ <item>
+ <title> [COLOR lime]*[/COLOR] [COLOR orange]  Peliculas clasicas de mexico [/COLOR]</title>
+ <link>$doregex[makelist]</link>
+  <thumbnail></thumbnail> 
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLYbCuwhxtBtPcTjPvTBVwpQ8YiYB6SkRq</page>
+ <referer>https://www.youtube.com/c/yulfiostv3/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex> 
+ <fanart></fanart>
+ </item>   
+  
+  
+    <item>
+ <title> [COLOR lime]*[/COLOR] [COLOR orange]  Peliculas Antiguas mexicanas[/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLgg3KoTM4xOHc2oqmhxVKUcRPhIFcr3UV</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+ 
+ 
+    <item>
+ <title> [COLOR lime]*[/COLOR] [COLOR orange]  Peliculas Antiguas mexicanas opc 2[/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLloerywh9ui3kSoRjiuceIq6gU7KhHFuq</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 

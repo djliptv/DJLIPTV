@@ -1,0 +1,66 @@
+
+<item>
+<title>[COLOR green]AN[/COLOR][COLOR white]I[/COLOR][COLOR red]ME[/COLOR]</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+        <title> [COLOR green]m[/COLOR][COLOR white]ex[/COLOR][COLOR red]flix[/COLOR][COLOR yellow] Letra ====>> [/COLOR][makelist.param2] </title>
+        <link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres><![CDATA[<option value="([A-Z])">(\w)]]></expres>====>>
+<page>http://www.animeyt.tv/animes</page>
+</regex>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+        <title>Pagina [makelist2.param1]</title>
+        <link>$doregex[makelist3]</link>
+]]></listrepeat>
+<expres><![CDATA[pager__link.*?>(\d{1})<]]></expres>
+<page><![CDATA[http://www.animeyt.tv/animes?letra=[makelist.param1]]]></page>
+</regex>
+
+
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+        <title> [makelist3.param1]</title>
+        <link>$doregex[makelist4]</link>
+]]></listrepeat>
+<expres><![CDATA[alt="(.*?)".*"anime__img".*\s.*\s.*\s.*\s.*href="(.*?)"]]></expres>
+<page><![CDATA[http://www.animeyt.tv/animes?letra=[makelist.param1]&page=[makelist2.param1]]]></page>
+</regex>
+
+<regex>
+  <name>makelist4</name>
+
+  <listrepeat><![CDATA[
+        <title> [makelist4.param2]</title>
+	<link>$doregex[makelist5]</link>
+
+]]></listrepeat>
+
+<expres><![CDATA[href="(.*ver.*?)">*\n(.*)]]></expres>
+<page>[makelist3.param2]</page>
+
+</regex>
+
+<regex>
+  <name>makelist5</name>
+
+  <listrepeat><![CDATA[
+        <title> [makelist4.param2] Servidor [makelist5.param1]</title>
+	<link>[makelist5.param2]</link>
+
+]]></listrepeat>
+
+<expres><![CDATA[mirror == (.*[^158])\).*\s.*mirrorPlayer\("(.*?)"]]></expres>
+<page>[makelist4.param1]</page>
+
+</regex>
+<thumbnail></fanart>
+</item>

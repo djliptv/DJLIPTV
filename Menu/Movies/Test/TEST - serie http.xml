@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+ 
+<item>
+<title>[COLOR green]ME[/COLOR][COLOR white]XF[/COLOR][COLOR red]LIX[/COLOR] • GOSSIP GIRL - S1  • </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://cuandofuimoslosmejores.com/wp-content/uploads/2014/12/colombo.png</thumbnail>
+        <fanart>http://www.qvemos.vertele.com/wp-content/uploads/2011/03/colombo.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/jenrodbru/gossip-girl-temporada-1-20663</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/jenrodbru/gossip-girl-temporada-1-20663</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cuandofuimoslosmejores.com/wp-content/uploads/2014/12/colombo.png</thumbnail>
+<fanart>http://www.qvemos.vertele.com/wp-content/uploads/2011/03/colombo.jpg</fanart>
+</item>
+ 
+<item>
+<title>[COLOR green]ME[/COLOR][COLOR white]XF[/COLOR][COLOR red]LIX[/COLOR] • 250 TOP MOVIES - S1  • </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://cuandofuimoslosmejores.com/wp-content/uploads/2014/12/colombo.png</thumbnail>
+        <fanart>http://www.qvemos.vertele.com/wp-content/uploads/2011/03/colombo.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://s1.bia2m.biz/Movies/250%20Top%20Movies/</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://s1.bia2m.biz/Movies/250%20Top%20Movies/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://s1.bia2m.biz[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://s1.bia2m.biz/[makelist.param2]</page>
+<referer>http://s1.bia2m.biz/Movies/250%20Top%20Movies//referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cuandofuimoslosmejores.com/wp-content/uploads/2014/12/colombo.png</thumbnail>
+<fanart>http://www.qvemos.vertele.com/wp-content/uploads/2011/03/colombo.jpg</fanart>
+</item>
+ 
+<item>
+<title>[COLOR green]ME[/COLOR][COLOR white]XF[/COLOR][COLOR red]LIX[/COLOR] • 12 Years A Slave 2013 (720P)  • </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://cuandofuimoslosmejores.com/wp-content/uploads/2014/12/colombo.png</thumbnail>
+        <fanart>http://www.qvemos.vertele.com/wp-content/uploads/2011/03/colombo.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://s1.bia2m.biz/Movies/250%20Top%20Movies/</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://s1.bia2m.biz/Movies/250%20Top%20Movies/</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://s1.bia2m.biz/Movies/250%20Top%20Movies/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://s1.bia2m.biz/Movies/250%20Top%20Movies/[makelist.param2]</page>
+<referer>http://s1.bia2m.biz/Movies/250%20Top%20Movies/</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cuandofuimoslosmejores.com/wp-content/uploads/2014/12/colombo.png</thumbnail>
+<fanart>http://www.qvemos.vertele.com/wp-content/uploads/2011/03/colombo.jpg</fanart>
+</item>
+ 
+<item>
+<title>[COLOR blue] [COLOR deepskyblue]+ Movies IP [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/x0bta4jxusdutfh/MOVIES%20IP.xml?dl=1</externallink>
+</item>

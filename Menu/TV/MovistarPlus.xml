@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+		<item>
+		<title>AMC</title>
+		<link>http://edge4.telesport.pw/live/amc/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>AXN</title>
+		<link>http://edge143.livesports.pw/live/veraxnespd1d0009c8e2342e7/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Calle 13</title>
+		<link>http://edge43.livesports.pw/live/vercalltreesb62be937cb974/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Caza y Pesca</title>
+		<link>http://edge5.telesport.pw/live/cazaypesca/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Discovery</title>
+		<link>http://edge43.livesports.pw/live/verdiscoverychannelff096b/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Discovery Investigation</title>
+		<sportsdevil>http://livesports.pw/embed_p.php?file=crimenyinvestigacion&width=650&height=397</sportsdevil>
+		<referer>http://verplusonline.com/</referer>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Discovery Max</title>
+		<link>http://edge7.telesport.pw/live/dmax/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Fox</title>
+		<link>http://edge2.telesport.pw/live/fox/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Fox Life</title>
+		<link>http://edge8.telesport.pw/live/foxlife/index.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>		
+		
+		<item>
+		<title>National Geographics</title>
+		<link>http://edge3.telesport.pw/live/nationalgeo/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>NatGeo Wild</title>
+		<link>http://edge2.telesport.pw/live/nationalwild/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>NatGeo Wild</title>
+		<link>http://edge41.livesports.pw/live/verhistoriaesp92439d25ebf/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>SyFy</title>
+		<link>http://edge1.telesport.pw/live/syfy/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>TEN</title>
+		<link>http://edge42.livesports.pw/live/verdisneychannelb3cece21d/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>TNT</title>
+		<link>http://edge1.telesport.pw/live/tnt/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+ 		<item>
+		<title>Accion</title>
+		<sportsdevil>http://vercanalestv.com/tv/nacionales/canal-plus-accion.html</sportsdevil>
+		<referer>http://cinestrenostv.tv/</referer>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Comedia</title>
+		<link>http://edge15.livesports.pw/live/ver5a4fe7bbe7bf12a76ea7f8/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Estreno</title>
+		<sportsdevil>http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html</sportsdevil>
+		<referer>http://cinestrenostv.tv/</referer>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>DCine</title>
+		<link>http://edge262.livesports.pw/live/verdicneesp9084d46f8d69b2/index.m3u8</link> 
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+				
+		<item>
+		<title>Divinity</title>
+		<link>http://cdn1.shurs.xyz/verdirectotv/3/chunks.m3u8?nimblesessionid=506301</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+
+		<item>
+		<title>Serie</title>
+		<link>http://edge262.livesports.pw/live/vermseries9492273540e14a5/index.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Serie Xtra</title>
+		<link>http://edge261.livesports.pw/live/vera6669184f0b71095624027/index.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>DCocina</title>
+		<sportsdevil>http://livesports.pw/embed_p.php?file=cocinaesp&width=650&height=397</sportsdevil>
+		<referer>http://verplusonline.com/</referer>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+
+		
+		<item>
+		<title>Cosmo</title>
+		<link>http://edge14.livesports.pw/live/vercosmos250d386e5f510f45/index.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>#0</title>
+		<link>http://edge4.livesports.pw/live/verpluscerob81d6577d6c8c9/index.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>La 1</title>
+		<link>http://edge2.livesports.pw/live/vertv1telefive432f9be3797/index.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>La 2</title>
+		<link>http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl0-la2lv3aomgl0/_definst_/live/stream3.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>La Sexta</title>
+		<link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Clan</title>
+		<link>http://edge42.livesports.pw/live/verclan12857b2fcd59414ea6/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Boing</title>
+		<link>http://edge41.livesports.pw/live/verboing26865699c9d756dcf/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>BabyTV</title>
+		<link>http://edge42.livesports.pw/live/verbabytve2cfc81fabe8a061/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>FDF</title>
+		<link>http://edge1.telesport.pw/live/fdf/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>7 Valenciana</title>
+		<link>http://streaming.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/live.smil/chunklist_w1911875636_b500000.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>ExtremaduraTV</title>
+		<link>http://hlstv.canalextremadura.es/livetv/smil:multistream.smil/playlist.m3u8?DVR</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Onda Cadiz</title>
+		<link>http://195.55.74.208/adc/live-hls/chunklist_b1187840.m3u8?GKID=257f81bc0dc711e78e1000163e914f69</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>La Otra</title>
+		<link>http://laotra-live.hls.adaptive.level3.net/hls-live/telemadrid-laotra/_definst_/live.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Nova</title>
+		<link>http:<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="694646085a05001f0c44050147080208040800010d47070c1d460046071f010d1a460e0c0607061f083658295a5e505d595d">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Neox</title>
+		<link>http:<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="cde2e2acfea1a4bba8e0a1a5e3aca6aca0aca4a5a9e3a3a8b9e2a4e2a3b5a5a9bee2aaa8a2a3a8a2b592fc8dfef8fffbfc">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>A3Series</title>
+		<link>http:<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="83acace2b0efeaf5e6aeefebade2e8e2eee2eaebe7adede6f7aceaace2b0f0ebe7f0ace4e6ece2b0f0e6f1eae6f0dcb2c3b2b1b1b4b4b6">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Odisea</title>
+		<link>http://edge6.telesport.pw/live/odisea/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Mega</title>
+		<link>http:<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="97b8b8f6a4fbfee1f2bafbffb9f6fcf6faf6fefff3b9f9f2e3b8feb8faf0fff3e4b8f0f2f8faf2f0f6c8a6d7a4a5afaea6a3">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Antena 3</title>
+		<link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/ANT3/tu1_1.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+		
+		<item>
+		<title>Andalucia TV</title>
+		<link>http://iphone-andaluciatelevision.rtva.stream.flumotion.com/rtva/andaluciatelevision-iphone-multi/main.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+		<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+        </item>
+
+		
+		
+<item>
+<title>[COLOR red]=======   SERVIDOR 2   =======[/COLOR]</title>
+<item>
+<title>SP: LA 1</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15907.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA 1 </link>
+</item>
+<item>
+<title>SP: LA 1 HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7661.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA 1 HD </link>
+</item>
+<item>
+<title>SP: LA 2</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7660.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA 2 </link>
+</item>
+<item>
+<title>SP: Antena 3 HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7710.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Antena 3 HD </link>
+</item>
+<item>
+<title>SP: Antena 3</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15474.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Antena 3 </link>
+</item>
+<item>
+<title>SP: CUATRO HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15411.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: CUATRO HD </link>
+</item>
+<item>
+<title>SP: Cuatro.</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7686.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Cuatro. </link>
+</item>
+<item>
+<title>SP: TELECINCO FHD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15412.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: TELECINCO FHD </link>
+</item>
+<item>
+<title>SP: TELECINCO</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/10008.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: TELECINCO </link>
+</item>
+<item>
+<title>SP: La Sexta HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7674.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: La Sexta HD </link>
+</item>
+<item>
+<title>SP: La Sexta</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15909.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: La Sexta </link>
+</item>
+<item>
+<title>SP: Neox</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/14970.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Neox </link>
+</item>
+<item>
+<title>SP: NOVA</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7668.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: NOVA </link>
+</item>
+<item>
+<title>SP: Mega Tv HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7713.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Mega Tv HD </link>
+</item>
+<item>
+<title>SP: Fdf</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7679.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Fdf </link>
+</item>
+<item>
+<title>SP: DIVINITY</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7714.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: DIVINITY </link>
+</item>
+<item>
+<title>SP: Energy</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7681.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Energy </link>
+</item>
+<item>
+<title>SP: Andalucia TV</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7640.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Andalucia TV </link>
+</item>
+<item>
+<title>SP: TV Galicia</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7601.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: TV Galicia </link>
+</item>
+<item>
+<title>====== ESTILO DE VIDA======</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/12539.ts&amp;streamtype=TSDOWNLOADER&amp;name======= ESTILO DE VIDA====== </link>
+</item>
+<item>
+<title>SP: Cosmo HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/13704.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Cosmo HD </link>
+</item>
+<item>
+<title>SP: Cosmo</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7621.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Cosmo </link>
+</item>
+<item>
+<title>SP: Canal Cocina</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7629.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Canal Cocina </link>
+</item>
+<item>
+<title>SP: 24 Horas</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/13003.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: 24 Horas </link>
+</item>
+<item>
+<title>====== INFANTILES ======</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/12536.ts&amp;streamtype=TSDOWNLOADER&amp;name======= INFANTILES ====== </link>
+</item>
+<item>
+<title>SP: Disney Channel</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7684.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Disney Channel </link>
+</item>
+<item>
+<title>SP: Disney Jr.</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7683.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Disney Jr. </link>
+</item>
+<item>
+<title>SP: DISNEY XD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7682.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: DISNEY XD </link>
+</item>
+<item>
+<title>SP: Clan TVE</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7720.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Clan TVE </link>
+</item>
+<item>
+<title>SP: Boing</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7707.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Boing </link>
+</item>
+<item>
+<title>SP: Nick Jr.</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7670.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Nick Jr. </link>
+</item>
+<item>
+<title>SP: NICKELODEON HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7669.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: NICKELODEON HD </link>
+</item>
+<item>
+<title>====== DOCUMENTALES ======</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/12537.ts&amp;streamtype=TSDOWNLOADER&amp;name======= DOCUMENTALES ====== </link>
+</item>
+<item>
+<title>SP: HISTORIA</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7676.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: HISTORIA </link>
+</item>
+<item>
+<title>SP: Viajar HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/12542.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Viajar HD </link>
+</item>
+<item>
+<title>SP: Discovery Channel</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7620.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Discovery Channel </link>
+</item>
+<item>
+<title>SP: National Geo HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/13706.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: National Geo HD </link>
+</item>
+<item>
+<title>SP: National Geo</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7671.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: National Geo </link>
+</item>
+<item>
+<title>SP: National Geo Wild HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/13707.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: National Geo Wild HD </link>
+</item>
+<item>
+<title>SP: National Geo Wild</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7672.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: National Geo Wild </link>
+</item>
+<item>
+<title>SP: Crime + Investigation</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/13004.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Crime + Investigation </link>
+</item>
+<item>
+<title>SP: NON STOP PEOPLE</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15427.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: NON STOP PEOPLE </link>
+</item>
+<item>
+<title>====== CINE ======</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/12538.ts&amp;streamtype=TSDOWNLOADER&amp;name======= CINE ====== </link>
+</item>
+<item>
+<title>SP: M. ESTRENOS FHD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15414.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. ESTRENOS FHD </link>
+</item>
+<item>
+<title>SP: M.Estrenos</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7703.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M.Estrenos </link>
+</item>
+<item>
+<title>SP: M. ACCION HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15415.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. ACCION HD </link>
+</item>
+<item>
+<title>SP: M. Accion</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7698.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. Accion </link>
+</item>
+<item>
+<title>SP: M. COMEDIA FHD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15416.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. COMEDIA FHD </link>
+</item>
+<item>
+<title>SP: M. Comedia</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7697.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. Comedia </link>
+</item>
+<item>
+<title>SP: M. DCINE HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15417.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. DCINE HD </link>
+</item>
+<item>
+<title>SP: M. Dcine</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7652.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. Dcine </link>
+</item>
+<item>
+<title>SP: M. XTRA FHD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15418.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. XTRA FHD </link>
+</item>
+<item>
+<title>SP: M. XTRA</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7649.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. XTRA </link>
+</item>
+<item>
+<title>SP: M. SERIES HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15419.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. SERIES HD </link>
+</item>
+<item>
+<title>SP: M. Series</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7691.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. Series </link>
+</item>
+<item>
+<title>SP: M. SERIES XTRA HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15420.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. SERIES XTRA HD </link>
+</item>
+<item>
+<title>SP: M. Series Xtra</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7690.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. Series Xtra </link>
+</item>
+<item>
+<title>SP: Comedy Central HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/13710.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Comedy Central HD </link>
+</item>
+<item>
+<title>SP: Comedy Central.</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7687.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Comedy Central. </link>
+</item>
+<item>
+<title>SP: Hollywood FHD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7689.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Hollywood FHD </link>
+</item>
+<item>
+<title>SP: FOX FHD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7643.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: FOX FHD </link>
+</item>
+<item>
+<title>SP: Fox.</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7678.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Fox. </link>
+</item>
+<item>
+<title>SP: Fox Life HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/13711.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Fox Life HD </link>
+</item>
+<item>
+<title>SP: FOX LIFE</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7677.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: FOX LIFE </link>
+</item>
+<item>
+<title>SP: AMC HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15421.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: AMC HD </link>
+</item>
+<item>
+<title>SP: AXN HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7653.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: AXN HD </link>
+</item>
+<item>
+<title>SP: AXN</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7709.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: AXN </link>
+</item>
+<item>
+<title>SP: AXN WHITE HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7708.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: AXN WHITE HD </link>
+</item>
+<item>
+<title>SP: SYFY HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7594.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: SYFY HD </link>
+</item>
+<item>
+<title>SP: SYFY</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7666.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: SYFY </link>
+</item>
+<item>
+<title>SP: TCM HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15423.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: TCM HD </link>
+</item>
+<item>
+<title>SP: TCM</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7665.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: TCM </link>
+</item>
+<item>
+<title>SP: TNT</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7663.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: TNT </link>
+</item>
+<item>
+<title>SP: TNT HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15422.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: TNT HD </link>
+</item>
+<item>
+<title>SP: CALLE 13 HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7705.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: CALLE 13 HD </link>
+</item>
+<item>
+<title>SP: PARAMOUNT</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7716.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: PARAMOUNT </link>
+</item>
+<item>
+<title>====== Taquilla ======</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/12540.ts&amp;streamtype=TSDOWNLOADER&amp;name======= Taquilla ====== </link>
+</item>
+<item>
+<title>SP: Taquilla 1</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7612.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Taquilla 1 </link>
+</item>
+<item>
+<title>SP: Taquilla 2</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7610.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Taquilla 2 </link>
+</item>
+<item>
+<title>SP: Taquilla 3</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7609.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Taquilla 3 </link>
+</item>
+<item>
+<title>SP: Taquilla 4</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7608.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Taquilla 4 </link>
+</item>
+<item>
+<title>SP: Taquilla 5</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7607.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Taquilla 5 </link>
+</item>
+<item>
+<title>SP: Taquilla 6</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7606.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Taquilla 6 </link>
+</item>
+<item>
+<title>SP: Taquilla 7</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7605.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Taquilla 7 </link>
+</item>
+<item>
+<title>SP: Taquilla 8</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7604.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Taquilla 8 </link>
+</item>
+<item>
+<title>SP: Taquilla 9</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7603.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Taquilla 9 </link>
+</item>
+<item>
+<title>SP: Taquilla 10</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7611.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Taquilla 10 </link>
+</item>
+<item>
+<title>====== EXTRA ======</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15476.ts&amp;streamtype=TSDOWNLOADER&amp;name======= EXTRA ====== </link>
+</item>
+<item>
+<title>SP: TOROS HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15424.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: TOROS HD </link>
+</item>
+<item>
+<title>SP: Toros Tv</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7701.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Toros Tv </link>
+</item>
+<item>
+<title>SP: Caza Y Pesca HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7688.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Caza Y Pesca HD </link>
+</item>
+<item>
+<title>SP: IBERALIA TV</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15425.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: IBERALIA TV </link>
+</item>
+<item>
+<title>====== DEPORTES ======</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/12541.ts&amp;streamtype=TSDOWNLOADER&amp;name======= DEPORTES ====== </link>
+</item>
+<item>
+<title>SP:  M. MOTO GP</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15438.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP:  M. MOTO GP </link>
+</item>
+<item>
+<title>SP: M. MotoGp HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7616.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. MotoGp HD </link>
+</item>
+<item>
+<title>SP: Canal+ Liga</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7715.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Canal+ Liga </link>
+</item>
+<item>
+<title>SP: Gol TV</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7702.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Gol TV </link>
+</item>
+<item>
+<title>SP: M.  FUTBOL FHD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15433.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M.  FUTBOL FHD </link>
+</item>
+<item>
+<title>SP: M. Futbol</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/13008.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. Futbol </link>
+</item>
+<item>
+<title>SP: M. GOLF</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/13010.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. GOLF </link>
+</item>
+<item>
+<title>SP: M. DEPORTES 1 HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15434.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. DEPORTES 1 HD </link>
+</item>
+<item>
+<title>SP: M. Depotes 1</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/13009.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. Depotes 1 </link>
+</item>
+<item>
+<title>SP: M. DEPORTES 2 HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15435.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. DEPORTES 2 HD </link>
+</item>
+<item>
+<title>SP: M. Deportes 2</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/12545.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. Deportes 2 </link>
+</item>
+<item>
+<title>SP: M. Formula 1 HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15437.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. Formula 1 HD </link>
+</item>
+<item>
+<title>SP: M. Formula 1</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7617.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. Formula 1 </link>
+</item>
+<item>
+<title>SP: M. GOLF HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15436.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. GOLF HD </link>
+</item>
+<item>
+<title>SP: M. PARTIDAZO HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15431.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: M. PARTIDAZO HD </link>
+</item>
+<item>
+<title>SP: Real Madrid</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7614.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Real Madrid </link>
+</item>
+<item>
+<title>SP: Barca TV</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7662.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Barca TV </link>
+</item>
+<item>
+<title>SP: Eurosport 1 HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15439.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Eurosport 1 HD </link>
+</item>
+<item>
+<title>SP: Eurosport 1</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7680.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Eurosport 1 </link>
+</item>
+<item>
+<title>SP: Eurosport 2</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15475.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Eurosport 2 </link>
+</item>
+<item>
+<title>SP: BEIN SPORTS HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15440.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: BEIN SPORTS HD </link>
+</item>
+<item>
+<title>SP: BeIN Sports FHD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/13279.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: BeIN Sports FHD </link>
+</item>
+<item>
+<title>SP: Bein LaLiga HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/13709.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Bein LaLiga HD </link>
+</item>
+<item>
+<title>SP: beIN La Liga</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/12497.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: beIN La Liga </link>
+</item>
+<item>
+<title>SP: La Liga TV Bar</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/13006.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: La Liga TV Bar </link>
+</item>
+<item>
+<title>SP: LA LIGA TV BAR HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15429.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA LIGA TV BAR HD </link>
+</item>
+<item>
+<title>SP: LA LIGA BAR TV 1</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15430.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA LIGA BAR TV 1 </link>
+</item>
+<item>
+<title>SP: LA LIGA HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15428.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA LIGA HD </link>
+</item>
+<item>
+<title>SP: LA LIGA</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15441.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA LIGA </link>
+</item>
+<item>
+<title>SP: LA LIGA TV 1 SD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15442.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA LIGA TV 1 SD </link>
+</item>
+<item>
+<title>SP: LA LIGA TV 2 SD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15443.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA LIGA TV 2 SD </link>
+</item>
+<item>
+<title>SP: LA LIGA TV 3 SD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15444.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA LIGA TV 3 SD </link>
+</item>
+<item>
+<title>SP: LA LIGA TV 4 SD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15445.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA LIGA TV 4 SD </link>
+</item>
+<item>
+<title>SP: LA LIGA TV 5 SD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15446.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA LIGA TV 5 SD </link>
+</item>
+<item>
+<title>SP: LA LIGA TV 6 SD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15447.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA LIGA TV 6 SD </link>
+</item>
+<item>
+<title>SP: LA LIGA TV 7 SD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15448.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA LIGA TV 7 SD </link>
+</item>
+<item>
+<title>SP: LA LIGA TV 8 SD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15449.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: LA LIGA TV 8 SD </link>
+</item>
+<item>
+<title>SP: BEIN MAX 1 HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15450.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: BEIN MAX 1 HD </link>
+</item>
+<item>
+<title>SP: BEIN MAX 1</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15453.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: BEIN MAX 1 </link>
+</item>
+<item>
+<title>SP: BEIN MAX 2 HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15451.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: BEIN MAX 2 HD </link>
+</item>
+<item>
+<title>SP: BEIN MAX 2</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15454.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: BEIN MAX 2 </link>
+</item>
+<item>
+<title>SP: BEIN MAX 3</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15455.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: BEIN MAX 3 </link>
+</item>
+<item>
+<title>SP: BEIN MAX 3 HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15452.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: BEIN MAX 3 HD </link>
+</item>
+<item>
+<title>SP: BEIN MAX 4</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15456.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: BEIN MAX 4 </link>
+</item>
+<item>
+<title>SP: BEIN MAX 5</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15457.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: BEIN MAX 5 </link>
+</item>
+<item>
+<title>SP: BEIN MAX 6</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15458.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: BEIN MAX 6 </link>
+</item>
+<item>
+<title>SP: BEIN MAX 7</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15459.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: BEIN MAX 7 </link>
+</item>
+<item>
+<title>SP: BEIN MAX 8</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15460.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: BEIN MAX 8 </link>
+</item>
+<item>
+<title>SP: MULTIDEPORTES 1</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15461.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: MULTIDEPORTES 1 </link>
+</item>
+<item>
+<title>SP: MULTIDEPORTES 2</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15462.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: MULTIDEPORTES 2 </link>
+</item>
+<item>
+<title>SP: MULTIDEPORTES 3</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15463.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: MULTIDEPORTES 3 </link>
+</item>
+<item>
+<title>SP: MULTIDEPORTES 4</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/15464.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: MULTIDEPORTES 4 </link>
+</item>
+<item>
+<title>SP: Teledeporte</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7658.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Teledeporte </link>
+</item>
+<item>
+<title>SP: Sol Musica</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7721.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Sol Musica </link>
+</item>
+<item>
+<title>SP: MTV Espana</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/12535.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: MTV Espana </link>
+</item>
+<item>
+<title>SP: VH1</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7591.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: VH1 </link>
+</item>
+<item>
+<title>SP: Proyecto 40</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7667.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Proyecto 40 </link>
+</item>
+<item>
+<title>SP: Canal 7 HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7631.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Canal 7 HD </link>
+</item>
+<item>
+<title>SP: TELEVISA HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7657.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: TELEVISA HD </link>
+</item>
+<item>
+<title>SP: Canal 41 Mar Del</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7632.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Canal 41 Mar Del </link>
+</item>
+<item>
+<title>SP: Canal 3 HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7633.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Canal 3 HD </link>
+</item>
+<item>
+<title>SP: Canal 2 HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7634.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Canal 2 HD </link>
+</item>
+<item>
+<title>SP: Canal Costa</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7628.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Canal Costa </link>
+</item>
+<item>
+<title>SP: 3/24</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7642.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: 3/24 </link>
+</item>
+<item>
+<title>SP: 40 TV</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/12534.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: 40 TV </link>
+</item>
+<item>
+<title>SP: Canal De Las Estrellas</title>
+<link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/qpeJPnVIIn/kcEED0kZ8D/7627.ts&amp;streamtype=TSDOWNLOADER&amp;name=SP: Canal De Las Estrellas </link>
+</item>

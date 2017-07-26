@@ -1,0 +1,84 @@
+<channels>
+	<channels_info>
+		<title>[COLOR orange]DJL[/COLOR][COLOR white] IPTV[/COLOR][COLOR gold] ADDON[/COLOR]</title>
+		<genre>IPTV</genre>
+		<description>Kodi Addon IPTV</description>
+		<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+		<date>01.01.2017</date>
+		<credits>DJL IPTV</credits>
+	</channels_info>
+
+	<channel>
+		<name>[COLOR white]BIENVENIDOS A [/COLOR][COLOR orange][COLOR orange]DJL[/COLOR][COLOR white] IPTV[/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+		<link>http://ignorame</link>
+		<externallink>http://pastebin.com</externallink>
+	</channel>
+
+	<channel>
+		<name>[COLOR cyan]Sitio WEB[/COLOR][COLOR white]:[/COLOR][COLOR blue] [COLOR deepskyblue] http://bit.ly/DJLIPTVWEB[/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/x2abmb14ohp75dk/WWWThumbnail.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/7qsjqydyk4tho1k/WWWFanart.jpg?dl=1</fanart>
+		<link>http://ignorame</link>
+		<externallink>http://pastebin.com</externallink>
+	</channel>
+ 
+	<channel>
+		<name>[COLOR cyan]Telegram[/COLOR][COLOR white]:[/COLOR][COLOR blue] [COLOR deepskyblue] @djliptv[/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/thihk0l7k16w9dr/TelegramThumbnail.png?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/7gyhxmtdiiypdon/TelegramFanart.jpg?dl=1</fanart>
+		<link>http://ignorame</link>
+		<externallink>http://pastebin.com</externallink>
+	</channel>
+
+	<channel>
+		<name>[COLOR cyan]E-Mail[/COLOR][COLOR white]:[/COLOR][COLOR blue] [COLOR deepskyblue] djliptv@gmail.com[/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/z9x6u8njkbyzklj/EmailThumbnail.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/c90goy8fxjqhsj1/EmailFanart.jpg?dl=1</fanart>
+		<link>http://ignorame</link>
+		<externallink>http://pastebin.com</externallink>
+	</channel>
+ 
+	<channel>
+		<name>[COLOR cyan]Facebook[/COLOR][COLOR white]:[/COLOR][COLOR blue] [COLOR deepskyblue] https://www.facebook.com/groups/djliptv/[/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/yu9iwobojj0glqq/FacebookThumbnail.png?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/rn1de9eq3a93r33/FacebookFanart.jpg?dl=1</fanart>
+		<link>http://ignorame</link>
+		<externallink>http://pastebin.com</externallink>
+	</channel>
+
+	<channel>
+		<name>[COLOR white]==========================[/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/h0cbzv78lj259h2/ch.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/ufuwyh8c1lb922t/KodiFanart.jpg?dl=1</fanart>
+		<link></link>http://ignoreme
+		<externallink>http://pastebin.com/</externallink>
+	</channel>
+
+	<channel>
+		<name>[COLOR yellow]=====> [/COLOR][COLOR orange]INGRESAR A DJL IPTV [/COLOR][B][COLOR white]AQUI [/COLOR][/B][COLOR yellow]<=====[/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/8kn1ovir1qkqt75/DJLIPTVLogo.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/8kn1ovir1qkqt75/DJLIPTVLogo.jpg?dl=1</fanart>
+		<link></link>http://ignoreme
+		<externallink>http://bit.ly/DJLIPTV2</externallink>
+	</channel>
+	
+	<channel>
+		<name>[COLOR yellow]=====> [/COLOR][COLOR orange]INGRESAR ZONA KIDS [/COLOR][B][COLOR white]AQUI [/COLOR][/B][COLOR yellow]<=====[/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/aprqrj3svsghvar/KidsThumbnail.png?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/k2dibz3b9entn0t/KidsFanart.jpg?dl=1</fanart>
+		<link></link>http://ignoreme
+		<externallink>http://bit.ly/DJLIPTV3</externallink>
+	</channel>
+
+	<channel>
+		<name>[COLOR white]==========================[/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/h0cbzv78lj259h2/ch.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/ufuwyh8c1lb922t/KodiFanart.jpg?dl=1</fanart>
+		<link></link>http://ignoreme
+		<externallink>http://pastebin.com/</externallink>
+	</channel>
+
+</channels>

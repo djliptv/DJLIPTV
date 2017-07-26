@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+		
+ <!-- peliculas Calidad 1080 !-->	
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR gold] Peliculas Calidad 1080[/COLOR]</name>
+     <thumbnail>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/tv9b6prrq8z69dp/PELICULAS%20CALIDAD1080.m3u?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>
+
+
+		
+
+
+
+
+
+ <!-- PELICULAS DE ESTRENO  !-->	
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR gold]   PELICULAS DE ESTRENO[/COLOR]</name>
+     <thumbnail>https://dl.dropboxusercontent.com/s/dw5g6j99l7rb7on/mexflixESTRENOS.png?dl=0</thumbnail>
+<fanart>https://dl.dropboxusercontent.com/s/dw5g6j99l7rb7on/mexflixESTRENOS.png?dl=0</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/bwakwwmyzohj7gu/peliculas%20%20estrenos.m3u?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>	
+	
+
+
+
+
+
+		
+ <!-- CINE ESTRENOS !-->	
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR white] CINE ESTRENOS 2016[/COLOR]</name>
+     <thumbnail>http://www.nadacomercial.com/wordpress/wp-content/uploads/2012/05/proximos-estrenos-sala-de-cine-Logo.jpg</thumbnail>
+<fanart>http://www.nadacomercial.com/wordpress/wp-content/uploads/2012/05/proximos-estrenos-sala-de-cine-Logo.jpg</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/nd3zoo82zjz9p3f/estrenos2016regex.xml?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>
+		
+
+
+
+<!-- PELICULAS DE ESTRENO 2016 !-->	
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR gold]   Movies KIDZ[/COLOR]</name>
+     <thumbnail>https://pbs.twimg.com/profile_images/959732196/logo_ZK_FB_400x400.jpg</thumbnail>
+<fanart>http://www.pngmart.com/files/1/Kids-Sport-Transparent-PNG.png</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/7a3w2c6ccclyaej/movies%20kids.m3u?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>
+
+
+
+
+
+
+<!-- PELICULAS AUDIO LATINO  1 !-->	
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR gold] Peliculas Audio Latino 1[/COLOR]</name>
+     <thumbnail>http://st-listas.20minutos.es/images/2014-05/381581/list_640px.jpg</thumbnail>
+<fanart>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/uswn57eomh73tux/peliculas%20audiolatino.xml?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>
+
+
+
+
+
+	
+	 <!-- PELICULAS  packete 2 !-->	
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR white]   PELICULAS  packete 2[/COLOR]</name>
+     <thumbnail>https://dl.dropboxusercontent.com/s/hsvsiug36tzuhbf/mexflixPACK2.png?dl=0</thumbnail>
+<fanart>https://dl.dropboxusercontent.com/s/hsvsiug36tzuhbf/mexflixPACK2.png?dl=0</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/v6nf7ildv4f3aht/packete2..m3u?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>
+
+
+
+
+
+
+	<channels>
+	
+	<!-- PELICULAS Packete 3 !-->	
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR gold]  PELICULAS Packete 3 [/COLOR]</name>
+     <thumbnail>https://dl.dropboxusercontent.com/s/ve6wgfg9ynw40fw/mexflixPACKETE3.png?dl=0</thumbnail>
+<fanart>https://dl.dropboxusercontent.com/s/ve6wgfg9ynw40fw/mexflixPACKETE3.png?dl=0</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/tag9z9wmvnpou3j/packete3.m3u?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>	
+	
+	
+
+
+
+
+ <!-- CINE ESTRENOS !-->	
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR white]**** Peliculas Regex1 ****[/COLOR]</name>
+     <thumbnail>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/d6flc64wbfpqcxy/jeemoviesMEXFLIX.xml?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>
+
+
+
+	
+
+
+ <!-- Cine Movil !-->
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR white] Cine Movil [/COLOR]</name>
+    <thumbnail>http://www.obriendigital.com.ar/images_notas/images/cinemovil2.jpg</thumbnail>
+	<fanart>http://www.obriendigital.com.ar/images_notas/images/cinemovil2.jpg</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/lv6rrukwqldiaqz/cinemovil.m3u?dl=0</externallink>
+    </items>
+	<info></info>  	 
+	</channel>
+
+
+
+
+
+ <!-- PELICULAS Mexicanas!-->	
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR gold] PELICULAS Mexicanas[/COLOR]</name>
+     <thumbnail>https://dl.dropboxusercontent.com/s/d0zkpzmuimhh5bm/mexflixpeliculasmexicanas.png?dl=0</thumbnail>
+<fanart>https://dl.dropboxusercontent.com/s/d0zkpzmuimhh5bm/mexflixpeliculasmexicanas.png?dl=0</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/c88ou6favivufeb/peliculas%20mexicanas.xml?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>
+
+
+
+
+ <!-- PELICULAS cantinflas!-->	
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR white] Cantinflas[/COLOR]</name>
+     <thumbnail>http://www.coleccioncantinflas.com/uploads/20150617/colecion.2_cantiflas.jpg</thumbnail>
+<fanart>http://www.coleccioncantinflas.com/uploads/20150617/colecion.2_cantiflas.jpg</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/bfanm7s7addtk92/cantinflas.xml?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>
+
+
+
+
+
+ <!-- PELICULAS de capulina!-->	
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR gold] Capulina[/COLOR]</name>
+     <thumbnail>http://i3.ytimg.com/vi/2pLl0O5RdVI/movieposter.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-Z9XVXZVE-Ww/ToxtPT6pZmI/AAAAAAAACG4/Ztt8imqT8_4/s1600/Viruta+y+Capulina.jpg</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/070qfmhepg2d899/peliculas%20de%20capulina.xml?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>
+
+
+
+
+
+
+ <!-- PELICULAS  de la india maria  !-->
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR white] La India Maria [/COLOR]</name>
+    <thumbnail>http://revistalatinosemanal.com/wp-content/uploads/2015/05/la-india-maria-mym.jpg</thumbnail>
+	<fanart>https://i.ytimg.com/vi/o_jiBTngeHA/maxresdefault.jpg</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/jfl7raj10keqwon/la%20india%20maria.xml?dl=1</externallink>
+    </items>
+	<info></info>  	 
+	</channel>
+
+
+
+ <!-- PELICULAS  Imortales  !-->
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR white]  Imortales cine Mexicano  [/COLOR]</name>
+    <thumbnail>https://dl.dropboxusercontent.com/s/ll9n7dw000z7kwe/mexfllix%20inmortales.png?dl=0</thumbnail>
+	<fanart>https://dl.dropboxusercontent.com/s/ll9n7dw000z7kwe/mexfllix%20inmortales.png?dl=0</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/s43e16ve6oj1yd4/peliculasbalasozPRINCIPAL.xml?dl=1</externallink>
+    </items>
+	<info></info>  	 
+	</channel>
+
+
+
+
+
+	
+ <!-- PELICULAS Mexicanas youtube !-->	
+<channel>
+    <name>[COLORchocolate][B] * [/B][/COLOR][COLOR gold] PELICULAS MEXICANAS YOUTUBE REGEX[/COLOR]</name>
+     <thumbnail>https://dl.dropboxusercontent.com/s/d0zkpzmuimhh5bm/mexflixpeliculasmexicanas.png?dl=0</thumbnail>
+<fanart>https://www.dropbox.com/s/28op9l82wrbn2ka/peliculas%20mexicanas%20en%20regex%20de%20youtube.xml?dl=1</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/3u5q605s5rinf1c/peliculas%20mexicanas%20en%20regex%20de%20youtube.xml?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>
+	
+
+
+		
+ <!-- CINE MEXICANO !-->	
+<channel>
+    <name>[COLORchocolate][B] * [/B][/COLOR][COLOR white] Viejo Cine  Epoca de Oro[/COLOR]</name>
+     <thumbnail>http://image.slidesharecdn.com/003lapocadeorodelcinemexicano-090821091524-phpapp02/95/003-la-poca-de-oro-del-cine-mexicano-1-728.jpg</thumbnail>
+<fanart>http://image.slidesharecdn.com/003lapocadeorodelcinemexicano-090821091524-phpapp02/95/003-la-poca-de-oro-del-cine-mexicano-1-728.jpg</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/lms0pl96i9rp8hs/viejocineEPOCAdeoro.m3u?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>
+
+
+	
+	
+	<!-- PICARDIA MEXICANA !-->	
+<channel>
+    <name>[COLOR chocolate][B] * [/B][/COLOR][COLOR gold] PICARDIA MEXICANA [/COLOR]</name>
+     <thumbnail>http://www.periodicoenfoque.com.mx/wp-content/uploads/2013/03/obra-de-Armando-Jim%C3%A9nez.jpg</thumbnail>
+<fanart>http://www.periodicoenfoque.com.mx/wp-content/uploads/2013/03/obra-de-Armando-Jim%C3%A9nez.jpg</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/7bdqywa9xu2stdq/picardiamexicana.m3u?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>
+	
+
+	
+		
+ <!-- Loca Academia De Policia !-->	
+<channel>
+    <name>[COLORchocolate][B] * [/B][/COLOR][COLOR white] Loca Academia De Policia[/COLOR]</name>
+     <thumbnail>https://images-na.ssl-images-amazon.com/images/I/81rBygGwMML._SY445_.jpg</thumbnail>
+<fanart>http://yofuiaegb.com/wp-content/uploads/2013/03/Loca-academia-de-policia.jpg</fanart>
+	<items>
+    <externallink>https://www.dropbox.com/s/8xfzeedcyfk5v88/loca%20academia%20de%20policia.xml?dl=1</externallink>	  	 
+	</channel>
+    </items>
+	<info></info>
+
+
+
+
+https://www.dropbox.com/s/8xfzeedcyfk5v88/loca%20academia%20de%20policia.xml?dl=0
+
+

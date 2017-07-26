@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>[COLOR orange]LISTAS IPTV DEL DIA[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+     <title>[COLOR white][makelist.param1][/COLOR]</title>
+    <link>NA</link>
+    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+]]></listrepeat>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<page>http://www.m3uliste.pw/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR orange]LISTAS IPTV DEL DIA 2[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+     <title>[COLOR white][makelist.param1][/COLOR]</title>
+    <link>NA</link>
+    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+]]></listrepeat>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<page>http://freeiptv.life/autoupdated-m3u-playlists/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR orange]LISTAS IPTV DEL DIA 3[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+     <title>[COLOR white][makelist.param1][/COLOR]</title>
+    <link>NA</link>
+    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+]]></listrepeat>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<page>http://freeiptv.life/sports-m3u-playlist/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+ <item>
+<title>[COLOR orange]IPTV CHANNELS LATINOS 05-04-17[/COLOR]</title>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://pastebin.com/raw/jPvnw31b</externallink>
+</item>
+ 
+ <item>
+<title>[COLOR orange]IPTV CHANNELS 23-02-17[/COLOR]</title>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/e8wt2tx2eyf7l6l/iptv-tmp-23-02-17.xml?dl=1</externallink>
+</item>
+ 
+ <item>
+<title>[COLOR orange]IPTV CHANNELS 28-02-17[/COLOR]</title>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://pastebin.com/raw/sLqVEiHG</externallink>
+</item>
+
+<item>
+<title>[COLOR orange]IPTV CANALES 08-03-17[/COLOR]</title>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/jkwrnmrrp7gfgli/IPTVCANALESCOM.m3u?dl=1</externallink>
+</item>
+
+<item>
+<title>[COLOR orange]IPTV CANALES SPAIN 08-03-17[/COLOR]</title>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/zme7ibxccdlji32/IPTV-SPAIN.m3u?dl=1</externallink>
+</item>

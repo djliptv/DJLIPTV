@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+
+<item>
+<title>[COLOR dodgerblue][B]MOVIES[/B][/COLOR][COLOR yellow][B]-1900-99[/B][/COLOR]</title>
+<link>$doregex[makelist0]</link>
+
+
+<regex>
+<name>makelist0</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR lightblue] [makelist0.param2] [/COLOR][/B] </title>
+<link>http://dl2.mihanpix.com/Film/1900-99/[makelist0.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)<]]></expres>
+<page>http://dl2.mihanpix.com/Film/1900-99/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+<fanart>http://i.huffpost.com/gen/1244965/images/o-CROWDED-MOVIE-THEATER-facebook.jpg</fanart>
+<thumbnail>http://www.itouchapps.net/images/wubu-guess-the-app/movies.jpg</thumbnail>
+</item>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>Peliculas Audio Latino 1</name>
+<thumbnail>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</thumbnail>
+<fanart>http://eljevito.net/wp-content/uploads/2011/07/Peliculas-latino.png</fanart>
+<items>
+
+<item>
+<title>[B][COLOR gold][COLOR pink][/COLOR] Peliculas Audio Latino 1[/B]</title> @mexflix{
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/IngArturo/super-coleccion-de-pelis-audio-latino-20342/list,1,10</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/IngArturo/super-coleccion-de-pelis-audio-latino-20342/list,1,10</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>  [[[{{mexflix}}]]]
+<thumbnail>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</thumbnail>
+<fanart>http://eljevito.net/wp-content/uploads/2011/07/Peliculas-latino.png</fanart>
+</item>
+</items>
+</channel>

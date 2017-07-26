@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+	<title>[COLOR orange]Todas las listas aqui presentes corresponden a sus respectivos creadores[/COLOR]</title>
+	<fanart>http://findicons.com/files/icons/1261/sticker_system/128/get_info.png</fanart>
+	<thumbnail>http://findicons.com/files/icons/1261/sticker_system/128/get_info.png</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink></externallink>
+	</item>
+ 
+<item>
+	<title>[COLOR white]DJL IPTV [/COLOR][COLOR orange]NO ES PROPIETARIO DE LAS MISMAS.[/COLOR]</title>
+	<fanart>http://findicons.com/files/icons/1261/sticker_system/128/get_info.png</fanart>
+	<thumbnail>http://findicons.com/files/icons/1261/sticker_system/128/get_info.png</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink></externallink>
+</item>
+ 
+<item>
+	<title>[COLOR yellow]--------------------------------------------------[/COLOR]</title>
+	<fanart></fanart>
+	<thumbnail></thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink></externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR gold]ABDAVEGA[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://img.youtube.com/vi/CMWQjYEYCgY/mqdefault.jpg</thumbnail>
+	<fanart>https://img.youtube.com/vi/CMWQjYEYCgY/mqdefault.jpg</fanart>
+	<externallink>http://abdavega.playlatinohd.com/lista.xml</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR cyan]ADRYANLIST[/COLOR]</title>
+	<fanart>http://adryanlist.org/adryan/img/alist.jpg</fanart>
+	<thumbnail>http://adryanlist.org/adryan/img/alist.jpg</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink>https://www.dropbox.com/s/zt0jtak0izvdk6e/EXTERNAL%20ADRYANLIST.xml?dl=1</externallink>
+</item>
+
+<item>
+<title>[COLOR white]+ [/COLOR][COLOR dodgerblue]BA[COLOR lightblue]SS[/COLOR]FOX[/COLOR]</title>
+<thumbnail>http://www.redeneobux.com/wp-content/uploads/2015/06/bass-fox-addon-plugin-xbmc-kodi.png</thumbnail>
+<fanart>http://www.redeneobux.com/wp-content/uploads/2015/06/bass-fox-addon-plugin-xbmc-kodi.png</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://docs.google.com/uc?id=0BxiGGKdb2yNBUGRsWWp1dTFpNDA</externallink>
+</item>
+<!---
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR red]BRI BRI[/COLOR][COLOR white] TV[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://3.bp.blogspot.com/-bcrCuREBRlI/WGBC6J-RO8I/AAAAAAAAAm8/s3c_uJJTEZg1h6pvBW1g63awZ72F_lyMQCLcB/s1600/addons%2Bbribri.png</thumbnail>
+	<fanart>https://3.bp.blogspot.com/-bcrCuREBRlI/WGBC6J-RO8I/AAAAAAAAAm8/s3c_uJJTEZg1h6pvBW1g63awZ72F_lyMQCLcB/s1600/addons%2Bbribri.png</fanart>
+	<externallink>http://bit.ly/Bri_TV</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR yellow]CATOAL[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://i.imgur.com/6fioR4R.png</thumbnail>
+	<fanart>http://i.imgur.com/z53W91X.png</fanart>
+	<externallink>https://raw.githubusercontent.com/Carlesto/Listas/master/carindex</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR cyan]DREAMWORLD[/COLOR][COLOR white] IPTV[/COLOR]</title>
+	<fanart>https://unpent-horns.000webhostapp.com/fotos/fundo.jpg</fanart>
+	<thumbnail>https://unpent-horns.000webhostapp.com/fotos/fundo.jpg</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink>https://unpent-horns.000webhostapp.com/dreamworl/FIRST.xml</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR blue]ELECDEKA[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://iptvonlinegratis.com/wp-content/uploads/2016/01/24zeuxi.jpg</thumbnail>
+	<fanart>http://flora-technology.com/floraqatar/images/IPTV/Logo6.png</fanart>
+	<externallink>http://elecdeka2017.blogspot.com.ar/</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR blue]ELECDEKA[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://iptvonlinegratis.com/wp-content/uploads/2016/01/24zeuxi.jpg</thumbnail>
+	<fanart>http://flora-technology.com/floraqatar/images/IPTV/Logo6.png</fanart>
+	<externallink>http://catromaluferi.blogspot.com.ar/2017/06/inicio-gratuito-con-xxx.html</externallink>
+</item>
+
+<!--- http://elecdeka2017.blogspot.com.ar/--->
+<!--- http://elecdeka2017.blogspot.com.ar/2017/02/elecdeka-03022017.html --->
+ <!--- http://elecdeka.blogspot.com.ar/2017/01/c5n-httpc5n.html --->
+<!---
+ <item>
+	<title>[COLOR white]+ [/COLOR][COLOR blue]ELECDEKA XXX[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://iptvonlinegratis.com/wp-content/uploads/2016/01/24zeuxi.jpg</thumbnail>
+	<fanart>http://flora-technology.com/floraqatar/images/IPTV/Logo6.png</fanart>
+	<externallink>http://catromaluferi.blogspot.com.ar/2017/06/inicio-gratuito.html</externallink>
+</item>
+---> 
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR red]EL RINCON DEL LOLO[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://k61.kn3.net/2/A/3/6/B/8/8CE.jpg</thumbnail>
+	<fanart>https://k61.kn3.net/7/3/A/7/2/7/CE6.jpg</fanart>
+	<externallink>http://bit.ly/RinconLolo</externallink>
+</item>
+
+<!--- https://pastebin.com/raw/RSxsR9Pj --->
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR]</title>
+	<thumbnail>https://i2.wp.com/blog.exabytetv.info/wp-content/uploads/2016/09/icontex.png?fit=1022%2C1022</thumbnail>
+<fanart>http://mundokodi.com/wp-content/uploads/2016/06/portada_exabyte.jpg</fanart>
+	<link>$doregex[makelist]</link>
+	<externallink>https://www.dropbox.com/s/4qaj471isswqd1h/EXTERNAL%20EXABYTE.xml?dl=1</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR white]FERRER PRO[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd4K1Qt2pLYUEoUwZJEIHDs2GgAynY835n9TJNMqHGLB0W0QQC</thumbnail>
+	<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd4K1Qt2pLYUEoUwZJEIHDs2GgAynY835n9TJNMqHGLB0W0QQC</fanart>
+	<externallink>https://raw.githubusercontent.com/fgsalvaa/listas/master/menura</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR yellow]GIANTFORCE[/COLOR]</title>
+	<thumbnail>https://s25.postimg.org/wtz80pbtb/giantforce.png</thumbnail>
+	<fanart>https://images6.alphacoders.com/394/thumb-1920-394922.jpg</fanart>
+	<link>$doregex[makelist]</link>
+	<externallink>http://giantforce.blogspot.com.ar/p/add-on-giant-force.html</externallink>
+</item>
+<!---
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR red]IPTV[/COLOR][COLOR blue] CHILE[/COLOR]</title>
+	<fanart>http://www.iptvchile.xyz/images/pic02.jpg</fanart>
+	<thumbnail>http://www.iptvchile.xyz/images/pic02.jpg</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink>https://www.dropbox.com/s/g93ewm9lr75wfot/EXTERNAL%20TEAMIPTVCHILE.xml?dl=1</externallink>
+</item>
+--->
+<item>
+<title>[COLOR white]+ [/COLOR][COLOR deepskyblue]J.H.G. Master[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://i.ytimg.com/vi/wSmlnAGudK0/hqdefault.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/wSmlnAGudK0/hqdefault.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/general/master/index.xml</externallink>	
+</item>
+<!---
+<item>
+<title>[COLOR white]+ [/COLOR][COLOR yellow]K-911[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://1.bp.blogspot.com/-U0Ctu3RK0B8/WP0bR91BqvI/AAAAAAAAB4k/w8NchqniPjYAxShy26-m_pbMIdDli521gCLcB/s1600/fanart.jpg</thumbnail>
+<fanart>https://1.bp.blogspot.com/-U0Ctu3RK0B8/WP0bR91BqvI/AAAAAAAAB4k/w8NchqniPjYAxShy26-m_pbMIdDli521gCLcB/s1600/fanart.jpg</fanart>
+<externallink>http://k911latinopr.com/seccionesdeladdon.xml</externallink>	
+</item>
+--->
+
+<item> 
+<title>[COLOR white]+[/COLOR] [COLOR red]KARAOKE[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>http://www.spiritlakebooks.com/uploads/6/0/2/7/6027919/6081687_orig.jpg</thumbnail>
+<fanart>http://www.spiritlakebooks.com/uploads/6/0/2/7/6027919/6081687_orig.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/boni1974/Karaoke/master/index.xml</externallink>	
+</item> 
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR grey]KODIADDICT[/COLOR]</title>
+	<thumbnail>https://goo.gl/jBc6T2</thumbnail>
+	<fanart>https://images8.alphacoders.com/423/thumb-1920-423161.jpg</fanart>
+	<link>$doregex[makelist]</link>
+	<externallink>http://pastebin.com/raw/8ak6PDNQ</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR grey]KODI REPO[/COLOR]</title>
+	<thumbnail></thumbnail>
+	<fanart></fanart>
+	<link>$doregex[makelist]</link>
+	<externallink>https://pastebin.com/raw/i73dPrHh</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR grey]KODI REPO [/COLOR][COLOR white][OPCION 2][/COLOR]</title>
+	<thumbnail></thumbnail>
+	<fanart></fanart>
+	<link>$doregex[makelist]</link>
+	<externallink>https://www.dropbox.com/s/nb6gipnv4r29dgx/EXTERNAL%20KODIREPO-OPC2.xml?dl=1</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR green]LATINO-WEBTV[/COLOR]</title>
+	<fanart>http://latino-webtv.com/gallery_gen/676da473be2345a8bb89bcafda6d4796_260x260.png</fanart>
+	<thumbnail>http://latino-webtv.com/gallery_gen/676da473be2345a8bb89bcafda6d4796_260x260.png</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink>https://pastebin.com/raw/XqCeRMdj</externallink><!--- http://latino-webtv.ml/lista.m3u --->
+</item>
+
+<item>
+<title>[COLOR white]+ [/COLOR][B][COLORwhite]MAD [COLORdodgerblue]STREAMS[/COLOR][/B]</title>
+	<thumbnail>https://dl.dropbox.com/s/dvyzrwuug26o1e3/madlogo-2.png</thumbnail>
+	<fanart>https://dl.dropbox.com/s/30inzam8ovataac/mad_logo_by_yayomola-d511d44.jpg</fanart>
+	<link>$doregex[makelist]</link>
+	<externallink>https://pastebin.com/raw/bgy2Ma14</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR red]MAGELLAN[/COLOR]</title>
+	<fanart>https://4.bp.blogspot.com/-UGWFf-dys_o/WFk_OHV7BII/AAAAAAAAUtQ/7OJec-Fb9WkC2AyQ-dL6doFMe5ShARYtwCLcB/s1600/Magellan%2BAddon%2BKodi%2B2.png</fanart>
+	<thumbnail>https://4.bp.blogspot.com/-UGWFf-dys_o/WFk_OHV7BII/AAAAAAAAUtQ/7OJec-Fb9WkC2AyQ-dL6doFMe5ShARYtwCLcB/s1600/Magellan%2BAddon%2BKodi%2B2.png</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink>http://bit.ly/MAGELLAN</externallink>
+</item>
+<!---
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR purple]MEGA[/COLOR][COLOR white] TV[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://i.ytimg.com/vi/wEhK4kqfoO0/hqdefault.jpg</thumbnail>
+	<fanart>https://i.ytimg.com/vi/wEhK4kqfoO0/hqdefault.jpg</fanart>
+	<externallink>http://pastebin.com/raw/yX3izmbj</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR red]METROPOLITAN[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://i.imgur.com/6iygFmE.jpg</thumbnail>
+	<fanart>http://i.imgur.com/6iygFmE.jpg</fanart>
+	<externallink>http://metropolitan2.blogspot.com.ar/2017/03/metropolitan.html</externallink>
+</item>
+<!-- https://raw.githubusercontent.com/bendermutt/menu/master/menu --> 
+<!--
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR red]METROPOLITAN[/COLOR][COLOR white] [Opcion 2][/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://i.imgur.com/6iygFmE.jpg</thumbnail>
+	<fanart>http://i.imgur.com/6iygFmE.jpg</fanart>
+	<externallink>https://www.dropbox.com/s/mkin5brgwg6xuzl/EXTERNAL%20METROPOLITAN%20OPC2.xml?dl=1</externallink>
+</item>
+--> 
+<item>
+        <title>[COLOR white]+ [/COLOR][COLOR green]ME[/COLOR][COLOR withe]XFL[/COLOR][COLOR red]IX [/COLOR]</title>
+        <link>http://ignorame</link>
+		<thumbnail>https://www.dropbox.com/s/vojnf1bfe4yn425/mexflixLIST1.png?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/vojnf1bfe4yn425/mexflixLIST1.png?dl=1</fanart>
+        <externallink>https://www.dropbox.com/s/fvx47jwa4lu9utx/MexFLIXAddonMASTER.xml?dl=1</externallink>
+</item>
+<!--- https://www.dropbox.com/s/vgzr7mue4p05hx4/MexFLIXAddonMASTER.xml?dl=1 --->
+
+<item>
+        <title>[COLOR white]+ [/COLOR][COLOR green]ME[/COLOR][COLOR withe]XFL[/COLOR][COLOR red]IX [/COLOR][COLOR white] [OPCION 2] [/COLOR]</title>
+        <link>http://ignorame</link>
+		<thumbnail>https://www.dropbox.com/s/vojnf1bfe4yn425/mexflixLIST1.png?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/vojnf1bfe4yn425/mexflixLIST1.png?dl=1</fanart>
+        <externallink>http://bit.ly/DJLIPTVMF</externallink>
+</item>
+
+<item>
+        <title>[COLOR white]+ [/COLOR][COLOR green]ME[/COLOR][COLOR withe]XI[/COLOR][COLOR red]CO [/COLOR][COLOR white] ADDON [/COLOR]</title>
+        <link>http://ignorame</link>
+		<thumbnail>https://iptvkodi.files.wordpress.com/2015/05/mexico2.jpg</thumbnail>
+		<fanart>http://i0.wp.com/bancodeimagenesgratis.net/wp-content/uploads/2015/09/6.jpg</fanart>
+        <externallink>http://pastebin.com/raw/NYUCnPKv</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR yellow]MI[/COLOR][COLOR red]FLIX[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://www.miflix.x10.bz/icon.png</thumbnail>
+	<fanart>http://www.miflix.x10.bz/MIFLIX.png</fanart>
+	<externallink>http://miflix.org/menu.xml</externallink>
+</item>
+
+ 
+ <item>
+	<title>[COLOR white]+ [/COLOR][COLOR yellow]MI[/COLOR][COLOR red]FLIX[/COLOR][COLOR white] [OPCION 2] [/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://www.miflix.x10.mx/icon.png</thumbnail>
+	<fanart>http://www.miflix.x10.mx/fanart.jpg</fanart>
+	<externallink>http://miflix.org/contenido/m.menu.xml</externallink>
+</item>
+<!--- http://miflix.x10.bz/menu.xml --->
+<!--- http://www.miflix.x10.bz/MENUS%20MISELANEOS/menu%20principal%20bz-mx.xml ---> 
+<!--- http://www.miflix.x10.mx/miflix3.0/MENU.XML ---> 
+<!---
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR gold]NUCLEUS[/COLOR][COLOR white] ADDON[/COLOR]</title>
+	<thumbnail>http://www.comunidadkodi.com/playground/NUCLEUS/images/nucleus.png</thumbnail>
+  <fanart>http://www.comunidadkodi.com/playground/NUCLEUS/images/fanart.jpg</fanart>
+	<link>$doregex[makelist]</link>
+	<externallink>http://www.comunidadkodi.com/playground/NUCLEUS/main.html</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR red]PREMIUM SERVER[/COLOR][COLOR white] IPTV[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/616858/580/386/m1/fpnw/wm1/1-.jpg?1440162283&s=c838a7d8f02e521d6419852bdc761948</thumbnail>
+	<fanart>https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/616858/580/386/m1/fpnw/wm1/1-.jpg?1440162283&s=c838a7d8f02e521d6419852bdc761948</fanart>
+	<externallink>https://www.dropbox.com/s/nqle0onp1i9r4sd/SERVER%20PREMIUM.xml?dl=1</externallink>
+</item>
+---> 
+
+<item> 
+<title>[COLOR white]+[/COLOR] [COLOR red]PLANETA[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>http://mundokodi.com/wp-content/uploads/2017/06/9.png?x86522</thumbnail>
+<fanart>http://mundokodi.com/wp-content/uploads/2017/06/9.png?x86522</fanart>
+<externallink>https://raw.githubusercontent.com/boni1974/Documentales/master/index.xml</externallink>	
+</item> 
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR gold]SECRETTV[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://redeneobux.com/wp-content/uploads/2017/05/1-1-210x150.png</thumbnail> 
+	<fanart>http://redeneobux.com/wp-content/uploads/2017/05/1-1-210x150.png</fanart>
+	<externallink>https://pastebin.com/raw/aCQ132AH</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR skyblue]SR REGIO[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://1.bp.blogspot.com/-sx3NIAdJ1Hk/WI7vbG6C0tI/AAAAAAAAAMo/v8VZi9cjc7IeO6ASkh383Uu0uujP4wx5wCLcB/s1600/icon.png</thumbnail> 
+	<fanart>https://1.bp.blogspot.com/-sx3NIAdJ1Hk/WI7vbG6C0tI/AAAAAAAAAMo/v8VZi9cjc7IeO6ASkh383Uu0uujP4wx5wCLcB/s1600/icon.png</fanart>
+	<externallink>http://srregio.net/srregio.html</externallink><!--- http://srregio.com --->
+</item>
+
+<!--- http://srregio.com/Addon/Menus/MenuIndex.txt --->
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR cyan]STALLION[/COLOR]</title>
+	<fanart>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</fanart>
+	<thumbnail>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink>https://www.dropbox.com/s/zx6h2537erofdjw/EXTERNAL%20STALLION.xml?dl=1</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR red]SUPERMOSPY TV[/COLOR]</title>
+	<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+    <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+	<link>$doregex[makelist]</link>
+	<externallink>http://www.blog.kodipro.org/Supermospy%20TV.xml</externallink>
+</item>
+ 
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white]TV[/COLOR]</title>
+	<fanart>http://tecnotv.info/logoss.png</fanart>
+	<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink>https://www.dropbox.com/s/u6vlwf6e0fgpc48/EXTERNAL%20TECNOTV.xml?dl=1</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR cyan]TELEGRAM[/COLOR][COLOR white] IPTV[/COLOR]</title>
+	<fanart>http://i.utdstc.com/screen/eal/2016/04/google-compra-telegram-3.jpg</fanart>
+	<thumbnail>http://i.utdstc.com/screen/eal/2016/04/google-compra-telegram-3.jpg</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink>https://www.dropbox.com/s/byumil6u919lg1a/EXTERNAL%20TELEGRAM%20MENU.xml?dl=1</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR red]THE KING[/COLOR][COLOR orange] OF IPTV[/COLOR]</title>
+	<thumbnail>http://www.delrey.com.sv/wp-content/uploads/2014/05/del-rey-logo1.png</thumbnail>
+	<fanart>http://www.fanaru.com/the-lion-king/image/25048-the-lion-king-hakuna-matata.jpg</fanart>
+	<link>$doregex[makelist]</link>
+	<externallink>http://pastebin.com/raw/q1tq6hRg</externallink>
+</item>
+<!---
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR red]TISOFLIX[/COLOR]</title>
+	<fanart>http://djliptv.blogspot.com.ar/2017/02/blog-post.html</fanart>
+	<thumbnail>http://djliptv.blogspot.com.ar/2017/02/blog-post.html</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink>http://tisoflix.hol.es/temporal.m3u</externallink>
+</item>
+--->
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR orange]TODO PROJECT[/COLOR][COLOR red] ZONA LATINA[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://todogroup.org/static/og.png</thumbnail>
+	<fanart>http://todogroup.org/static/og.png</fanart>
+	<externallink>https://raw.githubusercontent.com/djlopesdacosta/TODOOPROJECT/master/ZONALATINA/menu%20principal.xml</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR orange]TV[/COLOR][COLOR purple] SUPERTUGA[/COLOR]</title>
+	<link>http://ignorame</link>
+	<fanart>https://i37.servimg.com/u/f37/19/44/91/43/icqyq510.jpg</fanart>
+<thumbnail>https://i37.servimg.com/u/f37/19/44/91/43/7j1aw610.png</thumbnail>
+	<externallink>https://raw.githubusercontent.com/djlopesdacosta/TODOOPROJECT/8fac11403b78c9a6050272748ba57f77f7d2fbf1/TV%20SUPER%20TUGA%20ADD%20ESTRUTURA%201/Menu%20Principal.xml</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR cyan]ULTIMATE TV[/COLOR]</title>
+	<fanart>https://2.bp.blogspot.com/-niz4w8sNk7Y/Vnfbgqgf4UI/AAAAAAAAPnE/uCSdiTuAdsk/s1600/TV%2BUltimate%2BFor%2BKodi%2BXbmc%2B3.png</fanart>
+	<thumbnail>https://2.bp.blogspot.com/-niz4w8sNk7Y/Vnfbgqgf4UI/AAAAAAAAPnE/uCSdiTuAdsk/s1600/TV%2BUltimate%2BFor%2BKodi%2BXbmc%2B3.png</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink>https://www.dropbox.com/s/b0iwga982mrm1s5/EXTERNAL%20ULTIMATETV.xml?dl=1</externallink>
+</item>

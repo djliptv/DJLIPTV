@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[B][COLOR white][makelist.param1][/COLOR][/B]</title>
+          <link>http://149.56.21.74:1935/hls_app/[makelist.param2]/$doregex[token]/[makelist.param3]|User-Agent=Lavf/58.20.100&amp;Referer=http://tvplayerlatino.com</link>
+		  
+		  <regex>
+<name>token</name>
+<expres>(.*)</expres>
+<page>http://service.app.mxl-iptv.tv:8080/api/mxl-iptv/listas/token/get?dato1=HAtsn43%2Bq7jf3BivemkMQVFcbQmdtw8QnAnFd1GA3L%2B8SoR6HGyAoCpoGLHR8d8/%2Bfh873ilmmWBVnaAhtlEbw%3D%3D&amp;dato2=MHj35WLQLw55OTLdg21uR4H0PXoyF3MSghyWCyiV39ZGiAEe%2BSwi8CUeVDCnHD/sMsq9NgMQdDtxz/BFfZABjg%3D%3D&amp;type=L47ClIaUjg8KzxWbKkWNkfTYQaLVOy7nKGCv1VKrSaB%2BvtBWlOm0eXUQv0MZ1rPx0Kyc8S8imOfKwsBmjnGGFA%3D%3D&amp;canal=Q9NRvrG4z9sYyfVpQHn686pGH964fJEY3uuupYP68Br0Le1Wj/xGil8xorYnjjGaS3c9W6quDcXk8q/jmFpQ%2BQ%3D%3D</page>
+</regex>
+
+<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
+<fanart>https://www.asus.com/websites/global/products/ysdirWkLOLB8epF3/img/background_p4_1.jpg</fanart>
+		  
+		  	  
+   ]]></listrepeat>
+   <expres>nombre":"(.*?)".*?script\/tv\/(.*?)\/(.*?)"</expres>
+   <page>https://www.dropbox.com/s/yiasibdzvv314i1/mxl.txt?dl=1</page>
+   <cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+</item>	
+
+item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable [/COLOR][COLOR white][Opcion 2][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[B][COLOR white][makelist.param1][/COLOR][/B]</title>
+          <link>http://149.56.21.74:1935/hls_app/[makelist.param2]/$doregex[token]/[makelist.param3]|User-Agent=Lavf/58.20.100&amp;Referer=http://tvplayerlatino.com</link>
+		  
+		  <regex>
+<name>token</name>
+<expres>(.*)</expres>
+<page>http://service.app.mxl-iptv.tv:8080/api/mxl-iptv/listas/token/get?dato1=HAtsn43%2Bq7jf3BivemkMQVFcbQmdtw8QnAnFd1GA3L%2B8SoR6HGyAoCpoGLHR8d8/%2Bfh873ilmmWBVnaAhtlEbw%3D%3D&amp;dato2=MHj35WLQLw55OTLdg21uR4H0PXoyF3MSghyWCyiV39ZGiAEe%2BSwi8CUeVDCnHD/sMsq9NgMQdDtxz/BFfZABjg%3D%3D&amp;type=L47ClIaUjg8KzxWbKkWNkfTYQaLVOy7nKGCv1VKrSaB%2BvtBWlOm0eXUQv0MZ1rPx0Kyc8S8imOfKwsBmjnGGFA%3D%3D&amp;canal=Q9NRvrG4z9sYyfVpQHn686pGH964fJEY3uuupYP68Br0Le1Wj/xGil8xorYnjjGaS3c9W6quDcXk8q/jmFpQ%2BQ%3D%3D</page>
+</regex>
+
+<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
+<fanart>https://www.asus.com/websites/global/products/ysdirWkLOLB8epF3/img/background_p4_1.jpg</fanart>
+		  
+		  	  
+   ]]></listrepeat>
+   <expres>nombre":"(.*?)".*?script\/tv\/(.*?)\/(.*?)"</expres>
+   <page>http://tecnotv.info/kodi/mxl.txt</page>
+   <cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+</item>	
+
+<item>
+<title>[B][COLOR deepskyblue]HBO[/COLOR] [COLOR white]LATINO[/COLOR][/B]</title>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+<regex>
+<name>ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.publish247.xyz:1935/loadbalancer?17089</page>
+</regex>
+<regex>
+<name>m3u8</name>
+<expres>ea \+ "(.*?)"</expres>
+<page>http://www.247bay.tv/membedplayer/$doregex[canal]/2/680/380</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.247bay.tv</referer>
+</regex>
+<regex>
+<name>canal</name>
+<expres>channel='(.*?)'</expres>
+<page>http://tvpor-internet.com/hbo-en-vivo.html</page>
+</regex>
+<thumbnail>http://z.cdn.entutele.com/media/channels/medium/hbo-w.gif</thumbnail>
+<fanart>http://z.cdn.entutele.com/media/channels/medium/hbo-w.gif</fanart>
+</item>
+
+<!--- ITEM - CANALES ARGENTINA ######## INICIO --->
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV ARGENTINA[/COLOR][/B]</title>
+<thumbnail>http://i.imgur.com/FAbYD.png</thumbnail>
+<fanart>http://www.diariodecultura.com.ar/wp-content/uploads/2016/06/1965_468.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/qrvk48ycgu1l2gb/Channels-Argentina.xml?dl=1</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV ARGENTINA[/COLOR][COLOR white] [OPCION 2][/COLOR][/B]</title>
+<thumbnail>http://i.imgur.com/FAbYD.png</thumbnail>
+<fanart>http://www.diariodecultura.com.ar/wp-content/uploads/2016/06/1965_468.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://www.radiosargentina.com.ar/TVAR.m3u</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV ARGENTINA[/COLOR][COLOR white] [OPCION 3] 03/07/17[/COLOR][/B]</title>
+<thumbnail>http://i.imgur.com/FAbYD.png</thumbnail>
+<fanart>http://www.diariodecultura.com.ar/wp-content/uploads/2016/06/1965_468.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://pastebin.com/raw/aHQykbPW</externallink>
+</item>
+
+<!--- FLUXUS TV ######## INICIO --->
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]FLUXUS TV[/COLOR][/B]</title>
+<thumbnail>https://3.bp.blogspot.com/-iYPsmbBtthk/WQOD5JepFmI/AAAAAAAAArI/0PliwHG6OPUfKwirAs7gCDuu83ttrZU6QCK4B/s1600/fluxusbloglogonew.png</thumbnail>
+<fanart>https://3.bp.blogspot.com/-iYPsmbBtthk/WQOD5JepFmI/AAAAAAAAArI/0PliwHG6OPUfKwirAs7gCDuu83ttrZU6QCK4B/s1600/fluxusbloglogonew.png</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://raw.githubusercontent.com/fluxustv/IPTV/master/list.m3u</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] STALLION [12/07/17] [/COLOR][/B]</title>
+<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://pastebin.com/raw/Tdjewjtr</externallink>
+</item>
+
+<!--- ITEM - CEGEEK ######## INICIO --->
+
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] CECEGEEK [26/06/17] [/COLOR][/B]</title>
+<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://pastebin.com/raw/5yx8tQrL</externallink>
+</item>
+
+<!--- ITEM - CANALES DE CABLE  ######## INICIO --->
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] LATINOS [/COLOR][/B]</title>
+<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://textuploader.com/d09m5/raw</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] IPTV PRO [26/06/17] [/COLOR][/B]</title>
+<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://pastebin.com/raw/P65UvMh7</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] RAGNAROKTV [26/06/17] [/COLOR][/B]</title>
+<thumbnail>http://ragnaroktv.com/app/kodi/icon.png</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://ragnaroktv.com/tv/lista.m3u</externallink>
+</item>
+
+
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] LATINO PLAY TV [26/06/17] [/COLOR][/B]</title>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnQnavZhNUJ5gHoLBJ55NDK-qB0Lr9gIfHPqvXeRwCHu1HHC9Z</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://pastebin.com/raw/MuZ7ab1P</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] IPTV [29/06/17] [/COLOR][/B]</title>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnQnavZhNUJ5gHoLBJ55NDK-qB0Lr9gIfHPqvXeRwCHu1HHC9Z</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://pastebin.com/raw/2HP2aE5z</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] IPTV LOLO [29/06/17] [/COLOR][/B]</title>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnQnavZhNUJ5gHoLBJ55NDK-qB0Lr9gIfHPqvXeRwCHu1HHC9Z</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://pastebin.com/raw/sxeTytvz</externallink>
+</item>
+
+item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] SUPER MEGA LISTA [/COLOR][/B]</title>
+<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/77u4erfdwrnafgi/Sports%20IPTV%20LIST%20106%20Channels%20%5B31-05-2017%5D.m3u?dl=1</externallink>
+</item>
+
+<!-- https://goo.gl/dmBeCH --->
+
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] SUPER MEGA LISTA [/COLOR][COLOR white][OPCION 2][/COLOR][/B]</title>
+<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/26qnic8bao138vm/alltv.m3u?dl=1</externallink>
+</item>
+
+<!--- ITEM - CANALES DE CABLE OPCION 3 ######## INICIO --->
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR white] [OPCION 2][/COLOR][/B]</title>
+<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://exabytetv.info/LATIN.m3u</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR white] [OPCION 2.1][/COLOR][/B]</title>
+<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
+<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/0x65ur98dm150ci/LATINEBTV.m3u?dl=1</externallink>
+</item>
+
+
+<!--- ITEM - IPTV CHANNELS ######## INICIO ---> 
+ 
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] IPTV CHANNELS[/COLOR][/B]</title>
+<thumbnail>https://pbs.twimg.com/profile_images/822745502731083776/mWsrI-b-.jpg</thumbnail>
+<fanart>https://edge.alluremedia.com.au/m/g/2015/11/shutterstock_262337201_1080.jpg</fanart>
+<link>ignoreme.me</link>
+<externallink>https://www.dropbox.com/s/s97dvqg5drndu2z/MENU%20IPTV.xml?dl=1</externallink>
+</item>
+
+<!--- ITEM - IPTV CHANNELS ######## INICIO ---> 
+ 
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] CANALES PLUS[/COLOR][/B]</title>
+<thumbnail>https://pbs.twimg.com/profile_images/822745502731083776/mWsrI-b-.jpg</thumbnail>
+<fanart>https://edge.alluremedia.com.au/m/g/2015/11/shutterstock_262337201_1080.jpg</fanart>
+<link>ignoreme.me</link>
+<externallink>https://pastebin.com/raw/ztXHpfn0</externallink>
+</item>
+
+<!--- ITEM - MOVISTAR PLUS ######## INICIO --->
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]CANALES MOVISTAR PLUS[/COLOR][/B]</title>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/22dyl6noxn1brjk/MovistarPlus.xml?dl=1</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]CANALES MOVISTAR PLUS [/COLOR][COLOR white] [OPCION 2][/COLOR][COLOR gold] [23/05/17[/COLOR][/B]</title>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/tpdt670yr1zuq0m/IPTV%20Espa%C3%B1a%20Lista%20M3u%20Channels%2023-05-2017.m3u?dl=1</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]CANALES MOVISTAR PLUS [/COLOR][COLOR white] [OPCION 3][/COLOR][COLOR gold] [25/05/17][/COLOR][/B]</title>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/0anss9r5nisc4yv/movistarplus25517.m3u?dl=1</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]CANALES MOVISTAR PLUS [/COLOR][COLOR white] [OPCION 4][/COLOR][COLOR gold] [02/06/17][/COLOR][/B]</title>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/m1j5krx75qu0gqw/IPTV%20M3u%20Espa%C3%B1a%20Playlist%20Update%2002-06-2017.m3u?dl=1</externallink>
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR gold]CANALES[/COLOR][COLOR white] IPTV TOTAL LATINO[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://lh6.ggpht.com/Pwwj3ejMIuv5Fka-7uyGhviQh5M1oc43ZSm516oS-JNlMYx6fZv9tu4NWXN8yrJtrLs=w300</thumbnail>
+	<fanart>https://lh6.ggpht.com/Pwwj3ejMIuv5Fka-7uyGhviQh5M1oc43ZSm516oS-JNlMYx6fZv9tu4NWXN8yrJtrLs=w300</fanart>
+	<externallink>https://pastebin.com/raw/JpNftmFv</externallink><!--- http://bit.ly/totalatino --->
+</item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR cyan]CARLOS[/COLOR][COLOR white] TECNOMAN[/COLOR]</title>
+	<fanart>https://yt3.ggpht.com/-cFWNHODXGdo/AAAAAAAAAAI/AAAAAAAAAAA/ZTesyVNTJW8/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</fanart>
+	<thumbnail>https://yt3.ggpht.com/-cFWNHODXGdo/AAAAAAAAAAI/AAAAAAAAAAA/ZTesyVNTJW8/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+	<link>$doregex[makelist]</link>
+	<externallink>http://pastebin.com/raw/X0QN2iQE</externallink>
+</item>
+
+<item>
+<title>[COLOR white]+ [/COLOR][COLOR orange]FREEWORLD[/COLOR][COLOR red] IPTV [Opcion 1][/COLOR]</title>
+<thumbnail>https://www.wired.com/wp-content/uploads/2016/06/NetflixLogo2016.jpg</thumbnail>
+<fanart>https://s3.amazonaws.com/media.34s.dpn/1579_netflix-logoo.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://legionworldtv.com/secure/opensource.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>http://legionworldtv.com/secure/opensource.m3u</page>
+</regex>
+<item>
+
+<item>
+<title>[COLOR white]+ [/COLOR][COLOR orange]FREEWORLD[/COLOR][COLOR red] IPTV [Opcion 2][/COLOR]</title>
+<thumbnail>https://www.wired.com/wp-content/uploads/2016/06/NetflixLogo2016.jpg</thumbnail>
+	<fanart>https://s3.amazonaws.com/media.34s.dpn/1579_netflix-logoo.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://kodideveloper.com/master/tvgratis.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>http://kodideveloper.com/master/tvgratis.m3u</page>
+</regex>
+<item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR skyblue]SR REGIO[/COLOR] [COLOR white]TV[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://1.bp.blogspot.com/-sx3NIAdJ1Hk/WI7vbG6C0tI/AAAAAAAAAMo/v8VZi9cjc7IeO6ASkh383Uu0uujP4wx5wCLcB/s1600/icon.png</thumbnail> 
+	<fanart>https://1.bp.blogspot.com/-sx3NIAdJ1Hk/WI7vbG6C0tI/AAAAAAAAAMo/v8VZi9cjc7IeO6ASkh383Uu0uujP4wx5wCLcB/s1600/icon.png</fanart>
+	<externallink>http://srregio.net/regiotv.m3u</externallink>
+</item>
+

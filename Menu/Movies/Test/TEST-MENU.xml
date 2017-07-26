@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]CANALES MOVISTAR PLUS [/COLOR][COLOR white] [OPCION 5][/COLOR][/B]</title>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
+<fanart>http://bitvida.com/wp-content/uploads/2015/07/movistar-plus.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/wv6xay5mjcu6tvu/MPlus.m3u?dl=1</externallink>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR cyan] TEST MOVIES MENU [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/6vjqmtlr6ic8eoj/TEST%20MOVIES%20MENU.xml?dl=1</externallink>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR cyan] TEST VIDEOS MUSICALES [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/mqo2v3an2orzorr/TEST%20BASE%20MUSICA.xml?dl=1</externallink>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR cyan] LISTA FULL [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/chndg6p3l93yr7q/listafull.xml?dl=1</externallink>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR cyan] TEST HTTP MOVIE [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/fotg4rr9pipvftd/TEST%20-%20serie%20http.xml?dl=1</externallink>
+</item>
+ 
+<item>
+<title>[COLOR white]+[/COLOR][COLOR cyan] TEST HTTP MOVIE 1 [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/ypuxrmwzx06f4qs/TEST%20-%20serie%20http%201.xml?dl=1</externallink>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR cyan] TEST MOVIE IP [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/7d2kv8ppjfgplvg/TEST-MOVIEIP.XML?dl=1</externallink>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR cyan] TEST ITEMS [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/iulqpur3h8taklf/TEST%20-%20ITEMS.XML?dl=1</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR white]  [B]SERIES PACK 3[/B][/COLOR]</title>
+<link>$doregex[makelist3]</link>
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR skyblue][makelist3.param2] - [makelist3.param3][/COLOR]</title>
+        <link>$doregex[makelist2]</link>
+		<thumbnail></thumbnail>
+        ]]></listrepeat>
+<expres>playlist:"(.*?)" name:"(.*?)" info:"(.*?)";</expres>
+<page>playlist:"http://diskokosmiko.mx/naredo" name:"Series Clasicas" info:" ";</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR skyblue][makelist2.param2][/COLOR]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+        ]]></listrepeat>
+<expres>class="name" href="(.*?)">(.*?)<[\w\W\s]{0,190}src="(.*?)"</expres>
+<page>[makelist3.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx[makelist2.param1]/list,1,20</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx[makelist2.param1]/list,1,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tecnotv.info/logosss.png</thumbnail>
+<fanart>http://tecnotv.info/logosss.png</fanart>
+</item>

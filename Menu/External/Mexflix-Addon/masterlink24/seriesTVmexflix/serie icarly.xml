@@ -1,0 +1,40 @@
+﻿
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+    <title>[B][COLOR blue]TEMPORADA 1[/COLOR][/B]</title>
+    <link>$doregex[makelist]</link>
+    <regex>
+        <name>makelist</name>
+        <listrepeat><![CDATA[
+            <title>[B][COLOR yellow]Capitulo [makelist.param0][/COLOR][/B]</title>
+            <link>$doregex[getUrl]</link>
+            <thumbnail>http://www.elmulticine.com/imagenes/carteles/2/i-carli-poster-b.jpg</thumbnail>
+            <fanart>http://www.24horas.cl/incoming/article1848235.ece/ALTERNATES/w620h350/icarly.JPG</fanart>
+        ]]></listrepeat>
+        <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+        <page>http://diskokosmiko.mx/seri5/1-4rly-t3mp-1-34081</page>
+        <cookieJar></cookieJar>
+    </regex>
+    <regex>
+        <name>getUrl</name>
+        <expres>DownloadUrl":"([^"]+)<expres>
+            <page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+            <rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+                <referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+                <connection>keep-alive</connection>
+                <accept>*/*</accept>
+                <X-Req>XMLHttpRequest</X-Req>
+                <cookieJar></cookieJar>
+                </regex>
+                <regex>
+                <name>tok</name>
+                <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+                <page>http://diskokosmiko.mx/[makelist.param2]</page>
+                <referer>http://diskokosmiko.mx/seri5/1-4rly-t3mp-1-34081/list,1,1</referer>
+                <connection>keep-alive</connection>
+                <cookieJar></cookieJar>
+                </regex>
+         <thumbnail>http://www.elmulticine.com/imagenes/carteles/2/i-carli-poster-b.jpg</thumbnail>
+            <fanart>http://www.24horas.cl/incoming/article1848235.ece/ALTERNATES/w620h350/icarly.JPG</fanart>
+                </item>

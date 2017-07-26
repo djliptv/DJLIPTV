@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--- LOS HOMBRES DE PACO ######## INICIO --->
+
+<item>
+<title>Los Hombres De Paco Temporada 1 </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+		<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t1-44809</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t1-44809</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+</item>
+
+<!--- LOS HOMBRES DE PACO ######## INICIO --->
+
+<item>
+<title>Los Hombres De Paco Temporada 2 </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+		<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t2-44816</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t2-44816</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+</item>
+
+<!--- LOS HOMBRES DE PACO ######## INICIO --->
+
+<item>
+<title>Los Hombres De Paco Temporada 3 </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+		<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t3-44851</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t3-44851</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+</item>
+
+<!--- LOS HOMBRES DE PACO ######## INICIO --->
+
+<item>
+<title>Los Hombres De Paco Temporada 4 </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+		<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t4-44853</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t4-44853</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+</item>
+
+<!--- LOS HOMBRES DE PACO ######## INICIO --->
+
+<item>
+<title>Los Hombres De Paco Temporada 5 </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+		<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t5-44855</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t5-44855</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+</item>
+
+<!--- LOS HOMBRES DE PACO ######## INICIO --->
+
+<item>
+<title>Los Hombres De Paco Temporada 6 </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+		<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t6-44856</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t6-44856</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+</item>
+
+<!--- LOS HOMBRES DE PACO ######## INICIO --->
+
+<item>
+<title>Los Hombres De Paco Temporada 7 </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+		<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t7-44857</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t7-44857</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+</item>
+
+<!--- LOS HOMBRES DE PACO ######## INICIO --->
+
+<item>
+<title>Los Hombres De Paco Temporada 8 </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+		<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t8-44862</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t8-44862</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+</item>
+
+<!--- LOS HOMBRES DE PACO ######## INICIO --->
+
+<item>
+<title>Los Hombres De Paco Temporada 9 </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+		<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t9-44866</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/los-hombres-de-paco-t9-44866</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://img4.wikia.nocookie.net/__cb20110723173844/loshombresdepaco/es/images/4/42/Los_hombres_de_Paco.png</thumbnail>
+<fanart>http://www.atresplayer.com/clipping/2013/06/19/00577/705.jpg</fanart>
+</item>

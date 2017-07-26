@@ -1,0 +1,192 @@
+#EXTM3U
+
+#EXTINF:0 group-title="SERVER 1",== SERVER 1 ==
+http://exabytetv.info/exabytetv.mp4
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Amc - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1711.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Animal Planet - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1743.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Axn HD - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1715.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Azteca 7 - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1684.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Azteca 13 - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1685.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Azteca Cinema - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1689.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Azteca Clic - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1688.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Azteca Corazon - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1687.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Azteca Mundo - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1686.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Azteca Noticias - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1683.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Canal 5 - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1690.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Canal 11 - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1691.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Caracol - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1701.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Cartoon Network - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1737.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Cinecanal HD - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1712.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Cinemax - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1710.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Discovery Channel - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1739.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Disney Channel - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1735.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Disney Jr - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1736.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Distrito Comedia - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1709.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",DX TV - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1732.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",El Gourmet - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1703.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Encuentro - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1750.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Espn+ - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1731.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Espn - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1728.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Espn 2 - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1729.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Espn 3 - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1730.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Film Zone - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1708.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Foro TV - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1697.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Fox - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1714.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Fox 1 HD - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1719.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Fox Action - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1724.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Fox Cinema - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1720.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Fox Classics - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1723.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Fox Life - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1722.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Fox Movies - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1721.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Fox Sport - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1726.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Fox Sport 2 - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1727.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Galavision - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1696.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Golden - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1707.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",History - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1740.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Hola TV - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1693.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Investigacion Discovery - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1738.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Mi Musica - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1746.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Mtv Latino - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1749.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Mtv Latino Hits - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1748.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Multimedios - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1699.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",National Geographic - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1741.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",National Geo Wild - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1742.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Nickelodeon - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1733.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Nick Junior - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1734.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Proyecto 40 - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1698.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Rcn - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1700.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Ritmoson - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1744.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Space - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1718.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Syfy - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1713.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Tbs - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1706.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Telemundo - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1692.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Telemusica - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1745.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Televisa - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1695.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Tnt Series - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1702.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Tv Marti - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1704.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",TV Pelicula - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1705.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Unicable - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1694.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Universal HD - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1716.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Univision TDN - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1725.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Vh 1 - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1747.m3u8
+#EXTINF:-1 group-title="SERVER 1-xc" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Warner HD - Latino   (s-1)
+http://xc.cobra-iptv.com:25461/live/irankanalen/irankanalen/1717.m3u8
+#EXTINF:0 group-title="SERVER 2",== SERVER 2 ==
+http://exabytetv.info/exabytetv.mp4
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: A&E HD   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/697.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Animal Planet   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/696.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: AXN HD   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/695.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Carton Network HD   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/694.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Cinecanal   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/693.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Discovery Channel   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/692.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Discovery Civilization   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/691.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Discovery ID   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/690.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Discovery Kids   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/689.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Discovery Teather HD   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/688.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Discovery TLC   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/687.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Discovery Turbo   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/686.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: ESPN   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/685.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: ESPN 2   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/684.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: ESPN 3   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/683.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Fox 1 HD   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/681.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Fox Action HD   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/680.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Fox Cinema HD   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/679.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Fox HD   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/678.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Fox Movies HD   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/677.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Fox Sports   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/676.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Fox Sports 2 HD   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/675.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: Multimedios Monterrey HD   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/674.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: NatGeo Wild HD   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/673.m3u8
+#EXTINF:-1 group-title="SERVER 2-163" tvg-logo="https://www.alertprogramlearning.com/wp-content/uploads/2014/03/HD.png",Latino: TNT Series HD   (s-2)
+http://163.172.213.25:8000/live/adolfo/adolfo/672.m3u8

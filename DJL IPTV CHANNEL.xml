@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:0,DJLIPTV CHANNEL
+http://iphone-streaming.ustream.tv/watch/playlist.m3u8?cid=22961357
+#EXTINF:0,DJLIPTV CHANNEL
+http://iphone-streaming.ustream.tv/uhls/22961357/streams/live/iphone/playlist.m3u
+#EXTINF:0,DJLIPTV CHANNEL
+http://www.ustream.tv/embed/22961357?html5ui

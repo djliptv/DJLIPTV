@@ -1,0 +1,3 @@
+#EXTM3U
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=941016,CODECS="avc1.100.30, mp4a.40.2",RESOLUTION=480x270
+http://sjc-uhls-proxy-beta02.ustream.tv/watch/playlist.m3u8?appType=103&appVersion=3&conn=wifi&cid=22961357&stream=1&connectionId=oldurl-26910b87fda5865128d45ca4f282ab2b334e877f&group=iphone

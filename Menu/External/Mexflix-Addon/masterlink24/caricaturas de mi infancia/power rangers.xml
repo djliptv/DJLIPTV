@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>Power Rangers :mega edicion</name>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/564x/0e/a7/b1/0ea7b186846d06b722ac8009da9b5e7b.jpg</thumbnail>
+<fanart>https://pmcvariety.files.wordpress.com/2013/10/mighty-morphin-power-rangers.jpg</fanart>
+<items>
+
+<item>
+<title>[B][COLOR gold][COLOR pink][/COLOR] Power Rangers :mega edicion[/B]</title> @mexflix{
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://s-media-cache-ak0.pinimg.com/564x/0e/a7/b1/0ea7b186846d06b722ac8009da9b5e7b.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/titotv/power-rangers-the-complete-collectors-edition-2666/list,1,14</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/titotv/power-rangers-the-complete-collectors-edition-2666/list,1,14</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>  [[[{{mexflix}}]]]
+<thumbnail>https://s-media-cache-ak0.pinimg.com/564x/0e/a7/b1/0ea7b186846d06b722ac8009da9b5e7b.jpg</thumbnail>
+<fanart>https://pmcvariety.files.wordpress.com/2013/10/mighty-morphin-power-rangers.jpg</fanart>
+</item>
+</items>
+</channel>

@@ -1,0 +1,70 @@
+<item>
+<title>[B][COLOR gold]*******[/COLOR][COLOR white]  "EVENTOS Y DEPORTES" [/B][/COLOR]  [COLOR gold]*******  [/COLOR] </title>
+<link>$doregex[makelist2]</link>
+<thumbnail>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</thumbnail>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[makelist2.param2]</title>
+<link>$doregex[get-m3u8]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36&amp;Referer=http://www.dinozap.info/redirect/embedredi.php</link>
+<thumbnail>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</thumbnail>
+]]></listrepeat>
+<expres>nombre.*href="(.*?)" title="(.*?)"</expres>
+<page>http://www.vipgoal.net/</page>
+ </regex>
+  
+  
+   <regex>
+<name>get-m3u8</name>
+<expres>$pyFunction:base64.b64decode('$doregex[m3u8-3]')</expres>
+<page></page>
+</regex>
+ <regex>
+<name>m3u8-3</name>
+<expres>$pyFunction:base64.b64decode('$doregex[m3u8-2]')</expres>
+<page></page>
+</regex>
+ <regex>
+<name>m3u8-2</name>
+<expres>$pyFunction:base64.b64decode('$doregex[m3u8]')</expres>
+<page></page>
+</regex>
+
+ <regex>
+<name>m3u8</name>
+<expres>$doregex[gada]".*value="(.*?)"</expres> 
+<page>$doregex[pagina]</page>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+<referer>http://www.vipgoal.net/C+Liga/35576/Canal-plus-liga-en-directo.html</referer>
+</regex>
+
+ <regex>
+<name>gada</name>
+<expres>GADA .*\'(.*?)\'</expres>
+<page>$doregex[pagina]</page>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+<referer>http://www.vipgoal.net/C+Liga/35576/Canal-plus-liga-en-directo.html</referer>
+</regex>
+
+ <regex>
+<name>pagina</name>
+<expres>src="(.*?)"</expres>
+<page>http://www.sunhd.info/channelsa.php?file=$doregex[play]&amp;width=650&amp;height=410&amp;autostart=true</page>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+<referer>http://www.vipgoal.net/C+Liga/35576/Canal-plus-liga-en-directo.html</referer>
+</regex>
+
+
+ <regex>
+<name>play</name>
+<expres>file=(.*?)\&</expres>
+<page>http://www.vipgoal.net/[makelist2.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+  
+  
+
+<thumbnail>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</thumbnail></item>
+
+

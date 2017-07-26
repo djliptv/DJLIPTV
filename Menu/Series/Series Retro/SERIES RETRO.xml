@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--- LISTADO ---
+- ALF
+- BRIGADA A: LOS MAGNIFICOS
+- CHIPS: PATRULLA MOTORIZADA
+- EL HOMBRE QUE VOLVIO DE LA MUERTE
+- EL PULPO NEGRO
+- LA FAMILIA INGALS (LA CASA EN LA PRADERA)
+- LOS TRES CHIFLADOS
+- SABRINA: LA BRUJA ADOLESCENTE
+--->
+
+<!--- APRENDIENDO A VIVIR ########  --->
+<item>
+<title>Aprendiendo A Vivir</title>
+<thumbnail>http://www.series21.com/thumbs/series_180x270_85/340.jpg</thumbnail>
+<fanart>http://www.series21.com/thumbs/series_180x270_85/340.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/wb632m6u4vech2p/SERIES%20RETRO%20APRENDIENDO%20A%20VIVIR.xml?dl=1</externallink>
+</item>
+
+<!--- ALF ######## --->
+<item>
+<title>ALF</title>
+<thumbnail>https://images-production.global.ssl.fastly.net/uploads/photos/file/43219/alf.jpg</thumbnail>
+<fanart>http://i.dailymail.co.uk/i/pix/2015/06/19/16/29C8A8F700000578-0-Problems_After_ALF_Max_starred_on_another_sitcom_but_later_dealt-m-42_1434729078483.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/lbpvunvgyvl20p2/SERIES%20RETRO%20ALF.xml?dl=1</externallink>
+</item>
+
+<!--- BONANZA ########  --->
+<item>
+<title>Bonanza</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://3.bp.blogspot.com/_IwCP6nawN-4/TJmwkvaJvGI/AAAAAAAAAIQ/srRI4kNGeCw/s1600/za.jpg</thumbnail>
+		 <fanart>http://3.bp.blogspot.com/_IwCP6nawN-4/TJmwkvaJvGI/AAAAAAAAAIQ/srRI4kNGeCw/s1600/za.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/seri5/bonanza-29299/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/seri5/bonanza-29299/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/_IwCP6nawN-4/TJmwkvaJvGI/AAAAAAAAAIQ/srRI4kNGeCw/s1600/za.jpg</thumbnail>
+		 <fanart>http://3.bp.blogspot.com/_IwCP6nawN-4/TJmwkvaJvGI/AAAAAAAAAIQ/srRI4kNGeCw/s1600/za.jpg</fanart>
+</item>
+
+<!--- BRIGADA A: LOS MAGNIFICOS ########  --->
+<item>
+<title>Brigada A: Los Magnificos</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://www.deseries.com.ar/wp-content/uploads/2015/11/brigada-a.jpg</thumbnail>
+		<fanart>http://www.demasiadocine.com/wp-content/uploads/2015/09/brigada-a-506x296.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/AlejandroRuiz/los-magnificos-brigada-a-serie-48609</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/AlejandroRuiz/los-magnificos-brigada-a-serie-48609</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.deseries.com.ar/wp-content/uploads/2015/11/brigada-a.jpg</thumbnail>
+<fanart>http://www.demasiadocine.com/wp-content/uploads/2015/09/brigada-a-506x296.jpg</fanart>
+</item>
+
+<!--- CANTINFLAS SHOW ########  --->
+<item>
+<title>Cantinflas Show</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://1.bp.blogspot.com/-kEYYQ8cFyQ8/UqAditkdBcI/AAAAAAAAABw/b-mnNL1bC1U/s1600/CANTINFLAS.gif</thumbnail>
+        <fanart>http://1.bp.blogspot.com/-kEYYQ8cFyQ8/UqAditkdBcI/AAAAAAAAABw/b-mnNL1bC1U/s1600/CANTINFLAS.gif</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/guss3721/cantinflas-show-36320/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/guss3721/cantinflas-show-36320/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://1.bp.blogspot.com/-kEYYQ8cFyQ8/UqAditkdBcI/AAAAAAAAABw/b-mnNL1bC1U/s1600/CANTINFLAS.gif</thumbnail>
+        <fanart>http://1.bp.blogspot.com/-kEYYQ8cFyQ8/UqAditkdBcI/AAAAAAAAABw/b-mnNL1bC1U/s1600/CANTINFLAS.gif</fanart>
+</item>
+
+<!--- CARAVANA ########  --->
+<item>
+<title>Caravana (Wagon Train) (1957)</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/I/71C%2BMd8qgiL._SY445_.jpg</thumbnail>
+       <fanart>https://images-na.ssl-images-amazon.com/images/I/71C%2BMd8qgiL._SY445_.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/caravana-wagon-train-1957-35199/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/caravana-wagon-train-1957-35199/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/71C%2BMd8qgiL._SY445_.jpg</thumbnail>
+<fanart>https://images-na.ssl-images-amazon.com/images/I/71C%2BMd8qgiL._SY445_.jpg</fanart>
+</item>
+
+<!--- CHIPS: PATRULLA MOTORIZADA ########  --->
+
+<item>
+<title>Chips: Patrulla Motorizada</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://www.bibliotecanegra.com/sites/default/files/series/patrullamotorizada.jpg</thumbnail>
+		<fanart>https://gcdn.emol.cl/los-80/files/2016/07/halloween-chips-2.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/chips-32084</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/chips-32084</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.bibliotecanegra.com/sites/default/files/series/patrullamotorizada.jpg</thumbnail>
+<fanart>https://gcdn.emol.cl/los-80/files/2016/07/halloween-chips-2.jpg</fanart>
+</item>
+
+<!--- COMBATE ########  --->
+<item>
+<title>Combate</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+       <thumbnail>https://http2.mlstatic.com/combate-serie-tv-clasica-vic-morrow-t-1-D_NQ_NP_384101-MLV20278111916_042015-F.jpg</thumbnail>
+	   <fanart>https://http2.mlstatic.com/combate-serie-tv-clasica-vic-morrow-t-1-D_NQ_NP_384101-MLV20278111916_042015-F.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/combat-1962-34863/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/combat-1962-34863/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://http2.mlstatic.com/combate-serie-tv-clasica-vic-morrow-t-1-D_NQ_NP_384101-MLV20278111916_042015-F.jpg</thumbnail>
+<fanart>https://http2.mlstatic.com/combate-serie-tv-clasica-vic-morrow-t-1-D_NQ_NP_384101-MLV20278111916_042015-F.jpg</fanart>
+</item>
+
+<!--- DANIEL BOONE ########  --->
+<item>
+<title>Daniel Boone</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+       <thumbnail>http://i42.tinypic.com/e5hf2b.jpg</thumbnail>
+	   <fanart>http://i42.tinypic.com/e5hf2b.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/daniel-boone-1964-41577/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/daniel-boone-1964-41577/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i42.tinypic.com/e5hf2b.jpg</thumbnail>
+<fanart>http://i42.tinypic.com/e5hf2b.jpg</fanart>
+</item>
+
+<!--- COPIAPOP DRAKE Y JOSH######## INICIO --->
+<item>
+<title>Drake y Josh</title>
+<link>$doregex[makelist2]</link>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[makelist2.param1]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+		<fanart>[makelist2.param4]</fanart>
+        ]]></listrepeat>
+<expres>DYJ:"(.*?)" url:"(.*?)" img:"(.*?)" bkg:"(.*?)"; server:"(.*?)"</expres>
+<page>https://www.dropbox.com/s/2a2rlzzvh4828g5/seriesdb.txt?dl=1</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param2]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+		<fanart>[makelist2.param4]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
+<page>[makelist2.param2]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re , requests ,json
+def GetLSProData(page_data,Cookie_Jar,m):
+ ref = 'http://copiapop.com/' 
+ url='http://copiapop.com[makelist.param1]'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr = requests.post('http://copiapop.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'amistad' , 'Password' : 'asegurada'}
+ nr1 = requests.post('http://copiapop.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://copiapop.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-QuKG-aRHPsM/T6xCri9b3wI/AAAAAAAAA6o/7v_4nytueEg/s1600/Render+drake+e+josh.png</thumbnail>
+<fanart>http://2.bp.blogspot.com/-UsuoapxTcA0/T5ikWNeo_wI/AAAAAAAANyk/dRwT6GdDsJw/s1600/Drake_And_Josh_Wallpaper__by_PowderThorn.jpg</fanart>
+</item> 
+
+<!--- EL AUTO FANTASTICO (KNIGHT RIDER) ########  --->
+<item>
+<title>El Auto Fantastico (Knight Rider)</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+       <thumbnail>https://fanart.tv/fanart/tv/77216/clearlogo/knightrider-77216.png</thumbnail>
+	   <fanart>http://thenewswheel.com/wp-content/uploads/2015/07/Knight-Rider.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/djl/kr-64379/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/djl/kr-64379/list,1,5</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fanart.tv/fanart/tv/77216/clearlogo/knightrider-77216.png</thumbnail>
+<fanart>http://thenewswheel.com/wp-content/uploads/2015/07/Knight-Rider.png</fanart>
+</item>
+
+<!--- EL GRAN CHAPARRAL ########  --->
+<item>
+<title>El Gran Chaparral</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://offersperu.com/mercadolibre/chaparral1_b.jpg</thumbnail>
+		 <fanart>http://offersperu.com/mercadolibre/chaparral1_b.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/el-gran-chaparral-34547/list,1,22</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/el-gran-chaparral-34547/list,1,22</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://offersperu.com/mercadolibre/chaparral1_b.jpg</thumbnail>
+		 <fanart>http://offersperu.com/mercadolibre/chaparral1_b.jpg</fanart>
+</item>
+
+<!--- EL FUGITIVO ########  --->
+<item>
+<title>El Fugitivo</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://image4.casadellibro.com/m/ig/4/2742294.jpg</thumbnail>
+		 <fanart>http://image4.casadellibro.com/m/ig/4/2742294.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/monnet/el-fugitivo-serie-completada-23106/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/monnet/el-fugitivo-serie-completada-23106/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://image4.casadellibro.com/m/ig/4/2742294.jpg</thumbnail>
+		 <fanart>http://image4.casadellibro.com/m/ig/4/2742294.jpg</fanart>
+</item>
+
+<!--- EL HOMBRE INCREIBLE ########  --->
+<item>
+<title>El Hombre Increible</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://petersen.cl/2379/el-hombre-increible-hulk-1-temporada.jpg</thumbnail>
+		 <fanart>http://petersen.cl/2379/el-hombre-increible-hulk-1-temporada.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/llupeco/el-increible-hulk-espanol-latino-22125/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/llupeco/el-increible-hulk-espanol-latino-22125/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://petersen.cl/2379/el-hombre-increible-hulk-1-temporada.jpg</thumbnail>
+		 <fanart>http://petersen.cl/2379/el-hombre-increible-hulk-1-temporada.jpg</fanart>
+</item>
+
+<!--- EL HOMBRE QUE VOLVIO DE LA MUERTE ########  --->
+
+<item>
+<title>El Hombre Que Volvio De La Muerte</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>https://www.dropbox.com/s/pbyl4gey1tie3dl/EHQVDLM2.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/anhnmeb9li1sh31/EHQVDLM1.jpg?dl=1</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/djl/ehqvdlm-62963?f=1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/djl/ehqvdlm-62963?f=1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.dropbox.com/s/pbyl4gey1tie3dl/EHQVDLM2.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/anhnmeb9li1sh31/EHQVDLM1.jpg?dl=1</fanart>
+</item>
+
+<!--- EL PRINCIPE DEL RAP ########  --->
+<item>
+<title>El principe del rap</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://2.bp.blogspot.com/-Tcymt0DoZqI/Vi_DhFkuLGI/AAAAAAAALDo/_EhMyehlsCA/s1600/el-principe-del-rap-en-bel-air-temporada-4-importacion-dvd-10736-MLM20033489717_012014-F.jpg</thumbnail>
+	    <fanart>http://2.bp.blogspot.com/-Tcymt0DoZqI/Vi_DhFkuLGI/AAAAAAAALDo/_EhMyehlsCA/s1600/el-principe-del-rap-en-bel-air-temporada-4-importacion-dvd-10736-MLM20033489717_012014-F.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/marcos20/el-principe-del-rap-temporadas-123456-19550/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/marcos20/el-principe-del-rap-temporadas-123456-19550/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-Tcymt0DoZqI/Vi_DhFkuLGI/AAAAAAAALDo/_EhMyehlsCA/s1600/el-principe-del-rap-en-bel-air-temporada-4-importacion-dvd-10736-MLM20033489717_012014-F.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-Tcymt0DoZqI/Vi_DhFkuLGI/AAAAAAAALDo/_EhMyehlsCA/s1600/el-principe-del-rap-en-bel-air-temporada-4-importacion-dvd-10736-MLM20033489717_012014-F.jpg</fanart>
+</item>
+
+<!--- EL PULPO NEGRO ########  --->
+
+<item>
+<title>El Pulpo Negro</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://2.bp.blogspot.com/-Lh6jtliPSNg/T2psRY7UgsI/AAAAAAAADzo/7VFK3Yo5VsE/s400/dbs_859.jpg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeN04c7WjTA9fHkCZAbS9IK2crFls_Vc9SqcjUuxEgpThlgY0t</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/djl/epn-62961?f=1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/djl/epn-62961?f=1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-Lh6jtliPSNg/T2psRY7UgsI/AAAAAAAADzo/7VFK3Yo5VsE/s400/dbs_859.jpg</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeN04c7WjTA9fHkCZAbS9IK2crFls_Vc9SqcjUuxEgpThlgY0t</fanart>
+</item>
+
+<!--- EL SUPERAGENTE 86 ######## --->
+<title>El Superagente 86  • </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+       <thumbnail>http://timelife.com/system/cover_images/box_arts/000/000/154/full/290_get_smart_d01_season1.jpg?1340853093</thumbnail>
+		 <fanart>http://timelife.com/system/cover_images/box_arts/000/000/154/full/290_get_smart_d01_season1.jpg?1340853093</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/elnegro1/el-super-agente-86-primera-temporada-28544/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/elnegro1/el-super-agente-86-primera-temporada-28544/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>http://timelife.com/system/cover_images/box_arts/000/000/154/full/290_get_smart_d01_season1.jpg?1340853093</thumbnail>
+		 <fanart>http://timelife.com/system/cover_images/box_arts/000/000/154/full/290_get_smart_d01_season1.jpg?1340853093</fanart>
+</item>
+
+<!--- EL TUNEL DEL TIEMPO ######## --->
+<title>El Tunel Del Tiempo  • </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+       <thumbnail>http://ecx.images-amazon.com/images/I/516Y0G3SX2L.jpg</thumbnail>
+		 <fanart>http://ecx.images-amazon.com/images/I/516Y0G3SX2L.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/monnet/el-tunel-del-tiempo-serie-completada-30576/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/monnet/el-tunel-del-tiempo-serie-completada-30576/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>http://ecx.images-amazon.com/images/I/516Y0G3SX2L.jpg</thumbnail>
+		 <fanart>http://ecx.images-amazon.com/images/I/516Y0G3SX2L.jpg</fanart>
+</item>
+
+<!--- EL ZORRO ######## --->
+<item>
+<title>El Zorro</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i1144.photobucket.com/albums/o492/manolitogn/1960-zorro-09.jpg</thumbnail>
+		 <fanart>http://i1144.photobucket.com/albums/o492/manolitogn/1960-zorro-09.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/el-zorro-serie-tv-31264/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/el-zorro-serie-tv-31264/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i1144.photobucket.com/albums/o492/manolitogn/1960-zorro-09.jpg</thumbnail>
+		 <fanart>http://i1144.photobucket.com/albums/o492/manolitogn/1960-zorro-09.jpg</fanart>
+</item>
+
+<!--- EL VIRGINIANO ######## --->
+<item>
+<title>El virginiano</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.hispashare.com/images/cover.php?id=20437</thumbnail>
+		 <fanart>http://www.hispashare.com/images/cover.php?id=20437</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/el-virginiano-1962-41124/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/el-virginiano-1962-41124/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.hispashare.com/images/cover.php?id=20437</thumbnail>
+		 <fanart>http://www.hispashare.com/images/cover.php?id=20437</fanart>
+</item>
+
+<!--- HECHIZADA ######## --->
+<item>
+<title>Hechizada</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://s-media-cache-ak0.pinimg.com/originals/52/3e/f0/523ef0535883f83c735f03e07cc00005.jpg</thumbnail>
+		 <fanart>https://s-media-cache-ak0.pinimg.com/originals/52/3e/f0/523ef0535883f83c735f03e07cc00005.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/embrujada-32112/list,1,11</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/embrujada-32112/list,1,11</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/52/3e/f0/523ef0535883f83c735f03e07cc00005.jpg</thumbnail>
+		 <fanart>https://s-media-cache-ak0.pinimg.com/originals/52/3e/f0/523ef0535883f83c735f03e07cc00005.jpg</fanart>
+</item>
+
+<!--- LA CHICA CIPOL ######## --->
+<item>
+<title>La Chica C.I.P.O.L</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://2.bp.blogspot.com/-SPqbxoKCy-k/VXA1QKLkH6I/AAAAAAAAAy0/091qB5mQ2M0/s640/lcdc.jpg</thumbnail>
+	    <fanart>http://2.bp.blogspot.com/-SPqbxoKCy-k/VXA1QKLkH6I/AAAAAAAAAy0/091qB5mQ2M0/s640/lcdc.jpg</fanart>
+       ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/la-chica-de-la-c-i-p-o-l-30802/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.m/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.m/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.m/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/la-chica-de-la-c-i-p-o-l-30802/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-SPqbxoKCy-k/VXA1QKLkH6I/AAAAAAAAAy0/091qB5mQ2M0/s640/lcdc.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-SPqbxoKCy-k/VXA1QKLkH6I/AAAAAAAAAy0/091qB5mQ2M0/s640/lcdc.jpg</fanart>
+</item>
+
+<!--- LA CONQUISTA DEL OESTE ########  --->
+<item>
+<title>La Conquista Del Oeste (1976)</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://image9.casadellibro.com/m/ig/9/2742299.jpg</thumbnail>
+      <fanart>http://image9.casadellibro.com/m/ig/9/2742299.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/la-conquista-del-oeste-1976-35368/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/la-conquista-del-oeste-1976-35368/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://image9.casadellibro.com/m/ig/9/2742299.jpg</thumbnail>
+<fanart>http://image9.casadellibro.com/m/ig/9/2742299.jpg</fanart>
+</item>
+
+<!--- LA DIMENSION DESCONOCIDA ########  --->
+<item>
+<title>La Dimension Desconocida</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.tumbaabierta.com/wp-content/uploads/2012/11/tumbaabierta_atelier_twitlight_zone.jpg</thumbnail>
+		 <fanart>http://www.tumbaabierta.com/wp-content/uploads/2012/11/tumbaabierta_atelier_twitlight_zone.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/jml/twilight-zone-720p-catalan-latino-ingles-subs-28214/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/jml/twilight-zone-720p-catalan-latino-ingles-subs-28214/list,1,5</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.tumbaabierta.com/wp-content/uploads/2012/11/tumbaabierta_atelier_twitlight_zone.jpg</thumbnail>
+		 <fanart>http://www.tumbaabierta.com/wp-content/uploads/2012/11/tumbaabierta_atelier_twitlight_zone.jpg</fanart>
+</item>
+
+<!--- LA FAMILIA INGALS (LA CASA EN LA PRADERA) ########  --->
+
+<item>
+<title>La Familia Ingalls (La Casa En La Pradera)</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>https://famingallslatino.files.wordpress.com/2015/04/ingalls-temporada1.png</thumbnail>
+		<fanart>http://i2.cdn.cnn.com/cnnnext/dam/assets/140507180806-lhotp-01-horizontal-large-gallery.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/marcos20/la-familia-ingalls-la-casa-en-la-praderalat-x9t-28440/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/marcos20/la-familia-ingalls-la-casa-en-la-praderalat-x9t-28440/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://famingallslatino.files.wordpress.com/2015/04/ingalls-temporada1.png</thumbnail>
+<fanart>http://i2.cdn.cnn.com/cnnnext/dam/assets/140507180806-lhotp-01-horizontal-large-gallery.jpg</fanart>
+</item>
+
+<!--- LA ISLA DE GILLIGAN ######## --->
+<item>
+<title>La Isla de Gilligan</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://petersen.cl/2630/la-isla-de-gilligan-1-temporada.jpg</thumbnail>
+		 <fanart>http://petersen.cl/2630/la-isla-de-gilligan-1-temporada.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/la-isla-de-gilligan-30759/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/la-isla-de-gilligan-30759/list,1,5</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://petersen.cl/2630/la-isla-de-gilligan-1-temporada.jpg</thumbnail>
+		 <fanart>http://petersen.cl/2630/la-isla-de-gilligan-1-temporada.jpg</fanart>
+<info></info>
+</item>
+
+<!--- LA NOVICIA VOLADORA ######## --->
+<item>
+  <title>La Novicia Voladora</title>
+  <link>ignorame</link> 
+  <externallink>https://www.dropbox.com/s/vd92lvcn53y23hx/SERIES%20RETRO%20LA%20NOVICIA%20VOLADORA.m3u?dl=1</externallink> 
+  <referer>/////////////////////////////////////////////////////</referer>
+ <thumbnail>http://pics.filmaffinity.com/the_flying_nun_tv_series-586597514-mmed.jpg</thumbnail>
+   <fanart>http://pics.filmaffinity.com/the_flying_nun_tv_series-586597514-mmed.jpg</fanart>
+</item>
+
+<!--- LOS AÑOS MARAVILLOSOS ########  --->
+<item>
+<title>Los años Maravillosos</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+       <thumbnail>http://pics.filmaffinity.com/the_wonder_years_tv_series-255647862-large.jpg</thumbnail>
+	   <fanart>http://pics.filmaffinity.com/the_wonder_years_tv_series-255647862-large.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cielos/los-anos-maravillosos-temp-1-6-latino-38021/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cielos/los-anos-maravillosos-temp-1-6-latino-38021/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://pics.filmaffinity.com/the_wonder_years_tv_series-255647862-large.jpg</thumbnail>
+<fanart>http://pics.filmaffinity.com/the_wonder_years_tv_series-255647862-large.jpg</fanart>
+</item>
+
+<!--- LOS DUKES DE HAZZARD ########  --->
+<item>
+<title>Los Dukes De Hazzard</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+       <thumbnail>http://fanart.tv/fanart/tv/77748/clearlogo/TheDukesofHazzard-77748.png</thumbnail>
+	   <fanart>http://topratedviral.com/wp-content/uploads/2016/03/02/09/14/76732-smallv2-304491.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/el-sheriff-chiflado-t1-50186</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/el-sheriff-chiflado-t1-50186</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://fanart.tv/fanart/tv/77748/clearlogo/TheDukesofHazzard-77748.png</thumbnail>
+	   <fanart>http://topratedviral.com/wp-content/uploads/2016/03/02/09/14/76732-smallv2-304491.jpg</fanart>
+</item>
+
+<!--- LOS TRES CHIFLADOS ########  --->
+
+<item>
+<title>Los Tres Chiflados</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/en/a/ae/Healthywealthy.jpg</thumbnail>
+		<fanart>http://farm9.staticflickr.com/8736/17114671036_d2802cd03b_b.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/MaynorCabrera/lagarto-puerto-barrios-24975/list,1,7</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/MaynorCabrera/lagarto-puerto-barrios-24975/list,1,7</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/a/ae/Healthywealthy.jpg</thumbnail>
+<fanart>http://farm9.staticflickr.com/8736/17114671036_d2802cd03b_b.jpg</fanart>
+</item>
+
+<!--- MANIMAL ########  --->
+<item>
+<title>Manimal</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+       <thumbnail>http://popdose.com/wp-content/uploads/ManimalCover300dpi_3c2844ab-3b71-e511-9442-0ad9f5e1f797_lg.jpg</thumbnail>
+	   <fanart>http://popdose.com/wp-content/uploads/ManimalCover300dpi_3c2844ab-3b71-e511-9442-0ad9f5e1f797_lg.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/manimal-24816/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/manimal-24816/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://popdose.com/wp-content/uploads/ManimalCover300dpi_3c2844ab-3b71-e511-9442-0ad9f5e1f797_lg.jpg</thumbnail>
+<fanart>http://popdose.com/wp-content/uploads/ManimalCover300dpi_3c2844ab-3b71-e511-9442-0ad9f5e1f797_lg.jpg</fanart>
+</item>
+
+<!--- MAC GYVER ########  --->
+<item>
+<title>Mac Gyver</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/g1Xvlgm.jpg</thumbnail>
+		 <fanart>http://i.imgur.com/g1Xvlgm.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/macgyver-23956/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/macgyver-23956/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/g1Xvlgm.jpg</thumbnail>
+		 <fanart>http://i.imgur.com/g1Xvlgm.jpg</fanart>
+</item>
+
+<!--- PERRY MASON ########  --->
+<item>
+<title>Perry Mason</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://image.tmdb.org/t/p/w185/i8yBB4nmLldK6gK6OSzLlsthz7G.jpg</thumbnail>
+      <fanart>http://image.tmdb.org/t/p/w185/i8yBB4nmLldK6gK6OSzLlsthz7G.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/perry-mason-1957-40918/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/perry-mason-1957-40918/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://image.tmdb.org/t/p/w185/i8yBB4nmLldK6gK6OSzLlsthz7G.jpg</thumbnail>
+      <fanart>http://image.tmdb.org/t/p/w185/i8yBB4nmLldK6gK6OSzLlsthz7G.jpg</fanart>
+</item>
+
+<!--- RIN TIN TIN ########  --->
+<item>
+<title>Rin Tin Tin (1954)</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://image.tmdb.org/t/p/w185/6MsYR5WduVQYaNnjnbr2sqIPHEP.jpg</thumbnail>
+        <fanart>http://image.tmdb.org/t/p/w185/6MsYR5WduVQYaNnjnbr2sqIPHEP.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/rin-tin-tin-1954-39247/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/rin-tin-tin-1954-39247/list,1,5</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://image.tmdb.org/t/p/w185/6MsYR5WduVQYaNnjnbr2sqIPHEP.jpg</thumbnail>
+<fanart>http://image.tmdb.org/t/p/w185/6MsYR5WduVQYaNnjnbr2sqIPHEP.jpg</fanart>
+</item>
+
+<!--- SPACE 1999 ########  --->
+<item>
+<title>Space 1999</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://2.bp.blogspot.com/-H8Alfm6F-ds/VOcgF-JBxfI/AAAAAAAAPdY/MpsRcyGP9nM/s1600/Space%2B1999%2Bdvd1.jpg</thumbnail>
+		 <fanart>http://2.bp.blogspot.com/-H8Alfm6F-ds/VOcgF-JBxfI/AAAAAAAAPdY/MpsRcyGP9nM/s1600/Space%2B1999%2Bdvd1.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/space-1999-el-rockero-40977/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/space-1999-el-rockero-40977/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-H8Alfm6F-ds/VOcgF-JBxfI/AAAAAAAAPdY/MpsRcyGP9nM/s1600/Space%2B1999%2Bdvd1.jpg</thumbnail>
+		 <fanart>http://2.bp.blogspot.com/-H8Alfm6F-ds/VOcgF-JBxfI/AAAAAAAAPdY/MpsRcyGP9nM/s1600/Space%2B1999%2Bdvd1.jpg</fanart>
+</item>
+
+
+<!--- SABRINA: LA BRUJA ADOLESCENTE ########  --->
+<item>
+<title>Sabrina: La Bruja Adolescente</title>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NjYwMjEwMV5BMl5BanBnXkFtZTcwMjE5MDU1MQ@@._V1_.jpg</thumbnail>
+<fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NjYwMjEwMV5BMl5BanBnXkFtZTcwMjE5MDU1MQ@@._V1_.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/kkyeukym96b98wz/SERIES%20RETRO%20SABRINA.xml?dl=1</externallink>
+</item>
+
+<!--- SUPERAGENTE 86 ########  --->
+<item>
+<title>Superagente 86</title>
+<thumbnail>https://fanart.tv/fanart/tv/70386/clearlogo/getsmart-70386.png</thumbnail>
+<fanart>http://images.zap2it.com/assets/p183916_b_h3_aa/get-smart.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dropbox.com/s/n49i9i22ar872d3/SERIES%20RETRO%20SUPERAGENTE%2086.xml?dl=1</externallink>
+</item>
+
+<!--- TIERRA DE GIGANTES ########  --->
+<item>
+<title>Tierra De Gigantes</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+         <thumbnail>https://i.ytimg.com/vi/G3Zn3G8qEQw/maxresdefault.jpg</thumbnail>
+		 <fanart>https://i.ytimg.com/vi/G3Zn3G8qEQw/maxresdefault.jpg</fanart>
+		
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/catoal/tierra-de-gigantes-35478/list,1,33</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/catoal/tierra-de-gigantes-35478/list,1,33</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.ytimg.com/vi/G3Zn3G8qEQw/maxresdefault.jpg</thumbnail>
+		 <fanart>https://i.ytimg.com/vi/G3Zn3G8qEQw/maxresdefault.jpg</fanart>
+<info></info>
+</item>

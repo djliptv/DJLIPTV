@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>[COLOR white] LISTA [/COLOR][COLOR cyan]ADRYANLIST [/COLOR][COLOR white]ADDON[/COLOR]</title>
+<fanart>http://adryanlist.org/adryan/img/alist.jpg</fanart>
+<thumbnail>http://adryanlist.org/adryan/img/alist.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://adryanlist.info</externallink>
+</item>
+ 
+<item>
+<title>[COLOR white] LISTA [/COLOR][COLOR cyan]ADRYANLIST[/COLOR][COLOR white] IPTV[/COLOR]</title>
+<fanart>http://adryanlist.org/adryan/img/alist.jpg</fanart>
+<thumbnail>http://adryanlist.org/adryan/img/alist.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tp.adryanlist.org</externallink>
+</item>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>Antes Muerta que Lichita</name>
+<thumbnail>http://www.novela.pl/wp-content/uploads/2015/08/antesmuertaquelichita-poster.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-d2rEzT2Pqyw/VeJCCcFeJVI/AAAAAAAAAg8/bPGstTNG2lw/s1600/ANTES-MUERTA-QUE-LICHITA%2Bposter.jpg</fanart>
+<items>
+
+<item>
+<title>[B][COLOR gold][COLOR pink][/COLOR]Antes Muerta que Lichita[/B]</title> @mexflix{
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.novela.pl/wp-content/uploads/2015/08/antesmuertaquelichita-poster.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/antes-muerta-que-lichita-completa-41836/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>  {{mexflix]]
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/FLAYSINA/antes-muerta-que-lichita-completa-41836/list,1,5</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>  [[[{{mexflix}}]]]
+<thumbnail>http://www.novela.pl/wp-content/uploads/2015/08/antesmuertaquelichita-poster.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-d2rEzT2Pqyw/VeJCCcFeJVI/AAAAAAAAAg8/bPGstTNG2lw/s1600/ANTES-MUERTA-QUE-LICHITA%2Bposter.jpg</fanart>
+</item>
+</items>
+</channel>

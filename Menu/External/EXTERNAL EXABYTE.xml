@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+ 
+ <item>
+<title>[COLOR white] LISTAS [/COLOR][COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR]</title>
+<thumbnail>https://i2.wp.com/blog.exabytetv.info/wp-content/uploads/2016/09/icontex.png?fit=1022%2C1022</thumbnail>
+<fanart>http://mundokodi.com/wp-content/uploads/2016/06/portada_exabyte.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink></externallink>
+</item>
+ 
+<item>
+<title>[COLOR white] VISITA | WWW.[/COLOR][COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red]TV[/COLOR][COLOR white].INFO |[/COLOR]</title>
+<thumbnail>https://i2.wp.com/blog.exabytetv.info/wp-content/uploads/2016/09/icontex.png?fit=1022%2C1022</thumbnail>
+<fanart>http://mundokodi.com/wp-content/uploads/2016/06/portada_exabyte.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink></externallink>
+</item>
+ 
+<item>
+<title>[COLOR white]------------------------------------------------------------[/COLOR]</title>
+<thumbnail>https://i2.wp.com/blog.exabytetv.info/wp-content/uploads/2016/09/icontex.png?fit=1022%2C1022</thumbnail>
+<fanart>http://mundokodi.com/wp-content/uploads/2016/06/portada_exabyte.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink></externallink>
+</item>
+
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] MOVIES [AUDIO LATINO][/COLOR]</title>
+<thumbnail>https://i2.wp.com/blog.exabytetv.info/wp-content/uploads/2016/09/icontex.png?fit=1022%2C1022</thumbnail>
+<fanart>http://mundokodi.com/wp-content/uploads/2016/06/portada_exabyte.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://exabytetv.info/peliculas.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] SERIES [AUDIO LATINO][/COLOR]</title>
+<thumbnail>https://i2.wp.com/blog.exabytetv.info/wp-content/uploads/2016/09/icontex.png?fit=1022%2C1022</thumbnail>
+<fanart>http://mundokodi.com/wp-content/uploads/2016/06/portada_exabyte.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://exabytetv.info/series.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LISTA[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://exabytetv.info/lista.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LISTAX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://exabytetv.info/listax.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] SMART TV[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/smarttv.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] CABLE LATINO SD - SGB[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://exabytetv.info/LATIN.m3u</externallink>
+</item>
+  
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LATINO SD - SGB[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/sgeo.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] TODO[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/todo.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+  
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LLD[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/LA1.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LD[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/LA2.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] SD[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/LA3.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] HD[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/LA4.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LLD - MX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/cgeo1.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LD - MX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/cgeo2.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] SD - MX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/cgeo3.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] HD - MX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/cgeo4.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LATINOS + USA SATELITE[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/AMERICA.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] TOTALPLAY + SATELITE MX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/CABLEMX.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] USA CHANNELS[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/USA.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] SPAIN CHANNELS[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/ESP.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR white]----------[/COLOR][COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV XXX[/COLOR][COLOR white]----------[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink></externallink>
+</item>
+ 
+ <item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LATINO SDX - SGB[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/sgeox.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] TODOX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/todox.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LLDX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/LA1X.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LDX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/LA2X.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] SDX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/LA3X.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] HDX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/LA4X.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LLDX - MX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/cgeo1x.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LDX - MX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/cgeo2x.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] SDX - MX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/cgeo3x.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] HDX - MX[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/cgeo4x.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LATINOS + USA SATELITE X[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/AMERICAX.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+ 
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] TOTALPLAY + SATELITE MX X[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/CABLEMXX.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>

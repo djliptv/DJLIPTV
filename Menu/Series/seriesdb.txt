@@ -1,0 +1,50 @@
+DYJ:"Drake y Josh Temporada 1" url:"http://copiapop.com/avaleb/drake-y-josh-temporada-1-69873" img:"http://2.bp.blogspot.com/-QuKG-aRHPsM/T6xCri9b3wI/AAAAAAAAA6o/7v_4nytueEg/s1600/Render+drake+e+josh.png" bkg:"http://2.bp.blogspot.com/-UsuoapxTcA0/T5ikWNeo_wI/AAAAAAAANyk/dRwT6GdDsJw/s1600/Drake_And_Josh_Wallpaper__by_PowderThorn.jpg"; server:"http://copiapop.com"
+DYJ:"Drake y Josh Temporada 2" url:"http://copiapop.com/avaleb/drake-y-josh-temporada-2-70200" img:"http://2.bp.blogspot.com/-QuKG-aRHPsM/T6xCri9b3wI/AAAAAAAAA6o/7v_4nytueEg/s1600/Render+drake+e+josh.png" bkg:"http://2.bp.blogspot.com/-UsuoapxTcA0/T5ikWNeo_wI/AAAAAAAANyk/dRwT6GdDsJw/s1600/Drake_And_Josh_Wallpaper__by_PowderThorn.jpg"; server:"http://copiapop.com"
+DYJ:"Drake y Josh Temporada 3" url:"http://copiapop.com/avaleb/drake-y-josh-temporada-3-70249" img:"http://2.bp.blogspot.com/-QuKG-aRHPsM/T6xCri9b3wI/AAAAAAAAA6o/7v_4nytueEg/s1600/Render+drake+e+josh.png" bkg:"http://2.bp.blogspot.com/-UsuoapxTcA0/T5ikWNeo_wI/AAAAAAAANyk/dRwT6GdDsJw/s1600/Drake_And_Josh_Wallpaper__by_PowderThorn.jpg"; server:"http://copiapop.com"
+DYJ:"Drake y Josh Temporada 4" url:"http://copiapop.com/avaleb/drake-y-josh-temporada-4-70256" img:"http://2.bp.blogspot.com/-QuKG-aRHPsM/T6xCri9b3wI/AAAAAAAAA6o/7v_4nytueEg/s1600/Render+drake+e+josh.png" bkg:"http://2.bp.blogspot.com/-UsuoapxTcA0/T5ikWNeo_wI/AAAAAAAANyk/dRwT6GdDsJw/s1600/Drake_And_Josh_Wallpaper__by_PowderThorn.jpg"; server:"http://copiapop.com"
+
+PB:"Prison Break - Season 1" url:"http://copiapop.com/avaleb/prison-break-temporada-1-71143" img:"https://upload.wikimedia.org/wikipedia/commons/c/cd/Prisonbreaklogo.png" bkg:"https://fanart.tv/fanart/tv/75340/seasonposter/prison-break-5352d88491590.jpg"; server:"http://copiapop.com"
+PB:"Prison Break - Season 2" url:"http://copiapop.com/avaleb/prison-break-temporada-2-71228" img:"https://upload.wikimedia.org/wikipedia/commons/c/cd/Prisonbreaklogo.png" bkg:"https://fanart.tv/fanart/tv/75340/seasonposter/prison-break-5352d88fee894.jpg"; server:"http://copiapop.com"
+PB:"Prison Break - Season 3" url:"http://copiapop.com/avaleb/prison-break-temporada-3-71387" img:"https://upload.wikimedia.org/wikipedia/commons/c/cd/Prisonbreaklogo.png" bkg:"https://annieinmn.wordpress.com/files/2008/04/pb3.jpg"; server:"http://copiapop.com"
+PB:"Prison Break - Season 4" url:"http://copiapop.com/avaleb/prison-break-temporada-4-71520" img:"https://upload.wikimedia.org/wikipedia/commons/c/cd/Prisonbreaklogo.png" bkg:"https://fanart.tv/fanart/tv/75340/seasonposter/prison-break-5352d8a521cce.jpg"; server:"http://copiapop.com"
+PB:"Prison Break - Season 5" url:"http://copiapop.com/djl/pbs5-111283" img:"https://upload.wikimedia.org/wikipedia/commons/c/cd/Prisonbreaklogo.png" bkg:"https://s-media-cache-ak0.pinimg.com/236x/d6/24/79/d62479b73e72dc2a312393eef443e9ab.jpg"; server:"http://copiapop.com"
+
+
+GOT:"Juego de Tronos [Castellano]" url:"http://diskokosmiko.mx/trivianita/juego-de-tronos-castellanoel-rockero-31788" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwOTcxODc2Ml5BMl5BanBnXkFtZTgwMjMyMDk2MTI@._V1_SX300.jpg" bkg:"http://0.media.dorkly.cvcdn.com/61/82/220876d476cf6ea27101d80913796c6a.jpg"; server:"http://diskokosmiko.mx"
+Name:"Juego de Tronos [Castellano]" url:"http://diskokosmiko.mx/trivianita/juego-de-tronos-castellanoel-rockero-31788" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwOTcxODc2Ml5BMl5BanBnXkFtZTgwMjMyMDk2MTI@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"Flash [Castellano] " url:"http://diskokosmiko.mx/garroteca/the-flash-47866" img:"https://s-media-cache-ak0.pinimg.com/originals/22/72/09/2272099b26e58c601cc4fa2c85f6e64d.jpg"; server:"http://diskokosmiko.mx"
+Name:"Gotham Temporada 1  [Castellano]" url:"http://diskokosmiko.mx/chicho306/gotham-t1-34140" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjI5MjAwNTg0NF5BMl5BanBnXkFtZTgwNDk1NTk4OTE@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"Mr Robot Temporada 1 " url:"http://diskokosmiko.mx/SeriesHD/mr-robot-t1-dual-34884" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzMDE2MzI4MF5BMl5BanBnXkFtZTgwNTkxODgxOTE@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"Marco Polo Temporada 1 " url:"http://diskokosmiko.mx/SeriesHD/marco-polo-t1-34873" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjM5NTk1MTc4OF5BMl5BanBnXkFtZTgwNTE5ODIxOTE@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"Marco Polo Temporada 2" url:"http://diskokosmiko.mx/SeriesHD/marco-polo-t2-34872" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjM5NTk1MTc4OF5BMl5BanBnXkFtZTgwNTE5ODIxOTE@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"The Leftovers  T1" url:"http://diskokosmiko.mx/SeriesHD/the-leftovers-t1-34957" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BNzA5NDE0ODExMF5BMl5BanBnXkFtZTgwODQzNzY3MTI@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"The Leftovers  T2" url:"http://diskokosmiko.mx/SeriesHD/the-leftovers-t2-34959" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BNzA5NDE0ODExMF5BMl5BanBnXkFtZTgwODQzNzY3MTI@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"The Big bang Theory [Completa]" url:"http://diskokosmiko.mx/darioman/the-big-bang-theory-48854" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyNDMxNjQyN15BMl5BanBnXkFtZTgwNzA4NDQwMDI@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"12 Monkeys" url:"http://diskokosmiko.mx/trivianita/12-monos-el-rockero-50205" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTkwOTcxNzMzOV5BMl5BanBnXkFtZTgwODYxNjg0ODE@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"24 Legacy" url:"http://partagora.com/chicho306/24-legacy-dual-t1-65707/" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4OTI1NTA2MV5BMl5BanBnXkFtZTgwOTc2MzQ4MDI@._V1_SX300.jpg"; server:"http://partagora.com"
+Name:"Absuelto Temporada 1" url:"http://partagora.com/chicho306/absuelto-t1-68893" img:"http://ia.media-imdb.com/images/M/MV5BMTkzNjIwNjM0MF5BMl5BanBnXkFtZTcwNzgwODg0MQ@@._V1_SX300.jpg"; server:"http://partagora.com"
+Name:"Absuelto Temporada 2" url:"http://partagora.com/chicho306/absuelto-t2-68896" img:"http://ia.media-imdb.com/images/M/MV5BMTkzNjIwNjM0MF5BMl5BanBnXkFtZTcwNzgwODg0MQ@@._V1_SX300.jpg"; server:"http://partagora.com"
+Name:"Agents of Shield T1" url:"http://partagora.com/chicho306/marvel-agentes-of-shield-t1-66682" img:""; server:"http://partagora.com"
+Name:"Juego de Tronos T1 [Castellano]" url:"http://diskokosmiko.mx/monnet/juegos-de-tronos-serie-temporada-1-completo-27785" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwOTcxODc2Ml5BMl5BanBnXkFtZTgwMjMyMDk2MTI@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"Juego de Tronos T2 [Castellano]" url:"http://diskokosmiko.mx/monnet/juego-de-tronos-serie-temporada-2-completa-27784/" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwOTcxODc2Ml5BMl5BanBnXkFtZTgwMjMyMDk2MTI@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
+Name:"Por Trece Razones [Castellano]" url:"http://partagora.com/chicho306/por-trece-razones-dual-t1-71761" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BYTFmNzRlNWYtMmFmNi00ZTFiLWJhODgtOGM5ODQ5NTgxZWUwL2ltYWdlXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_SX300.jpg"; server:"http://partagora.com"
+Name:"Trece Razones Porque [Latino]" url:"http://partagora.com/rufotheone/13razonesporque-72825" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BYTFmNzRlNWYtMmFmNi00ZTFiLWJhODgtOGM5ODQ5NTgxZWUwL2ltYWdlXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_SX300.jpg"; server:"http://partagora.com"
+
+
+
+
+
+Name:" " url:"" img:"" bkg:""; server:""
+
+
+
+
+
+
+
+
+
+
+
+
+

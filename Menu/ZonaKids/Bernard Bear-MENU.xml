@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR white] BERNARD BEAR -[COLOR deepskyblue] TEMPORADA 1[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>https://s-media-cache-ak0.pinimg.com/736x/c4/ef/2f/c4ef2fd2910ffda413504eba6ff24285.jpg</fanart>
+<thumbnail>http://images1.amebatv.com/contenticon/bernard_200.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://s-media-cache-ak0.pinimg.com/736x/c4/ef/2f/c4ef2fd2910ffda413504eba6ff24285.jpg</fanart>
+						<thumbnail>http://images1.amebatv.com/contenticon/bernard_200.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLKLzBLbyOE9vMP4ZQaylo9gst_fgVTS01</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR white] BERNARD BEAR -[COLOR deepskyblue] TEMPORADA 2[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>https://s-media-cache-ak0.pinimg.com/736x/c4/ef/2f/c4ef2fd2910ffda413504eba6ff24285.jpg</fanart>
+<thumbnail>http://images1.amebatv.com/contenticon/bernard_200.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://s-media-cache-ak0.pinimg.com/736x/c4/ef/2f/c4ef2fd2910ffda413504eba6ff24285.jpg</fanart>
+						<thumbnail>http://images1.amebatv.com/contenticon/bernard_200.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLKLzBLbyOE9u1GYfAp6BL_e5zLmlTGoYP</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR white] BERNARD BEAR -[COLOR deepskyblue] TEMPORADA 3[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>https://s-media-cache-ak0.pinimg.com/736x/c4/ef/2f/c4ef2fd2910ffda413504eba6ff24285.jpg</fanart>
+<thumbnail>http://images1.amebatv.com/contenticon/bernard_200.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://s-media-cache-ak0.pinimg.com/736x/c4/ef/2f/c4ef2fd2910ffda413504eba6ff24285.jpg</fanart>
+						<thumbnail>http://images1.amebatv.com/contenticon/bernard_200.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLKLzBLbyOE9v87wMlANiaaI824wceKP94</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR white] BERNARD BEAR -[COLOR deepskyblue] BEST MOMENTS[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>https://s-media-cache-ak0.pinimg.com/736x/c4/ef/2f/c4ef2fd2910ffda413504eba6ff24285.jpg</fanart>
+<thumbnail>http://images1.amebatv.com/contenticon/bernard_200.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://s-media-cache-ak0.pinimg.com/736x/c4/ef/2f/c4ef2fd2910ffda413504eba6ff24285.jpg</fanart>
+						<thumbnail>http://images1.amebatv.com/contenticon/bernard_200.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLKLzBLbyOE9veVCWDrHsF_qd-2y8elTRQ</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR white] BERNARD BEAR -[COLOR deepskyblue] COLLECTION[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>https://s-media-cache-ak0.pinimg.com/736x/c4/ef/2f/c4ef2fd2910ffda413504eba6ff24285.jpg</fanart>
+<thumbnail>http://images1.amebatv.com/contenticon/bernard_200.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://s-media-cache-ak0.pinimg.com/736x/c4/ef/2f/c4ef2fd2910ffda413504eba6ff24285.jpg</fanart>
+						<thumbnail>http://images1.amebatv.com/contenticon/bernard_200.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLKLzBLbyOE9vUq8SxVXsX2W0diykafivr</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR white] BERNARD BEAR -[COLOR deepskyblue] CLUMSY BERNARD![/COLOR]</title>
+<link>$doregex[makelist]</link>
+<fanart>https://s-media-cache-ak0.pinimg.com/736x/c4/ef/2f/c4ef2fd2910ffda413504eba6ff24285.jpg</fanart>
+<thumbnail>http://images1.amebatv.com/contenticon/bernard_200.png</thumbnail>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <fanart>https://s-media-cache-ak0.pinimg.com/736x/c4/ef/2f/c4ef2fd2910ffda413504eba6ff24285.jpg</fanart>
+						<thumbnail>http://images1.amebatv.com/contenticon/bernard_200.png</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLKLzBLbyOE9sEOob_s-5lHUJgaVybxA_Y</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+
+
+
+<item>
+<title>[COLOR green]ME[COLOR white]XFL[COLOR red]IX[/COLOR][COLOR lime]*[/COLOR][COLOR white][COLOR red] =====>> Programas para adelgazar [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://i.ytimg.com/vi/40FNCUZ2Uc0/hqdefault.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLYkuDSga-2BqMuAaZM_ZEBbM3D41zQYWm</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+
+
+
+
+
+
+
+<item>
+<title>[COLOR green]ME[COLOR white]XFL[COLOR red]IX[/COLOR][COLOR lime]*[/COLOR][COLOR white][COLOR red] =====>> gymvirtual  [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://yt3.ggpht.com/-b0NtN-R0N6c/AAAAAAAAAAI/AAAAAAAAAAA/_4rUZxg5lK8/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLReDUkUQG7xpQIEnAv0_o0c5MEh5TJE_a</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+
+
+
+
+
+
+
+<item>
+<title>[COLOR green]ME[COLOR white]XFL[COLOR red]IX[/COLOR][COLOR lime]*[/COLOR][COLOR white][COLOR red] =====>> Mixtos Ejercicios  [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>http://cdn.expansion.mx/media/2013/02/25/ejercicio-grupo.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PL93n2J8g7HUUpGAUUdukhld8oYIS3zu_s</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR green]ME[COLOR white]XFL[COLOR red]IX[/COLOR][COLOR lime]*[/COLOR][COLOR white][COLOR red] =====>> Zumba [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>http://www.maplevalleywa.gov/Home/ShowImage?id=2244</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PL93n2J8g7HUWKp1noW1Jseet2zFFZx9y4</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR green]ME[COLOR white]XFL[COLOR red]IX[/COLOR][COLOR lime]*[/COLOR][COLOR white][COLOR red] =====>> Dance Kids 1 [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>http://img.gamefaqs.net/box/0/8/9/198089_front.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PLdCVm2nyku8k1x16X6lsoDIPbn3hmdwn2</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR green]ME[COLOR white]XFL[COLOR red]IX[/COLOR][COLOR lime]*[/COLOR][COLOR white][COLOR red] =====>> Just Dance Kids  [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>https://images-na.ssl-images-amazon.com/images/I/61RyFPDpMML.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PL150333554B4B1B00</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR green]ME[COLOR white]XFL[COLOR red]IX[/COLOR][COLOR lime]*[/COLOR][COLOR white][COLOR red] =====>> Dance Juego  [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+                        <thumbnail>http://vignette1.wikia.nocookie.net/justdance/images/f/fe/Just_Dance_logo.jpg/revision/latest?cb=20131103131353</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>https://www.youtube.com/playlist?list=PL93n2J8g7HUVBkvMJXw89B0SWvkGbkT9_</page>
+             <cookieJar></cookieJar>
+</regex>
+</item>

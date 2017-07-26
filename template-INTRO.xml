@@ -1,0 +1,84 @@
+<channels>
+	<channels_info>
+		<title>[COLOR orange]DJL[/COLOR][COLOR white] IPTV[/COLOR][COLOR gold] ADDON[/COLOR]</title>
+		<genre>IPTV</genre>
+		<description>Kodi Addon IPTV</description>
+		<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+		<date>01.01.2017</date>
+		<credits>DJL IPTV</credits>
+	</channels_info>
+
+	<channel>
+		<name>[COLOR white]BIENVENIDOS A [/COLOR][COLOR orange][COLOR orange]DJL[/COLOR][COLOR white] IPTV[/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+		<link>http://ignorame</link>
+		<externallink>http://pastebin.com</externallink>
+	</channel>
+
+	<channel>
+		<name>[COLOR cyan]Sitio WEB[/COLOR][COLOR white]:[/COLOR][COLOR blue] [COLOR deepskyblue] http://bit.ly/DJLIPTVWEB[/COLOR]</name>
+		<thumbnail>http://www.nktphotonics.com/wp-content/uploads/2015/06/www.gif</thumbnail>
+		<fanart>http://opanorama.pt/wp-content/uploads/2017/02/WWW.jpg</fanart>
+		<link>http://ignorame</link>
+		<externallink>http://pastebin.com</externallink>
+	</channel>
+ 
+	<channel>
+		<name>[COLOR cyan]Telegram[/COLOR][COLOR white]:[/COLOR][COLOR blue] [COLOR deepskyblue] @djliptv[/COLOR]</name>
+		<thumbnail>http://i.utdstc.com/screen/eal/2016/04/google-compra-telegram-3.jpg</thumbnail>
+		<fanart>http://i.utdstc.com/screen/eal/2016/04/google-compra-telegram-3.jpg</fanart>
+		<link>http://ignorame</link>
+		<externallink>http://pastebin.com</externallink>
+	</channel>
+
+	<channel>
+		<name>[COLOR cyan]E-Mail[/COLOR][COLOR white]:[/COLOR][COLOR blue] [COLOR deepskyblue] djliptv@gmail.com[/COLOR]</name>
+		<thumbnail>http://definicion.de/wp-content/uploads/2014/09/smtp-1.jpg</thumbnail>
+		<fanart>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQHZZUX_uZ8P31SMvAgGUkt6LbNvTXq-JbJdDof9RUycGKHXiVK</fanart>
+		<link>http://ignorame</link>
+		<externallink>http://pastebin.com</externallink>
+	</channel>
+ 
+	<channel>
+		<name>[COLOR cyan]Facebook[/COLOR][COLOR white]:[/COLOR][COLOR blue] [COLOR deepskyblue] https://www.facebook.com/groups/djliptv/[/COLOR]</name>
+		<thumbnail>https://blog.addthiscdn.com/wp-content/uploads/2015/11/facebook_2.png</thumbnail>
+		<fanart>http://socialgeek.co/wp-content/uploads/2015/11/facebook-me-gusta1.jpg</fanart>
+		<link>http://ignorame</link>
+		<externallink>http://pastebin.com</externallink>
+	</channel>
+
+	<channel>
+		<name>[COLOR white]==========================[/COLOR]</name>
+		<thumbnail>https://www.tpg.com.au/images/IPTV_MainBanner.jpg</thumbnail>
+		<fanart>http://kodi.tv/wp-content/uploads/banner-sbs-11-600x336.png</fanart>
+		<link></link>http://ignoreme
+		<externallink>http://pastebin.com/</externallink>
+	</channel>
+
+	<channel>
+		<name>[COLOR yellow]=====> [/COLOR][COLOR orange]INGRESAR A DJL IPTV [/COLOR][B][COLOR white]AQUI [/COLOR][/B][COLOR yellow]<=====[/COLOR]</name>
+		<thumbnail>https://www.tpg.com.au/images/IPTV_MainBanner.jpg</thumbnail>
+		<fanart>http://kodi.tv/wp-content/uploads/banner-sbs-11-600x336.png</fanart>
+		<link></link>http://ignoreme
+		<externallink>AQUI VA EL LINK</externallink>
+	</channel>
+	
+	<channel>
+		<name>[COLOR yellow]=====> [/COLOR][COLOR orange]INGRESAR ZONA KIDS [/COLOR][B][COLOR white]AQUI [/COLOR][/B][COLOR yellow]<=====[/COLOR]</name>
+		<thumbnail>http://us.napster.com/assets/runway/kidsmode/kids_logo_x2-2cc464484bd057ac2638e40f988c3b91.png</thumbnail>
+		<fanart>http://img.clipartall.com/computer-20clipart-20for-20kids-kids-clipart-3097_1833.gif</fanart>
+		<link></link>http://ignoreme
+		<externallink>AQUI VA EL LINK</externallink>
+	</channel>
+
+	<channel>
+		<name>[COLOR white]==========================[/COLOR]</name>
+		<thumbnail>https://www.tpg.com.au/images/IPTV_MainBanner.jpg</thumbnail>
+		<fanart>http://kodi.tv/wp-content/uploads/banner-sbs-11-600x336.png</fanart>
+		<link></link>http://ignoreme
+		<externallink>http://pastebin.com/</externallink>
+	</channel>
+
+</channels>

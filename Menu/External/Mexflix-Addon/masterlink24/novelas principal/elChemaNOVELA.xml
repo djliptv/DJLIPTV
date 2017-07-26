@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>El Chema</name>
+<thumbnail>http://telemundo.clientmediaserver.com/20151012_programacion/images/slider/el_chema_slider.jpg</thumbnail>
+<fanart>http://telemundo.clientmediaserver.com/20151012_programacion/images/slider/el_chema_slider.jpg</fanart>    mexflix@
+<items> token@//mexflix
+ 
+<item>
+<title>Primera Temporada</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.chivas69.mx/wp-content/uploads/2016/12/Ver-El-Chema-Cap%C3%ADtulo-2-Online-Serie-Completa-Martes-6-Diciembre-2016.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/monnet/el-chema-45775/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>                  //// mexflix@
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/monnet/el-chema-45775/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://3.bp.blogspot.com/-KyHhxLHgndI/WC1moQhZpbI/AAAAAAAABrg/5gTvBTIKAwE6Zt8G65m6CUNFNzpomgytwCLcB/s990/poster%2Bsuper%2Bserie%2Bel%2Bchema.jpg</thumbnail>
+<fanart>https://3.bp.blogspot.com/-KyHhxLHgndI/WC1moQhZpbI/AAAAAAAABrg/5gTvBTIKAwE6Zt8G65m6CUNFNzpomgytwCLcB/s990/poster%2Bsuper%2Bserie%2Bel%2Bchema.jpg</fanart>
+</item>
+</items>
+</channel>

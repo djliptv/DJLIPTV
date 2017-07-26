@@ -1,0 +1,236 @@
+//mexflix\\
+
+
+<item>
+<title>[COLOR white] ******* [COLOR gold][B] "EVENTOS DEPORTIVOS" [/B][/COLOR][/COLOR][COLOR white]   ******* [B][/B] [/COLOR]</title>
+<fanart>ignoreme.me</fanart>
+<thumbnail>ignoreme.me</thumbnail>
+<link>ignoreme.me</link>
+<externallink>ignoreme.me</externallink>
+</item>
+
+
+<item>
+<title>[COLOR red]       tener actualizado sport devil[/COLOR][COLOR white][B][/B] [/COLOR]</title>
+<fanart>ignoreme.me</fanart>
+<thumbnail>ignoreme.me</thumbnail>
+<link>ignoreme.me</link>
+<externallink>ignoreme.me</externallink>
+</item>
+
+
+
+
+<item>
+<title>[COLOR aqua]______________________________________[COLOR aqua][B]_________________[/B][/COLOR][/COLOR][COLOR aqua]_____________________________________[B][/B] [/COLOR]</title>
+<fanart>ignoreme.me</fanart>
+<thumbnail>ignoreme.me</thumbnail>
+<link>ignoreme.me</link>
+<externallink>ignoreme.me</externallink>
+</item>
+
+
+
+<item>
+<title>Canales Arenavision </title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item><title>Canal [makelist.param1]  [makelist.param2]  )  </title>
+<link>plugin://program.plexus/?url=[makelist.param3]&amp;mode=1&amp;name=[makelist.param2]+Arenavision</link>
+</item>  
+]]></listrepeat>
+<expres><![CDATA[">AV(.*?)(ace)[\w\W\s]{0,20}acestream://(.*?)"]]></expres>
+<page>https://avezy.tk/</page>
+<Agent>Mozilla</Agent>
+</regex>
+</item>
+
+
+
+<item>
+<title>[COLOR aqua]______________________________________[COLOR aqua][B]_________________[/B][/COLOR][/COLOR][COLOR aqua]_____________________________________[B][/B] [/COLOR]</title>
+<fanart>ignoreme.me</fanart>
+<thumbnail>ignoreme.me</thumbnail>
+<link>ignoreme.me</link>
+<externallink>ignoreme.me</externallink>
+</item>
+
+
+
+<item>
+<title>[COLOR gold]     ====>>   [/COLOR][COLOR white]  Rojadirecta  [/COLOR][COLOR gold]   <<====[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/rojadirecta.me.cfg&amp;mode=1</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+<item>
+<title>[COLOR gold]====>>   [/COLOR][COLOR white] Menu sportDevil[/COLOR][COLOR gold]   <<====[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports.cfg&amp;mode=1</jsonrpc>
+ <thumbnail>http://www.careerindia.com/img/2014/08/07-sports.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+<item>
+<title>[COLOR gold]====>>   [/COLOR][COLOR white]  Bundesliga [/COLOR][COLOR gold]   <<====[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/bundesliga-streams.net.cfg&amp;mode=1</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+
+_zona sport____________________________________________________________________________________________________________________________________________________________
+<item>
+<title>[COLOR aqua] ******* [COLOR red][B] ZONA SPORT [/B][/COLOR][/COLOR][COLOR aqua]   ******* [B][/B] [/COLOR]</title>
+<fanart>ignoreme.me</fanart>
+<thumbnail>ignoreme.me</thumbnail>
+<link>ignoreme.me</link>
+<externallink>ignoreme.me</externallink>
+</item>
+
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white] ZONA 1 [/COLOR][COLOR gold] America vs Necaxa[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://wizhdsports.is/watch/Club_America_Mexico_vs_Necaxa/stream23</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white] ZONA 2 [/COLOR][COLOR gold] America vs Necaxa [/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://zonasports.me/channel.php?id=1</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white] ZONA 3  *** [/COLOR][COLOR gold] America vs Necaxa [/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://zonasports.me/channel.php?id=11</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white] ZONA 4   **** [/COLOR][COLOR gold]Liga MX: Atlas vs Pumas [/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://zonasports.me/channel.php?id=2</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+
+<item>
+<title>[COLOR gold]   [/COLOR][COLOR white] ZONA 5.......      [/COLOR][COLOR gold]Liga MX: Atlas vs Pumas[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://zonasports.me/channel.php?id=14</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white] ZONA 6.......  [/COLOR][COLOR gold]Liga MX 8:00pm Monarcas de Morelia vs Chivas de Guadalajara[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://zonasports.me/channel.php?id=2</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white] ZONA 7.......  [/COLOR][COLOR gold] Liga MX: Pachuca vs Monarcas de Morelia[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://books.managebookguide.top/swf/414.m3u8</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white] ZONA 8.......  [/COLOR][COLOR gold]   Liga MX: Pachuca vs Monarcas de Morelia[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://www.stream2watch.cc/livenow/soccer/23970/cruz-azul-vs-chiapas-jaguares-live-stream</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+ 
+
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white] ZONA 9.......  [/COLOR][COLOR gold] Liga MX: Pachuca vs Monarcas de Morelia[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://zonasports.me/channel.php?id=8</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+http://193.124.176.131/swf/13632.m3u8?
+
+
+
+
+<item>
+<title>[COLOR green]ME[COLOR white]XFL[COLOR red]IX[/COLOR][COLOR lime]*[/COLOR][COLOR white][COLOR red] =====>> ZONA SPORT EVENT [/COLOR]</title>
+<sportsdevil>http://zonasports.me/</sportsdevil>
+<referer>http://zonasports.be/</referer>
+<thumbnail>http://i.imgur.com/yAuKRZw.png</thumbnail>
+<fanart>https://s3-eu-west-1.amazonaws.com/szpt-blobs-sonaesr-net/blobs/01d04a15be56556403c7c1dd39c4d2955c47cb2e</fanart>
+</item>
+
+ <item>
+<title>[COLOR lime] =====>> ZONA SPORT  -test 2 [/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode2=0&amp;item=catcher%3dstreams%26url=http://zonasports.me/channel.php?id=6</link>
+<thumbnail>https://fullyfootball.com/wp-content/uploads/2016/04/Arsenal-Vs-Watford.jpg</thumbnail>
+<fanart>https://fullyfootball.com/wp-content/uploads/2016/04/Arsenal-Vs-Watford.jpg</fanart>
+ </item>
+
+ <item>
+<title>[COLOR blue] =====>> ZONA SPORT  -test 3[/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://zonasports.me/channel.php?id=6</link>
+<thumbnail>https://fullyfootball.com/wp-content/uploads/2016/04/Arsenal-Vs-Watford.jpg</thumbnail>
+<fanart>https://fullyfootball.com/wp-content/uploads/2016/04/Arsenal-Vs-Watford.jpg</fanart>
+ </item>
+
+
+
+
+
+                              <item>
+<title>liga mx<title></title>sport</title>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://www.publish247.xyz:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.247bay.tv/membedplayer/zona11ad/2/750/420</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.247bay.tv</referer>
+			</regex>
+                        <thumbnail>http://images.wisegeek.com/soccer-player-falls-after-kicking-ball.jpg</thumbnail>
+                        </item>

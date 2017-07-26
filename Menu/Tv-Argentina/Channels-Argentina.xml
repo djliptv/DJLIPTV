@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!--
+- TN
+- CANAL 26
+- TELEMAX
+- AMERICA TV
+- CANAL 4 JUJUY
+- EL 13 TV
+- TV PUBLICA
+-->
+
+
+
+
+
+<item>
+		<title>[COLOR blue] [COLOR deepskyblue]====| [/COLOR][COLOR cyan]A R G [/COLOR][COLOR white]E N T [/COLOR][COLOR cyan]I N A [/COLOR][COLOR blue] [COLOR deepskyblue] |====[/COLOR]</title>
+		<link>http://ignora.me</link>
+		<thumbnail>http://i.imgur.com/FAbYD.png</thumbnail>
+		<fanart>http://www.diariodecultura.com.ar/wp-content/uploads/2016/06/1965_468.jpg</fanart>
+</item>
+<!--- UN ITEM CON MENU DE SELECCION DE VARIAS OPCIONES
+<item>
+<title>[COLOR white]AMERICA TV[/COLOR] [COLOR blue]SD[/COLOR]/[COLOR lime]HD[/COLOR]</title>
+<link>http://prepublish.f.qaotic.net/epa/ngrp:americatvlive-100056_all/chunklist_b596000.m3u8|User-Agent=iPhone$$lsname=[COLOR blue]SD[/COLOR]</link>
+<link>http://prepublish.f.qaotic.net/epa/ngrp:americatvlive-100056_all/chunklist.m3u8|Referer=http://vmf.edge-apps.net&amp;User-Agent=Mozilla/5.0$$lsname=[COLOR lime]HD[/COLOR]</link>
+<link>http://us.watcha.live/ch3/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0$$lsname=[COLOR lime]HD[/COLOR]</link>
+<thumbnail>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwYZZa5_cL8yBOozHASPsRbaRM4R0SWl1HYWcK7oMNRZbX_4tY</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+--->
+<!---
+<item>
+<title>Concept Test Gone Rogue (On my part) v.2</title>
+<link>htt://cmghlslive-i.akamaihd.net/hls/live/224708/KIRO/2564k/master.m3u8$$LSPlayOnlyOne$$$$lsname=MyName19</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://usachannels.tv/nbc_live.p$$LSPlayOnlyOne$$</link>
+<link>htt://cmghlslive-i.akamaihd.net/hls/live/224711/WFTV/2564k/prog.m3u8?anv=1472742042917&amp;X-Anvato-Adst-Auth=nQOZ/Y9T7A7hE74NZ13VOGuTMSCzKR/o1WoPmSHdDoY3hyEhB8fey3UUtrwKS0/d</link>
+<link>htt://kthv-lh.akamaihd.net/i/KTHVLiveRadar_1@347085/index_2000_av-p.m3u8?sd=6&amp;rebase=on$$lsname=MyName3</link>
+<link>htt://cdn.bimvidlive.com/kyur/ngrp:kyur1_all/playlist.m3u8$$lsname=MyName2</link>
+<link>http://lcdn.une.net.co/v1/AUTH_HLSLIVE/0001/tu1/yt1_1.m3u8$$lsname=MyName1</link>
+</item>
+
+MUESTRA TODOS LOS LINKS ENUMERADOS
+<item>
+<title>multilink_test</title>
+<multilink>
+<link>http://trtcanlitv-lh.akamaihd.net/i/TRTOKUL_1@182245/master.m3u8$$lsname=TRT</link>
+<link>http://mecliscanlitv-lh.akamaihd.net/i/MECLISTV_1@127503/master.m3u8</link>
+<link>http://trtcanlitv-lh.akamaihd.net/i/TRTOKUL_1@182245/master.m3u8</link>
+</multilink>
+</item>
+--->
+<!--- INICIA EL PRIMER LINK QUE FUNCIONA NO MUESTRA LISTA NI MENU ---> 
+<!---
+<item>
+		<title>[COLOR white]AMERICA TV[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>$$LSPlayOnlyOne$$</link>
+		<link>http://prepublish.f.qaotic.net/epa/ngrp:americatvlive-100056_all/chunklist_b596000.m3u8|User-Agent=iPhone</link>
+		<link>http://prepublish.f.qaotic.net/epa/ngrp:americatvlive-100056_all/chunklist.m3u8|Referer=http://vmf.edge-apps.net&amp;User-Agent=Mozilla/5.0</link>
+		<thumbnail>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwYZZa5_cL8yBOozHASPsRbaRM4R0SWl1HYWcK7oMNRZbX_4tY</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+--->
+
+<item>
+<title>[COLOR white]AMERICA TV[/COLOR] [COLOR blue]SD[/COLOR]/[COLOR lime]HD[/COLOR]</title>
+<link>http://prepublish.f.qaotic.net/epa/ngrp:americatvlive-100056_all/chunklist_b596000.m3u8|User-Agent=iPhone$$lsname=[COLOR white]AMERICA TV[/COLOR] [COLOR blue]SD[/COLOR]</link>
+<link>http://prepublish.f.qaotic.net/epa/ngrp:americatvlive-100056_all/chunklist.m3u8|Referer=http://vmf.edge-apps.net&amp;User-Agent=Mozilla/5.0$$lsname=[COLOR white]AMERICA TV[/COLOR] [COLOR lime]HD[/COLOR]</link>
+<link>http://us.watcha.live/ch3/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0$$lsname=[COLOR white]AMERICA TV[/COLOR] [COLOR lime]HD[/COLOR]</link>
+<thumbnail>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwYZZa5_cL8yBOozHASPsRbaRM4R0SWl1HYWcK7oMNRZbX_4tY</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- TV PUBLICA --->
+<item>
+		<title>[COLOR white]TV PUBLICA[/COLOR][COLOR lime] HD [/COLOR]</title>
+		<link>http://prepublish.f.qaotic.net/a02/ngrp:c7live01-20034_all/Playlist.m3u8|User-Agent=iPhone$$lsname=[COLOR white]TV PUBLICA[/COLOR] [COLOR lime]HD[/COLOR]</link>
+		<link>http://us.watcha.live/ch4/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0$$lsname=[COLOR white]TV PUBLICA[/COLOR] [COLOR lime]HD[/COLOR]</link>
+		<thumbnail>http://www.bus-k.me/file/pic/listing/2012/10/7991d98d146b8c6cdade125d95f154a3.png</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 9 --->
+<item>
+		<title>[COLOR white]CANAL 9[/COLOR] [COLOR blue]SD[/COLOR]/[COLOR lime]HD[/COLOR]</title>
+		<link>http://dwgoed11hdvfh.cloudfront.net/c9/smil:live.smil/playlist.m3u8|User-Agent=iPhone#bsfx$$lsname=[COLOR white]CANAL 9[/COLOR] [COLOR blue] SD [/COLOR]</link>
+		<link>http://us.watcha.live/ch5/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0$$lsname=[COLOR white]CANAL 9[/COLOR] [COLOR lime]HD[/COLOR]</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Canal_9_2015.png/180px-Canal_9_2015.png</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- TELEFE --->
+<item>
+		<title>[COLOR white]TELEFE[/COLOR][COLOR lime] HD [/COLOR]</title>
+		<link>http://us.watcha.live/ch6/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link>
+		<thumbnail>https://s5.postimg.org/fltej3yyv/Telefe.png</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<item>
+<title>[COLOR white]TELEFE[/COLOR][COLOR blue] SD [/COLOR]</title>
+<link>rtmp://$doregex[get_ip]/live?$doregex[get_key] app=live?$doregex[get_key] playpath=live_beto_4  swfUrl=http://vaughnlive.tv/beto_4$doregex[get_channel] pageUrl=http://vaughnlive.tv/beto_4  live=true</link>
+<regex>
+<name>get_ip</name>
+<expres>([^;]*?);:</expres>    
+<page>http://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_beto_4?0.1.1.767_865-865-0.10672002471983433</page>
+                               
+<referer>http://vaughnlive.tv/</referer>
+<connection>keep-alive</connection>
+<agent>Mozilla/5.0</agent>
+<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>get_key</name>
+<expres>mvnkey-(.*?);</expres>  
+<page>http://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_beto_4?0.1.1.767_865-865-0.10672002471983433</page>
+                               
+<referer>http://vaughnlive.tv/</referer>
+<connection>keep-alive</connection>
+<agent>Mozilla/5.0</agent>
+<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>get_key2</name>
+<expres>;.*;(.*?)</expres>  
+<page>http://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_beto_4?0.1.1.767_865-865-0.10672002471983433</page>
+                               
+<referer>http://vaughnlive.tv/</referer>
+<connection>keep-alive</connection>
+<agent>Mozilla/5.0</agent>
+<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s5.postimg.org/fltej3yyv/Telefe.png</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+
+<!--- EL 13 TV --->
+<item>
+		<title>[COLOR white]EL TRECE[/COLOR] [COLOR blue]SD[/COLOR]/[COLOR lime]HD[/COLOR]</title>
+		<link>http://stream.eltrecetv.com.ar/live13/13tv/13tv1/playlist.m3u8|User-Agent=ArtearPlayer/3.2.42(Linux;Android4.4.2)ExoPlayerLib/1.5.9$$lsname=[COLOR white]EL TRECE[/COLOR] [COLOR blue]SD[/COLOR]</link>
+		<link>http://prepublish.f.qaotic.net/a03/ngrp:el13_live01-100083_all/chunklist_b1459000.m3u8|User-Agent=iPhone AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543 Safari/419.3$$lsname=[COLOR white]EL TRECE[/COLOR] [COLOR blue]SD[/COLOR]</link>
+		<link>http://prepublish.f.qaotic.net/a03/ngrp:el13_live01-100083_all/Playlist.m3u8|User-Agent=iPhone AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543 Safari/419.3$$lsname=[COLOR white]EL TRECE[/COLOR] [COLOR lime]HD[/COLOR]</link>
+		<link>http://us.watcha.live/ch7/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0$$lsname=[COLOR white]EL TRECE[/COLOR] [COLOR lime]HD[/COLOR]</link>
+		<thumbnail>http://www.televisionparatodos.tv/wp-content/uploads/2013/02/11.png</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- TN --->
+<item>
+		<title>[COLOR white]TN[/COLOR][COLOR lime] HD [/COLOR]</title>
+		<link>http://prepublish.f.qaotic.net/a04/ngrp:tn_live01-100083_all/chunklist.m3u8|Referer=http://vmf.edge-apps.net&amp;User-Agent=Mozilla/5.0$$lsname=[COLOR white]TN[/COLOR][COLOR lime]HD[/COLOR]</link>
+		<link>plugin://plugin.video.youtube/play/?video_id=0tek2aa8hAQ$$lsname=[COLOR white]TN[/COLOR][COLOR lime]HD[/COLOR]</link>
+		<thumbnail>http://www.tvargentina.com.ar/iconos/tn.png</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CRONICA TV --->
+<item>
+		<title>[COLOR white]CRONICA TV[/COLOR][COLOR lime] HD [/COLOR]</title>
+		<link>http://190.57.234.164/V4/2/1.m3u8</link>
+		<thumbnail>https://k60.kn3.net/5/8/7/3/D/3/D75.png</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL A24 --->
+<item>
+		<title>[COLOR white]CANAL A24[/COLOR][COLOR lime] HD [/COLOR]</title>
+		<sportsdevil>http://latelete.tv/ver-canal-a24-online-en-vivo-gratis/</sportsdevil>
+		<referer>http://latelete.tv/</referer>
+		<thumbnail>https://pbs.twimg.com/profile_images/847927227295694850/VOrUYS_A.jpg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<item>
+		<title>[COLOR white]CANAL A24[/COLOR][COLOR lime] HD [/COLOR]</title>
+		<link>plugin://plugin.video.youtube/play/?video_id=URAMVgoXyec$$lsname=[COLOR white]CANAL A24[/COLOR][COLOR lime] FHD 1080P[/COLOR]</link>
+		<link>http://us.watcha.live/ch2/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0$$lsname=[COLOR white]CANAL A24[/COLOR][COLOR lime] HD [/COLOR]</link>
+		<thumbnail>https://pbs.twimg.com/profile_images/847927227295694850/VOrUYS_A.jpg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 26 --->
+<item>
+		<title>[COLOR white]CANAL 26[/COLOR] [COLOR blue]SD[/COLOR]/[COLOR lime]HD[/COLOR]</title>
+		<link>http://live-edge01.telecentro.net.ar/live/26hd-360/playlist.m3u8$$lsname=[COLOR white]CANAL 26[/COLOR][COLOR blue] SD [/COLOR]</link>
+		<link>http://live-edge01.telecentro.net.ar/live/26hd-720/playlist.m3u8$$lsname=[COLOR white]CANAL 26[/COLOR][COLOR lime] HD [/COLOR]</link>
+		<link>plugin://plugin.video.youtube/play/?video_id=tU-iGH9_UOs$$lsname=[COLOR white]CANAL 26[/COLOR][COLOR lime] HD [/COLOR]</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/2/2a/Canal_26_Argentina.png</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- C5N --->
+<item>
+		<title>[COLOR white]C5N[/COLOR][COLOR lime] HD [/COLOR]</title>
+		<link>plugin://plugin.video.youtube/play/?video_id=kMHDXdfje5Q$$lsname=[COLOR white]C5N[/COLOR][COLOR lime] HD [/COLOR]</link>
+		<link>http://us.watcha.live/ch1/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0$$lsname=[COLOR white]C5N[/COLOR][COLOR lime] HD [/COLOR]</link>
+		<thumbnail>http://www.freeetv.com/images/01_logo/c5n_tv.jpg</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+<!--- plugin://plugin.video.youtube/play/?video_id=fJUi-0L_8ZY --->
+<!--- DW ESPAÑOL --->
+
+<item>
+		<title>[COLOR white]DW ESPAÑOL[/COLOR][COLOR blue] SD[/COLOR]</title>
+		<link>plugin://plugin.video.youtube/play/?video_id=5HE1kGpcuyE</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/1200px-Deutsche_Welle_symbol_2012.svg.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- NTN24 --->
+<item>
+		<title>[COLOR white]NTN24[/COLOR][COLOR lime] HD [/COLOR]</title>
+		<link>plugin://plugin.video.youtube/play/?video_id=z8vQPtsALjk</link>
+		<thumbnail>http://www.ntn24.com/sites/all/themes/ntn24/logo.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- RT --->
+<item>
+		<title>[COLOR white]RT[/COLOR][COLOR lime] HD[/COLOR]</title>
+		<link>plugin://plugin.video.youtube/play/?video_id=OALyNX4IbBI</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/2/21/RT_America_Logo.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- TELESUR --->
+<item>
+		<title>[COLOR white]TELESUR[/COLOR][COLOR lime] HD[/COLOR]</title>
+		<link>plugin://plugin.video.youtube/play/?video_id=Wv4p_aBDPVM</link>
+		<thumbnail>http://d3cdtxx03omvla.cloudfront.net/979133_1454711084291.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- LA NACION + --->
+<item>
+		<title>[COLOR white]LA NACION +[/COLOR][COLOR lime] HD[/COLOR]</title>
+		<link>plugin://plugin.video.youtube/play/?video_id=1Xow568J0BA</link>
+		<thumbnail>https://s5.postimg.org/d5878h0hz/ddfxyyq_L.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- PAKA PAKA --->
+<item>
+		<title>[COLOR white]PAKA PAKA[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0034</link>
+		<thumbnail>https://www.foromedios.com/uploads/monthly_2016_10/large.Pakapaka.png.ba9d96b062e156785cdca952119573fa.png</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>http://www.pakapaka.gob.ar/img/opengraph_default.jpg</fanart>
+</item>
+
+<!--- TELEMAX --->
+<item>
+		<title>[COLOR white]TELEMAX[/COLOR][COLOR lime] HD [/COLOR]</title>
+		<link>http://live-edge01.telecentro.net.ar/live/smil:tlx.smil/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Telemax.png/245px-Telemax.png</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- ONE TV --->
+<item>
+		<title>[COLOR white]ONE TV[/COLOR][COLOR lime] HD [/COLOR]</title>
+		<link>http://server5.stweb.tv/radioone/live/playlist.m3u8</link>
+		<thumbnail>http://www.stweb.tv/indalo/radioone/one.jpg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- QUIERO MUSICA --->
+<item>
+		<title>[COLOR white]QUIERO MUSICA[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>mms://streamqm.uigc.net/qmusica</link>
+		<thumbnail>http://www.ipuntotv.com/IMAGES/Quiero-logo-2014-nuevo.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- VORTERIX --->
+<item>
+		<title>[COLOR white]VORTERIX[/COLOR][COLOR lime] FHD 1080P[/COLOR]</title>
+		<link>http://prepublish.f.qaotic.net/epa2/ngrp:vorterix_video1-20057_all/chunklist.m3u8|Referer=http://vmf.edge-apps.net&amp;User-Agent=Mozilla/5.0$$lsname=[COLOR white]VORTERIX[/COLOR][COLOR lime] FHD 1080P[/COLOR]</link>
+		<link>plugin://plugin.video.youtube/play/?video_id=bzlYOWOF-NU$$lsname=[COLOR white]VORTERIX[/COLOR][COLOR lime] FHD 1080P[/COLOR]</link>
+		<thumbnail>http://ficctedigitalum.com.ar/wp-content/uploads/2015/06/vorterix.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- COOL 103.7 --->
+<item>
+		<title>[COLOR white]COOL 103.7[/COLOR][COLOR lime] HD[/COLOR]</title>
+		<link>http://ar.solumedia.com.ar:1935/cool/hd/playlist.m3u8</link>
+		<thumbnail>https://channelpear.s3-us-west-2.amazonaws.com/images/12371/1491410293214.jpeg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- MUSIC TOP --->
+<item>
+		<title>[COLOR white]MUSIC TOP[/COLOR][COLOR lime] HD[/COLOR]</title>
+		<link>http://live-edge01.telecentro.net.ar/live/msctphd-720/playlist.m3u8</link>
+		<thumbnail>http://www.diario26.com/images/musictop_poster.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- POWER HD --->
+<item>
+		<title>[COLOR white]POWER HD[/COLOR][COLOR lime] HD[/COLOR]</title>
+		<link>http://wowza.telpin.com.ar:1935/live-powerTV/power.stream/playlist.m3u8</link>
+		<thumbnail>http://www.radiopower.com.ar/img/logoPwrHD_small.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- URBAN - 106.1 TV - Pehuajó --->
+<item>
+		<title>[COLOR white]URBAN - 106.1 TV - Pehuajó[/COLOR][COLOR blue] SD[/COLOR]</title>
+		<link>http://ar.solumedia.com.ar:1935/2/myStream/playlist.m3u8</link>
+		<thumbnail>http://www.urban106.com.ar/logo.jpg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- MAGAZINE --->
+<item>
+		<title>[COLOR white]MAGAZINE[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>rtsp://stream.mgzn.tv/live/mgzntv/mgzntv$$lsname=[COLOR white]MAGAZINE[/COLOR][COLOR blue] SD [/COLOR]</link>
+		<link>http://200.42.92.149/live/mgzntv/mgzntv/playlist.m3u8$$lsname=[COLOR white]MAGAZINE[/COLOR][COLOR blue] SD [/COLOR]</link>
+		<thumbnail>http://2.bp.blogspot.com/_YkZZPo1aKZU/S8NQcIvc0BI/AAAAAAAAMfI/msM4Rdch27U/s400/magazine.gif</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CPETV-HD-LA-PAMPA --->
+<item>
+<title>[COLOR white]CPETV-HD-LA-PAMPA[/COLOR][COLOR lime] HD [/COLOR]</title>
+<link>http://live-19.viewer.dacast.com/i/dclive_1@336785/master.m3u8</link>
+<thumbnail>https://yt3.ggpht.com/-t2sdLFpDHTQ/AAAAAAAAAAI/AAAAAAAAAAA/4leo-9VdTww/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 2 SANTA TERESITA --->
+<item>
+		<title>[COLOR white]CANAL 2 SANTA TERESITA[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>mmsh://190.14.32.204:3905/</link>
+		<thumbnail>http://files.csdestrellademar.webnode.com.ar/200000116-2162b225c6/logo_avc2.jpg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 4 JUJUY --->
+<item>
+		<title>[COLOR white]CANAL 4 JUJUY[/COLOR][COLOR lime] HD [/COLOR]</title>
+		<link>http://streaming.wirenetserver.com.ar:1935/canal4/live_1/playlist.m3u8</link>
+		<thumbnail>http://directostv.teleame.com/wp-content/uploads/2016/05/Canal-4-Jujuy.png</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 6 MAR DEL PLATA --->
+<item>
+		<title>[COLOR white]CANAL 6 MAR DEL PLATA[/COLOR][COLOR lime] HD [/COLOR]</title>
+		<link>http://www.ustream.tv/channel/3986360</link>
+		<thumbnail>http://television-internet.com.ar/canal-6-mar-del-plata-en-vivo.jpg?170505054159</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 6 SAN RAFAEL --->
+<item>
+		<title>[COLOR white]CANAL 6 SAN RAFAEL[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>plugin://plugin.video.youtube/play/?video_id=axnhmU97Ktg</link>  
+		<thumbnail>https://yt3.ggpht.com/-ATPtU3qsTvo/AAAAAAAAAAI/AAAAAAAAAAA/_RJQZiXbDq8/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 7 CHUBUT --->
+<item>
+		<title>[COLOR white]CANAL 7 CHUBUT[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>http://01.solumedia.com.ar:1935/c7/myStream/playlist.m3u8</link>  
+		<thumbnail>http://www.chubut.gov.ar/img/canal-siete-min.jpg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 7 MENDOZA --->
+<item>
+<title>[COLOR white]CANAL 7 MENDOZA[/COLOR][COLOR lime] HD [/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=Ck6wohdxivM</link>  
+<thumbnail>https://yt3.ggpht.com/-_Iq0YPwwWQo/AAAAAAAAAAI/AAAAAAAAAAA/DkVVBWNdCgk/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 8 MAR DEL PLATA --->
+<item>
+<title>[COLOR white]CANAL 8 MAR DEL PLATA[/COLOR][COLOR blue] SD [/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=KjIJ-jPcmNg</link> 
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/2/2b/Canal-Ocho-Mar-Del-Plata-Logo.png</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 8 SAN JUAN --->
+<item>
+<title>[COLOR white]CANAL 8 SAN JUAN[/COLOR][COLOR blue] SD [/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=0w8qRa5FPw8</link> 
+<thumbnail>https://yt3.ggpht.com/-RMRNdSD5u14/AAAAAAAAAAI/AAAAAAAAAAA/cGW37Tu_pG0/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 9 SALTA --->
+<item>
+		<title>[COLOR white]CANAL 9 SALTA[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>http://panel.dattalive.com:1935/8250/8250/playlist.m3u8</link>  
+		<thumbnail>http://www.itver.cc/wp-content/uploads/2015/02/Canal-9-Salta-Logo-670x300.jpg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 10 CORDOBA --->
+<item>
+		<title>[COLOR white]CANAL 10 CORDOBA[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>http://iphone-streaming.ustream.tv/uhls/22780410/streams/live/iphone/playlist.m3u8</link>
+		<thumbnail>http://www.cba24n.com.ar/themes/cba24ndesk/images/boton_canal10.jpg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 10 MAR DEL PLATA --->
+<item>
+<title>[COLOR white]CANAL 10 MAR DEL PLATA[/COLOR][COLOR lime] HD [/COLOR]</title>
+<link>http://ionlive1-lh.akamaihd.net/i/canal10_1@125367/master.m3u8$$lsname=[COLOR white]CANAL 10 MAR DEL PLATA[/COLOR][COLOR lime] HD [/COLOR]</link>
+<link>http://186.0.233.76:1935/Canal10MDQ/smil:canal10mdq.smil/chunklist_w1639354169_b1912000_sleng.m3u8$$lsname=[COLOR white]CANAL 10 MAR DEL PLATA[/COLOR][COLOR lime] HD [/COLOR]</link>
+<thumbnail>http://www.one7group.com/images/portfolio/canal_10_mar_del_plata_id_1191.jpg</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 11 ENTRE RIOS --->
+<item>
+<title>[COLOR white]CANAL 11 ENTRE RIOS[/COLOR][COLOR lime] HD [/COLOR]</title>
+<link>http://iphone-streaming.ustream.tv/uhls/8957585/streams/live/iphone/playlist.m3u8</link>
+<thumbnail>http://www.radiosargentina.com.ar/png/VIELONCE.png</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- ORBE 21 --->
+<item>
+		<title>[COLOR white]ORBE 21[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>http://urtmpkal-f.akamaihd.net/i/1b6mj17sk_1@308700/master.m3u8</link>
+		<thumbnail>http://www.arzbaires.org.ar/inicio/images/canalorbe21.jpg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 41 MAR DEL PLATA --->
+<item>
+		<title>[COLOR white]CANAL 41 MAR DEL PLATA[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>rtmp://painel.serveron.com.br/8172/8172</link>
+		<thumbnail>http://nomeolvides.org.ar/wp-content/uploads/2015/06/Logo-XFN.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 79 MAR DEL PLATA --->
+<item>
+		<title>[COLOR white]CANAL 79 MAR DEL PLATA[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>rtmp://painel.serveron.com.br:1935/8168/8168</link>
+		<thumbnail>http://img.webme.com/pic/l/latinoamericateve/79.jpg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- TELPIN --->
+<item>
+		<title>[COLOR white]TELPIN[/COLOR][COLOR lime] HD [/COLOR]</title>
+		<link>http://201.219.100.30:1935/telpintv/ttv.stream_720p/playlist.m3u8</link>
+		<thumbnail>http://www.telpinteve.com.ar/imagenes/Canal2Logos-06.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL DE LA CIUDAD --->
+<item>
+		<title>[COLOR white]CANAL DE LA CIUDAD[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>http://186.0.233.76:1935/CiudadAbierta/smil:ciudadabierta.smil/playlist.m3u8</link>
+		<thumbnail>http://www.television-envivo.com/wp-content/uploads/2016/06/canal-de-la-ciudad-300-150x150.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CINEAR --->
+<item>
+		<title>[COLOR white]CINEAR[/COLOR][COLOR lime] HD [/COLOR]</title> 
+		<link>http://us.watcha.live/ch17/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> 
+		<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvRRG8AD-xQqnsDh3h8F0GeoFfVeQGwwolQ6VWBek5xjaywESg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- TEC TV --->
+<item>
+		<title>[COLOR white]TEC TV[/COLOR][COLOR lime] HD [/COLOR]</title>
+		<link>http://tectvhls-lh.akamaihd.net/i/tectvHLS_1@334993/master.m3u8</link>
+		<thumbnail>http://1.bp.blogspot.com/-l8hzmKNwJNg/VO7fX-t9PeI/AAAAAAAAbjk/toWpkpK3tqY/s76/tec-tecnopolis-tv.PNG</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- ENCUENTRO --->
+<item>
+		<title>[COLOR white]ENCUENTRO[/COLOR] [COLOR blue]SD[/COLOR]/[COLOR lime]HD[/COLOR]</title>
+		<link>http://lsdencuentrohls-lh.akamaihd.net/i/encuentrohls_1@96967/master.m3u8$$lsname=[COLOR white]ENCUENTRO[/COLOR][COLOR blue] SD [/COLOR]</link>
+		<link>http://us.watcha.live/ch14/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0$$lsname=[COLOR white]ENCUENTRO[/COLOR][COLOR lime] HD [/COLOR]</link>
+		<thumbnail>http://cdnsp.tvpublica.com.ar/wp-content/uploads/2016/04/12204727/encuentro.jpg</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- QM TV --->
+<item>
+		<title>[COLOR white]QM TV[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>http://qmnoticiashls-lh.akamaihd.net/i/qmnoticiasTEST_hls@324831/master.m3u8</link>
+		<thumbnail>http://www.totalmedios.com/img/imgUPL/Medio4528.gif</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!-- http://qmnoticiashls-lh.akamaihd.net/i/qmnoticias_hls@324831/master.m3u8 -->
+
+<!--- CANAL RURAL --->
+<item>
+		<title>[COLOR white]CANAL RURAL[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>rtsp://streamrural.cmd.com.ar:554/liverural/crural/rural1</link>
+		<thumbnail>http://1.bp.blogspot.com/-L6BX2lWHcaU/Tq6nN_1IknI/AAAAAAAAAYc/vc2RkIlK12k/s200/canal-rural.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL VIAJAR --->
+item>
+<title>[COLOR white]CANAL VIAJAR[/COLOR][COLOR lime] HD [/COLOR]</title>
+<link>http://eventshd-lh.akamaihd.net/i/viajar_1@168433/index_814_av-b.m3u8</link>
+<thumbnail>http://1.bp.blogspot.com/-itIw_SH6Ky0/VTFxIhOB1RI/AAAAAAAAbnA/TqggvLWWaX0/s71/viajar-tv.PNG</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 360 TV --->
+<item>
+<title>[COLOR white]CANAL 360 TV[/COLOR][COLOR lime] HD [/COLOR]</title>
+<link>http://us.watcha.live/ch12/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link>
+<thumbnail>http://1.bp.blogspot.com/-k6oOhSnx8Lw/VcfZ4jjsUDI/AAAAAAAAbqg/Huj2shEJdDQ/s76-Ic42/canal-360-tv-digital.PNG</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- TDC-FIRMAT-SANTA-FE --->
+item>
+<title>[COLOR white]TDC-FIRMAT-SANTA-FE[/COLOR]</title>
+<link>http://painel.serveron.com.br:1935/8166/8166/playlist.m3u8</link>
+<thumbnail>http://tdconline.com.ar/wp-content/themes/tdc/images/online-heading.png</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+<info></info>
+</item>
+
+<!--- ARGENTINISIMA SATELITAL --->
+item>
+<title>[COLOR white]ARGENTINISIMA SATELITAL[/COLOR]</title>
+<link>$doregex[final-url]</link>
+<regex>
+<name>final-url</name>
+<expres>(.*)#</expres>
+<page>$doregex[url]&amp;redirect=0</page>
+</regex>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>mpegURL.*"(http.*m3u8.*?)"</expres>
+<page>http://www.dailymotion.com/video/x4gsls4_argentinisima-satelital-en-vivo-2016_news</page>
+<referer>http://www.dailymotion.com/</referer>
+</regex>
+<thumbnail>http://www.tvargentina.com.ar/iconos/argentinisima.png</thumbnail>
+</item>
+
+<!--- CANAL 3 FORMOSA --->
+item>
+<title>[COLOR white]CANAL 3 FORMOSA[/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=4afV-SY97Us</link>  
+<thumbnail>https://yt3.ggpht.com/-Co0vzhOgdh0/AAAAAAAAAAI/AAAAAAAAAAA/4CN46qVf_DM/s88-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- CANAL 9 PARANA --->
+item>
+<title>[COLOR white]CANAL 9 PARANA[/COLOR]</title>
+<link>http://ionlive1-lh.akamaihd.net/i/canal9_1@125365/master.m3u8</link>
+<thumbnail>https://pbs.twimg.com/profile_images/466613639047163904/og3ed0LS_400x400.jpeg</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- DXTV --->
+<item>
+		<title>[COLOR white]DXTV[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>http://186.33.227.199/DXTV/smil:DXTV.smil/playlist.m3u8$$lsname=[COLOR white]DXTV[/COLOR][COLOR blue] SD [/COLOR]</link>
+		<link>http://186.33.227.198/DXTV/smil:DXTV.smil/playlist.m3u8$$lsname=[COLOR white]DXTV[/COLOR][COLOR blue] SD [/COLOR]</link>
+		<thumbnail>https://www.foromedios.com/uploads/monthly_2016_10/large.Deportv2.png.a8a973d8c62197d90994dbf4e00a45e2.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- EL GARAGE TV --->
+<item>
+		<title>[COLOR white]EL GARAGE TV[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>http://186.0.233.76:1935/Garage/smil:garage.smil/chunklist_w1733745291_b798000_slspa.m3u8|User-Agent=ArtearPlayer/3.2.42 (Linux;Android 4.4.2) ExoPlayerLib/1.5.9</link>
+		<thumbnail>https://s5.postimg.org/j96v0auh3/elgaragetv.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- DIRECTV SPORTS --->
+item>
+		<title>[COLOR white]DIRECTV SPORTS[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>http://cdn2.elitegol.xyz/verliga/10/index.m3u8?tecnotv.info?iptv.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/5/57/DirecTV-Sports.png</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<item>
+		<title>[COLOR white]DIRECTV SPORTS[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>https://live96.vkuserlive.com/639901/live/CEgJOXJAf279xd8a/playlist.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/5/57/DirecTV-Sports.png</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<item>
+	<title>[COLOR white]DIRECTV SPORTS[/COLOR][COLOR blue] SD [/COLOR]</title>
+	<link>http://$doregex[ip]$doregex[m3u8]</link>
+	<regex>
+		<name>ip</name>
+		<expres>redirect=(.*)</expres>
+		<page>http://www.publish247.xyz:1935/loadbalancer</page>
+	</regex>
+	<regex>
+		<name>m3u8</name>
+		<expres>ea \+ "(.*?)"</expres>
+		<page>http://www.247bay.tv/membedplayer/directvperu/1/500/400</page>
+		<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+		<referer>http://www.247bay.tv</referer>
+	</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/5/57/DirecTV-Sports.png</thumbnail> <!-- CAMBIAR LOGO -->
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- TYC SPORTS --->
+<item>
+		<title>[COLOR white]TYC SPORTS[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>http://190.57.234.164/V5/5/1.m3u8$$lsname=[COLOR white]TYC SPORTS[/COLOR][COLOR blue] SD [/COLOR]</link>
+		<link>http://190.57.234.165/V5/5/1.m3u8$$lsname=[COLOR white]TYC SPORTS[/COLOR][COLOR blue] SD [/COLOR]</link>
+		<link>https://playback.bcovlive.io/52d2830edfed4a1bad69b15c29867947/sa-east-1/alive-trial-tyc_sports/profile_1/chunklist_dvr.m3u8$$lsname=[COLOR white]TYC SPORTS[/COLOR][COLOR blue] SD [/COLOR]</link>
+		<!--- <link>http://clairinlive-a.akamaihd.net/dc-1/live/hls/p/1885581/e/1_8xzo6fux/t/YO19xXbHgW_22sNZezlmTg/index-s32-v1-a1.m3u8</link> --->
+		<thumbnail>https://i.ytimg.com/vi/9lvKFKUeTTE/maxresdefault_live.jpg</thumbnail> <!-- CAMBIAR LOGO -->
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- ESPN --->
+<item>
+		<title>[COLOR white]ESPN[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>http://wowza2.mysoltv.com:1992/Latino_ESPN/index.m3u8$$lsname=[COLOR white]ESPN[/COLOR][COLOR blue] SD [/COLOR]</link>
+		<link>http://190.57.234.168/VA/2/1.m3u8$$lsname=[COLOR white]ESPN[/COLOR][COLOR blue] SD [/COLOR]</link>
+		<link>https://live10.userapi.com/637601/live/1gJD5yNAfz8Y-Icl/playlist.m3u8$$lsname=[COLOR white]ESPN[/COLOR][COLOR blue] SD [/COLOR]</link>
+		<thumbnail>https://s5.postimg.org/456wqz3yf/ESPN_wordmark.svg.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- ESPN 2 --->
+<item>
+		<title>[COLOR white]ESPN 2[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>https://live64.vkuserlive.com/620006/live/1kYH5yNAfz-wm4Yz/playlist.m3u8</link>
+		<thumbnail>https://buscador.cablevisionfibertel.com.ar/logos/3189.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- ESPN 3 --->
+<item>
+		<title>[COLOR white]ESPN 3[/COLOR][COLOR blue] SD [/COLOR]</title>
+		<link>http://190.57.234.164/V5/4/1.m3u8</link>
+		<thumbnail>https://k60.kn3.net/9/D/E/9/7/F/F6C.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>
+
+<!--- FOX SPORTS HD ARGENTINA --->
+<item>
+		<title>[COLOR gold]+[/COLOR][COLOR white] FOX SPORTS[/COLOR] [[COLOR blue]SD[/COLOR]/[COLOR lime]HD[/COLOR]]</title>
+		<link>$doregex[makelist]</link>
+		<externallink>https://www.dropbox.com/s/gyfjc2v2v9glmip/FoxSports.m3u?dl=1</externallink>
+		<thumbnail>http://2.bp.blogspot.com/-A1gWaipSmKg/VmYCdOJvEVI/AAAAAAAAASs/DvxCh0L_DY0/s1600/FSHD.png</thumbnail>
+		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
+</item>

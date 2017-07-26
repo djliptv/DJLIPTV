@@ -1,0 +1,826 @@
+﻿
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+mexflix
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Sin Senos Si Hay Paraíso[/COLOR]</title>
+ <thumbnail>http://seriesblanco.com/files/uploads/3839.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=igHZ1f9jPoQ&list=UUn3XSaEMiiMWNrGNw8TLSUA</page>
+ <referer>https://www.youtube.com/playlist?list=UUn3XSaEMiiMWNrGNw8TLSUA</referer>
+ <cookieJar></cookieJar>channel/UCn3XSaEMiiMWNrGNw8TLSUA
+ </regex>
+ </item>
+
+
+
+
+
+
+
+
+   <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange]  La Familia Peluche 1era temporada[/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL58CD83942B0F72A1</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+ 
+    <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange]  La Familia Peluche 2era temporada[/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLIzjTvBtK04UOY0N_0zCprWQiRCToi2SP</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+
+    <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange]  La Familia Peluche 3era temporada[/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL93D694B1686D9A3B</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+
+
+    <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Casados Con Hijos Colombia[/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL0D1HUqobnEWn2DufQ_cleMph2zrWUrov</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+ 
+ 
+
+
+
+
+   <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] La fea mas Bella HD [/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLcZVB9jUoNq4wrzChDD1OmWi5DkcDugP3</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+
+
+
+ 
+ <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Mi Destino Eres Tu [/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL6vKV_wW7IkHU17GKn7iaG0kJAE3ySwYL</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+  <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Mientras Haya vida (restringia en algunos paises) [/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLgKzFnvAFPsZCP8TVfMhd2xQIiUR47E0Q</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+
+ 
+ 
+   <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Salome  [/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLaSdi_UaCoKDFtu3VbE27pILi7ZJtj50y</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+    <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Tierra de pasiones  [/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLvIuNKXhNZ3popeYnt9C5_2WU3vza5xn7</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+     <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] La Madrastra  [/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL1AD6449B69E1541B</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+ 
+ 
+ 
+ 
+      <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Pasion prohibida  [/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLyMiScAVnaHd13uL41SJpu3CZiwEmPiHv</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item> 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[COLOR lime]* [/COLOR][COLOR orange] La Voz Mexico [/COLOR]</title>
+<thumbnail>http://oi66.tinypic.com/2d8kroi.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[COLOR white][makelist.param3][/COLOR]</title>
+          <link>$doregex[makelist2]</link>
+          <thumbnail>http://oi66.tinypic.com/2d8kroi.jpg</thumbnail>
+   ]]></listrepeat>
+   <expres><![CDATA[a href="(.*?)" title="(.*?)">(La.*?)<]]></expres>
+   <page>http://www.tusnovelas.net/ver-telenovela/la-voz-mexico-2016</page>
+   <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[ 
+	<title>[COLOR white][makelist.param3][/COLOR]</title>
+	<link>$doregex[getRTPM] playpath=$doregex[path] swfUrl=http://powvideo.net/player6/jwplayer.flash.swf live=1 timeout=15 pageUrl=[makelist2.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[<IFRAME SRC="(.*gamo.*?)"\W]]></expres>
+<page>http://www.tusnovelas.net[makelist.param1]</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+ <name>getRTPM</name>
+ <expres><![CDATA[file: "(rtmp.*?h=.*?)\/]]></expres>
+ <page>[makelist2.param1]</page>
+ <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36</agent>
+<cookieJar></cookieJar>
+<connection>keep-alive</connection>
+</includeheaders>
+</regex>
+
+<regex>
+ <name>path</name>
+ <expres><![CDATA[file: "rtmp.*?h=.*?\/(.*?)"\W]]></expres>
+ <page>[makelist2.param1]</page>
+ <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36</agent>
+<cookieJar></cookieJar>
+<connection>keep-alive</connection>
+</includeheaders>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR lime]* [/COLOR][COLOR orange] La Esclava Blanca [/COLOR]</title>
+<thumbnail>http://oi66.tinypic.com/8z1hcg.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[COLOR white][makelist.param3][/COLOR]</title>
+          <link>$doregex[makelist2]</link>
+          <thumbnail></thumbnail>
+   ]]></listrepeat>
+   <expres><![CDATA[a href="(.*?)" title="(.*?)">(La.*?)<]]></expres>
+   <page>http://www.tusnovelas.net/ver-telenovela/la-esclava-blanca</page>
+   <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[ 
+	<title>[COLOR white][makelist.param3][/COLOR]</title>
+	<link>$doregex[getRTPM] playpath=$doregex[path] swfUrl=http://powvideo.net/player6/jwplayer.flash.swf live=1 timeout=15 pageUrl=[makelist2.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[<IFRAME SRC="(.*gamo.*?)"\W]]></expres>
+<page>http://www.tusnovelas.net[makelist.param1]</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+ <name>getRTPM</name>
+ <expres><![CDATA[file: "(rtmp.*?h=.*?)\/]]></expres>
+ <page>[makelist2.param1]</page>
+ <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36</agent>
+<cookieJar></cookieJar>
+<connection>keep-alive</connection>
+</includeheaders>
+</regex>
+
+<regex>
+ <name>path</name>
+ <expres><![CDATA[file: "rtmp.*?h=.*?\/(.*?)"\W]]></expres>
+ <page>[makelist2.param1]</page>
+ <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36</agent>
+<cookieJar></cookieJar>
+<connection>keep-alive</connection>
+</includeheaders>
+</regex>
+</item>
+
+<item>
+<title>[COLOR lime]* [/COLOR][COLOR orange] Rosa Negra [/COLOR]</title>
+<thumbnail>http://3.bp.blogspot.com/-UWK1CmBDvnk/VPXi4pb9zeI/AAAAAAAAAmk/ZFjNxOCUEpc/s1600/rosa-negra-capitulos-completos.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[COLOR gray][makelist.param2][/COLOR]</title>
+          <link>plugin://plugin.video.powerpack/?url=http%3A%2F%2Fvideomega.tv%2Fcdn.php%3Fref%3D$doregex[hash]&amp;mode=19</link>
+          <thumbnail>http://3.bp.blogspot.com/-UWK1CmBDvnk/VPXi4pb9zeI/AAAAAAAAAmk/ZFjNxOCUEpc/s1600/rosa-negra-capitulos-completos.jpg</thumbnail>
+   ]]></listrepeat>
+   <expres>strong..a href='(.*?)'.*blank'.(.*?)./a</expres>
+   <page>http://ver-novelas-online.com/video/rosa-negra-capitulos-completos/</page>
+   <cookieJar></cookieJar>
+</regex>
+<regex>
+<name>hash</name>
+<expres>hashkey=(.*?)"</expres>
+<page>[makelist.param1]</page>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR lime]* [/COLOR][COLOR orange] El Hotel De Los Secretos [/COLOR]</title>
+<thumbnail>http://4.bp.blogspot.com/-nITU8nr3Bi0/VpwTNMczCuI/AAAAAAAAAmo/efW-gzFNgo4/s1600/El-hotel-de-los-secretos.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[COLOR gray][makelist.param2][/COLOR]</title>
+          <link>plugin://plugin.video.deadpool/?url=http%3A%2F%2Fvideomega.tv%2Fcdn.php%3Fref%3D$doregex[hash]&amp;mode=19</link>
+          <thumbnail>http://4.bp.blogspot.com/-nITU8nr3Bi0/VpwTNMczCuI/AAAAAAAAAmo/efW-gzFNgo4/s1600/El-hotel-de-los-secretos.jpg</thumbnail>
+   ]]></listrepeat>
+   <expres>strong..a href='(.*?)'.*blank'.(.*?)./a</expres>
+   <page>http://ver-novelas-online.com/video/el-hotel-de-los-secretos-capitulos-completos/</page>
+   <cookieJar></cookieJar>
+</regex>
+<regex>
+<name>hash</name>
+<expres>hashkey=(.*?)"</expres>
+<page>[makelist.param1]</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR lime]* [/COLOR][COLOR orange] El Secreto De Feriha [/COLOR]</title>
+<thumbnail>http://4.bp.blogspot.com/-1Y2gM-NSP1Y/VnAf1_BZRmI/AAAAAAAAAlQ/X1DKcQtAFWw/s1600/el-secreto-de-feriha.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[COLOR gray][makelist.param2][/COLOR]</title>
+          <link>plugin://plugin.video.deadpool/?url=http%3A%2F%2Fvideomega.tv%2Fcdn.php%3Fref%3D$doregex[hash]&amp;mode=19</link>
+          <thumbnail>http://4.bp.blogspot.com/-1Y2gM-NSP1Y/VnAf1_BZRmI/AAAAAAAAAlQ/X1DKcQtAFWw/s1600/el-secreto-de-feriha.jpg</thumbnail>
+   ]]></listrepeat>
+   <expres>strong..a href='(.*?)'.*blank'.(.*?)./a</expres>
+   <page>http://ver-novelas-online.com/video/el-secreto-de-feriha-capitulos-completos/</page>
+   <cookieJar></cookieJar>
+</regex>
+<regex>
+<name>hash</name>
+<expres>hashkey=(.*?)"</expres>
+<page>[makelist.param1]</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR lime]* [/COLOR][COLOR orange] EVA La Trailera [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[COLOR gray][makelist.param2][/COLOR]</title>
+          <link>plugin://plugin.video.deadpool/?url=http%3A%2F%2Fvideomega.tv%2Fcdn.php%3Fref%3D$doregex[hash]&amp;mode=19</link>
+          <thumbnail>http://1.bp.blogspot.com/-sHJdR-3cTKE/VqTdSTbkUiI/AAAAAAAAAnk/iUWbrqK2Q0U/s1600/EVA-LA-TRAILERA.jpg</thumbnail>
+   ]]></listrepeat>
+   <expres>strong..a href='(.*?)'.*blank'.(.*?)./a</expres>
+   <page>http://ver-novelas-online.com/video/eva-la-trailera-capitulos-completos/</page>
+   <cookieJar></cookieJar>
+</regex>
+<regex>
+<name>hash</name>
+<expres>hashkey=(.*?)"</expres>
+<page>[makelist.param1]</page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR lime]* [/COLOR][COLOR orange] Un Camino Hacia El Destino [/COLOR]</title>
+<thumbnail>http://2.bp.blogspot.com/-nOcidFEO4Zw/VpwTMobsPQI/AAAAAAAAAmc/vyNAmZ2jL5Y/s1600/Un_camino_hacia_el_destino.jpg</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[COLOR gray][makelist.param2][/COLOR]</title>
+          <link>plugin://plugin.video.deadpool/?url=http%3A%2F%2Fvideomega.tv%2Fcdn.php%3Fref%3D$doregex[hash]&amp;mode=19</link>
+          <thumbnail>http://2.bp.blogspot.com/-nOcidFEO4Zw/VpwTMobsPQI/AAAAAAAAAmc/vyNAmZ2jL5Y/s1600/Un_camino_hacia_el_destino.jpg</thumbnail>
+   ]]></listrepeat>
+   <expres>strong..a href='(.*?)'.*blank'.(.*?)./a</expres>
+   <page>http://ver-novelas-online.com/video/un-camino-hacia-el-destino-capitulos-completos/</page>
+   <cookieJar></cookieJar>
+</regex>
+<regex>
+<name>hash</name>
+<expres>hashkey=(.*?)"</expres>
+<page>[makelist.param1]</page>
+</regex>
+</item>
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] La Reyna Del Sur [/COLOR]</title>
+<thumbnail>http://www.telemundo.com/sites/nbcutelemundo/files/sites/nbcutelemundo/files/images/tv_show/10_LaReinaDelSur_1920x1080_2.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzDxiKY228MCT5C0fwGydsrT</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Mi Destino Eres Tu [/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL6vKV_wW7IkHU17GKn7iaG0kJAE3ySwYL</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Que Bonito Amor [/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL6vKV_wW7IkHJSQw3Prb9o_WysjpAvWid</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Mariana De La Noche [/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL6vKV_wW7IkElbNxKqBuK9vCysH7C0IZu</page>
+ <referer>https://www.youtube.com/channel/ashleylalocas/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Santa Diabla [/COLOR]</title>
+<thumbnail>http://www.telemundo.com/sites/nbcutelemundo/files/sites/nbcutelemundo/files/images/tv_show/10_SantaDiabla_1920x1080_2.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzCnRBf1agV176UZJMmCKTNz</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Marido En Alquiler [/COLOR]</title>
+<thumbnail>http://www.telemundo.com/sites/nbcutelemundo/files/sites/nbcutelemundo/files/images/tv_show/10_MaridoAlquiler_1920x1080_2.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzCxH8F5-Etd9rC3vXdZiLlM</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] La Impostora [/COLOR]</title>
+<thumbnail>http://www.telemundo.com/sites/nbcutelemundo/files/sites/nbcutelemundo/files/images/tv_show/10_LaImpostora_1920x1080_2.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzBKnjy8BkMugy3G9S20jUoo</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Reyna De Corazones [/COLOR]</title>
+<thumbnail>http://www.telemundo.com/sites/nbcutelemundo/files/images/promo/tv_show/2014/10/20/10_reinadecorazones_1920x1080.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzAch4NPCpUjFhqYz1XgaYks</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Dama Y Obrero [/COLOR]</title>
+<thumbnail>http://i2.esmas.com/2013/10/11/575008/dama-y-obrero-620x336.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzBiFeY2j9JfL8SYHE567Oxs</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Mas Sabe El Diablo [/COLOR]</title>
+<thumbnail>http://mediaticapro.com/tl_files/Imagenes/Producciones/Largometrajes/diablo_primer_golpe.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL59B6D83A1EB53A7A</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] La Patrona [/COLOR]</title>
+<thumbnail>https://i.ytimg.com/vi/Lm8UbiIUkMA/maxresdefault.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzB2nwj0rDAmgFxTbvP-mR7P</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Pasion Prohibida [/COLOR]</title>
+<thumbnail>http://www.telemundo.com/sites/nbcutelemundo/files/sites/nbcutelemundo/files/images/tv_show/10_PasionProhibida_1920x1080_2.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzCRXJiRDNK2I-p5WvzOXqHX</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] En Otra Piel [/COLOR]</title>
+<thumbnail>http://television.televisa.com/television/fotos/articulos/2015/01/06/en-otra-piel-1000x826.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzCDXqv1r2-8LzDNA_QKKWmy</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] El Capo [/COLOR]</title>
+<thumbnail>https://i.ytimg.com/vi/U4BX20-vJ2c/maxresdefault.jpg</thumbnail>z
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLB7tpbqoFMv06bLxT6lsRz3W6rzdT6iNK</page>
+ <referer>https://www.youtube.com/channel/UCxhnV5bHYHOhjhUhe_as1NA/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+
+
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Tierra De Reyes [/COLOR]</title>
+<thumbnail>http://television.televisa.com/television/fotos/2015/telemundo/tierradereyes/2015/08/11/stageTDR.jpg/jcr:content/renditions/cq5dam.thumbnail.624.468.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzBHRB14mWKQFRi7tPPNkypu</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+
+<item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Dueños Del Paraiso [/COLOR]</title>
+<thumbnail>http://www.telemundo.com/sites/nbcutelemundo/files/images/promo/tv_show/2014/11/21/10_duenosparaiso_1920x1080v2.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL9pNdAr3-EzAaL8QksVy9-BR0YinMUmj9</page>
+ <referer>https://www.youtube.com/channel/telemundotv/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] La Viuda de la Mafia [/COLOR]</title>
+<thumbnail>http://www.latin.cz/uvod/odkazy/telenovely/la_viuda_de_la_mafia/2.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLS6Wbc0_v7eP5EAKx0KOinZu-_Xk6ZtAa</page>
+ <referer>https://www.youtube.com/channel/capitulosromanticos/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] La Pola [/COLOR]</title>
+<thumbnail>http://www.mundonets.com/images/stories/La-Pola/laPola11abr11.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLS6Wbc0_v7eNlw4sIhmIDJZ692HLCn1x3</page>
+ <referer>https://www.youtube.com/channel/capitulosromanticos/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] Doña Bella [/COLOR]</title>
+<thumbnail>http://www.miblogdecineytv.com/wp-content/uploads/2012/01/DonaBella0.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLS6Wbc0_v7eMAEYalUyPFTmKBPi0TQDoF</page>
+ <referer>https://www.youtube.com/channel/capitulosromanticos/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ <item>
+ <title>[COLOR lime]* [/COLOR][COLOR orange] La Hija del Mariachi [/COLOR]</title>
+<thumbnail>http://www.miblogdecineytv.com/imagenes/novelas/LaHijaMariachi/LaHijaMariachi0.jpg</thumbnail>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+     <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PLS6Wbc0_v7eMKQx4vQG4fKPflEGA6Ft2j</page>
+ <referer>https://www.youtube.com/channel/capitulosromanticos/playlists</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+
+
+
+
+

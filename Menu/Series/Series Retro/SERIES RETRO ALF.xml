@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<item>
+<title>[COLOR blue]ALF TEMPORADA 1[/COLOR]</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>https://images-production.global.ssl.fastly.net/uploads/photos/file/43219/alf.jpg</thumbnail>
+		<fanart>http://i.dailymail.co.uk/i/pix/2015/06/19/16/29C8A8F700000578-0-Problems_After_ALF_Max_starred_on_another_sitcom_but_later_dealt-m-42_1434729078483.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/anime1/alf-25535/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/anime1/alf-25535/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-production.global.ssl.fastly.net/uploads/photos/file/43219/alf.jpg</thumbnail>
+<fanart>http://i.dailymail.co.uk/i/pix/2015/06/19/16/29C8A8F700000578-0-Problems_After_ALF_Max_starred_on_another_sitcom_but_later_dealt-m-42_1434729078483.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]ALF TEMPORADA 2[/COLOR]</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>https://images-production.global.ssl.fastly.net/uploads/photos/file/43219/alf.jpg</thumbnail>
+		<fanart>http://i.dailymail.co.uk/i/pix/2015/06/19/16/29C8A8F700000578-0-Problems_After_ALF_Max_starred_on_another_sitcom_but_later_dealt-m-42_1434729078483.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/anime1/alf-t2-25537/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/anime1/alf-t2-25537/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-production.global.ssl.fastly.net/uploads/photos/file/43219/alf.jpg</thumbnail>
+<fanart>http://i.dailymail.co.uk/i/pix/2015/06/19/16/29C8A8F700000578-0-Problems_After_ALF_Max_starred_on_another_sitcom_but_later_dealt-m-42_1434729078483.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]ALF TEMPORADA 3[/COLOR]</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>https://images-production.global.ssl.fastly.net/uploads/photos/file/43219/alf.jpg</thumbnail>
+		<fanart>http://i.dailymail.co.uk/i/pix/2015/06/19/16/29C8A8F700000578-0-Problems_After_ALF_Max_starred_on_another_sitcom_but_later_dealt-m-42_1434729078483.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/anime1/alf-t3-25539/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/anime1/alf-t3-25539/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-production.global.ssl.fastly.net/uploads/photos/file/43219/alf.jpg</thumbnail>
+<fanart>http://i.dailymail.co.uk/i/pix/2015/06/19/16/29C8A8F700000578-0-Problems_After_ALF_Max_starred_on_another_sitcom_but_later_dealt-m-42_1434729078483.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]ALF TEMPORADA 4[/COLOR]</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>https://images-production.global.ssl.fastly.net/uploads/photos/file/43219/alf.jpg</thumbnail>
+		<fanart>http://i.dailymail.co.uk/i/pix/2015/06/19/16/29C8A8F700000578-0-Problems_After_ALF_Max_starred_on_another_sitcom_but_later_dealt-m-42_1434729078483.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/anime1/alf-t4-25540/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/anime1/alf-t4-25540/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-production.global.ssl.fastly.net/uploads/photos/file/43219/alf.jpg</thumbnail>
+<fanart>http://i.dailymail.co.uk/i/pix/2015/06/19/16/29C8A8F700000578-0-Problems_After_ALF_Max_starred_on_another_sitcom_but_later_dealt-m-42_1434729078483.jpg</fanart>
+</item>
