@@ -89,8 +89,8 @@
 <channels>
 <channel>
 <name>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TELEVISION[/COLOR][COLOR grey][I] [Canales de television por cable][/I][/COLOR][/B]</name>
-<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
-<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>https://www.dropbox.com/s/nsy4xkx2ixjb4ff/TV-Premium.xml?dl=1</externallink>
 </channel>
