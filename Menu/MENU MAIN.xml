@@ -68,7 +68,7 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Thumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Fanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
-<externallink>https://www.dropbox.com/s/7qjlppj00egvj4r/247SPANISH.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/24-7/247SPANISH.xml</externallink>
 </channel>
  </channels>
 
@@ -81,7 +81,7 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeThumbnail.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
-<externallink>https://www.dropbox.com/s/o1vijl2rs2oykfj/ANIME-MENU.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Anime/ANIME-MENU.xml</externallink>
 </channel>
  </channels>
 
@@ -92,7 +92,7 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
-<externallink>https://www.dropbox.com/s/nsy4xkx2ixjb4ff/TV-Premium.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/TV-Premium.xml</externallink>
 </channel>
  </channels>
 
@@ -103,7 +103,7 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/CocinaThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/CocinaFanart.png?raw=true</fanart>
 <link>$doregex[makelist]</link>
-<externallink>https://www.dropbox.com/s/396b9rywpif09p7/Menu%20Cocina.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Cocina/Menu%20Cocina.xml</externallink>
 </channel>
  </channels>
  
@@ -115,7 +115,7 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/ConciertosThumbnail.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/ConciertosFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
-<externallink>https://www.dropbox.com/s/hqr8oe6vhc3c28t/Conciertos.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Conciertos/Conciertos.xml</externallink>
 </channel>
  </channels>
 
@@ -129,7 +129,7 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DeportesThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DeportesFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
-<externallink>https://www.dropbox.com/s/kc2ybveo2ftbawz/Deportes-Menu.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Deportes/Deportes-Menu.xml</externallink>
 </channel>
  </channels>
 
@@ -143,7 +143,7 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DocumentalesThumbnail.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DocumentalesFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
-<externallink>https://www.dropbox.com/s/sb2z4szek7lgrbn/MENU%20DOCUMENTALES.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Documentales/MENU%20DOCUMENTALES.xml</externallink>
 </channel>
  </channels>
 
@@ -157,7 +157,7 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/IPTVExternalThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/IPTVExternalFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
-<externallink>https://www.dropbox.com/s/cpbxxf3u2hlt9gy/MENU%20EXTERNAL.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/External/MENU%20EXTERNAL.xml</externallink>
 </channel>
 </channels>
 
@@ -171,7 +171,7 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
-<externallink>https://www.dropbox.com/s/9fsrkvgkkmaq27e/MOVIES-ZONAS.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Movies/MOVIES-ZONAS.xml</externallink>
 </channel>
  </channels>
 
@@ -185,7 +185,7 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/SeriesThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/SeriesFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
-<externallink>https://www.dropbox.com/s/arkkhg9b8qk3p2s/SERIES%20MENU.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/SERIES%20MENU.xml</externallink>
 </channel>
  </channels>
 
@@ -199,7 +199,7 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TelenovelasThumbnail.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TelenovelasFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
-<externallink>https://www.dropbox.com/s/wdwmqleal6r7y5i/TelenovelasMenu.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Telenovelas/TelenovelasMenu.xml</externallink>
 </channel>
  </channels>
 
@@ -213,7 +213,7 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/VideosMusicalesThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/VideosMusicalesFanart.png?raw=true</fanart>
 <link>http://ignorame</link>
-<externallink>https://www.dropbox.com/s/7i7jcjhadkeeip5/Base%20Musica.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Musica%20Y%20Videos/Videos/Base%20Musica.xml</externallink>
 </channel>
  </channels>
 
