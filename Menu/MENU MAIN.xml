@@ -65,8 +65,8 @@
 <channels>
 <channel>
 <name>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] 24/7[/COLOR][COLOR grey][I] [Canales con programcion en vivo las 24 hs][/I][/COLOR][/B]</name>
-<thumbnail>http://clouds-plus.com/images/sample/slide2.png</thumbnail>
-<fanart>http://files.enjin.com/95016/pics/HBO-24-7-Logo1.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Thumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Fanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
 <externallink>https://www.dropbox.com/s/7qjlppj00egvj4r/247SPANISH.xml?dl=1</externallink>
 </channel>
@@ -78,8 +78,8 @@
 <channels>
 <channel>
 <name>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] ANIME[/COLOR][COLOR grey][I] [Series Anime][/I][/COLOR][/B]</name>
-<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/3c/59/47/3c5947d80326b9eddb34bcf3fc64810b.jpg</thumbnail>
-<fanart>https://s-media-cache-ak0.pinimg.com/originals/f9/76/9d/f9769d93657e22d648ef1c598e2008c3.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeThumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>https://www.dropbox.com/s/o1vijl2rs2oykfj/ANIME-MENU.xml?dl=1</externallink>
 </channel>
