@@ -17,8 +17,8 @@
 		<title>[COLOR orange]DJL[/COLOR][COLOR white] IPTV[/COLOR][COLOR gold] ADDON[/COLOR]</title>
 		<genre>IPTV</genre>
 		<description>Kodi Addon IPTV</description>
-		<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
-		<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVLogo.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVCHLogo.jpg?raw=true</fanart>
 		<date>01.01.2017</date>
 		<credits>DJL IPTV</credits>
     </channels_info>
@@ -29,8 +29,8 @@
 <channels> 
 <channel>
 <name>            :::| [COLOR orange]DJL[/COLOR][COLOR white] IPTV[/COLOR][COLOR gold] ADDON[/COLOR] |:::</name>
-<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
-<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVLogo.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVCHLogo.jpg?raw=true</fanart>
 <link>http://ignorame</link>
 <externallink>http://pastebin.com</externallink>
 </channel>
@@ -39,8 +39,8 @@
 <channels> 
 <channel>
 <name>[COLOR skyblue]== ACTUALIZACION ==[/COLOR][COLOR cyan] | [/COLOR][COLOR white][B]JULIO 2017[/B][/COLOR][COLOR cyan] |[/COLOR]</name>
-<thumbnail>https://www.dropbox.com/s/y6790fofeuv5bol/update.jpg?dl=1</thumbnail>
-<fanart>https://www.dropbox.com/s/y6790fofeuv5bol/update.jpg?dl=1</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/update.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/update.jpg?raw=true</fanart>
 <link>http://ignorame</link>
 <externallink>http://pastebin.com</externallink>
 </channel>
@@ -49,8 +49,8 @@
  <channels>
 <channel>
 <name>[COLOR white]========================================[/COLOR]</name>
-<thumbnail>http://bit.ly/DJLIPTVUPDATE1</thumbnail>
-<fanart>http://bit.ly/DJLIPTVUPDATE</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVLogo.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVCHLogo.jpg?raw=true</fanart>
 <link>http://ignorame</link>
 <externallink>http://pastebin.com</externallink>
 </channel>
@@ -100,8 +100,8 @@
 <channels>
 <channel>
 <name>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] COCINA[/COLOR][COLOR grey][I] [Amplia variedad de videos explicativos con recetas de cocina][/I][/COLOR][/B]</name>
-<thumbnail>http://www.yaya-it.com/el-chef-frances/assets/images/chef.png</thumbnail>
-<fanart>https://lh6.ggpht.com/LjmzXXFAeJJTV2V7CvbxbaA5zJMIuvZVqzqUUFUAMxxvn2aJW4PwI1ZGwg2MvX0Yfg=h900</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/CocinaThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/CocinaFanart.png?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>https://www.dropbox.com/s/396b9rywpif09p7/Menu%20Cocina.xml?dl=1</externallink>
 </channel>
@@ -112,8 +112,8 @@
 <channels>
 <channel>
 <name>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] CONCIERTOS[/COLOR][COLOR grey][I] [Amplio listado de conciertos nacionales e internacionales][/I][/COLOR][/B]</name>
-<thumbnail>http://eventshuttleservice.com/wp-content/uploads/2014/03/wilmington-nc-concert-620x414.jpg</thumbnail>
-<fanart>http://wiii-fm.sagacom.com/wp-content/blogs.dir/53/files/2013/02/Live_in_concert-620x400.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/ConciertosThumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/ConciertosFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
 <externallink>https://www.dropbox.com/s/hqr8oe6vhc3c28t/Conciertos.xml?dl=1</externallink>
 </channel>
@@ -126,8 +126,8 @@
 <channels>
 <channel>
 <name>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] DEPORTES[/COLOR][COLOR grey][I] [Canales deportivos y emisiones de eventos en directo][/I][/COLOR][/B]</name>
-<thumbnail>http://www.editorialox.com/wp-content/uploads/2012/10/logodeportes.png</thumbnail>
-<fanart>https://www.ondafuerteventura.es/wp-content/uploads/2014/06/deportes-ayun.pto_.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DeportesThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DeportesFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
 <externallink>https://www.dropbox.com/s/kc2ybveo2ftbawz/Deportes-Menu.xml?dl=1</externallink>
 </channel>
@@ -140,8 +140,8 @@
 <channels>
 <channel>
 <name>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] DOCUMENTALES[/COLOR][COLOR grey][I] [Documentales en SPANISH / ENGLISH][/I][/COLOR][/B]</name>
-<thumbnail>http://www.filmsite.org/images/documentary-genre.jpg</thumbnail>
-<fanart>http://www.lidf.co.uk/wp-content/uploads/2013/06/Architect-Builder3-420x280.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DocumentalesThumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DocumentalesFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
 <externallink>https://www.dropbox.com/s/sb2z4szek7lgrbn/MENU%20DOCUMENTALES.xml?dl=1</externallink>
 </channel>
@@ -154,8 +154,8 @@
 <channels>
 <channel>
 <name>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] IPTV EXTERNAL[/COLOR][COLOR grey][I] [Listado de ADDONS externos con Series, Pelliculas, Etc][/I][/COLOR][/B]</name>
-<thumbnail>https://i.ytimg.com/vi/wzC_6Cb1Or8/hqdefault.jpg</thumbnail>
-<fanart>http://i1068.photobucket.com/albums/u458/COMPASSCARDINAL9000/IPTV-web1.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/IPTVExternalThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/IPTVExternalFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
 <externallink>https://www.dropbox.com/s/cpbxxf3u2hlt9gy/MENU%20EXTERNAL.xml?dl=1</externallink>
 </channel>
@@ -168,8 +168,8 @@
  <channels>
 <channel>
 <name>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] MOVIES[/COLOR][COLOR grey][I] [Peliculas en SD,HD,FHD, en SPANISH / ENGLISH][/I][/COLOR][/B]</name>
-<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
-<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
 <externallink>https://www.dropbox.com/s/9fsrkvgkkmaq27e/MOVIES-ZONAS.xml?dl=1</externallink>
 </channel>
@@ -182,8 +182,8 @@
  <channels>
 <channel>
 <name>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] SERIES[/COLOR][COLOR grey][I] [Series en SD,HD,FHD, en SPANISH / ENGLISH][/I][/COLOR][/B]</name>
-<thumbnail>https://4.bp.blogspot.com/-6loyXT3YElQ/V1lL370EdhI/AAAAAAAABQU/09zmvbXiQ08OuhsmpOtScrJvqlWYyEMQQCLcB/s640/series.png</thumbnail>
-<fanart>http://www.elcineenlasombra.com/wp-content/uploads/2015/12/Series-TV-.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/SeriesThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/SeriesFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
 <externallink>https://www.dropbox.com/s/arkkhg9b8qk3p2s/SERIES%20MENU.xml?dl=1</externallink>
 </channel>
@@ -196,8 +196,8 @@
 <channels>
 <channel>
 <name>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TELENOVELAS[/COLOR][COLOR grey][I] [Telenovelas en SD,HD,FHD, en SPANISH][/I][/COLOR][/B]</name>
-<thumbnail>http://screwlife.com/wp-content/uploads/2016/06/telenovelas.jpg</thumbnail>
-<fanart>http://macaulay.cuny.edu/eportfolios/friedlander12/files/2012/04/telenovelas1-300x270.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TelenovelasThumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TelenovelasFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
 <externallink>https://www.dropbox.com/s/wdwmqleal6r7y5i/TelenovelasMenu.xml?dl=1</externallink>
 </channel>
@@ -210,8 +210,8 @@
 <channels>
 <channel>
 <name>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] VIDEOS MUSICALES[/COLOR][COLOR grey][I] [Variedad de videos musicales populares de ayer y de hoy][/I][/COLOR][/B]</name>
-<thumbnail>http://www.musicplaylistchannel.com/_/rsrc/1423009797481/home/youtube-music-videos-channel.png</thumbnail>
-<fanart>http://vignette2.wikia.nocookie.net/logopedia/images/c/c3/VidZone_Music_Videos.png/revision/latest?cb=20131211130257</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/VideosMusicalesThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/VideosMusicalesFanart.png?raw=true</fanart>
 <link>http://ignorame</link>
 <externallink>https://www.dropbox.com/s/7i7jcjhadkeeip5/Base%20Musica.xml?dl=1</externallink>
 </channel>
@@ -224,8 +224,8 @@
 <channels>
 <channel>
 <name>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] ZONA KIDS[/COLOR][COLOR grey][I] [Contenido para los mas pequeños en SPANISH][/I][/COLOR][/B]</name>
-<thumbnail>http://us.napster.com/assets/runway/kidsmode/kids_logo_x2-2cc464484bd057ac2638e40f988c3b91.png</thumbnail>
-<fanart>http://img.clipartall.com/computer-20clipart-20for-20kids-kids-clipart-3097_1833.gif</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/KidsThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/KidsFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
 <externallink>http://bit.ly/DJLIPTV3</externallink>
 </channel>
