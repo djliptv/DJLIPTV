@@ -2,6 +2,31 @@
  
  <!--- DJL CONTAINER ######## INICIO --->
 
+ <item>
+<title>[B][COLOR deepskyblue]HBO[/COLOR] [COLOR white]LATINO[/COLOR][/B]</title>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+<regex>
+<name>ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.publish247.xyz:1935/loadbalancer?17089</page>
+</regex>
+<regex>
+<name>m3u8</name>
+<expres>ea \+ "(.*?)"</expres>
+<page>http://www.247bay.tv/membedplayer/$doregex[canal]/2/680/380</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.247bay.tv</referer>
+</regex>
+<regex>
+<name>canal</name>
+<expres>channel='(.*?)'</expres>
+<page>http://tvpor-internet.com/hbo-en-vivo.html</page>
+</regex>
+<thumbnail>http://z.cdn.entutele.com/media/channels/medium/hbo-w.gif</thumbnail>
+<fanart>http://z.cdn.entutele.com/media/channels/medium/hbo-w.gif</fanart>
+</item> 
+ 
+
 <item>
 <title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] DJL CONTAINER[/COLOR]</title>
 <link>$doregex[makelist3]</link>
@@ -60,6 +85,212 @@
 <fanart>http://www.elcineenlasombra.com/wp-content/uploads/2015/12/Series-TV-.jpg</fanart>
 </item>
 
+	<item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]MEGA WEEKEND[/COLOR] [COLOR white]EL RINCON DEL LOLO[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MegaWknd.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MegaWknd.jpg?raw=true</fanart>
+		<externallink>https://pastebin.com/raw/cUrxthqq</externallink><!--- https://www.dropbox.com/s/nj03kvh2znhfki6/Sagas%20lolo.xml?dl=1 --->
+	</item>
+
+<item>
+	<title>IPTV MENU</title>
+	
+	<link>https://freedom.dreamsmx.com/freedom/formula1/playlist.m3u8$$lsname=Discovery Home & Health</link>
+<link>https://freedom.dreamsmx.com/freedom/foxcomedy/playlist.m3u8$$lsname=Fox Comedy HD</link>
+<link>https://freedom.dreamsmx.com/freedom/foxfamili/playlist.m3u8$$lsname=Fox Family EN</link>
+<link>https://freedom.dreamsmx.com/freedom/mlbusa/playlist.m3u8$$lsname=HBO 2</link>
+<link>https://freedom.dreamsmx.com/freedom/hboplusdc/playlist.m3u8$$lsname=Hbo Plus</link>
+<link>https://freedom.dreamsmx.com/freedom/hbopluswestizi/playlist.m3u8$$lsname=HBO Family</link>
+<link>https://freedom.dreamsmx.com/freedom/hbosignature/playlist.m3u8$$lsname=HBO Signature</link>
+<link>https://freedom.dreamsmx.com/freedom/nick2/playlist.m3u8$$lsname=Liga de Ascenso Mx TVC HD</link>
+<link>https://freedom.dreamsmx.com/freedom/feriastaurinas/playlist.m3u8$$lsname=Max UP</link>
+<link>https://freedom.dreamsmx.com/freedom/eventos4/playlist.m3u8$$lsname=A&E</link>
+<link>https://freedom.dreamsmx.com/freedom/espn+/playlist.m3u8$$lsname=ESPN +</link>
+<link>https://freedom.dreamsmx.com/freedom/foxfamili/playlist.m3u8$$lsname=Fox Action HD</link>
+<link>https://freedom.dreamsmx.com/freedom/foxmoviesizi/playlist.m3u8$$lsname=Fox Movies HD</link>
+<link>https://freedom.dreamsmx.com/freedom/lmb/playlist.m3u8$$lsname=Discovery Kids</link>
+<link>https://freedom.dreamsmx.com/freedom/MLB/playlist.m3u8$$lsname=Safe Star Sixes</link>
+<link>https://freedom.dreamsmx.com/freedom/mlb6/playlist.m3u8$$lsname=Fight Pass</link>
+
+	
+	
+	<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1056.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=#0 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1028.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=A&amp;E ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1053.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=AMC HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1052.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=AXN HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1051.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=AXN White ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1078.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Extremadura TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1084.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Antena 3 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1022.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Lancelot TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1038.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Barca TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1015.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Boing ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1046.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=C+ Estrellas ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1049.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Calle 13 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1025.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Canal Cocina ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1024.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Canal Decasa ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1023.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Canal Panda ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1057.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Canal SUR ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1027.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Caza Y Pesca ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1019.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=TV3 Cat ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1048.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Comedy Central HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1047.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Cosmos HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1083.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Cuatro ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1030.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Discovery HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1031.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Clan TVE ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1017.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Disney Channel ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1016.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Disney XD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1044.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Energy ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1018.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=EuroNews ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1036.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=EuroSport 1 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1074.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Fox News ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1045.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=FDF ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1055.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Fox HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1054.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Fox Life HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1075.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Galicia TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1040.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Gol TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1039.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Andalucia TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1029.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Historia ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1060.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Hollywood ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1086.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=La 1 ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1081.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=La Sexta ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1062.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=LaLiga TV Bar ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1012.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Mega ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1070.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MovieStar Accion ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1069.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MovieStar Comedia ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1068.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MovieStar DCine ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1064.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MovieStar Deportes 1 ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1073.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MovieStar Deportes 2 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1072.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MovieStar Estrenos ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1035.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MovieStar F1 ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1063.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MovieStar Futbol ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1061.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MovieStar Golf ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1041.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MovieStar MotoGP HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1067.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MovieStar Series HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1066.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MovieStar Series Xtra ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1065.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MovieStar Toros HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1071.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MovieStar Xtra ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1033.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Nat Geo ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1032.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Nat Geo Wild HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1079.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Neox ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1013.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Nick Junior ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1014.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Nickelodeon HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1080.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Nova ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1034.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Odisea HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1077.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Telecinco HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1020.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Esperanza TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1037.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Real Madrid TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1050.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=SyFy HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1059.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=TCM ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1058.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=TNT ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1021.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=TV3 24H ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1076.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=La Sexta HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1085.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=TVE LA 2 ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1082.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Telecinco ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1026.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Viajar HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4427.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Antenna 3 FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4414.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=AXN FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4413.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=AXN White FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4409.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=C+ Accion FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4407.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=C+ DCine FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4405.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=C+ Dep 2 FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4408.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=C+ Estrenos FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4410.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=C  Series FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4411.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=C+ Xtra FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4416.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Calle 13 FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4417.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Caza Y Pesca FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4412.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Cosmo FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4426.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Cuatro FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4422.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Disney Channel FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4415.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Fox FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4428.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=LA 1 FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4424.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=LA Sexta FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4400.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=M  Formula 1 FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4406.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=M+ Futbol FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4402.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=M  Golf  FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4399.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=M  MotoGP FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4401.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MoviStar F1 FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4419.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Nat Geo FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4418.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Nat Geo Wild FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4420.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=SyFy FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4425.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Telecinco FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4423.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Viajar FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4403.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=beIN LA Liga FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/4404.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=beIN Sport FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1043.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=beINSport HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1042.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=beINSport LaLiga HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1011.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Taquilla 1 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1010.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Taquilla 2 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1009.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Taquilla 3 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1008.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Taquilla 4 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1007.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Taquilla 5 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1006.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Taquilla 6 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1005.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Taquilla 7 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1004.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Taquilla 8 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1002.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Taquilla 10 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1001.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Taquilla 11 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/1000.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Taquilla 12 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/999.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Taquilla 13 HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6085.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=#0 FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6093.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=13 TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6094.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=8TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6097.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=a3series HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6082.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=AMC FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6091.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Aragon TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6051.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Baby TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6078.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Canal Dark ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6052.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Canal Orbe 21 ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6079.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Cine 3D ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6042.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Classica ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6073.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Comedy Central FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6058.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Crimen e Investigaci?n ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6057.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Discovery Channel FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6050.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Disney Junior ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6065.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Eurosport 1 FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6064.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Eurosport 2 FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6075.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=FOX Life FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6066.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Gol TV HD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6055.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Historia FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6080.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Hollywood FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6056.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Iberalia TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6040.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Kiss TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6069.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=LaLigaTV FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6092.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Levante TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6086.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=LTC ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6043.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Mezzo Live FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6083.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Movistar  Comedia FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6071.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Movistar  Deportes 1 FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=#EXTINF:-1,Movistar+ Esports&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Movistar+ Esports ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6047.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6084.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Movistar  Series Xtra FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6046.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MTV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6045.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=MTV Rocks ES ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6048.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Nickelodeon FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6041.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Non Stop People ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6063.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Olympic Channel FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6072.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Sundance TV ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6081.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=TCM FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6074.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=TNT FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6067.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=Toros TV FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6090.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=TV Canaria ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6044.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=VH1 ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6062.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=World Padel Tour FHD ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/julia/julia/6076.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=XTRM ES</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://iptv.cs2017.info:9090/live/casiy/uyt/67.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=SP: La 1 HD</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://iptv.cs2017.info:9090/live/casiy/uyt/66.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=SP: La 1</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://iptv.cs2017.info:9090/live/casiy/uyt/68.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=SP: LA 2</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://iptv.cs2017.info:9090/live/casiy/uyt/70.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=SP: Antena 3 HD</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://iptv.cs2017.info:9090/live/casiy/uyt/69.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=SP: Antena 3</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://iptv.cs2017.info:9090/live/casiy/uyt/72.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=SP: Cuatro HD</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://iptv.cs2017.info:9090/live/casiy/uyt/71.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=SP: Cuatro</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://iptv.cs2017.info:9090/live/casiy/uyt/74.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=SP: Telecinco HD</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://iptv.cs2017.info:9090/live/casiy/uyt/73.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=SP: Telecinco</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://iptv.cs2017.info:9090/live/casiy/uyt/76.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=SP: La Sexta HD</link> 
+<link>plugin://plugin.video.f4mTester/?url=http://iptv.cs2017.info:9090/live/casiy/uyt/75.ts&amp;streamtype=TSDOWNLOADER&amp;$$lsname=SP: La Sexta</link> 
+	<thumbnail>https://www.dropbox.com/s/eg6rdq84p2t6ok5/TVThumbnail.jpg?dl=1</thumbnail>
+	<fanart>https://www.dropbox.com/s/zwo0at9yobb7zn3/TVFanart.jpg?dl=1</fanart>
+</item>
+
 <item>
 	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]ZONA[/COLOR] [COLOR skyblue]ingalls ep1[/COLOR]</title>
 	<link>http://ignorame</link>
@@ -116,6 +347,36 @@
 </item>
 
 
+<item>
+	<title>m3u8 test</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://www.dropbox.com/s/eg6rdq84p2t6ok5/TVThumbnail.jpg?dl=1</thumbnail>
+	<fanart>https://www.dropbox.com/s/zwo0at9yobb7zn3/TVFanart.jpg?dl=1</fanart>
+	<externallink>http://textuploader.com/56q46/raw</externallink>
+</item>
+
+<item>
+<title>m3u8 prueba</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://edge5204.livesports.pw/live/vermestrenos91ddad7d34dd8/index.m3u8</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
 
 <item>
 <title>[COLOR blue]HTTP://KBAGI.COM  container[/COLOR][COLOR white][4K][/COLOR]</title>

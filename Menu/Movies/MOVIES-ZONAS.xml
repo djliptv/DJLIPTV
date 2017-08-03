@@ -104,6 +104,82 @@
 			</item>
 			
 			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]SUPER COLECCION DE PELICULAS 3 [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<page>http://diskokosmiko.mx/amigo/sd-movies-1132/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/amigo/sd-movies-1132/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+			<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+			<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]SUPER COLECCION DE PELICULAS 4 [/COLOR][COLOR white][AUDIO ENG][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<regex>
+					<name>makelist</name>
+					<listrepeat><![CDATA[
+					<title>[makelist.param3]</title>
+					<link>$doregex[getUrl]</link>
+					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+					]]></listrepeat>
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<page>http://diskokosmiko.mx/enthus1ast.com/201702-52071/list,1,100</page>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>getUrl</name>
+					<expres>DownloadUrl":"([^"]+)<expres>
+					<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+					<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+					<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+					<connection>keep-alive</connection>
+					<accept>*/*</accept>
+					<X-Req>XMLHttpRequest</X-Req>
+					<cookieJar></cookieJar>
+				</regex>
+				<regex>
+					<name>tok</name>
+					<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+					<page>http://diskokosmiko.mx/[makelist.param2]</page>
+					<referer>http://diskokosmiko.mx/enthus1ast.com/201702-52071/list,1,100</referer>
+					<connection>keep-alive</connection>
+					<cookieJar></cookieJar>
+				</regex>
+			<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+			<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+			</item>
+			
+			<item>
 				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]PELICULAS [/COLOR][COLOR cyan] HD [/COLOR][COLOR white][VARIOS | AUD & SUBS][/COLOR]</title>
 				<link>$doregex[makelist]</link>
 				<regex>
