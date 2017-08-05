@@ -121,8 +121,8 @@ item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] STALLION [12/07/17] [/COLOR][/B]</title>
-<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
-<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>http://pastebin.com/raw/Tdjewjtr</externallink>
 </item>
@@ -132,8 +132,8 @@ item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] CECEGEEK [26/06/17] [/COLOR][/B]</title>
-<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
-<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>https://pastebin.com/raw/5yx8tQrL</externallink>
 </item>
@@ -142,16 +142,16 @@ item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] LATINOS [/COLOR][/B]</title>
-<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
-<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>http://textuploader.com/d09m5/raw</externallink>
 </item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] IPTV PRO [26/06/17] [/COLOR][/B]</title>
-<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
-<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>https://pastebin.com/raw/P65UvMh7</externallink>
 </item>
@@ -203,8 +203,8 @@ item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] SUPER MEGA LISTA [/COLOR][COLOR white][OPCION 2][/COLOR][/B]</title>
-<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
-<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>https://www.dropbox.com/s/26qnic8bao138vm/alltv.m3u?dl=1</externallink>
 </item>
@@ -212,16 +212,16 @@ item>
 <!--- ITEM - CANALES DE CABLE OPCION 3 ######## INICIO --->
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR white] [OPCION 2][/COLOR][/B]</title>
-<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
-<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>http://exabytetv.info/LATIN.m3u</externallink>
 </item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR white] [OPCION 2.1][/COLOR][/B]</title>
-<thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
-<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>https://www.dropbox.com/s/0x65ur98dm150ci/LATINEBTV.m3u?dl=1</externallink>
 </item>
