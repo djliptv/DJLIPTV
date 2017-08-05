@@ -63,7 +63,8 @@ _psn12v?
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://files.enjin.com/95016/pics/HBO-24-7-Logo1.jpg</thumbnail>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Thumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Fanart.jpg?raw=true</fanart>
 </item>
 
 <!--- 24/7 ######## FIN --->
@@ -131,8 +132,8 @@ _psn12v?
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://clouds-plus.com/images/sample/slide2.png</thumbnail>
-<fanart>http://files.enjin.com/95016/pics/HBO-24-7-Logo1.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Thumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Fanart.jpg?raw=true</fanart>
 </item>
 
 <!--- 24/7 ######## FIN --->
@@ -160,8 +161,8 @@ _psn12v?
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://clouds-plus.com/images/sample/slide2.png</thumbnail>
-<fanart>http://files.enjin.com/95016/pics/HBO-24-7-Logo1.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Thumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Fanart.jpg?raw=true</fanart>
 </item>
 
 <!--- 24/7 ######## FIN --->
