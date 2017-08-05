@@ -2,8 +2,8 @@
 
 <item>
 <title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Anime - PelixMax [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
-<thumbnail>https://www.dropbox.com/s/6i5opkwwb79ol8p/pelixmax.jpg?dl=1</thumbnail>
-<fanart>https://www.dropbox.com/s/6i5opkwwb79ol8p/pelixmax.jpg?dl=1</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/pelixmax.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/pelixmax.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -31,8 +31,8 @@
   <listrepeat><![CDATA[
         <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-       <thumbnail>http://orig10.deviantart.net/831d/f/2011/258/f/2/dragon_ball___dragon_box_1_by_superjmanplay2-d49xrk0.png</thumbnail>
-<fanart>http://i.blogs.es/446758/dragon-ball-cabecera/1024_2000.jpg</fanart>
+       <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/anime/dragon-ball-espanol-2647/list,1,7</page>
@@ -57,8 +57,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://orig10.deviantart.net/831d/f/2011/258/f/2/dragon_ball___dragon_box_1_by_superjmanplay2-d49xrk0.png</thumbnail>
-<fanart>http://i.blogs.es/446758/dragon-ball-cabecera/1024_2000.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 </item>
 
 <item>
@@ -69,8 +69,8 @@
   <listrepeat><![CDATA[
         <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-       <thumbnail>http://dragonballtv.com/wp-content/uploads/2011/10/saga-saiyajin.jpg</thumbnail>
-<fanart>http://dragonball.sullca.com/imagenes/SagaSaiyajin.jpg</fanart>
+       <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Animegoku18/dragon-ball-z-saga-de-los-sayayin-14023/list,1,2</page>
@@ -95,8 +95,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://dragonballtv.com/wp-content/uploads/2011/10/saga-saiyajin.jpg</thumbnail>
-<fanart>http://dragonball.sullca.com/imagenes/SagaSaiyajin.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 </item>
 
 
@@ -108,8 +108,8 @@
   <listrepeat><![CDATA[
         <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-       <thumbnail>http://dragonballtv.com/wp-content/uploads/2011/10/saga-freezer.jpg</thumbnail>
-<fanart>http://i.imgur.com/IJcx2.png</fanart>
+       <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Animegoku18/dragon-ball-z-saga-de-freezer-14025/list,1,3</page>
@@ -134,8 +134,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://dragonballtv.com/wp-content/uploads/2011/10/saga-freezer.jpg</thumbnail>
-<fanart>http://i.imgur.com/IJcx2.png</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 </item>
 
 <item>
@@ -146,8 +146,8 @@
   <listrepeat><![CDATA[
         <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-       <thumbnail>http://i.imgur.com/tQIEQ94.jpg</thumbnail>
-<fanart>http://1.bp.blogspot.com/-GRLaxgF_Sl8/VTGmvFzas3I/AAAAAAAAAVE/R1xzjYB8XMI/s1600/garlic_jr_saga_the_evil_family_by_darkuchihasharingan-d69n6p1.jpg</fanart>
+       <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Animegoku18/dragon-ball-z-saga-de-garlick-jr-14031/list,1,1</page>
@@ -172,8 +172,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
- <thumbnail>http://i.imgur.com/tQIEQ94.jpg</thumbnail>
-<fanart>http://1.bp.blogspot.com/-GRLaxgF_Sl8/VTGmvFzas3I/AAAAAAAAAVE/R1xzjYB8XMI/s1600/garlic_jr_saga_the_evil_family_by_darkuchihasharingan-d69n6p1.jpg</fanart>
+ <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 </item>
 
 <item>
@@ -184,8 +184,8 @@
   <listrepeat><![CDATA[
         <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-       <thumbnail>http://st-listas.20minutos.es/images/2010-01/184729/2032673_640px.jpg?1265996039</thumbnail>
-<fanart>http://3.bp.blogspot.com/-EvIYWF9VD_g/Vn_bjLVY1kI/AAAAAAABN90/EcrTMCSikC4/s1600/Dragon-Ball-Color-Saga-Androides-y-Cell-2-cover.jpg</fanart>
+       <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Animegoku18/dragon-ball-z-saga-de-los-androides-14034/list,1,1</page>
@@ -210,8 +210,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
- <thumbnail>http://st-listas.20minutos.es/images/2010-01/184729/2032673_640px.jpg?1265996039</thumbnail>
-<fanart>http://3.bp.blogspot.com/-EvIYWF9VD_g/Vn_bjLVY1kI/AAAAAAABN90/EcrTMCSikC4/s1600/Dragon-Ball-Color-Saga-Androides-y-Cell-2-cover.jpg</fanart>
+ <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 </item>
 
 
@@ -223,8 +223,8 @@
   <listrepeat><![CDATA[
         <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-       <thumbnail>http://4.bp.blogspot.com/-1y0cG4x6rM8/UOiFbcy_jbI/AAAAAAAAC2w/7dOImYpfuMA/s1600/saga-cell.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/Mm3bD0SiPA8/maxresdefault.jpg</fanart>
+       <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Animegoku18/dragon-ball-z-saga-de-cell-14035/list,1,3</page>
@@ -249,8 +249,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
- <thumbnail>http://4.bp.blogspot.com/-1y0cG4x6rM8/UOiFbcy_jbI/AAAAAAAAC2w/7dOImYpfuMA/s1600/saga-cell.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/Mm3bD0SiPA8/maxresdefault.jpg</fanart>
+ <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 </item>
 
 <item>
@@ -261,8 +261,8 @@
   <listrepeat><![CDATA[
         <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-       <thumbnail>http://image9.casadellibro.com/m/ig/9/2543409.jpg</thumbnail>
-<fanart>http://1.bp.blogspot.com/-w2ARUAd66Io/U4OO9m5Y9PI/AAAAAAAAHmQ/G0Y6mcjtbUI/s1600/24m9wno.jpg</fanart>
+      <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Animegoku18/dragon-ball-gt-todos-los-capitulos-14046/list,1,3</page>
@@ -287,7 +287,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-  <thumbnail>http://image9.casadellibro.com/m/ig/9/2543409.jpg</thumbnail>
-<fanart>http://1.bp.blogspot.com/-w2ARUAd66Io/U4OO9m5Y9PI/AAAAAAAAHmQ/G0Y6mcjtbUI/s1600/24m9wno.jpg</fanart>
+  <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 </item>
 
