@@ -159,7 +159,7 @@ item>
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] RAGNAROKTV [26/06/17] [/COLOR][/B]</title>
 <thumbnail>http://ragnaroktv.com/app/kodi/icon.png</thumbnail>
-<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>http://ragnaroktv.com/tv/lista.m3u</externallink>
 </item>
@@ -168,24 +168,24 @@ item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] LATINO PLAY TV [26/06/17] [/COLOR][/B]</title>
-<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnQnavZhNUJ5gHoLBJ55NDK-qB0Lr9gIfHPqvXeRwCHu1HHC9Z</thumbnail>
-<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVLPTVThumbnail.jfif?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>https://pastebin.com/raw/MuZ7ab1P</externallink>
 </item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] IPTV [29/06/17] [/COLOR][/B]</title>
-<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnQnavZhNUJ5gHoLBJ55NDK-qB0Lr9gIfHPqvXeRwCHu1HHC9Z</thumbnail>
-<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>https://pastebin.com/raw/2HP2aE5z</externallink>
 </item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] IPTV LOLO [29/06/17] [/COLOR][/B]</title>
-<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnQnavZhNUJ5gHoLBJ55NDK-qB0Lr9gIfHPqvXeRwCHu1HHC9Z</thumbnail>
-<fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>https://pastebin.com/raw/sxeTytvz</externallink>
 </item>
@@ -232,8 +232,8 @@ item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] IPTV CHANNELS[/COLOR][/B]</title>
-<thumbnail>https://pbs.twimg.com/profile_images/822745502731083776/mWsrI-b-.jpg</thumbnail>
-<fanart>https://edge.alluremedia.com.au/m/g/2015/11/shutterstock_262337201_1080.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>ignoreme.me</link>
 <externallink>https://www.dropbox.com/s/s97dvqg5drndu2z/MENU%20IPTV.xml?dl=1</externallink>
 </item>
@@ -243,8 +243,8 @@ item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] CANALES PLUS[/COLOR][/B]</title>
-<thumbnail>https://pbs.twimg.com/profile_images/822745502731083776/mWsrI-b-.jpg</thumbnail>
-<fanart>https://edge.alluremedia.com.au/m/g/2015/11/shutterstock_262337201_1080.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>ignoreme.me</link>
 <externallink>https://pastebin.com/raw/ztXHpfn0</externallink>
 </item>
@@ -286,8 +286,8 @@ item>
 <item>
 	<title>[COLOR white]+ [/COLOR][COLOR gold]CANALES[/COLOR][COLOR white] IPTV TOTAL LATINO[/COLOR]</title>
 	<link>http://ignorame</link>
-	<thumbnail>https://lh6.ggpht.com/Pwwj3ejMIuv5Fka-7uyGhviQh5M1oc43ZSm516oS-JNlMYx6fZv9tu4NWXN8yrJtrLs=w300</thumbnail>
-	<fanart>https://lh6.ggpht.com/Pwwj3ejMIuv5Fka-7uyGhviQh5M1oc43ZSm516oS-JNlMYx6fZv9tu4NWXN8yrJtrLs=w300</fanart>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 	<externallink>https://pastebin.com/raw/JpNftmFv</externallink><!--- http://bit.ly/totalatino --->
 </item>
 
