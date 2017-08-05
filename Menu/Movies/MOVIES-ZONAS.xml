@@ -670,7 +670,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 				<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
 				<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
 				<link>$doregex[makelist]</link>
-				<externallink>https://www.dropbox.com/s/cccxgbldx2cloo7/MOVIES%20DJLIPTV.xml?dl=1</externallink>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Movies/MOVIES%20DJLIPTV.xml</externallink>
 			</item>
 			
 			<item>
@@ -686,7 +686,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=0</thumbnail>
 				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=0</fanart>
 				<link>$doregex[makelist]</link>
-				<externallink>https://www.dropbox.com/s/5gk2egwey4trrzr/MOVIES_ALL.XML?dl=1</externallink>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Movies/MOVIES_ALL.XML</externallink>
 			</item>
 
 			<item>
