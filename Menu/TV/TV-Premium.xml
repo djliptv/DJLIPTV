@@ -87,24 +87,24 @@ item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV ARGENTINA[/COLOR][/B]</title>
-<thumbnail>http://i.imgur.com/FAbYD.png</thumbnail>
-<fanart>http://www.diariodecultura.com.ar/wp-content/uploads/2016/06/1965_468.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>https://www.dropbox.com/s/qrvk48ycgu1l2gb/Channels-Argentina.xml?dl=1</externallink>
 </item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV ARGENTINA[/COLOR][COLOR white] [OPCION 2][/COLOR][/B]</title>
-<thumbnail>http://i.imgur.com/FAbYD.png</thumbnail>
-<fanart>http://www.diariodecultura.com.ar/wp-content/uploads/2016/06/1965_468.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>http://www.radiosargentina.com.ar/TVAR.m3u</externallink>
 </item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV ARGENTINA[/COLOR][COLOR white] [OPCION 3] 03/07/17[/COLOR][/B]</title>
-<thumbnail>http://i.imgur.com/FAbYD.png</thumbnail>
-<fanart>http://www.diariodecultura.com.ar/wp-content/uploads/2016/06/1965_468.jpg</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>https://pastebin.com/raw/aHQykbPW</externallink>
 </item>
@@ -113,8 +113,8 @@ item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]FLUXUS TV[/COLOR][/B]</title>
-<thumbnail>https://3.bp.blogspot.com/-iYPsmbBtthk/WQOD5JepFmI/AAAAAAAAArI/0PliwHG6OPUfKwirAs7gCDuu83ttrZU6QCK4B/s1600/fluxusbloglogonew.png</thumbnail>
-<fanart>https://3.bp.blogspot.com/-iYPsmbBtthk/WQOD5JepFmI/AAAAAAAAArI/0PliwHG6OPUfKwirAs7gCDuu83ttrZU6QCK4B/s1600/fluxusbloglogonew.png</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFluxusThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFluxusFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
 <externallink>https://raw.githubusercontent.com/fluxustv/IPTV/master/list.m3u</externallink>
 </item>
