@@ -250,7 +250,106 @@ item>
 </item>
 
 <!--- ITEM - MOVISTAR PLUS ######## INICIO --->
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]CANALES MOVISTAR PLUS[/COLOR] [COLOR blue][SD][/COLOR] [COLOR white][OPCION 1][/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>https://goo.gl/rgZM3T</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
 
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]CANALES MOVISTAR PLUS[/COLOR] [COLOR lime][HD][/COLOR] [COLOR white][OPCION 2][/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>https://goo.gl/v6V3m0</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+
+
+<item>
+	<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]CANALES MOVISTAR PLUS[/COLOR] [COLOR white][OPCION 3][/COLOR][/B]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<title>[makelist.param2]</title>
+			<sportsdevil>[makelist.param1]</sportsdevil>
+			<referer>http://latelete.tv/</referer>
+			<thumbnail>http://latelete.tv/[makelist.param3]</thumbnail>
+			<fanart>http://latelete.tv/[makelist.param3]</fanart>
+		]]></listrepeat>
+		<expres>href="(.*?)" title="(.*?)"[\w\W\s]{0,6}src="(.*?)"</expres>
+		<page>http://latelete.tv/</page>
+		<referer></referer>
+		<cookieJar></cookieJar>
+	</regex>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]CANALES MOVISTAR PLUS[/COLOR] [COLOR white][OPCION 4][/COLOR][/B]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<title>[makelist.param3]</title>
+			<sportsdevil>[makelist.param4]</sportsdevil>
+			<referer>http://telefivegb.com/</referer>
+			<thumbnail>http://telefivegb.com/[makelist.param3]</thumbnail>
+			<fanart>http://telefivegb.com/[makelist.param3]</fanart>
+		]]></listrepeat>
+		<expres>src="(.*?)" class="(.*?)" alt="" title="(.*?)"[\w\W\s]{0,15}href="(.*?)"</expres>
+		<page>http://telefivegb.com/</page>
+		<referer></referer>
+		<cookieJar></cookieJar>
+	</regex>
+	<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]CANALES MOVISTAR PLUS[/COLOR][COLOR white] [OPCION 5][/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://pastebin.com/raw/ghXNKsZk</externallink>
+</item>
+
+
+
+<!---
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]CANALES MOVISTAR PLUS[/COLOR][/B]</title>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
@@ -282,7 +381,7 @@ item>
 <link>$doregex[makelist]</link>
 <externallink>https://www.dropbox.com/s/m1j5krx75qu0gqw/IPTV%20M3u%20Espa%C3%B1a%20Playlist%20Update%2002-06-2017.m3u?dl=1</externallink>
 </item>
-
+--->
 <item>
 	<title>[COLOR white]+ [/COLOR][COLOR gold]CANALES[/COLOR][COLOR white] IPTV TOTAL LATINO[/COLOR]</title>
 	<link>http://ignorame</link>
