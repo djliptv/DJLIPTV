@@ -37,7 +37,7 @@
 	<fanart>http://adryanlist.org/adryan/img/alist.jpg</fanart>
 	<thumbnail>http://adryanlist.org/adryan/img/alist.jpg</thumbnail>
 	<link>$doregex[makelist]</link>
-	<externallink>https://www.dropbox.com/s/zt0jtak0izvdk6e/EXTERNAL%20ADRYANLIST.xml?dl=1</externallink>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/External/EXTERNAL%20ADRYANLIST.xml</externallink>
 </item>
 
 <item>
@@ -115,7 +115,7 @@
 	<thumbnail>https://i2.wp.com/blog.exabytetv.info/wp-content/uploads/2016/09/icontex.png?fit=1022%2C1022</thumbnail>
 <fanart>http://mundokodi.com/wp-content/uploads/2016/06/portada_exabyte.jpg</fanart>
 	<link>$doregex[makelist]</link>
-	<externallink>https://www.dropbox.com/s/4qaj471isswqd1h/EXTERNAL%20EXABYTE.xml?dl=1</externallink>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/External/EXTERNAL%20EXABYTE.xml</externallink>
 </item>
 
 <item>
@@ -188,7 +188,7 @@
 	<thumbnail></thumbnail>
 	<fanart></fanart>
 	<link>$doregex[makelist]</link>
-	<externallink>https://www.dropbox.com/s/nb6gipnv4r29dgx/EXTERNAL%20KODIREPO-OPC2.xml?dl=1</externallink>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/External/EXTERNAL%20KODIREPO-OPC2.xml</externallink>
 </item>
 
 <item>
@@ -333,7 +333,7 @@
 	<fanart>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</fanart>
 	<thumbnail>https://i.ytimg.com/vi/hnvfA8z0p64/hqdefault.jpg</thumbnail>
 	<link>$doregex[makelist]</link>
-	<externallink>https://www.dropbox.com/s/zx6h2537erofdjw/EXTERNAL%20STALLION.xml?dl=1</externallink>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/External/EXTERNAL%20STALLION.xml</externallink>
 </item>
 
 <item>
@@ -349,7 +349,7 @@
 	<fanart>http://tecnotv.info/logoss.png</fanart>
 	<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
 	<link>$doregex[makelist]</link>
-	<externallink>https://www.dropbox.com/s/u6vlwf6e0fgpc48/EXTERNAL%20TECNOTV.xml?dl=1</externallink>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/External/EXTERNAL%20TECNOTV.xml</externallink>
 </item>
 
 <item>
@@ -357,7 +357,7 @@
 	<fanart>http://i.utdstc.com/screen/eal/2016/04/google-compra-telegram-3.jpg</fanart>
 	<thumbnail>http://i.utdstc.com/screen/eal/2016/04/google-compra-telegram-3.jpg</thumbnail>
 	<link>$doregex[makelist]</link>
-	<externallink>https://www.dropbox.com/s/byumil6u919lg1a/EXTERNAL%20TELEGRAM%20MENU.xml?dl=1</externallink>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/External/TELEGRAM/EXTERNAL%20TELEGRAM%20MENU.xml</externallink>
 </item>
 
 <item>
@@ -397,5 +397,5 @@
 	<fanart>https://2.bp.blogspot.com/-niz4w8sNk7Y/Vnfbgqgf4UI/AAAAAAAAPnE/uCSdiTuAdsk/s1600/TV%2BUltimate%2BFor%2BKodi%2BXbmc%2B3.png</fanart>
 	<thumbnail>https://2.bp.blogspot.com/-niz4w8sNk7Y/Vnfbgqgf4UI/AAAAAAAAPnE/uCSdiTuAdsk/s1600/TV%2BUltimate%2BFor%2BKodi%2BXbmc%2B3.png</thumbnail>
 	<link>$doregex[makelist]</link>
-	<externallink>https://www.dropbox.com/s/b0iwga982mrm1s5/EXTERNAL%20ULTIMATETV.xml?dl=1</externallink>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/External/EXTERNAL%20ULTIMATETV.xml</externallink>
 </item>
