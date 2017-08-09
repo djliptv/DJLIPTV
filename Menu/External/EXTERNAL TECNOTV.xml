@@ -40,6 +40,13 @@
 <link>$doregex[makelist]</link>
 <externallink></externallink>
 </item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] LISTA PRINCIPAL[/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>http://tecnotv.xyz/lista.m3u</link>
+</item>
  
 <item>
 <title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [CHANNEL][/COLOR]</title>
