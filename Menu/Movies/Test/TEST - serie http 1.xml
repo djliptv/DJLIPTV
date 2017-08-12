@@ -3,12 +3,12 @@
  <!--- DJL CONTAINER ######## INICIO --->
 
  <item>
-		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]DYM[/COLOR]</title>
-		<link>http://ignorame</link>
-		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVLogo.jpg?raw=true</thumbnail>
-		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/icon.png?raw=true</fanart>
-		<externallink>http://bit.ly/DYMJHG</externallink><!--- https://www.dropbox.com/s/nj03kvh2znhfki6/Sagas%20lolo.xml?dl=1 --->
-	</item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]D Y M[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://github.com/djliptv/DYM/blob/master/Pics/DYMThumbnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DYM/blob/master/Pics/DYMFanart.jpg?raw=true</fanart>
+	<externallink>http://bit.ly/DYMJHG</externallink>
+</item>
  
  <item>
 <title>[B][COLOR deepskyblue]HBO[/COLOR] [COLOR white]LATINO[/COLOR][/B]</title>
