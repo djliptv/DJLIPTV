@@ -3,6 +3,14 @@
  <!--- DJL CONTAINER ######## INICIO --->
 
  <item>
+		<title>[COLOR white][B]+[/B][/COLOR] [COLOR dodgerblue]DYM[/COLOR] [COLOR white]EL RINCON DEL LOLO[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MegaWknd.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MegaWknd.jpg?raw=true</fanart>
+		<externallink>http://bit.ly/DYMJHG</externallink><!--- https://www.dropbox.com/s/nj03kvh2znhfki6/Sagas%20lolo.xml?dl=1 --->
+	</item>
+ 
+ <item>
 <title>[B][COLOR deepskyblue]HBO[/COLOR] [COLOR white]LATINO[/COLOR][/B]</title>
 <link>http://$doregex[ip]$doregex[m3u8]</link>
 <regex>

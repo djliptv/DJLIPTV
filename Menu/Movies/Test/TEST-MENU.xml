@@ -35,7 +35,7 @@
 <item>
 <title>[COLOR white]+[/COLOR][COLOR cyan] TEST HTTP MOVIE 1 [/COLOR]</title>
 <link>$doregex[makelist]</link>
-<externallink>https://www.dropbox.com/s/ypuxrmwzx06f4qs/TEST%20-%20serie%20http%201.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Movies/Test/TEST%20-%20serie%20http%201.xml</externallink>
 </item>
 
 <item>
