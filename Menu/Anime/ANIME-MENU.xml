@@ -291,3 +291,19 @@
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
 </item>
 
+<item>
+<title>Dragon Ball Super</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeDBFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://iptv.urlfb.com/listas-m3u/dbs.m3u</externallink>
+</item>
+
+<item>
+<title>Boruto</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://iptv.urlfb.com/listas-m3u/borutong.m3u</externallink>
+</item>
+

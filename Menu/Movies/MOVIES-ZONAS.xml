@@ -816,6 +816,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			</item>
 
 			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies - PelixMax 2 [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/6i5opkwwb79ol8p/pelixmax.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/6i5opkwwb79ol8p/pelixmax.jpg?dl=1</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>http://galeon.com/pelixmax/Peliculas.m3u</externallink>
+			</item>
+			
+			<item>
 				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies - PPV[/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
 				<thumbnail></thumbnail>
 				<fanart></fanart>

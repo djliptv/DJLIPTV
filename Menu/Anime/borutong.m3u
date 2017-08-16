@@ -1,0 +1,35 @@
+#Visita http://IPTV.urlfb.com
+
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 1
+http://cod.gnulas.com/video2/01.mp4
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 2
+http://cod.gnulas.com/video2/02.mp4
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 3
+http://cod.gnulas.com/video2/03.mp4
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 4
+http://cod.gnulas.com/video2/04.mp4
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 5
+http://cod.gnulas.com/video2/05.mp4
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 6
+http://cod.gnulas.com/video2/06.mp4
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 7
+http://cod.gnulas.com/video2/07.mp4
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 8
+http://cod.gnulas.com/video2/08.mp4
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 9
+http://cod.gnulas.com/video2/09.mp4
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 10
+http://cod.gnulas.com/video2/10.mp4
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 11
+http://cod.gnulas.com/video2/11.mkv
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 12
+http://cod.gnulas.com/video2/12.mkv
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 13
+http://cod.gnulas.com/video2/13.mkv
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 14
+http://cod.gnulas.com/video2/14.mkv
+#EXTINF:-1 tvg-logo="http://img.urlfb.com/data/boruto-uzumaki.jpg" group-title="Boruto" ,Boruto 14
+http://cod.gnulas.com/video2/15.mkv
+

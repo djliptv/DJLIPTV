@@ -120,6 +120,14 @@ item>
 </item>
 
 <item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] PELIXMAX [16/08/17] [/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://galeon.com/pelixmax/Premium.m3u</externallink>
+</item>
+
+<item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] STALLION [12/07/17] [/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
@@ -136,7 +144,13 @@ item>
 <externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/iptvlatino09-08-17.m3u</externallink>
 </item>
 
-
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] CECEGEEK [16/08/17] [/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://cecegeek.com/1tv.m3u</externallink>
+</item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] CECEGEEK [26/06/17] [/COLOR][/B]</title>
