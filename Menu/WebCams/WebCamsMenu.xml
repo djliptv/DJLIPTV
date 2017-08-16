@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+
+
+
+<item>
+<title>[COLOR white]+[/COLOR] [COLOR  deepskyblue] CAMARAS DEL MUNDO [/COLOR]</title>
+<link>$doregex[list]</link>
+<thumbnail></thumbnail>
+<regex>
+<name>list</name>
+<listrepeat><![CDATA[
+<title>[COLOR white] [list.param2][/COLOR]</title>
+<link>$doregex[list2]</link>
+<referer></referer>
+ <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="([^\"]+)" class="menu-item">(.*?)&]]></expres>
+<page>https://www.skylinewebcams.com/en/webcam.html</page>
+<agent>Mozilla/5.0</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>list2</name>
+<listrepeat><![CDATA[
+<title>[COLOR red]Camaras[/COLOR]  [COLOR white][list2.param3][/COLOR] </title>
+<link>$doregex[cams]|User-Agent=iPhone</link>
+editado 
+<thumbnail>https://[list2.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA["webcam"><a href="(.*?)".*?inal="(.*?)".*?title">(.*?)<.*?ption">(.*?)<]]></expres>
+<page>https://www.skylinewebcams.com[list.param1]</page>
+<agent>Mozilla/5.0</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>cams</name>
+<expres><![CDATA[#$pyFunction
+import requests, re
+def GetLSProData(page_data,Cookie_Jar,m,url = 'https://www.skylinewebcams.com[list2.param1]'):
+ headers = {'User-Agent': 'Mozilla/5.0','Referer': 'https://www.skylinewebcams.com'}
+ source = requests.get(url, headers=headers)
+ m3u8sX = re.findall(',url:.*?([^\']+)', source.text)[0]
+ return m3u8sX + '|headers'
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.linkupinternet.com.ar/linkup2/wp-content/uploads/2017/03/3.jpg</thumbnail>
+<fanart>http://www.masingenieros.com/wp-content/uploads/2014/12/avion-despegando-de-la-pista-en-el-aeropuerto.jpg</fanart>
+</item> 
+
+
+
+ 
+ 
+ 
+ 
+<item>
+<title>[COLOR red]CAMARAS ESPAÑA[/COLOR] [COLOR white](CLICAR AQUI)[/COLOR]</title>
+<thumbnail>http://www.linkupinternet.com.ar/linkup2/wp-content/uploads/2017/03/3.jpg</thumbnail>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/nBZ2SCVW</externallink>
+</item>
+ 
+ 
+ 
+ 
+ 
+
+
+
+<item>
+<title>[COLOR red]CAMARAS TOP[/COLOR] [COLOR white](CLICAR AQUI)[/COLOR]</title>
+<thumbnail>http://www.linkupinternet.com.ar/linkup2/wp-content/uploads/2017/03/3.jpg</thumbnail>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/35LAzRjf</externallink>
+</item>
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+<tem>
+<title>[COLOR red]CAMARAS[/COLOR]  [COLOR white]Cádiz[/COLOR][COLOR white] Puente de la Constitución de 1812/1[/COLOR] 
+</title><link>plugin://plugin.video.youtube/play/?video_id=krIypJ2MEBU</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<tem>
+<title>[COLOR red]CAMARAS[/COLOR]  [COLOR white]Cádiz[/COLOR][COLOR white] Puente de la Constitución de 1812/2[/COLOR] </title>
+<link>plugin://plugin.video.youtube/play/?video_id=7D7bVqypm74</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<tem><title>[COLOR red]CAMARAS[/COLOR]  [COLOR white]Cádiz[/COLOR][COLOR white] Puente de la Constitución de 1812/3[/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=KFsFWLeIBfQ</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<tem>
+<title>[COLOR red]CAMARAS[/COLOR]  [COLOR white]Cádiz[/COLOR][COLOR white]  Plaza de Sevilla[/COLOR] </title>
+<link>plugin://plugin.video.youtube/play/?video_id=jFELUgq46WA</link>
+<thumbnail></thumbnail>
+<fanart></fanart></item>
+
+   
+<tem>
+<title>[COLOR red]CAMARAS[/COLOR]  [COLOR white]Cádiz[/COLOR][COLOR white]  Puente Carranza[/COLOR] </title>
+<link>plugin://plugin.video.youtube/play/?video_id=c3FDiVe2egU</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
+
+
+<item>
+
+<title>[COLOR red]CAMARAS DEL MUNDO[/COLOR] [COLOR white](CLICAR AQUI)[/COLOR]</title>
+
+<thumbnail>http://www.linkupinternet.com.ar/linkup2/wp-content/uploads/2017/03/3.jpg</thumbnail>
+
+<link>http://ignoreme</link>
+
+<externallink>http://pastebin.com/raw/19tYfRKt</externallink>
+
+<fanart>http://www.masingenieros.com/wp-content/uploads/2014/12/avion-despegando-de-la-pista-en-el-aeropuerto.jpg</fanart>
+
+</item>
