@@ -1,0 +1,364 @@
+
+
+
+     <item>
+            <title>[B][COLOR red]live[COLOR aqua][/COLOR] penarol vs estudiantes [/B]</title>
+            <fanart>http://www.apurogol.net/wp-content/uploads/2017/08/penarol-vs-estudiantes-en-vivo-online-amistoso-2017-en-directo.png</fanart>
+            <thumbnail>http://www.apurogol.net/wp-content/uploads/2017/08/penarol-vs-estudiantes-en-vivo-online-amistoso-2017-en-directo.png</thumbnail>
+            <utube>JgnfdALDgi4</utube>
+        </item>
+     
+
+<item>
+<title>[COLOR aqua]______________________________________[COLOR aqua][B]_________________[/B][/COLOR][/COLOR][COLOR aqua]_____________________________________[B][/B] [/COLOR]</title>
+<fanart>ignoreme.me</fanart>
+<thumbnail>ignoreme.me</thumbnail>
+<link>ignoreme.me</link>
+<externallink>ignoreme.me</externallink>
+</item>
+
+
+
+
+<item>
+<title>[COLOR white] ******* [COLOR gold][B] "EVENTOS DEPORTIVOS" [/B][/COLOR][/COLOR][COLOR white]   ******* [B][/B] [/COLOR]</title>
+<fanart>ignoreme.me</fanart>
+<thumbnail>ignoreme.me</thumbnail>
+<link>ignoreme.me</link>
+<externallink>ignoreme.me</externallink>
+</item>
+
+
+<item>
+<title>[COLOR red]       tener actualizado sport devil[/COLOR][COLOR white][B][/B] [/COLOR]</title>
+<fanart>ignoreme.me</fanart>
+<thumbnail>ignoreme.me</thumbnail>
+<link>ignoreme.me</link>
+<externallink>ignoreme.me</externallink>
+</item>
+
+
+
+
+<item>
+<title>[COLOR aqua]______________________________________[COLOR aqua][B]_________________[/B][/COLOR][/COLOR][COLOR aqua]_____________________________________[B][/B] [/COLOR]</title>
+<fanart>ignoreme.me</fanart>
+<thumbnail>ignoreme.me</thumbnail>
+<link>ignoreme.me</link>
+<externallink>ignoreme.me</externallink>
+</item>
+
+
+<item>
+<title>[B][COLOR gold]*******[/COLOR][COLOR white]  "EVENTOS Y DEPORTES" [/B][/COLOR]  [COLOR gold]*******  [/COLOR] </title>
+<link>$doregex[makelist2]</link>
+<thumbnail>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</thumbnail>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[makelist2.param2]</title>
+<link>$doregex[get-m3u8]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36&amp;Referer=http://www.dinozap.info/redirect/embedredi.php</link>
+<thumbnail>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</thumbnail>
+]]></listrepeat>
+<expres>nombre.*href="(.*?)" title="(.*?)"</expres>
+<page>http://www.vipgoal.net/</page>
+ </regex>
+  
+  
+   <regex>
+<name>get-m3u8</name>
+<expres>$pyFunction:base64.b64decode('$doregex[m3u8-3]')</expres>
+<page></page>
+</regex>
+ <regex>
+<name>m3u8-3</name>
+<expres>$pyFunction:base64.b64decode('$doregex[m3u8-2]')</expres>
+<page></page>
+</regex>
+ <regex>
+<name>m3u8-2</name>
+<expres>$pyFunction:base64.b64decode('$doregex[m3u8]')</expres>
+<page></page>
+</regex>
+
+ <regex>
+<name>m3u8</name>
+<expres>$doregex[gada]".*value="(.*?)"</expres> 
+<page>$doregex[pagina]</page>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+<referer>http://www.vipgoal.net/C+Liga/35576/Canal-plus-liga-en-directo.html</referer>
+</regex>
+
+ <regex>
+<name>gada</name>
+<expres>GADA .*\'(.*?)\'</expres>
+<page>$doregex[pagina]</page>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+<referer>http://www.vipgoal.net/C+Liga/35576/Canal-plus-liga-en-directo.html</referer>
+</regex>
+
+ <regex>
+<name>pagina</name>
+<expres>src="(.*?)"</expres>
+<page>http://www.sunhd.info/channelsa.php?file=$doregex[play]&amp;width=650&amp;height=410&amp;autostart=true</page>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+<referer>http://www.vipgoal.net/C+Liga/35576/Canal-plus-liga-en-directo.html</referer>
+</regex>
+
+
+ <regex>
+<name>play</name>
+<expres>file=(.*?)\&</expres>
+<page>http://www.vipgoal.net/[makelist2.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+  
+  
+
+<thumbnail>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</thumbnail></item>
+
+
+
+
+<item>
+<title>[COLOR aqua]______________________________________[COLOR aqua][B]_________________[/B][/COLOR][/COLOR][COLOR aqua]_____________________________________[B][/B] [/COLOR]</title>
+<fanart>ignoreme.me</fanart>
+<thumbnail>ignoreme.me</thumbnail>
+<link>ignoreme.me</link>
+<externallink>ignoreme.me</externallink>
+</item>
+
+
+
+<item>
+<title>[COLOR gold]     ====>>   [/COLOR][COLOR white]  Rojadirecta  [/COLOR][COLOR gold]   <<====[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/rojadirecta.me.cfg&amp;mode=1</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+<item>
+<title>[COLOR gold]====>>   [/COLOR][COLOR white] Menu sportDevil[/COLOR][COLOR gold]   <<====[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports.cfg&amp;mode=1</jsonrpc>
+ <thumbnail>http://www.careerindia.com/img/2014/08/07-sports.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+<item>
+<title>[COLOR gold]====>>   [/COLOR][COLOR white]  Bundesliga [/COLOR][COLOR gold]   <<====[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/bundesliga-streams.net.cfg&amp;mode=1</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+<item>  
+<title>Agenda WIZSPORTS </title>
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <title>[COLOR blue] [B] [makelist2.param1] [/B]  [COLOR red]  [makelist2.param3]    [/COLOR][/COLOR]   </title>
+<link>$doregex[makelist]</link>
+ 
+]]></listrepeat>
+<expres>sports':angry:.*?)<[\w\W\s]{0,270}href='(.*?)'[\w\W\s]{0,50}right-margin':angry:.*?)«/expres>
+<page>http://wizhdsports.is/embed_list.php</page>
+</regex>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[makelist.param1] - [COLOR red]  [makelist2.param3] / [COLOR orange] [B] [makelist2.param1] [/B]   [/COLOR][/COLOR]   </title>
+<link>$doregex[url]</link>
+ 
+]]></listrepeat>
+<expres>wizhdsports.is\/live\/(.*?).html</expres>
+<page>[makelist2.param2]</page>
+</regex>
+<regex>
+<name>url</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import re,requests
+  headers = {'User-Agent': 'Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'http://schedule.racing/sevenembed.php?id=wiz[makelist.param1]&p=0&c=0&stretching=uniform'}
+  url = '$doregex[url2]'
+  source = requests.get(url, headers=headers).text
+  data1 = re.findall('return\(\[([^\]]+)', source)[0]
+  data2 = re.findall('\+ ([^\.]+).join', source)[0]
+  data2 = re.findall(data2 + ' = \W(.+)\]', source)[0]
+  data1 = ''.join(data1).replace('"','').replace(',', '').replace(' ', '').replace('\/','/')
+  data2 = ''.join(data2).replace('"','').replace(',', '').replace(' ', '').replace('\/','/')
+  data3 = re.findall('getElementById\W"([^"]+)', source)[0]
+  data3 = re.findall(data3 + '\W*(.+?=*)\W', source)[0]
+  return data1 + data2 + data3
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>url2</name>
+<expres><![CDATA[src="(.*?)"]]></expres>
+<page>http://schedule.racing/sevenembed.php?id=wiz[makelist.param1]&amp;p=0&amp;c=0&amp;stretching=uniform</page>
+<referer>http://wizhdsports.is/live/stream[makelist.param1].html</referer>
+</regex>
+</item>  
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+<item>
+<title>  Acestream evento 1  </title>
+ <link>plugin://program.acestream/http://127.0.0.1:6878/ace/m/1a2db0f64293ea39e85329fc2beebfd01dc7ec22/7ba20f01a219ba3ac804f767b844cb70.m3u8&amp;mode=1&amp;name=MexFLIX</link>
+</item>                            
+
+
+
+
+
+<item>
+<title>  Acestream evento 2 </title>
+ <link>plugin://program.acestream/?url=7ba20f01a219ba3ac804f767b844cb70&amp;mode=1&amp;name=MexFLIX</link>
+</item>                          
+
+   7ba20f01a219ba3ac804f767b844cb70
+                                    1a2db0f64293ea39e85329fc2beebfd01dc7ec22
+
+
+
+<item>
+<title>  Acestream evento 3  </title>
+ <link>plugin://program.acestream/?url=1a2db0f64293ea39e85329fc2beebfd01dc7ec22&amp;mode=1&amp;name=MexFLIX</link>
+</item>                            
+
+
+ 
+
+
+
+
+
+
+
+
+http://127.0.0.1:6878/ace/m/1a2db0f64293ea39e85329fc2beebfd01dc7ec22/7ba20f01a219ba3ac804f767b844cb70.m3u8
+http://127.0.0.1:6878/ace/m/1a2db0f64293ea39e85329fc2beebfd01dc7ec22/a94d7f28588152cfca4cb8994a016216.m3u8
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+_zona sport____________________________________________________________________________________________________________________________________________________________
+<item>
+<title>[COLOR aqua] ******* [COLOR red][B]{{{{ EVENTOS PPV. }}}}[/B][/COLOR][/COLOR][COLOR aqua]   ******* [B][/B] [/COLOR]</title>
+<fanart>ignoreme.me</fanart>
+<thumbnail>ignoreme.me</thumbnail>
+<link>ignoreme.me</link>
+<externallink>ignoreme.me</externallink>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white] UFC * [/COLOR][COLOR cyan]SKY atlantinc HD  -- GOT7=5[/COLOR]
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://wizhdsports.is/watch/Game-Of-Thrones-S07E05-Eastwatch-TV-live-Shows/stream29</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white] UFC * [/COLOR][COLOR lime] HBO -- GOT7=5[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://wizhdsports.is/watch/Game-Of-Thrones-S07E05-Eastwatch-TV-live-Shows/hbo</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+http://live.latino-webtv.com/live_3.m3u8?
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white]UFC  **  [/COLOR][COLOR blue] *2*HBO -- GOT7=5[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://wizhdsports.is/watch/Game-Of-Thrones-S07E05-Eastwatch-TV-live-Shows/stream40</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white]UFC  ***  [/COLOR][COLOR orange] *3**HBO  opcion 3-- GOT7=5[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://wizhdsports.is/watch/Game-Of-Thrones-S07E05-Eastwatch-TV-live-Shows/stream32</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white] FUTBOL - 6.......  [/COLOR][COLOR gold]   ??[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://zonasports.me/channel.php?id=2</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white] FUTBOL -  7.......  [/COLOR][COLOR gold] ?????[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://127.0.0.1:6878/ace/m/ff292546d1f64a46f21c4deebe2068e0bfdd9292/e3c0c1d91d447cddff0e09e807e76490.m3u8</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+
+
+
+<item>
+<title>[COLOR gold]  [/COLOR][COLOR white] FUTBOL - 8.......  [/COLOR][COLOR gold] TEST arenavison[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://127.0.0.1:6878/ace/m/e575747bea1fd08fefd3fa8f46f63c36018856ac/90d527282774bb6a510a73b5fc5758bc.m3u8</jsonrpc>
+ <thumbnail>http://4.bp.blogspot.com/-OmsH2QWfEV4/UksL5FkbvLI/AAAAAAAAP4g/Y8sdvowg-BE/s600/rojadirecta-online-streams-InfoDeportiva-com.jpg</thumbnail>
+</item> 
+
+ 
+#EXTINF:-1 group-title="PELICULAS ONLINE" tvg-logo="http://cinepremiere.impresionesaerea.netdna-cdn.com/trailers/2016/05-mayo/Sabras-que-hacer-conmigo-poster.png", TEST1
+http://127.0.0.1:6878/ace/m/e575747bea1fd08fefd3fa8f46f63c36018856ac/90d527282774bb6a510a73b5fc5758bc.m3u8
+
+
+
+
+
+
+                              <item>
+<title>liga mx<title></title>sport</title>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://www.publish247.xyz:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.247bay.tv/membedplayer/zona11ad/2/750/420</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.247bay.tv</referer>
+			</regex>
+                        <thumbnail>http://images.wisegeek.com/soccer-player-falls-after-kicking-ball.jpg</thumbnail>
+                        </item>
