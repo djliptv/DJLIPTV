@@ -174,6 +174,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
+<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] ROJADIRECTA[/COLOR]</title>
+<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
+<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
+<link>ignoreme.me</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Deportes/Rojadirecta.xml</externallink>
+</item>
+
+<item>
 <title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] EVENTOS DEPORTIVOS[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <thumbnail>http://ukbuzz.wordpress.eurosport.com/wp-content/uploads/sites/11/2015/12/different-sports-Google-Search-Google-Chrome-1170x658.jpg</thumbnail>
