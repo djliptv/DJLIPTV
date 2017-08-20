@@ -5,7 +5,7 @@
 <fanart>http://adryanlist.org/adryan/img/alist.jpg</fanart>
 <thumbnail>http://adryanlist.org/adryan/img/alist.jpg</thumbnail>
 <link>$doregex[makelist]</link>
-<externallink>http://adryanlist.info</externallink>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/list.xml</externallink> <!--- http://adryanlist.info --->
 </item>
  
 <item>
