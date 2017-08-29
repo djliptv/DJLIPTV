@@ -11,13 +11,20 @@
 --->
 
 <!--- SERIES ######## INICIO --->
+
+<item>
+	<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] SERIE THE NANNY[/COLOR][COLOR white] 24/7[/COLOR] [COLOR white][AUDIO LATINO][/COLOR][/COLOR]</title>
+	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BM2VlZTE4N2MtYjhhYy00ZWY2LThkMWYtMWFhMGQ1YTA5NTgwXkEyXkFqcGdeQXVyODQwNjgyMw@@._V1_SY1000_SX708_AL_.jpg</thumbnail>
+	<fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BM2VlZTE4N2MtYjhhYy00ZWY2LThkMWYtMWFhMGQ1YTA5NTgwXkEyXkFqcGdeQXVyODQwNjgyMw@@._V1_SY1000_SX708_AL_.jpg</fanart>
+	<link>plugin://plugin.video.youtube/play/?video_id=c0KVAO9y13g</link>
+</item>
  
 <item>
 <title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] SERIES[/COLOR]</title>
 <thumbnail>https://4.bp.blogspot.com/-6loyXT3YElQ/V1lL370EdhI/AAAAAAAABQU/09zmvbXiQ08OuhsmpOtScrJvqlWYyEMQQCLcB/s640/series.png</thumbnail>
 <fanart>http://www.elcineenlasombra.com/wp-content/uploads/2015/12/Series-TV-.jpg</fanart>
 <link>$doregex[makelist]</link>
-<externallink>https://www.dropbox.com/s/h2bxp5gaxyht2d1/Series.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/Series.xml</externallink>
 </item>
 
 <!--- SERIES ######## FIN --->
@@ -29,7 +36,7 @@
 <thumbnail>https://4.bp.blogspot.com/-6loyXT3YElQ/V1lL370EdhI/AAAAAAAABQU/09zmvbXiQ08OuhsmpOtScrJvqlWYyEMQQCLcB/s640/series.png</thumbnail>
 <fanart>http://statics.viralizalo.com/virs/2016/01/VIR_95868_8151_recuerdas_el_nombre_de_estas_series_infantiles.jpg?cb=30593</fanart>
 <link>$doregex[makelist]</link>
-<externallink>https://www.dropbox.com/s/u9zsar2vkwbamx1/SERIES%20INFANTILES.XML?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/SERIES-INFANTILES.XML</externallink>
 </item>
 
 <!--- SERIES INFANTILES ######## FIN --->
@@ -41,7 +48,7 @@
 <thumbnail>https://4.bp.blogspot.com/-6loyXT3YElQ/V1lL370EdhI/AAAAAAAABQU/09zmvbXiQ08OuhsmpOtScrJvqlWYyEMQQCLcB/s640/series.png</thumbnail>
 <fanart>http://www.elcineenlasombra.com/wp-content/uploads/2015/12/Series-TV-.jpg</fanart>
 <link>$doregex[makelist]</link>
-<externallink>https://www.dropbox.com/s/tjfa5gihezhzq50/SERIES%20RETRO.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/SeriesRetro/SERIES-RETRO.xml</externallink>
 </item>
 
 <!--- SERIES RETRO ######## FIN --->
