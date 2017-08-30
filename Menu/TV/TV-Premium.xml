@@ -58,7 +58,7 @@ item>
 <thumbnail>http://www.newtvworld.com/Images/livetv_transparent.png</thumbnail>
 <fanart>http://www.highpoint.edu/it/files/2014/08/rabbit-tv-channel-list.jpg</fanart>
 </item>	
-
+<!---
 <item>
 <title>[B][COLOR deepskyblue]HBO[/COLOR] [COLOR white]LATINO[/COLOR][/B]</title>
 <link>http://$doregex[ip]$doregex[m3u8]</link>
@@ -82,36 +82,7 @@ item>
 <thumbnail>http://z.cdn.entutele.com/media/channels/medium/hbo-w.gif</thumbnail>
 <fanart>http://z.cdn.entutele.com/media/channels/medium/hbo-w.gif</fanart>
 </item>
-
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue] Game of Thrones Premiere [/COLOR]  [COLOR aquamarine]  HBO Latino (baja calidad estable)[/COLOR]</title>
-<link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
-<regex>
-<name>ip</name>
-<expres>redirect=(.*)</expres>
-<page>http://www.publish247.xyz:1935/loadbalancer?17089</page>
-</regex>
-<regex>
-<name>m3u8</name>
-<expres>ea \+ "(.*?)"</expres>
-<page>http://www.247bay.tv/membedplayer/$doregex[canal]/2/680/380</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer>http://www.247bay.tv</referer>
-</regex>
-<regex>
-<name>hls</name>
-<expres>hlsUrl \+ \(\"(.*?)"</expres>
-<page>http://www.247bay.tv/membedplayer/$doregex[canal]/2/680/380</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer>http://www.mipsplayer.net</referer>
-</regex>
-<regex>
-<name>canal</name>
-<expres>channel='(.*?)'</expres>
-<page>http://www.chusmalandia.com/p/hbo-por-internet.html</page>
-</regex>
-
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart></item>
+--->
 
 <!--- ITEM - CANALES ARGENTINA ######## INICIO --->
 
