@@ -734,10 +734,10 @@
 			
 			<item>
 				<title>[COLOR white]+[/COLOR] [COLOR deepskyblue] Movies [COLOR violet]FLUXUS CINEMA[/COLOR] [COLOR white][AUDIO INGLES / LATINO][/COLOR]</title>
-				<thumbnail>http://i.imgur.com/wnH0Xga.png</thumbnail>
-				<fanart>http://i.imgur.com/wnH0Xga.png</fanart>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/FluxusCinemaThumbnail.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/FluxusCinemaFanart.jpg?raw=true</fanart>
 				<link>$doregex[makelist]</link>
-				<externallink>https://raw.githubusercontent.com/fluxustv/Channels/master/VOD.m3u</externallink>
+				<externallink>https://raw.githubusercontent.com/fluxustv/IPTV/master/cinema.m3u</externallink>
 			</item>
 			
 			<item>
