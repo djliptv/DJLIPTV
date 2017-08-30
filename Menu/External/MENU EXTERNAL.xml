@@ -23,7 +23,7 @@
 	<link>$doregex[makelist]</link>
 	<externallink></externallink>
 </item>
-
+<!---
 <item>
 	<title>[COLOR white]+ [/COLOR][COLOR gold]ABDAVEGA[/COLOR]</title>
 	<link>http://ignorame</link>
@@ -31,7 +31,7 @@
 	<fanart>https://img.youtube.com/vi/CMWQjYEYCgY/mqdefault.jpg</fanart>
 	<externallink>http://abdavega.playlatinohd.com/lista.xml</externallink>
 </item>
-
+--->
 <item>
 	<title>[COLOR white]+ [/COLOR][COLOR cyan]ADRYANLIST[/COLOR]</title>
 	<fanart>http://adryanlist.org/adryan/img/alist.jpg</fanart>
@@ -113,11 +113,11 @@
 <item>
 	<title>[COLOR white]+ [/COLOR][COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR]</title>
 	<thumbnail>https://i2.wp.com/blog.exabytetv.info/wp-content/uploads/2016/09/icontex.png?fit=1022%2C1022</thumbnail>
-<fanart>http://mundokodi.com/wp-content/uploads/2016/06/portada_exabyte.jpg</fanart>
+	<fanart>http://mundokodi.com/wp-content/uploads/2016/06/portada_exabyte.jpg</fanart>
 	<link>$doregex[makelist]</link>
 	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/External/EXTERNAL%20EXABYTE.xml</externallink>
 </item>
-
+<!---
 <item>
 	<title>[COLOR white]+ [/COLOR][COLOR white]FERRER PRO[/COLOR]</title>
 	<link>http://ignorame</link>
@@ -133,7 +133,7 @@
 	<link>$doregex[makelist]</link>
 	<externallink>http://giantforce.blogspot.com.ar/p/add-on-giant-force.html</externallink>
 </item>
-<!---
+
 <item>
 	<title>[COLOR white]+ [/COLOR][COLOR red]IPTV[/COLOR][COLOR blue] CHILE[/COLOR]</title>
 	<fanart>http://www.iptvchile.xyz/images/pic02.jpg</fanart>
@@ -264,7 +264,7 @@
 		<fanart>http://i0.wp.com/bancodeimagenesgratis.net/wp-content/uploads/2015/09/6.jpg</fanart>
         <externallink>http://pastebin.com/raw/NYUCnPKv</externallink>
 </item>
-
+<!---
 <item>
 	<title>[COLOR white]+ [/COLOR][COLOR yellow]MI[/COLOR][COLOR red]FLIX[/COLOR]</title>
 	<link>http://ignorame</link>
