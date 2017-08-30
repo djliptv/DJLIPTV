@@ -144,6 +144,14 @@ http://tecnotv.info/kodi/premium.m3u
 <link>$doregex[makelist]</link>
 <externallink>http://tecnotv.info/peliculas.m3u</externallink>
 </item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [MOVIES][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.xyz/peliculas.m3u</externallink>
+</item>
  
 <item>
 <title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [KIDS][/COLOR]</title>
@@ -151,6 +159,14 @@ http://tecnotv.info/kodi/premium.m3u
 <thumbnail>http://tecnotv.info/logoss.png</thumbnail>
 <link>$doregex[makelist]</link>
 <externallink>http://tecnotv.info/kids.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white] + [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV [KIDS][/COLOR]</title>
+<fanart>http://tecnotv.info/logoss.png</fanart>
+<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<link>$doregex[makelist]</link>
+<externallink>http://tecnotv.xyz/kids.m3u</externallink>
 </item>
 
 <item>
