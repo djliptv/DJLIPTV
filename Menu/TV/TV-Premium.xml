@@ -144,6 +144,14 @@ item>
 </item>
 
 <item>
+	<title>[COLOR white]+ [/COLOR][COLOR skyblue]SR REGIO[/COLOR] [COLOR white]TV[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>https://1.bp.blogspot.com/-sx3NIAdJ1Hk/WI7vbG6C0tI/AAAAAAAAAMo/v8VZi9cjc7IeO6ASkh383Uu0uujP4wx5wCLcB/s1600/icon.png</thumbnail> 
+	<fanart>https://1.bp.blogspot.com/-sx3NIAdJ1Hk/WI7vbG6C0tI/AAAAAAAAAMo/v8VZi9cjc7IeO6ASkh383Uu0uujP4wx5wCLcB/s1600/icon.png</fanart>
+	<externallink>http://srregio.net/regiotv.m3u</externallink>
+</item>
+
+<item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] PELIXMAX [16/08/17] [/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
@@ -443,7 +451,7 @@ item>
 	<link>$doregex[makelist]</link>
 	<externallink>http://pastebin.com/raw/X0QN2iQE</externallink>
 </item>
-
+<!---
 <item>
 <title>[COLOR white]+ [/COLOR][COLOR orange]FREEWORLD[/COLOR][COLOR red] IPTV [Opcion 1][/COLOR]</title>
 <thumbnail>https://www.wired.com/wp-content/uploads/2016/06/NetflixLogo2016.jpg</thumbnail>
@@ -489,12 +497,6 @@ item>
 <page>http://kodideveloper.com/master/tvgratis.m3u</page>
 </regex>
 <item>
+--->
 
-<item>
-	<title>[COLOR white]+ [/COLOR][COLOR skyblue]SR REGIO[/COLOR] [COLOR white]TV[/COLOR]</title>
-	<link>http://ignorame</link>
-	<thumbnail>https://1.bp.blogspot.com/-sx3NIAdJ1Hk/WI7vbG6C0tI/AAAAAAAAAMo/v8VZi9cjc7IeO6ASkh383Uu0uujP4wx5wCLcB/s1600/icon.png</thumbnail> 
-	<fanart>https://1.bp.blogspot.com/-sx3NIAdJ1Hk/WI7vbG6C0tI/AAAAAAAAAMo/v8VZi9cjc7IeO6ASkh383Uu0uujP4wx5wCLcB/s1600/icon.png</fanart>
-	<externallink>http://srregio.net/regiotv.m3u</externallink>
-</item>
 
