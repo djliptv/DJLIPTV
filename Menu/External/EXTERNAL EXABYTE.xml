@@ -88,6 +88,29 @@
 <item>
 
 <item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LISTAX ESPECIAL[/COLOR]</title>
+<fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
+<thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://exabytetv.info/xvid.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+
+<item>
 <title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] SMART TV[/COLOR]</title>
 <fanart>http://www.exabytetv.info/blog/wp-content/uploads/2016/07/ruedacanales.jpg</fanart>
 <thumbnail>http://www.exabytetv.info/blog/wp-content/uploads/2016/09/icontex-250x250.png</thumbnail>

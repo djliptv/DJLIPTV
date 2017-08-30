@@ -747,7 +747,7 @@
 				<link>$doregex[makelist]</link>
 				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Movies/MOVIES_ALL.XML</externallink>
 			</item>
-
+<!---
 			<item>
 				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR white] [AUDIO LATINO][/COLOR]</title>
 				<thumbnail>https://i2.wp.com/blog.exabytetv.info/wp-content/uploads/2016/09/icontex.png?fit=1022%2C1022</thumbnail>
@@ -763,13 +763,13 @@
 				<link>$doregex[makelist]</link>
 				<externallink>http://exabytetv.info/peliculas-roku.m3u</externallink>
 			</item>
-
+--->
 			<item>
 				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white] TV[/COLOR]</title>
 				<fanart>http://tecnotv.info/logoss.png</fanart>
 				<thumbnail>http://tecnotv.info/logoss.png</thumbnail>
 				<link>$doregex[makelist]</link>
-				<externallink>http://tecnotv.info/peliculas.m3u</externallink>
+				<externallink>http://tecnotv.xyz/peliculas.m3u</externallink><!---http://tecnotv.info/peliculas.m3u --->
 			</item>
 
 			<item>
@@ -837,7 +837,7 @@
 				<link>$doregex[makelist]</link>
 				<externallink>https://pastebin.com/raw/uxEW2sr3</externallink>
 			</item>
-			
+<!---			
 			<item>
 				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR orange]FREEWORLD[/COLOR][COLOR red] NETFLIX[/COLOR]</title>
 				<link>http://ignorame</link>
@@ -853,7 +853,7 @@
 				<fanart>https://s3.amazonaws.com/media.34s.dpn/1579_netflix-logoo.jpg</fanart>
 				<externallink>http://kodideveloper.com/xxx/cinelatino.txt</externallink>
 			</item>
-<!---			
+			
 			<item>
 				<title>[COLOR white]+[/COLOR][COLOR blue] [/COLOR][COLOR deepskyblue] Movies El Infierno 1 [/COLOR][COLOR white][AUDIO[/COLOR] [COLOR red]E[/COLOR][COLOR yellow]S[/COLOR][COLOR red]P[/COLOR][COLOR white]-[/COLOR][COLOR darkblue]E[/COLOR][COLOR yellow]U[/COLOR][COLOR darkblue]R[/COLOR][COLOR white]][/COLOR]</title>
 				<thumbnail>http://i2.esmas.com/2015/11/10/817728/diablo-624x351.jpg</thumbnail>
