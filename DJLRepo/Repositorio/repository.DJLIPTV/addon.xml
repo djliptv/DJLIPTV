@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.DJLIPTV" name="[COLOR orange]DJL[/COLOR] [COLOR white]IPTV Repository[/COLOR] Repo" version="1.0.1" provider-name="DJLIPTV">
+    <extension point="xbmc.addon.repository" name="DJLIPTV Repository">
+        <info>https://raw.githubusercontent.com/djliptv/DJLRepo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/djliptv/DJLRepo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/djliptv/master/Repositorio/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio DJLIPTV</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
