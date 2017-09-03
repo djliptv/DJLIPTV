@@ -529,9 +529,7 @@
 	
 <item>
 <title>[B][COLOR gold]==================ARENAVISION.ru=============================================[/COLOR][/B]</title>
-<link>http://Ignoreme</link>
-<externallink>http://main.txt</externallink>
-<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<link>NA</link>
 </item>
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
@@ -1039,9 +1037,7 @@
 			
 <item>
 <title>[B][COLOR gold]==================ARENAVISION.top=============================================[/COLOR][/B]</title>
-<link>http://Ignoreme</link>
-<externallink>http://main.txt</externallink>
-<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<link>NA</link>
 </item>
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
@@ -1548,9 +1544,7 @@
 			
 <item>
 <title>[B][COLOR gold]==================ARENAVISION.us=============================================[/COLOR][/B]</title>
-<link>http://Ignoreme</link>
-<externallink>http://main.txt</externallink>
-<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<link>NA</link>
 </item>
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
@@ -2050,17 +2044,15 @@
 
 	
 	<channel>
-		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION.OF[/COLOR]</name>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION2017.CF[/COLOR]</name>
 		<thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
 		<fanart>http://arenavision.in/sites/default/files/logo_av2015.png</fanart>
         
 		<items>		
-			
+	
 <item>
 <title>[B][COLOR gold]=============================================ARENAVISION2017.cf=============================================[/COLOR][/B]</title>
-<link>http://Ignoreme</link>
-<externallink>http://main.txt</externallink>
-<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<link>NA</link>
 </item>
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
@@ -2559,7 +2551,7 @@
 	</channel>	
 
 	<channel>
-		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION.GA[/COLOR]</name>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION2017.GA[/COLOR]</name>
 		<thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
 		<fanart>http://arenavision.in/sites/default/files/logo_av2015.png</fanart>
         
@@ -2567,9 +2559,7 @@
 			
 <item>
 <title>[B][COLOR gold]==================ARENAVISION2017.ga=============================================[/COLOR][/B]</title>
-<link>http://Ignoreme</link>
-<externallink>http://main.txt</externallink>
-<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<link>NA</link>
 </item>
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
@@ -3069,7 +3059,7 @@
 	</channel>		
 			
 	<channel>
-		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION.ML[/COLOR]</name>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION2017.ML[/COLOR]</name>
 		<thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
 		<fanart>http://arenavision.in/sites/default/files/logo_av2015.png</fanart>
         
@@ -3078,9 +3068,7 @@
 	
 <item>
 <title>[B][COLOR gold]==================ARENAVISION2017.ml=============================================[/COLOR][/B]</title>
-<link>http://Ignoreme</link>
-<externallink>http://main.txt</externallink>
-<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<link>NA</link>
 </item>
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
@@ -3642,7 +3630,7 @@
 	</channel>	
 			
 	<channel>
-		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION.TK[/COLOR]</name>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION2017.TK[/COLOR]</name>
 		<thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
 		<fanart>http://arenavision.in/sites/default/files/logo_av2015.png</fanart>
         
@@ -3650,9 +3638,7 @@
 	
 <item>
 <title>[B][COLOR gold]==================ARENAVISION2017.tk=============================================[/COLOR][/B]</title>
-<link>http://Ignoreme</link>
-<externallink>http://main.txt</externallink>
-<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<link>NA</link>
 </item>
 
 
