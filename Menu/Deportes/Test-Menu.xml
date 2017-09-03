@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channels>
+    <channels_info> <!-- this is opitonal -->
+      <title>DJLIPTV</title> <!-- if channels_info, a title is required, other elements are optional -->
+      <genre>Television</genre>
+      <description>Lista de Movies DJLIPTV  </description>
+       <thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail><fanart>http://i.imgur.com/UAQY3DI.jpg</fanart>
+      <date>01.01.2017</date>
+      <credits>http://bit.ly/DJLIPTVWEB</credits>
+    </channels_info>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 1][/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+        
+		<items>
+                
+			<item>
+				<title>                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/8</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>             
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+			
+		</items>
+	</channel>
+</channels>
+		
