@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
 
+<!---
 <item>
 	<title></title>
-	<link></link>
-	<thumbnail></thumbnail>
-	<fanart></fanart>
+	<link>https://archive.org/download/djliptv-MV/</link>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLMusicVideosThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLMusicVideosFanart.jpg?raw=true</fanart>
 </item>
+--->
+<item>
+	<title>Don Diablo Live At Tomorrowland 2015</title>
+	<link>https://archive.org/download/djliptv-MV/D-RG9uIERpYWJsbyBMaXZlIEF0IFRvbW9ycm93bGFuZCAyMDE1IDEwODBQ.mp4</link>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLMusicVideosThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLMusicVideosFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>Don Diablo live at Ultra Music Festival Miami 2016</title>
+	<link>https://archive.org/download/djliptv-MV/D-RG9uIERpYWJsbyBsaXZlIGF0IFVsdHJhIE11c2ljIEZlc3RpdmFsIE1pYW1pIDIwMTYgMTA4.mp4</link>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLMusicVideosThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLMusicVideosFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>Don Diablo Live At Tomorrowland 2017</title>
+	<link>https://archive.org/download/djliptv-MV/D-RG9uIERpYWJsbyBMaXZlIEF0IFRvbW9ycm93bGFuZCAyMDE3IDEwODBQ.mp4</link>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLMusicVideosThumbnail.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLMusicVideosFanart.jpg?raw=true</fanart>
+</item>
+
