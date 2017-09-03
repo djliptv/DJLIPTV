@@ -24,36 +24,6 @@
 </item>
 
 <item>
-	<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] CANALES ELGOLES[/COLOR] [COLOR blue] [I]Addon PLEXUS • Acestream Necesarios[/I][/COLOR]</title>
-	<link>$doregex[makelist]</link>
-	<regex>
-		<name>makelist</name>
-		<listrepeat><![CDATA[
-		<item>
-			<title>[B]Canal [/B] [COLOR gold][makelist.param1][/COLOR]</title>
-			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Catoal[makelist.param1]</link>
-			<regex>
-				<name>hash</name> 
-				<expres>this.loadPlayer\("(.*?)"</expres>
-				<page>http://elgoles.ru/canal-[makelist.param1]/</page>
-				<referer>http://elgoles.ru/</referer>
-				<Agent>Mozilla</Agent>
-				<referer>http://www.arenavision.in</referer>
-				<setcookie>beget=begetok</setcookie>
-			</regex>
-			<thumbnail></thumbnail>
-		</item>	
-		]]></listrepeat>
-		<expres>elgoles.ru/canal-(.*?)\/"</expres>
-		<page>http://elgoles.ru/</page>
-		<Agent>Mozilla</Agent>
-		<referer>http://www.arenavision.ru</referer>
-		<setcookie>beget=begetok</setcookie>
-	</regex>
-	<thumbnail></thumbnail>
-</item>
-
-<item>
 	<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] CANALES ARENAVISION.RU[/COLOR] [COLOR blue] [I]Addon PLEXUS • Acestream Necesarios[/I][/COLOR]</title>
 	<link>$doregex[makelist]</link>
 	<regex>
@@ -122,7 +92,35 @@
 	<externallink>https://www.dropbox.com/s/4rce9ktn4p6hvcm/Acestreams.xml?dl=1</externallink>
 </item>
 
-
+<item>
+	<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] CANALES ELGOLES[/COLOR] [COLOR blue] [I]Addon PLEXUS • Acestream Necesarios[/I][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+		<item>
+			<title>[B]Canal [/B] [COLOR gold][makelist.param1][/COLOR]</title>
+			<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Catoal[makelist.param1]</link>
+			<regex>
+				<name>hash</name> 
+				<expres>this.loadPlayer\("(.*?)"</expres>
+				<page>http://elgoles.ru/canal-[makelist.param1]/</page>
+				<referer>http://elgoles.ru/</referer>
+				<Agent>Mozilla</Agent>
+				<referer>http://www.arenavision.in</referer>
+				<setcookie>beget=begetok</setcookie>
+			</regex>
+			<thumbnail></thumbnail>
+		</item>	
+		]]></listrepeat>
+		<expres>elgoles.ru/canal-(.*?)\/"</expres>
+		<page>http://elgoles.ru/</page>
+		<Agent>Mozilla</Agent>
+		<referer>http://www.arenavision.ru</referer>
+		<setcookie>beget=begetok</setcookie>
+	</regex>
+	<thumbnail></thumbnail>
+</item>
 
 <item>
 	<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] EVENTOS DEPORTIVOS[/COLOR]</title>
