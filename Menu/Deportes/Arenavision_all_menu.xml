@@ -24,7 +24,7 @@
 </item>
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -41,7 +41,7 @@
   
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=2</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -57,7 +57,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=3</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -73,7 +73,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=4</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -89,7 +89,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=5</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -105,7 +105,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=6</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -121,7 +121,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=7</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -137,7 +137,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=8</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -153,7 +153,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=9</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -169,7 +169,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=10</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -185,7 +185,7 @@
  
          <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=11</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -201,7 +201,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=12</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -217,7 +217,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=13</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -233,7 +233,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=14</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -249,7 +249,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=15</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -265,7 +265,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=16</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -280,7 +280,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=17</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -295,7 +295,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=18</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -310,7 +310,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=19</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -325,7 +325,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=20</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -340,7 +340,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=21</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -356,7 +356,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=22</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -372,7 +372,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=23</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -388,7 +388,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=24</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -404,7 +404,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=25</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -421,7 +421,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=26</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -437,7 +437,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=27</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -454,7 +454,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=28</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -471,7 +471,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=29</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -487,7 +487,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=30</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -503,7 +503,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -533,7 +533,7 @@
 </item>
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -550,7 +550,7 @@
   
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=2</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -566,7 +566,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=3</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -582,7 +582,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=4</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -598,7 +598,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=5</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -614,7 +614,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=6</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -630,7 +630,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=7</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -646,7 +646,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=8</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -662,7 +662,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=9</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -678,7 +678,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=10</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -694,7 +694,7 @@
  
          <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=11</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -710,7 +710,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=12</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -726,7 +726,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=13</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -742,7 +742,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=14</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -758,7 +758,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=15</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -774,7 +774,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=16</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -789,7 +789,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=17</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -804,7 +804,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=18</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -819,7 +819,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=19</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -834,7 +834,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=20</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -849,7 +849,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=21</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -865,7 +865,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=22</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -881,7 +881,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=23</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -897,7 +897,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=24</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -913,7 +913,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=25</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -930,7 +930,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=26</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -946,7 +946,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=27</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -963,7 +963,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=28</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -980,7 +980,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=29</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -996,7 +996,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=30</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1012,7 +1012,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1041,7 +1041,7 @@
 </item>
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1058,7 +1058,7 @@
   
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=2</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1074,7 +1074,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=3</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1090,7 +1090,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=4</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1106,7 +1106,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=5</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1122,7 +1122,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=6</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1138,7 +1138,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=7</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1154,7 +1154,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=8</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1170,7 +1170,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=9</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1186,7 +1186,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=10</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1202,7 +1202,7 @@
  
          <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=11</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1218,7 +1218,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=12</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1234,7 +1234,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=13</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1250,7 +1250,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=14</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1266,7 +1266,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=15</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1282,7 +1282,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=16</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1297,7 +1297,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=17</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1312,7 +1312,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=18</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1327,7 +1327,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=19</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1342,7 +1342,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=20</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1357,7 +1357,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=21</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1373,7 +1373,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=22</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1389,7 +1389,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=23</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1405,7 +1405,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=24</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1421,7 +1421,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=25</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1438,7 +1438,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=26</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1454,7 +1454,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=27</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1471,7 +1471,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=28</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1488,7 +1488,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=29</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1504,7 +1504,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=30</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1520,7 +1520,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1548,7 +1548,7 @@
 </item>
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1565,7 +1565,7 @@
   
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=2</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1581,7 +1581,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=3</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1597,7 +1597,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=4</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1613,7 +1613,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=5</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1629,7 +1629,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=6</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1645,7 +1645,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=7</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1661,7 +1661,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=8</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1677,7 +1677,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=9</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1693,7 +1693,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=10</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1709,7 +1709,7 @@
  
          <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=11</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1725,7 +1725,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=12</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1741,7 +1741,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=13</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1757,7 +1757,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=14</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1773,7 +1773,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=15</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1789,7 +1789,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=16</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1804,7 +1804,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=17</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1819,7 +1819,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=18</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1834,7 +1834,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=19</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1849,7 +1849,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=20</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1864,7 +1864,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=21</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1880,7 +1880,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=22</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1896,7 +1896,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=23</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1912,7 +1912,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=24</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1928,7 +1928,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=25</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1945,7 +1945,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=26</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1961,7 +1961,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=27</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1978,7 +1978,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=28</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -1995,7 +1995,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=29</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2011,7 +2011,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=30</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2027,7 +2027,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2056,7 +2056,7 @@
 </item>
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2073,7 +2073,7 @@
   
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=2</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2089,7 +2089,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=3</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2105,7 +2105,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=4</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2121,7 +2121,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=5</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2137,7 +2137,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=6</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2153,7 +2153,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=7</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2169,7 +2169,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=8</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2185,7 +2185,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=9</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2201,7 +2201,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=10</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2217,7 +2217,7 @@
  
          <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=11</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2233,7 +2233,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=12</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2249,7 +2249,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=13</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2265,7 +2265,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=14</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2281,7 +2281,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=15</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2297,7 +2297,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=16</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2312,7 +2312,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=17</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2327,7 +2327,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=18</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2342,7 +2342,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=19</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2357,7 +2357,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=20</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2372,7 +2372,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=21</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2388,7 +2388,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=22</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2404,7 +2404,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=23</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2420,7 +2420,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=24</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2436,7 +2436,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=25</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2453,7 +2453,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=26</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2469,7 +2469,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=27</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2486,7 +2486,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=28</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2503,7 +2503,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=29</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2519,7 +2519,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=30</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2535,7 +2535,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2563,7 +2563,7 @@
 </item>
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2580,7 +2580,7 @@
   
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=2</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2596,7 +2596,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=3</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2612,7 +2612,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=4</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2628,7 +2628,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=5</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2644,7 +2644,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=6</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2660,7 +2660,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=7</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2676,7 +2676,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=8</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2692,7 +2692,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=9</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2708,7 +2708,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=10</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2724,7 +2724,7 @@
  
          <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=11</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2740,7 +2740,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=12</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2756,7 +2756,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=13</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2772,7 +2772,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=14</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2788,7 +2788,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=15</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2804,7 +2804,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=16</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2819,7 +2819,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=17</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2834,7 +2834,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=18</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2849,7 +2849,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=19</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2864,7 +2864,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=20</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2879,7 +2879,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=21</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2895,7 +2895,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=22</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2911,7 +2911,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=23</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2927,7 +2927,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=24</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2943,7 +2943,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=25</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2960,7 +2960,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=26</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2976,7 +2976,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=27</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -2993,7 +2993,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=28</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3010,7 +3010,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=29</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3026,7 +3026,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=30</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3042,7 +3042,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3072,7 +3072,7 @@
 </item>
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3089,7 +3089,7 @@
   
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=2</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3105,7 +3105,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=3</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3121,7 +3121,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=4</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3137,7 +3137,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=5</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3153,7 +3153,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=6</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3169,7 +3169,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=7</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3185,7 +3185,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=8</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3201,7 +3201,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=9</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3217,7 +3217,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=10</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3233,7 +3233,7 @@
  
          <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=11</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3249,7 +3249,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=12</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3265,7 +3265,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=13</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3281,7 +3281,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=14</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3297,7 +3297,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=15</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3313,7 +3313,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=16</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3328,7 +3328,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=17</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3343,7 +3343,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=18</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3358,7 +3358,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=19</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3373,7 +3373,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=20</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3388,7 +3388,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=21</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3404,7 +3404,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=22</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3420,7 +3420,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=23</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3436,7 +3436,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=24</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3452,7 +3452,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=25</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3469,7 +3469,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=26</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3485,7 +3485,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=27</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3502,7 +3502,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=28</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3519,7 +3519,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=29</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3535,7 +3535,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=30</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3551,7 +3551,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3567,7 +3567,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 32[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3583,7 +3583,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 33[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3599,7 +3599,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 34[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3615,7 +3615,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 35[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3644,7 +3644,7 @@
 
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3661,7 +3661,7 @@
   
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=2</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3677,7 +3677,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=3</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3693,7 +3693,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=4</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3709,7 +3709,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=5</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3725,7 +3725,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=6</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3741,7 +3741,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=7</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3757,7 +3757,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=8</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3773,7 +3773,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=9</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3789,7 +3789,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=10</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3805,7 +3805,7 @@
  
          <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=11</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3821,7 +3821,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=12</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3837,7 +3837,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=13</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3853,7 +3853,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=14</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3869,7 +3869,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=15</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3885,7 +3885,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=16</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3900,7 +3900,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=17</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3915,7 +3915,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=18</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3930,7 +3930,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=19</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3945,7 +3945,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=20</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3960,7 +3960,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=21</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3976,7 +3976,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=22</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -3992,7 +3992,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=23</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -4008,7 +4008,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=24</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -4024,7 +4024,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=25</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -4041,7 +4041,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=26</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -4057,7 +4057,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=27</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -4074,7 +4074,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=28</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -4091,7 +4091,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=29</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -4107,7 +4107,7 @@
            
             <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=30</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -4123,7 +4123,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -4139,7 +4139,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 32[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -4155,7 +4155,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 33[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -4171,7 +4171,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 34[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
@@ -4187,7 +4187,7 @@
  
   <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 35[/COLOR]</title>
-            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=31</link>
             <regex>
             <name>hash</name>
             <expres>this.loadPlayer\("(.*?)"</expres>
