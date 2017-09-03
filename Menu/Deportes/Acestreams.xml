@@ -419,6 +419,38 @@
 </item>	
 
 <item>
+	<title>[COLOR skyblue][B] LIVE FOOTBALL  [COLOR blue]CANALES[/COLOR][/B][/COLOR]</title>
+	<link>$doregex[makelist2]</link>
+	<regex>
+		<name>makelist2</name>
+		<listrepeat><![CDATA[
+			<title>[COLOR coral] [I][makelist2.param2][/I]  [/COLOR][COLOR skyblue][B] [makelist2.param4][/B] [/COLOR]  [makelist2.param1] </title>
+			<link>$doregex[makelist]</link>
+		]]></listrepeat>
+		<expres><![CDATA[flag\/16x11\/(.*?)..*?\"\/>(.*?)<.*?href="(.*?)">(.*?)<]]></expres>
+		<page>http://www.livefootballol.me/acestream-channel-list-2017.html</page>
+		<agent>Mozilla</agent>
+	</regex>
+	src="(.*?)"[\w\W\s]{0,15}>(.*?)<[\w\W\s]{0,2}href="(.*?html)">(.*?)<
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<title> [B][makelist.param3][/B]      [I] [makelist.param1][/I] </title>
+			<link>plugin://program.plexus/?url=$doregex[canal]&amp;mode=1&amp;name=DJLIPTV</link>
+			<regex>
+				<name>canal</name>
+				<expres>acestream://(.*)"</expres>
+				<page>[makelist.param2]</page>
+			</regex>
+		]]></listrepeat>
+		<expres><![CDATA[td>(.*?)<[\w\W\s]{0,15}href="(.*?html)">(.*?)AceStream]]></expres>
+		<page>http://www.livefootballol.me[makelist2.param3]</page>
+		<agent>Mozilla</agent>
+	</regex>
+	<thumbnail>http://www.androidaba.com/wp-content/uploads/2016/03/acestream-engine.jpg</thumbnail>
+</item>	
+
+<item>
 	<title>ESGOLES  Canales</title>
 	<link>$doregex[makelist]</link>
 	<regex>
