@@ -97,6 +97,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
+	<title>[COLOR white]+[/COLOR] DJL MUSIC VIDEOS</title>
+	<link>https://archive.org/download/djliptv-MV/</link>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLMusicVideosThumbnail.png?raw=true</thumbnail>
+	<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Musica%20Y%20Videos/Videos/DJL-MUSIC-VIDEOS.xml</fanart>
+</item>
+
+<item>
 <title>[COLOR white]+[/COLOR] Clasicos de ayer y de hoy</title>
 <link>$doregex[makelist]</link>
 <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
