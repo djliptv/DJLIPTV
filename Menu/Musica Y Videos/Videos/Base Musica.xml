@@ -128,5 +128,5 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
 <thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
 <link>$doregex[makelist]</link>
-<externallink>https://www.dropbox.com/s/b8r4i91inpvvs50/Videos%20Musicales%20Zona%203.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Musica%20Y%20Videos/Videos/VideosMusicalesZona3.xml</externallink>
 </item>
