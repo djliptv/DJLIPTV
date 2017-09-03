@@ -10,6 +10,28 @@
       <credits>http://bit.ly/DJLIPTVWEB</credits>
     </channels_info>
 	
+	
+
+<item>
+	<title>[COLOR white][B]ARENAVISION[/COLOR] [COLOR gold]AGENDA[/B][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<item><title>[COLOR red][makelist.param1][/COLOR] [COLOR white][makelist.param3][/COLOR] [COLOR lightgreen][makelist.param2][/COLOR][COLOR skyblue] PICAPAU[/COLOR]</title>
+			<link>plugin://program.plexus/?url=[makelist.param4]&amp;mode=1&amp;name=picapau+[makelist.param3]+Arenavision</link>
+			</item>	
+		]]></listrepeat>
+		<expres><![CDATA[center'>(.*?)<[\w\W\s]{0,120}<td>(.*?)<br>(.*?)<[\w\W\s]{0,40}acestream://(.*?)"]]></expres>
+		<page>https://avezy.tk/</page>
+		<Agent>Mozilla</Agent>
+	</regex>
+	<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+	<thumbnail>https://pbs.twimg.com/profile_images/788852870993027072/giwZj-BU.jpg</thumbnail>
+</item>
+
+	
+	
 	<channel>
 		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION.IN[/COLOR]</name>
 		<thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
@@ -22,6 +44,25 @@
 <title>[B][COLOR gold]==================ARENAVISION.in=============================================[/COLOR][/B]</title>
 <link>NA</link>
 </item>
+
+<item>
+	<title>[COLOR white][B]ARENAVISION[/COLOR] [COLOR gold]AGENDA[/B][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<item><title>[COLOR red][makelist.param1][/COLOR] [COLOR white][makelist.param3][/COLOR] [COLOR lightgreen][makelist.param2][/COLOR][COLOR skyblue] PICAPAU[/COLOR]</title>
+			<link>plugin://program.plexus/?url=[makelist.param4]&amp;mode=1&amp;name=picapau+[makelist.param3]+Arenavision</link>
+			</item>	
+		]]></listrepeat>
+		<expres><![CDATA[center'>(.*?)<[\w\W\s]{0,120}<td>(.*?)<br>(.*?)<[\w\W\s]{0,40}acestream://(.*?)"]]></expres>
+		<page>https://avezy.tk/</page>
+		<Agent>Mozilla</Agent>
+	</regex>
+	<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+	<thumbnail>https://pbs.twimg.com/profile_images/788852870993027072/giwZj-BU.jpg</thumbnail>
+</item>
+
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
             <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
@@ -531,6 +572,25 @@
 <title>[B][COLOR gold]==================ARENAVISION.ru=============================================[/COLOR][/B]</title>
 <link>NA</link>
 </item>
+
+<item>
+	<title>[COLOR white][B]ARENAVISION[/COLOR] [COLOR gold]AGENDA[/B][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<item><title>[COLOR red][makelist.param1][/COLOR] [COLOR white][makelist.param3][/COLOR] [COLOR lightgreen][makelist.param2][/COLOR][COLOR skyblue] PICAPAU[/COLOR]</title>
+			<link>plugin://program.plexus/?url=[makelist.param4]&amp;mode=1&amp;name=picapau+[makelist.param3]+Arenavision</link>
+			</item>	
+		]]></listrepeat>
+		<expres><![CDATA[center'>(.*?)<[\w\W\s]{0,120}<td>(.*?)<br>(.*?)<[\w\W\s]{0,40}acestream://(.*?)"]]></expres>
+		<page>https://avezy.tk/</page>
+		<Agent>Mozilla</Agent>
+	</regex>
+	<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+	<thumbnail>https://pbs.twimg.com/profile_images/788852870993027072/giwZj-BU.jpg</thumbnail>
+</item>
+
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
             <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
@@ -1039,6 +1099,25 @@
 <title>[B][COLOR gold]==================ARENAVISION.top=============================================[/COLOR][/B]</title>
 <link>NA</link>
 </item>
+
+<item>
+	<title>[COLOR white][B]ARENAVISION[/COLOR] [COLOR gold]AGENDA[/B][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<item><title>[COLOR red][makelist.param1][/COLOR] [COLOR white][makelist.param3][/COLOR] [COLOR lightgreen][makelist.param2][/COLOR][COLOR skyblue] PICAPAU[/COLOR]</title>
+			<link>plugin://program.plexus/?url=[makelist.param4]&amp;mode=1&amp;name=picapau+[makelist.param3]+Arenavision</link>
+			</item>	
+		]]></listrepeat>
+		<expres><![CDATA[center'>(.*?)<[\w\W\s]{0,120}<td>(.*?)<br>(.*?)<[\w\W\s]{0,40}acestream://(.*?)"]]></expres>
+		<page>https://avezy.tk/</page>
+		<Agent>Mozilla</Agent>
+	</regex>
+	<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+	<thumbnail>https://pbs.twimg.com/profile_images/788852870993027072/giwZj-BU.jpg</thumbnail>
+</item>
+
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
             <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
@@ -1546,6 +1625,25 @@
 <title>[B][COLOR gold]==================ARENAVISION.us=============================================[/COLOR][/B]</title>
 <link>NA</link>
 </item>
+
+<item>
+	<title>[COLOR white][B]ARENAVISION[/COLOR] [COLOR gold]AGENDA[/B][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<item><title>[COLOR red][makelist.param1][/COLOR] [COLOR white][makelist.param3][/COLOR] [COLOR lightgreen][makelist.param2][/COLOR][COLOR skyblue] PICAPAU[/COLOR]</title>
+			<link>plugin://program.plexus/?url=[makelist.param4]&amp;mode=1&amp;name=picapau+[makelist.param3]+Arenavision</link>
+			</item>	
+		]]></listrepeat>
+		<expres><![CDATA[center'>(.*?)<[\w\W\s]{0,120}<td>(.*?)<br>(.*?)<[\w\W\s]{0,40}acestream://(.*?)"]]></expres>
+		<page>https://avezy.tk/</page>
+		<Agent>Mozilla</Agent>
+	</regex>
+	<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+	<thumbnail>https://pbs.twimg.com/profile_images/788852870993027072/giwZj-BU.jpg</thumbnail>
+</item>
+
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
             <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
@@ -2054,6 +2152,25 @@
 <title>[B][COLOR gold]=============================================ARENAVISION2017.cf=============================================[/COLOR][/B]</title>
 <link>NA</link>
 </item>
+
+<item>
+	<title>[COLOR white][B]ARENAVISION[/COLOR] [COLOR gold]AGENDA[/B][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<item><title>[COLOR red][makelist.param1][/COLOR] [COLOR white][makelist.param3][/COLOR] [COLOR lightgreen][makelist.param2][/COLOR][COLOR skyblue] PICAPAU[/COLOR]</title>
+			<link>plugin://program.plexus/?url=[makelist.param4]&amp;mode=1&amp;name=picapau+[makelist.param3]+Arenavision</link>
+			</item>	
+		]]></listrepeat>
+		<expres><![CDATA[center'>(.*?)<[\w\W\s]{0,120}<td>(.*?)<br>(.*?)<[\w\W\s]{0,40}acestream://(.*?)"]]></expres>
+		<page>https://avezy.tk/</page>
+		<Agent>Mozilla</Agent>
+	</regex>
+	<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+	<thumbnail>https://pbs.twimg.com/profile_images/788852870993027072/giwZj-BU.jpg</thumbnail>
+</item>
+
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
             <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
@@ -2561,6 +2678,25 @@
 <title>[B][COLOR gold]==================ARENAVISION2017.ga=============================================[/COLOR][/B]</title>
 <link>NA</link>
 </item>
+
+<item>
+	<title>[COLOR white][B]ARENAVISION[/COLOR] [COLOR gold]AGENDA[/B][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<item><title>[COLOR red][makelist.param1][/COLOR] [COLOR white][makelist.param3][/COLOR] [COLOR lightgreen][makelist.param2][/COLOR][COLOR skyblue] PICAPAU[/COLOR]</title>
+			<link>plugin://program.plexus/?url=[makelist.param4]&amp;mode=1&amp;name=picapau+[makelist.param3]+Arenavision</link>
+			</item>	
+		]]></listrepeat>
+		<expres><![CDATA[center'>(.*?)<[\w\W\s]{0,120}<td>(.*?)<br>(.*?)<[\w\W\s]{0,40}acestream://(.*?)"]]></expres>
+		<page>https://avezy.tk/</page>
+		<Agent>Mozilla</Agent>
+	</regex>
+	<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+	<thumbnail>https://pbs.twimg.com/profile_images/788852870993027072/giwZj-BU.jpg</thumbnail>
+</item>
+
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
             <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
@@ -3070,6 +3206,25 @@
 <title>[B][COLOR gold]==================ARENAVISION2017.ml=============================================[/COLOR][/B]</title>
 <link>NA</link>
 </item>
+
+<item>
+	<title>[COLOR white][B]ARENAVISION[/COLOR] [COLOR gold]AGENDA[/B][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<item><title>[COLOR red][makelist.param1][/COLOR] [COLOR white][makelist.param3][/COLOR] [COLOR lightgreen][makelist.param2][/COLOR][COLOR skyblue] PICAPAU[/COLOR]</title>
+			<link>plugin://program.plexus/?url=[makelist.param4]&amp;mode=1&amp;name=picapau+[makelist.param3]+Arenavision</link>
+			</item>	
+		]]></listrepeat>
+		<expres><![CDATA[center'>(.*?)<[\w\W\s]{0,120}<td>(.*?)<br>(.*?)<[\w\W\s]{0,40}acestream://(.*?)"]]></expres>
+		<page>https://avezy.tk/</page>
+		<Agent>Mozilla</Agent>
+	</regex>
+	<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+	<thumbnail>https://pbs.twimg.com/profile_images/788852870993027072/giwZj-BU.jpg</thumbnail>
+</item>
+
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
             <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=1</link>
@@ -3641,6 +3796,23 @@
 <link>NA</link>
 </item>
 
+<item>
+	<title>[COLOR white][B]ARENAVISION[/COLOR] [COLOR gold]AGENDA[/B][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<item><title>[COLOR red][makelist.param1][/COLOR] [COLOR white][makelist.param3][/COLOR] [COLOR lightgreen][makelist.param2][/COLOR][COLOR skyblue] PICAPAU[/COLOR]</title>
+			<link>plugin://program.plexus/?url=[makelist.param4]&amp;mode=1&amp;name=picapau+[makelist.param3]+Arenavision</link>
+			</item>	
+		]]></listrepeat>
+		<expres><![CDATA[center'>(.*?)<[\w\W\s]{0,120}<td>(.*?)<br>(.*?)<[\w\W\s]{0,40}acestream://(.*?)"]]></expres>
+		<page>https://avezy.tk/</page>
+		<Agent>Mozilla</Agent>
+	</regex>
+	<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+	<thumbnail>https://pbs.twimg.com/profile_images/788852870993027072/giwZj-BU.jpg</thumbnail>
+</item>
 
  <item>
             <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
