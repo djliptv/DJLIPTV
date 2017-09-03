@@ -1,0 +1,4220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channels>
+    <channels_info> <!-- this is opitonal -->
+      <title>DJLIPTV</title> <!-- if channels_info, a title is required, other elements are optional -->
+      <genre>Television</genre>
+      <description>Lista de ARENAVISION  </description>
+       <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail><fanart>http://i.imgur.com/UAQY3DI.jpg</fanart>
+      <date>01.01.2017</date>
+      <credits>http://bit.ly/DJLIPTVWEB</credits>
+    </channels_info>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION.IN[/COLOR]</name>
+		<thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+		<fanart>http://arenavision.in/sites/default/files/logo_av2015.png</fanart>
+        
+		<items>
+
+
+<item>
+<title>[B][COLOR gold]==================ARENAVISION.in=============================================[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>http://main.txt</externallink>
+<thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+</item>
+ <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/8</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>             
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/10</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/11</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/12</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/13</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/2</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/23</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/34</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/35</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/36</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+         <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/32</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/33</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/37</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/38</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/39</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/40</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/41</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/42</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/43</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/44</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/30</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/31</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/14</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/15</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/16</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/17</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+                 
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/20</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/24</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/27</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/29</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.in/node/61</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+		</items>
+	
+	</channel>			
+
+
+
+<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION.RU[/COLOR]</name>
+		<thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+		<fanart>http://arenavision.in/sites/default/files/logo_av2015.png</fanart>
+        
+		<items>
+	
+<item>
+<title>[B][COLOR gold]==================ARENAVISION.ru=============================================[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>http://main.txt</externallink>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+</item>
+ <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/8</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>             
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/10</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/11</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/12</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/13</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/2</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/23</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/34</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/35</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/36</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+         <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/32</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/33</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/37</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/38</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/39</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/40</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/41</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/42</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/43</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/44</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/30</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/31</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/14</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/15</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/16</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/17</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+                 
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/20</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/24</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/27</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/29</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.ru/node/61</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+			
+		</items>
+	
+	</channel>	
+
+
+<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION.TOP[/COLOR]</name>
+		<thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+		<fanart>http://arenavision.in/sites/default/files/logo_av2015.png</fanart>
+        
+		<items>	
+			
+<item>
+<title>[B][COLOR gold]==================ARENAVISION.top=============================================[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>http://main.txt</externallink>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+</item>
+ <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/8</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>             
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/10</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/11</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/12</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/13</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/2</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/23</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/34</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/35</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/36</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+         <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/32</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/33</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/37</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/38</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/39</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/40</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/41</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/42</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/43</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/44</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/30</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/31</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/14</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/15</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/16</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/17</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+                 
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/20</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/24</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/27</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/29</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.top/node/61</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+			
+		</items>
+	
+	</channel>	
+			
+	<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION.US[/COLOR]</name>
+		<thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+		<fanart>http://arenavision.in/sites/default/files/logo_av2015.png</fanart>
+        
+		<items>			
+			
+<item>
+<title>[B][COLOR gold]==================ARENAVISION.us=============================================[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>http://main.txt</externallink>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+</item>
+ <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/8</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>             
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/10</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/11</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/12</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/13</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/2</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/23</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/34</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/35</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/36</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+         <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/32</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/33</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/37</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/38</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/39</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/40</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/41</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/42</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/43</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/44</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/30</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/31</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/14</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/15</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/16</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/17</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+                 
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/20</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/24</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/27</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/29</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision.us/node/61</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+			
+		</items>
+	
+	</channel>	
+
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION.OF[/COLOR]</name>
+		<thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+		<fanart>http://arenavision.in/sites/default/files/logo_av2015.png</fanart>
+        
+		<items>		
+			
+<item>
+<title>[B][COLOR gold]=============================================ARENAVISION2017.cf=============================================[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>http://main.txt</externallink>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+</item>
+ <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/8</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>             
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/10</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/11</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/12</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/13</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/2</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/23</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/34</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/35</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/36</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+         <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/32</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/33</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/37</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/38</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/39</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/40</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/41</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/42</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/43</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/44</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/30</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/31</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/14</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/15</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/16</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/17</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+                 
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/20</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/24</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/27</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/29</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.cf/node/61</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+			
+		</items>
+	
+	</channel>	
+
+	<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION.GA[/COLOR]</name>
+		<thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+		<fanart>http://arenavision.in/sites/default/files/logo_av2015.png</fanart>
+        
+		<items>	
+			
+<item>
+<title>[B][COLOR gold]==================ARENAVISION2017.ga=============================================[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>http://main.txt</externallink>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+</item>
+ <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/8</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>             
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/10</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/11</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/12</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/13</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/2</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/23</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/34</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/35</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/36</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+         <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/32</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/33</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/37</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/38</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/39</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/40</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/41</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/42</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/43</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/44</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/30</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/31</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/14</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/15</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/16</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/17</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+                 
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/20</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/24</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/27</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/29</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ga/node/61</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+			
+			
+		</items>
+	
+	</channel>		
+			
+	<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION.ML[/COLOR]</name>
+		<thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+		<fanart>http://arenavision.in/sites/default/files/logo_av2015.png</fanart>
+        
+		<items>	
+
+	
+<item>
+<title>[B][COLOR gold]==================ARENAVISION2017.ml=============================================[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>http://main.txt</externallink>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+</item>
+ <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/8</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>             
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/10</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/11</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/12</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/13</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/2</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/23</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/34</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/35</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/36</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+         <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/32</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/33</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/37</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/38</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/39</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/40</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/41</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/42</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/43</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/44</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/30</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/31</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/14</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/15</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/16</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/17</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+                 
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/20</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/24</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/27</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/29</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/61</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 32[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/62</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 33[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/63</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 34[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/64</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 35[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.ml/node/65</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+		</items>
+	
+	</channel>	
+			
+	<channel>
+		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]ARENAVISION.TK[/COLOR]</name>
+		<thumbnail>http://arenavision.in/sites/default/files/logo_av2015.png</thumbnail>
+		<fanart>http://arenavision.in/sites/default/files/logo_av2015.png</fanart>
+        
+		<items>		
+	
+<item>
+<title>[B][COLOR gold]==================ARENAVISION2017.tk=============================================[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>http://main.txt</externallink>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+</item>
+
+
+ <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 1[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/8</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>             
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 2[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/10</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 3[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau3</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/11</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 4[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau4</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/12</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 5[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau5</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/13</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 6[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau6</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/2</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 7[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau7</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/23</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 8[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/34</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 9[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/35</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 10[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/36</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+         <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 11[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/32</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 12[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau12</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/33</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 13[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau13</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/37</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 14[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau14</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/38</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 15[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau15</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/39</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 16[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau16</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/40</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 17[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau17</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/41</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 18[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau18</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/42</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 19[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau19</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/43</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 20[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau20</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/44</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 21[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau21</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/30</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 22[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau22</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/31</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 23[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau23</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/14</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 24[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau24</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/15</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 25[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau25</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/16</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 26[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau26</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/17</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+                 
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 27[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau27</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/20</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 28[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau28</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/24</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 29[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau29</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/27</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+           
+           
+           
+           
+            <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 30[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau30</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/29</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 31[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/61</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 32[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk//node/62</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 33[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/63</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 34[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/64</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+ 
+  <item>
+            <title>[COLOR white]ArenaVision[/COLOR][COLOR gold] 35[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau31</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/65</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+			
+			</items>
+	
+	</channel>
+</channels>
