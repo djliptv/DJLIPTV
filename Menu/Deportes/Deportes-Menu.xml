@@ -38,7 +38,7 @@
 	<link>ignoreme.me</link>
 	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Deportes/arenavision_all.xml</externallink>
 </item>
---->
+
 <item>
 	<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] CANALES ARENAVISION TODOS[/COLOR] [COLOR blue] [I]Addon PLEXUS • Acestream Necesarios[/I][/COLOR]</title>
 	<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
@@ -46,7 +46,7 @@
 	<link>ignoreme.me</link>
 	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Deportes/Test-Menu.xml</externallink>
 </item>
-
+--->
 <item>
 	<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] CANALES ARENAVISION.RU[/COLOR] [COLOR blue] [I]Addon PLEXUS • Acestream Necesarios[/I][/COLOR]</title>
 	<link>$doregex[makelist]</link>
