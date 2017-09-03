@@ -98,7 +98,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 	<title>[COLOR white]+[/COLOR] DJL MUSIC VIDEOS</title>
-	<link>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Musica%20Y%20Videos/Videos/DJL-MUSIC-VIDEOS.xml</link>
+	<link>http://ignorame</link>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Musica%20Y%20Videos/Videos/DJL-MUSIC-VIDEOS.xml</externallink>
 	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLMusicVideosThumbnail.png?raw=true</thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLMusicVideosFanart.jpg?raw=true</fanart>
 </item>
