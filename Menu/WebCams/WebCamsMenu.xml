@@ -122,22 +122,3 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'https://www.skylinewebcams.com[li
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
-
-
-
-
-
-
-<item>
-
-<title>[COLOR red]CAMARAS DEL MUNDO[/COLOR] [COLOR white](CLICAR AQUI)[/COLOR]</title>
-
-<thumbnail>http://www.linkupinternet.com.ar/linkup2/wp-content/uploads/2017/03/3.jpg</thumbnail>
-
-<link>http://ignoreme</link>
-
-<externallink>http://pastebin.com/raw/19tYfRKt</externallink>
-
-<fanart>http://www.masingenieros.com/wp-content/uploads/2014/12/avion-despegando-de-la-pista-en-el-aeropuerto.jpg</fanart>
-
-</item>
