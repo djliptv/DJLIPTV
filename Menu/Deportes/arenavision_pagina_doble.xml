@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--- https://pastebin.com/9vXH1Sa4 --->
+
+
+
+
+<item>
+<title>[COLOR red]CAMARAS DEL MUNDO[/COLOR] [COLOR white](CLICAR AQUI)[/COLOR]</title>
+<thumbnail>http://www.linkupinternet.com.ar/linkup2/wp-content/uploads/2017/03/3.jpg</thumbnail>
+<link>http://ignoreme</link>
+<externallink>http://pastebin.com/raw/19tYfRKt</externallink>
+<fanart>http://www.masingenieros.com/wp-content/uploads/2014/12/avion-despegando-de-la-pista-en-el-aeropuerto.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+<item>
+<title>[COLOR red]CANALES ACESTREAMS[/COLOR] [COLOR white](CLICAR AQUI)[/COLOR]</title>
+<thumbnail>http://tecnolengua2esob.opennemas.com/media//tecnolengua2esob/sections/radioconsolacion.com.R769HKrL2vsAfPHEii1aJexrUTOqYLbS2ot76pIg56dkPZPuX9.jpg</thumbnail>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/wDBwPqQt</externallink>
+<fanart>http://www.imdsg.es/wp-content/uploads/fondo.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>                                 [COLOR red][B]EVENTOS ESPECIALES[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://ignorame</externallink>
+<thumbnail>https://pbs.twimg.com/profile_images/788852870993027072/giwZj-BU.jpg</thumbnail>
+
+</item>
+
+
+ 
+
+
+
+ <tem>
+            <title>[COLOR white]JUEGO DE TRONOS 7/8/2017[/COLOR][COLOR red] (03:00)[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/34</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://static.hellofriki.com/wp-content/uploads/2016/12/Game-of-Thrones-Season-7-ice-dragon-620x307.jpg</thumbnail>
+            <fanart>http://static.hellofriki.com/wp-content/uploads/2016/12/Game-of-Thrones-Season-7-ice-dragon-620x307.jpg</fanart>
+            </item>
+http://motordigital.com/files/2011/06/f11.jpg
+https://upload.wikimedia.org/wikipedia/commons/5/59/2008_Canadian_GP_lap_1_turn_2.jpg
+
+<tem>
+<title> </title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.plexus-streams/?url=%5B%28u%27SPA%27%2C+%5Bu%271%27%2C+u%272%27%5D%29%5D&mode=401&name=%5BB%5D%5BCOLOR+red%5D11-08-17+18%3A30%5B%2FCOLOR%5D+%5BCOLOR+white%5DSOCCER%5B%2FCOLOR%5D%5B%2FB%5D+CADIZ-LAS+PALMAS+%5BCOLOR+yellow%5D%5BCARRANZA+TOURNAMENT%5D%5B%2FCOLOR%5D</jsonrpc>
+<thumbnail></thumbnail>
+</item> 
+
+plugin://plugin.video.plexus-streams/?url=http%3A%2F%2Fwww.arenavision.us%2Fguide&mode=401&name=%5BB%5D%5BCOLOR+red%5DAgenda%2FSchedule%5B%2FCOLOR%5D%5B%2FB%5D
+
+
+
+
+         <tem>
+            <title> prueba</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau</link>
+            <regex>
+            <name>hash</name>
+            <expres>window.open\("(.*?)"</expres>
+            <page>http://mebuscan.net/kosm/contenedor.php?canal=112&nav=MIME</page>
+            <referer>http://mebuscan.net/</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://static.hellofriki.com/wp-content/uploads/2016/12/Game-of-Thrones-Season-7-ice-dragon-620x307.jpg</thumbnail>
+            <fanart>http://static.hellofriki.com/wp-content/uploads/2016/12/Game-of-Thrones-Season-7-ice-dragon-620x307.jpg</fanart>
+            </item>
+
+
+
+
+
+
+           
+            <tem>
+            <title>[COLOR white]MANCHESTER UNITED vs BARCELONA 27/7/2017[/COLOR][COLOR red] 01:35[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau8</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/34</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+           
+            <tem>
+            <title>[COLOR white]MANCHESTER UNITED vs BARCELONA 27/7/2017[/COLOR][COLOR red] 01:35 [/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau9</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/35</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+            </item>
+
+
+
+
+      
+           
+           
+           
+            <tem>
+            <title>[COLOR white]REAL MADRID vs VALENCIA[/COLOR][COLOR red] 22:15[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau10</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/36</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://statics.laliga.es/img/campo-logo-v4.jpg</thumbnail>
+            </item>
+           
+           
+           
+           
+           
+            <tem>
+            <title>[COLOR white]REAL MADRID vs VALENCIA[/COLOR][COLOR red] 22:15[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau11</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/32</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://statics.laliga.es/img/campo-logo-v4.jpg</thumbnail>
+            </item>
+
+
+
+
+
+ <item>
+            <title>[COLOR white]BEIN LA LIGA Y PARTIDAZO[/COLOR][COLOR red] todos los partidos del día[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/8</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>             
+            <thumbnail>http://statics.laliga.es/img/campo-logo-v4.jpg</thumbnail>
+            </item>
+
+
+
+
+
+
+ 
+  
+            <item>
+            <title>[COLOR white]BEIN LA LIGA Y PARTIDAZO[/COLOR][COLOR red] todos los partidos del día[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/10</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://statics.laliga.es/img/campo-logo-v4.jpg</thumbnail>
+            </item>
+
+
+  
+
+<item>
+<title>[B][COLOR red]==========================================================================================[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>http://main.txt</externallink>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+</item>
+
+
+<item>
+<title>[COLOR white][B]ARENAVISION AGENDA / (CLICAR AQUI)[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item><title>[COLOR red][makelist.param1][/COLOR] [COLOR white][makelist.param3][/COLOR] [COLOR lightgreen][makelist.param2][/COLOR][COLOR skyblue] PICAPAU[/COLOR]</title>
+<link>plugin://program.plexus/?url=[makelist.param4]&amp;mode=1&amp;name=picapau+[makelist.param3]+Arenavision</link>
+</item>	
+]]></listrepeat>
+<expres><![CDATA[center'>(.*?)<[\w\W\s]{0,120}<td>(.*?)<br>(.*?)<[\w\W\s]{0,40}acestream://(.*?)"]]></expres>
+<page>https://avezy.tk/</page>
+<Agent>Mozilla</Agent>
+</regex>
+<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+<thumbnail>https://pbs.twimg.com/profile_images/788852870993027072/giwZj-BU.jpg</thumbnail>
+</item>
+
+
+
+<item>
+<title>[COLOR white]ARENAVISION[/COLOR] [COLOR red].in[/COLOR]</title>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/dMZdmZe5</externallink>
+</item>
+
+
+
+
+<item>
+<title>[COLOR white]ARENAVISION[/COLOR] [COLOR red].ru[/COLOR]</title>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/9bHeeUjN</externallink>
+</item>
+
+
+
+
+<item>
+<title>[COLOR white]ARENAVISION[/COLOR] [COLOR red].top[/COLOR]</title>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/wbTdQMKa</externallink>
+</item>
+
+
+
+
+<item>
+<title>[COLOR white]ARENAVISION[/COLOR] [COLOR red].us[/COLOR]</title>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/fQTHsqY5</externallink>
+</item>
+
+
+
+
+<item>
+<title>[COLOR white]ARENAVISION[/COLOR] [COLOR red].cf[/COLOR]</title>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/ynewe6Nu</externallink>
+</item>
+
+
+
+
+<item>
+<title>[COLOR white]ARENAVISION2017[/COLOR] [COLOR red].ga[/COLOR]</title>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/2ZfLByJG</externallink>
+</item>
+
+
+
+
+<item>
+<title>[COLOR white]ARENAVISION2017[/COLOR] [COLOR red].ml[/COLOR]</title>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/SskafT90</externallink>
+</item>
+
+
+
+
+<item>
+<title>[COLOR white]ARENAVISION2017[/COLOR] [COLOR red].tk[/COLOR]</title>
+<thumbnail>http://arenavision.ru/sites/default/files/logo_av2015.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/Y8XzeU2WbDY/maxresdefault.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/QdSMBqy1</externallink>
+</item>
