@@ -641,12 +641,6 @@ item>
 		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
 </item>
 
-<item>
-		<title>[COLOR white]TYC SPORTS[/COLOR][COLOR lime] HD [/COLOR]</title>
-		<link>https://vivoplay-i.akamaihd.net/hls/live/255333/canal5/master2500k.m3u8</link>
-		<thumbnail>https://i.ytimg.com/vi/9lvKFKUeTTE/maxresdefault_live.jpg</thumbnail> <!-- CAMBIAR LOGO -->
-		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
-</item>
 <!--- ESPN --->
 <item>
 		<title>[COLOR white]ESPN[/COLOR][COLOR blue] SD [/COLOR]</title>
