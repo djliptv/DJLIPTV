@@ -91,7 +91,7 @@ item>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
-<externallink>https://www.dropbox.com/s/qrvk48ycgu1l2gb/Channels-Argentina.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Tv-Argentina/Channels-Argentina.xml</externallink>
 </item>
 
 <item>
