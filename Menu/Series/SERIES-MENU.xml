@@ -150,6 +150,75 @@
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres><![CDATA[href='/serie(.*?)'[\w\W\s]{0,2}title='(.*?)'[\w\W\s]{0,10}blank'>(.*?)<]]></expres>
+<page>https://www.seriesdanko.info/</page>
+</regex>
+ 
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[makelist2.param2]</title>
+<link>$doregex[makelist]</link>
+]]></listrepeat>
+<expres><![CDATA[href='capitulo(.*?)'>(.*?)<]]></expres>
+<page>https://www.seriesdanko.info//serie[makelist3.param1]</page>
+</regex>
+
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist2.param2]    - idioma:[makelist.param1]</title>
+
+
+<link>$doregex[url]/$doregex[id3]/v.flv</link>
+<regex>
+<name>url</name>
+<expres>vplayer[\w\W\s]{0,8}src="(.*?)\/i</expres>
+<page>http://streamin.to/embed-$doregex[id2]-740x360.html</page>	 
+<referer>http://streamin.to</referer>
+</regex>
+<regex>
+<name>id3</name>
+<expres>image\|[\w\W\s]{0,3}\|(.*?)\|file</expres>
+<page>http://streamin.to/embed-$doregex[id2]-740x360.html</page>	 
+<referer>http://streamin.to</referer>
+</regex>
+ 
+  <regex>
+ <name>id2</name>
+ <expres>streamin.to/(.*?)"</expres>
+ <page>https://www.seriesdanko.info/[makelist.param2]</page>	
+ <referer></referer>
+ </regex>
+ 
+ 
+ 
+<thumbnail>[makelist3.param3]</thumbnail>
+<fanart>[makelist3.param3]</fanart>
+]]></listrepeat>
+<expres>banderas/(.*?)png[\w\W\s]{0,180}streamin[\w\W\s]{0,120}href='(.*?)'</expres>
+<page>https://www.seriesdanko.info/capitulo[makelist2.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
+<!---
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] SERIES DANKO[/COLOR][COLOR gray] [I][Todas las Series][/I][/COLOR]</title>
+<link>$doregex[makelist3]</link>
+
+
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[makelist3.param3]</title>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres><![CDATA[href='/serie(.*?)'[\w\W\s]{0,2}title='(.*?)'[\w\W\s]{0,10}blank'>(.*?)<]]></expres>
 <page>http://seriesdanko.com/</page>
 </regex>
  
@@ -205,4 +274,7 @@
 <cookieJar></cookieJar>
 </regex>
 </item>
+
+--->
+
 
