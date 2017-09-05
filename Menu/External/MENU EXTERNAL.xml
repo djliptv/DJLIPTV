@@ -55,6 +55,15 @@
 	<fanart>https://3.bp.blogspot.com/-bcrCuREBRlI/WGBC6J-RO8I/AAAAAAAAAm8/s3c_uJJTEZg1h6pvBW1g63awZ72F_lyMQCLcB/s1600/addons%2Bbribri.png</fanart>
 	<externallink>http://bit.ly/Bri_TV</externallink>
 </item>
+
+<item>
+	<title>[COLOR darkred]DRACULA ADDON[/COLOR]</title>
+	<link>na</link>
+	<thumbnail>https://imgur.com/cyJgcDv.jpg</thumbnail>
+	<fanart>https://imgur.com/Pqo4sfd.jpg</fanart>
+	<externallink>http://bit.ly/DRACULADDON</externallink>
+</item>
+
 <!---
 <item>
 	<title>[COLOR white]+ [/COLOR][COLOR yellow]CATOAL[/COLOR]</title>
@@ -239,7 +248,7 @@
 	<fanart>http://i.imgur.com/6iygFmE.jpg</fanart>
 	<externallink>https://www.dropbox.com/s/mkin5brgwg6xuzl/EXTERNAL%20METROPOLITAN%20OPC2.xml?dl=1</externallink>
 </item>
---> 
+
 <item>
         <title>[COLOR white]+ [/COLOR][COLOR green]ME[/COLOR][COLOR withe]XFL[/COLOR][COLOR red]IX [/COLOR]</title>
         <link>http://ignorame</link>
@@ -247,7 +256,7 @@
 		<fanart>https://www.dropbox.com/s/vojnf1bfe4yn425/mexflixLIST1.png?dl=1</fanart>
         <externallink>https://www.dropbox.com/s/fvx47jwa4lu9utx/MexFLIXAddonMASTER.xml?dl=1</externallink>
 </item>
-<!--- https://www.dropbox.com/s/vgzr7mue4p05hx4/MexFLIXAddonMASTER.xml?dl=1 --->
+<!--- https://www.dropbox.com/s/vgzr7mue4p05hx4/MexFLIXAddonMASTER.xml?dl=1 ---
 
 <item>
         <title>[COLOR white]+ [/COLOR][COLOR green]ME[/COLOR][COLOR withe]XFL[/COLOR][COLOR red]IX [/COLOR][COLOR white] [OPCION 2] [/COLOR]</title>
@@ -256,7 +265,7 @@
 		<fanart>https://www.dropbox.com/s/vojnf1bfe4yn425/mexflixLIST1.png?dl=1</fanart>
         <externallink>http://bit.ly/DJLIPTVMF</externallink>
 </item>
-
+--> 
 <item>
         <title>[COLOR white]+ [/COLOR][COLOR green]ME[/COLOR][COLOR withe]XI[/COLOR][COLOR red]CO [/COLOR][COLOR white] ADDON [/COLOR]</title>
         <link>http://ignorame</link>
