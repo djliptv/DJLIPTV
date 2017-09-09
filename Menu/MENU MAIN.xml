@@ -62,6 +62,17 @@
  
 <!--- ITEM - 24/7 ######## INICIO ---> 
 
+
+<channels>
+<channel>
+<name>[B][COLOR yellow]H U R A C A N   I R M A <===> C O B E R T U R A   E S P E C I A L  -  24/7[/COLOR][/B]</name>
+<thumbnail>https://cdn4.uvnimg.com/dims4/default/ecab55f/2147483647/thumbnail/480x270/quality/75/?url=https%3A%2F%2Fcdn4.uvnimg.com%2F12%2Fb1%2Fe6e39f2e4604b2e7385bb09aa602%2Firma-huracan-online.JPG</thumbnail>
+<fanart>https://media.giphy.com/media/MHp3YwuzrRSBa/giphy-facebook_s.jpg</fanart>
+<link>http://ignorame</link>
+<externallink>plugin://plugin.video.youtube/play/?video_id=6Z3XvUzQjco&list=wMQrSaMwuCQ</externallink>
+</channel>
+ </channels>
+
 <channels>
 <channel>
 <name>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] 24/7[/COLOR][COLOR grey][I] [Canales con programcion en vivo las 24 hs][/I][/COLOR][/B]</name>
