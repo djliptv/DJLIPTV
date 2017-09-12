@@ -352,6 +352,15 @@
 	<link>$doregex[makelist]</link>
 	<externallink>http://www.blog.kodipro.org/Supermospy%20TV.xml</externallink>
 </item>
+
+<item>
+	<title>[COLOR white]+ [/COLOR][COLOR blue]TEAM BLUE[/COLOR]</title>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TeamBlueThumbnail.png?raw=true</thumbnail>
+    <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TeamBlueFanart.jpg?raw=true</fanart>
+	<link>$doregex[makelist]</link>
+	<externallink>https://raw.githubusercontent.com/teamblue65/LISTAS/master/MENU01PRINCIPAL</externallink>
+</item>
+
  
 <item>
 	<title>[COLOR white]+ [/COLOR][COLOR orange]TECNO[/COLOR][COLOR white]TV[/COLOR]</title>
