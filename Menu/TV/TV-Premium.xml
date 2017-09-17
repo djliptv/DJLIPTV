@@ -101,13 +101,21 @@ item>
 <link>$doregex[makelist]</link>
 <externallink>http://www.radiosargentina.com.ar/TVAR.m3u</externallink>
 </item>
-
+<!--- ITEM - CANALES POPEYE TV ######## INICIO --->
 <item>
-<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV ARGENTINA[/COLOR][COLOR white] [OPCION 3] 03/07/17[/COLOR][/B]</title>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] POPEYE TV[/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
-<externallink>https://pastebin.com/raw/aHQykbPW</externallink>
+<externallink>https://raw.githubusercontent.com/IptvPopeye17/Listas/master/popeye/lista.m3u</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV ARGENTINA[/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Tv-Argentina/Channels-Argentina.xml</externallink>
 </item>
 
 <!--- FLUXUS TV ######## INICIO --->
