@@ -729,7 +729,7 @@
 				<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
 				<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
 				<link>$doregex[makelist]</link>
-				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Movies/MOVIESDJLIPTV.xml</externallink> <!---  --->
+				<externallink>http://bit.ly/DJL-Movies</externallink> <!--- https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Movies/MOVIESDJLIPTV.xml --->
 			</item>
 			
 			<item>
