@@ -118,6 +118,14 @@ item>
 <externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Tv-Argentina/Channels-Argentina.xml</externallink>
 </item>
 
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]IPTV MICENTROMULTIMEDIA[/COLOR][/B]</title>
+<thumbnail>http://www.micentromultimedia.com/images/redes.png</thumbnail>
+<fanart>http://www.micentromultimedia.com/images/redes.png</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://www.micentromultimedia.com/lista.m3u</externallink>
+</item>
+
 <!--- FLUXUS TV ######## INICIO --->
 
 <item>
