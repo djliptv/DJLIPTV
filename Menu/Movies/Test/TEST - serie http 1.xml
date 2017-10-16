@@ -1028,7 +1028,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://www.tpg.com.au/images/IPTV_MainBanner.jpg</thumbnail>
 <fanart>http://kodi.tv/wp-content/uploads/banner-sbs-11-600x336.png</fanart>
 <link>$doregex[makelist]</link>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/Diablo/master/index.xml</externallink>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/ELDIABLO3.0/master/BaseD3.xml</externallink> <!--- https://raw.githubusercontent.com/lokiyotnt69/Diablo/master/index.xml --->
 </item>
 
 
