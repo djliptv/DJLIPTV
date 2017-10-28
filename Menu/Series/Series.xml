@@ -4390,6 +4390,44 @@ def GetLSProData(page_data,Cookie_Jar,m):
         <fanart>http://www.verjuegodetronosenhd.com/wp-content/uploads/2016/01/11.jpg</fanart>
 </item>
 
+<item>
+<title>JUEGO DE TRONOS 6 TEMPORADA</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://www.elmulticine.com/imagenes/noticias/5/juego-tronos-picc.jpg</thumbnail>
+        <fanart>http://www.verjuegodetronosenhd.com/wp-content/uploads/2016/01/11.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/jamesplo4/ju3g0str6-26023/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/jamesplo4/ju3g0str6-26023/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.elmulticine.com/imagenes/noticias/5/juego-tronos-picc.jpg</thumbnail>
+        <fanart>http://www.verjuegodetronosenhd.com/wp-content/uploads/2016/01/11.jpg</fanart>
+</item>
 
 <item>
 <title>Cantinflas Show</title>
