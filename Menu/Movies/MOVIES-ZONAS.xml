@@ -819,7 +819,7 @@
 				<thumbnail>https://i.ytimg.com/vi/ERhXObS7QM0/hqdefault.jpg</thumbnail>
 				<fanart>https://i.ytimg.com/vi/ERhXObS7QM0/hqdefault.jpg</fanart>
 				<link>$doregex[makelist]</link>
-				<externallink>http://srregio.net/regiopeliculas.m3u</externallink><!--- http://srregio.com/regiopeliculas.m3u --->
+				<externallink>http://srregio.xyz/regioflix.m3u</externallink><!--- http://srregio.net/regiopeliculas.m3u - http://srregio.com/regiopeliculas.m3u --->
 			</item>
 			
 			<item>
