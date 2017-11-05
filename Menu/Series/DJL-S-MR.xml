@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<channels>
+    <channels_info> <!-- this is opitonal -->
+      <title>DJLIPTV</title> <!-- if channels_info, a title is required, other elements are optional -->
+      <genre>Television</genre>
+      <description>Lista de Movies DJLIPTV  </description>
+       <thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail><fanart>http://i.imgur.com/UAQY3DI.jpg</fanart>
+      <date>01.01.2017</date>
+      <credits>http://bit.ly/DJLIPTVWEB</credits>
+    </channels_info>
+			
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]PRISON BREAK[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
+		<thumbnail>https://www.dropbox.com/s/szo8pkzp9whdiod/tpbs1.png?dl=1</thumbnail>
+		<fanart>https://www.dropbox.com/s/gft7gi8va6vixxm/fpbs1.jpg?dl=1</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]PRISON BREAK[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-PB/PBS01E01.mkv</link>
+				<thumbnail>https://www.dropbox.com/s/szo8pkzp9whdiod/tpbs1.png?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/gft7gi8va6vixxm/fpbs1.jpg?dl=1</fanart>
+			</item>
