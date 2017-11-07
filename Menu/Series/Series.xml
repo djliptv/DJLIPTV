@@ -128,6 +128,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE0ODQxNjI2MV5BMl5BanBnXkFtZTYwNTgzMzg3._V1_.jpg</fanart>
 </item>
 
+<item>
+	<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]MR. ROBOT[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmr.jpg?raw=true</fanart>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-MR.xml</externallink>
+</item>
+
 <!--- BANDA DE HERMANOS ######## --->
 <item>
 <title>Banda de Hermanos [HBO]</title>
