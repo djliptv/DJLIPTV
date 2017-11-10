@@ -202,10 +202,10 @@
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] MUSICA Y VIDEOS MUSICALES[/COLOR][COLOR grey][I] [Variedad de musica y videos musicales populares de ayer y de hoy][/I][/COLOR][/B]</title>
-<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/VideosMusicalesThumbnail.png?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/VideosMusicalesFanart.png?raw=true</fanart>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MusicaYVideosMusicalesThumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MusicaYVideosMusicalesFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
-<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Musica%20Y%20Videos/Videos/Base%20Musica.xml</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Musica%20Y%20Videos/BaseMusicaYVideosMusicales.xml</externallink>
 </item>
  
 
