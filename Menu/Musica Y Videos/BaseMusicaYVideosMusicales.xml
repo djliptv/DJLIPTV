@@ -6,7 +6,7 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MusicaThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MusicaFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
-<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Musica%20Y%20Videos/Videos/Base%20Musica.xml</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Musica%20Y%20Videos/Musica/MusicaMenu.xml</externallink>
 </item>
 
 <item>
@@ -14,5 +14,5 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/VideosMusicalesThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/VideosMusicalesFanart.png?raw=true</fanart>
 <link>http://ignorame</link>
-<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Musica%20Y%20Videos/Videos/BaseVideos.xml</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Musica%20Y%20Videos/Videos/VideosMusicalesMenu.xml</externallink>
 </item>
