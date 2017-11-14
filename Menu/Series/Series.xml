@@ -90,6 +90,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item> 
 --->
 <!--- PRISON BREAK HD ######## --->
+<!---
 <item>
 <title>Prison Break [COLOR lime] HD [/COLOR] [Todas Las Temporadas]</title>
 <link>$doregex[makelist]</link>
@@ -127,7 +128,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/c/cd/Prisonbreaklogo.png</thumbnail>
 <fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE0ODQxNjI2MV5BMl5BanBnXkFtZTYwNTgzMzg3._V1_.jpg</fanart>
 </item>
-
+--->
+<item>
+	<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]PRISON BREAK[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/PB/tpb.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/PB/fpb.jpg?raw=true</fanart>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-PB.xml</externallink>
+</item>
 
 <!--- BATES MOTEL ######## --->
 <item>
