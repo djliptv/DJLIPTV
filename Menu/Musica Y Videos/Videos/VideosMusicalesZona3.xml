@@ -104,6 +104,19 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLMusicVideosFanart.jpg?raw=true</fanart>
 </item>
 
+
+<item>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLVS8L6lb4C1n0j6qQRTS5mP8bkwaRXL-Y/</jsonrpc>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</fanart>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_LiwmhpRAuV2HRvSP9wkEwFOTsM0VTSf6poGqf-4ehZTqTOANA</thumbnail>
+<info></info>
+<title>[COLOR white]+[/COLOR] Clasicos de ayer y de hoy- new</title>
+</item>
+
+
+
+
 <item>
 <title>[COLOR white]+[/COLOR] Clasicos de ayer y de hoy</title>
 <link>$doregex[makelist]</link>
