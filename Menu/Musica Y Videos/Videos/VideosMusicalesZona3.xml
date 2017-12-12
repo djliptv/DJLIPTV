@@ -116,7 +116,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
+<!---
 <item>
 <title>[COLOR white]+[/COLOR] Clasicos de ayer y de hoy</title>
 <link>$doregex[makelist]</link>
@@ -136,7 +136,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
              <cookieJar></cookieJar>
 </regex>
 </item>
-
+--->
 <item>
 <title>[COLOR white]+[/COLOR] Mixes</title>
 <link>$doregex[makelist]</link>
