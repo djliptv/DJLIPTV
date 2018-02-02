@@ -3,8 +3,7 @@
 
 <item>
 <title>[COLOR white]+[/COLOR][COLOR cyan] TEST RADIO DAINUS [/COLOR]</title>
-<link>$doregex[makelist]</link>
-<externallink>https://www.dainus.net/vivo</externallink>
+<link>http://server1.dainusradio.com:2349/;?_=0.8910862157035713</link>
 </item>
 
 <item>
