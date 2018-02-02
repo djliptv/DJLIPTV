@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR cyan] TEST RADIO DAINUS [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<externallink>https://www.dainus.net/vivo</externallink>
+</item>
+
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]CANALES MOVISTAR PLUS [/COLOR][COLOR white] [OPCION 5][/COLOR][/B]</title>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Movistar%2B.svg/1200px-Movistar%2B.svg.png</thumbnail>
