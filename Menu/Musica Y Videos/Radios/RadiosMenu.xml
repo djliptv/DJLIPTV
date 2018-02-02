@@ -2,7 +2,7 @@
 <?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
 
 <item>
-<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]DINUS[/COLOR] [COLOR cyan]RADIO [/COLOR][/B]</title>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]DAINUS[/COLOR] [COLOR cyan]RADIO [/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/RadioDainusThumbnail.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/RadioDainusFanart.jpg?raw=true</fanart>
 <link>http://server1.dainusradio.com:2349/;?_=0.8910862157035713</link>
