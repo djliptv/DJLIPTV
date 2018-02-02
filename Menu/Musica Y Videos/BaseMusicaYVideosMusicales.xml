@@ -10,6 +10,14 @@
 </item>
 
 <item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]RADIOS[/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/RadioInternetThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/RadioInternetFanart.jpg?raw=true</fanart>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Musica%20Y%20Videos/Radios/RadiosMenu.xml</externallink>
+</item>
+
+<item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]VIDEOS MUSICALES[/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/VideosMusicalesThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/VideosMusicalesFanart.png?raw=true</fanart>
