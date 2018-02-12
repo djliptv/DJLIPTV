@@ -57,6 +57,59 @@
 --->
 
 <item>
+<title>[B][COLOR grey]+[/COLOR] [COLOR white]COLECCION[/COLOR] [COLOR grey]DE[/COLOR] [COLOR white]SERIES[/COLOR][/B]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://www.dropbox.com/s/dcrvlpkwlx9hw5u/SERIES4.txt?dl=1</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://github.com/djliptv/INSOMNIA/blob/master/Pics/InsomniaThumbnail.png?raw=true</thumbnail>
+<externallink>https://www.dropbox.com/s/x1rmki4wexyieyn/series%20alfabeticamente.txt?dl=1</externallink>
+</item>
+
+<item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] 24/7[/COLOR][COLOR grey][I] [Canales con programcion en vivo las 24 hs][/I][/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Thumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Fanart.jpg?raw=true</fanart>
