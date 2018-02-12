@@ -7,3 +7,6 @@
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/RadioDainusFanart.jpg?raw=true</fanart>
 <link>http://server1.dainusradio.com:2349/;?_=0.8910862157035713</link>
 </item>
+
+#EXTINF:-1 tvg-logo="https://github.com/djliptv/INSOMNIA/blob/master/Pics/RadioDainusThumbnail.jpg?raw=true", Dainus Radio
+http://server1.dainusradio.com:2349/;?_=0.8910862157035713
