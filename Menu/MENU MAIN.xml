@@ -69,8 +69,8 @@
 			<thumbnail>[makelist2.param3]</thumbnail>
 			<fanart>[makelist2.param4]</fanart>
 		]]></listrepeat>
-		<expres>SDKDB:"(.*?)" url:"(.*?)" thu:"(.*?)" fan:"(.*?)"; server:"(.*?)"</expres>
-		<page>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/Menu/DB/DBLolo.xml</page>
+		<expres>Name:"(.*?)" url:"(.*?)" thu:"(.*?)" fan:"(.*?)"; server:"(.*?)"</expres>
+		<page>https://www.dropbox.com/s/dcrvlpkwlx9hw5u/SERIES4.txt?dl=0</page>
 		<cookieJar></cookieJar>
 	</regex>
 	
