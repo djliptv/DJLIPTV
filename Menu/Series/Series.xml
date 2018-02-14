@@ -129,13 +129,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE0ODQxNjI2MV5BMl5BanBnXkFtZTYwNTgzMzg3._V1_.jpg</fanart>
 </item>
 --->
-<item>
-	<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]PRISON BREAK[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
-	<link>$doregex[makelist]</link>
-	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/PB/tpb.png?raw=true</thumbnail>
-	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/PB/fpb.jpg?raw=true</fanart>
-	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-PB.xml</externallink>
-</item>
+
 
 <!--- BATES MOTEL ######## --->
 <item>
@@ -146,6 +140,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-BM.xml</externallink>
 </item>
 
+<!--- LA CASA DE PAPEL ######## --->
+<item>
+	<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]LA CASA DE PAPEL[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/LCDP/tlcdp.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/LCDP/flcdp.png?raw=true</fanart>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-LCDP.xml</externallink>
+</item>
 <!--- MR. ROBOT ######## --->
 <item>
 	<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]MR. ROBOT[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
@@ -153,6 +155,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmr.jpg?raw=true</fanart>
 	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-MR.xml</externallink>
+</item>
+
+<!--- PRISON BREAK ######## --->
+<item>
+	<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]PRISON BREAK[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/PB/tpb.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/PB/fpb.jpg?raw=true</fanart>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-PB.xml</externallink>
 </item>
 
 <!--- STRANGER THINGS ######## --->
