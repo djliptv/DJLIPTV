@@ -4,11 +4,10 @@
 <channels>
 	<channel>
 		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]HOUSE OF CARDS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
-		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/PB/tpbs1.png?raw=true</thumbnail>
-		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/PB/fpbs1.jpg?raw=true</fanart>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs1.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
         
 		<items>
-                
 			<item>
 				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]HOUSE OF CARDS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
 				<link>NA</link>
@@ -21,11 +20,535 @@
 
 			<item>
 				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-PB/PBS01E01.mkv</link>
-				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/PB/tpbs1.png?raw=true</thumbnail>
-				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/PB/fpbs1.jpg?raw=true</fanart>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC01X01.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC01X02.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC01X03.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC01X04.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC01X05.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC01X06.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC01X07.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC01X08.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC01X09.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC01X10.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC01X11.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC01X12.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC01X13.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
 			</item>
 			
 		</items>
 	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]HOUSE OF CARDS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 2][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs2.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+        
+		<items>
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]HOUSE OF CARDS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 2][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC02X01.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC02X02.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC02X03.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]02x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC02X04.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]02x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC02X05.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]02x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC02X06.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]02x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC02X07.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]02x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC02X08.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]02x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC02X09.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]02x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC02X10.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]02x11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC02X11.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]02x12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC02X12.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]02x13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC02X13.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]HOUSE OF CARDS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 3][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs3.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+        
+		<items>
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]HOUSE OF CARDS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 3][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC03X01.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC03X02.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC03X03.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]03x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC03X04.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]03x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC03X05.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]03x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC03X06.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]03x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC03X07.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]03x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC03X08.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]03x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC03X09.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]03x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC03X10.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]03x11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC03X11.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]03x12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC03X12.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]03x13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC03X13.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+	</channel>
+
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]HOUSE OF CARDS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 4][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs4.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+        
+		<items>
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]HOUSE OF CARDS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 4][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]04x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC04X01.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC04X02.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]04x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC04X03.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]04x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC04X04.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]04x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC04X05.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]04x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC04X06.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]04x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC04X07.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]04x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC04X08.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]04x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC04X09.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]04x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC04X10.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]04x11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC04X11.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]04x12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC04X12.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]04x13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC04X13.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+	</channel>
+
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]HOUSE OF CARDS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 5][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs5.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+        
+		<items>
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]HOUSE OF CARDS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 5][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]05x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC05X01.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC05X02.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]05x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC05X03.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]05x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC05X04.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]05x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC05X05.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]05x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC05X06.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]05x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC05X07.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]05x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC05X08.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]05x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC05X09.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]05x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC05X10.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]05x11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC05X11.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]05x12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC05X12.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]05x13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-HOC/HOC05X13.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thocs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+	</channel>	
 </channels>

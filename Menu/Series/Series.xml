@@ -140,6 +140,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-BM.xml</externallink>
 </item>
 
+<!--- HOUSE OF CARDS ######## --->
+<item>
+	<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]HOUSE OF CARDS[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thoc.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-HOC.xml</externallink>
+</item>
+
 <!--- LA CASA DE PAPEL ######## --->
 <item>
 	<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]LA CASA DE PAPEL[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
