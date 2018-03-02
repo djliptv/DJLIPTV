@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<channels>
+    		
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x01%20The%20power%20pirate.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x02%20The%20Baffles%20Puzzle..mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x03%20Professor%20Goodfellow's%20g.e.e.c..mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x04%20The%20Weather%20Maker.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x05%20Dr.%20Pelagian's%20War.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x06%20The%20Shamon%20U.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x07%20Too%20Hot%20To%20Handle.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x08%20The%20Androids.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x09%20The%20Balloon%20People.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x10%20The%20Fantastic%20Frerps.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x11-%20The%20Ultra%20Beam.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x12-%20The%20Menace%20Of%20The%20White%20Dwarf.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x13-%20The%20Mysterious%20Moles.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x14-%20Gulliver's%20Gigantic%20Goof.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x15[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x15-%20The%20Planet%20Splitter.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x16[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x16-%20The%20Watermen.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 2][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 2][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x01%20The%20Brain%20Machine.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x02%20Joy%20Ride.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x03%20Whirlpool.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x04%20The%20Secret%20Four.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x05%20Tiger%20On%20The%20Loose.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x06%20The%20Antidote.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x07%20Invasion%20Of%20The%20Hydronoids.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x08%20Hitchhike.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x09%20Space%20Emergency.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x10%20Doctor%20Fright.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x11%20Drag%20Race.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x12%20Fire.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x13%20The%20Monster%20Of%20Doctor%20Droid.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x14%20Vandals.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x15[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x15%20The%20Energy%20Mass.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x16[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x16%20The%20Enforcer.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x17[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x17%20Shark.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x18[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x18%20Flood%20Of%20Diamonds.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x40[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x40%20The%20Marsh%20Monster.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x41[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x41%20Runaways.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x42[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-%202x42%20Time%20Rescue.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS - THE LEAGUE OF JUSTICE[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 2][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS - THE LEAGUE OF JUSTICE[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 2][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x00[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-TLOJ%20-%202x00%20Opening%20Ing.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x00[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-TLOJ%20-%202x00%20Opening%20Lat.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-TLOJ%20-%202x01%20Invasion%20Of%20The%20Earthers.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-TLOJ%20-%202x02%20The%20Voyage%20Of%20The%20Mysterious%20Time%20Creatures.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-TLOJ%20-%202x03%20City%20In%20A%20Bottle.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-TLOJ%20-%202x04%20Day%20Of%20The%20Planet%20Creatures.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-TLOJ%20-%202x05%20The%20Superfriends%20Vs%20The%20Superfriends.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-TLOJ%20-%202x06%20The%20Planet%20Of%20The%20Neanderthals.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF2%20-TLOJ%20-%202x14%20Will%20The%20World%20Collide.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 3][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 3][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x01%20The%20power%20pirate.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x01%20The%20power%20pirate.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x01%20The%20power%20pirate.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x01%20The%20power%20pirate.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]LOS SUPERAMIGOS[/COLOR][/B] [COLOR deepskyblue][TEMPORADA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-SF/SF1%20-%201x01%20The%20power%20pirate.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link></link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/tsf.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-SF/fsf.png?raw=true</fanart>
+			</item>
+
+		</items>
+	</channel>
