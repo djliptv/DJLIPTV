@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]RAGNAROK[/COLOR] [COLOR blue]TV[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>http://www.ragnaroktv.com/tv/lista.m3u</externallink> <!--- https://pastebin.com/u/elrincondelmakina --->
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+</item>
 
+<item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]SR.REGIO[/COLOR] [COLOR blue]TV[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>http://srregio.xyz/IPTV/regiotv.m3u</externallink> <!--- https://pastebin.com/u/elrincondelmakina --->
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]TELEVISION[/COLOR] [COLOR blue]LATINA[/COLOR][/B]</title>
+<link>ignorme</link>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<externallink>http://pastebin.com/raw/X0QN2iQE</externallink>
+<info></info>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]RS IPTV[/COLOR][/B]</title>
+<link>ignorme</link>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<externallink>http://rsiptv.amerikanotuga.tech/RSIPTV/ES/menu_ES.html</externallink>
+<info></info>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]TELEVISION[/COLOR] [COLOR blue]BAXKIRIY[/COLOR] [COLOR white]TV[/COLOR][/B]</title>
+<link>ignorme</link>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<externallink>https://gitlab.com/debliter/baxkiriytv/raw/master/baxkiriy.m3u</externallink>
+<info></info>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]FLUXUS IPTV[/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/FluxusIPTVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/FluxusIPTVFanart.png?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://raw.githubusercontent.com/fluxustv/IPTV/master/list.m3u</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]FLUXUS CCTV[/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/FluxusCCTVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/FluxusCCTVFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://raw.githubusercontent.com/fluxustv/IPTV/master/cctv.m3u</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]FLUXUS RELIGIOUS TV[/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/FluxusFaithThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/FluxusFaithFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://raw.githubusercontent.com/fluxustv/IPTV/master/faith.m3u</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] IPTV[/COLOR][COLOR skyblue] MUNDIAL[/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://autoiptv.net/playlist.php</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV ARGENTINA[/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Tv-Argentina/Channels-Argentina.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV ARGENTINA[/COLOR][COLOR white] [OPCION 2][/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://www.radiosargentina.com.ar/TVAR.m3u</externallink>
+</item>
+
+<!---
 item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
@@ -84,7 +175,7 @@ item>
 </item>
 --->
 
-<!--- ITEM - CANALES ARGENTINA ######## INICIO --->
+<!--- ITEM - CANALES ARGENTINA ######## INICIO ---
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV ARGENTINA[/COLOR][/B]</title>
@@ -101,7 +192,7 @@ item>
 <link>$doregex[makelist]</link>
 <externallink>http://www.radiosargentina.com.ar/TVAR.m3u</externallink>
 </item>
-<!--- ITEM - CANALES POPEYE TV ######## INICIO --->
+<!--- ITEM - CANALES POPEYE TV ######## INICIO ---
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] POPEYE TV[/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGThumbnail.png?raw=true</thumbnail>
@@ -126,7 +217,7 @@ item>
 <externallink>http://www.micentromultimedia.com/lista.m3u</externallink>
 </item>
 
-<!--- FLUXUS TV ######## INICIO --->
+<!--- FLUXUS TV ######## INICIO ---
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]FLUXUS IPTV[/COLOR][/B]</title>
@@ -192,7 +283,7 @@ item>
 <externallink>http://pastebin.com/raw/Tdjewjtr</externallink>
 </item>
 
-<!--- ITEM - CEGEEK ######## INICIO --->
+<!--- ITEM - CEGEEK ######## INICIO ---
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] ACTUALIZADA [09/08/17] [/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
@@ -217,7 +308,7 @@ item>
 <externallink>https://pastebin.com/raw/5yx8tQrL</externallink>
 </item>
 
-<!--- ITEM - CANALES DE CABLE  ######## INICIO --->
+<!--- ITEM - CANALES DE CABLE  ######## INICIO ---
 
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR skyblue] LATINOS [/COLOR][/B]</title>
@@ -277,7 +368,7 @@ item>
 <externallink>https://www.dropbox.com/s/77u4erfdwrnafgi/Sports%20IPTV%20LIST%20106%20Channels%20%5B31-05-2017%5D.m3u?dl=1</externallink>
 </item>
 
-<!-- https://goo.gl/dmBeCH --->
+<!-- https://goo.gl/dmBeCH ---
 
 
 <item>
@@ -288,7 +379,7 @@ item>
 <externallink>https://www.dropbox.com/s/26qnic8bao138vm/alltv.m3u?dl=1</externallink>
 </item>
 
-<!--- ITEM - CANALES DE CABLE OPCION 3 ######## INICIO --->
+<!--- ITEM - CANALES DE CABLE OPCION 3 ######## INICIO ---
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV de Cable[/COLOR][COLOR white] [OPCION 2][/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
@@ -306,7 +397,7 @@ item>
 </item>
 
 
-<!--- ITEM - IPTV CHANNELS ######## INICIO ---> 
+<!--- ITEM - IPTV CHANNELS ######## INICIO ---
  
 
 <item>
@@ -317,7 +408,7 @@ item>
 <externallink>https://www.dropbox.com/s/s97dvqg5drndu2z/MENU%20IPTV.xml?dl=1</externallink>
 </item>
 
-<!--- ITEM - IPTV CHANNELS ######## INICIO ---> 
+<!--- ITEM - IPTV CHANNELS ######## INICIO ---
  
 
 <item>
@@ -328,7 +419,7 @@ item>
 <externallink>https://pastebin.com/raw/ztXHpfn0</externallink>
 </item>
 
-<!--- ITEM - MOVISTAR PLUS ######## INICIO --->
+<!--- ITEM - MOVISTAR PLUS ######## INICIO ---
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]CANALES MOVISTAR PLUS[/COLOR] [COLOR blue][SD][/COLOR] [COLOR white][OPCION 1][/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/ElRinconDelLolo/blob/master/Pics/MovistarPlusThumbnail.png?raw=true</thumbnail>
@@ -460,13 +551,13 @@ item>
 <link>$doregex[makelist]</link>
 <externallink>https://www.dropbox.com/s/m1j5krx75qu0gqw/IPTV%20M3u%20Espa%C3%B1a%20Playlist%20Update%2002-06-2017.m3u?dl=1</externallink>
 </item>
---->
+
 <item>
 	<title>[COLOR white]+ [/COLOR][COLOR gold]CANALES[/COLOR][COLOR white] IPTV TOTAL LATINO[/COLOR]</title>
 	<link>http://ignorame</link>
 	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
-	<externallink>https://pastebin.com/raw/JpNftmFv</externallink><!--- http://bit.ly/totalatino --->
+	<externallink>https://pastebin.com/raw/JpNftmFv</externallink><!--- http://bit.ly/totalatino ---
 </item>
 
 <item>

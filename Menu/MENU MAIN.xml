@@ -80,7 +80,7 @@
  
 
 <!--- ITEM - TELEVISION ######## INICIO --->
-<!---
+
 <item>
 <title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TELEVISION[/COLOR][COLOR grey][I] [Canales de television por cable][/I][/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
@@ -88,7 +88,7 @@
 <link>$doregex[makelist]</link>
 <externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/TV-Premium.xml</externallink>
 </item>
----> 
+
 
  <!--- ITEM - COCINA ######## INICIO --->
 
