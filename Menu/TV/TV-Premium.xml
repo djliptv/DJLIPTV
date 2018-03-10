@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]LISTAS[/COLOR] [COLOR blue]IPTV[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/ListasIptv.xml</externallink>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 <title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]RAGNAROK[/COLOR] [COLOR blue]TV[/COLOR][/B]</title>
 <link>http://Ignoreme</link>
 <externallink>http://www.ragnaroktv.com/tv/lista.m3u</externallink> <!--- https://pastebin.com/u/elrincondelmakina --->
