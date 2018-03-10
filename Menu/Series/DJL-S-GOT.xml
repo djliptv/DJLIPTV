@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<channels>
+			
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+		
+	</channel>
+
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 2][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots2.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 2][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+		
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 3][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots3.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 3][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+		
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 4][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots4.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 4][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]04X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]04X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]04X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]04X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]04X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]04X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]04X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]04X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]04X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]04X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+		
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 5][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 5][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]05X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]05X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]05X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]05X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]05X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]05X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]05X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]05X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]05X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]05X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+		
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 6][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots6.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 6][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]06X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]06X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]06X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]06X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]06X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]06X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]06X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]06X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]06X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]06X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+		
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 7][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots7.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 7][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]07X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]07X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]07X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]07X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]07X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]07X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]07X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]07X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]07X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]07X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-GOT/</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+		
+	</channel>
+	
+	
+</channels>
+			
