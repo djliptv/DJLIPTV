@@ -2,8 +2,7 @@
 
 <item>
 <title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]LISTA[/COLOR] [COLOR blue]1[/COLOR][/B]</title>
-<link>http://Ignoreme</link>
-<externallink>http://35.229.43.104:8900/get.php?username=iptvgratis1&password=iptvgratis1&type=m3u&output=hls</externallink>
+<link>http://35.229.43.104:8900/get.php?username=iptvgratis1&password=iptvgratis1&type=m3u&output=hls</link>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 </item>
