@@ -6,8 +6,8 @@ http://Ignoreme
 http://35.229.43.104:8900/live/iptvgratis1/iptvgratis1/378.m3u8
 #EXTINF:-1,PAGO POR EVENTO 2
 http://35.229.43.104:8900/live/iptvgratis1/iptvgratis1/430.m3u8
-#EXTINF:-1,A+
-http://35.229.43.104:8900/live/iptvgratis1/iptvgratis1/381.m3u8
+#EXTINF:-1,A+test
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://35.229.43.104:8900/live/iptvgratis1/iptvgratis1/381.m3u8
 #EXTINF:-1,A&E
 http://35.229.43.104:8900/live/iptvgratis1/iptvgratis1/342.m3u8
 #EXTINF:-1,A&E op2
