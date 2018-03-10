@@ -8,7 +8,7 @@
 </item>
 
 <item>
-<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]LISTA[/COLOR] [COLOR blue]2[/COLOR][/B]</title>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]LISTA[/COLOR] [COLOR blue]22[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <externallink>http://35.229.43.104:8900/get.php?username=iptvgratis2&password=iptvgratis2&type=m3u&output=hls</externallink>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
