@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<channels>
+    
+
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]EDHA[/COLOR][/B] [COLOR lime][HD][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/te.png?raw=true</thumbnail>
+		<fanarthttps://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/fe.jpg?raw=true</fanart>
+        
+		<items>
+             
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [COLOR white]+[/COLOR] [B][COLOR skyblue]EDHA[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-E/E01X01.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/te.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/fe.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-E/E01X02.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/te.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/fe.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-E/E01X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/te.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/fe.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-E/E01X04.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/te.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/fe.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-E/E01X05.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/te.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/fe.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-E/E01X06.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/te.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/fe.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-E/E01X07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/te.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/fe.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-E/E01X08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/te.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/fe.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-E/E01X09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/te.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/fe.jpg?raw=true</fanart>
+			</item>
+						
+			<item>
+				<title>[COLOR skyblue][B]01x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-E/E01X10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/te.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/fe.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+	</channel>
+</channels>
