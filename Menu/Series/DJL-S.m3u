@@ -1,11 +1,11 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="",======== SERIES ========
 https://pastebin.com
-
-#EXTINF:-1 tvg-logo="",________________________
+#EXTINF:-1 tvg-logo="" group-title="LA CASA DE PAPEL",________________________
 https://pastebin.com
-
-#EXTINF:-1 tvg-logo="",--- LA CASA DE PAPEL ---
+#EXTINF:-1 tvg-logo="" group-title="LA CASA DE PAPEL",--- LA CASA DE PAPEL ---
+https://pastebin.com
+#EXTINF:-1 tvg-logo="" group-title="LA CASA DE PAPEL",________________________
 https://pastebin.com
 #EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/M/MV5BZmU3MGEyOWUtYzNhNS00OTQwLWE3ODgtZWUzZGUzMGI1ZWVmXkEyXkFqcGdeQXVyNTY2MzkxMjc@._V1_.jpg" group-title="LA CASA DE PAPEL",LCDP - 01X01
 https://archive.org/download/djliptv-S-LCDP/0101-MDFYMDEgRWZlY3R1YXIgbG8gYWNvcmRh.mp4
@@ -37,9 +37,11 @@ https://archive.org/download/djliptv-S-LCDP/0204-MDJYMDQgwr9xdWUgaGVtb3MgaGVj.mp
 https://archive.org/download/djliptv-S-LCDP/0205-MDJYMDUgQSBjb250cmFycmVs.mp4
 #EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/M/MV5BZmU3MGEyOWUtYzNhNS00OTQwLWE3ODgtZWUzZGUzMGI1ZWVmXkEyXkFqcGdeQXVyNTY2MzkxMjc@._V1_.jpg" group-title="LA CASA DE PAPEL",LCDP - 02X06
 https://archive.org/download/djliptv-S-LCDP/0206-MDJYMDYgQmVsbGEgQ2lh.mp4
-#EXTINF:-1 tvg-logo="",========================
+#EXTINF:-1 tvg-logo="" group-title="GAME OF THRONES",________________________
 https://pastebin.com
-#EXTINF:-1 tvg-logo="",--- GAME OF THRONES ---
+#EXTINF:-1 tvg-logo="" group-title="GAME OF THRONES",--- GAME OF THRONES ---
+https://pastebin.com
+#EXTINF:-1 tvg-logo="" group-title="GAME OF THRONES",________________________
 https://pastebin.com
 #EXTINF:-1 tvg-logo="https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgots1.jpg?raw=true" group-title="GAME OF THRONES",GOT - 01X01
 https://archive.org/download/S-GOT/GOT01X01.mkv
