@@ -16,7 +16,7 @@
 		<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
         
 		<items>
-                
+<!---                
 			<item>
 				<title>                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
 				<link>NA</link>
@@ -26,7 +26,77 @@
 				<title>===================================================</title>
 				<link>NA</link>
 			</item>
-			
+--->
+			<item>
+<title>                   [COLOR white]::: |[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
+<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <SetViewMode>55</SetViewMode>
+        <title>[makelist2.param1]</title>
+        <link>$doregex[makelist]</link>
+        <thumbnail>[makelist2.param3]</thumbnail>
+        <fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>MDK:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/DB.xml</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param2]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,100</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex><name>getUrl</name> 
+<expres><![CDATA[#$pyFunction 
+import re , requests ,json 
+def GetLSProData(page_data,Cookie_Jar,m): 
+  
+ ref = 'http://diskokosmiko.mx/' 
+ url='http://diskokosmiko.mx[makelist.param1]' 
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref , 
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'} 
+ session = requests.Session() 
+ r = session.get(url, headers=headers) 
+ rv1 = r.cookies 
+  
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0] 
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken} 
+ nr = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text 
+ nrj=json.loads(nr) 
+ nr = nrj['Content'] 
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0] 
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'lolo-lolo' , 'Password' : 'rincon'} 
+ nr1 = requests.post('http://diskokosmiko.mx/action/Account/Login', headers=headers,cookies = rv1 , data=data_a) 
+ print nr1.headers['Set-Cookie'] 
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0] 
+ rv1['.ASPXAUTH_v2'] = rasp 
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken} 
+ nr3 = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text 
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0] 
+ print r3 
+ return r3 
+]]></expres> 
+<page></page> 
+<cookieJar></cookieJar> 
+</regex> 
+
+
+			<!---
 			<item>
 				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]SUPER COLECCION DE PELICULAS [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
 				<link>$doregex[makelist]</link>
@@ -38,7 +108,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/IngArturo/super-coleccion-de-pelis-audio-latino-20342/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -76,7 +146,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/marcos20/peticiones-16957/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -114,7 +184,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/amigo/sd-movies-1132/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -152,7 +222,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/enthus1ast.com/201702-52071/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -190,7 +260,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/paeznet/2015-23905/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -228,7 +298,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/paeznet/2016-53399/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -266,7 +336,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/ermejor/peliculas-hd-varios-idiomas-de-audio-y-subtit-29815/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -304,7 +374,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/jml/peliculas-25581/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -342,7 +412,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/danonaba89/fileuploader-46197/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -380,7 +450,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/danonaba89/newcollection-46197/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -418,7 +488,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/marcos20/peliculas-de-navidad-en-espanol-latino-17084/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -456,7 +526,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/marcos20/peliculas-de-accion-en-espanol-latino-16521/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -494,7 +564,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/marcos20/peliculas-de-drama-en-espanol-latino-18845/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -532,7 +602,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/marco18/peliculas-de-marco-castillo-47264/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -570,7 +640,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/INTERALIOS/coleccion-ghibli-13783/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -608,7 +678,7 @@
 					<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 					<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 					]]></listrepeat>
-					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> -->
+					<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres><!-- <![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]> --
 					<page>http://diskokosmiko.mx/naredo/western-19889/list,1,100</page>
 					<cookieJar></cookieJar>
 				</regex>
@@ -634,7 +704,7 @@
 				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
 				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
 			</item>
-						
+--->						
 		</items>
 	
 	</channel>
