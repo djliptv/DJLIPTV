@@ -43,7 +43,7 @@
         <thumbnail>[makelist2.param3]</thumbnail>
         <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
-<expres>MDK:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<expres>name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
 <page>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/DB.xml</page>
 <cookieJar></cookieJar>
 </regex>
