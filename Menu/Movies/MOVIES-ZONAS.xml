@@ -94,6 +94,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page> 
 <cookieJar></cookieJar> 
 </regex> 
+<thumbnail></thumbnail> 
+<fanart></fanart> 
 </item>
 
 
