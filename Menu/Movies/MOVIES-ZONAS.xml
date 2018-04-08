@@ -57,7 +57,7 @@
 	<fanart>[makelist2.param3]</fanart>
         ]]></listrepeat>
 <expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>[makelist2.param2]/list,1,100</page>
+<page>[makelist2.param2]</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -68,7 +68,7 @@ import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m): 
  
  ref = 'http://diskokosmiko.mx/'  
- url='http://diskokosmiko.mx[makelist.param2]' 
+ url='http://diskokosmiko.mx[makelist.param2]/list,1,100' 
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref , 
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'} 
  session = requests.Session() 
