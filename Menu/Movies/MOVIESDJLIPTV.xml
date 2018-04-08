@@ -12,16 +12,8 @@
 <item>
 	<title>[COLOR lime][4K][/COLOR]</title>
 	<link>https://archive.org/download/DJLIPTV-M-ML4K/.mkv</link>
-	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwMzI5ODEwNF5BMl5BanBnXkFtZTgwNjAzNjI2MDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
-	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/Movies4KFanart.jpg?raw=true</fanart>
-</item>
---->
-
-<item>
-	<title>[COLOR orange]DJL[/COLOR][COLOR white] IPTV[/COLOR][COLOR cyan] MOVIES[/COLOR]</title>
-	<link></link>
 	<thumbnail></thumbnail>
-	<fanart></fanart>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/Movies4KFanart.jpg?raw=true</fanart>
 </item>
 
 <item>
@@ -30,19 +22,27 @@
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
+--->
 
 <item>
-	<title>Kong La Isla Calavera [COLOR lime][4K][/COLOR]</title>
-	<link>https://archive.org/download/DJLIPTV-M-ML4K/K-S29uZyBMYSBJc2xhIENhbGF2ZXJh.mkv</link>
-	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwMzI5ODEwNF5BMl5BanBnXkFtZTgwNjAzNjI2MDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<title>[COLOR orange]DJL[/COLOR] [COLOR white]IPTV[/COLOR] [COLOR cyan]MOVIES[/COLOR]</title>
+	<link></link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>
+</item>
+
+<item>
+	<title>GHOST SHIP [COLOR lime][4K][/COLOR]</title>
+	<link>https://archive.org/download/DJLIPTV-M-ML4K/G-R0hPU1QgU0hJUCA0.mkv</link>
+	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/Movies4KFanart.jpg?raw=true</fanart>
 </item>
 
 <item>
-	<title>3 DIAS PARA MATAR</title>
-	<link>https://archive.org/download/djliptv-ML/3-MyBESUFTIFBBUkEgTUFUQVIgMTA4.mp4</link>
-	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMzM0MjE0Nzg1N15BMl5BanBnXkFtZTgwODA4ODE4MDE@._V1_SY1000_CR0,0,675,1000_AL_.jpg</thumbnail>
-	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+	<title>KONG LA ISLA CALAVERA [COLOR lime][4K][/COLOR]</title>
+	<link>https://archive.org/download/DJLIPTV-M-ML4K/K-S29uZyBMYSBJc2xhIENhbGF2ZXJh.mkv</link>
+	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwMzI5ODEwNF5BMl5BanBnXkFtZTgwNjAzNjI2MDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/Movies4KFanart.jpg?raw=true</fanart>
 </item>
 
 <item>
@@ -70,6 +70,27 @@
 	<title>007 LICENCIA PARA MATAR</title>
 	<link>https://archive.org/download/djliptv-ML/0-MDA3IExJQ0VOQ0lBIFBBUkEgTUFUQVIgNzIw.mp4</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BYTU2ODllZWItNTQwNi00OGQ4LWJjNmYtZTZhMTdkNzEwMjI1XkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SY1000_CR0,0,776,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>2 GUNS</title>
+	<link>https://archive.org/download/djliptv-ML/2-MiBHVU5T.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>3 DIAS PARA MATAR</title>
+	<link>https://archive.org/download/djliptv-ML/3-MyBESUFTIFBBUkEgTUFUQVIgMTA4.mp4</link>
+	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMzM0MjE0Nzg1N15BMl5BanBnXkFtZTgwODA4ODE4MDE@._V1_SY1000_CR0,0,675,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>4 GOT 10</title>
+	<link>https://archive.org/download/djliptv-ML/4-NCBHT1QgMTAgMTA4.mp4</link>
+	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
 
@@ -494,6 +515,62 @@
 </item>
 
 <item>
+	<title>AMERICAN PIE 1</title>
+	<link>https://archive.org/download/djliptv-ML/A-QU1FUklDQU4gUElFIDEgMTA4.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>AMERICAN PIE 2</title>
+	<link>https://archive.org/download/djliptv-ML/A-QU1FUklDQU4gUElFIDIgMTA4.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>AMERICAN PIE 3</title>
+	<link>https://archive.org/download/djliptv-ML/A-QU1FUklDQU4gUElFIDMgMTA4.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>AMERICAN PIE 4</title>
+	<link>https://archive.org/download/djliptv-ML/A-QU1FUklDQU4gUElFIDQgMTA4.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>AMERICAN PIE 5</title>
+	<link>https://archive.org/download/djliptv-ML/A-QU1FUklDQU4gUElFIDUgMTA4.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>AMERICAN PIE 6</title>
+	<link>https://archive.org/download/djliptv-ML/A-QU1FUklDQU4gUElFIDYgMTA4.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>AMERICAN PIE 7</title>
+	<link>https://archive.org/download/djliptv-ML/A-QU1FUklDQU4gUElFIDcgMTA4.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>AMERICAN SNIPER</title>
+	<link>https://archive.org/download/djliptv-ML/A-QU1FUklDQU4gU05JUEVSIDEwODBQ.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>AMITYVILLE THE AWAKENING</title>
 	<link>https://archive.org/download/djliptv-ML/A-QU1JVFlWSUxMRSBUSEUgQVdBS0VOSU5H.mkv</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjQwOTI3Nzk5OV5BMl5BanBnXkFtZTgwMzY3NDMyODE@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
@@ -774,6 +851,13 @@
 </item>
 
 <item>
+	<title>BATMAN GOTHAM BY GASLIGHT</title>
+	<link>https://archive.org/download/djliptv-ML/B-QkFUTUFOIEdPVEhBTSBCWSBHQVNMSUdIVCAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>BATMAN LA LEGO PELICULA</title>
 	<link>https://archive.org/download/djliptv-ML/B-QkFUTUFOIExBIExFR08gUEVMSUNVTEEgNzIw.mp4</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTcyNTEyOTY0M15BMl5BanBnXkFtZTgwOTAyNzU3MDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
@@ -791,6 +875,13 @@
 	<title>BATMAN VS ROBIN</title>
 	<link>https://archive.org/download/djliptv-ML/B-QkFUTUFOIFZTIFJPQklOIDEwODBw.mp4</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjI0ODY2MDE5Nl5BMl5BanBnXkFtZTgwMTk0NTcyNTE@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>BATMAN VS SUPERMAN</title>
+	<link>https://archive.org/download/djliptv-ML/B-QkFUTUFOIFZTIFNVUEVSTUFOIDEwODBQ.mkv</link>
+	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
 
@@ -816,6 +907,13 @@
 </item>
 
 <item>
+	<title>BENJI</title>
+	<link>https://archive.org/download/djliptv-ML/B-QkVOSkkgMjAxOCAxMDgw.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>BESSIE</title>
 	<link>https://archive.org/download/djliptv-ML/B-QkVTU0lFIDEwODBw.mp4</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTEyODcxNjI1OF5BMl5BanBnXkFtZTgwNDYyNTUxNTE@._V1_.jpg</thumbnail>
@@ -826,6 +924,13 @@
 	<title>BETHOVEN 5 LA BUSQUEDA DEL TESORO</title>
 	<link>https://archive.org/download/djliptv-ML/B-QkVUSE9WRU4gNSBMQSBCVVNRVUVEQSBERUwgVEVTT1JPIDEwODBw.mp4</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNGJmYmY3NWQtYmU5Ny00ZTZjLTliOWUtNDg4MzBkMTc3NDhiXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>BEYOND SKYLINE</title>
+	<link>https://archive.org/download/djliptv-ML/B-QkVZT05EIFNLWUxJTkUgMTA4.mp4</link>
+	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
 
@@ -1000,6 +1105,13 @@
 <item>
 	<title>BRUCE LEE - JUEGO DE LA MUERTE</title>
 	<link>https://archive.org/download/djliptv-ML/B-SnVlZ28gRGUgTGEgTXVlcnRlIDEwODBw.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>BULLET HEAD</title>
+	<link>https://archive.org/download/djliptv-ML/B-QlVMTEVUIEhFQUQgMTA4.mp4</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -1482,6 +1594,13 @@
 </item>
 
 <item>
+	<title>CORAZON VALIENTE</title>
+	<link>https://archive.org/download/djliptv-ML/C-Q09SQVpPTiBWQUxJRU5URSBT.avi</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>CORAZONES DE ACERO (FURY)</title>
 	<link>https://archive.org/download/djliptv-ML/C-Q09SQVpPTkVTIERFIEFDRVJPIChGVVJZKSAxMDgw.mp4</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4MDU0NTUyN15BMl5BanBnXkFtZTgwMzQxMzY4MjE@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
@@ -1576,6 +1695,20 @@
 	<title>CUANDO UN HOMBRE AMA UNA MUJER</title>
 	<link>https://archive.org/download/djliptv-ML/C-Q1VBTkRPIFVOIEhPTUJSRSBBTUEgVU5BIE1VSkVSIDcy.mp4</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BODBhYzRiN2ItYjgxMS00MGUwLTg2ODEtY2UzYWM1NzdlYjQ5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,675,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>CUBE</title>
+	<link>https://archive.org/download/djliptv-ML/C-Q1VCRSAxMDgw.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>CUBE 2</title>
+	<link>https://archive.org/download/djliptv-ML/C-Q1VCRSAyIDEwODBQ.mkv</link>
+	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
 
@@ -1699,6 +1832,13 @@
 </item>
 
 <item>
+	<title>DEEP</title>
+	<link>https://archive.org/download/djliptv-ML/D-REVFUCAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>DEIDRA Y LANEY ASALTAN UN TREN</title>
 	<link>https://archive.org/download/djliptv-ML/D-REVJRFJBIFkgTEFORVkgQVNBTFRBTiBVTiBUUkVOIDEwODBw.mp4</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxNzA0NTQxMl5BMl5BanBnXkFtZTgwMDk2NjQ3MTI@._V1_.jpg</thumbnail>
@@ -1758,6 +1898,34 @@
 	<title>DESAPARECIDO EN COMBATE</title>
 	<link>https://archive.org/download/djliptv-ML/D-REVTQVBBUkVDSURPIEVOIENPTUJBVEUgMTA4.mp4</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BZGRkY2M1YWMtYmZiMy00NDMzLTg0OTctYWNmNzllMGNlYmMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,634,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>DESTINO FINAL 1</title>
+	<link>https://archive.org/download/djliptv-ML/D-REVTVElOTyBGSU5BTCAxIDEwODBQ.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>DESTINO FINAL 2</title>
+	<link>https://archive.org/download/djliptv-ML/D-REVTVElOTyBGSU5BTCAyIDEwODBQ.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>DESTINO FINAL 3</title>
+	<link>https://archive.org/download/djliptv-ML/D-REVTVElOTyBGSU5BTCAzIDEwODBQ.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>DESTINO FINAL 4</title>
+	<link>https://archive.org/download/djliptv-ML/D-REVTVElOTyBGSU5BTCA0IDEwODBQ.mp4</link>
+	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
 
@@ -1832,6 +2000,13 @@
 </item>
 
 <item>
+	<title>DON JON</title>
+	<link>https://archive.org/download/djliptv-ML/D-RE9OIEpPTiA3MjBQ.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>DONNIE DARKO</title>
 	<link>https://archive.org/download/djliptv-ML/D-RE9OTklFIERBUktPIDEwODBw.mp4</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BZjZlZDlkYTktMmU1My00ZDBiLWFlNjEtYTBhNjVhOTM4ZjJjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg</thumbnail>
@@ -1842,6 +2017,13 @@
 	<title>DONT THINK TWICE</title>
 	<link>https://archive.org/download/djliptv-ML/D-RE9OVCBUSElOSyBUV0lDRSAxMDgw.mp4</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMTkwODM2MF5BMl5BanBnXkFtZTgwNjYwNjY5ODE@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>DOWNSIZING</title>
+	<link>https://archive.org/download/djliptv-ML/D-RE9XTlNJWklORyAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
 
@@ -1975,6 +2157,55 @@
 	<title>DUDA RAZONABLE</title>
 	<link>https://archive.org/download/djliptv-ML/D-RFVEQSBSQVpPTkFCTEUgMTA4.mp4</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTcwMzg2NzI2NF5BMl5BanBnXkFtZTgwNjUzMzU3MDE@._V1_SY1000_CR0,0,723,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>DUENDE MALDITO 1</title>
+	<link>https://archive.org/download/djliptv-ML/D-RFVFTkRFIE1BTERJVE8gMSAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>DUENDE MALDITO 2</title>
+	<link>https://archive.org/download/djliptv-ML/D-RFVFTkRFIE1BTERJVE8gMiAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>DUENDE MALDITO 3</title>
+	<link>https://archive.org/download/djliptv-ML/D-RFVFTkRFIE1BTERJVE8gMyAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>DUENDE MALDITO 4</title>
+	<link>https://archive.org/download/djliptv-ML/D-RFVFTkRFIE1BTERJVE8gNCAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>DUENDE MALDITO 5</title>
+	<link>https://archive.org/download/djliptv-ML/D-RFVFTkRFIE1BTERJVE8gNSAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>DUENDE MALDITO 6</title>
+	<link>https://archive.org/download/djliptv-ML/D-RFVFTkRFIE1BTERJVE8gNiAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>DUENDE MALDITO 7</title>
+	<link>https://archive.org/download/djliptv-ML/D-RFVFTkRFIE1BTERJVE8gNyAxMDgw.MP4</link>
+	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
 
@@ -2462,6 +2693,13 @@
 </item>
 
 <item>
+	<title>EL PASAJERO</title>
+	<link>https://archive.org/download/djliptv-ML/E-RUwgUEFTQUpFUk8gMTA4.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>EL QUE BUSCA ENCUENTRA</title>
 	<link>https://archive.org/download/djliptv-ML/E-RUwgUVVFIEJVU0NBIEVOQ1VFTlRSQSAxMDgw.mp4</link>
 	<thumbnail></thumbnail>
@@ -2618,6 +2856,13 @@
 <item>
 	<title>EL PLANETA DE LOS SIMIOS EL ORIGEN</title>
 	<link>https://archive.org/download/djliptv-ML/E-RUwgUExBTkVUQSBERSBMT1MgU0lNSU9TIEVMIE9SSUdFTiAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>EL PLANETA DE LOS SIMIOS - WAR FOR THE PLANET OF THE APES</title>
+	<link>https://archive.org/download/djliptv-ML/W-V0FSIEZPUiBUSEUgUExBTkVUIE9GIFRIRSBBUEVTIDEwODBQ.mp4</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -3079,6 +3324,13 @@
 </item>
 
 <item>
+	<title>FIRST KILL</title>
+	<link>https://archive.org/download/djliptv-ML/F-RklSU1QgS0lMTCAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>FIST FIGHT</title>
 	<link>https://archive.org/download/djliptv-ML/F-RklTVCBGSUdIVCAxMDgw.mp4</link>
 	<thumbnail></thumbnail>
@@ -3256,6 +3508,13 @@
 <item>
 	<title>GOOD KIDS</title>
 	<link>https://archive.org/download/djliptv-ML/G-R09PRCBLSURTIDEwODBw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>GOOD OF WAR</title>
+	<link>https://archive.org/download/djliptv-ML/G-RzAwRCBPRiBXQVIgMTA4.mkv</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -3688,6 +3947,13 @@
 </item>
 
 <item>
+	<title>IMPARABLE</title>
+	<link>https://archive.org/download/djliptv-ML/I-SU1QQVJBQkxFIDEwODBQ.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>INSIDIOUS 1</title>
 	<link>https://archive.org/download/djliptv-ML/I-SU5TSURJT1VTIDEgMTA4.mp4</link>
 	<thumbnail></thumbnail>
@@ -3697,6 +3963,20 @@
 <item>
 	<title>INSIDIOUS 2</title>
 	<link>https://archive.org/download/djliptv-ML/I-SU5TSURJT1VTIDIgMTA4.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>INSIDIOUS 3</title>
+	<link>https://archive.org/download/djliptv-ML/I-SU5TSURJT1VTIENIQVBURVIgMyAxMDgw.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>INSIDIOUS 4 - THE LAST KEY</title>
+	<link>https://archive.org/download/djliptv-ML/I-SU5TSURJT1VTIENIQVBURVIgNCBUSEUgTEFTVCBLRVkgMTA4.mkv</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -3779,6 +4059,13 @@
 </item>
 
 <item>
+	<title>IRREPLACEABLE YOU</title>
+	<link>https://archive.org/download/djliptv-ML/I-SVJSRVBMQUNFQUJMRSBZT1UgMTA4.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>IT AMENAZADOS EN LA RED</title>
 	<link>https://archive.org/download/djliptv-ML/I-SVQgQU1FTkFaQURPUyBFTiBMQSBSRUQgMTA4.mp4</link>
 	<thumbnail></thumbnail>
@@ -3816,6 +4103,13 @@
 <item>
 	<title>JARHEAD 2</title>
 	<link>https://archive.org/download/djliptv-ML/J-SkFSSEVBRCAyIDEwODBw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>JARHEAD 3 - THE SIEGE</title>
+	<link>https://archive.org/download/djliptv-ML/J-SkFSSEVBRCAzIFRIRSBTSUVHRSAxMDgw.mp4</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -3912,6 +4206,13 @@
 </item>
 
 <item>
+	<title>JUMANJI</title>
+	<link>https://archive.org/download/djliptv-ML/J-SlVNQU5KSSAxMDgw.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>JUMANJI EN LA SELVA</title>
 	<link>https://archive.org/download/djliptv-ML/J-SnVtYW5qaSBFbiBsYSBTZWx2YSAxMDgw.mp4</link>
 	<thumbnail></thumbnail>
@@ -3989,6 +4290,13 @@
 </item>
 
 <item>
+	<title>KICKBOXER</title>
+	<link>https://archive.org/download/djliptv-ML/K-S0lDS0JPWEVSIDIwMTggMTA4.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>KICKS</title>
 	<link>https://archive.org/download/djliptv-ML/K-S0lDS1MgMTA4.mp4</link>
 	<thumbnail></thumbnail>
@@ -4052,6 +4360,13 @@
 </item>
 
 <item>
+	<title>KNOWING</title>
+	<link>https://archive.org/download/djliptv-ML/K-S05PV0lORyAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>KONG LA ISLA CALAVERA</title>
 	<link>https://archive.org/download/djliptv-ML/K-S29uZyBTa3VsbCBJc2xhbmQgMTA4.mkv</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwMzI5ODEwNF5BMl5BanBnXkFtZTgwNjAzNjI2MDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
@@ -4068,6 +4383,20 @@
 <item>
 	<title>KUNG FU PANDA 2</title>
 	<link>https://archive.org/download/djliptv-ML/K-S1VORyBGVSBQQU5EQSAyIDEwODBw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>KUNG FU PANDA 3</title>
+	<link>https://archive.org/download/djliptv-ML/K-S1VORyBGVSBQQU5EQSAzIDEwODBQ.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>LA CAIDA DEL HALCON NEGRO</title>
+	<link>https://archive.org/download/djliptv-ML/L-TEEgQ0FJREEgREVMIEhBTENPTiBORUdSTyAxMDgw.mkv</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -4117,6 +4446,20 @@
 <item>
 	<title>LA GRAN GILLY HOPKINS</title>
 	<link>https://archive.org/download/djliptv-ML/L-TEEgR1JBTiBHSUxMWSBIT1BLSU5TIDEwODBw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>LA SONBRA DEL REINO</title>
+	<link>https://archive.org/download/djliptv-ML/L-TEEgU09OQlJBIERFTCBSRUlOTyAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>LA VILLANA</title>
+	<link>https://archive.org/download/djliptv-ML/L-TEEgVklMTEFOQSAxMDgw.mkv</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -4192,6 +4535,13 @@
 </item>
 
 <item>
+	<title>LAS TORTUGAS NINJA - OUT OF THE SHADOWS</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEVFTkdFIE1VVEFOVCBOSU5KQSBUVVJUTEVTIE9VVCBPRiBUSEUgU0hBRE9XUyAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>LAS VOCES</title>
 	<link>https://archive.org/download/djliptv-ML/L-TEFTIFZPQ0VTIDEwODBQ.mp4</link>
 	<thumbnail></thumbnail>
@@ -4227,6 +4577,13 @@
 </item>
 
 <item>
+	<title>LEGO DC COMICS SUPER HEROES THE FLASH</title>
+	<link>https://archive.org/download/djliptv-ML/L-TEVHTyBEQyBDT01JQ1MgU1VQRVIgSEVST0VTIFRIRSBGTEFTSCAxMDgw.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>LEYENDA URBANA</title>
 	<link>https://archive.org/download/djliptv-ML/L-TEVZRU5EQSBVUkJBTkEgMTA4.mp4</link>
 	<thumbnail></thumbnail>
@@ -4243,6 +4600,13 @@
 <item>
 	<title>LIBRANOS DEL MAL</title>
 	<link>https://archive.org/download/djliptv-ML/L-TElCUkFOT1MgREVMIE1BTCAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>LIBRO DE ELI</title>
+	<link>https://archive.org/download/djliptv-ML/L-TElCUk8gREUgRUxJ.mkv</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -4767,6 +5131,20 @@
 </item>
 
 <item>
+	<title>MAZE RUNNER</title>
+	<link>https://archive.org/download/djliptv-ML/M-TUFaRSBSVU5ORVIgMTA4.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>MAZINGER Z INFINITY</title>
+	<link>https://archive.org/download/djliptv-ML/M-TUFaSU5HRVIgWiBJTkZJTklUWSAgMTA4.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>MCFARLAND USA</title>
 	<link>https://archive.org/download/djliptv-ML/M-TUNGQVJMQU5EIFVTQSAxMDgw.mp4</link>
 	<thumbnail></thumbnail>
@@ -4881,6 +5259,13 @@
 <item>
 	<title>MI PADRE ES UN HEROE</title>
 	<link>https://archive.org/download/djliptv-ML/M-TUkgUEFEUkUgRVMgVU4gSEVST0UgNzIw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>MI PRIMER C0MBATE</title>
+	<link>https://archive.org/download/djliptv-ML/M-TUkgUFJJTUVSIEMwTUJBVEUgMTA4.mkv</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -5124,6 +5509,13 @@
 </item>
 
 <item>
+	<title>NEWNESS</title>
+	<link>https://archive.org/download/djliptv-ML/N-TkVXTkVTUyAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>NEXT</title>
 	<link>https://archive.org/download/djliptv-ML/N-TkVYVCAxMDgw.mp4</link>
 	<thumbnail></thumbnail>
@@ -5280,6 +5672,27 @@
 <item>
 	<title>OLE, EL VIAJE DE FERDINAND</title>
 	<link>https://archive.org/download/djliptv-ML/O-T2zDqSwgRWwgVmlhamUgZGUgRmVyZGluYW5kIDEwODBQ.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>ONCE UPON A TIME IN VENICE</title>
+	<link>https://archive.org/download/djliptv-ML/O-T05DRSBVUE9OIEEgVElNRSBJTiBWRU5JQ0UgMTA4.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>OOPS NOAH IS GONE</title>
+	<link>https://archive.org/download/djliptv-ML/O-T09QUyBOT0FIIElTIEdPTkUgMTA4.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>OPEN SEASON SCARED SILLY</title>
+	<link>https://archive.org/download/djliptv-ML/O-T1BFTiBTRUFTT04gU0NBUkVEIFNJTExZIDEwODBQ.mp4</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -5453,6 +5866,13 @@
 </item>
 
 <item>
+	<title>PELOTON</title>
+	<link>https://archive.org/download/djliptv-ML/P-UEVMT1RPTiAxMDgw.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>PEQUENAS GRANDES AMIGAS</title>
 	<link>https://archive.org/download/djliptv-ML/P-UEVRVUVOQVMgR1JBTkRFUyBBTUlHQVMgMTA4.mp4</link>
 	<thumbnail></thumbnail>
@@ -5539,6 +5959,13 @@
 <item>
 	<title>PITCH BLACK</title>
 	<link>https://archive.org/download/djliptv-ML/P-UElUQ0ggQkxBQ0sgMTA4.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>PITCH PERFECT</title>
+	<link>https://archive.org/download/djliptv-ML/P-UElUQ0ggUEVSRkVDVCAxMDgw.mp4</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -5637,6 +6064,13 @@
 <item>
 	<title>PRESENCIAS MISTERIOSAS</title>
 	<link>https://archive.org/download/djliptv-ML/P-UFJFU0VOQ0lBUyBNSVNURVJJT1NBUyA3MjBw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>PROMETHEUS</title>
+	<link>https://archive.org/download/djliptv-ML/P-UFJPTUVUSEVVUyAxMDgw.mkv</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -6377,6 +6811,13 @@
 </item>
 
 <item>
+	<title>SI SE¥OR</title>
+	<link>https://archive.org/download/djliptv-ML/S-U0kgU0XDkU9SIDEwODBQ.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>SICARIVS LA NOCHE Y EL SILENCIO</title>
 	<link>https://archive.org/download/djliptv-ML/S-U0lDQVJJVlMgTEEgTk9DSEUgWSBFTCBTSUxFTkNJTyA3MjBw.mp4</link>
 	<thumbnail></thumbnail>
@@ -6559,9 +7000,51 @@
 </item>
 
 <item>
+	<title>SPIDERMAN 1</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1BJREVSTUFOIDEgMTA4.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>SPIDERMAN 2</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1BJREVSTUFOIDIgMTA4.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>SPIDERMAN 3</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1BJREVSTUFOIDMgMTA4.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>SPIDERMAN 1, THE AMAZING</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIEFNQVpJTkcgU1BJREVSTUFOIDEgMTA4.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>SPIDERMAN 2, THE AMAZING</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIEFNQVpJTkcgU1BJREVSTUFOIDIgMTA4.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>SPIDER-MAN HOMECOMING</title>
 	<link>https://archive.org/download/djliptv-ML/S-U1BJREVSLU1BTiBIT01FQ09NSU5H.mkv</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_SY1000_CR0,0,658,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>SPIRIT EL CORCEL INDOMABLE</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1BJUklUIEVMIENPUkNFTCBJTkRPTUFCTEUgMTA4.mkv</link>
+	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
 
@@ -6713,6 +7196,13 @@
 </item>
 
 <item>
+	<title>STEEL RAIN</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1RFRUwgUkFJTiAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>STEP UP  5 ALL IN</title>
 	<link>https://archive.org/download/djliptv-ML/S-U1RFUCBVUCAgNSBBTEwgSU4gMTA4.mp4</link>
 	<thumbnail></thumbnail>
@@ -6769,6 +7259,34 @@
 </item>
 
 <item>
+	<title>SUPERMAN 1</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1VQRVJNQU4gMSAtIDE5.avi</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>SUPERMAN 2</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1VQRVJNQU4gMiAtIDE5.avi</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>SUPERMAN 3</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1VQRVJNQU4gMyAtIDE5.avi</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>SUPERMAN 4</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1VQRVJNQU4gNCAtIDE5.avi</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>SUPERMAN EL HOMBRE DE ACERO</title>
 	<link>https://archive.org/download/djliptv-ML/S-U1VQRVJNQU4gRUwgSE9NQlJFIERFIEFDRVJPIDEwODBw.mp4</link>
 	<thumbnail></thumbnail>
@@ -6792,6 +7310,13 @@
 <item>
 	<title>SWORD MASTER</title>
 	<link>https://archive.org/download/djliptv-ML/S-U1dPUkQgTUFTVEVSIDcy.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>TADEO JONES 2 - EL SECRETO DE REY MIDAS</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEFERU8gSk9ORVMgMiAtIEVMIFNFQ1JFVE8gREUgUkVZIE1JREFTIDEwODBQ.mp4</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -6944,6 +7469,13 @@
 </item>
 
 <item>
+	<title>THE CONDEMNED 2</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIENPTkRFTU5FRCAyIDEwODBQ.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>THE DISCOVERY</title>
 	<link>https://archive.org/download/djliptv-ML/T-VEhFIERJU0NPVkVSWSAxMDgw.mp4</link>
 	<thumbnail></thumbnail>
@@ -6967,6 +7499,20 @@
 <item>
 	<title>THE EVIL IN US</title>
 	<link>https://archive.org/download/djliptv-ML/T-VEhFIEVWSUwgSU4gVVMgMTA4.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>THE FORBIDDEN KINGDOM</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIEZPUkJJRERFTiBLSU5HRE9NIDEwODBQ.mkv</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>THE FOREIGNER</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIEZPUkVJR05FUiAxMDgw.mp4</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -7035,6 +7581,13 @@
 </item>
 
 <item>
+	<title>THE RITUAL</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIFJJVFVBTCAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>THE ROVER</title>
 	<link>https://archive.org/download/djliptv-ML/T-VEhFIFJPVkVSIDcy.mp4</link>
 	<thumbnail></thumbnail>
@@ -7058,6 +7611,13 @@
 <item>
 	<title>THE TAKING</title>
 	<link>https://archive.org/download/djliptv-ML/T-VEhFIFRBS0lORyA3MjBw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>THE TITAN</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIFRJVEFOIDEwODBQ.mp4</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -7129,6 +7689,13 @@
 	<title>THOR RAGNAROK</title>
 	<link>https://archive.org/download/djliptv-ML/T-VGhvciBSYWduYXJvayAxMDgw.mkv</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>THRASHIN</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhSQVNISU4gNzIw.mp4</link>
+	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
 
@@ -7226,6 +7793,27 @@
 <item>
 	<title>TRANSFORMERS 1</title>
 	<link>https://archive.org/download/djliptv-ML/T-VFJBTlNGT1JNRVJTIDExMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>TRANSFORMERS 2 - LA VENGANZA DE LOS CAIDOS</title>
+	<link>https://archive.org/download/djliptv-ML/T-VFJBTlNGT1JNRVJTIDIgTEEgVkVOR0FOWkEgREUgTE9TIENBSURPUyAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>TRANSFORMERS 3 - EL LADO OSCURO DE LA LUNA</title>
+	<link>https://archive.org/download/djliptv-ML/T-VFJBTlNGT1JNRVJTIDMgRUwgTEFETyBPU0NVUk8gREUgTEEgTFVOQSAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>TRANSFORMERS - AGE OF EXTINCTION</title>
+	<link>https://archive.org/download/djliptv-ML/T-VFJBTlNGT1JNRVJTIEFHRSBPRiBFWFRJTkNUSU9OIDEwODBQ.mp4</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -7394,6 +7982,13 @@
 <item>
 	<title>UNA HISTORIA CASI DIVERTIDA</title>
 	<link>https://archive.org/download/djliptv-ML/U-VU5BIEhJU1RPUklBIENBU0kgRElWRVJUSURBIDEwODBw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>UNA JUNGLA DE LOCURA</title>
+	<link>https://archive.org/download/djliptv-ML/U-VU5BIEpVTkdMQSBERSBMT0NVUkEgMTA4.mkv</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
@@ -7609,6 +8204,13 @@
 </item>
 
 <item>
+	<title>VOLCANO</title>
+	<link>https://archive.org/download/djliptv-ML/V-Vk9MQ0FOTyA3MjBQ.MP4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>VOLVER AL FUTURO 1</title>
 	<link>https://archive.org/download/djliptv-ML/V-Vk9MVkVSIEFMIEZVVFVSTyAxIDEwODBw.mkv</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,643,1000_AL_.jpg</thumbnail>
@@ -7626,6 +8228,13 @@
 	<title>VOLVER AL FUTURO 3</title>
 	<link>https://archive.org/download/djliptv-ML/V-Vk9MVkVSIEFMIEZVVFVSTyAzIDEwODBQ.mkv</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BYjhlMGYxNmMtOWFmMi00Y2M2LWE5NWYtZTdlMDRlMGEzMDA3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,676,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>WARCRAFT</title>
+	<link>https://archive.org/download/djliptv-ML/W-V0FSQ1JBRlQgMTA4.mp4</link>
+	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
 
@@ -7651,6 +8260,13 @@
 </item>
 
 <item>
+	<title>WIND RIVER</title>
+	<link>https://archive.org/download/djliptv-ML/W-V0lORCBSSVZFUiAxMDgw.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
 	<title>WITHIN DESDE ADENTRO</title>
 	<link>https://archive.org/download/djliptv-ML/W-V0lUSElOIERFU0RFIEFERU5UUk8gNzIw.mp4</link>
 	<thumbnail></thumbnail>
@@ -7660,6 +8276,13 @@
 <item>
 	<title>WOLVES AT THE DOOR</title>
 	<link>https://archive.org/download/djliptv-ML/W-V09MVkVTIEFUIFRIRSBET09SIDcy.mp4</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>WONDER WOMAN</title>
+	<link>https://archive.org/download/djliptv-ML/W-V09OREVSIFdPTUFOIDEwODBQ.mp4</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
