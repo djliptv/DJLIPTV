@@ -68,7 +68,7 @@ import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m): 
  
  ref = 'http://diskokosmiko.mx/'  
- url='http://diskokosmiko.mx[makelist.param1]' 
+ url='http://diskokosmiko.mx[makelist.param2]' 
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref , 
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'} 
  session = requests.Session() 
