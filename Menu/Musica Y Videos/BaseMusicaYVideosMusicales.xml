@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
 
+
 <item>
-<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]MUSICA[/COLOR][/B]</title>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] CONCIERTOS[/COLOR][COLOR grey][I] [Amplio listado de conciertos nacionales e internacionales][/I][/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/ConciertosThumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/ConciertosFanart.jpg?raw=true</fanart>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Conciertos/Conciertos.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]MUSICA[/COLOR] [COLOR grey][I][Discografias de varios interpretes][/I][/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MusicaThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MusicaFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
@@ -10,7 +19,7 @@
 </item>
 
 <item>
-<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]RADIOS[/COLOR][/B]</title>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]RADIOS[/COLOR] [COLOR grey][I] [Variedad de emisoras de radios][/I][/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/RadioInternetThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/RadioInternetFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
@@ -18,7 +27,7 @@
 </item>
 
 <item>
-<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]VIDEOS MUSICALES[/COLOR][/B]</title>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]VIDEOS MUSICALES[/COLOR] [COLOR grey][I] [Variedad de videos musicales][/I][/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/VideosMusicalesThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/VideosMusicalesFanart.png?raw=true</fanart>
 <link>http://ignorame</link>

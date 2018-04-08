@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] 24/7[/COLOR][COLOR grey][I] [Canales con programcion en vivo las 24 hs][/I][/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Thumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Fanart.jpg?raw=true</fanart>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/24-7/247SPANISH.xml</externallink>
+</item>
+
+<item>
 <title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]LISTAS[/COLOR] [COLOR blue]IPTV[/COLOR][/B]</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/ListasIptv.xml</externallink>

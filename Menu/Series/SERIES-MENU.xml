@@ -9,6 +9,21 @@
 - SERIES PELIXMAX
 - SERIES DANKO
 --->
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] ANIME[/COLOR][COLOR grey][I] [Series Anime][/I][/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeThumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Anime/ANIME-MENU.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TELENOVELAS[/COLOR][COLOR grey][I] [Telenovelas en SD,HD,FHD, en SPANISH][/I][/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TelenovelasThumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TelenovelasFanart.jpg?raw=true</fanart>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Telenovelas/TelenovelasMenu.xml</externallink>
+</item>
 
 <!--- SERIES ######## INICIO --->
 

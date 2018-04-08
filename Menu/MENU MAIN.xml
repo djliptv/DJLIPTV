@@ -33,12 +33,8 @@
 </item>
   
 
-<!--- ENCABEZADO ######## FIN --->
-
 <!--- MENU ######## INICIO --->
  
-<!--- ITEM - 24/7 ######## INICIO ---> 
-
 <!---
 
 <item>
@@ -55,29 +51,6 @@
 <link>plugin://plugin.video.youtube/play/?video_id=Cd5GlmBsCvM</link>
 </item> 
 --->
-
-
-<item>
-<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] 24/7[/COLOR][COLOR grey][I] [Canales con programcion en vivo las 24 hs][/I][/COLOR][/B]</title>
-<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Thumbnail.png?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Fanart.jpg?raw=true</fanart>
-<link>http://ignorame</link>
-<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/24-7/247SPANISH.xml</externallink>
-</item>
- 
-
-<!--- ITEM - 24/7 ######## FIN ---> 
-
-<!--- ITEM - ANIME ######## INICIO --->
-
-<item>
-<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] ANIME[/COLOR][COLOR grey][I] [Series Anime][/I][/COLOR][/B]</title>
-<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeThumbnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/AnimeFanart.jpg?raw=true</fanart>
-<link>$doregex[makelist]</link>
-<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Anime/ANIME-MENU.xml</externallink>
-</item>
- 
 
 <!--- ITEM - TELEVISION ######## INICIO --->
 
@@ -99,21 +72,6 @@
 <link>$doregex[makelist]</link>
 <externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Cocina/Menu%20Cocina.xml</externallink>
 </item>
- 
- 
-<!--- ITEM - CONCIERTOS ######## INICIO ---> 
- 
-
-<item>
-<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] CONCIERTOS[/COLOR][COLOR grey][I] [Amplio listado de conciertos nacionales e internacionales][/I][/COLOR][/B]</title>
-<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/ConciertosThumbnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/ConciertosFanart.jpg?raw=true</fanart>
-<link>http://ignorame</link>
-<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Conciertos/Conciertos.xml</externallink>
-</item>
- 
-
-<!--- ITEM - CONCIERTOS ######## FIN ---> 
 
 <!--- ITEM - DEPORTES ######## INICIO ---> 
  
@@ -175,7 +133,7 @@
  
  
 <item>
-<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] SERIES[/COLOR][COLOR grey][I] [Series en SD,HD,FHD, en SPANISH / ENGLISH][/I][/COLOR][/B]</title>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]SERIES Y TELENOVELAS[/COLOR][COLOR grey][I] [Variedad de Series y Telenovelas][/I][/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/SeriesThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/SeriesFanart.jpg?raw=true</fanart>
 <link>http://ignorame</link>
@@ -184,20 +142,6 @@
  
 
 <!--- ITEM - SERIES ######## FIN --->
-
-<!--- ITEM - TELENOVELAS ######## INICIO ---> 
-
-
-<item>
-<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TELENOVELAS[/COLOR][COLOR grey][I] [Telenovelas en SD,HD,FHD, en SPANISH][/I][/COLOR][/B]</title>
-<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TelenovelasThumbnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TelenovelasFanart.jpg?raw=true</fanart>
-<link>http://ignorame</link>
-<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Telenovelas/TelenovelasMenu.xml</externallink>
-</item>
- 
-
-<!--- ITEM - TELENOVELAS ######## FIN ---> 
 
 <!--- ITEM - VIDEOS MUSICALES ######## INICIO ---> 
 
