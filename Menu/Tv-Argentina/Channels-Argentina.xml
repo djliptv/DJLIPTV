@@ -632,7 +632,7 @@ item>
 <!--- TYC SPORTS --->
 <item>
 		<title>[COLOR white]TYC SPORTS[/COLOR][COLOR blue] SD [/COLOR]</title>
-		<link>http://200.89.190.163/live/live/TyCSportHD/SA_Live/TyCSportHD-audio_AACL_spa_144800_50=144800-video=3900000.m3u8$$lsname=[COLOR white]TYC SPORTS[/COLOR][COLOR lime] HD [/COLOR]</link>
+		<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=http://200.89.190.163/live/live/TyCSportHD/SA_Live/TyCSportHD-audio_AACL_spa_144800_50=144800-video=3900000.m3u8$$lsname=[COLOR white]TYC SPORTS[/COLOR][COLOR lime] HD [/COLOR]</link>
 		<link>http://190.57.234.164/V5/5/1.m3u8$$lsname=[COLOR white]TYC SPORTS[/COLOR][COLOR blue] SD [/COLOR]</link>
 		<link>https://vivoplay-i.akamaihd.net/hls/live/255333/canal5/master2500k.m3u8$$lsname=[COLOR white]TYC SPORTS[/COLOR][COLOR lime] HD [/COLOR]</link>
 		<link>http://190.57.234.165/V5/5/1.m3u8$$lsname=[COLOR white]TYC SPORTS[/COLOR][COLOR blue] SD [/COLOR]</link>
