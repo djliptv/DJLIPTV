@@ -130,13 +130,6 @@
 </item>
 
 <item>
-	<title>50 SOMBRAS DE GREY</title>
-	<link>https://archive.org/download/djliptv-ML/5-NTAgU09NQlJBUyBERSBHUkVZIDEwODBw.mp4</link>
-	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE1MTM4NDAzOF5BMl5BanBnXkFtZTgwNTMwNjI0MzE@._V1_SY1000_CR0,0,631,1000_AL_.jpg</thumbnail>
-	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
-</item>
-
-<item>
 	<title>60 SEGUNDOS</title>
 	<link>https://archive.org/download/djliptv-ML/6-NjAgU0VHVU5ET1MgMTA4.mp4</link>
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTIwMzExNDEwN15BMl5BanBnXkFtZTYwODMxMzg2._V1_.jpg</thumbnail>
@@ -1396,6 +1389,14 @@
 	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTk1MTI4OTAzN15BMl5BanBnXkFtZTgwMjg0NDQxNzE@._V1_SY1000_CR0,0,700,1000_AL_.jpg</thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
+
+<item>
+	<title>CINCUENTA SOMBRAS DE GREY</title>
+	<link>https://archive.org/download/djliptv-ML/5-NTAgU09NQlJBUyBERSBHUkVZIDEwODBw.mp4</link>
+	<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE1MTM4NDAzOF5BMl5BanBnXkFtZTgwNTMwNjI0MzE@._V1_SY1000_CR0,0,631,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
 
 <item>
 	<title>CINCUENTA SOMBRAS MAS OSCURAS</title>
