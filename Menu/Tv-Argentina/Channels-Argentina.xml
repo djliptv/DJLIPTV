@@ -163,7 +163,7 @@ MUESTRA TODOS LOS LINKS ENUMERADOS
 <!--- CRONICA TV --->
 <item>
 		<title>[COLOR white]CRONICA TV[/COLOR][COLOR lime] HD [/COLOR]</title>
-		<link>http://190.57.234.164/V4/2/1.m3u8</link>
+		<link>https://cronicavodmediaprod.streaming.mediaservices.windows.net/c6d5c611-8381-4a2f-a2b4-9c6739fdb4ec/fe2a3aac-13ae-4229-b7a4-c301db5da6b4.ism/manifest</link>
 		<thumbnail>https://k60.kn3.net/5/8/7/3/D/3/D75.png</thumbnail> <!-- CAMBIAR LOGO -->
 		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
 </item>
