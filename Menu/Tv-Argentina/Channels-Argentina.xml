@@ -76,7 +76,7 @@ MUESTRA TODOS LOS LINKS ENUMERADOS
 <item>
 		<title>[COLOR white]TV PUBLICA[/COLOR][COLOR lime] HD [/COLOR]</title>
 		<link>http://prepublish.f.qaotic.net/a02/ngrp:c7live01-20034_all/Playlist.m3u8|User-Agent=iPhone$$lsname=[COLOR white]TV PUBLICA[/COLOR] [COLOR lime]HD[/COLOR]</link>
-		<link>http://us.watcha.live/ch4/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0$$lsname=[COLOR white]TV PUBLICA[/COLOR] [COLOR lime]HD[/COLOR]</link>
+		<!--- <link>http://us.watcha.live/ch4/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0$$lsname=[COLOR white]TV PUBLICA[/COLOR] [COLOR lime]HD[/COLOR]</link> --->
 		<thumbnail>http://www.bus-k.me/file/pic/listing/2012/10/7991d98d146b8c6cdade125d95f154a3.png</thumbnail> <!-- CAMBIAR LOGO -->
 		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
 </item>
@@ -153,8 +153,8 @@ MUESTRA TODOS LOS LINKS ENUMERADOS
 <!--- TN --->
 <item>
 		<title>[COLOR white]TN[/COLOR][COLOR lime] HD [/COLOR]</title>
-		<link>http://prepublish.f.qaotic.net/a04/ngrp:tn_live01-100083_all/chunklist.m3u8|Referer=http://vmf.edge-apps.net&amp;User-Agent=Mozilla/5.0$$lsname=[COLOR white]TN[/COLOR][COLOR lime]HD[/COLOR]</link>
-		<link>plugin://plugin.video.youtube/play/?video_id=0tek2aa8hAQ$$lsname=[COLOR white]TN[/COLOR][COLOR lime]HD[/COLOR]</link>
+		<!--- <link>http://prepublish.f.qaotic.net/a04/ngrp:tn_live01-100083_all/chunklist.m3u8|Referer=http://vmf.edge-apps.net&amp;User-Agent=Mozilla/5.0$$lsname=[COLOR white]TN[/COLOR][COLOR lime]HD[/COLOR]</link> --->
+		<link>plugin://plugin.video.youtube/play/?video_id=0tek2aa8hAQ$$lsname=[COLOR white]TN[/COLOR] [COLOR lime]HD[/COLOR] [COLOR darkred]YT[/COLOR]</link>
 		<thumbnail>http://www.tvargentina.com.ar/iconos/tn.png</thumbnail> <!-- CAMBIAR LOGO -->
 		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
 </item>
