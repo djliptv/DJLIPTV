@@ -12,7 +12,7 @@
     </channels_info>
 
     <channel>
-		<name>ESTABLES</name>
+		<name>[B][COLOR gray]+[/COLOR] [COLOR lightcyan]ESTABLES[/COLOR][/B]</name>
 		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
 		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 		<items>
@@ -297,7 +297,7 @@
 
 
     <channel>
-		<name>TEMPORALES</name>
+		<name>[B][COLOR gray]+[/COLOR] [COLOR lightcyan]TEMPORALES[/COLOR][/B]</name>
 		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
 		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 		<items>
