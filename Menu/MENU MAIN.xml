@@ -59,7 +59,7 @@
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
-<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/TV-Premium.xml</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/TV-Menu.xml</externallink>
 </item>
 
 

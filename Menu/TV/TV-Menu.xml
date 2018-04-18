@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channels>
+    <channels_info> <!-- this is opitonal -->
+		<title>DJL TV</title> <!-- if channels_info, a title is required, other elements are optional -->
+		<genre>TV</genre>
+		<description>IPTV</description>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+		<date>2018</date>
+		<credits>DJLIPTV</credits>
+    </channels_info>
+
+    <channel>
+		<name>ESTABLES</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+		<items>
+
+			<item>
+				<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]PREMIER[/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+				<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+				<externallink>http://www.premieriptv.cl/iptvfacebook.m3u</externallink>
+			</item>
+		
+			<item>
+				<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]SR. REGIO[/COLOR] [COLOR gray]REGIO TV[/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+				<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+				<externallink>http://srregio.xyz/IPTV/regiotv.m3u</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]SR. REGIO[/COLOR] [COLOR gray]SMART TV[/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+				<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+				<externallink>http://srregio.xyz/IPTV/smartv.m3u</externallink>
+			</item>
+
+
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]NIBBLE TV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://www.NibbleTV.info/TV-ZET.m3u</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]GORILA TV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://gorilatv.club/canales.m3u</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]FLUXUS[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://dl.dropboxusercontent.com/s/ddnjbe67qokvwz8/iptv.m3u</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]RAGNAROK[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://www.ragnaroktv.com/tv/lista.m3u</externallink>
+	</item>
+			
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TECNO TV[/COLOR] [COLOR lightwhite]LISTA 1[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://tecnotv.xyz/lista.m3u</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TECNO TV[/COLOR] [COLOR lightwhite]LISTA 2[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://tecnotv.xyz/lista2.m3u</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TECNO TV[/COLOR] [COLOR lightwhite]LISTA 3[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://tecnotv.xyz/lista3.m3u</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TECNO TV[/COLOR] [COLOR lightwhite]LISTA ESPAÑA[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://tecnotv.xyz/esp.m3u</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TECNO TV[/COLOR] [COLOR lightwhite]LISTA FTA[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://tecnotv.xyz/fta.m3u</externallink>
+	</item>			
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ESPAÑA - RS IPTV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://rsiptv.amerikanotuga.tech/RSIPTV/ES/menu_ES.html</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]CHOCO TV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://raw.githubusercontent.com/elchocolate/tvchocotv/master/zonatv/canales%20TDT.xml</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]G67[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://g67.github.io/G/G67C.m3u</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTO IPTV MUNDIAL[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://autoiptv.net/playlist.php</externallink>
+	</item>
+
+<item>
+<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]MOVISTAR PLUS[/COLOR] [COLOR white][OPCION 1][/COLOR]</title>
+<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>https://goo.gl/rgZM3T</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+
+<item>
+<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]MOVISTAR PLUS[/COLOR] [COLOR white][OPCION 2][/COLOR]</title>
+<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>https://goo.gl/v6V3m0</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
+
+<item>
+	<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]MOVISTAR PLUS[/COLOR] [COLOR white][OPCION 3][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<regex>
+		<name>makelist</name>
+		<listrepeat><![CDATA[
+			<title>[makelist.param2]</title>
+			<sportsdevil>[makelist.param1]</sportsdevil>
+			<referer>http://latelete.tv/</referer>
+			<thumbnail>http://latelete.tv/[makelist.param3]</thumbnail>
+			<fanart>http://latelete.tv/[makelist.param3]</fanart>
+		]]></listrepeat>
+		<expres>href="(.*?)" title="(.*?)"[\w\W\s]{0,6}src="(.*?)"</expres>
+		<page>http://latelete.tv/</page>
+		<referer></referer>
+		<cookieJar></cookieJar>
+	</regex>
+<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]SMART IPTV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/yCb0Y7JS</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]SMART IPTV OPCION 2[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/BgP4w6dM</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]MI CENTRO MULTIMEDIA OPCION 1[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://www.micentromultimedia.com/listas/micentro2018.m3u8</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]MI CENTRO MULTIMEDIA OPCION 2[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://www.micentromultimedia.com/listas/canales.m3u</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]PAISES[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://www.micentromultimedia.com/listas/paises.m3u8</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TV Y PELICULAS TVPREMIUMHD[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://tvpremiumhd.club/lista.m3u</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TVPREMIUMHD[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://tvpremiumhd.club/tv.m3u</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]JNUXTEAM[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://jnuxteam.com/jnuxtv.m3u</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TECNO-WILL[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://pastebin.com/raw/t7yXU2eM</externallink>
+	</item>
+	
+		</items>
+	</channel>
+
+##################################################################################################################################
+##################################################################################################################################
+##################################################################################################################################
+
+
+    <channel>
+		<name>TEMPORALES</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+		<items>
+		
+		<item>
+<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTAS DEL DIA 1[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+     <title>[COLOR white][makelist.param1][/COLOR]</title>
+    <link>NA</link>
+    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+]]></listrepeat>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<page>http://www.m3uliste.pw/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTAS DEL DIA 2[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+     <title>[COLOR white][makelist.param1][/COLOR]</title>
+    <link>NA</link>
+    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+]]></listrepeat>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<page>http://freeiptv.life/autoupdated-m3u-playlists/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTAS DEL DIA 3[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+     <title>[COLOR white][makelist.param1][/COLOR]</title>
+    <link>NA</link>
+    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+]]></listrepeat>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<page>http://freeiptv.life/sports-m3u-playlist/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+</item>
+		
+		
+			<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]temporal 1[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/eBvVqP2x</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]temporal 2[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/BihrHxwK</externallink>
+	</item>
+			
+<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]KOBRA[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://kobratec.tk/kobra</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ALL SPORT[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/TE4LV1ck</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ESPAÑA[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/esFZG3JR</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]MEGA LISTA LATINOS[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/6Y4hsVEp</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]COLOMBIA[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/wEQ3afDf</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]BRASIL[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/m5GFweXa</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]MIXTA[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/9W5G4ywj</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ARGENTINA[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/MU6U5udu</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]MEXICO[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/WhF7s7gL</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]INFANTILES[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/Xvm08r1C</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]MAS[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://usuarios.club/usuarios/lista/iptv/club.m3u</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]MAS MAS[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/Z64Lvfuq</externallink>
+	</item>
+
+<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]PLUS[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/7vD8Kfsc</externallink>
+	</item>
+
+<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]PLUS[/COLOR] [COLOR lightblue]OPCION 2[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/tv_channels_federikodomingo.m3u</externallink>
+	</item>
+
+<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]MEXICO[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://iptvmexico.xyz/tv.m3u</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTA LATINA[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://archive.org/download/listalatina/listalatina.m3u</externallink>
+	</item>		
+			
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LATINO - ESPAÑA - Y MAS[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/ffGsL3m0</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ESPAÑA[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/rWhznM7T</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LATINO - ESPAÑA[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/xBy2xiwY</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LATINO - ESPAÑA[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://pastebin.com/raw/aS5dS8L2</externallink>
+	</item>
+
+
+
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] 24/7[/COLOR][COLOR grey][I] [Canales con programcion en vivo las 24 hs][/I][/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Thumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/247Fanart.jpg?raw=true</fanart>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/24-7/247SPANISH.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]LISTAS[/COLOR] [COLOR blue]IPTV[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/ListasIptv.xml</externallink>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]RAGNAROK[/COLOR] [COLOR blue]TV[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>http://www.ragnaroktv.com/tv/lista.m3u</externallink> <!--- https://pastebin.com/u/elrincondelmakina --->
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]SR.REGIO[/COLOR] [COLOR blue]TV[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>http://srregio.xyz/IPTV/regiotv.m3u</externallink> <!--- https://pastebin.com/u/elrincondelmakina --->
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]TELEVISION[/COLOR] [COLOR blue]LATINA[/COLOR][/B]</title>
+<link>ignorme</link>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<externallink>http://pastebin.com/raw/X0QN2iQE</externallink>
+<info></info>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]RS IPTV[/COLOR][/B]</title>
+<link>ignorme</link>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<externallink>http://rsiptv.amerikanotuga.tech/RSIPTV/ES/menu_ES.html</externallink>
+<info></info>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]TELEVISION[/COLOR] [COLOR blue]BAXKIRIY[/COLOR] [COLOR white]TV[/COLOR][/B]</title>
+<link>ignorme</link>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<externallink>https://gitlab.com/debliter/baxkiriytv/raw/master/baxkiriy.m3u</externallink>
+<info></info>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]FLUXUS IPTV[/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/FluxusIPTVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/FluxusIPTVFanart.png?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://raw.githubusercontent.com/fluxustv/IPTV/master/list.m3u</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]FLUXUS CCTV[/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/FluxusCCTVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/FluxusCCTVFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://raw.githubusercontent.com/fluxustv/IPTV/master/cctv.m3u</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue]FLUXUS RELIGIOUS TV[/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/FluxusFaithThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/FluxusFaithFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://raw.githubusercontent.com/fluxustv/IPTV/master/faith.m3u</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] IPTV[/COLOR][COLOR skyblue] MUNDIAL[/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://autoiptv.net/playlist.php</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV ARGENTINA[/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Tv-Argentina/Channels-Argentina.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] TV ARGENTINA[/COLOR][COLOR white] [OPCION 2][/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://www.radiosargentina.com.ar/TVAR.m3u</externallink>
+</item>
+
+
+	
+		</items>
+	</channel>
+
+</channels>
+
+	<!---
+	<channel>
+		<name>TITULO CHANNEL 1</name>
+		<thumbnail>http://community-links.googlecode.com/svn/icons/news-icon.png</thumbnail>
+		<fanart>http://community-links.googlecode.com/svn/icons/news-fanart.jpg</fanart>
+		<items>
+			<item>
+				<title>TITULO ITEM CHANNEL 1.1</title>
+				<link>mms://some/place/pokerchannel</link>
+				<thumbnail>http://channel.png</thumbnail>
+				<genre>Poker</genre>
+				<info>The Poker Channel – Europe’s largest dedicated gaming TV network is available online to a global audience, and to more than 30
+                      million cable and satellite homes in Europe and Latin America.</info>
+				<date>07.12.2011</date>  <!-- format - dd.mm.yyyy --
+				<epg></epg>  <!-- See daschacka's post - http://forum.xbmc.org/showpost.php?p=936228&postcount=1076 --
+				<fanart>http://fanart.jpg</fanart>
+			</item>
+
+			<item>
+				<title>TITULO ITEM CHANNEL 1.2</title>        
+				<link>rtmp://some/place playpath=some_place swfUrl="http://player.swf pageUrl=http://nhkworld/r/movie/ swfVfy=true live=true</link>
+				<thumbnail>C:\my_thumbs\news.png</thumbnail>
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>TITULO CHANNEL 2</name>
+		<thumbnail>http://television.png</thumbnail>
+		<fanart>http://fanart.jpg</fanart>
+		<subchannel>
+			<name>TITULO SUBCHANNEL 2.1</name>
+			<thumbnail>http://television.png</thumbnail>
+			<fanart>http://fanart.jpg</fanart>
+			<subitems>
+				<subitem>
+					<title>TITULO SUBITEM 2.1.1</title>
+					<link>mms://some/place</link>
+					<thumbnail>http://thumb.png </thumbnail>
+				</subitem>
+
+				<subitem>
+					<title>TITULO SUBITEM 2.1.2</title>
+					<link>http://some/place/channel_4.mp4</link>
+					<thumbnail>http://thumb.png</thumbnail>
+				</subitem>
+			</subitems>
+
+		</subchannel>
+
+		<items>
+			<item>
+				<title>TITULO ITEM 1</title>
+				<link>mms://some/place</link>
+				<thumbnail>http://thumb.png </thumbnail>
+			</item>
+
+			<item>
+				<title>TITULO ITEM 2</title>
+				<link>http://some/place/channel_4.mp4</link>
+				<thumbnail>http://thumb.png</thumbnail>
+			</item>
+		</items>   
+    </channel>
+	--->
