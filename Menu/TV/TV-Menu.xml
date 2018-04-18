@@ -17,6 +17,22 @@
 		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 		<items>
 
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TV Y PELICULAS TVPREMIUMHD[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://tvpremiumhd.club/lista.m3u</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TVPREMIUMHD[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://tvpremiumhd.club/tv.m3u</externallink>
+	</item>
+		
 			<item>
 				<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]PREMIER[/COLOR]</title>
 				<link>http://ignorame</link>
@@ -254,21 +270,7 @@
 		<externallink>http://www.micentromultimedia.com/listas/paises.m3u8</externallink>
 	</item>
 	
-	<item>
-		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TV Y PELICULAS TVPREMIUMHD[/COLOR]</title>
-		<link>http://ignorame</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<externallink>http://tvpremiumhd.club/lista.m3u</externallink>
-	</item>
-	
-	<item>
-		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TVPREMIUMHD[/COLOR]</title>
-		<link>http://ignorame</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<externallink>http://tvpremiumhd.club/tv.m3u</externallink>
-	</item>
+
 	
 	<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]JNUXTEAM[/COLOR]</title>
