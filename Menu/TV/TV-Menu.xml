@@ -17,25 +17,7 @@
 		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 		<items>
 
-		<item>
-	<title>[COLOR lightcyan]TODO NOTICIAS[/COLOR]</title>
-	<link>$doregex[makelist]</link>
-	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                        <title>[makelist.param2]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-                        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-						<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-            ]]></listrepeat>
-            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
-            <page>https://www.youtube.com/channel/UCj6PcyLvpnIRT_2W_mwa9Aw</page>
-			<referer>https://www.youtube.com/channel/</referer>
-             <cookieJar></cookieJar>
-</regex>
-</item>
+		
 		
 	<item>
 		<title>[COLOR lightcyan]DEPORTES[/COLOR] [COLOR lightgray]ANDROID TV[/COLOR]</title>
