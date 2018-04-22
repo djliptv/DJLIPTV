@@ -18,7 +18,7 @@
 		<items>
 
 		<item>
-	<title>[COLOR lightcyan]TN[/COLOR]</title>
+	<title>[COLOR lightcyan]TODO NOTICIAS[/COLOR]</title>
 	<link>$doregex[makelist]</link>
 	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
