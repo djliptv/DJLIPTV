@@ -31,8 +31,8 @@
 						<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
             ]]></listrepeat>
             <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
-            <page>https://www.youtube.com/watch?v=0tek2aa8hAQ</page>
-			<referer>https://www.youtube.com/user/ReinoMariaElenaWalsh/playlists</referer>
+            <page>https://www.youtube.com/channel/UCj6PcyLvpnIRT_2W_mwa9Aw</page>
+			<referer>https://www.youtube.com/channel/</referer>
              <cookieJar></cookieJar>
 </regex>
 </item>
