@@ -2648,6 +2648,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
         <fanart>http://static.tvtropes.org/pmwiki/pub/images/Main_cast_scene_SMB3.jpg</fanart>
 </item>
 
+<item>
+<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]THUNDERCATS[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR] [COLOR gold] OPCION 2[/COLOR]</title>
+<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TLFC/TTLFC.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TLFC/FTLFC.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-SI-TLFC.xml</externallink>
+</item>
+
 <!--- THUNDERCATS ########  --->
 <item>
 <title>Thundercats</title>
