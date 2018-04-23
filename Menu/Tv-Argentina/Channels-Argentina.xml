@@ -154,8 +154,9 @@ MUESTRA TODOS LOS LINKS ENUMERADOS
 <item>
 		<title>[COLOR white]TN[/COLOR][COLOR lime] HD [/COLOR]</title>
 		<!--- <link>http://prepublish.f.qaotic.net/a04/ngrp:tn_live01-100083_all/chunklist.m3u8|Referer=http://vmf.edge-apps.net&amp;User-Agent=Mozilla/5.0$$lsname=[COLOR white]TN[/COLOR][COLOR lime]HD[/COLOR]</link> 
-		<link>plugin://plugin.video.youtube/play/?video_id=0tek2aa8hAQ$$lsname=[COLOR white]TN[/COLOR] [COLOR lime]HD[/COLOR] [COLOR darkred]YT[/COLOR]</link> --->
-		<link>plugin://plugin.video.youtube/play/?video_id=0tek2aa8hAQ</link>
+		<link>plugin://plugin.video.youtube/play/?video_id=0tek2aa8hAQ$$lsname=[COLOR white]TN[/COLOR] [COLOR lime]HD[/COLOR] [COLOR darkred]YT[/COLOR]</link>
+		<link>plugin://plugin.video.youtube/play/?video_id=0tek2aa8hAQ</link> --->
+		<urlsolve>https://www.youtube.com/watch?v=0tek2aa8hAQ</urlsolve>
 		<thumbnail>http://www.tvargentina.com.ar/iconos/tn.png</thumbnail> <!-- CAMBIAR LOGO -->
 		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
 </item>
