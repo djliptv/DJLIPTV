@@ -154,9 +154,9 @@ MUESTRA TODOS LOS LINKS ENUMERADOS
 <item>
 		<title>[COLOR white]TN[/COLOR][COLOR lime] HD [/COLOR]</title>
 		<!--- <link>http://prepublish.f.qaotic.net/a04/ngrp:tn_live01-100083_all/chunklist.m3u8|Referer=http://vmf.edge-apps.net&amp;User-Agent=Mozilla/5.0$$lsname=[COLOR white]TN[/COLOR][COLOR lime]HD[/COLOR]</link> 
-		<link>plugin://plugin.video.youtube/play/?video_id=0tek2aa8hAQ$$lsname=[COLOR white]TN[/COLOR] [COLOR lime]HD[/COLOR] [COLOR darkred]YT[/COLOR]</link>
-		<link>plugin://plugin.video.youtube/play/?video_id=0tek2aa8hAQ</link> --->
-		<urlsolve>https://www.youtube.com/watch?v=0tek2aa8hAQ</urlsolve>
+		<link>plugin://plugin.video.youtube/play/?video_id=0tek2aa8hAQ$$lsname=[COLOR white]TN[/COLOR] [COLOR lime]HD[/COLOR] [COLOR darkred]YT[/COLOR]</link> --->
+		<link>https://r6---sn-j5cax8pnpvo-x1xek.googlevideo.com/videoplayback?id=0tek2aa8hAQ.3&itag=136&source=yt_live_broadcast&requiressl=yes&gcr=ar&ei=_EXdWs26E8u1xAS7kpyYDw&playlist_type=DVR&ratebypass=yes&cmbypass=yes&mime=video%2Fmp4&live=1&gir=yes&noclen=1&dur=5.000&beids=[9466594]&cpn=Uzmr279Oa04UPynG&mpd_version=5&ip=186.138.196.248&ipbits=0&expire=1524472412&sparams=cmbypass,dur,ei,expire,gcr,gir,id,ip,ipbits,itag,live,mime,mm,mn,ms,mv,noclen,pl,playlist_type,ratebypass,requiressl,source&signature=5E84B75BA2194734945973952E6D492F34AABA76.0306C0596B0A0BCF64F7ABDB5704419EDC02D13F&key=cms1&mm=32&mn=sn-j5cax8pnpvo-x1xek&ms=lv&mt=1524450159&mv=u&pl=24&alr=yes&c=WEB_EMBEDDED_PLAYER&cver=20180418&sq=1745205&rn=2&rbuf=5000</link>
+		
 		<thumbnail>http://www.tvargentina.com.ar/iconos/tn.png</thumbnail> <!-- CAMBIAR LOGO -->
 		<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
 </item>
