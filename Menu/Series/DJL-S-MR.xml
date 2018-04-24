@@ -203,4 +203,93 @@
 			</item>
 		</items>
 	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]MR. ROBOT[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 3][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmr.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]MR. ROBOT[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 3][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03x01-03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-MR/MR-S3X01-03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmr.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-MR/MR-S3X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmr.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-MR/MR-S3X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmr.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-MR/MR-S3X04.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmr.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-MR/MR-S3X05.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmr.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-MR/MR-S3X06.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmr.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-MR/MR-S3X07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmr.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-MR/MR-S3X08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmr.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-MR/MR-S3X09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmr.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-MR/MR-S3X10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmr.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>	
 </channels>
