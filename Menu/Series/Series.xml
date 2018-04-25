@@ -175,6 +175,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/LCDP/flcdp.png?raw=true</fanart>
 	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-LCDP.xml</externallink>
 </item>
+
+<!--- LUIS MIGUEL - THE SERIE ######## --->
+<item>
+	<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]LUIS MIGUEL - THE SERIE[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+	<link>$doregex[makelist]</link>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/TLMTS.png?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/FLMTS.jpg?raw=true</fanart>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-LMTS.xml</externallink>
+</item>
+
+
 <!--- MR. ROBOT ######## --->
 <item>
 	<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]MR. ROBOT[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
