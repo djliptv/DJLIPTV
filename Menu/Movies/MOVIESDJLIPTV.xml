@@ -15,20 +15,562 @@
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/Movies4KFanart.jpg?raw=true</fanart>
 </item>
+--->
 
 <item>
-	<title>[COLOR red][B]SIN PORTADA PROXIMAMENTE[/B][/COLOR]</title>
+	<title>[COLOR gold]NOVEDADES[/COLOR]</title>
+	<link>https://archive.org/download/djliptv-ML/.mp4</link>
+	<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/ThumbnailNewReleases.gif</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>ALERTA EN LO PROFUNDO 2</title>
+	<link>https://archive.org/download/djliptv-ML/A-QUxFUlRBIEVOIExPIFBST0ZVTkRPIDIgMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BZDMzZDMwMTgtNjA1Yi00NWJkLWIzMDctNjEwY2EyZDM1ZDMzXkEyXkFqcGdeQXVyNjg0NzkwOTk@._V1_SY1000_CR0,0,666,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>AMATEUR</title>
+	<link>https://archive.org/download/djliptv-ML/A-QU1BVEVVUiAxMDgw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BZjc4ZmU4NGMtOTY2OS00NDBhLTg4YTAtNzk0OWM5MjMzNGI3XkEyXkFqcGdeQXVyMzI3NzQ0Nw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>ANT-MAN</title>
+	<link>https://archive.org/download/djliptv-ML/A-QU5ULU1BTiAxMDgw.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>BAYWATCH</title>
+	<link>https://archive.org/download/djliptv-ML/B-QkFZV0FUQ0ggMTA4.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>BRICK MANSIONS</title>
+	<link>https://archive.org/download/djliptv-ML/B-QlJJQ0sgTUFOU0lPTlMgMTA4.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BOTI0ODQ2MzY5NF5BMl5BanBnXkFtZTgwNTcxNzQxMTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>CELLULAR</title>
+	<link>https://archive.org/download/djliptv-ML/C-Q0VMTFVMQVIgNzIw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMmRmODc1OGEtYzhjOC00Y2FiLWFhNWUtYTJiYjlhMGU0Njk4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>COLLIDE</title>
+	<link>https://archive.org/download/djliptv-ML/C-Q09MTElERSAxMDgw.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BNjRhMGI3ZGItZTMzMS00NzdmLWI1MzMtNjk0ZmY5ZjMyZDdkL2ltYWdlXkEyXkFqcGdeQXVyNTQ3MjE4NTU@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>MI VILLANO FAVORITO 3</title>
+	<link>https://archive.org/download/djliptv-ML/D-REVTUElDQUJMRSBNRSAzIDEwODBQ.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BNjUyNzQ2MTg3Ml5BMl5BanBnXkFtZTgwNzE4NDM3MTI@._V1_SY1000_CR0,0,631,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>DIA DE LA INDEPENDENCIA 1</title>
+	<link>https://archive.org/download/djliptv-ML/D-RElBIERFIExBIElOREVQRU5ERU5DSUEgMSAxMDgw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMGQwNDNkMmItYWY1Yy00YTZmLWE5OTAtODU0MGZmMzQ1NDdkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,666,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>DIA DE LA INDEPENDENCIA 2</title>
+	<link>https://archive.org/download/djliptv-ML/D-RElBIERFIExBIElOREVQRU5ERU5DSUEgMiA3MjBQ.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMjIyMTg5MTg4OV5BMl5BanBnXkFtZTgwMzkzMjY5NzE@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>EL AVION PRESIDENCIAL</title>
+	<link>https://archive.org/download/djliptv-ML/E-RUwgQVZJT04gUFJFU0lERU5DSUFMIFNE.avi</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BYTk5NWE2ZjAtZmRmOS00ZGYzLWI5ZmUtMDcwODI0YWY0MTRlL2ltYWdlXkEyXkFqcGdeQXVyNjQzNDI3NzY@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>EL LUCHADOR</title>
+	<link>https://archive.org/download/djliptv-ML/E-RUwgTFVDSEFET1IgNzIw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTc5MjYyOTg4MF5BMl5BanBnXkFtZTcwNDc2MzQwMg@@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>FABRICATED CITY</title>
+	<link>https://archive.org/download/djliptv-ML/F-RkFCUklDQVRFRCBDSVRZIDEwODBQ.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BNDhhZGNlNTMtM2VjMy00MWMyLTg3NDEtOGY0OGY5Yzk3M2RiL2ltYWdlXkEyXkFqcGdeQXVyNDIzMTI4NDE@._V1_SY1000_SX702_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>FERRARI - CARRERA A LA INMORTALIDAD</title>
+	<link>https://archive.org/download/djliptv-ML/F-RkVSUkFSSSAtIENBUlJFUkEgQSBMQSBJTk1PUlRBTElEQUQgMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BOTFiZjUzMWQtYjRiNC00MDRlLWFiY2MtNGJiOThkYjExMGM5XkEyXkFqcGdeQXVyMjAwNDMzMzY@._V1_SY1000_CR0,0,1333,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>BUSCANDO A DORY</title>
+	<link>https://archive.org/download/djliptv-ML/F-RklORElORyBET1JZIDEwODBQ.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BNzg4MjM2NDQ4MV5BMl5BanBnXkFtZTgwMzk3MTgyODE@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>GUARDIANES DE LA GALAXIA 2</title>
+	<link>https://archive.org/download/djliptv-ML/G-R1VBUkRJQU5FUyBERSBMQSBHQUxBWElBIDIgNzIw.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>JAWS 1</title>
+	<link>https://archive.org/download/djliptv-ML/J-SkFXUyAxIDEwODBQ.MP4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX651_CR0,0,651,999_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>JAWS 2</title>
+	<link>https://archive.org/download/djliptv-ML/J-SkFXUyAyIDEwODBQ.MP4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BN2U1MWE1NTMtYjQ2ZC00MTFmLWFmYjItODMyNGYxOTAyZmEzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,650,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>JAWS 3</title>
+	<link>https://archive.org/download/djliptv-ML/J-SkFXUyAzIDEwODBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BM2QwYjhiMzQtN2RiYS00MzgxLThmNzItMmJlNmMyMmQyYTA3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,640,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>JAWS 4</title>
+	<link>https://archive.org/download/djliptv-ML/J-SkFXUyA0IFRIRSBSRVZFTkdFIDEwODBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BNGI1MTAxMWItOTE0OC00ZDhkLWE3Y2EtNjFiZmQ4NjQ1NGNkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>JUST GETTING STARTED</title>
+	<link>https://archive.org/download/djliptv-ML/J-SlVTVCBHRVRUSU5HIFNUQVJURUQgMTA4.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMzk0NDdjNWEtMDVkMC00ODdiLTgyMmYtOWM0ZDRjOTU4MjJlXkEyXkFqcGdeQXVyNjM2MDMxMDk@._V1_SY1000_SX675_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>LA TORRE OSCURA</title>
+	<link>https://archive.org/download/djliptv-ML/L-TEEgVE9SUkUgT1NDVVJBIDEwODBQIFRIRSBEQVJLIFRPV0VS.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTU3MjUwMzQ3MF5BMl5BanBnXkFtZTgwMjcwNjkxMjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>LAS TRAVESURAS DE PETER RABBIT</title>
+	<link>https://archive.org/download/djliptv-ML/L-TEFTIFRSQVZFU1VSQVMgREUgUEVURVIgUkFCQklUIDEwODBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BOWE4YzE3Y2MtYzIyZS00NjA4LTliMDgtY2U0NGM2NzI4MjZlXkEyXkFqcGdeQXVyNTU5Mzk0NjE@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>LONDON HAS FALLEN</title>
+	<link>https://archive.org/download/djliptv-ML/L-TE9ORE9OIEhBUyBGQUxMRU4gMTA4.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTY1ODY2MTgwM15BMl5BanBnXkFtZTgwOTY3Nzc3NzE@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>MAZE RUNNER</title>
+	<link>https://archive.org/download/djliptv-ML/M-TUFaRSBSVU5ORVIgMSAxMDgw.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMjUyNTA3MTAyM15BMl5BanBnXkFtZTgwOTEyMTkyMjE@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>MAZE RUNNER 3 - THE DEATH CURE</title>
+	<link>https://archive.org/download/djliptv-ML/M-TUFaRSBSVU5ORVIgMyAtIFRIRSBERUFUSCBDVVJFIDEwODBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTYyNzk3MDc2NF5BMl5BanBnXkFtZTgwMDk3OTM1NDM@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>MI PRIMA LA SEXOLOGA</title>
+	<link>https://archive.org/download/djliptv-ML/M-TUkgUFJJTUEgTEEgU0VYT0xPR0EgMTA4.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BNDUxN2E5ZWQtMTJiZi00YzkxLWJhM2QtOTU4MjRmZTYxYmJlXkEyXkFqcGdeQXVyNjk0MDk0NDU@._V1_SY1000_CR0,0,714,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>NO ESCAPE</title>
+	<link>https://archive.org/download/djliptv-ML/N-Tk8gRVNDQVBFIDEwODBQ.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMjE0MDI3NTE5NF5BMl5BanBnXkFtZTgwNzI3ODM2NjE@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>NON STOP</title>
+	<link>https://archive.org/download/djliptv-ML/N-Tk9OIFNUT1AgMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BOTI3NzcxMjkzMl5BMl5BanBnXkFtZTgwMDY0NTQ0MDE@._V1_SY1000_CR0,0,631,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>PADDINGTON</title>
+	<link>https://archive.org/download/djliptv-ML/P-UEFERElOR1RPTiAxMDgw.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTAxOTMwOTkwNDZeQTJeQWpwZ15BbWU4MDEyMTI1NjMx._V1_SY1000_CR0,0,675,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>PEARL HARBOR</title>
+	<link>https://archive.org/download/djliptv-ML/P-UEVBUkwgSEFSQk9SIDcy.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTQ3MDc0MDc1NF5BMl5BanBnXkFtZTYwODI1ODY2._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>PIXELS</title>
+	<link>https://archive.org/download/djliptv-ML/P-UElYRUxTIDEwODBQ.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTYxMzM4NDY5N15BMl5BanBnXkFtZTgwNzg1NTI3MzE@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>ROBOCOP 1</title>
+	<link>https://archive.org/download/djliptv-ML/R-Uk9CT0NPUCAxIDEwODBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BZWVlYzU2ZjQtZmNkMi00OTc3LTkwZmYtZDVjNmY4OWFmZGJlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,644,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>ROBOCOP 2014</title>
+	<link>https://archive.org/download/djliptv-ML/R-Uk9CT0NPUCAyMDE0IDEwODBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMjAyOTUzMTcxN15BMl5BanBnXkFtZTgwMjkyOTc1MDE@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>SECURITY</title>
+	<link>https://archive.org/download/djliptv-ML/S-U0VDVVJJVFkgMTA4.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BZmI4OGE0MTktOTQ3ZC00ZDlhLTg1OGMtMjRiMTMwNzgzZDIyXkEyXkFqcGdeQXVyNjc4Nzk3NzU@._V1_SY1000_CR0,0,708,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>SHOT CALLER</title>
+	<link>https://archive.org/download/djliptv-ML/S-U0hPVCBDQUxMRVIgMTA4.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMGY0YTM3MjItZmExMy00NDgyLThjNzUtZWQ1MzY2NGRmMjZhXkEyXkFqcGdeQXVyMzYyMzE1NjA@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>SIN ESCRUPULOS</title>
+	<link>https://archive.org/download/djliptv-ML/S-U0lOIEVTQ1JVUFVMT1MgMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMzk0OTc3MDM5MF5BMl5BanBnXkFtZTgwOTMzMDMzMjE@._V1_SY1000_CR0,0,675,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>SPACE JAM</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1BBQ0UgSkFNIDEwODBQ.avi</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMDgyZTI2YmYtZmI4ZC00MzE0LWIxZWYtMWRlZWYxNjliNTJjXkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SY1000_CR0,0,738,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>STAR TREK 10 NEMESIS</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1RBUiBUUkVLIDEwIE5FTUVTSVMgMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMjAxNjY2NDY3NF5BMl5BanBnXkFtZTcwMjA0MTEzMw@@._V1_SY1000_CR0,0,672,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>STAR TREK 2 LA IRA DE KHAN</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1RBUiBUUkVLIDIgTEEgSVJBIERFIEtIQU4gMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMzcyYWE5YmQtNDE1Yi00ZjlmLWFlZTAtMzRjODBiYjM3OTA3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_SX670_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>STAR TREK 3 EN BUSCA DE SPOCK</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1RBUiBUUkVLIDMgRU4gQlVTQ0EgREUgU1BPQ0sgMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTliZGVjZmMtNzEzMy00MzVhLWFhYjYtNDhlYmViNGNiMGFlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,668,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>STAR TREK 4 MISION SALVAR LA TIERRA</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1RBUiBUUkVLIDQgTUlTSU9OIFNBTFZBUiBMQSBUSUVSUkEgMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMGY2MDE2MGQtMjczYi00YTdhLWIzNzktNDk2NzMzZmYwMTJjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>STAR TREK 5 LA ULTIMA FRONTERA</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1RBUiBUUkVLIDUgTEEgVUxUSU1BIEZST05URVJBIDEwODBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BZTE2NTE0YmYtNTE3YS00NzFmLWJmMDMtZWQ5Njg5NDBmNTFiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,679,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>STAR TREK 7 GENERACIONES</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1RBUiBUUkVLIDcgR0VORVJBQ0lPTkVTIDEwODBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BNjFiMzc4YzAtNGMzYS00NjI0LWJhYTYtN2JiOTI2ODczYzE3XkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>STUART  LITTLE 1</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1RVQVJUICBMSVRUTEUgMSAxMDgw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMDJlZWZiODItMGE3NC00Yzg3LWFhYTYtZTI2YWNlNjExMDE4XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SY1000_CR0,0,692,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>STUART  LITTLE 2</title>
+	<link>https://archive.org/download/djliptv-ML/S-U1RVQVJUICBMSVRUTEUgMiAxMDgw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTYyNDg0Njc2Nl5BMl5BanBnXkFtZTYwMDc3NzQ3._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>TARZAN - LA EVOLUCION DE LA LEYENDA</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEFSWkFOIC0gTEEgRVZPTFVDSU9OIERFIExBIExFWUVOREEgNzIw.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTQyODEwMTM2Nl5BMl5BanBnXkFtZTgwMTg1MTA3MDE@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>THE BONE COLLECTOR</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIEJPTkUgQ09MTEVDVE9SIDEwODBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BOWQxN2ZmNDMtMzA2Ny00ZDJhLTlkNTgtMWMyZjljY2QzMzNhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,670,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>THE COLLECTION</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIENPTExFQ1RJT04gNzIw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BODQ0MDgzNDA0NV5BMl5BanBnXkFtZTcwNDM4MDQ1OA@@._V1_SY1000_SX674_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>THE GIRL NEXT DOOR</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIEdJUkwgTkVYVCBET09SIDEwODBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTQ0ODIyMzE1N15BMl5BanBnXkFtZTcwODEwODczMw@@._V1_SY1000_CR0,0,676,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>THE KARATE KID 1</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIEtBUkFURSBLSUQgMSAxMDgw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BNTkzY2YzNmYtY2ViMS00MThiLWFlYTEtOWQ1OTBiOGEwMTdhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX640_CR0,0,640,999_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>THE KARATE KID 2</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIEtBUkFURSBLSUQgMiAxMDgw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BY2E3YjliMWEtYzlmOC00NmU5LWE4NGItNmIyZmNkZjkwNTA0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,635,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>THE KARATE KID 3</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIEtBUkFURSBLSUQgMyAxMDgw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BODk0NzA4MTMtNGQ3Zi00OTdlLThiZmQtOTI0YWEyNDFiMTg2XkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_SY1000_CR0,0,669,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>THE LEGEND OF TARZAN</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIExFR0VORCBPRiBUQVJaQU4gMTA4.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMzY3OTI0OTcyMF5BMl5BanBnXkFtZTgwNjkxNTAwOTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>THE SECRET LIFE OF PETS</title>
+	<link>https://archive.org/download/djliptv-ML/T-VEhFIFNFQ1JFVCBMSUZFIE9GIFBFVFMgMTA4.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMjIzMzA1OTkzNV5BMl5BanBnXkFtZTgwODE3MjM4NzE@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>TIMECOP</title>
+	<link>https://archive.org/download/djliptv-ML/T-VElNRUNPUCAxMDgw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BOGUxOTI3OGUtY2UyYS00NzRmLTk2ODQtMGRjZGY2Mjk5NTczXkEyXkFqcGdeQXVyNDc2NjEyMw@@._V1_SY1000_CR0,0,685,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>TODOPODEROSO 2</title>
+	<link>https://archive.org/download/djliptv-ML/T-VE9ET1BPREVST1NPIDIgMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTUxMTEzODYxMV5BMl5BanBnXkFtZTcwNzQ4ODU0MQ@@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>TODOS LOS PERROS VAN AL CIELO 1</title>
+	<link>https://archive.org/download/djliptv-ML/T-VE9ET1MgTE9TIFBFUlJPUyBWQU4gQUwgQ0lFTE8gMSA3MjBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTI4ZWRmNTAtOWIyZC00Njk0LWIzZGItYjE0NDVlM2Q4ZWJjXkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>TOP GUN</title>
+	<link>https://archive.org/download/djliptv-ML/T-VE9QIEdVTiAxMDgw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BZjQxYTA3ODItNzgxMy00N2Y2LWJlZGMtMTRlM2JkZjI1ZDhhXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_CR0,0,646,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>TOY STORY 1</title>
+	<link>https://archive.org/download/djliptv-ML/T-VE9ZIFNUT1JZIDEgMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_SY1000_SX670_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>TOY STORY 2</title>
+	<link>https://archive.org/download/djliptv-ML/T-VE9ZIFNUT1JZIDIgMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMWM5ZDcxMTYtNTEyNS00MDRkLWI3YTItNThmMGExMWY4NDIwXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SY1000_CR0,0,677,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>TOY STORY 3</title>
+	<link>https://archive.org/download/djliptv-ML/T-VE9ZIFNUT1JZIDMgMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_SY1000_CR0,0,707,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>TRANSFORMERS - THE LAST KNIIGHT</title>
+	<link>https://archive.org/download/djliptv-ML/T-VFJBTlNGT1JNRVJTIC0gVEhFIExBU1QgS05JSUdIVCAxMDgw.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTk3OTI3MDk4N15BMl5BanBnXkFtZTgwNDg2ODIyMjI@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>TROLLS</title>
+	<link>https://archive.org/download/djliptv-ML/T-VFJPTExTIDEwODBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTkxNDc3OTcxMV5BMl5BanBnXkFtZTgwODk2NjAzOTE@._V1_SY1000_CR0,0,673,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>UNA NOCHE EN EL MUSEO 1</title>
+	<link>https://archive.org/download/djliptv-ML/U-VU5BIE5PQ0hFIEVOIEVMIE1VU0VPIDEgMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTQyOTM4MDMxN15BMl5BanBnXkFtZTcwODg5NTQzMw@@._V1_SY1000_CR0,0,684,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>UNA NOCHE EN EL MUSEO 2</title>
+	<link>https://archive.org/download/djliptv-ML/U-VU5BIE5PQ0hFIEVOIEVMIE1VU0VPIDIgMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMGZjZDE2NjUtMzVkNy00N2UyLTg5MjYtYzY1ZmM1YWY3ZTZmXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>UNA NOCHE EN EL MUSEO 3 EL SECRETO DE LA TUMBA</title>
+	<link>https://archive.org/download/djliptv-ML/U-VU5BIE5PQ0hFIEVOIEVMIE1VU0VPIDMgRUwgU0VDUkVUTyBERSBMQSBUVU1CQSAxMDgw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMjI1MzM2ODEyMV5BMl5BanBnXkFtZTgwNTIzODAwMzE@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>UNA PAREJA EXPLOSIVA 1</title>
+	<link>https://archive.org/download/djliptv-ML/U-VU5BIFBBUkVKQSBFWFBMT1NJVkEgMSAxMDgw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BYWM2NDZmYmYtNzlmZC00M2MyLWJmOGUtMjhiYmQ2OGU1YTE1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,678,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>UNA PAREJA EXPLOSIVA 2</title>
+	<link>https://archive.org/download/djliptv-ML/U-VU5BIFBBUkVKQSBFWFBMT1NJVkEgMiAxMDgw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BODhlNGJjMWQtZGMyYS00MzJhLWJhZGMtY2NlNDI5Nzg5NTU2XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_SX674_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>UNA PAREJA EXPLOSIVA 3</title>
+	<link>https://archive.org/download/djliptv-ML/U-VU5BIFBBUkVKQSBFWFBMT1NJVkEgMyAxMDgw.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTA0Nzg5NjQ0MDBeQTJeQWpwZ15BbWU3MDE4Mzg5NDE@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>UNLOCKED</title>
+	<link>https://archive.org/download/djliptv-ML/U-VU5MT0NLRUQgMTA4.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BZWJiNGQ1YzgtOGVjZS00MGRjLTgwZDMtNWFiNmQ2ZWI1ZWNkXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SY1000_CR0,0,648,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>WALL-E</title>
+	<link>https://archive.org/download/djliptv-ML/W-V0FMTC1FIDEwODBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>X-MEN APOCALIPSIS</title>
+	<link>https://archive.org/download/djliptv-ML/X-WC1NRU4gQVBPQ0FMSVBTSVMgMTA4.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMjU1ODM1MzYxN15BMl5BanBnXkFtZTgwOTA4NDE2ODE@._V1_SY1000_CR0,0,676,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>X-MEN PRIMERA GENERACION</title>
+	<link>https://archive.org/download/djliptv-ML/X-WC1NRU4gUFJJTUVSQSBHRU5FUkFDSU9OIDEwODBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTg5OTMxNzk4Nl5BMl5BanBnXkFtZTcwOTk1MjAwNQ@@._V1_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>X-MEN WOLVERINE INMORTAL</title>
+	<link>https://archive.org/download/djliptv-ML/X-WC1NRU4gV09MVkVSSU5FIElOTU9SVEFMIDEwODBQ.mkv</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BZWRhMzdhMzEtZTViNy00YWYyLTgxZmUtMTMwMWM0NTEyMjk3XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SY1000_CR0,0,676,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+
+
+<item>
+	<title>[COLOR gold][B]______________________________[/B][/COLOR]</title>
 	<link>NA</link>
 	<thumbnail></thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
---->
+
 
 <item>
 	<title>[COLOR orange]DJL[/COLOR] [COLOR white]IPTV[/COLOR] [COLOR cyan]MOVIES[/COLOR]</title>
 	<link></link>
 	<thumbnail></thumbnail>
 	<fanart></fanart>
+</item>
+
+<item>
+	<title>[COLOR gold][B]______________________________[/B][/COLOR]</title>
+	<link>NA</link>
+	<thumbnail></thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
 
 <item>
