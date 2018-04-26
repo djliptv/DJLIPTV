@@ -28,13 +28,21 @@
 </item>
 		
 	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]IPTVP[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://iptvp.cf/emision?tipo=m3u_plus#.m3u</externallink>
+	</item>		
+
+	<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]DARKIPTV[/COLOR]</title>
 		<link>http://ignorame</link>
 		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 		<externallink>http://darkiptv.com/tv/lista.php?Darkiptv.m3u</externallink>
-	</item>		
-		
+	</item>	
+	
 	<item>
 		<title>[COLOR lightcyan]DEPORTES[/COLOR] [COLOR lightgray]ANDROID TV[/COLOR]</title>
 		<link>http://ignorame</link>
