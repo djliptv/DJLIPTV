@@ -239,3 +239,47 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]MUNDO JUNIOR[/COLOR]</title>
+<fanart>https://yt3.ggpht.com/-7C0MNQXxDiM/AAAAAAAAAAI/AAAAAAAAAAA/-FoAWtOr8uw/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
+<thumbnail>https://yt3.ggpht.com/-7C0MNQXxDiM/AAAAAAAAAAI/AAAAAAAAAAA/-FoAWtOr8uw/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<jsonrpc>plugin://plugin.video.youtube/channel/UCvWDpY2noMSrFqyAHRB542w</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/channel/UCIR_LPmEQ9QHR0yB2lxgaxQ --->
+<link>ignorme</link> 
+<info></info>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]DISNEY JUNIOR LA[/COLOR]</title>
+<fanart>https://yt3.ggpht.com/-gXMt-4j1ugc/AAAAAAAAAAI/AAAAAAAAAAA/36iMi5L-g9g/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
+<thumbnail>https://yt3.ggpht.com/-gXMt-4j1ugc/AAAAAAAAAAI/AAAAAAAAAAA/36iMi5L-g9g/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<jsonrpc>plugin://plugin.video.youtube/user/DisneyJuniorLA/</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/user/webcamsdemexico --->
+<link>ignorme</link> 
+<info></info>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]MUNDO KIDS 360[/COLOR]</title>
+<fanart>https://yt3.ggpht.com/-uR8au8CEKqg/AAAAAAAAAAI/AAAAAAAAAAA/zRFsQhMleI0/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
+<thumbnail>https://yt3.ggpht.com/-uR8au8CEKqg/AAAAAAAAAAI/AAAAAAAAAAA/zRFsQhMleI0/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<jsonrpc>plugin://plugin.video.youtube/channel/UCcIVSA2vFpZmuPXG1oAZVaQ</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/channel/UCIR_LPmEQ9QHR0yB2lxgaxQ --->
+<link>ignorme</link> 
+<info></info>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]SERIES ANIMADAS[/COLOR]</title>
+<fanart>https://yt3.ggpht.com/--823pfyuPdE/AAAAAAAAAAI/AAAAAAAAAAA/R90S1jLRvY4/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
+<thumbnail>https://yt3.ggpht.com/--823pfyuPdE/AAAAAAAAAAI/AAAAAAAAAAA/R90S1jLRvY4/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<jsonrpc>plugin://plugin.video.youtube/channel/UCfQQRlVLAJAcpuf-zQKG3Uw</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/channel/UCIR_LPmEQ9QHR0yB2lxgaxQ --->
+<link>ignorme</link> 
+<info></info>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]MANY A LA OBRA[/COLOR]</title>
+<fanart>https://http2.mlstatic.com/cenefas-adhesivas-decorativas-manny-a-la-obra-handy-manny-D_NQ_NP_1366-MCO3665348126_012013-F.jpg</fanart>
+<thumbnail>http://2.bp.blogspot.com/-LEDlW0W-Geg/To3zUnaAyxI/AAAAAAAAnQo/sARCxVUvW_E/s1600/24imagen.jpg</thumbnail>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLLqkgyR5PWzb1YQJP9eo4a7WoXtXaeTKp/</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/playlist?list=PLCgom-CXN7-Nm5UdhN4M9EtvnUMljAxxg --->
+<link>ignorme</link> 
+<info></info>
+</item>
