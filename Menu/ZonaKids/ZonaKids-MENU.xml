@@ -26,7 +26,7 @@
 <thumbnail>https://www.dropbox.com/s/93ikwgzk6r6s818/AnimeThumbnail.jpg?dl=1</thumbnail>
 <fanart>https://www.dropbox.com/s/09v85f09hsvsxii/AnimeFanart.jpg?dl=1</fanart>
 <link>$doregex[makelist]</link>
-<externallink>https://www.dropbox.com/s/o1vijl2rs2oykfj/ANIME-MENU.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Anime/ANIME-MENU.xml</externallink>
 </channel>
  </channels>
 <!--
@@ -57,7 +57,7 @@
 <thumbnail>https://www.dropbox.com/s/mdsewbpawhm98ko/SeriesInfantilesThumbnail.png?dl=1</thumbnail>
 <fanart>https://www.dropbox.com/s/v1yqoe50ohtfthf/SeriesInfantilesFanart.jpg?dl=1</fanart>
 <link>$doregex[makelist]</link>
-<externallink>https://www.dropbox.com/s/u9zsar2vkwbamx1/SERIES%20INFANTILES.XML?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/SERIES-INFANTILES.XML</externallink>
 </channel>
 </channels>
 
@@ -67,7 +67,7 @@
 <thumbnail>http://bestforkodi.com/wp-content/uploads/2015/11/KIDS-MOVIES.png</thumbnail>
 <fanart>http://woodland-church.com/files/Kidzone/KidZone%20Logo%20600dpi.jpg</fanart>
 <link>$doregex[makelist]</link>
-<externallink>https://www.dropbox.com/s/eidzau3r7psrhnx/MOVIES%20INFANTILES.XML?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Movies/MOVIES%20INFANTILES.XML</externallink>
 </channel>
 </channels>
 
@@ -77,6 +77,6 @@
 <thumbnail>https://www.dropbox.com/s/omlsslmpv45xusy/KIDS-VIDEOS.png?dl=1</thumbnail>
 <fanart>https://i.ytimg.com/vi/2IL9UDKe-ZU/maxresdefault.jpg</fanart>
 <link>$doregex[makelist]</link>
-<externallink>https://www.dropbox.com/s/82od0p7m74udvl9/VIDEOS-MENU.xml?dl=1</externallink>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/ZonaKids/VIDEOS-MENU.xml</externallink>
 </channel>
 </channels>
