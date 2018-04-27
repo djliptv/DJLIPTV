@@ -243,7 +243,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]MUNDO JUNIOR[/COLOR]</title>
 <fanart>https://yt3.ggpht.com/-7C0MNQXxDiM/AAAAAAAAAAI/AAAAAAAAAAA/-FoAWtOr8uw/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
 <thumbnail>https://yt3.ggpht.com/-7C0MNQXxDiM/AAAAAAAAAAI/AAAAAAAAAAA/-FoAWtOr8uw/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
-<jsonrpc>plugin://plugin.video.youtube/channel/UCvWDpY2noMSrFqyAHRB542w</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/channel/UCIR_LPmEQ9QHR0yB2lxgaxQ --->
+<jsonrpc>plugin://plugin.video.youtube/channel/UCvWDpY2noMSrFqyAHRB542w/</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/channel/UCIR_LPmEQ9QHR0yB2lxgaxQ --->
 <link>ignorme</link> 
 <info></info>
 </item>
@@ -261,7 +261,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]MUNDO KIDS 360[/COLOR]</title>
 <fanart>https://yt3.ggpht.com/-uR8au8CEKqg/AAAAAAAAAAI/AAAAAAAAAAA/zRFsQhMleI0/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
 <thumbnail>https://yt3.ggpht.com/-uR8au8CEKqg/AAAAAAAAAAI/AAAAAAAAAAA/zRFsQhMleI0/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
-<jsonrpc>plugin://plugin.video.youtube/channel/UCcIVSA2vFpZmuPXG1oAZVaQ</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/channel/UCIR_LPmEQ9QHR0yB2lxgaxQ --->
+<jsonrpc>plugin://plugin.video.youtube/channel/UCcIVSA2vFpZmuPXG1oAZVaQ/</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/channel/UCIR_LPmEQ9QHR0yB2lxgaxQ --->
 <link>ignorme</link> 
 <info></info>
 </item>
@@ -270,7 +270,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]SERIES ANIMADAS[/COLOR]</title>
 <fanart>https://yt3.ggpht.com/--823pfyuPdE/AAAAAAAAAAI/AAAAAAAAAAA/R90S1jLRvY4/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
 <thumbnail>https://yt3.ggpht.com/--823pfyuPdE/AAAAAAAAAAI/AAAAAAAAAAA/R90S1jLRvY4/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
-<jsonrpc>plugin://plugin.video.youtube/channel/UCfQQRlVLAJAcpuf-zQKG3Uw</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/channel/UCIR_LPmEQ9QHR0yB2lxgaxQ --->
+<jsonrpc>plugin://plugin.video.youtube/channel/UCfQQRlVLAJAcpuf-zQKG3Uw/</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/channel/UCIR_LPmEQ9QHR0yB2lxgaxQ --->
 <link>ignorme</link> 
 <info></info>
 </item>
