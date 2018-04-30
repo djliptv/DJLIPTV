@@ -42,6 +42,38 @@
 		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 		<externallink>http://darkiptv.com/tv/lista.php?Darkiptv.m3u</externallink>
 	</item>	
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ACHOTV 2018[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://www.achotv.com/listas/achotv2018.m3u8</externallink>
+	</item>	
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ACHOTV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://www.achotv.com/listas/canales.m3u</externallink>
+	</item>	
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ACHOTV PAISES[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://www.achotv.com/listas/paises.m3u8</externallink>
+	</item>	
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ACHOTV PORTUGAL[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://www.achotv.com/listas/portugal.m3u</externallink>
+	</item>		
 	
 	<item>
 		<title>[COLOR lightcyan]DEPORTES[/COLOR] [COLOR lightgray]ANDROID TV[/COLOR]</title>
