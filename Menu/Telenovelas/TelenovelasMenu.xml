@@ -84,15 +84,7 @@
 <fanart>http://30959.http.cdn.softlayer.net/8030959/e.entretenimiento.americadigital.pe/ima/0/0/1/6/5/165981.jpg</fanart>
 </item>
 
-<!--- LA QUERIDA DEL CENTAURO ######## FIN --->
 
-<item>
-	<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]LA QUERIDA DEL CENTAURO[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
-	<link>$doregex[makelist]</link>
-	<thumbnail>http://mysangrelatina.com/wp-content/uploads/2016/01/LQDC_Logo_F-e1454018904170.png</thumbnail>
-	<fanart>http://www.serialzone.cz/obrazky/fanart/13688-la-querida-del-centauro.jpg</fanart>
-	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-LQDC.xml</externallink>
-</item>
 <!---
 <item>
 <title>La Querida Del Centauro - Temporada 1</title>

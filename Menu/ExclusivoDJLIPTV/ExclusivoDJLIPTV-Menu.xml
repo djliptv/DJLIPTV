@@ -64,6 +64,14 @@
 			</item>
 
 			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]LA QUERIDA DEL CENTAURO[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>http://mysangrelatina.com/wp-content/uploads/2016/01/LQDC_Logo_F-e1454018904170.png</thumbnail>
+				<fanart>http://www.serialzone.cz/obrazky/fanart/13688-la-querida-del-centauro.jpg</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-LQDC.xml</externallink>
+			</item>
+			
+			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]LUIS MIGUEL - THE SERIE[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
 				<link>$doregex[makelist]</link>
 				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/TLMTS.png?raw=true</thumbnail>
@@ -103,7 +111,7 @@
 		<fanart>http://statics.viralizalo.com/virs/2016/01/VIR_95868_8151_recuerdas_el_nombre_de_estas_series_infantiles.jpg?cb=30593</fanart>
 		<items>
 			<item>
-				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]SUPER CAMPEONES[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR] [COLOR gold] OPCION 2[/COLOR]</title>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]SUPER CAMPEONES[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
 				<thumbnail>http://static.flickr.com/43/87495933_3d950c98bb_o.png</thumbnail>
 				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
 				<link>$doregex[makelist]</link>
@@ -111,7 +119,7 @@
 			</item>
 			
 			<item>
-				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]THUNDERCATS[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR] [COLOR gold] OPCION 2[/COLOR]</title>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]THUNDERCATS[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
 				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TLFC/TTLFC.png</thumbnail>
 				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TLFC/FTLFC.jpg</fanart>
 				<link>$doregex[makelist]</link>
