@@ -4,7 +4,7 @@
 <channels>
 
 	<channel>
-		<name>MOVIES</name>
+		<name>[B][COLOR gold]+[/COLOR][COLOR deepskyblue]MOVIES[/COLOR][/B]</name>
 		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
 		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
 		<items>
@@ -19,7 +19,7 @@
 	</channel>
 	
 	<channel>
-		<name>SERIES</name>
+		<name>[B][COLOR gold]+[/COLOR][COLOR deepskyblue]SERIES[/COLOR]</name>
 		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/SeriesThumbnail.png?raw=true</thumbnail>
 		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/SeriesFanart.jpg?raw=true</fanart>
 		<items>
@@ -106,7 +106,7 @@
 	</channel>	
 	
 	<channel>
-		<name>SERIES INFANTILES</name>
+		<name>[B][COLOR gold]+[/COLOR][COLOR deepskyblue]SERIES INFANTILES[/COLOR]</name>
 		<thumbnail>https://4.bp.blogspot.com/-6loyXT3YElQ/V1lL370EdhI/AAAAAAAABQU/09zmvbXiQ08OuhsmpOtScrJvqlWYyEMQQCLcB/s640/series.png</thumbnail>
 		<fanart>http://statics.viralizalo.com/virs/2016/01/VIR_95868_8151_recuerdas_el_nombre_de_estas_series_infantiles.jpg?cb=30593</fanart>
 		<items>
