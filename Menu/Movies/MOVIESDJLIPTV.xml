@@ -25,13 +25,6 @@
 </item>
 
 <item>
-	<title>50 SOMBRAS LIBERADAS</title>
-	<link>https://archive.org/download/djliptv-ML/5-NTAgU09NQlJBUyBMSUJFUkFEQVMgMTA4.mp4</link>
-	<thumbnail>https://ia.media-imdb.com/images/M/MV5BODI2ZmM5MzMtOWZiMC00ZGE3LTk3MWEtY2U0ZjE3ZWJlNDEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_CR0,0,668,1000_AL_.jpg</thumbnail>
-	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
-</item>
-
-<item>
 	<title>ACE VENTURA UN DETECTIVE DIFERENTE</title>
 	<link>https://archive.org/download/djliptv-ML/A-QUNFIFZFTlRVUkEgVU4gREVURUNUSVZFIERJRkVSRU5URSAxMDgw.mkv</link>
 	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMjAzNTI0ODUxOF5BMl5BanBnXkFtZTgwNTQxNzQxMTE@._V1_.jpg</thumbnail>
@@ -105,6 +98,13 @@
 	<title>CELLULAR</title>
 	<link>https://archive.org/download/djliptv-ML/C-Q0VMTFVMQVIgNzIw.mkv</link>
 	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMmRmODc1OGEtYzhjOC00Y2FiLWFhNWUtYTJiYjlhMGU0Njk4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+	<title>CINCUENTA SOMBRAS LIBERADAS</title>
+	<link>https://archive.org/download/djliptv-ML/5-NTAgU09NQlJBUyBMSUJFUkFEQVMgMTA4.mp4</link>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BODI2ZmM5MzMtOWZiMC00ZGE3LTk3MWEtY2U0ZjE3ZWJlNDEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_CR0,0,668,1000_AL_.jpg</thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
 
@@ -578,7 +578,7 @@
 </item>
 
 <item>
-	<title>TARZAN - LA EVOLUCION DE LA LEYENDA</title>
+	<title>TARZAN - LA EVOLUCION DE LA LEYENDA 720P</title>
 	<link>https://archive.org/download/djliptv-ML/T-VEFSWkFOIC0gTEEgRVZPTFVDSU9OIERFIExBIExFWUVOREEgNzIw.mp4</link>
 	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTQyODEwMTM2Nl5BMl5BanBnXkFtZTgwMTg1MTA3MDE@._V1_.jpg</thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
@@ -8205,9 +8205,9 @@
 </item>
 
 <item>
-	<title>TARZAN 1</title>
+	<title>TARZAN - LA EVOLUCION DE LA LEYENDA</title>
 	<link>https://archive.org/download/djliptv-ML/T-VEFSWkFOIDEgMTA4.mp4</link>
-	<thumbnail></thumbnail>
+	<thumbnail>https://ia.media-imdb.com/images/M/MV5BMTQyODEwMTM2Nl5BMl5BanBnXkFtZTgwMTg1MTA3MDE@._V1_.jpg</thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesDJLFanart.jpg?raw=true</fanart>
 </item>
 
