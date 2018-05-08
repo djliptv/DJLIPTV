@@ -54,7 +54,7 @@
 
 
 <item>
-<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] CONTENIDO EXCLUSIVO[/COLOR][COLOR grey][I] [Contenido exclusivo DJLIPTV][/I][/COLOR][/B]</title>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]CONTENIDO EXCLUSIVO[/COLOR] [COLOR grey][I][Contenido exclusivo DJLIPTV][/I][/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVLogo.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVCHLogo.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
