@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<channels>
+
+	<channel>
+		<name>MOVIES</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
+		<items>
+			<item>
+				<title>[COLOR white]+[/COLOR] [COLOR deepskyblue]MOVIES[/COLOR] [COLOR orange]DJL[/COLOR][COLOR white] IPTV[/COLOR] [COLOR white][AUDIO LATINO][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>http://bit.ly/DJL-Movies</externallink> <!--- https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Movies/MOVIESDJLIPTV.xml --->
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>SERIES</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/SeriesThumbnail.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/SeriesFanart.jpg?raw=true</fanart>
+		<items>
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]BATES MOTEL[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/BM/tbm.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/BM/fbm.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-BM.xml</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]EDHA[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/te.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/fe.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-E.xml</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/tgot.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-GOT.xml</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]HOUSE OF CARDS[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/thoc.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-HOC/fhoc.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-HOC.xml</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]LA CASA DE PAPEL[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/LCDP/tlcdp.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/LCDP/flcdp.png?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-LCDP.xml</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]LUIS MIGUEL - THE SERIE[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/TLMTS.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/FLMTS.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-LMTS.xml</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]MR. ROBOT[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmr.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-MR.xml</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]PRISON BREAK[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/PB/tpb.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/PB/fpb.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-PB.xml</externallink>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]STRANGER THINGS[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/ST/TST.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/ST/FST.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-ST.xml</externallink>
+			</item>
+		</items>
+	</channel>	
+	
+	<channel>
+		<name>SERIES INFANTILES</name>
+		<thumbnail>https://4.bp.blogspot.com/-6loyXT3YElQ/V1lL370EdhI/AAAAAAAABQU/09zmvbXiQ08OuhsmpOtScrJvqlWYyEMQQCLcB/s640/series.png</thumbnail>
+		<fanart>http://statics.viralizalo.com/virs/2016/01/VIR_95868_8151_recuerdas_el_nombre_de_estas_series_infantiles.jpg?cb=30593</fanart>
+		<items>
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]SUPER CAMPEONES[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR] [COLOR gold] OPCION 2[/COLOR]</title>
+				<thumbnail>http://static.flickr.com/43/87495933_3d950c98bb_o.png</thumbnail>
+				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-CT.xml</externallink>
+			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]THUNDERCATS[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR] [COLOR gold] OPCION 2[/COLOR]</title>
+				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TLFC/TTLFC.png</thumbnail>
+				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TLFC/FTLFC.jpg</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-SI-TLFC.xml</externallink>
+			</item>
+		</items>
+	</channel>	
+
+</channels>
