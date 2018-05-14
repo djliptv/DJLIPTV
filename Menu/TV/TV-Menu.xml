@@ -404,10 +404,10 @@
 
 	<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]BUD TV[/COLOR]</title>
-		<!--- <link>$doregex[makelist]</link> --->
+		<link>http://ignorame</link>
 		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<link>http://144.217.254.216:8000/get.php?username=davidbudtv&password=7Hs8KvuaGC&type=m3u&output=ts</link>
+		<link>https://bit.ly/2IbBmeU</link> <!--- http://144.217.254.216:8000/get.php?username=davidbudtv&password=7Hs8KvuaGC&type=m3u&output=ts --->
 	</item>
 		
 	<item>
