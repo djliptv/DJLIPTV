@@ -80,6 +80,14 @@
 			</item>
 
 			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]MI BELLA GENIO[/COLOR][/B] [COLOR blue][SD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-MBG/tmbg.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/fmbg.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-MBG.xml</externallink>
+			</item>
+			
+			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]MR. ROBOT[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
 				<link>$doregex[makelist]</link>
 				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/MR/tmr.png?raw=true</thumbnail>
