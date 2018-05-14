@@ -26,70 +26,7 @@
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGFanart.jpg?raw=true</fanart>
 <link>https://cdn.younow.com/php/api/broadcast/videoPath/hls=1/broadcastId=179969117_live.m3u8</link>
 </item>
---->		
-		<item>
-<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ARGENTINA[/COLOR]</title>
-<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGThumbnail.png?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGFanart.jpg?raw=true</fanart>
-<link>$doregex[makelist]</link>
-<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Tv-Argentina/Channels-Argentina.xml</externallink>
-</item>
-		
-	<item>
-		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]IPTVP[/COLOR]</title>
-		<link>http://ignorame</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<externallink>http://iptvp.cf/emision?tipo=m3u_plus#.m3u</externallink>
-	</item>		
-
-	<item>
-		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]DARKIPTV[/COLOR]</title>
-		<link>http://ignorame</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<externallink>http://darkiptv.com/tv/lista.php?Darkiptv.m3u</externallink>
-	</item>	
-
-	<item>
-		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ACHOTV 2018[/COLOR]</title>
-		<link>http://ignorame</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<externallink>http://www.achotv.com/listas/achotv2018.m3u8</externallink>
-	</item>	
-	
-	<item>
-		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ACHOTV[/COLOR]</title>
-		<link>http://ignorame</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<externallink>http://www.achotv.com/listas/canales.m3u</externallink>
-	</item>	
-
-	<item>
-		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ACHOTV PAISES[/COLOR]</title>
-		<link>http://ignorame</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<externallink>http://www.achotv.com/listas/paises.m3u8</externallink>
-	</item>	
-
-	<item>
-		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ACHOTV PORTUGAL[/COLOR]</title>
-		<link>http://ignorame</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<externallink>http://www.achotv.com/listas/portugal.m3u</externallink>
-	</item>		
-	
-	<item>
-		<title>[COLOR lightcyan]DEPORTES[/COLOR] [COLOR lightgray]ANDROID TV[/COLOR]</title>
-		<link>http://ignorame</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<externallink>http://androidtv.club/sports.m3u</externallink>
-	</item>
+--->
 
 	<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TV Y PELICULAS TVPREMIUMHD[/COLOR]</title>
@@ -108,28 +45,20 @@
 	</item>
 	
 	<item>
-				<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ANDROID TV[/COLOR]</title>
-				<link>http://ignorame</link>
-				<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-				<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-				<externallink>http://androidtv.club/Latin.m3u</externallink>
-			</item>
-			<!---
-			<item>
-				<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]PREMIER[/COLOR]</title>
-				<link>http://ignorame</link>
-				<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-				<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-				<externallink>http://www.premieriptv.cl/iptvfacebook.m3u</externallink>
-			</item>
-			--->
-			<item>
-				<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]SR. REGIO[/COLOR] [COLOR gray]REGIO TV[/COLOR]</title>
-				<link>http://ignorame</link>
-				<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-				<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-				<externallink>http://srregio.xyz/IPTV/regiotv.m3u</externallink>
-			</item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]DARKIPTV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://darkiptv.com/tv/lista.php?Darkiptv.m3u</externallink>
+	</item>		
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]SR. REGIO[/COLOR] [COLOR gray]REGIO TV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://srregio.xyz/IPTV/regiotv.m3u</externallink>
+	</item>
 
 			<item>
 				<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]SR. REGIO[/COLOR] [COLOR gray]SMART TV[/COLOR]</title>
@@ -137,36 +66,9 @@
 				<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 				<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 				<externallink>http://srregio.xyz/IPTV/smartv.m3u</externallink>
-			</item>
-
-
-
-	<item>
-		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]NIBBLE TV[/COLOR]</title>
-		<link>http://ignorame</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<externallink>https://www.NibbleTV.info/TV-TKC.m3u</externallink>
-		<!--- <externallink>https://www.NibbleTV.info/TV-ZET.m3u</externallink> --->
-	</item>
-
-	<item>
-		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]GORILA TV[/COLOR]</title>
-		<link>http://ignorame</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<externallink>http://gorilatv.club/canales.m3u</externallink>
-	</item>
-
-	<item>
-		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]FLUXUS[/COLOR]</title>
-		<link>http://ignorame</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<externallink>https://dl.dropboxusercontent.com/s/ddnjbe67qokvwz8/iptv.m3u</externallink>
-	</item>
-
-	<item>
+			</item>	
+		
+			<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]RAGNAROK[/COLOR]</title>
 		<link>http://ignorame</link>
 		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
@@ -212,7 +114,122 @@
 		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 		<externallink>http://tecnotv.xyz/fta.m3u</externallink>
-	</item>			
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]KIPTV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://raw.githubusercontent.com/IptvPopeye17/Listas/master/kurt2.m3u</externallink>
+	</item>
+		
+		<item>
+<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ARGENTINA[/COLOR]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVARGFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Tv-Argentina/Channels-Argentina.xml</externallink>
+</item>
+		
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]IPTVP[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://iptvp.cf/emision?tipo=m3u_plus#.m3u</externallink>
+	</item>		
+
+	
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ACHOTV 2018[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://www.achotv.com/listas/achotv2018.m3u8</externallink>
+	</item>	
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ACHOTV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://www.achotv.com/listas/canales.m3u</externallink>
+	</item>	
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ACHOTV PAISES[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://www.achotv.com/listas/paises.m3u8</externallink>
+	</item>	
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ACHOTV PORTUGAL[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://www.achotv.com/listas/portugal.m3u</externallink>
+	</item>		
+	
+	<item>
+		<title>[COLOR lightcyan]DEPORTES[/COLOR] [COLOR lightgray]ANDROID TV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://androidtv.club/sports.m3u</externallink>
+	</item>
+
+
+	
+	<item>
+				<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ANDROID TV[/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+				<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+				<externallink>http://androidtv.club/Latin.m3u</externallink>
+			</item>
+			<!---
+			<item>
+				<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]PREMIER[/COLOR]</title>
+				<link>http://ignorame</link>
+				<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+				<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+				<externallink>http://www.premieriptv.cl/iptvfacebook.m3u</externallink>
+			</item>
+			--->
+		
+
+
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]NIBBLE TV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://www.NibbleTV.info/TV-TKC.m3u</externallink>
+		<!--- <externallink>https://www.NibbleTV.info/TV-ZET.m3u</externallink> --->
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]GORILA TV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://gorilatv.club/canales.m3u</externallink>
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]FLUXUS[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://dl.dropboxusercontent.com/s/ddnjbe67qokvwz8/iptv.m3u</externallink>
+	</item>
+
+			
 
 	<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ESPAÑA - RS IPTV[/COLOR]</title>
@@ -385,6 +402,14 @@
 		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 		<items>
 
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]BUD TV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://144.217.254.216:8000/get.php?username=davidbudtv&password=7Hs8KvuaGC&type=m3u&output=ts</externallink>
+	</item>
+		
 	<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]IPTVLATINO[/COLOR]</title>
 		<link>http://ignorame</link>

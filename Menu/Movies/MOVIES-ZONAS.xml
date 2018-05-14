@@ -716,7 +716,21 @@
 				<link>NA</link>
 			</item>
 			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [COLOR white][VARIADAS][/COLOR][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=0</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=0</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/IptvPopeye17/Listas/master/peliculas/lista.m3u</externallink>
+			</item>
 			
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [COLOR white][VARIADAS][/COLOR][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=0</thumbnail>
+				<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=0</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/IptvPopeye17/Listas/master/KurtTvApp.m3u</externallink>
+			</item>
 			
 			<item>
 				<title>[COLOR white]+[/COLOR] [COLOR deepskyblue] Movies [COLOR violet]FLUXUS CINEMA[/COLOR] [COLOR white][AUDIO INGLES / LATINO][/COLOR]</title>
