@@ -32,6 +32,14 @@
 			</item>
 
 			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]DOCTOR HOUSE[/COLOR][/B] [COLOR blue][SD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-DH/tdh.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-DH/fdh.png?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-DH.xml</externallink>
+			</item>
+			
+			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]EDHA[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
 				<link>$doregex[makelist]</link>
 				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-E/te.png?raw=true</thumbnail>
