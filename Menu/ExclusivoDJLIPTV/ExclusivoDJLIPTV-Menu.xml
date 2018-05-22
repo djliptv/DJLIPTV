@@ -118,6 +118,14 @@
 				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/ST/FST.jpg?raw=true</fanart>
 				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-ST.xml</externallink>
 			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]XENA - LA PRINCESA GUERRERA[/COLOR][/B] [COLOR blue][SD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-XLPG/txlpg.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-XLPG/fxlpg.png?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-XLPG.xml</externallink>
+			</item>
 		</items>
 	</channel>	
 	
