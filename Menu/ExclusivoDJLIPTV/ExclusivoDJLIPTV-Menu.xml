@@ -135,6 +135,14 @@
 		<fanart>http://statics.viralizalo.com/virs/2016/01/VIR_95868_8151_recuerdas_el_nombre_de_estas_series_infantiles.jpg?cb=30593</fanart>
 		<items>
 			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]BIRDMAN[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-BM/tbm.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-BM/fbm.jpg?raw=true</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-SI-BM.xml</externallink>
+			</item>
+		
+			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]SUPER CAMPEONES[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
 				<thumbnail>http://static.flickr.com/43/87495933_3d950c98bb_o.png</thumbnail>
 				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>

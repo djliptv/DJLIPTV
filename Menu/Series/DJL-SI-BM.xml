@@ -4,7 +4,7 @@
 <channels>
 	<channel>
 		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]BIRDMAN[/COLOR][/B] [COLOR blue][SD][/COLOR]</name>
-		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-BM/tbms.png?raw=true</thumbnail>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-BM/tbm.png?raw=true</thumbnail>
 		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-BM/fbm.jpg?raw=true</fanart>
         
 		<items>
@@ -21,7 +21,7 @@
 					
 			<item>
 				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv_gmail_S-BM/BM-01X01.mp4</link> https://archive.org/download/djliptv_gmail_S-BM/BM-01X01.mp4
+				<link>https://archive.org/download/djliptv_gmail_S-BM/BM-01X01.mp4</link>
 				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-BM/tbms1.jpg?raw=true</thumbnail>
 				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-BM/fbm.jpg?raw=true</fanart>
 			</item>
