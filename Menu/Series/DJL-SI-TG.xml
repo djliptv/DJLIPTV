@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
 
-<channels>
-	<channel>
-		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]TRIO GALAXIA[/COLOR][/B] [COLOR blue][SD][/COLOR]</name>
-		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttg.jpg?raw=true</thumbnail>
-		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
-        
+
 		<items>
                 
 			<item>
@@ -159,5 +154,3 @@
 				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
 			</item>
 		</items>
-	</channel>
-</channels>
