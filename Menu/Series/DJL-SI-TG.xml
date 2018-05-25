@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<channels>
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]TRIO GALAXIA[/COLOR][/B] [COLOR blue][SD][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-BM/ttg.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]TRIO GALAXIA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+					
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X01.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X02.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X04.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X05.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X06.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X11.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X12.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X13.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X14.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x15[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X15.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x16[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X16.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x17[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X17.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x18[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X18.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x19[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X19.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x20[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TG/TG-S01X20.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ttgs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>
+</channels>

@@ -157,6 +157,14 @@
 				<link>$doregex[makelist]</link>
 				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-SI-TLFC.xml</externallink>
 			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]TRIO GALAXIA[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-BM/ttg.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/SI-TG/ftg.jpg?raw=true</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-SI-TG.xml</externallink>
+			</item>
 		</items>
 	</channel>	
 
