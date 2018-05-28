@@ -153,6 +153,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]BUBBA Y SUS AMIGOS[/COLOR]</title>
+<fanart>https://yt3.ggpht.com/-AjyzH7Vg-0A/AAAAAAAAAAI/AAAAAAAAAAA/aG9l5jl-sVs/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
+<thumbnail>https://yt3.ggpht.com/-AjyzH7Vg-0A/AAAAAAAAAAI/AAAAAAAAAAA/aG9l5jl-sVs/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<jsonrpc>plugin://plugin.video.youtube/user/monobubba/</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/user/webcamsdemexico --->
+<link>ignorme</link> 
+<info></info>
+</item>
+
+<item>
 	<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] LA CASA DE MICKEY MOUSE[/COLOR]</title>
 	<link>$doregex[makelist]</link>
 	<thumbnail>https://cdn.toyplanet.es/c/222-category/mickey-mouse.jpg</thumbnail>
