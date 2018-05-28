@@ -76,6 +76,48 @@
 				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/TLMTS.png?raw=true</thumbnail>
 				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/FLMTS.jpg?raw=true</fanart>
 			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LMTS/LMTS-S01E07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/TLMTS.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/FLMTS.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LMTS/LMTS-S01E08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/TLMTS.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/FLMTS.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LMTS/LMTS-S01E09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/TLMTS.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/FLMTS.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LMTS/LMTS-S01E10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/TLMTS.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/FLMTS.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LMTS/LMTS-S01E11.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/TLMTS.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/FLMTS.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LMTS/LMTS-S01E12.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/TLMTS.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/FLMTS.jpg?raw=true</fanart>
+			</item>
 		</items>
 	</channel>
 </channels>
