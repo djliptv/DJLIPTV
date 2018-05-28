@@ -162,6 +162,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]THOMAS Y SUS AMIGOS[/COLOR]</title>
+<fanart>https://yt3.ggpht.com/-UqlGqfcBwyg/AAAAAAAAAAI/AAAAAAAAAAA/eFSsdFgg1iA/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
+<thumbnail>https://yt3.ggpht.com/-UqlGqfcBwyg/AAAAAAAAAAI/AAAAAAAAAAA/eFSsdFgg1iA/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLIJPk6tPWQBmZjx1ocQANW8_aE1LmHquH/</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/playlist?list=PLCgom-CXN7-Nm5UdhN4M9EtvnUMljAxxg --->
+<link>ignorme</link> 
+<info></info>
+</item>
+
+<item>
 	<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] LA CASA DE MICKEY MOUSE[/COLOR]</title>
 	<link>$doregex[makelist]</link>
 	<thumbnail>https://cdn.toyplanet.es/c/222-category/mickey-mouse.jpg</thumbnail>
