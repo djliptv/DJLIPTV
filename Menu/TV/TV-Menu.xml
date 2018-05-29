@@ -43,6 +43,22 @@
 		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 		<externallink>http://tvpremiumhd.club/tv.m3u</externallink>
 	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]BUD TV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://bit.ly/BUDIPTV</externallink> <!--- http://144.217.254.216:8000/get.php?username=davidbudtv&password=7Hs8KvuaGC&type=m3u&output=ts --->
+	</item>
+
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TVHD[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/TV-RHD.m3u</externallink> <!--- http://144.217.254.216:8000/get.php?username=davidbudtv&password=7Hs8KvuaGC&type=m3u&output=ts --->
+	</item>
 	
 	<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]DARKIPTV[/COLOR]</title>
@@ -402,13 +418,7 @@
 		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 		<items>
 
-	<item>
-		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]BUD TV[/COLOR]</title>
-		<link>http://ignorame</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<externallink>http://bit.ly/BUDIPTV</externallink> <!--- http://144.217.254.216:8000/get.php?username=davidbudtv&password=7Hs8KvuaGC&type=m3u&output=ts --->
-	</item>
+
 		
 	<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]IPTVLATINO[/COLOR]</title>
