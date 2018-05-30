@@ -54,6 +54,14 @@
 				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-GOT/fgot.jpg?raw=true</fanart>
 				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-GOT.xml</externallink>
 			</item>
+			
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]HEROES[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-H/th.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-H/fh.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-H.xml</externallink>
+			</item>
 
 			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]HOUSE OF CARDS[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
