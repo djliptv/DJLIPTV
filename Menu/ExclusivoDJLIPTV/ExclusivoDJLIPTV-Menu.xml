@@ -30,7 +30,15 @@
 				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/BM/fbm.jpg?raw=true</fanart>
 				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-BM.xml</externallink>
 			</item>
-
+			
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]DANIEL BOONE[/COLOR][/B] [COLOR blue][SD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-DB/tdb.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-DB/fdb.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-DB.xml</externallink>
+			</item>
+			
 			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]DOCTOR HOUSE[/COLOR][/B] [COLOR blue][SD][/COLOR]</title>
 				<link>$doregex[makelist]</link>
