@@ -38,7 +38,7 @@
 				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-DH/fdh.png?raw=true</fanart>
 				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-DH.xml</externallink>
 			</item>
-			
+						
 			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]EDHA[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
 				<link>$doregex[makelist]</link>
@@ -47,6 +47,14 @@
 				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-E.xml</externallink>
 			</item>
 
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]EL AUTO FANTASTICO[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-KR/tkr.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-KR/fkr.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-KR.xml</externallink>
+			</item>
+			
 			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]GAME OF THRONES[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
 				<link>$doregex[makelist]</link>
