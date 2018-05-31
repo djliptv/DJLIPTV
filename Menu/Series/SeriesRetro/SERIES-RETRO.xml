@@ -267,7 +267,7 @@
 <fanart>https://http2.mlstatic.com/combate-serie-tv-clasica-vic-morrow-t-1-D_NQ_NP_384101-MLV20278111916_042015-F.jpg</fanart>
 </item>
 
-<!--- DANIEL BOONE ########  --->
+<!--- DANIEL BOONE ########  
 <item>
 <title>Daniel Boone</title>
 <link>$doregex[makelist]</link>
@@ -305,7 +305,7 @@
 <thumbnail>http://i42.tinypic.com/e5hf2b.jpg</thumbnail>
 <fanart>http://i42.tinypic.com/e5hf2b.jpg</fanart>
 </item>
-
+--->
 <!--- COPIAPOP DRAKE Y JOSH######## INICIO --->
 <item>
 <title>Drake y Josh</title>
@@ -372,7 +372,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>http://2.bp.blogspot.com/-UsuoapxTcA0/T5ikWNeo_wI/AAAAAAAANyk/dRwT6GdDsJw/s1600/Drake_And_Josh_Wallpaper__by_PowderThorn.jpg</fanart>
 </item> 
 
-<!--- EL AUTO FANTASTICO (KNIGHT RIDER) ########  --->
+<!--- EL AUTO FANTASTICO (KNIGHT RIDER) ########  
 <item>
 <title>El Auto Fantastico (Knight Rider)</title>
 <link>$doregex[makelist]</link>
@@ -410,7 +410,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://fanart.tv/fanart/tv/77216/clearlogo/knightrider-77216.png</thumbnail>
 <fanart>http://thenewswheel.com/wp-content/uploads/2015/07/Knight-Rider.png</fanart>
 </item>
-
+--->
 <!--- EL GRAN CHAPARRAL ########  --->
 <item>
 <title>El Gran Chaparral</title>
