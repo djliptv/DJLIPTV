@@ -165,7 +165,15 @@
 				<link>$doregex[makelist]</link>
 				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-SI-BM.xml</externallink>
 			</item>
-		
+			
+			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]HEIDI[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
+				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-H/th.jpg</thumbnail>
+				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-H/fh.jpg</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-SI-H.xml</externallink>
+			</item>
+			
 			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]SUPER CAMPEONES[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
 				<thumbnail>http://static.flickr.com/43/87495933_3d950c98bb_o.png</thumbnail>
