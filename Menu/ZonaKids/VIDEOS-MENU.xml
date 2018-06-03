@@ -171,6 +171,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]PEPPA PIG[/COLOR]</title>
+<fanart>https://yt3.ggpht.com/-7_iBgucFeO8/AAAAAAAAAAI/AAAAAAAAAAA/dz8vdqatiEY/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
+<thumbnail>https://yt3.ggpht.com/-7_iBgucFeO8/AAAAAAAAAAI/AAAAAAAAAAA/dz8vdqatiEY/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<jsonrpc>plugin://plugin.video.youtube/channel/UCrreHSUa5rnuCVDeO8dX4eA/</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/playlist?list=PLCgom-CXN7-Nm5UdhN4M9EtvnUMljAxxg --->
+<link>ignorme</link> 
+<info></info>
+</item>
+
+<item>
 	<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] LA CASA DE MICKEY MOUSE[/COLOR]</title>
 	<link>$doregex[makelist]</link>
 	<thumbnail>https://cdn.toyplanet.es/c/222-category/mickey-mouse.jpg</thumbnail>
