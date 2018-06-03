@@ -183,7 +183,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]PEPPA PIG[/COLOR]</title>
 	<fanart>https://yt3.ggpht.com/-7_iBgucFeO8/AAAAAAAAAAI/AAAAAAAAAAA/dz8vdqatiEY/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
 	<thumbnail>https://yt3.ggpht.com/-7_iBgucFeO8/AAAAAAAAAAI/AAAAAAAAAAA/dz8vdqatiEY/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
-	<link>plugin://plugin.video.youtube/play/?video_id=JtZJ96kXEos</link>
+	<jsonrpc>plugin://plugin.video.youtube/play/?video_id=JtZJ96kXEos</jsonrpc>
+	<link>ignorme</link>
 </item>
 
 <item>
