@@ -175,6 +175,14 @@
 			</item>
 			
 			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]LAS AVENTURAS DE TOM SAWYER[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
+				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TSY/tts.png</thumbnail>
+				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TSY/fts.jpg</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-SI-TSY.xml</externallink>
+			</item>
+			
+			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]SUPER CAMPEONES[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
 				<thumbnail>http://static.flickr.com/43/87495933_3d950c98bb_o.png</thumbnail>
 				<fanart>http://3.bp.blogspot.com/-YFmcE8bohFM/UX7FQiYAcdI/AAAAAAAAASY/zay60ZRrfZw/s1600/Seleccion+japon.jpg</fanart>
