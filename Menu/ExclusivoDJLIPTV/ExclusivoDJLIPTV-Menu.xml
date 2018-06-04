@@ -175,6 +175,14 @@
 			</item>
 			
 			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]LA FAMILIA ROBINSON[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
+				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-LFR/tlfr.png</thumbnail>
+				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-LFR/flfr.jpg</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-SI-LFR.xml</externallink>
+			</item>
+			
+			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]LAS AVENTURAS DE TOM SAWYER[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
 				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TSY/tts.png</thumbnail>
 				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TSY/fts.jpg</fanart>

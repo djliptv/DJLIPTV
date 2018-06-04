@@ -1,7 +1,7 @@
 <items>
             
 	<item>
-		<title>[COLOR white]::: |[/COLOR] [COLOR white]+[/COLOR] [B][COLOR skyblue]LAS AVENTURAS DE TOM SAWYER[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR white]| :::[/COLOR]</title>
+		<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]LAS AVENTURAS DE TOM SAWYER[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR white]| :::[/COLOR]</title>
 		<link>NA</link>
 	</item>
 		
@@ -346,31 +346,4 @@
 	<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TSY/fts.jpg</fanart>
 </item>
 
-<item>
-	<title>[COLOR skyblue][B]49[/B][/COLOR]</title>
-	<link>https://archive.org/download/djliptv-SI-TSY/TS-49.mp4</link>
-	<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TSY/tts.jpg</thumbnail>
-	<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TSY/fts.jpg</fanart>
-</item>
-
-<item>
-	<title>[COLOR skyblue][B]50[/B][/COLOR]</title>
-	<link>https://archive.org/download/djliptv-SI-TSY/TS-50.mp4</link>
-	<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TSY/tts.jpg</thumbnail>
-	<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TSY/fts.jpg</fanart>
-</item>
-
-<item>
-	<title>[COLOR skyblue][B]51[/B][/COLOR]</title>
-	<link>https://archive.org/download/djliptv-SI-TSY/TS-51.mp4</link>
-	<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TSY/tts.jpg</thumbnail>
-	<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TSY/fts.jpg</fanart>
-</item>
-
-<item>
-	<title>[COLOR skyblue][B]52[/B][/COLOR]</title>
-	<link>https://archive.org/download/djliptv-SI-TSY/TS-52.mp4</link>
-	<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TSY/tts.jpg</thumbnail>
-	<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TSY/fts.jpg</fanart>
-</item>
 </items>
