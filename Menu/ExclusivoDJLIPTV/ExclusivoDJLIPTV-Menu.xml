@@ -80,6 +80,14 @@
 			</item>
 			
 			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tb.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-B.xml</externallink>
+			</item>
+			
+			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]HEROES[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
 				<link>$doregex[makelist]</link>
 				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-H/th.png?raw=true</thumbnail>

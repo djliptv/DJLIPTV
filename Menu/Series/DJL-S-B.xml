@@ -1,0 +1,1934 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<channels>
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X01.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X02.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X04.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X05.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X06.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X11.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X12.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X13.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X14.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X15[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X15.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X16[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X16.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X17[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X17.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X18[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X18.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X19[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X19.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X20[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X20.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X21[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X21.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X22[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X22.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X23[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X23.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X24[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X24.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X25[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X25.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X26[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X26.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X27[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X27.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X28[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X28.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X29[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X29.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X30[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X30.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X31[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X31.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X32[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X32.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X33[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X33.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X34[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X34.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X35[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X35.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X36[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-01X36.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 2][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 2][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X01.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X02.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X04.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X05.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X06.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X11.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X12.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X13.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X14.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X15[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X15.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X16[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X16.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X17[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X17.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X18[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X18.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X19[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X19.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X20[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X20.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X21[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X21.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X22[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X22.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X23[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X23.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X24[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X24.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X25[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X25.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X26[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X26.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X27[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X27.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X28[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X28.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X29[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X29.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X30[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X30.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X31[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X31.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X32[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X32.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X33[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X33.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X34[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X34.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X35[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X35.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X36[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X36.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X37[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X37.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X38[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-02X38.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 3][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 3][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X01.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X02.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X04.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X05.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X06.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X11.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X12.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X13.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X14.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X15[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X15.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X16[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X16.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X17[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X17.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X18[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X18.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X19[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X19.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X20[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X20.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X21[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X21.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X22[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X22.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X23[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X23.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X24[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X24.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X25[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X25.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X26[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X26.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X27[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X27.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X28[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X28.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X29[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X29.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X30[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X30.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X31[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X31.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X32[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X32.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X33[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-03X33.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 4][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 4][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]04X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X01.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X02.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X04.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X05.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X06.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X11.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X12.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X13.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X14.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X15[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X15.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X16[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X16.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X17[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X17.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X18[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X18.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X19[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X19.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X20[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X20.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X21[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X21.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X22[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X22.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X23[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X23.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X24[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X24.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X25[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X25.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X26[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X26.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X27[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X27.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X28[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X28.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X29[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X29.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X30[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X30.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X31[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X31.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X32[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X32.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X33[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-04X33.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 5][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 5][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]05X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X01.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X02.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X04.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X05.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X06.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X11.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X12.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X13.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X14.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X15[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X15.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X16[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X16.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X17[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X17.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X18[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X18.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X19[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X19.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X20[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X20.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X21[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X21.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X22[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X22.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X23[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X23.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X24[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X24.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X25[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X25.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X26[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X26.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X27[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X27.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X28[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X28.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X29[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X29.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X30[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-05X30.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 6][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 6][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]06X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X01.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X02.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X04.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X05.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X06.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X11.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X12.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X13.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X14.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X15[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X15.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X16[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X16.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X17[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X17.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X18[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X18.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X19[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X19.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X20[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X20.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X21[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X21.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X22[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X22.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X23[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X23.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X24[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X24.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X25[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X25.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X26[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X26.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X27[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X27.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X28[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X28.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X29[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X29.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X30[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-06X30.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs6.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 7][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 7][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]07X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X01.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X02.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X04.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X05.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X06.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X11.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X12.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X13.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X14.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X15[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X15.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X16[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X16.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X17[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X17.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X18[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X18.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X19[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X19.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X20[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X20.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X21[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X21.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X22[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X22.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X23[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X23.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X24[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X24.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X25[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X25.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X26[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X26.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X27[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X27.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]07X28[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-07X28.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs7.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 8][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]HECHIZADA[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 8][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]08X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X01.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X02.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X04.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X05.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X06.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X11.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X12.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X13.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X14.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X15[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X15.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X16[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X16.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X17[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X17.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X18[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X18.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X19[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X19.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X20[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X20.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X21[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X21.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X22[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X22.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X23[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X23.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X24[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X24.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X25[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X25.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]08X26[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-B/B-08X26.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/tbs8.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-B/fb.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>
+</channels>
