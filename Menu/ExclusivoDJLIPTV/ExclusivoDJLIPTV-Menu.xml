@@ -24,6 +24,14 @@
 		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/SeriesFanart.jpg?raw=true</fanart>
 		<items>
 			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]ALF[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-A/ta.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-A/fa.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-A.xml</externallink>
+			</item>
+			
+			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]BATES MOTEL[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
 				<link>$doregex[makelist]</link>
 				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/BM/tbm.png?raw=true</thumbnail>
