@@ -40,6 +40,14 @@
 			</item>
 			
 			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]BRIGADA A: LOS MAGNIFICOS[/COLOR][/B] [COLOR blue][SD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttat.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-TAT.xml</externallink>
+			</item>
+			
+			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]DANIEL BOONE[/COLOR][/B] [COLOR blue][SD][/COLOR]</title>
 				<link>$doregex[makelist]</link>
 				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-DB/tdb.jpg?raw=true</thumbnail>

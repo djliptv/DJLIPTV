@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<channels>
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]BRIGADA A: LOS MAGNIFICOS[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats1.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]BRIGADA A: LOS MAGNIFICOS[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01X01-02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-01X01-02.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-01X03.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-01X04.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-01X05.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-01X06.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-01X07.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-01X08.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-01X09.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-01X10.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-01X11.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-01X12.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-01X13.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-01X14.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]BRIGADA A: LOS MAGNIFICOS[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 2][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]BRIGADA A: LOS MAGNIFICOS[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 2][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X01.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X02.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X03.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X04.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X05-06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X05-06.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X07.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X08.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X09.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X10.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X11.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X12.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X13.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X14.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X15[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X15.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X16[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X16.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X17[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X17.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X18[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X18.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X19[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X19.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X20[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X20.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X21[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X21.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X22[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X22.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X23[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-02X23.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]BRIGADA A: LOS MAGNIFICOS[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 3][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]BRIGADA A: LOS MAGNIFICOS[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 3][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X01.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X02-03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X02-03.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X04.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X05.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X06.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X07.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X08.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X09.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X10.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X11.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X12.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X13.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X14.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X15[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X15.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X16[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X16.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X17[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X17.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X18[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X18.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X19[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X19.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X20[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X20.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X21[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X21.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X22[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X22.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X23[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X23.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X24[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X24.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]03X25[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-03X25.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]BRIGADA A: LOS MAGNIFICOS[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 4][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]BRIGADA A: LOS MAGNIFICOS[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 4][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]04X01-02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X01-02.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X03.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X04.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X05.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X06.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X07.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X08.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X09.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X10.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X11.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X12.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X13.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X14.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X15[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X15.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X16[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X16.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X17[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X17.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X18[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X18.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X19[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X19.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X20[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X20.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X21[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X21.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X22[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X22.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]04X23[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-04X23.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats4.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]BRIGADA A: LOS MAGNIFICOS[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 5][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats5.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]BRIGADA A: LOS MAGNIFICOS[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 5][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]05X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-05X01.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-05X02.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-05X03.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-05X04.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-05X05.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-05X06.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-05X07.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-05X08.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-05X09.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-05X10.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-05X11.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-05X12.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-TAT/TAT-05X13.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ttats5.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-TAT/ftat.jpg?raw=true</fanart>
+			</item>
+		</items>
+	</channel>
+</channels>

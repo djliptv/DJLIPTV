@@ -53,6 +53,26 @@
 	</item>
 
 	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]24/7[/COLOR]</title>
+		<link>$doregex[makelist]</link>
+		<regex>
+			<name>makelist</name>
+			<listrepeat><![CDATA[
+				<title>[makelist.param2]</title>
+				<link>https://mp4.vaughnsoft.net/live?app=live&amp;port=2935&amp;stream=live_[makelist.param1]|Referer=https://vaughnlive.tv/</link>
+				<thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/[makelist.param2]_320.jpg</thumbnail>
+			]]></listrepeat>
+			<expres>a href="/(.*?)"[\w\W\s]{0,22}browseTxt">(.*?)<</expres>
+			<page>https://vaughnlive.tv/browse/espanol&amp;a=mvn</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer></referer>
+			<cookieJar></cookieJar>
+		</regex>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]PREMIUMIPTV[/COLOR]</title>
 		<link>http://ignorame</link>
 		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
