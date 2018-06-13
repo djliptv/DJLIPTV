@@ -53,6 +53,14 @@
 	</item>
 
 	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]KOBRATEC[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://kobratec.tk/tv/lista.m3u</externallink>
+	</item>
+	
+	<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]24/7[/COLOR]</title>
 		<link>$doregex[makelist]</link>
 		<regex>
@@ -446,8 +454,54 @@
 		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
 		<items>
 
-
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]FULL[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/TV-DROPBOX.m3u</externallink>
+	</item>	
 		
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]MUNDO CRUEL[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/uZmTQU3w</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTA 1[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/hm3hYacq</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTA 2[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/EybApjs8</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTA 3[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/isHd17pg</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTA 4[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/ipmR0maD</externallink>
+	</item>
+	
 	<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]IPTVLATINO[/COLOR]</title>
 		<link>http://ignorame</link>
