@@ -52,6 +52,13 @@
 </item> 
 --->
 
+<item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]MUNDIAL FIFA RUSSIA 2018[/COLOR] [COLOR grey][I][Cobertura de la FIFA WORLD CUP RUSSIA 2018][/I][/COLOR][/B]</title>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/6/67/2018_FIFA_World_Cup.svg/1200px-2018_FIFA_World_Cup.svg.png</thumbnail>
+<fanart>https://pre00.deviantart.net/4ad2/th/pre/f/2017/350/d/4/fifa_world_cup_2018_russia_desktop_wallpaper_by_graphicsamhd-dbwvgvz.jpg</fanart>
+<link>$doregex[makelist]</link>
+<externallink>http://srregio.xyz/mundial.m3u</externallink>
+</item>
 
 <item>
 <title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]CONTENIDO EXCLUSIVO[/COLOR] [COLOR grey][I][Contenido exclusivo DJLIPTV][/I][/COLOR][/B]</title>
