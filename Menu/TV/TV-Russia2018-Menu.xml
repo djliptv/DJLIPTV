@@ -10,7 +10,7 @@
 </item>
 
 <item>
-<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]MUNDIAL FIFA RUSSIA 2018[/COLOR] [COLOR darkgrey]OPCION 2[/COLOR]</title>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]MUNDIAL FIFA RUSSIA 2018[/COLOR][/B] [COLOR darkgrey]OPCION 2[/COLOR]</title>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/6/67/2018_FIFA_World_Cup.svg/1200px-2018_FIFA_World_Cup.svg.png</thumbnail>
 <fanart>https://pre00.deviantart.net/4ad2/th/pre/f/2017/350/d/4/fifa_world_cup_2018_russia_desktop_wallpaper_by_graphicsamhd-dbwvgvz.jpg</fanart>
 <link>$doregex[makelist]</link>
@@ -18,7 +18,7 @@
 </item>
 
 <item>
-<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]MUNDIAL FIFA RUSSIA 2018[/COLOR] [COLOR darkgrey]OPCION 3[/COLOR]</title>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]MUNDIAL FIFA RUSSIA 2018[/COLOR][/B] [COLOR darkgrey]OPCION 3[/COLOR]</title>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/6/67/2018_FIFA_World_Cup.svg/1200px-2018_FIFA_World_Cup.svg.png</thumbnail>
 <fanart>https://pre00.deviantart.net/4ad2/th/pre/f/2017/350/d/4/fifa_world_cup_2018_russia_desktop_wallpaper_by_graphicsamhd-dbwvgvz.jpg</fanart>
 <link>$doregex[makelist]</link>
