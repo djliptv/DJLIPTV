@@ -1,0 +1,45 @@
+#EXTM3U
+#EXTINF:-1 Discovery Channel
+http://s4.tvcanales.cf:2082/livelwtv/272.m3u8?token=MXrXNr9VNunWJue04ody6w&expires=1529220926
+#EXTINF:-1 History Channel
+http://s4.tvcanales.cf:2082/livelwtv/233.m3u8?token=Ui9IDHVUTApCuq01sPzPXA&expires=1529223759
+#EXTINF:-1 TNT
+http://s4.tvcanales.cf:2082/livelwtv/129.m3u8?token=reVOopfSy8Trn17LEsfRSA&expires=1529223943
+#EXTINF:-1 HBO
+http://s4.tvcanales.cf:2082/livelwtv/107.m3u8?token=RNBD3WiuIfcUVFVyia-q_Q&expires=1529223996
+#EXTINF:-1 HBO plus
+https://mp4.vaughnsoft.net/live?app=live&port=2935&stream=live_mega_extremo
+#EXTINF:-1 HBO2
+http://s4.tvcanales.cf:2082/livelwtv/115.m3u8?token=1upw4hNBB8aAx6DFTWXbcQ&expires=1529224571
+#EXTINF:-1 Universal Channel 
+http://s4.tvcanales.cf:2082/livelwtv/285.m3u8?token=qbhONwS4dqS8e6_ds9BiwA&expires=1529224684
+#EXTINF:-1 TYC Sports Hd
+https://d3055hobuue3je.cloudfront.net/out/v1/b841c366cbe540e6a106c3ba83e5c8d6/index.m3u8
+#EXTINF:-1 ESPN
+http://101.liveflashplayer.org:8088/zenex/espnmaya1/playlist.m3u8?id=28242&pk=006d44dbe13c89e6c86dd6390b4aae2fe12c61a43dc0113ff0ecb372ef8b7870
+#EXTINF:-1 Space
+http://c09.spanel.xyz:8088/stream/spacerupa/playlist.m3u8?id=8687&pk=d9b4a296051fc43ab2f1d836b91da9ce342f0c7d68092eb9909441c28ffeb414
+#EXTINF:-1 Investigation Discovery 
+http://s4.tvcanales.cf:2082/livelwtv/284.m3u8?token=9Ai2ywr6PJ3QUCGml9s4YQ&expires=1529225558
+#EXTINF:-1 Telefe
+https://mp4.vaughnsoft.net/live?app=live&port=2935&stream=live_beto_26
+#EXTINF:-1 TNT Series 
+http://s4.tvcanales.cf:2082/livelwtv/227.m3u8?token=rrAccBxhZNmbXOGXiB2xgQ&expires=1529225890
+#EXTINF:-1 Cartoon Networks 
+http://2d06.janjuaplayer.com:8088/live/cartoonaliciapatona/playlist.m3u8?id=78635&pk=d9b4a296051fc43ab2f1d836b91da9ce342f0c7d68092eb9909441c28ffeb414
+#EXTINF:-1 National Geographic
+http://s4.tvcanales.cf:2082/livelwtv/258.m3u8?token=I5vgcyAFKwGb8-SQx-BmDA&expires=1529226226
+#EXTINF:-1 Animal Planet
+http://s4.tvcanales.cf:2082/livelwtv/277.m3u8?token=Eo6opAn7SEzgvT57hpzc3Q&expires=1529226311
+#EXTINF:-1 VTV Uruguay
+http://petopa153.caraponi.me/live/vtv/index.m3u8?token=20bzEE3pHk6i0yz1-oCrAw&expires=1529292038
+#EXTINF:-1 DirecTV Sports
+https://ssl2.cdn4.us/ingest07/25802.m3u8?sf=ZVhjV0hiV2kxYw==&rnd=CTQWaDzcdw&token=k806cEkx-ixWuC38i2A0WA&expires=1529213254
+#EXTINF:-1 Foxsports2
+http://s4.tvcanales.cf:2082/livelwtv/103.m3u8?token=Ed9gT99WBRl5Ouj6tw9Peg&expires=1529227793
+#EXTINF:-1 Foxsports3
+http://s4.tvcanales.cf:2082/livelwtv/109.m3u8?token=KZhddBwsaWjRoqB3C7d-YQ&expires=1529227826
+#EXTINF:-1 ESPN2
+http://s4.tvcanales.cf:2082/livelwtv/100.m3u8?token=iVjxqDMmoF-koW6NXIDcTA&expires=1529228094
+#EXTINF:-1 ESPN3
+http://s4.tvcanales.cf:2082/livelwtv/111.m3u8?token=B1pVzhWIxTM249kj91ZT-g&expires=1529228035
