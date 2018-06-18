@@ -32,3 +32,26 @@
 <link>ma</link>
 <externallink>https://pastebin.com/raw/wgCGYyup</externallink>
 </item>
+
+<item>
+<title>[COLOR red]EXA[/COLOR][COLOR white]BYTE[/COLOR][COLOR red] TV[/COLOR][COLOR yellow] LISTA[/COLOR]</title>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/6/67/2018_FIFA_World_Cup.svg/1200px-2018_FIFA_World_Cup.svg.png</thumbnail>
+<fanart>https://pre00.deviantart.net/4ad2/th/pre/f/2017/350/d/4/fifa_world_cup_2018_russia_desktop_wallpaper_by_graphicsamhd-dbwvgvz.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>https://pastebin.com/raw/wgCGYyup</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>  
+<expres>Agent:"(.*?)";</expres>  
+<page>Z3z2EfVw48</page>
+</regex>
+<item>
