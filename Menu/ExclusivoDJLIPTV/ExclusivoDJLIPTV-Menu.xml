@@ -195,11 +195,11 @@
 				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-HYLADU/thyladu.png</thumbnail>
 				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-HYLADU/fhyladu.jpg</fanart>
 				<link>$doregex[makelist]</link>
-				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-SI-H.xml</externallink>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-SI-HYLADU.xml</externallink>
 			</item>
 			
 			<item>
-				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]HE-MAN Y LOS AMOS DEL UNIVERSO[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]HEIDI[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
 				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-H/th.png</thumbnail>
 				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-H/fh.jpg</fanart>
 				<link>$doregex[makelist]</link>
