@@ -894,7 +894,7 @@
 				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Movies/Test/TEST-MENU.xml</externallink>
 			</item>
 	</channel>
-	
+<!---	
 	<channel>
 		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies Sagas[/COLOR] [COLOR gold][ZONA 1][/COLOR]</name>
 		<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
@@ -1245,7 +1245,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			</item>
 			
 	</channel>
-	
+	--->
 </channels>
 
 <!--- ejemplo
