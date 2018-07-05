@@ -702,9 +702,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/MoviesThumbnail.jpg</thumbnail> 
 <fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/MoviesFanart.jpg</fanart> 
 </item>
-<!---
+
 <item> 
-<title>MOVIES DISKOKOSMICO</title> 
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]SAGA[/COLOR] [COLOR cyan]LOCA ACADEMIA DE POLICIA[/COLOR]</title> 
 <link>$doregex[makelist]</link> 
   
 <regex> 
@@ -716,7 +716,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
         <fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/MoviesFanart.jpg</fanart> 
 ]]></listrepeat> 
 <expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres> 
-<page>http://diskokosmiko.mx/IngArturo/super-coleccion-de-pelis-audio-latino-20342/list,1,100</page> 
+<page>http://diskokosmiko.mx/naredo/loca-academia-de-policia-19983/list,1,100</page> 
 <cookieJar></cookieJar> 
 </regex> 
   
@@ -756,7 +756,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/MoviesThumbnail.jpg</thumbnail> 
 <fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/MoviesFanart.jpg</fanart> 
 </item>
-
+<!---
 <item> 
 <title>MOVIES DISKOKOSMICO</title> 
 <link>$doregex[makelist]</link> 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [COLOR orange]SALA 1[/COLOR][COLOR white] 24/7[/COLOR] [COLOR white][AUDIO LATINO][/COLOR][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+				<link>plugin://plugin.video.youtube/play/?video_id=XlvxmbihwDs</link>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [COLOR orange]SALA 2[/COLOR][COLOR white] 24/7[/COLOR] [COLOR white][AUDIO LATINO][/COLOR][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+				<link>plugin://plugin.video.youtube/play/?video_id=x5RDiK-Dt6A</link>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [COLOR orange]SALA 3[/COLOR][COLOR white] 24/7[/COLOR][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+				<link>plugin://plugin.video.youtube/play/?video_id=RvpyDiP7aVI</link>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [COLOR orange]SALA 1[/COLOR] [ACCION][COLOR white] 24/7[/COLOR] [COLOR white][AUDIO LATINO][/COLOR][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+				<link>plugin://plugin.video.youtube/play/?video_id=2P3CWdZweNU</link>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [COLOR orange]SALA 2[/COLOR] [ACCION][COLOR white] 24/7[/COLOR] [COLOR white][AUDIO LATINO][/COLOR][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+				<link>plugin://plugin.video.youtube/play/?video_id=K_ebKoWu7EA</link>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [COLOR orange]SALA 3[/COLOR] [ACCION][COLOR white] 24/7[/COLOR] [COLOR white][AUDIO LATINO][/COLOR][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+				<link>plugin://plugin.video.youtube/play/?video_id=4dlmanXGEE8</link>
+			</item>
+
+			<item>
+				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [COLOR orange]SALA 1[/COLOR] [TERROR][COLOR white] 24/7[/COLOR] [COLOR white][AUDIO LATINO][/COLOR][/COLOR]</title>
+				<thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail>
+				<fanart>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</fanart>
+				<link>plugin://plugin.video.youtube/play/?video_id=br2b4MD6ipQ</link>
+			</item>
