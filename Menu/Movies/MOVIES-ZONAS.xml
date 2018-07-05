@@ -12,12 +12,18 @@
 	
 	<channel>
 		<name>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 1][/COLOR]</name>
-		<thumbnail>https://www.dropbox.com/s/viw45u8cv7x1alr/Movies_Logo_500x281.jpg?dl=1</thumbnail>
-		<fanart>https://www.dropbox.com/s/3c43q3vpa7ekz3j/MOVIES-FANART.jpg?dl=1</fanart>
+		<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/MoviesThumbnail.jpg</thumbnail> 
+        <fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/MoviesFanart.jpg</fanart> 
         
 		<items>
 		
-
+			<item>
+				<title>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies[/COLOR] [COLOR gold][ZONA 1][/COLOR]</title>
+				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/MoviesThumbnail.jpg</thumbnail> 
+				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/MoviesFanart.jpg</fanart> 
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Movies/MOVIES-ZONA-1.xml</externallink> <!---  --->
+			</item>
 			<!---
 			<item>
 				<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue] Movies [/COLOR][COLOR blue]SUPER COLECCION DE PELICULAS [/COLOR][COLOR white][AUDIO LATINO][/COLOR]</title>
