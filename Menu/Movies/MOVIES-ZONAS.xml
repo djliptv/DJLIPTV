@@ -1007,7 +1007,7 @@
 				<link>NA</link>
 			</item>
 			
-			<!-- === ZONA 2 - MOVIES SAGAS COPIAPOP === -->
+			<!-- === ZONA 2 - MOVIES SAGAS COPIAPOP === --
 <item>
 <title>[COLOR white]+[/COLOR] [COLOR deepskyblue]Movies Sagas[/COLOR] [COLOR gold][ZONA 2][/COLOR]</title>
 <link>$doregex[makelist2]</link>
