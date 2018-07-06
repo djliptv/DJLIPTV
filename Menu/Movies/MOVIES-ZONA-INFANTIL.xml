@@ -2,7 +2,7 @@
 <?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
 
 <item> 
-<title>[COLOR white]+[/COLOR] [COLOR deepskyblue]Justice League[/COLOR]</title> 
+<title>[COLOR white]+[/COLOR] [COLOR deepskyblue]JUSTICE LEAGUE[/COLOR]</title> 
 <link>$doregex[makelist]</link> 
   
 <regex> 
@@ -54,6 +54,61 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/KidsMoviesThumbnail.png</thumbnail> 
 <fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/KidsMoviesFanart.jpg</fanart> 
 </item>
+
+<item> 
+<title>[COLOR white]+[/COLOR] [COLOR deepskyblue]WALT DISNEY[/COLOR]</title> 
+<link>$doregex[makelist]</link> 
+  
+<regex> 
+  <name>makelist</name> 
+  <listrepeat><![CDATA[ 
+        <title>[makelist.param2]</title> 
+        <link>$doregex[getUrl]</link> 
+        <thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/KidsMoviesThumbnail.png</thumbnail> 
+        <fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/KidsMoviesFanart.jpg</fanart> 
+]]></listrepeat> 
+<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres> 
+<page>http://diskokosmiko.mx/anime1/disney-movies-23803/list,1,100</page> 
+<cookieJar></cookieJar> 
+</regex> 
+  
+<regex><name>getUrl</name> 
+<expres><![CDATA[#$pyFunction 
+import re , requests ,json 
+def GetLSProData(page_data,Cookie_Jar,m): 
+  
+ ref = 'http://diskokosmiko.mx/' 
+ url='http://diskokosmiko.mx[makelist.param1]' 
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref , 
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'} 
+ session = requests.Session() 
+ r = session.get(url, headers=headers) 
+ rv1 = r.cookies 
+  
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0] 
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken} 
+ nr = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text 
+ nrj=json.loads(nr) 
+ nr = nrj['Content'] 
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0] 
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'djliptvaddon' , 'Password' : 'djliptvaddon'} 
+ nr1 = requests.post('http://diskokosmiko.mx/action/Account/Login', headers=headers,cookies = rv1 , data=data_a) 
+ print nr1.headers['Set-Cookie'] 
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0] 
+ rv1['.ASPXAUTH_v2'] = rasp 
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken} 
+ nr3 = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text 
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0] 
+ print r3 
+ return r3 
+]]></expres> 
+<page></page> 
+<cookieJar></cookieJar> 
+</regex> 
+<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/KidsMoviesThumbnail.png</thumbnail> 
+<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/KidsMoviesFanart.jpg</fanart> 
+</item>
+
 <!---
 <item> 
 <title>MOVIES DISKOKOSMICO</title> 
