@@ -2,15 +2,6 @@
 <?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
 
 <channels>
-    <channels_info> <!-- this is opitonal -->
-      <title>DJLIPTV</title> <!-- if channels_info, a title is required, other elements are optional -->
-      <genre>Television</genre>
-      <description>Lista de Movies DJLIPTV  </description>
-       <thumbnail>https://www.dropbox.com/s/cv03buq9dud2u64/DJLIPTVCHLogo.jpg?dl=1</thumbnail><fanart>http://i.imgur.com/UAQY3DI.jpg</fanart>
-      <date>01.01.2017</date>
-      <credits>http://bit.ly/DJLIPTVWEB</credits>
-    </channels_info>
-			
 	<channel>
 		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]LUIS MIGUEL - THE SERIE[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
 		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/TLMTS.png?raw=true</thumbnail>
@@ -115,6 +106,13 @@
 			<item>
 				<title>[COLOR skyblue][B]01x12[/B][/COLOR]</title>
 				<link>https://archive.org/download/djliptv-S-LMTS/LMTS-S01E12.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/TLMTS.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/FLMTS.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LMTS/LMTS-S01E13.mkv</link>
 				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/TLMTS.png?raw=true</thumbnail>
 				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-LMTS/FLMTS.jpg?raw=true</fanart>
 			</item>
