@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<channels>
+			
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]VIS A VIS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs1.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]VIS A VIS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-01X01.mp4</link> 
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-01X02.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-01X03.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-01X04.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-01X05.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-01X06.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-01X07.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-01X08.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-01X09.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-01X10.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01x11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-01X11.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+		
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]VIS A VIS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 2][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs2.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]VIS A VIS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 2][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-02X01.mp4</link> 
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-02X02.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-02X03.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-02X04.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-02X05.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-02X06.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-02X07.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-02X08.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-02X09.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-02X10.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X11[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-02X11.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X12[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-02X12.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]02X13[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-02X13.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+		
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]VIS A VIS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 2][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs3.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]VIS A VIS[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 2][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-03X01.mp4</link> 
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-03X02.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-03X03.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-03X04.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-03X05.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-03X06.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-03X07.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-VAV/VAV-03X08.mp4</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvavs3.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+		
+	</channel>
+	
+</channels>
