@@ -184,7 +184,7 @@
 			</item>
 			
 			<item>
-				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]VIS A VIS[/COLOR][/B] [COLOR blue][SD][/COLOR]</title>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]VIS A VIS[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
 				<link>$doregex[makelist]</link>
 				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/tvav.png?raw=true</thumbnail>
 			<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-VAV/fvav.jpg?raw=true</fanart>
