@@ -247,6 +247,14 @@
 			</item>
 			
 			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]LOS SIMPSONS[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/pics/SI-TS/tts.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/pics/SI-TS/fts.jpg?raw=true</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-SI-TS.xml</externallink>
+			</item>
+			
+			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]PEPPA PIG[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
 				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-PP/tpp.png</thumbnail>
 				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-PP/fpp.png</fanart>
