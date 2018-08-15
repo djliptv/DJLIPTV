@@ -3,13 +3,13 @@
 
 <channels>
 	<channel>
-		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]SPIDER-MAN[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]SPIDER-MAN[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
 		<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-MSM/tmsms1.jpg</thumbnail>
 		<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-MSM/fmsm.jpg</fanart>
         
 		<items>
 			<item>
-				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]SPIDER-MAN[/COLOR][/B] [COLOR blue][SD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]SPIDER-MAN[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
 				<link>NA</link>
 			</item>
 			
