@@ -22,8 +22,22 @@
 <externallink>http://pastebin.com</externallink>
 </item>
  
- 
- 
+<item>
+<title>[COLOR skyblue]PayPal:[/COLOR][COLOR cyan] | [/COLOR][COLOR white][B]https://www.paypal.me/DJLIPTV[/B][/COLOR][COLOR cyan] |[/COLOR]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/PaypalThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/PaypalFanart.png?raw=true</fanart>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com</externallink>
+</item>
+
+<item>
+<title>[COLOR skyblue]Telegram:[/COLOR][COLOR cyan] | [/COLOR][COLOR white][B]https://t.me/djliptv[/B][/COLOR][COLOR cyan] |[/COLOR]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TelegramThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TelegramFanart.jpg?raw=true</fanart>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com</externallink>
+</item>
+
 <item>
 <title>[COLOR white]========================================[/COLOR]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVLogo.jpg?raw=true</thumbnail>
@@ -50,7 +64,7 @@
 <fanart>https://media.giphy.com/media/MHp3YwuzrRSBa/giphy-facebook_s.jpg</fanart>
 <link>plugin://plugin.video.youtube/play/?video_id=Cd5GlmBsCvM</link>
 </item> 
---->
+
 
 <item>
 "<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]MUNDIAL FIFA RUSSIA 2018[/COLOR] [COLOR darkgrey]CANALES QUE LO EMITEN: TV PUBLICA (ARG), DIRECTV (ARG), TYC SPORTS (ARG), FOX SPORTS(USA) TDN(MEX) CUATRO (ESP), TELECINCO (ESP)[/COLOR]
@@ -60,9 +74,9 @@
 <link>$doregex[makelist]</link>
 <externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/TV-Russia2018-Menu.xml</externallink>
 </item>
-
+--->
 <item>
-<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]CONTENIDO EXCLUSIVO[/COLOR] [COLOR grey][I][Contenido exclusivo DJLIPTV][/I][/COLOR][/B]</title>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]CONTENIDO EXCLUSIVO[/COLOR] [COLOR grey][I][Peliculas Y Series][/I][/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVLogo.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVCHLogo.jpg?raw=true</fanart>
 <link>$doregex[makelist]</link>
