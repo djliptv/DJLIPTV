@@ -8,6 +8,90 @@
 </item>
 
 <item>
+<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]AGENDA[/COLOR]</title>
+<link>$doregex[LISTA]</link>
+<regex>
+<name>LISTA</name>
+<listrepeat><![CDATA[
+<SetwatchMode>55</SetwatchMode>
+<title>[COLOR white][LISTA.param1][/COLOR] [COLOR gray][LISTA.param2][/COLOR] [COLOR white][LISTA.param4][/COLOR] [COLOR gray][LISTA.param5][/COLOR] [COLOR dodgerblue]([LISTA.param6])[/COLOR]</title>
+<thumbnail>https://avezy.xyz/[LISTA.param3]</thumbnail>
+<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVFanart.jpg</fanart>
+<link>plugin://program.plexus/?url=[LISTA.param7]&amp;mode=1&amp;name=AV</link>
+</item>
+]]></listrepeat>
+<expres><![CDATA[(?s)center'>([^<]+).*?br>([^<]+).*? src="(.*?)".*? title='([^']+).*?br>([^<]+).*?AV([^<]+).*?acestream://(.*?)".*?]]></expres>
+<page>https://avezy.xyz/</page>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVThumbnail.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVFanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]DEPORTE[/COLOR] [COLOR lightslategray][I]Categorias[/I][/COLOR]</title>
+<link>$doregex[makelist3]</link>
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][B][makelist3.param1][/B][/COLOR] [COLOR white][[/COLOR][COLOR deepskyblue][makelist3.param2][/COLOR][COLOR white]][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVThumbnail.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVFanart.jpg</fanart>
+]]></listrepeat>
+<expres>categoria":"(.*?)","items":"(.*?)"</expres>
+<page>https://avezy.xyz/json.php</page>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>$pyFunction:'[I][COLOR gray][makelist2.param2][/COLOR][/I] [COLOR white][makelist2.param3][/COLOR] [COLOR white][B][makelist2.param5][/B][/COLOR]'.replace('\/','-')</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVThumbnail.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVFanart.jpg</fanart>
+]]></listrepeat>
+<expres>"id":"(.*?)","fecha":"(.*?)","hora":"(.*?)","categoria":"(.*?)","titulo":"(.*?)"</expres>
+<page>https://avezy.xyz/json.php?action=listado_eventos&amp;cat=$doregex[cate]</page>
+</regex>
+<regex>
+<name>cate</name>
+<expres>$pyFunction:('[makelist3.param1]').replace(' ','+')</expres>
+<page></page>
+</regex>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item>
+<title>[I][COLOR gray][makelist.param1][/COLOR][/I] [COLOR dodgerblue][makelist.param3][/COLOR] [COLOR white][B][makelist2.param5][/B][/COLOR]</title>
+<link>plugin://program.plexus/?url=[makelist.param2]&amp;mode=1&amp;name=DJL</link>
+<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVThumbnail.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVFanart.jpg</fanart>
+</item>
+]]></listrepeat>
+<expres>canal":"(.+?)".*?acestream:\\\/\\\/(.*?)".*?idioma":"(.*?)"</expres>
+<page>https://avezy.xyz/json.php?action=listado_canales&amp;evento=[makelist2.param1]</page>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVThumbnail.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVFanart.jpg</fanart>
+</item>
+
+<item>
+	<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]ROJADIRECTA[/COLOR]</title>
+	<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
+	<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
+	<link>ignoreme.me</link>
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Deportes/Rojadirecta.xml</externallink>
+</item>
+
+<item>
+	<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]ROJADIRECTA[/COLOR] [COLOR lightslategray][I]Sportsdevil[/I][/COLOR]</title>
+	<link>ignorme</link>
+	<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/rojadirecta.me.cfg&amp;mode=1</jsonrpc>
+	<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
+	<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
+</item>
+
+<!---
+<item>
 	<title>[COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] DEPORTES A LA CARTA[/COLOR][COLOR blue][I] Addon Deportes a la carta Necesario[/I][/COLOR]</title>
 	<link>http://Ignoreme</link>
 	<jsonrpc>plugin://plugin.video.deportesalacarta/</jsonrpc>
@@ -30,7 +114,7 @@
 	<link>ignoreme.me</link>
 	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Deportes/Arenavision_all_menu.xml</externallink>
 </item>
-<!---
+
 <item>
 	<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] CANALES ARENAVISION TODOS[/COLOR] [COLOR blue] [I]Addon PLEXUS • Acestream Necesarios[/I][/COLOR]</title>
 	<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
@@ -46,7 +130,7 @@
 	<link>ignoreme.me</link>
 	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Deportes/Test-Menu.xml</externallink>
 </item>
---->
+
 <item>
 	<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] CANALES ARENAVISION.RU[/COLOR] [COLOR blue] [I]Addon PLEXUS • Acestream Necesarios[/I][/COLOR]</title>
 	<link>$doregex[makelist]</link>
@@ -204,22 +288,8 @@
 	</regex>
 	<thumbnail>http://ukbuzz.wordpress.eurosport.com/wp-content/uploads/sites/11/2015/12/different-sports-Google-Search-Google-Chrome-1170x658.jpg</thumbnail>
 </item>
+--->
 
-<item>
-	<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] ROJADIRECTA[/COLOR]</title>
-	<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
-	<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
-	<link>ignoreme.me</link>
-	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Deportes/Rojadirecta.xml</externallink>
-</item>
-
-<item>
-	<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] ROJADIRECTA[/COLOR][COLOR lightslategray] [I]Sportsdevil[/I][/COLOR]</title>
-	<link>ignorme</link>
-	<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/rojadirecta.me.cfg&amp;mode=1</jsonrpc>
-	<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
-	<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
-</item>
 
 
 
