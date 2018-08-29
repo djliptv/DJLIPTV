@@ -14,4 +14,10 @@ Server:"IPTV [COLOR gray]12:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][
 Server:"IPTV [COLOR gray]13:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][6][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][12/05/19][/COLOR]" URL="http://iptvtool.es:9977/get.php?username=CAMI&password=CAMI&type=m3u"; regex"" 
 Server:"IPTV [COLOR gray]14:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][2][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][03/09/18][/COLOR]" URL="http://spy-iptv.com:25461/get.php?username=308HD&password=69qBgyetir&type=m3u"; regex"" 
 Server:"IPTV [COLOR gray]15:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][4][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][02/06/19][/COLOR]" URL="http://54.37.255.204:9977/get.php?username=68730&password=iptv&type=m3u"; regex"" 
+Server:"IPTV [COLOR gray]16:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][2][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][16/05/19][/COLOR]" URL="http://54.37.255.204:9977/get.php?username=Rivera&password=Rivera&type=m3u"; regex"" 
+Server:"IPTV [COLOR gray]17:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][2][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][28/06/19][/COLOR]" URL="http://54.37.255.204:9977/get.php?username=Jesus11&password=Jesus11&type=m3u"; regex"" 
+Server:"IPTV [COLOR gray]18:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][17/12/18][/COLOR]" URL="http://m-iptv.net:6204/get.php?username=Erbil&password=Erbil&type=m3u"; regex"" 
+Server:"IPTV [COLOR gray]19:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][4][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][20/07/19][/COLOR]" URL="http://54.37.255.204:9977/get.php?username=leon&password=iptv&type=m3u"; regex"" 
 
+
+erver:"IPTV [COLOR gray]XX:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL=""; regex""
