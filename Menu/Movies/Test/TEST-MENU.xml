@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
 
+
+<item>
+		<title>[B]IPTV LIST[/B]</title>
+		<link>http://ignorame</link>
+		<thumbnail></thumbnail>
+		<fanart></fanart>
+		<externallink>https://www.dropbox.com/s/m6b69ieng4f8sz7/IPTVListMenu.xml?dl=1</externallink> <!--- https://pastebin.com/raw/fWeGMryE --->
+	</item>
+
+
 <item>
 		<title>[B]DEPORTES[/B]</title>
 		<link>http://ignorame</link>
