@@ -53,6 +53,78 @@
 	</item>
 	
 	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - SPAIN[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/normal.php?c=SP</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - LATIN[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/normal.php?c=MX</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - FULL[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/normal.php</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - SPORTS SPAIN[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/sport.php?c=SP</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - SPORTS LATIN[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/sport.php?c=MX</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - SPORTS FULL[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/sport.php</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - KIDS SPAIN[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/kids.php?c=SP</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - KIDS LATIN[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/kids.php?c=MX</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - KIDS FULL[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/kids.php</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]RT IPTV[/COLOR]</title>
 		<link>http://ignorame</link>
 		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
