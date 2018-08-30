@@ -75,6 +75,14 @@
 </item>
 
 <item>
+	<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]SPORT 365[/COLOR]</title>
+	<link>ignorme</link>
+	<jsonrpc>plugin://plugin.video.deportesalacarta/?ewogICAgImFjdGlvbiI6ICJtYWlubGlzdCIsIAogICAgImNhdGVnb3J5IjogImRlcG9ydCIsIAogICAgImNoYW5uZWwiOiAic3BvcnQzNjUiLCAKICAgICJmYW5hcnQiOiAiIiwgCiAgICAiaW5mb0xhYmVscyI6IHt9LCAKICAgICJsYW5ndWFnZSI6ICJlcyIsIAogICAgInRodW1ibmFpbCI6ICJodHRwOi8vaS5pbWd1ci5jb20vaEoydmhpcC5wbmciLCAKICAgICJ0aXRsZSI6ICJTcG9ydDM2NSIsIAogICAgInRvdGFsSXRlbXMiOiAwLCAKICAgICJ2aWV3bW9kZSI6ICJsaXN0Igp9</jsonrpc>
+	<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/Sport365Thumbnail.png</thumbnail>
+	<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/Sport365Fanart.jpg</fanart>
+</item> 
+
+<item>
 	<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]ROJADIRECTA[/COLOR]</title>
 	<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
 	<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
