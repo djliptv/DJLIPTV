@@ -52,7 +52,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
  <title>[COLOR dodgerblue][makelist.param1][/COLOR]</title>
- <link>[makelist.param1]</link>
+ <link>[makelist.param2];[makelist.param1]</link>
  <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
  <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
  ]]></listrepeat>
