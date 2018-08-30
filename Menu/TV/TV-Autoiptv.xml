@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+http://xml.autoiptv.net/normal.php
+http://xml.autoiptv.net/movie.php
+http://xml.autoiptv.net/series.php
+http://xml.autoiptv.net/sport.php
+http://xml.autoiptv.net/adult.php
+http://xml.autoiptv.net/music.php
+http://xml.autoiptv.net/kids.php
+http://xml.autoiptv.net/news.php
+http://xml.autoiptv.net/faith.php
+http://xml.autoiptv.net/247.php
+
+
+<items>
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - NORMAL[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/normal.php</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - NORMAL - LATINO[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/normal.php?c=MX</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - NORMAL - SPAIN[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/normal.php?c=SP</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - MOVIE[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/movie.php</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - SERIES[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/series.php</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - SPORT[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/sport.php</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - ADULT[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/adult.php</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - MUSIC[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/music.php</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - KIDS[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/kids.php</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - KIDS - SPAIN[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/kids.php?c=SP</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - KIDS - LATINO[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/kids.php?c=MX</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - NEWS[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/news.php</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - FAITH[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/faith.php</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+        <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]AUTOIPTV - 24/7[/COLOR]</title>
+        <link>http://Ignoreme</link>
+        <externallink>http://xml.autoiptv.net/247.php</externallink>
+        <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+</items>
