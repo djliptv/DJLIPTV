@@ -41,12 +41,10 @@ Server:"D [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][
 Server:"D [COLOR gray]02:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][17/12/18][/COLOR]" URL="http://m-iptv.net:6204/get.php?username=Erbil&password=Erbil&type=m3u"; regex"" 
 
 
+
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]E[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
-
-
-Server:"[COLOR white]===[/COLOR] [COLOR gray][B]F[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
-Server:"F [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][04/11/18][/COLOR]" URL="http://s1.multicanal.tel:25461/get.php?username=jortuz&password=jortuz&type=m3u"; regex"" 
-Server:"F [COLOR gray]02:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][5][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][19/06/19][/COLOR]" URL="http://s1.multicanal.tel:25461/get.php?username=leo&password=leo&type=m3u"; regex"" 
+Server:"E [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][04/11/18][/COLOR]" URL="http://s1.multicanal.tel:25461/get.php?username=jortuz&password=jortuz&type=m3u"; regex"" 
+Server:"E [COLOR gray]02:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][5][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][19/06/19][/COLOR]" URL="http://s1.multicanal.tel:25461/get.php?username=leo&password=leo&type=m3u"; regex"" 
 
 
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]X[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
