@@ -58,7 +58,7 @@ Server:"X [COLOR gray]07:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][2][
 Server:"X [COLOR gray]08:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][2][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][NULL][/COLOR]" URL="http://ca.stablechannels.tv:25461/get.php?username=nxR2R4MB7&password=52LM7ql5ha&type=m3u"; regex""  
 Server:"X [COLOR gray]09:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][11/02/19][/COLOR]" URL="http://cdntraffice.com:80/get.php?username=pbXLqPPPqO&password=UjWqghV6UK&type=m3u"; regex""  
 Server:"X [COLOR gray]10:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][03/04/19][/COLOR]" URL="http://leon-iptv.ddns.net:1155/get.php?username=test1&password=test2&type=m3u"; regex""  
-
+Server:"X [COLOR gray]11:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][30][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][NULL][/COLOR]" URL="http://145.239.8.174:3500/get.php?username=xip.ddns.net&password=kelibia2&type=m3u"; regex""  
 
 
 
