@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<item>
+<title>[COLOR skyblue]== B U S C A D O R E S ==[/COLOR][COLOR cyan] | [/COLOR][COLOR white][B]2018[/B][/COLOR][COLOR cyan] |[/COLOR]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/update.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/update.jpg?raw=true</fanart>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com</externallink>
+</item><item>
+<title>[COLOR skyblue]= = = = = = = = = = = = =[/COLOR][COLOR cyan] | [/COLOR][COLOR white][B]2018[/B][/COLOR][COLOR cyan] |[/COLOR]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/update.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/update.jpg?raw=true</fanart>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com</externallink>
+</item>
+
+
+<item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]YOUTUBE[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR blue]•   [/B][/COLOR][makelist.param2]</title>
+<link>$doregex[resolve]</link>
+<thumbnail>http://pngimg.com/uploads/youtube/youtube_PNG4.png</thumbnail>
+]]></listrepeat>
+<expres>u'(.+?)', u'(.+?)'</expres>
+<page>$doregex[search]</page>
+</regex>
+
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+import urlresolver
+def GetLSProData(page_data,Cookie_Jar,m):
+ url = 'https://www.youtube.com/watch?v=[makelist.param1]'
+ streamLink = urlresolver.resolve(url)
+ return streamLink
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import requests,xbmcgui,xbmc, re,time, xbmcaddon
+def GetLSProData(page_data,Cookie_Jar,m):
+
+ text=takeInputFortext('Ingrese la búsqueda')
+ url = 'https://www.youtube.com/results?q=' + text.replace(' ', '+')
+ req = requests.get(url)
+ list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
+
+ count = 10
+ while count > 1:
+   try:
+     url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+<\/a>\n <\/div>', req.text)[0]
+   except:
+     return list1
+   req = requests.get(url)
+   list2 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
+   list1 = list1 + list2
+   count = count - 1
+ return list1
+
+def takeInputFortext(txt):
+ addon = xbmcaddon.Addon('plugin.video.live.streamspro')
+ addon_version = addon.getAddonInfo('version')
+ profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
+ 
+ solver = InputWindow( txt=txt)
+ solution = solver.get()
+ return solution
+
+class InputWindow(xbmcgui.WindowDialog):
+    def __init__(self, *args, **kwargs):
+        
+        self.txt = kwargs.get('txt','')
+
+        xbmcgui.WindowXMLDialog.__init__(self)
+        #self.addControl(self.txt)
+        path = xbmcaddon.Addon().getAddonInfo('path')
+        self.kbd = xbmc.Keyboard()
+        self.kbd.setHeading( self.txt)
+
+    def get(self):
+        self.show()
+        time.sleep(2)
+        self.kbd.doModal()
+        if (self.kbd.isConfirmed()):
+            text = self.kbd.getText()
+            self.close()
+            return text
+        self.close()
+        return False
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>http://pngimg.com/uploads/youtube/youtube_PNG4.png</thumbnail>
+<fanart>https://github.com/djliptv/INSOMNIA/blob/master/Pics/InsomniaThumbnail.png?raw=true</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]DISKOKOSMICO[/COLOR][/B] </title>
+<link>$doregex[lista]</link>
+ 
+<regex>
+<name>lista</name>
+  <listrepeat><![CDATA[
+         <SetViewMode>55</SetViewMode>
+         <title>$pyFunction:'[lista.param3]'.replace(".mp4", "  [COLOR deeppink]Mgck[/COLOR][COLOR lime]Pi[/COLOR]").replace(".avi", "  [COLOR deeppink]Mgck[/COLOR][COLOR lime]Pi[/COLOR]").replace(".mkv", "[COLOR deeppink]Mgck[/COLOR][COLOR lime]Pi[/COLOR]")</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://i.imgur.com/aJ4O796.png</thumbnail>
+        ]]></listrepeat>
+<expres><![CDATA[href=\"(.*?,(.*?)\..*?)\".*?preview">(.*?mkv|.*?mp4|.*?avi)<]]><expres>
+<page>http://diskokosmiko.mx/action/SearchFiles?Phrase=MagyckPi&amp;Mode=List&amp;Type=Video&amp;SizeFromMB=0&amp;SizeToMB=0&amp;pageNumber=10</page>
+<rawpost>Phrase=$doregex[search]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/action/SearchFiles</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar>d248aa4e1e697a53b195098a52759e8d21507325199</cookieJar>
+</regex>
+ 
+ 
+ 
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Busca tu pelicula o serie favorita:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[lista.param1]</page>
+<referer>http://diskokosmiko.mx/</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ 
+ 
+ 
+<regex><name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re , requests ,json
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+ ref = 'http://diskokosmiko.mx/'
+ url='http://diskokosmiko.mx[lista.param1]'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ 
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'djliptvaddon' , 'Password' : 'djliptvaddon'}
+ nr1 = requests.post('http://diskokosmiko.mx/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+ 
+<regex>
+<name>tok2</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx[lista.param1]</page>
+<referer>http://diskokosmiko.mx/</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ 
+<thumbnail>https://i.imgur.com/aJ4O796.png</thumbnail>
+</item>
+
+<item>
+<!--- <SetViewMode>500</SetViewMode> --->
+<title>[B][COLOR gold]+[/COLOR] [COLOR deepskyblue]PELICULAS[/COLOR][/B]<title>
+<link>$doregex[makelist2]</link>
+<thumbnail>https://raw.githubusercontent.com/Andorth/cinemania/master/buscar.png</thumbnail>
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+   dialog = xbmcgui.Dialog()
+   d = dialog.input('Buscador de peliculas', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+   return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][makelist2.param3][/COLOR] </title>
+<link>$doregex[Es]</link>
+<thumbnail>https://hdfilmologia.com/[makelist2.param2]</thumbnail>
+<fanart>https://hdfilmologia.com/[makelist2.param2]</fanart>
+<info>[makelist2.param4]</info>
+]]></listrepeat>
+<expres><![CDATA[(?s)<a class="sres-wrap clearfix" href="(.*?)".*?<img src="(.*?)".*?"(.*?)".*?desc">(.*?)<]]></expres>
+<page>https://hdfilmologia.com/index.php?story=$doregex[search]&amp;do=search&amp;subaction=search</page>
+</regex>
+ 
+ 
+<regex>
+ 
+<name>SELECT</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+import xbmcgui
+ 
+dialog = xbmcgui.Dialog()
+ 
+ret = dialog.select('[COLOR lightblue]seleccione un idioma[/COLOR]', [COLOR gold]LAT[/COLOR]', ['[COLOR yellow]ESP[/COLOR]', '[COLOR blue]ING[/COLOR]')
+lists = ['lsrc', 'esrc', 'ssrc']
+ 
+return lists[ret]
+ 
+]]></expres>
+ 
+<page></page>
+ 
+</regex>
+ 
+ 
+<regex>
+<name>Es</name>
+<listrepeat><![CDATA[ 
+<SetViewMode>55</SetViewMode>
+<title>$pyFunction:'[Es.param1]'.replace("https://openload.co/embed/", "[COLOR yellow][B]OPENLOAD.CO:[/B][/COLOR]").replace("https://streamango.com/embed/", "[COLOR yellow][B]STREAMGO.COM:[/B] [/COLOR]").replace("https://www.rapidvideo.com/", "[COLOR yellow][B]RAPIDVIDEO.COM:[/B] [/COLOR]").replace("//ok.ru/videoembed/", "[COLOR yellow][B]OK.RU:[/B] [/COLOR]").replace("https://vev.io/embed/", "[COLOR yellow][B]VEV.IO:[/B] [/COLOR]").replace("https://my.mail.ru/video/embed/", "[COLOR yellow][B]MYMAIL.RU:[/B][/COLOR]")</title>
+
+<SetViewMode>55</SetViewMode>
+<link>$doregex[resolve_es]</link>
+<thumbnail>https://hdfilmologia.com/[makelist2.param2]</thumbnail>
+<fanart>https://hdfilmologia.com/[makelist2.param2]</fanart>
+<info>[makelist2.param4]</info>
+]]></listrepeat>
+<expres><![CDATA[(?s)$doregex[SELECT][0-9].*?="(https://streamcloud.*?|http://gamovideo.*?|https://openload.*?|https://powvideo.*?|https://rapidvideo.*?|https://vidoza.*?|https://streamvips.*?|https://streamango.*?|https://userscloud.*?|https://uptobox.*?|https://www.rapidvideo.*?|https://vev.*?|https://my.mail.*?|https://vev.*?|//ok.*?)"]]></expres>
+<page>[makelist2.param1]</page>
+</regex>
+ 
+ 
+ 
+<regex>
+<name>resolve_es</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+ 
+   url = '[Es.param1]'
+ 
+   u = urlresolver.resolve(url)
+ 
+   return u
+]]></expres>
+<page></page>
+</regex>
+ 
+<thumbnail>https://raw.githubusercontent.com/Andorth/netai/master/smart/icon.png</thumbnail>
+</item>
+
