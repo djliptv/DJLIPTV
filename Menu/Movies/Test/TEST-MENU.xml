@@ -2,6 +2,15 @@
 
 
 
+
+<item>
+		<title>[B]BUSCADORES[/B]</title>
+		<link>http://ignorame</link>
+		<thumbnail></thumbnail>
+		<fanart></fanart>
+		<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Buscadores/IndexBuscadores.xml</externallink> <!--- https://pastebin.com/raw/fWeGMryE --->
+	</item>
+
 <item>
 		<title>[B]IPTV LIST[/B]</title>
 		<link>http://ignorame</link>
