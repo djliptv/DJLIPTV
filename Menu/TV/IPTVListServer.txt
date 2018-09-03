@@ -17,14 +17,13 @@ Server:"A [COLOR gray]13:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][
 Server:"A [COLOR gray]14:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][25/05/19][/COLOR]" URL="http://54.37.255.204:9977/get.php?username=678678&password=iptv&type=m3u"; regex"" 
 Server:"A [COLOR gray]15:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][05/06/19][/COLOR]" URL="http://54.37.255.204:9977/get.php?username=FELIX&password=IPTV&type=m3u"; regex"" 
 Server:"A [COLOR gray]16:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][25/11/18][/COLOR]" URL="http://54.37.255.204:9977/get.php?username=Rodriguez&password=Rodriguez&type=m3u"; regex"" 
-Server:"A [COLOR gray]17:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][6][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][12/05/19][/COLOR]" URL="http://iptvtool.es:9977/get.php?username=CAMI&password=CAMI&type=m3u"; regex"" 
-Server:"A [COLOR gray]18:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][19/06/19][/COLOR]" URL="http://iptvtool.es:9977/get.php?username=Jorge22&password=Jorge22&type=m3u"; regex""  
-Server:"A [COLOR gray]19:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][15/05/19][/COLOR]" URL="http://iptvtool.es:9977/get.php?username=Goyo&password=Goyo&type=m3u"; regex""  
-Server:"A [COLOR gray]20:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][30/06/19][/COLOR]" URL="http://iptvtool.es:9977/get.php?username=iptv1&password=iptv1&type=m3u"; regex""
+
 
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]B[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
-Server:"B [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1000][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][NULL][/COLOR]" URL="http://145.239.130.232:25461/get.php?username=Passion-IPTV&password=f8AXvCAo14&type=m3u"; regex"" 
-Server:"B [COLOR gray]02:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][16/02/19][/COLOR]" URL="http://145.239.141.4:25443/get.php?username=adil&password=adil123&type=m3u"; regex""  
+Server:"B [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][6][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][12/05/19][/COLOR]" URL="http://iptvtool.es:9977/get.php?username=CAMI&password=CAMI&type=m3u"; regex"" 
+Server:"B [COLOR gray]02:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][19/06/19][/COLOR]" URL="http://iptvtool.es:9977/get.php?username=Jorge22&password=Jorge22&type=m3u"; regex""  
+Server:"B [COLOR gray]03:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][15/05/19][/COLOR]" URL="http://iptvtool.es:9977/get.php?username=Goyo&password=Goyo&type=m3u"; regex""  
+Server:"B [COLOR gray]04:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][30/06/19][/COLOR]" URL="http://iptvtool.es:9977/get.php?username=iptv1&password=iptv1&type=m3u"; regex""
 
 
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]C[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
@@ -39,7 +38,6 @@ Server:"C [COLOR gray]06:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][200
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]D[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
 Server:"D [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][30/11/18][/COLOR]" URL="http://m-iptv.net:6204/get.php?username=zawa&password=zawa&type=m3u"; regex"" 
 Server:"D [COLOR gray]02:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][17/12/18][/COLOR]" URL="http://m-iptv.net:6204/get.php?username=Erbil&password=Erbil&type=m3u"; regex"" 
-
 
 
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]E[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
@@ -59,6 +57,11 @@ Server:"X [COLOR gray]08:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][2][
 Server:"X [COLOR gray]09:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][11/02/19][/COLOR]" URL="http://cdntraffice.com:80/get.php?username=pbXLqPPPqO&password=UjWqghV6UK&type=m3u"; regex""  
 Server:"X [COLOR gray]10:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][03/04/19][/COLOR]" URL="http://leon-iptv.ddns.net:1155/get.php?username=test1&password=test2&type=m3u"; regex""  
 Server:"X [COLOR gray]11:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][30][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][NULL][/COLOR]" URL="http://145.239.8.174:3500/get.php?username=xip.ddns.net&password=kelibia2&type=m3u"; regex""  
+Server:"X [COLOR gray]12:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1000][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][NULL][/COLOR]" URL="http://145.239.130.232:25461/get.php?username=Passion-IPTV&password=f8AXvCAo14&type=m3u"; regex"" 
+Server:"X [COLOR gray]13:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][16/02/19][/COLOR]" URL="http://145.239.141.4:25443/get.php?username=adil&password=adil123&type=m3u"; regex""  
+Server:"X [COLOR gray]14:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][30/11/18][/COLOR]" URL="http://supervip.mine.nu:80/get.php?username=fabrisuocero&password=hvakCVUmEt&type=m3u"; regex""  
+Server:"X [COLOR gray]15:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][03/04/19][/COLOR]" URL="http://leon-iptv.ddns.net:1155/get.php?username=test1&password=test2&type=m3u"; regex""  
+Server:"X [COLOR gray]16:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][28/01/19][/COLOR]" URL="http://portal.simiptv.com:8001/get.php?username=MV&password=bhaskar&type=m3u"; regex""  
 
 
 
