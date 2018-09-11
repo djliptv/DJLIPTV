@@ -12,6 +12,14 @@ Server:"A PLUS [COLOR gray]08:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray
 Server:"A PLUS [COLOR gray]09:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://painel.conectiptv.com:25461/get.php?username=samir&password=samir&type=m3u"; regex""
 Server:"A PLUS [COLOR gray]10:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://daddyiptv.com:8000/get.php?username=FULHDP-MeTeGe&password=TFDTGDiKjQ&type=m3u"; regex""
 Server:"A PLUS [COLOR gray]11:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://giantofthefuture.gleeze.com:25461/get.php?username=danilo&password=1234&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]12:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://ndaiptv.com:5999/get.php?username=adil1&password=adil2&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]13:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://ndaiptv.com:5999/get.php?username=digby&password=12345&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]14:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://144.217.39.29:80/get.php?username=CO&password=CO&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]15:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://144.217.39.29:80/get.php?username=CO&password=CO&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]16:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://servidoriptv.mine.nu:37001/get.php?username=lori&password=123456&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]17:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://servidoriptv.mine.nu:37001/get.php?username=nathaly&password=123456&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]18:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://185.82.110.51:4646/get.php?username=toni&password=toni&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]19:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://servidoriptv.mine.nu:37001/get.php?username=ale3&password=ale3&type=m3u"; regex""
 
 
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]A[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
