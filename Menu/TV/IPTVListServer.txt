@@ -1,5 +1,19 @@
 Server:"[COLOR white]DE LISTAS[/COLOR] [COLOR gray]IPTV[/COLOR]" URL=""; regex""
 
+Server:"[COLOR white]===[/COLOR] [COLOR gray][B]A PLUS[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
+Server:"A PLUS [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://painel.conectiptv.com:25461/get.php?username=gabriel&password=gabriel&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]02:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://painel.conectiptv.com:25461/get.php?username=geraldo&password=geraldo&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]03:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://painel.conectiptv.com:25461/get.php?username=nadir&password=nadir&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]04:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://painel.conectiptv.com:25461/get.php?username=neo&password=neo&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]05:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://painel.conectiptv.com:25461/get.php?username=pizza&password=pizza&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]06:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://painel.conectiptv.com:25461/get.php?username=regina&password=regina&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]07:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://painel.conectiptv.com:25461/get.php?username=rafael&password=rafael&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]08:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://painel.conectiptv.com:25461/get.php?username=rafaela&password=rafaela&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]09:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://painel.conectiptv.com:25461/get.php?username=samir&password=samir&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]10:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://daddyiptv.com:8000/get.php?username=FULHDP-MeTeGe&password=TFDTGDiKjQ&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]11:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://giantofthefuture.gleeze.com:25461/get.php?username=danilo&password=1234&type=m3u"; regex""
+
+
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]A[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
 Server:"A [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][4][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][02/06/19][/COLOR]" URL="http://54.37.255.204:9977/get.php?username=68730&password=iptv&type=m3u"; regex"" 
 Server:"A [COLOR gray]02:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][2][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][16/05/19][/COLOR]" URL="http://54.37.255.204:9977/get.php?username=Rivera&password=Rivera&type=m3u"; regex"" 
