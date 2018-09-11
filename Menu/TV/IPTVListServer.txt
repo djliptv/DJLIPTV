@@ -65,6 +65,7 @@ Server:"B [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][6][
 Server:"B [COLOR gray]02:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][19/06/19][/COLOR]" URL="http://iptvtool.es:9977/get.php?username=Jorge22&password=Jorge22&type=m3u"; regex""  
 Server:"B [COLOR gray]03:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][15/05/19][/COLOR]" URL="http://iptvtool.es:9977/get.php?username=Goyo&password=Goyo&type=m3u"; regex""  
 Server:"B [COLOR gray]04:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][30/06/19][/COLOR]" URL="http://iptvtool.es:9977/get.php?username=iptv1&password=iptv1&type=m3u"; regex""
+Server:"B [COLOR gray]05:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][23/09/18][/COLOR]" URL="http://iptvtool.es:9977/get.php?username=m&password=m&type=m3u"; regex""
 
 
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]C[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
