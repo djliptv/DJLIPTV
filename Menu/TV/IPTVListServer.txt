@@ -42,6 +42,7 @@ Server:"A PLUS [COLOR gray]38:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray
 Server:"A PLUS [COLOR gray]39:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://144.217.39.29:80/get.php?username=rrd&password=rrd&type=m3u"; regex""
 
 
+
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]A[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
 Server:"A [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][4][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][02/06/19][/COLOR]" URL="http://54.37.255.204:9977/get.php?username=68730&password=iptv&type=m3u"; regex"" 
 Server:"A [COLOR gray]02:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][2][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][16/05/19][/COLOR]" URL="http://54.37.255.204:9977/get.php?username=Rivera&password=Rivera&type=m3u"; regex"" 
@@ -105,6 +106,7 @@ Server:"X [COLOR gray]13:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][
 Server:"X [COLOR gray]14:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][30/11/18][/COLOR]" URL="http://supervip.mine.nu:80/get.php?username=fabrisuocero&password=hvakCVUmEt&type=m3u"; regex""  
 Server:"X [COLOR gray]15:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][03/04/19][/COLOR]" URL="http://leon-iptv.ddns.net:1155/get.php?username=test1&password=test2&type=m3u"; regex""  
 Server:"X [COLOR gray]16:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][28/01/19][/COLOR]" URL="http://portal.simiptv.com:8001/get.php?username=MV&password=bhaskar&type=m3u"; regex""  
+Server:"X [COLOR gray]17:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1000][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://145.239.130.232:25461/get.php?username=Passion-IPTV&password=f8AXvCAo14&type=m3u"; regex""  
 
 
 
