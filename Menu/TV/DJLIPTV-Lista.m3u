@@ -1,50 +1,9 @@
 #EXTM3U
-#EXTINF:-1,AMERICA HD
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/2369.ts
-#EXTINF:-1,AMERICA
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3844.ts
-#EXTINF:-1,TV PUBLICA HD
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3747.ts
-#EXTINF:-1,TV PUBLICA
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/2384.ts
-#EXTINF:-1,CANAL 9 HD
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/2853.ts
-#EXTINF:-1,CANAL 9
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3580.ts
-#EXTINF:-1,TELEFE HD
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/243.ts
-#EXTINF:-1,TELEFE
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3852.ts
-#EXTINF:-1,EL TRECE HD
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/242.ts
-#EXTINF:-1,EL TRECE
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3855.ts
-#EXTINF:-1,MAGAZINE
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3751.ts
-#EXTINF:-1,MAGAZINE HD
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3752.ts
-#EXTINF:-1,CINEAR
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3913.ts
-#EXTINF:-1,TN HD
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3719.ts
-#EXTINF:-1,TN
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3746.ts
-#EXTINF:-1,LN+
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3744.ts
-#EXTINF:-1,A24
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3743.ts
-#EXTINF:-1,C5N HD
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3742.ts
-#EXTINF:-1,CRONICA TV
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/239.ts
-#EXTINF:-1,26 TV HD
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3738.ts
-#EXTINF:-1,26 TV
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/238.ts
-#EXTINF:-1,KZO
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3745.ts
-#EXTINF:-1,CANAL DE LA CIUDAD
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3753.ts
+
+
+#EXTINF:-1,= D E P O R T E S =
+http://pastebin.com
+
 #EXTINF:-1,TyC SPORTS
 http://s1.multicanal.tel:25461/live/jortuz/jortuz/236.ts
 #EXTINF:-1,TyC INTERNACIONAL
@@ -91,6 +50,407 @@ http://s1.multicanal.tel:25461/live/jortuz/jortuz/3807.ts
 http://s1.multicanal.tel:25461/live/jortuz/jortuz/3739.ts
 #EXTINF:-1,DEPORTV
 http://s1.multicanal.tel:25461/live/jortuz/jortuz/2867.ts
+#EXTINF:-1,FOX SPORTS URUGUAY
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/218.ts
+#EXTINF:-1,GOLTV URUGUAY
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/2861.ts
+#EXTINF:-1,+ BEIN Ñ
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3909.ts
+#EXTINF:-1,TyCSports
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/2808.ts
+#EXTINF:-1,DEPORTV.
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/1778.ts
+#EXTINF:-1,+ ESPN
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3149.ts
+#EXTINF:-1,+ ESPN 2
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3148.ts
+#EXTINF:-1,+ ESPN 3
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3147.ts
+#EXTINF:-1,+ ESPN Plus
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3146.ts
+#EXTINF:-1,+ Fox Sports
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3151.ts
+#EXTINF:-1,+ Fox Sports 2
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3150.ts
+#EXTINF:-1,+ ESPN 1 MEX
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3714.ts
+#EXTINF:-1,+ ESPN 2 MEX
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3713.ts
+#EXTINF:-1,+ ESPN 3 MEX
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3712.ts
+#EXTINF:-1,+ ESPN Plus MEX
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3711.ts
+#EXTINF:-1,+ FoxSports 1 MEX
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3717.ts
+#EXTINF:-1,+ FoxSports 2 MEX
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3715.ts
+#EXTINF:-1,+ FoxSports 3 MEX
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3716.ts
+#EXTINF:-1,REAL MADRID TV
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/662.ts
+#EXTINF:-1,FOX SPORTS PARAGUAY
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3850.ts
+
+#EXTINF:-1,Bein Sport HD
+http://m-iptv.net:6204/live/zawa/zawa/2568.ts
+#EXTINF:-1,Bein Sport News HD
+http://m-iptv.net:6204/live/zawa/zawa/2567.ts
+#EXTINF:-1,Bein Sport HD1 1080i
+http://m-iptv.net:6204/live/zawa/zawa/127.ts
+#EXTINF:-1,Bein Sport HD2 1080i
+http://m-iptv.net:6204/live/zawa/zawa/128.ts
+#EXTINF:-1,Bein Sport HD3 1080i
+http://m-iptv.net:6204/live/zawa/zawa/129.ts
+#EXTINF:-1,Bein Sport HD4 1080i
+http://m-iptv.net:6204/live/zawa/zawa/130.ts
+#EXTINF:-1,Bein Sport HD5 1080i
+http://m-iptv.net:6204/live/zawa/zawa/132.ts
+#EXTINF:-1,Bein Sport HD6 1080i
+http://m-iptv.net:6204/live/zawa/zawa/133.ts
+#EXTINF:-1,Bein Sport HD8 1080i
+http://m-iptv.net:6204/live/zawa/zawa/135.ts
+#EXTINF:-1,Bein Sport HD7 1080i
+http://m-iptv.net:6204/live/zawa/zawa/134.ts
+#EXTINF:-1,Bein Sport HD9 1080i
+http://m-iptv.net:6204/live/zawa/zawa/186.ts
+#EXTINF:-1,Bein Sport HD10 1080i
+http://m-iptv.net:6204/live/zawa/zawa/187.ts
+#EXTINF:-1,Bein Sport HD11 EN 1080i
+http://m-iptv.net:6204/live/zawa/zawa/188.ts
+#EXTINF:-1,Bein Sport HD12 EN 1080i
+http://m-iptv.net:6204/live/zawa/zawa/189.ts
+#EXTINF:-1,Bein Sport HD13 EN 1080i
+http://m-iptv.net:6204/live/zawa/zawa/1694.ts
+#EXTINF:-1,Bein Sport HD14 Fr 1080i
+http://m-iptv.net:6204/live/zawa/zawa/2555.ts
+#EXTINF:-1,Bein Sport HD15 Fr 1080i
+http://m-iptv.net:6204/live/zawa/zawa/4763.ts
+#EXTINF:-1,Bein Sport HD16 Fr 1080i
+http://m-iptv.net:6204/live/zawa/zawa/4762.ts
+#EXTINF:-1,Bein Sport HD17 ES 1080i
+http://m-iptv.net:6204/live/zawa/zawa/4761.ts
+#EXTINF:-1,Bein Sport NBA HD
+http://m-iptv.net:6204/live/zawa/zawa/6434.ts
+#EXTINF:-1,Bein Sport HD1 720P
+http://m-iptv.net:6204/live/zawa/zawa/9022.ts
+#EXTINF:-1,Bein Sport HD2 720P
+http://m-iptv.net:6204/live/zawa/zawa/9021.ts
+#EXTINF:-1,Bein Sport HD3 720P
+http://m-iptv.net:6204/live/zawa/zawa/9020.ts
+#EXTINF:-1,Bein Sport HD4 720P
+http://m-iptv.net:6204/live/zawa/zawa/9019.ts
+#EXTINF:-1,Bein Sport HD5 720P
+http://m-iptv.net:6204/live/zawa/zawa/9018.ts
+#EXTINF:-1,Bein Sport HD6 720P
+http://m-iptv.net:6204/live/zawa/zawa/9017.ts
+#EXTINF:-1,Bein Sport HD7 720P
+http://m-iptv.net:6204/live/zawa/zawa/9016.ts
+#EXTINF:-1,Bein Sport HD8 720P
+http://m-iptv.net:6204/live/zawa/zawa/9015.ts
+#EXTINF:-1,Bein Sport HD9 720P
+http://m-iptv.net:6204/live/zawa/zawa/9014.ts
+#EXTINF:-1,Bein Sport HD10 720P
+http://m-iptv.net:6204/live/zawa/zawa/9013.ts
+#EXTINF:-1,Bein Sport HD11 EN 720P
+http://m-iptv.net:6204/live/zawa/zawa/9012.ts
+#EXTINF:-1,bein Sport SD1
+http://m-iptv.net:6204/live/zawa/zawa/1913.ts
+#EXTINF:-1,Bein Sport SD2
+http://m-iptv.net:6204/live/zawa/zawa/1914.ts
+#EXTINF:-1,Bein Sport SD3
+http://m-iptv.net:6204/live/zawa/zawa/1915.ts
+#EXTINF:-1,Bein Sport SD4
+http://m-iptv.net:6204/live/zawa/zawa/1916.ts
+#EXTINF:-1,Bein Sport SD5
+http://m-iptv.net:6204/live/zawa/zawa/1917.ts
+#EXTINF:-1,Bein Sport SD6
+http://m-iptv.net:6204/live/zawa/zawa/1918.ts
+#EXTINF:-1,Bein Sport SD7
+http://m-iptv.net:6204/live/zawa/zawa/1919.ts
+#EXTINF:-1,Bein Sport SD8
+http://m-iptv.net:6204/live/zawa/zawa/1920.ts
+#EXTINF:-1,Bein Sport SD9
+http://m-iptv.net:6204/live/zawa/zawa/1921.ts
+#EXTINF:-1,Bein Sport SD10
+http://m-iptv.net:6204/live/zawa/zawa/1922.ts
+#EXTINF:-1,Bein Sport SD11
+http://m-iptv.net:6204/live/zawa/zawa/1923.ts
+#EXTINF:-1,Bein Sport SD12
+http://m-iptv.net:6204/live/zawa/zawa/1924.ts
+#EXTINF:-1,Bein Alkass 1 HD
+http://m-iptv.net:6204/live/zawa/zawa/7045.ts
+#EXTINF:-1,Bein Alkass 2 HD
+http://m-iptv.net:6204/live/zawa/zawa/7046.ts
+#EXTINF:-1,Bein Alkass 3 HD
+http://m-iptv.net:6204/live/zawa/zawa/7047.ts
+#EXTINF:-1,Bein Alkass 4 HD
+http://m-iptv.net:6204/live/zawa/zawa/7048.ts
+#EXTINF:-1,Bein Alkass 5 HD
+http://m-iptv.net:6204/live/zawa/zawa/7049.ts
+#EXTINF:-1,Bein Alkass 6 HD
+http://m-iptv.net:6204/live/zawa/zawa/7050.ts
+#EXTINF:-1,Bein Alkass 7 HD
+http://m-iptv.net:6204/live/zawa/zawa/7051.ts
+#EXTINF:-1,Bein Alkass 8 HD
+http://m-iptv.net:6204/live/zawa/zawa/7052.ts
+#EXTINF:-1,Bein Movies HD1
+http://m-iptv.net:6204/live/zawa/zawa/2151.ts
+#EXTINF:-1,Bein Movies HD2
+http://m-iptv.net:6204/live/zawa/zawa/2303.ts
+#EXTINF:-1,Bein Movies HD3
+http://m-iptv.net:6204/live/zawa/zawa/4068.ts
+#EXTINF:-1,Bein Movies HD4
+http://m-iptv.net:6204/live/zawa/zawa/2712.ts
+#EXTINF:-1,Bein Series 1 HD
+http://m-iptv.net:6204/live/zawa/zawa/6560.ts
+#EXTINF:-1,Bein Series 2 HD
+http://m-iptv.net:6204/live/zawa/zawa/9028.ts
+#EXTINF:-1,Bein Drama HD1
+http://m-iptv.net:6204/live/zawa/zawa/9031.ts
+#EXTINF:-1,Bein AMC HD
+http://m-iptv.net:6204/live/zawa/zawa/7136.ts
+#EXTINF:-1,Bein HGTV HD
+http://m-iptv.net:6204/live/zawa/zawa/7138.ts
+#EXTINF:-1,Bein Fox HD
+http://m-iptv.net:6204/live/zawa/zawa/9024.ts
+#EXTINF:-1,Bein Discovery Life HD
+http://m-iptv.net:6204/live/zawa/zawa/9023.ts
+#EXTINF:-1,Bein Discovery Max HD
+http://m-iptv.net:6204/live/zawa/zawa/9026.ts
+#EXTINF:-1,Bein Discovery Turbo Xtra
+http://m-iptv.net:6204/live/zawa/zawa/9025.ts
+#EXTINF:-1,Bein Discovery Kids HD
+http://m-iptv.net:6204/live/zawa/zawa/9027.ts
+#EXTINF:-1,Bein BBC earth HD
+http://m-iptv.net:6204/live/zawa/zawa/10723.ts
+#EXTINF:-1,Bein Fatafeat HD
+http://m-iptv.net:6204/live/zawa/zawa/2714.ts
+#EXTINF:-1,Bein Gourmet HD
+http://m-iptv.net:6204/live/zawa/zawa/7541.ts
+#EXTINF:-1,Bein Boomerang HD
+http://m-iptv.net:6204/live/zawa/zawa/9029.ts
+#EXTINF:-1,Bein Cartoon Network HD
+http://m-iptv.net:6204/live/zawa/zawa/10152.ts
+#EXTINF:-1,Bein Jeem HD
+http://m-iptv.net:6204/live/zawa/zawa/2713.ts
+#EXTINF:-1,Bein Baraem HD
+http://m-iptv.net:6204/live/zawa/zawa/2715.ts
+#EXTINF:-1,Bein Baby TV HD
+http://m-iptv.net:6204/live/zawa/zawa/8936.ts
+#EXTINF:-1,Bein Bejunior HD
+http://m-iptv.net:6204/live/zawa/zawa/4760.ts
+#EXTINF:-1,Bein DreamWork HD
+http://m-iptv.net:6204/live/zawa/zawa/7137.ts
+
+
+
+#EXTINF:-1,= C I N E =
+http://pastebin.com
+
+#EXTINF:-1,Sp- Taquilla 1
+http://m-iptv.net:6204/live/zawa/zawa/8957.ts
+#EXTINF:-1,Sp- Taquilla 10
+http://m-iptv.net:6204/live/zawa/zawa/8956.ts
+#EXTINF:-1,Sp- Taquilla 2
+http://m-iptv.net:6204/live/zawa/zawa/8955.ts
+#EXTINF:-1,Sp- Taquilla 3
+http://m-iptv.net:6204/live/zawa/zawa/8954.ts
+#EXTINF:-1,Sp- Taquilla 4
+http://m-iptv.net:6204/live/zawa/zawa/8953.ts
+#EXTINF:-1,Sp- Taquilla 5
+http://m-iptv.net:6204/live/zawa/zawa/8952.ts
+#EXTINF:-1,Sp- Taquilla 6
+http://m-iptv.net:6204/live/zawa/zawa/8951.ts
+#EXTINF:-1,Sp- Taquilla 7
+http://m-iptv.net:6204/live/zawa/zawa/8950.ts
+#EXTINF:-1,Sp- Taquilla 8
+http://m-iptv.net:6204/live/zawa/zawa/8949.ts
+#EXTINF:-1,Sp- Taquilla 9
+http://m-iptv.net:6204/live/zawa/zawa/8948.ts
+
+
+
+#EXTINF:-1,= S P A I N - M O V I S T A R =
+http://pastebin.com
+
+#EXTINF:-1,Es- #0
+http://m-iptv.net:6204/live/zawa/zawa/10021.ts
+#EXTINF:-1,Es- 24 HORAS
+http://m-iptv.net:6204/live/zawa/zawa/10020.ts
+#EXTINF:-1,Es- A&E
+http://m-iptv.net:6204/live/zawa/zawa/10019.ts
+#EXTINF:-1,Es- AMC
+http://m-iptv.net:6204/live/zawa/zawa/10018.ts
+#EXTINF:-1,Es- ANTENA 3
+http://m-iptv.net:6204/live/zawa/zawa/10017.ts
+#EXTINF:-1,Es- AXN
+http://m-iptv.net:6204/live/zawa/zawa/10016.ts
+#EXTINF:-1,Es- AXN WHITE
+http://m-iptv.net:6204/live/zawa/zawa/10015.ts
+#EXTINF:-1,Es- BARCA TV
+http://m-iptv.net:6204/live/zawa/zawa/10014.ts
+#EXTINF:-1,Es- BEIN LALIGA
+http://m-iptv.net:6204/live/zawa/zawa/10013.ts
+#EXTINF:-1,Es- BEIN SPORTS
+http://m-iptv.net:6204/live/zawa/zawa/10012.ts
+#EXTINF:-1,Es- BOING
+http://m-iptv.net:6204/live/zawa/zawa/10011.ts
+#EXTINF:-1,Es- CALLE 13
+http://m-iptv.net:6204/live/zawa/zawa/10010.ts
+#EXTINF:-1,Es- CANAL COCINA
+http://m-iptv.net:6204/live/zawa/zawa/10009.ts
+#EXTINF:-1,Es- CANAL DECASA
+http://m-iptv.net:6204/live/zawa/zawa/10008.ts
+#EXTINF:-1,Es- CANAL ODISEA
+http://m-iptv.net:6204/live/zawa/zawa/10007.ts
+#EXTINF:-1,Es- CAZA Y PESCA
+http://m-iptv.net:6204/live/zawa/zawa/10006.ts
+#EXTINF:-1,Es- CLAN TVE
+http://m-iptv.net:6204/live/zawa/zawa/10005.ts
+#EXTINF:-1,Es- COMEDY CENTRAL
+http://m-iptv.net:6204/live/zawa/zawa/10004.ts
+#EXTINF:-1,Es- COSMO
+http://m-iptv.net:6204/live/zawa/zawa/10003.ts
+#EXTINF:-1,Es- CUATRO
+http://m-iptv.net:6204/live/zawa/zawa/10001.ts
+#EXTINF:-1,Es- DISCOVERY
+http://m-iptv.net:6204/live/zawa/zawa/10000.ts
+#EXTINF:-1,Es- DISNEY CHANNEL HD
+http://m-iptv.net:6204/live/zawa/zawa/9999.ts
+#EXTINF:-1,Es- DISNEY JR
+http://m-iptv.net:6204/live/zawa/zawa/9998.ts
+#EXTINF:-1,Es- DISNEY XD
+http://m-iptv.net:6204/live/zawa/zawa/9997.ts
+#EXTINF:-1,Es- DIVINITY
+http://m-iptv.net:6204/live/zawa/zawa/9996.ts
+#EXTINF:-1,Es- ENERGY
+http://m-iptv.net:6204/live/zawa/zawa/9995.ts
+#EXTINF:-1,Es- EUROSPORT 1
+http://m-iptv.net:6204/live/zawa/zawa/9994.ts
+#EXTINF:-1,Es- EUROSPORT 2
+http://m-iptv.net:6204/live/zawa/zawa/9993.ts
+#EXTINF:-1,Es- FOX
+http://m-iptv.net:6204/live/zawa/zawa/9992.ts
+#EXTINF:-1,Es- FOX LIFE
+http://m-iptv.net:6204/live/zawa/zawa/9991.ts
+#EXTINF:-1,Es- GOL TV
+http://m-iptv.net:6204/live/zawa/zawa/9990.ts
+#EXTINF:-1,Es- HISTORIA
+http://m-iptv.net:6204/live/zawa/zawa/9989.ts
+#EXTINF:-1,Es- HOLLYWOOD
+http://m-iptv.net:6204/live/zawa/zawa/9988.ts
+#EXTINF:-1,Es- LA 1
+http://m-iptv.net:6204/live/zawa/zawa/9986.ts
+#EXTINF:-1,Es- LA 2
+http://m-iptv.net:6204/live/zawa/zawa/9985.ts
+#EXTINF:-1,Es- LA SEXTA
+http://m-iptv.net:6204/live/zawa/zawa/9984.ts
+#EXTINF:-1,Es- LALIGA TV BAR
+http://m-iptv.net:6204/live/zawa/zawa/9983.ts
+#EXTINF:-1,Es- M.ACCION
+http://m-iptv.net:6204/live/zawa/zawa/9982.ts
+#EXTINF:-1,Es- M.CINE ESPANOL
+http://m-iptv.net:6204/live/zawa/zawa/9981.ts
+#EXTINF:-1,Es- M.COMEDIA
+http://m-iptv.net:6204/live/zawa/zawa/9980.ts
+#EXTINF:-1,Es- M.DCINE
+http://m-iptv.net:6204/live/zawa/zawa/9979.ts
+#EXTINF:-1,Es- M.DEP 1
+http://m-iptv.net:6204/live/zawa/zawa/9978.ts
+#EXTINF:-1,Es- M.DEP 2
+http://m-iptv.net:6204/live/zawa/zawa/9977.ts
+#EXTINF:-1,Es- M.ESTRENOS
+http://m-iptv.net:6204/live/zawa/zawa/9976.ts
+#EXTINF:-1,Es- M.FORMULA 1
+http://m-iptv.net:6204/live/zawa/zawa/9975.ts
+#EXTINF:-1,Es- M.FUTBOL
+http://m-iptv.net:6204/live/zawa/zawa/9974.ts
+#EXTINF:-1,Es- M.GOLF
+http://m-iptv.net:6204/live/zawa/zawa/9973.ts
+#EXTINF:-1,Es- M.MOTOGP
+http://m-iptv.net:6204/live/zawa/zawa/9972.ts
+#EXTINF:-1,Es- M.SERIES
+http://m-iptv.net:6204/live/zawa/zawa/9971.ts
+#EXTINF:-1,Es- M.SERIESXTRA
+http://m-iptv.net:6204/live/zawa/zawa/9970.ts
+#EXTINF:-1,Es- M.XTRA
+http://m-iptv.net:6204/live/zawa/zawa/9969.ts
+#EXTINF:-1,Es- NAT GEO WILD
+http://m-iptv.net:6204/live/zawa/zawa/9967.ts
+#EXTINF:-1,Es- NATIONAL GEOGRAPHIC
+http://m-iptv.net:6204/live/zawa/zawa/9966.ts
+#EXTINF:-1,Es- NEOX
+http://m-iptv.net:6204/live/zawa/zawa/9965.ts
+#EXTINF:-1,Es- NICKELODEON
+http://m-iptv.net:6204/live/zawa/zawa/9964.ts
+#EXTINF:-1,Es- NOVA
+http://m-iptv.net:6204/live/zawa/zawa/9962.ts
+#EXTINF:-1,Es- PARAMOUNT
+http://m-iptv.net:6204/live/zawa/zawa/9961.ts
+#EXTINF:-1,Es- Real Madrid TV
+http://m-iptv.net:6204/live/zawa/zawa/9960.ts
+#EXTINF:-1,Es- SUNDANCE
+http://m-iptv.net:6204/live/zawa/zawa/9959.ts
+#EXTINF:-1,Es- SYFY
+http://m-iptv.net:6204/live/zawa/zawa/9958.ts
+#EXTINF:-1,Es- TCM
+http://m-iptv.net:6204/live/zawa/zawa/9957.ts
+#EXTINF:-1,Es- TELECINCO
+http://m-iptv.net:6204/live/zawa/zawa/9956.ts
+#EXTINF:-1,Es- TELEDEPORTE
+http://m-iptv.net:6204/live/zawa/zawa/9955.ts
+#EXTINF:-1,Es- TNT
+http://m-iptv.net:6204/live/zawa/zawa/9954.ts
+#EXTINF:-1,Es- TOROS TV
+http://m-iptv.net:6204/live/zawa/zawa/9953.ts
+
+#EXTINF:-1,AMERICA HD
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/2369.ts
+#EXTINF:-1,AMERICA
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3844.ts
+#EXTINF:-1,TV PUBLICA HD
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3747.ts
+#EXTINF:-1,TV PUBLICA
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/2384.ts
+#EXTINF:-1,CANAL 9 HD
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/2853.ts
+#EXTINF:-1,CANAL 9
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3580.ts
+#EXTINF:-1,TELEFE HD
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/243.ts
+#EXTINF:-1,TELEFE
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3852.ts
+#EXTINF:-1,EL TRECE HD
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/242.ts
+#EXTINF:-1,EL TRECE
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3855.ts
+#EXTINF:-1,MAGAZINE
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3751.ts
+#EXTINF:-1,MAGAZINE HD
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3752.ts
+#EXTINF:-1,CINEAR
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3913.ts
+#EXTINF:-1,TN HD
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3719.ts
+#EXTINF:-1,TN
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3746.ts
+#EXTINF:-1,LN+
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3744.ts
+#EXTINF:-1,A24
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3743.ts
+#EXTINF:-1,C5N HD
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3742.ts
+#EXTINF:-1,CRONICA TV
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/239.ts
+#EXTINF:-1,26 TV HD
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3738.ts
+#EXTINF:-1,26 TV
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/238.ts
+#EXTINF:-1,KZO
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3745.ts
+#EXTINF:-1,CANAL DE LA CIUDAD
+http://s1.multicanal.tel:25461/live/jortuz/jortuz/3753.ts
+
 #EXTINF:-1,Encuentro
 http://s1.multicanal.tel:25461/live/jortuz/jortuz/225.ts
 #EXTINF:-1,Tec TV
@@ -121,10 +481,7 @@ http://s1.multicanal.tel:25461/live/jortuz/jortuz/3677.ts
 http://s1.multicanal.tel:25461/live/jortuz/jortuz/3678.ts
 #EXTINF:-1,TV RIONEGRINA
 http://s1.multicanal.tel:25461/live/jortuz/jortuz/3665.ts
-#EXTINF:-1,FOX SPORTS URUGUAY
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/218.ts
-#EXTINF:-1,GOLTV URUGUAY
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/2861.ts
+
 #EXTINF:-1,VTV FHD
 http://s1.multicanal.tel:25461/live/jortuz/jortuz/3833.ts
 #EXTINF:-1,VTV URU
@@ -175,40 +532,7 @@ http://s1.multicanal.tel:25461/live/jortuz/jortuz/3248.ts
 http://s1.multicanal.tel:25461/live/jortuz/jortuz/3244.ts
 #EXTINF:-1,RTV
 http://s1.multicanal.tel:25461/live/jortuz/jortuz/3242.ts
-#EXTINF:-1,+ BEIN Ñ
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3909.ts
-#EXTINF:-1,TyCSports
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/2808.ts
-#EXTINF:-1,DEPORTV.
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/1778.ts
-#EXTINF:-1,+ ESPN
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3149.ts
-#EXTINF:-1,+ ESPN 2
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3148.ts
-#EXTINF:-1,+ ESPN 3
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3147.ts
-#EXTINF:-1,+ ESPN Plus
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3146.ts
-#EXTINF:-1,+ Fox Sports
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3151.ts
-#EXTINF:-1,+ Fox Sports 2
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3150.ts
-#EXTINF:-1,+ ESPN 1 MEX
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3714.ts
-#EXTINF:-1,+ ESPN 2 MEX
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3713.ts
-#EXTINF:-1,+ ESPN 3 MEX
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3712.ts
-#EXTINF:-1,+ ESPN Plus MEX
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3711.ts
-#EXTINF:-1,+ FoxSports 1 MEX
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3717.ts
-#EXTINF:-1,+ FoxSports 2 MEX
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3715.ts
-#EXTINF:-1,+ FoxSports 3 MEX
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3716.ts
-#EXTINF:-1,REAL MADRID TV
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/662.ts
+
 #EXTINF:-1,TVN CHILE
 http://s1.multicanal.tel:25461/live/jortuz/jortuz/3885.ts
 #EXTINF:-1,CHILEVISION
@@ -241,8 +565,7 @@ http://s1.multicanal.tel:25461/live/jortuz/jortuz/3412.ts
 http://s1.multicanal.tel:25461/live/jortuz/jortuz/3848.ts
 #EXTINF:-1,C9N PARAGUAY
 http://s1.multicanal.tel:25461/live/jortuz/jortuz/3851.ts
-#EXTINF:-1,FOX SPORTS PARAGUAY
-http://s1.multicanal.tel:25461/live/jortuz/jortuz/3850.ts
+
 #EXTINF:-1,RED GUARANI
 http://s1.multicanal.tel:25461/live/jortuz/jortuz/3847.ts
 #EXTINF:-1,INTERCABLE - PARAGUAY
