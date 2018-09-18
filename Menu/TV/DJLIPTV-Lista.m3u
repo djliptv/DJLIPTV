@@ -1,13 +1,13 @@
 #EXTM3U
-#EXTINF:-1,= = = = = = = = = = = = = = = = = = = = =
+#EXTINF:-0,= = = = = = = = = = = = = = = = = = = = =
 http://pastebin.com
-#EXTINF:-1,= D J L   I P T V                       =
+#EXTINF:-0,= D J L   I P T V                       =
 http://pastebin.com
-#EXTINF:-1,= PAYPAL: https://www.paypal.me/DJLIPTV =
+#EXTINF:-0,= PAYPAL: https://www.paypal.me/DJLIPTV =
 http://pastebin.com
-#EXTINF:-1,= = = = = = = = = = = = = = = = = = = = =
+#EXTINF:-0,= = = = = = = = = = = = = = = = = = = = =
 http://pastebin.com
-#EXTINF:-1,= D E P O R T E S =
+#EXTINF:-0,= D E P O R T E S =
 http://pastebin.com
 #EXTINF:-1,TyC SPORTS
 http://s1.multicanal.tel:25461/live/jortuz/jortuz/236.ts
@@ -245,7 +245,7 @@ http://m-iptv.net:6204/live/zawa/zawa/8936.ts
 http://m-iptv.net:6204/live/zawa/zawa/4760.ts
 #EXTINF:-1,Bein DreamWork HD
 http://m-iptv.net:6204/live/zawa/zawa/7137.ts
-#EXTINF:-1,= C I N E =
+#EXTINF:-0,= C I N E =
 http://pastebin.com
 #EXTINF:-1,Sp- Taquilla 1
 http://m-iptv.net:6204/live/zawa/zawa/8957.ts
@@ -267,7 +267,7 @@ http://m-iptv.net:6204/live/zawa/zawa/8950.ts
 http://m-iptv.net:6204/live/zawa/zawa/8949.ts
 #EXTINF:-1,Sp- Taquilla 9
 http://m-iptv.net:6204/live/zawa/zawa/8948.ts
-#EXTINF:-1,= S P A I N - M O V I S T A R =
+#EXTINF:-0,= S P A I N - M O V I S T A R =
 http://pastebin.com
 #EXTINF:-1,Es- #0
 http://m-iptv.net:6204/live/zawa/zawa/10021.ts
