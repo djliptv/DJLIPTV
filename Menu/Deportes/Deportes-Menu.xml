@@ -85,9 +85,9 @@
 <item>
 	<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]LISTA DEPORTES[/COLOR] </title>
 	<link>ignorme</link>
-	<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/rojadirecta.me.cfg&amp;mode=1</jsonrpc>
-	<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
-	<fanart>https://pastebin.com/raw/8nh5MAwz</fanart>
+	<externallink>https://pastebin.com/raw/8nh5MAwz</externallink>
+	<thumbnail>http://portal21.com.ar/wp-content/uploads/2017/04/Rebajas-en-tienda-de-deportes-en-sevilla-1-940x462.png</thumbnail>
+	<fanart>http://noticias.universia.edu.pe/net/images/educacion/a/ap/apl/aplicaciones-deporte.jpg</fanart>
 </item>
 
 <item>
