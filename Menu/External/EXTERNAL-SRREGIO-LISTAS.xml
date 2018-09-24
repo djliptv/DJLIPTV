@@ -28,30 +28,7 @@
 <externallink>http://srregio.xyz/IPTV/smartv.m3u</externallink>
 <info></info>
 </item>
-
-<item>
-<title>[B][COLOR grey]+[/COLOR] [COLOR white]ALTERNA TV[/COLOR][/B]</title>
-<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-    <title>[makelist.param1]</title>
-    <link>[makelist.param2]</link>
-    <thumbnail>NA</thumbnail>
-]]></listrepeat>
-<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
-<page>http://srregio.xyz/IPTV/alterna.m3u</page>
-<agent>$doregex[it]</agent>
-<cookieJar></cookieJar>
-</regex>
-<name>it</name>  
-<expres>Agent:"(.*?)";</expres>  
-<page>Z3z2EfVw48</page>
-</regex>
-<item>
-
+<!---
 <item>
 <title>[B][COLOR grey]+[/COLOR] [COLOR white]ALTERNA TV[/COLOR][/B]</title>
 <link>ignorme</link>
@@ -60,7 +37,7 @@
 <externallink>http://srregio.xyz/IPTV/alterna.m3u</externallink>
 <info></info>
 </item>
-
+--->
 <item>
 <title>[B][COLOR grey]+[/COLOR] [COLOR white]DEPORTES[/COLOR][/B]</title>
 <link>ignorme</link>
