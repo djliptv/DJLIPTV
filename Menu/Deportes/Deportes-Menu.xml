@@ -83,6 +83,14 @@
 </item> 
 
 <item>
+	<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]LISTA DEPORTES[/COLOR] </title>
+	<link>ignorme</link>
+	<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/rojadirecta.me.cfg&amp;mode=1</jsonrpc>
+	<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
+	<fanart>https://pastebin.com/raw/8nh5MAwz</fanart>
+</item>
+
+<item>
 	<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]ROJADIRECTA[/COLOR]</title>
 	<thumbnail>https://static.giga.de/wp-content/uploads/2014/10/acestream-download.png</thumbnail>
 	<fanart>http://www.myfootballfacts.com/7514.JPG</fanart>
