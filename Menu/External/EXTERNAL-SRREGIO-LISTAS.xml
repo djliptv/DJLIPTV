@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+
+<item>
+<title>[B][COLOR grey]+[/COLOR] [COLOR white]REGIOFLIX[/COLOR][/B]</title>
+<link>ignorme</link>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<externallink>http://srregio.xyz/IPTV/regioflix.m3u</externallink>
+<info></info>
+</item>
+
+<item>
+<title>[B][COLOR grey]+[/COLOR] [COLOR white]REGIO TV[/COLOR][/B]</title>
+<link>ignorme</link>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<externallink>http://srregio.xyz/IPTV/regiotv.m3u</externallink>
+<info></info>
+</item>
+
+<item>
+<title>[B][COLOR grey]+[/COLOR] [COLOR white]SRmart TV[/COLOR][/B]</title>
+<link>ignorme</link>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<externallink>http://srregio.xyz/IPTV/smartv.m3u</externallink>
+<info></info>
+</item>
+
+<item>
+<title>[B][COLOR grey]+[/COLOR] [COLOR white]ALTERNA TV[/COLOR][/B]</title>
+<link>ignorme</link>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<externallink>http://srregio.xyz/IPTV/alterna.m3u</externallink>
+<info></info>
+</item>
+
+<item>
+<title>[B][COLOR grey]+[/COLOR] [COLOR white]DEPORTES[/COLOR][/B]</title>
+<link>ignorme</link>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<externallink>http://srregio.xyz/IPTV/deportes.m3u</externallink>
+<info></info>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+

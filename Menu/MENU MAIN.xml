@@ -93,6 +93,13 @@
 <externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/TV-Menu.xml</externallink>
 </item>
 
+<item>
+<title>[B][COLOR gold]+[/COLOR][COLOR blue] [COLOR deepskyblue] SRREGIO LISTAS[/COLOR][COLOR grey][I] [TV, DEPORTES, PELICULAS][/I][/COLOR][/B]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/TVFanart.jpg?raw=true</fanart>
+<link>$doregex[makelist]</link>
+<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/External/EXTERNAL-SRREGIO-LISTAS.xml</externallink>
+</item>
 
  <!--- ITEM - COCINA ######## INICIO --->
 
