@@ -9,7 +9,7 @@
 <expres><![CDATA[#$pyFunction
 import re,requests
 def GetLSProData(page_data,Cookie_Jar,m):# streamwatcher2013
-  return 'plugin://plugin.video.youtube/play/?video_id='+re.findall('feature=c4-live-promo".*?watch\?v=(.*?)".*?LIVE',requests.get('https://www.youtube.com/watch?v=d1HxzsmGKgA').content.decode('ascii','ignore'))[0]
+  return 'plugin://plugin.video.youtube/play/?video_id='+re.findall('feature=c4-live-promo".*?watch\?v=(.*?)".*?LIVE',requests.get('https://www.youtube.com/channel/UCkWr5PLM8hp8M4WNIkjpKsQ').content.decode('ascii','ignore'))[0]
 ]]></expres>
 <page></page>
 </regex>
