@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
 
-
+<item>
+		<title>[B]24/7 DJL[/B]</title>
+		<link>http://ignorame</link>
+		<thumbnail></thumbnail>
+		<fanart></fanart>
+		<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/DJLIPTV-247.m3u</externallink> <!--- https://pastebin.com/raw/fWeGMryE --->
+	</item>
 
 <item>
 		<title>[B]BUSCADORES[/B]</title>
