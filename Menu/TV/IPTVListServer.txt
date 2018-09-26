@@ -91,7 +91,7 @@ Server:"E [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][
 Server:"E [COLOR gray]02:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][5][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][19/06/19][/COLOR]" URL="http://s1.multicanal.tel:25461/get.php?username=leo&password=leo&type=m3u"; regex""
 Server:"E [COLOR gray]03:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://ligatv.net:25461/get.php?username=agenda06&password=12092018&type=m3u"; regex""  
 Server:"E [COLOR gray]04:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://54.36.168.124:25461/get.php?username=211723f&password=tvpremiumhd.com&type=m3u"; regex""  
-Server:"E [COLOR gray]04:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://54.36.168.124:25461/get.php?username=221424&password=tvpremiumhd.com&type=m3u"; regex""  
+Server:"E [COLOR gray]05:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][2][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][02/10/18][/COLOR]" URL="http://tvla.xyz:25461/get.php?username=Georiveros772@gmail.com&password=9hYs4mCEPd&type=m3u"; regex""  
 
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]X[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
 Server:"X [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][200][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][NULL][/COLOR]" URL="http://s1.iptv-pla.net:7040/get.php?username=ccmilo&password=7664FEBCBF18DA26&type=m3u"; regex"" 
