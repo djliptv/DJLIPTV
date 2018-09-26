@@ -171,6 +171,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
+<title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]TIEMPO DE SOL[/COLOR]</title>
+<fanart>https://yt3.ggpht.com/a-/AN66SAyGYa5fxvwX-dk2qXZPrqem2jKq6skfTCDnzQ=s288-mo-c-c0xffffffff-rj-k-no</fanart>
+<thumbnail>https://yt3.ggpht.com/a-/AN66SAyGYa5fxvwX-dk2qXZPrqem2jKq6skfTCDnzQ=s288-mo-c-c0xffffffff-rj-k-no</thumbnail>
+<jsonrpc>plugin://plugin.video.youtube//channel/UC7S5EdUYwr7r04MrIjtSPNg/</jsonrpc> <!--- FIJATE LO QUE SE TOMA DE LA URL https://www.youtube.com/user/webcamsdemexico --->
+<link>ignorme</link> 
+<info></info>
+</item>
+
+<item>
 <title>[COLOR white]+[/COLOR][COLOR blue] [COLOR deepskyblue]PEPPA PIG[/COLOR]</title>
 <fanart>https://yt3.ggpht.com/-7_iBgucFeO8/AAAAAAAAAAI/AAAAAAAAAAA/dz8vdqatiEY/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
 <thumbnail>https://yt3.ggpht.com/-7_iBgucFeO8/AAAAAAAAAAI/AAAAAAAAAAA/dz8vdqatiEY/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
