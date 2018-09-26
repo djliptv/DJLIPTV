@@ -16,6 +16,27 @@ def GetLSProData(page_data,Cookie_Jar,m):# streamwatcher2013
 <thumbnail>https://yt3.ggpht.com/-4c3BpnVtuLw/AAAAAAAAAAI/AAAAAAAAAAA/VTedIif8Pyc/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
 </item>
 
+<item>
+<title>KTN Kenya NEWS HIGH RES</title>
+<link>$doregex[getUrl]</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):# streamwatcher2013
+  url='https://www.youtube.com/watch?v='+re.findall('feature=c4-live-promo".*?watch\?v=(.*?)".*?LIVE',requests.get('https://www.youtube.com/channel/UCkWr5PLM8hp8M4WNIkjpKsQ').content.decode('ascii','ignore'))[0]
+  source=requests.get(url).content.decode('ascii','ignore').replace('\\u0026','&').replace('\\','');source=requests.get(re.findall('hlsvp":"(.*?)"',source)[0]).content.decode('ascii','ignore').replace('\\u0026','&').replace('\\','')
+  if '1080' in source:
+    return re.findall('x1080.*\n(.*)',source)[0]+'|User-Agent=iPad'
+  elif '720' in source:
+    return re.findall('x720.*\n(.*)',source)[0]+'|User-Agent=iPad'
+  elif '480' in source:
+    return re.findall('x480.*\n(.*)',source)[0]+'|User-Agent=iPad'
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://yt3.ggpht.com/-4c3BpnVtuLw/AAAAAAAAAAI/AAAAAAAAAAA/VTedIif8Pyc/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+</item>
 
 <item>
 		<title>Don Diablo Live At Tomorrowland 2015</title>

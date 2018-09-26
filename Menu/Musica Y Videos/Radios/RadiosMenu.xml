@@ -14,6 +14,13 @@
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/RadioTrendTopicFanart.jpg?raw=true</fanart>
 <link>http://nnvserver.com:8150/live</link>
 </item>
+
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]TECNOTV[/COLOR] [COLOR cyan]RADIO [/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/PAQ9oBs.png</thumbnail>
+<fanart>https://i.imgur.com/PAQ9oBs.png</fanart>
+<link>http://tecnotv.xyz/radio</link>
+</item>
 <!---
 #EXTINF:-1 tvg-logo="https://github.com/djliptv/INSOMNIA/blob/master/Pics/RadioDainusThumbnail.jpg?raw=true", Dainus Radio
 http://server1.dainusradio.com:2349/;?_=0.8910862157035713
