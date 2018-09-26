@@ -21,8 +21,8 @@ https://www.youtube.com/watch?v=weSmlNXB6xw
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1014700120074416129/YCBrEdko_400x400.jpg" group-title="MEXICO", Canal Nu9ve (Torreon)
 https://www.youtube.com/watch?v=lXvhVj-EONw
 
-#EXTINF:-1 tvg-logo="" group-title="", TITULO
-http://pastebin.com
+#EXTINF:-1 tvg-logo="" group-title="", PRUEBA
+plugin://plugin.video.youtube/play/?video_id=d1HxzsmGKgA
 
 #EXTINF:-1 tvg-logo="" group-title="", TITULO
 http://pastebin.com
