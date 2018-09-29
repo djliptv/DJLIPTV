@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?> 
+
+<channels>
+			
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]RICK AND MORTY[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams1.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]RICK AND MORTY[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 1][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-01X01.mkv</link> 
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-01X02.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-01X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-01X04.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-01X05.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-01X06.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-01X07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-01X08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-01X09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]01x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-01X10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams1.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+		
+	</channel>
+
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]RICK AND MORTY[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 2][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams2.jpg?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]RICK AND MORTY[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 2][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-02X01.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-02X02.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-02X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-02X04.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-02X05.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-02X06.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-02X07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-02X08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-02X09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]02x10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-02X10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams2.jpg?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+		
+	</channel>
+	
+	<channel>
+		<name>[COLOR white]+[/COLOR] [B][COLOR skyblue]RICK AND MORTY[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 3][/COLOR]</name>
+		<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams3.png?raw=true</thumbnail>
+		<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+        
+		<items>
+                
+			<item>
+				<title>[COLOR white]::: |[/COLOR] [B][COLOR skyblue]RICK AND MORTY[/COLOR][/B] [COLOR lime][HD][/COLOR] [COLOR deepskyblue][TEMPORADA 3][/COLOR] [COLOR white]| :::[/COLOR]</title>
+				<link>NA</link>
+			</item>
+			
+			<item>
+				<title>===================================================</title>
+				<link>NA</link>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X01[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-03X01.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X02[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-03X02.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X03[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-03X03.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X04[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-03X04.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X05[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-03X05.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X06[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-03X06.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X07[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-03X07.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X08[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-03X08.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X09[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-03X09.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+
+			<item>
+				<title>[COLOR skyblue][B]03X10[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-RAM/RAM-03X10.mkv</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/trams3.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+			</item>
+			
+		</items>
+		
+	</channel>
+</channels>

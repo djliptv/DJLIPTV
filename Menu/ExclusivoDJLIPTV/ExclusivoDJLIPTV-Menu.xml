@@ -168,6 +168,14 @@
 			</item>
 
 			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]RICK AND MORTY[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/tram.png?raw=true</thumbnail>
+				<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/S-RAM/fram.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-RAM.xml</externallink>
+			</item>
+			
+			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]STRANGER THINGS[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
 				<link>$doregex[makelist]</link>
 				<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/ST/TST.png?raw=true</thumbnail>
