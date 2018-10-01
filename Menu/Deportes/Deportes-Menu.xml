@@ -75,6 +75,22 @@
 </item>
 
 <item>
+	<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]EVENTOS DEL DIA[/COLOR]</title>
+	<link>ignorme</link>
+	<externallink>http://80.211.105.59/ace/eventos_del_grupo.m3u</externallink>
+	<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVThumbnail.png</thumbnail>
+	<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVFanart.jpg</fanart>
+</item> 
+
+<item>
+	<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]LISTA DE CANALES[/COLOR]</title>
+	<link>ignorme</link>
+	<externallink>http://80.211.105.59/ace/lista.m3u</externallink>
+	<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVThumbnail.png</thumbnail>
+	<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVFanart.jpg</fanart>
+</item> 
+
+<item>
 	<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]SPORT 365[/COLOR]</title>
 	<link>ignorme</link>
 	<jsonrpc>plugin://plugin.video.deportesalacarta/?ewogICAgImFjdGlvbiI6ICJtYWlubGlzdCIsIAogICAgImNhdGVnb3J5IjogImRlcG9ydCIsIAogICAgImNoYW5uZWwiOiAic3BvcnQzNjUiLCAKICAgICJmYW5hcnQiOiAiIiwgCiAgICAiaW5mb0xhYmVscyI6IHt9LCAKICAgICJsYW5ndWFnZSI6ICJlcyIsIAogICAgInRodW1ibmFpbCI6ICJodHRwOi8vaS5pbWd1ci5jb20vaEoydmhpcC5wbmciLCAKICAgICJ0aXRsZSI6ICJTcG9ydDM2NSIsIAogICAgInRvdGFsSXRlbXMiOiAwLCAKICAgICJ2aWV3bW9kZSI6ICJsaXN0Igp9</jsonrpc>
