@@ -41,7 +41,7 @@ Serve:"A PLUS [COLOR gray]36:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray]
 Serve:"A PLUS [COLOR gray]37:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://144.217.39.29:80/get.php?username=manssour&password=manssour&type=m3u"; regex""
 Serve:"A PLUS [COLOR gray]38:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://144.217.39.29:80/get.php?username=vab&password=vab&type=m3u"; regex""
 Server:"A PLUS [COLOR gray]39:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://144.217.39.29:80/get.php?username=rrd&password=rrd&type=m3u"; regex""
-Server:"A PLUS [COLOR gray]40:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][16/05/19][/COLOR]" URL="http://uk.msnpanel.pw:8080/get.php?username=J6PjPJdrvK&password= H4QdMN55Nr&type=m3u"; regex""
+Server:"A PLUS [COLOR gray]40:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][16/05/19][/COLOR]" URL="http://uk.msnpanel.pw:8080/get.php?username=J6PjPJdrvK&password=H4QdMN55Nr&type=m3u"; regex""
 
 
 
