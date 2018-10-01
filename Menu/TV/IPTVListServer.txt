@@ -117,5 +117,8 @@ Server:"X [COLOR gray]16:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][
 
 
 
+Serverm3u:"M3U [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="https://pastebin.com/raw/8nh5MAwz"; regex""  
+
+
 
 erver:"IPTV [COLOR gray]XX:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL=""; regex""
