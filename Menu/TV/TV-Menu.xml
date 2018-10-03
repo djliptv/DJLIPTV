@@ -35,6 +35,14 @@
 		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 		<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/IPTVListMenu.xml</externallink> <!--- https://pastebin.com/raw/fWeGMryE --->
 	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]IPTV DE PAGO[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/TMP/A-PLUS-40-tv_channels_J6PjPJdrvK.m3u</externallink> <!--- https://pastebin.com/raw/fWeGMryE --->
+	</item>
 
 	<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TV Y PELICULAS TVPREMIUMHD[/COLOR]</title>
