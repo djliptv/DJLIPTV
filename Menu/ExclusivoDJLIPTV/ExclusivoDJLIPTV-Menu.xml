@@ -311,6 +311,14 @@
 			</item>
 			
 			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]SUPER FRIENDS[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
+				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-SF/tsf.png</thumbnail>
+				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-SF/fsf.png</fanart>
+				<link>$doregex[makelist]</link>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-SI-SF.xml</externallink>
+			</item>
+			
+			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]THUNDERCATS[/COLOR][/B] [COLOR white][AUDIO LATINO][/COLOR]</title>
 				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TLFC/TTLFC.png</thumbnail>
 				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/SI-TLFC/FTLFC.jpg</fanart>
