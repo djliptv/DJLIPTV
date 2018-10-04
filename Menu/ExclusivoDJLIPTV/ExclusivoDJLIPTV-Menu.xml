@@ -128,6 +128,14 @@
 			</item>
 
 			<item>
+				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]LA FAMILIA INGALLS[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
+				<link>$doregex[makelist]</link>
+				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfi.png?raw=true</thumbnail>
+				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
+				<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/Series/DJL-S-LCDP.xml</externallink>
+			</item>
+			
+			<item>
 				<title>[COLOR white]+[/COLOR] [B][COLOR skyblue]LA QUERIDA DEL CENTAURO[/COLOR][/B] [COLOR lime][HD][/COLOR]</title>
 				<link>$doregex[makelist]</link>
 				<thumbnail>http://mysangrelatina.com/wp-content/uploads/2016/01/LQDC_Logo_F-e1454018904170.png</thumbnail>
