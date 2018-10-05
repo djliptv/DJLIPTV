@@ -104,15 +104,8 @@
 			</item>
 			
 			<item>
-				<title>[COLOR skyblue][B]01X13[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-01X13.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis1.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]01X14[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-01X14.mkv</link>
+				<title>[COLOR skyblue][B]01X13-14[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LFI/LFI-01X13-14.mkv</link>
 				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis1.jpg?raw=true</thumbnail>
 				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
 			</item>
@@ -169,6 +162,20 @@
 			<item>
 				<title>[COLOR skyblue][B]01X22[/B][/COLOR]</title>
 				<link>https://archive.org/download/djliptv-S-LFI/LFI-01X22.mkv</link>
+				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis1.jpg?raw=true</thumbnail>
+				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X23[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LFI/LFI-01X23.mkv</link>
+				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis1.jpg?raw=true</thumbnail>
+				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]01X24[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LFI/LFI-01X24.mkv</link>
 				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis1.jpg?raw=true</thumbnail>
 				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
 			</item>
@@ -506,15 +513,8 @@
 			</item>
 			
 			<item>
-				<title>[COLOR skyblue][B]03X21[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-03X21.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis3.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]03X22[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-03X22.mkv</link>
+				<title>[COLOR skyblue][B]03X21-22[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LFI/LFI-03X21-22.mkv</link>
 				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis3.jpg?raw=true</thumbnail>
 				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
 			</item>
@@ -864,6 +864,20 @@
 				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis5.jpg?raw=true</thumbnail>
 				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
 			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X23[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LFI/LFI-05X23.mkv</link>
+				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis5.jpg?raw=true</thumbnail>
+				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]05X24[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LFI/LFI-05X24.mkv</link>
+				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis5.jpg?raw=true</thumbnail>
+				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
+			</item>
 		</items>
 	</channel>
 	
@@ -1034,6 +1048,20 @@
 			<item>
 				<title>[COLOR skyblue][B]06X22[/B][/COLOR]</title>
 				<link>https://archive.org/download/djliptv-S-LFI/LFI-06X22.mkv</link>
+				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis6.jpg?raw=true</thumbnail>
+				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X23[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LFI/LFI-06X23.mkv</link>
+				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis6.jpg?raw=true</thumbnail>
+				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
+			</item>
+			
+			<item>
+				<title>[COLOR skyblue][B]06X24[/B][/COLOR]</title>
+				<link>https://archive.org/download/djliptv-S-LFI/LFI-06X24.mkv</link>
 				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis6.jpg?raw=true</thumbnail>
 				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
 			</item>
@@ -1593,139 +1621,6 @@
 			<item>
 				<title>[COLOR skyblue][B]10X03[/B][/COLOR]</title>
 				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X03.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X04[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X04.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X05[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X05.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X06[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X06.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X07[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X07.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X08[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X08.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X09[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X09.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X10[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X10.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X11[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X11.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X12[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X12.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X13[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X13.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X14[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X14.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X15[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X15.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X16[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X16.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X17[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X17.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X18[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X18.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X19[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X19.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X20[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X20.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X21[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X21.mkv</link>
-				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
-				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
-			</item>
-			
-			<item>
-				<title>[COLOR skyblue][B]10X22[/B][/COLOR]</title>
-				<link>https://archive.org/download/djliptv-S-LFI/LFI-10X22.mkv</link>
 				<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/tlfis10.jpg?raw=true</thumbnail>
 				<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/S-LFI/flfi.jpg?raw=true</fanart>
 			</item>
