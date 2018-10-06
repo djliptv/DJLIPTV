@@ -71,7 +71,7 @@ Server:"A PLUS [COLOR gray]65:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray
 Server:"A PLUS [COLOR gray]66:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://listaccess.me:8880/get.php?username=elle&password=12345&type=m3u"; regex""
 Server:"A PLUS [COLOR gray]67:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://190.2.147.93:8000/get.php?username=madalena&password=madalena&type=m3u"; regex""
 Server:"A PLUS [COLOR gray]68:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://newtv.dyndns.org:25461/get.php?username=dreamgafsa&password=0MDd8DE5Qe&type=m3u"; regex""
-
+Server:"A PLUS [COLOR gray]69:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://spain.nepals.me:8000/get.php?username=bq41HE7N173gh2&password=8674542L8a3336&type=m3u"; regex""
 
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]A[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
 Serve:"A [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][4][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][02/06/19][/COLOR]" URL="http://54.37.255.204:9977/get.php?username=68730&password=iptv&type=m3u"; regex"" 
