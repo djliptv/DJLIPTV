@@ -61,6 +61,48 @@
 	</item>
 	
 	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]IXTLA ARREOLA[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>https://pastebin.com/raw/P7BEGxd0</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]Rocha IPTV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://rochaprivada.000webhostapp.com/androidtv.m3u$$TSDOWNLOADER$$</externallink>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]NIBBLE TV[/COLOR]</title>
+		<link>NA</link>2
+		<externallink>$doregex[getm3u8]$$TSDOWNLOADER$$</externallink>
+        <regex>
+              <name>getm3u8</name>
+              <expres>$pyFunction:'$doregex[m3u8]'.decode("hex")</expres>
+              <page></page>
+        </regex>
+        <regex>
+             <name>m3u8</name>
+             <expres>NibbleTVdecode\(\"TV(.*?)\"</expres>
+             <page>http://www.nibbletv.info/Listas-M3U</page>
+        </regex>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]ChileIPTV[/COLOR]</title>
+		<link>http://ignorame</link>
+		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+		<externallink>http://chileiptv.cl/cl.m3u</externallink>
+	</item>
+	
+	<item>
 		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]IPTV COSTA RICA[/COLOR]</title>
 		<link>http://ignorame</link>
 		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
