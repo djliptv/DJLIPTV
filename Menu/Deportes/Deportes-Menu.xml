@@ -8,6 +8,46 @@
 </item>
 
 <item>
+<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]BUSCAR CANAL[/COLOR]</title>
+<link>$doregex[lista]</link>
+
+<regex>
+<name>lista</name>
+  <listrepeat><![CDATA[
+         
+		 <title>[lista.param2]</title>
+        <link>plugin://program.plexus/?url=[lista.param1]&amp;mode=1&amp;name=DJL+[lista.param2]</link>
+		<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVThumbnail.png</thumbnail>
+		]]></listrepeat>
+<expres><![CDATA[acestream:\/\/(.*?)">(.*?)<]]><expres>
+<page>https://acestreamsearch.com/en/index.php</page>
+<rawpost>cn=$doregex[search]</rawpost>
+<referer>https://acestreamsearch.com/en/index.php</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar  Canal: ejemplo: Sky Sports', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVThumbnail.png</thumbnail>
+</item>
+
+<item>
 <title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]AGENDA[/COLOR]</title>
 <link>$doregex[LISTA]</link>
 <regex>
@@ -21,6 +61,25 @@
 </item>
 ]]></listrepeat>
 <expres><![CDATA[(?s)center'>([^<]+).*?br>([^<]+).*? src="(.*?)".*? title='([^']+).*?br>([^<]+).*?AV([^<]+).*?acestream://(.*?)".*?]]></expres>
+<page>https://avezy.xyz/</page>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVThumbnail.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVFanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]AGENDA[/COLOR] [COLOR gray][I]SOLO EVENTOS EN SPANISH[/I][/COLOR]</title>
+<link>$doregex[djl]</link>
+<regex>
+<name>djl</name>
+<listrepeat><![CDATA[
+<title>[COLOR orange][djl.param1][/COLOR] [COLOR yellow][djl.param2]H.[/COLOR][COLOR goldenrod][djl.param4][/COLOR] [COLOR white][djl.param5][/COLOR][COLOR red] ([djl.param7])[/COLOR]</title>
+<thumbnail>https://avezy.xyz/[djl.param3]</thumbnail>
+<fanart>http://makambaonline.com/wp-content/uploads/2017/11/UEFA-Champions-League-Stadium-Wallpaper.jpg</fanart>
+<link>plugin://program.plexus/?url=[djl.param8]&amp;mode=1&amp;name=DJL</link>
+</item>
+]]></listrepeat>
+<expres><![CDATA[(?s)center'>([^<]+).*?br>([^<]+).*? src="(.*?)".*? title='([^']+).*?br>([^<]+).*?spa([^']+).*?AV([^<]+).*?acestream://(.*?)".*?]]></expres>
 <page>https://avezy.xyz/</page>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVThumbnail.png</thumbnail>
@@ -73,7 +132,7 @@
 <thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVThumbnail.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVFanart.jpg</fanart>
 </item>
-
+<!---
 <item>
 	<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]EVENTOS DEL DIA[/COLOR]</title>
 	<link>ignorme</link>
@@ -89,7 +148,7 @@
 	<thumbnail>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVThumbnail.png</thumbnail>
 	<fanart>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Pics/Logos/AVFanart.jpg</fanart>
 </item> 
-
+--->
 <item>
 	<title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]SPORT 365[/COLOR]</title>
 	<link>ignorme</link>

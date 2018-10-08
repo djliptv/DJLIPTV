@@ -2,24 +2,269 @@
 <?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
 
 <item>
-<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]DAINUS[/COLOR] [COLOR cyan]RADIO [/COLOR][/B]</title>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]DAINUS[/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/RadioDainusThumbnail.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/RadioDainusFanart.jpg?raw=true</fanart>
 <link>http://server1.dainusradio.com:2349/;?_=0.8910862157035713</link>
 </item>
 
 <item>
-<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]TREND TOPIC[/COLOR] [COLOR cyan]RADIO [/COLOR][/B]</title>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]TREND TOPIC[/COLOR][/B]</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/RadioTrendTopicThumbnail.png?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/RadioTrendTopicFanart.jpg?raw=true</fanart>
 <link>http://nnvserver.com:8150/live</link>
 </item>
 
 <item>
-<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]TECNOTV[/COLOR] [COLOR cyan]RADIO [/COLOR][/B]</title>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]TECNOTV[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/PAQ9oBs.png</thumbnail>
 <fanart>https://i.imgur.com/PAQ9oBs.png</fanart>
 <link>http://192.99.32.79:9964/</link>
+</item>
+
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]LOS 40 PRINCIPALES[/COLOR][/B]</title>        
+<link>http://17873.live.streamtheworld.com/LOS40_SC</link>
+<thumbnail>http://radio-espana.com/sites/default/files/radio/logos/logo-los-40-principales_1.jpg</thumbnail>
+<fanart>https://www.studentwelcomeday.com/logos/40principales.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]EUROPA FM[/COLOR][/B]</title>        
+<link>http://212.129.60.86:9968/stream/1/</link>
+<thumbnail>http://www.irenediaz.com/wp-content/uploads/2013/10/EuropaFM_500x500.jpg</thumbnail>
+<fanart>http://image.europafm.com/clipping/cmsimages02/2011/11/30/8615F522-4DE2-4CEC-8BA0-04E183117FA3/51.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]MAGIC 80'S[/COLOR][/B]</title>
+<link>http://sc-magic80.1.fm:10080/</link>
+<thumbnail>http://ochentosos.files.wordpress.com/2008/01/80.png</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]MEGASTAR FM[/COLOR][/B]</title>
+<link>http://195.55.74.208/cope/megastar.aac?</link>
+<thumbnail>http://files.megastar.fm/static/img/logoShare.jpg</thumbnail>	
+</item>
+		    
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]LOCA FM[/COLOR][/B]</title>
+<link>http://audio-online.net:23500/</link>
+<thumbnail>http://2.bp.blogspot.com/-nTU6w6mKHJo/UtPHzCvTNmI/AAAAAAAASr8/ztj-nuOKtHo/s1600/locafm.jpg</thumbnail>
+</item>
+  
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]MELODIA FM[/COLOR][/B]</title>
+<link>http://icecast-streaming.nice264.com/melodiafmback</link>
+<thumbnail>http://ecx.images-amazon.com/images/I/71tTZxbA7CL._SX355_.jpg</thumbnail>	
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]ONDA MELODIA[/COLOR][/B]</title>
+<link>http://streaming.radionomy.com/onda-melodia</link>
+<thumbnail>http://1.bp.blogspot.com/-KIeQsKImjtg/Ue_DrbHLm5I/AAAAAAAAJMI/NPJO6_gjxNQ/s1600/Onda+Melod%25C3%25ADa.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]IBIZA GLOBAL RADIO[/COLOR][/B]</title>
+<link>http://ibizaglobalradio.streaming-pro.com:8024/;stream/1</link>
+<thumbnail>http://4.bp.blogspot.com/-dEA5yiQHiwg/UtPKhq2-f_I/AAAAAAAASsY/sPGYBa768gc/s1600/ibiza+global+radio.jpg</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]IBIZA SONICA[/COLOR][/B]</title>
+<link>http://s1.sonicabroadcast.com:7005/;listen.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-viIGQIAQRuU/UtPLxU-QcMI/AAAAAAAASsk/mrOFZ3JiBow/s1600/ibiza+sonica.jpg</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]RADIO MARCA BARCELONA[/COLOR][/B]</title>
+<link>http://195.154.151.88:9003/stream</link>
+<thumbnail>http://3.bp.blogspot.com/-1bYeaLDBVsk/UtPIxCZVuVI/AAAAAAAASsM/N0SMjdKNBQU/s1600/radiomarca.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]RADIO MARCA VALENCIA[/COLOR][/B]</title>
+<link>http://188.165.134.20:8067</link>
+<thumbnail>http://3.bp.blogspot.com/-1bYeaLDBVsk/UtPIxCZVuVI/AAAAAAAASsM/N0SMjdKNBQU/s1600/radiomarca.jpg</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]MAXIMA FM[/COLOR][/B]</title>
+<link>http://63.243.149.3:443/MAXIMAFM_SC</link>
+<thumbnail>http://2.bp.blogspot.com/-fvo4cpxg1CA/Uoeo6fNF9MI/AAAAAAAASKQ/GB-MYjV7k90/s1600/maxima.jpg</thumbnail>
+</item>
+  
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]CADENA DIAL[/COLOR][/B]</title>
+<link>http://streaming8.elitecomunicacion.es:8226/</link>
+<thumbnail>http://3.bp.blogspot.com/-XvR5ncfuSns/Uoeo6K_DGaI/AAAAAAAASKY/dOXOeXkvjc8/s1600/dial.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE ALBACETE[/COLOR][/B]</title>
+<link>http://195.10.10.201/copesedes/albacete.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE ALICANTE[/COLOR][/B]</title>
+<link>http://195.10.10.221/copesedes/alicante.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE ÁVILA[/COLOR][/B]</title>
+<link>http://195.10.10.213/copesedes/avila.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE BADAJOZ[/COLOR][/B]</title>
+<link>http://195.10.10.213/copesedes/badajoz.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE BARCELONA[/COLOR][/B]</title>
+<link>http://195.10.10.213/copesedes/barcelona.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE CUENCA[/COLOR][/B]</title>
+<link>http://195.10.10.201/copesedes/cuenca.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE CEUTA[/COLOR][/B]</title>
+<link>http://www.elfarodigital.es:8000/copeceuta</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE CÁCERES[/COLOR][/B]</title>
+<link>http://195.55.74.208/copesedes/caceres.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE GRANADA[/COLOR][/B]</title>
+<link>http://195.10.10.221/copesedes/granada.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE LORCA[/COLOR][/B]</title>
+<link>http://195.10.10.201/copesedes/lorca.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE MADRID[/COLOR][/B]</title>
+<link>http://195.55.74.203/copesedes/madrid.mp3</link>
+<link>http://195.55.74.207/cope/net1.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE MELILLA[/COLOR][/B]</title>
+<link>http://radioserver4.profesionalhosting.com:8144/;</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE PALENCIA[/COLOR][/B]</title>
+<link>http://195.55.74.210/copesedes/palencia.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE SALAMANCA/SANTA MARTA[/COLOR][/B]</title>
+<link>http://195.55.74.203/copesedes/salamanca.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE SANTIAGO[/COLOR][/B]</title>
+<link>http://195.10.10.201/copesedes/santiago.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE TOLEDO[/COLOR][/B]</title>
+<link>http://195.10.10.201/copesedes/toledo.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]COPE ZAMORA[/COLOR][/B]</title>
+<link>http://195.55.74.210/copesedes/zamora.mp3</link>
+<thumbnail>http://1.bp.blogspot.com/-6DOJxcA3PbI/Uoeo5oTtFzI/AAAAAAAASJ4/3ZRvGa4_POQ/s1600/cope.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]M80[/COLOR][/B]</title>
+<link>http://provisioning.streamtheworld.com/asx/M80RADIOAAC.asx</link>
+<thumbnail>http://1.bp.blogspot.com/-ooyjFIZI6lE/Uoeo6Ne_65I/AAAAAAAASKI/Vr06bcJnHhA/s1600/m80.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]CADENA 100[/COLOR][/B]</title>
+<link>http://cadena100.cope.stream.flumotion.com/cope/cadena100.mp3.m3u</link>
+<link>http://cadena100.cope.stream.flumotion.com/cope/cadena100-low.mp3.m3u</link>
+<link>http://cadena100.cope.stream.flumotion.com/cope/cadena100.aac.m3u</link>
+<thumbnail>http://3.bp.blogspot.com/-SUqqn0fCRhY/Uoeo5l0BrMI/AAAAAAAASJ8/NxEQUTb7JY4/s1600/cadena100.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]CADENA SER ALICANTE[/COLOR][/B]</title>
+<link>mms://94.127.190.245/radioelche</link>
+<thumbnail>http://3.bp.blogspot.com/-cb6t8YGXN2g/Uoeo7k6Nh8I/AAAAAAAASKk/CP1l17X_lTk/s1600/ser.jpg</thumbnail>
+</item>
+	 
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]CADENA SER ALMERIA[/COLOR][/B]</title>
+<link>http://212.83.164.82:8000/seralmeria.mp3</link>
+<thumbnail>http://3.bp.blogspot.com/-cb6t8YGXN2g/Uoeo7k6Nh8I/AAAAAAAASKk/CP1l17X_lTk/s1600/ser.jpg</thumbnail>
+</item> 
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]CADENA SER ASTURIAS[/COLOR][/B]</title>
+<link>http://centova.nsprimario.com/tunein.php/04/playlist.pls</link>
+<thumbnail>http://3.bp.blogspot.com/-cb6t8YGXN2g/Uoeo7k6Nh8I/AAAAAAAASKk/CP1l17X_lTk/s1600/ser.jpg</thumbnail>
+</item> 
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]CADENA SER BILBAO[/COLOR][/B]</title>
+<link>http://13863.live.streamtheworld.com:3690/SER_BILBAO_SC</link>
+<thumbnail>http://3.bp.blogspot.com/-cb6t8YGXN2g/Uoeo7k6Nh8I/AAAAAAAASKk/CP1l17X_lTk/s1600/ser.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]CADENA SER BURGOS[/COLOR][/B]</title>
+<link>http://13393.live.streamtheworld.com:3690/SER_BURGOS_SC</link>
+<thumbnail>http://3.bp.blogspot.com/-cb6t8YGXN2g/Uoeo7k6Nh8I/AAAAAAAASKk/CP1l17X_lTk/s1600/ser.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]CADENA SER CASTELLÓN[/COLOR][/B]</title>
+<link>http://stream.radiocastellon.com/ser</link>
+<thumbnail>http://3.bp.blogspot.com/-cb6t8YGXN2g/Uoeo7k6Nh8I/AAAAAAAASKk/CP1l17X_lTk/s1600/ser.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]CADENA SER CEUTA[/COLOR][/B]</title>
+<link>http://playerservices.streamtheworld.com/pls/SER_CEUTA.pls</link>
+<thumbnail>http://3.bp.blogspot.com/-cb6t8YGXN2g/Uoeo7k6Nh8I/AAAAAAAASKk/CP1l17X_lTk/s1600/ser.jpg</thumbnail>
+</item>
+	
+<item>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]CADENA SER CÁDIZ[/COLOR][/B]</title>
+<link>http://playerservices.streamtheworld.com/pls/SER_CADIZ.pls</link>
+<thumbnail>http://3.bp.blogspot.com/-cb6t8YGXN2g/Uoeo7k6Nh8I/AAAAAAAASKk/CP1l17X_lTk/s1600/ser.jpg</thumbnail>
 </item>
 <!---
 #EXTINF:-1 tvg-logo="https://github.com/djliptv/INSOMNIA/blob/master/Pics/RadioDainusThumbnail.jpg?raw=true", Dainus Radio
