@@ -69,7 +69,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]AGENDA[/COLOR] [COLOR gray][I]SOLO EVENTOS EN SPANISH[/I][/COLOR]</title>
-<link>$doregex[djl]</link>
+<link>$doregex[LISTA]</link>
 <regex>
 <name>LISTA</name>
 <listrepeat><![CDATA[
