@@ -71,12 +71,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR gold]+[/COLOR] [COLOR deepskyblue]AGENDA[/COLOR] [COLOR gray][I]SOLO EVENTOS EN SPANISH[/I][/COLOR]</title>
 <link>$doregex[djl]</link>
 <regex>
-<name>djl</name>
+<name>LISTA</name>
 <listrepeat><![CDATA[
-<title>[COLOR orange][djl.param1][/COLOR] [COLOR yellow][djl.param2]H.[/COLOR][COLOR goldenrod][djl.param4][/COLOR] [COLOR white][djl.param5][/COLOR][COLOR red] ([djl.param7])[/COLOR]</title>
-<thumbnail>https://avezy.xyz/[djl.param3]</thumbnail>
+<title>[COLOR white][LISTA.param1][/COLOR] [COLOR gray][LISTA.param2]H.[/COLOR][COLOR white][LISTA.param4][/COLOR] [COLOR gray][LISTA.param5][/COLOR][COLOR dodgerblue] ([LISTA.param7])[/COLOR]</title>
+<thumbnail>https://avezy.xyz/[LISTA.param3]</thumbnail>
 <fanart>http://makambaonline.com/wp-content/uploads/2017/11/UEFA-Champions-League-Stadium-Wallpaper.jpg</fanart>
-<link>plugin://program.plexus/?url=[djl.param8]&amp;mode=1&amp;name=DJL</link>
+<link>plugin://program.plexus/?url=[LISTA.param8]&amp;mode=1&amp;name=DJL</link>
 </item>
 ]]></listrepeat>
 <expres><![CDATA[(?s)center'>([^<]+).*?br>([^<]+).*? src="(.*?)".*? title='([^']+).*?br>([^<]+).*?spa([^']+).*?AV([^<]+).*?acestream://(.*?)".*?]]></expres>
