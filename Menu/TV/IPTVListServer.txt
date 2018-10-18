@@ -181,6 +181,8 @@ Server:"X [COLOR gray]45:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][
 Server:"X [COLOR gray]46:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://brina.world-tv.org:25461/get.php?username=omar-ho&password=2CrBc95xvg&type=m3u"; regex""  
 Server:"X [COLOR gray]47:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://89.34.237.218:8000/get.php?username=rogerio&password=rogerio&type=m3u"; regex""  
 Server:"X [COLOR gray]48:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://89.34.237.218:8000/get.php?username=rogerio1&password=rogerio1&type=m3u"; regex""  
+Server:"X [COLOR gray]49:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://p2x.info:8080/get.php?username=ada143&password=143341h&type=m3u"; regex""  
+
 
 Serverm3u:"M3U [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="https://pastebin.com/raw/8nh5MAwz"; regex""  
 
