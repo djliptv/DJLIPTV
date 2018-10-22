@@ -37,11 +37,10 @@
 	</item>
 	
 	<item>
-		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]IPTV DE PAGO 1[/COLOR]</title>
-		<link>$doregex[makelist]</link>
+		<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]IPTV DE PAGO 01[/COLOR]</title>
+		<link>http://gangatvbox.com:25461/get.php?username=Dandy1&password=UNIVERSO&type=m3u</link>
 		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		<externallink>http://gangatvbox.com:25461/get.php?username=Dandy1&password=UNIVERSO&type=m3u</externallink> <!--- https://pastebin.com/raw/fWeGMryE --->
 	</item>
 		
 	<item>
