@@ -119,6 +119,9 @@ Serve:"D [COLOR gray]03:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/
 Server:"D [COLOR gray]04:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://m-iptv.net:6204/get.php?username=hama1&password=hama1&type=m3u"; regex""
 Server:"D [COLOR gray]05:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][08/01/19][/COLOR]" URL="http://m-iptv.net:6204/get.php?username=azmir&password=azmir&type=m3u"; regex""
 
+
+http://gangatvbox.com:25461/get.php?username=Dandy1&password=UNIVERSO&type=m3u
+
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]E[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
 Serve:"E [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][04/11/18][/COLOR]" URL="http://s1.multicanal.tel:25461/get.php?username=jortuz&password=jortuz&type=m3u"; regex"" 
 Serve:"E [COLOR gray]02:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][5][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][19/06/19][/COLOR]" URL="http://s1.multicanal.tel:25461/get.php?username=leo&password=leo&type=m3u"; regex""
@@ -132,6 +135,8 @@ Server:"E [COLOR gray]09:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][
 Server:"E [COLOR gray]10:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][29/11/18][/COLOR]" URL="http://zerocube.co:8000/get.php?username=JiXunm2Iei&password=bzwe2DhMg5&type=m3u"; regex""  
 Server:"E [COLOR gray]11:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][20/12/18][/COLOR]" URL="http://zerocube.co:8000/get.php?username=BLZokeTBv2&password= qDvpdVEPz4&type=m3u"; regex""  
 Serve:"E [COLOR gray]12:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://wohuogai.com:58000/get.php?username=YvTLKiHug3&password=xj5HljmuKo&type=m3u"; regex""  
+Serve:"E [COLOR gray]13:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://biloiptv.eu.com:8000/get.php?username=luna&password=luna&type=m3u"; regex""  
+
 
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]X[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
 Server:"X [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][200][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][NULL][/COLOR]" URL="http://s1.iptv-pla.net:7040/get.php?username=ccmilo&password=7664FEBCBF18DA26&type=m3u"; regex"" 
