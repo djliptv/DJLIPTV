@@ -137,7 +137,7 @@ Server:"E [COLOR gray]11:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][
 Serve:"E [COLOR gray]12:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://wohuogai.com:58000/get.php?username=YvTLKiHug3&password=xj5HljmuKo&type=m3u"; regex""  
 Serve:"E [COLOR gray]13:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://biloiptv.eu.com:8000/get.php?username=luna&password=luna&type=m3u"; regex""  
 Serve:"E [COLOR gray]13:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://85.93.93.132:8000/get.php?username=caper&password=caper&type=m3u"; regex""  
-Serve:"E [COLOR gray]14:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][29/10/18][/COLOR]" URL="http://tvplaymundo.com:59000/get.php?username=dm2RKBrtVb&password=Jy5JvHaQLF&type=m3u"; regex""
+Server:"E [COLOR gray]14:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][29/10/18][/COLOR]" URL="http://tvplaymundo.com:59000/get.php?username=dm2RKBrtVb&password=Jy5JvHaQLF&type=m3u"; regex""
 
 
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]X[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
