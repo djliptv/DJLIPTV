@@ -23,10 +23,10 @@
 </item>
 
 <item>
-<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]SOUNDTRACK CR[/COLOR][/B]</title>
+<title>[B][COLOR white]+[/COLOR] [COLOR deepskyblue]SOUNDTRACK CR1[/COLOR][/B]</title>
 <thumbnail>http://soundtrack.co.cr/wp-content/uploads/2018/03/SoundtrackRadio-e1523640387388.jpg</thumbnail>
 <fanart>http://soundtrack.co.cr/wp-content/uploads/2018/03/SoundtrackRadio-e1523640387388.jpg</fanart>
-<link>http://67.227.220.171:8362/index.html</link>67.227.220.171:8362/index.html;audio.mp3
+<link>http://67.227.220.171:8362/stream?type=http&nocache=1</link><!---67.227.220.171:8362/index.html;audio.mp3--->
 </item>
 
 <item>
