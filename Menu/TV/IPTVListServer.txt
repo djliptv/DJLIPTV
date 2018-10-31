@@ -231,7 +231,12 @@ Server:"X [COLOR gray]82:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][
 Server:"X [COLOR gray]83:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://iptv.diamondiptv.net:15800/get.php?username=wfhifepm&password=D24iP0k5ag&type=m3u"; regex""
 Server:"X [COLOR gray]84:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://styletv.mine.nu:8000/get.php?username=H7zC7fQsjE&password=olB8odfBU9&type=m3u"; regex""
 Server:"X [COLOR gray]85:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://rb-group-server.com:25461/get.php?username=myriam&password=123456&type=m3u"; regex""
-Server:"X [COLOR gray]86:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://rb-group-server.com:25461/get.php?username=fluxamibelge&password=PDXrdtP7y0&type=m3u_plus
+Server:"X [COLOR gray]86:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://rb-group-server.com:25461/get.php?username=fluxamibelge&password=PDXrdtP7y0&type=m3u"; regex""
+Server:"X [COLOR gray]87:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://149.202.222.94:8000/get.php?username=colomba&password=2PsOCyR0H5&type=m3u"; regex""
+Server:"X [COLOR gray]88:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][1][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://atomtv.net:8000/get.php?username=colomba&password=2PsOCyR0H5&type=m3u"; regex""
+
+
+
 
 Serverm3u:"M3U [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="https://pastebin.com/raw/8nh5MAwz"; regex""  
 
