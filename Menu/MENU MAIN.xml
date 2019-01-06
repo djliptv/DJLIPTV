@@ -18,7 +18,7 @@
 </item>
  
 <item>
-<title>==========================================================================</title>
+<title>===================================================================</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVLogo.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVCHLogo.jpg?raw=true</fanart>
 <link>http://ignorame</link>
@@ -59,6 +59,14 @@
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
 	<jsonrpc>plugin://plugin.video.youtube/channel/UCzfM2NXkw9VBHwx5UGEQ3qA/</jsonrpc>
 	<link>ignorme</link>
+</item>
+
+<item>
+<title>===================================================================</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVLogo.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVCHLogo.jpg?raw=true</fanart>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com</externallink>
 </item>
 
 <item>
