@@ -1,7 +1,7 @@
 Server:"[COLOR white]DE LISTAS[/COLOR] [COLOR gray]IPTV[/COLOR]" URL=""; regex""
 
 Server:"FREE-FREE-FREE-FREE-FREE IPTV" URL="http://spainfree.blackeviltv.org:9666/get.php?username=blackeviltv&password=gratis&type=m3u"; regex""
-
+Server:"DEPORTES IPTV" URL="http://bit.ly/IPTVFLIXMICINE8088"; regex""
 Server:"[COLOR white]===[/COLOR] [COLOR gray][B]A PLUS[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
 
 Serve:"A PLUS [COLOR gray]01:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL="http://painel.conectiptv.com:25461/get.php?username=gabriel&password=gabriel&type=m3u"; regex""
