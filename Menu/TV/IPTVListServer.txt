@@ -3,20 +3,18 @@ Server:"[COLOR white]DE LISTAS[/COLOR] [COLOR gray]IPTV[/COLOR]" URL=""; regex""
 
 erver:"IPTV [COLOR gray]XX:[/COLOR] [COLOR white]MAX CON:[/COLOR] [COLOR gray][X][/COLOR] [COLOR white]EXP:[/COLOR] [COLOR gray][XX/XX/XX][/COLOR]" URL=""; regex""
 
-Serverm3u:"M3U [COLOR gray]01:[/COLOR]" URL="http://srregio.xyz/IPTV/regioflix.m3u"; regex""
-Serverm3u:"M3U [COLOR gray]02:[/COLOR]" URL="http://srregio.xyz/IPTV/regiotv.m3u"; regex""
-Serverm3u:"M3U [COLOR gray]03:[/COLOR]" URL="http://srregio.xyz/IPTV/tv.m3u"; regex""
-Serverm3u:"M3U [COLOR gray]04:[/COLOR]" URL="http://srregio.xyz/IPTV/deportes.m3u"; regex""
-Serverm3u:"M3U [COLOR gray]05:[/COLOR]" URL="http://srregio.xyz/IPTV/alterna.m3u"; regex""
-Serverm3u:"M3U [COLOR gray]06:[/COLOR]" URL="http://srregio.xyz/IPTV/alterna2.m3u"; regex""
-Serverm3u:"M3U [COLOR gray]07:[/COLOR]" URL="http://srregio.xyz/IPTV/spain.m3u"; regex""
-Serverm3u:"M3U [COLOR gray]08:[/COLOR]" URL="http://tecnotv.club/lista.m3u"; regex""
-Serverm3u:"M3U [COLOR gray]09:[/COLOR]" URL="http://tecnotv.club/lista2.m3u"; regex""
-Serverm3u:"M3U [COLOR gray]10:[/COLOR]" URL="http://tecnotv.club/ext.m3u"; regex""
-Serverm3u:"M3U [COLOR gray]11:[/COLOR]" URL="http://tecnotv.club/peliculas.m3u"; regex""
-Serverm3u:"M3U [COLOR gray]12:[/COLOR]" URL="http://tvpremiumhd.club/hd/lista.m3u"; regex""
-Serverm3u:"M3U [COLOR gray]13:[/COLOR]" URL="http://tvpremiumhd.club/hd/tv.m3u"; regex""
-Serverm3u:"M3U [COLOR gray]14:[/COLOR]" URL="http://tvpremiumhd.club/hd/peliculas.m3u"; regex""
+
+Serverm3u:"M3U [COLOR gray]01:[/COLOR]" URL="http://srregio.xyz/IPTV/regiotv.m3u"; regex""
+Serverm3u:"M3U [COLOR gray]02:[/COLOR]" URL="http://srregio.xyz/IPTV/tv.m3u"; regex""
+Serverm3u:"M3U [COLOR gray]03:[/COLOR]" URL="http://srregio.xyz/IPTV/deportes.m3u"; regex""
+Serverm3u:"M3U [COLOR gray]04:[/COLOR]" URL="http://srregio.xyz/IPTV/alterna.m3u"; regex""
+Serverm3u:"M3U [COLOR gray]05:[/COLOR]" URL="http://srregio.xyz/IPTV/alterna2.m3u"; regex""
+Serverm3u:"M3U [COLOR gray]06:[/COLOR]" URL="http://srregio.xyz/IPTV/spain.m3u"; regex""
+Serverm3u:"M3U [COLOR gray]07:[/COLOR]" URL="http://tecnotv.club/lista.m3u"; regex""
+Serverm3u:"M3U [COLOR gray]08:[/COLOR]" URL="http://tecnotv.club/lista2.m3u"; regex""
+Serverm3u:"M3U [COLOR gray]09:[/COLOR]" URL="http://tecnotv.club/ext.m3u"; regex""
+
+
 
 
 Server:"FREE-FREE-FREE-FREE-FREE IPTV" URL="http://spainfree.blackeviltv.org:9666/get.php?username=blackeviltv&password=gratis&type=m3u"; regex""
