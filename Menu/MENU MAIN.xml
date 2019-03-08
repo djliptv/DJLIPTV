@@ -95,6 +95,30 @@
 </item>
 
 <item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]MOVIES[/COLOR] [COLOR darkred]EN DIRECTO / LIVE[/COLOR]</title>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
+	<jsonrpc>plugin://plugin.video.youtube/channel/UCYwTtLmVBb9R_DUlsEUDUyQ/</jsonrpc>
+	<link>ignorme</link>
+</item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]MOVIES[/COLOR] [COLOR darkred]EN DIRECTO / LIVE[/COLOR]</title>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
+	<jsonrpc>plugin://plugin.video.youtube/channel/UCOqIX0ZQH4eW1_zK8UY94HQ/</jsonrpc>
+	<link>ignorme</link>
+</item>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]MOVIES[/COLOR] [COLOR darkred]EN DIRECTO / LIVE[/COLOR]</title>
+	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
+	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
+	<jsonrpc>plugin://plugin.video.youtube/channel/UCoTiii4AuypJm1Qa2vIICdw/</jsonrpc>
+	<link>ignorme</link>
+</item>
+
+<item>
 <title>============================================================</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVLogo.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVCHLogo.jpg?raw=true</fanart>
