@@ -18,6 +18,7 @@ Serverm3u:"M3U [COLOR gray]09:[/COLOR]" URL="http://tecnotv.club/ext.m3u"; regex
 
 
 Server:"L O L O  -  T V" URL="https://pastebin.com/raw/Fjxx1AXM"; regex""
+Server:"L O L O  -  T V 1" URL="https://pastebin.com/raw/P7BEGxd0"; regex""
 Serve:"FREE-FREE-FREE-FREE-FREE IPTV" URL="http://spainfree.blackeviltv.org:9666/get.php?username=blackeviltv&password=gratis&type=m3u"; regex""
 Serve:"DEPORTES IPTV" URL="http://bit.ly/IPTVFLIXMICINE8088"; regex""
 Serve:"[COLOR white]===[/COLOR] [COLOR gray][B]A PLUS[/B][/COLOR] [COLOR white]===[/COLOR]" URL=""; regex""
