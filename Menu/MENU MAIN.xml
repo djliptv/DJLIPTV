@@ -6,6 +6,10 @@
 <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 
+- TELEVISION
+- TELEVISION 24/7
+- PELICULAS
+
 --->
 
  
@@ -18,21 +22,36 @@
 </item>
  
 <item>
-<title>============================================================</title>
+<title>=====================================================</title>
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVLogo.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVCHLogo.jpg?raw=true</fanart>
 <link>http://ignorame</link>
 <externallink>http://pastebin.com</externallink>
 </item>
- 
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]TELEVISION[/COLOR]</title>
+	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	<link>http://ignoreme</link>
+	<externallink>http://bit.ly/W3bsIPTV</externallink>
+</item>
+
 <item>
 <title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]TELEVISION 24/7[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[makelist.param2]</title>
-<link>https://mp4-rem.vaughnsoft.net/live?app=live&amp;port=2935&amp;stream=live_[makelist.param1]|Referer=https://vaughn.live</link>
+<title>Tecnotv - [makelist.param2]</title>
+<link>https://mp4-rem.vaughnsoft.net/play/live_[makelist.param1].flv?&secure=$doregex[secure]|Referer=https://vaughn.live&Origin=https://vaughn.live&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex>
+   <name>secure</name>   
+   <expres>var\smp4StreamUrl.*?secure=(.*?)"</expres>  
+   <page>https://vaughn.live/[makelist.param1]</page>
+   <referer>https://vaughn.live/[makelist.param1]</referer>
+   <cookieJar/>
+</regex>
 <thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/[makelist.param2]_320.jpg</thumbnail>
 ]]></listrepeat>
 <expres>a href="/(.*?)"[\w\W\s]{0,22}browseTxt">(.*?)<</expres>
@@ -45,6 +64,43 @@
 <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 </item>
 
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]PELICULAS[/COLOR]</title>
+	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	<link>http://ignoreme</link>
+	<externallink>http://srregio.xyz/IPTV/regioflix.m3u</externallink>
+</item>
+
+<item>
+<title>=====================================================</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVLogo.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVCHLogo.jpg?raw=true</fanart>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com</externallink>
+</item>
+<item>
+	"<title>DMCA: This site only contains links and embeds to TV channels 
+from 3rd party sites Which are freely available on all Internet.</title>"
+	<link>http://soft4.ir/wp-content/uploads/2015/11/S-logo-e13102276294411.png</link>
+	<thumbnail>http://soft4.ir/wp-content/uploads/2015/11/S-logo-e13102276294411.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+</item>
+<item>
+	"<title>We are not affiliated in any way with the broadcasted channels
+nor responsible for their content.</title>"
+	<link>http://soft4.ir/wp-content/uploads/2015/11/S-logo-e13102276294411.png</link>
+	<thumbnail>http://soft4.ir/wp-content/uploads/2015/11/S-logo-e13102276294411.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+</item>
+<item>
+	"<title>All content is copyright of their respective owners.</title>"
+	<link>http://soft4.ir/wp-content/uploads/2015/11/S-logo-e13102276294411.png</link>
+	<thumbnail>http://soft4.ir/wp-content/uploads/2015/11/S-logo-e13102276294411.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+</item>
+
+<!---
 <item>
 <title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]IPTV[/COLOR]</title>
 <link>$doregex[makelist2]</link>
@@ -85,7 +141,7 @@
 	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 </item>
---->
+
 <item>
 	<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]MOVIES[/COLOR] [COLOR darkred]EN DIRECTO / LIVE[/COLOR]</title>
 	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
@@ -117,34 +173,4 @@
 	<jsonrpc>plugin://plugin.video.youtube/channel/UCoTiii4AuypJm1Qa2vIICdw/</jsonrpc>
 	<link>ignorme</link>
 </item>
-
-<item>
-<title>============================================================</title>
-<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVLogo.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/DJLIPTVCHLogo.jpg?raw=true</fanart>
-<link>http://ignorame</link>
-<externallink>http://pastebin.com</externallink>
-</item>
-
-<item>
-	"<title>DMCA: This site only contains links and embeds to TV channels 
-from 3rd party sites Which are freely available on all Internet.</title>"
-	<link>http://soft4.ir/wp-content/uploads/2015/11/S-logo-e13102276294411.png</link>
-	<thumbnail>http://soft4.ir/wp-content/uploads/2015/11/S-logo-e13102276294411.png</thumbnail>
-	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-</item>
-
-<item>
-	"<title>We are not affiliated in any way with the broadcasted channels
-nor responsible for their content.</title>"
-	<link>http://soft4.ir/wp-content/uploads/2015/11/S-logo-e13102276294411.png</link>
-	<thumbnail>http://soft4.ir/wp-content/uploads/2015/11/S-logo-e13102276294411.png</thumbnail>
-	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-</item>
-
-<item>
-	"<title>All content is copyright of their respective owners.</title>"
-	<link>http://soft4.ir/wp-content/uploads/2015/11/S-logo-e13102276294411.png</link>
-	<thumbnail>http://soft4.ir/wp-content/uploads/2015/11/S-logo-e13102276294411.png</thumbnail>
-	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-</item>
+--->
