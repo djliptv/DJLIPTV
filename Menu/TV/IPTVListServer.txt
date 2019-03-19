@@ -14,6 +14,7 @@ Serverm3u:"M3U [COLOR gray]07:[/COLOR]" URL="http://tecnotv.club/lista.m3u"; reg
 Serverm3u:"M3U [COLOR gray]08:[/COLOR]" URL="http://tecnotv.club/lista2.m3u"; regex""
 Serverm3u:"M3U [COLOR gray]09:[/COLOR]" URL="http://tecnotv.club/ext.m3u"; regex""
 Serverm3u:"L O L O  -  T V [COLOR gray]10:[/COLOR]" URL="http://mediabox.world:80/get.php?username=s123456789&password=s123456789&type=m3u"; regex""
+Serverm3u:"L O L O  -  T V [COLOR gray]11:[/COLOR]" URL="https://pastebin.com/raw/Fjxx1AXM"; regex""
 
 
 
