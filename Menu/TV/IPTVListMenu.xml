@@ -1,24 +1,5 @@
 
 <item>
-<title>[COLOR gray]COPA DEL REY[/COLOR] [COLOR lightgray]2019[/COLOR] [I][COLOR white]REAL MADRID[/COLOR] vs [COLOR darkred]FC. BARCELONA[/COLOR][/I]</title>
-<link>http://ignorame</link>
-<thumbnail>https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F80.png</thumbnail>
-<fanart>https://as01.epimg.net/showroom/imagenes/2019/02/05/portada/1549322635_563882_1549357684_noticia_normal.jpg</fanart>
-<externallink>$doregex[notice]</externallink>
-<regex>
-<name>notice</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-  import xbmc
-  xbmc.executebuiltin("XBMC.Notification(ERDL - INSOMNIA,[B][COLOR white]ADDON[/COLOR] [COLOR gray]GRATIS[/COLOR] [/B] ,10000)")
-  return 'https://pastebin.com/raw/zkGFMttV'
-]]></expres>
-<page></page>
-</regex>
-<info></info>
-</item>
-
-<item>
 <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTAS IPTV[/COLOR] [I]Con F4MTESTER[/I]</title>
 <link>$doregex[makelist2]</link>
 
@@ -50,6 +31,27 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 </item> 
+
+<!---
+<item>
+<title>[COLOR gray]COPA DEL REY[/COLOR] [COLOR lightgray]2019[/COLOR] [I][COLOR white]REAL MADRID[/COLOR] vs [COLOR darkred]FC. BARCELONA[/COLOR][/I]</title>
+<link>http://ignorame</link>
+<thumbnail>https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F80.png</thumbnail>
+<fanart>https://as01.epimg.net/showroom/imagenes/2019/02/05/portada/1549322635_563882_1549357684_noticia_normal.jpg</fanart>
+<externallink>$doregex[notice]</externallink>
+<regex>
+<name>notice</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import xbmc
+  xbmc.executebuiltin("XBMC.Notification(ERDL - INSOMNIA,[B][COLOR white]ADDON[/COLOR] [COLOR gray]GRATIS[/COLOR] [/B] ,10000)")
+  return 'https://pastebin.com/raw/zkGFMttV'
+]]></expres>
+<page></page>
+</regex>
+<info></info>
+</item>
+--->
 
 <item>
 	<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TDT SPAIN[/COLOR]</title>
