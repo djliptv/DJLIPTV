@@ -20,6 +20,14 @@
 <link>http://ignorame</link>
 <externallink>http://pastebin.com</externallink>
 </item>
+
+<item>
+<title>[COLOR skyblue]PayPal:[/COLOR][COLOR cyan] | [/COLOR][COLOR white][B]https://www.paypal.me/DJLIPTV[/B][/COLOR][COLOR cyan] |[/COLOR]</title>
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/PaypalThumbnail.png?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/PaypalFanart.png?raw=true</fanart>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com</externallink>
+</item>
  
 <item>
 <title>=====================================================</title>
@@ -30,12 +38,37 @@
 </item>
 
 <item>
-	<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]TELEVISION[/COLOR]</title>
-	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-	<link>http://ignoreme</link>
-	<externallink>http://bit.ly/W3bsIPTV</externallink>
-</item>
+<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]TELEVISION[/COLOR] [I]Con F4MTESTER[/I]</title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[COLOR dodgerblue]Servidor:[/COLOR][COLOR deepskyblue] [makelist2.param1][/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+ <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+ ]]></listrepeat>
+<expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/IPTVListServer.txt</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR dodgerblue][makelist.param1][/COLOR]</title>
+ <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]DJLIPTV[/COLOR] [makelist.param1]</link>
+ <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+ <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+ ]]></listrepeat>
+<expres>#EXTINF:-1,[makelist2.param3](.*?)\n(.*)</expres>
+<page>[makelist2.param2]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+</item> 
 
 <item>
 <title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]TELEVISION 24/7[/COLOR]</title>
@@ -43,7 +76,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>Tecnotv - [makelist.param2]</title>
+<title>[makelist.param1]</title>
 <link>https://mp4-rem.vaughnsoft.net/play/live_[makelist.param1].flv?&secure=$doregex[secure]|Referer=https://vaughn.live&Origin=https://vaughn.live&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex>
    <name>secure</name>   
@@ -54,8 +87,8 @@
 </regex>
 <thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/[makelist.param2]_320.jpg</thumbnail>
 ]]></listrepeat>
-<expres>a href="/(.*?)"[\w\W\s]{0,22}browseTxt">(.*?)<</expres>
-<page>https://vaughnlive.tv/browse/espanol&amp;a=mvn</page>
+<expres>browsePageStreamBox_inner.*?\n.*?href="\/(.*?)"</expres>
+<page>https://vaughn.live/browse/espanol</page>
 <agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
 <referer></referer>
 <cookieJar></cookieJar>
@@ -63,6 +96,7 @@
 <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 </item>
+
 
 <item>
 	<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]PELICULAS[/COLOR]</title>
@@ -99,6 +133,45 @@ nor responsible for their content.</title>"
 	<thumbnail>http://soft4.ir/wp-content/uploads/2015/11/S-logo-e13102276294411.png</thumbnail>
 	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 </item>
+
+<!---
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]TELEVISION[/COLOR]</title>
+	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	<link>http://ignoreme</link>
+	<externallink>http://bit.ly/W3bsIPTV</externallink>
+</item>
+--->
+
+<!---
+<item>
+<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]TELEVISION 24/7[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>Tecnotv - [makelist.param2]</title>
+<link>https://mp4-rem.vaughnsoft.net/play/live_[makelist.param1].flv?&secure=$doregex[secure]|Referer=https://vaughn.live&Origin=https://vaughn.live&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex>
+   <name>secure</name>   
+   <expres>var\smp4StreamUrl.*?secure=(.*?)"</expres>  
+   <page>https://vaughn.live/[makelist.param1]</page>
+   <referer>https://vaughn.live/[makelist.param1]</referer>
+   <cookieJar/>
+</regex>
+<thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/[makelist.param2]_320.jpg</thumbnail>
+]]></listrepeat>
+<expres>a href="/(.*?)"[\w\W\s]{0,22}browseTxt">(.*?)<</expres>
+<page>https://vaughnlive.tv/browse/espanol&amp;a=mvn</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+</item>
+--->
 
 <!---
 <item>

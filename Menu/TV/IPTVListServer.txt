@@ -13,6 +13,7 @@ Serverm3u:"M3U [COLOR gray]06:[/COLOR]" URL="http://srregio.xyz/IPTV/spain.m3u";
 Serverm3u:"M3U [COLOR gray]07:[/COLOR]" URL="http://tecnotv.club/lista.m3u"; regex""
 Serverm3u:"M3U [COLOR gray]08:[/COLOR]" URL="http://tecnotv.club/lista2.m3u"; regex""
 Serverm3u:"M3U [COLOR gray]09:[/COLOR]" URL="http://tecnotv.club/ext.m3u"; regex""
+Serverm3u:"M3U [COLOR gray]10:[/COLOR]" URL="https://www.achoapps.com/listas/acho.m3u"; regex""
 
 
 http://mediabox.world:80/get.php?username=s123456789&password=s123456789&type=m3u
