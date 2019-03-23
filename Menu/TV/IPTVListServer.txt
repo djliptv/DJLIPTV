@@ -24,8 +24,7 @@ Server:"T V [COLOR gray]1[/COLOR]" URL="http://m-iptv.net:6204/get.php?username=
 Server:"T V [COLOR gray]2[/COLOR] [COLOR white](tarda en cargar la lista mas de 9000 items)[/COLOR]" URL="http://marveliptv.ddns.net:25461/get.php?username=jordan23&password=jordan23&type=m3u"; regex""
 Server:"T V [COLOR gray]3[/COLOR]" URL="http://brina.world-tv.org:25461/get.php?username=marrakch&password=7sjKZBesup&type=m3u"; regex""
 Server:"T V [COLOR gray]4[/COLOR]" URL="http://extremo.dyndns.ws:25461/get.php?username=ROKUMASLT&password=YYUUEHUSDU5754987638756dgusnuy75dhd34&type=m3u"; regex""
-Server:"T V [COLOR gray]5[/COLOR]" URL="http://78.129.237.54:25461/get.php?username=EaS4T6JK1a&password=4RyqSnERT2&type=m3u"; regex""
-Server:"T V [COLOR gray]6[/COLOR]" URL="http://iptvhit.live/TVxNET/iptvhit/telegramSPAIN/"; regex""
+
 
 
 
