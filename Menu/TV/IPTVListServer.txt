@@ -27,6 +27,7 @@ Server:"T V [COLOR gray]4[/COLOR]" URL="http://extremo.dyndns.ws:25461/get.php?u
 Server:"T V [COLOR gray]5[/COLOR]" URL="http://m-iptv.net:6204/get.php?username=mme&password=123&type=m3u"; regex""
 Server:"T V [COLOR gray]6[/COLOR] [COLOR white](demora en cargar la lista mas de 14000 items)[/COLOR]" URL="http://iptvpro.vision-new.org:8789/get.php?username=kadi&password=kadi1234&type=m3u"; regex""
 Server:"T V [COLOR gray]7[/COLOR]" URL="http://jokeriptv.online:1453/get.php?username=Veysel1&password=Veysel1&type=m3u"; regex""
+Server:"T V [COLOR gray]8[/COLOR]" URL="http://51.15.15.119:25461/get.php?username=camila&password=camila&type=m3u"; regex""
 
 
 
