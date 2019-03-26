@@ -19,6 +19,8 @@ Serverm3u:"M3U [COLOR gray]10:[/COLOR]" URL="https://www.achoapps.com/listas/ach
 http://mediabox.world:80/get.php?username=s123456789&password=s123456789&type=m3u
 https://pastebin.com/raw/Fjxx1AXM
 
+Server:"T V [COLOR gray]LATINOS[/COLOR]" URL="http://latinorigin.spidertv.info/get.php?username=juanusa&password=9QFd8pXP7w&type=m3u"; regex""
+
 
 Server:"T V [COLOR gray]1[/COLOR]" URL="http://m-iptv.net:6204/get.php?username=OoesIRzgNP&password=8kW83aN4dr&type=m3u"; regex""
 Server:"T V [COLOR gray]2[/COLOR] [COLOR white](demora en cargar la lista mas de 9000 items)[/COLOR]" URL="http://marveliptv.ddns.net:25461/get.php?username=jordan23&password=jordan23&type=m3u"; regex""
@@ -247,6 +249,13 @@ Server:"T V [COLOR gray]223[/COLOR]" URL="http://lista.digitalgroup.me/get.php?u
 Server:"T V [COLOR gray]224[/COLOR]" URL="http://servelive.net:8880/get.php?username=Leda&password=1234&type=m3u"; regex""
 Server:"T V [COLOR gray]225[/COLOR]" URL="http://servelive.net:8880/get.php?username=dinis&password=1234&type=m3u"; regex""
 Server:"T V [COLOR gray]226[/COLOR]" URL="http://78.oscarcanli.com:8080/get.php?username=m125&password=1313&type=m3u"; regex""
+Server:"T V [COLOR gray]227[/COLOR]" URL="http://185.38.151.41:15001/get.php?username=Sl8M2ehCaE&password=Rhqm9kY7aF&type=m3u"; regex""
+Server:"T V [COLOR gray]228[/COLOR]" URL="http://pro.wissdz.com:25461/get.php?username=272727&password=272727&type=m3u"; regex""
+Server:"T V [COLOR gray]229[/COLOR]" URL="http://servelive.net:8880/get.php?username=luciana&password=1234&type=m3u"; regex""
+Server:"T V [COLOR gray]230[/COLOR]" URL="http://universeiptv.com:8000/get.php?username=alexaiptv&password=hvsfw2yfgwu&type=m3u"; regex""
+Server:"T V [COLOR gray]231[/COLOR]" URL="http://sservice.ydns.eu:11118/get.php?username=home&password=wWWREHH1Pj&type=m3u"; regex""
+Server:"T V [COLOR gray]232[/COLOR]" URL="http://185.38.151.41:15001/get.php?username=Sl8M2ehCaE&password=Rhqm9kY7aF&type=m3u"; regex""
+Server:"T V [COLOR gray]233[/COLOR]" URL="http://ecuaplaytv.com:8000/get.php?username=usuario1&password=usuario1&type=m3u"; regex""
 
 
 
