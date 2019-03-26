@@ -77,7 +77,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	<externallink>https://iptvhit.live/TVxNET/iptvhit/telegramSPAIN/</externallink> <!--- https://pastebin.com/raw/fWeGMryE --->
 </item>
 
-<!---
+
 
 <item>
 <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTAS IPTV M3U[/COLOR] [I]Con F4MTESTER[/I]</title>
@@ -91,7 +91,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
  <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
  ]]></listrepeat>
-<expres>Serverm3u:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
+<expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
 <page>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/IPTVListServer.txt</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
@@ -111,7 +111,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 </item> 
-
+<!---
 <item>
 <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTAS IPTV[/COLOR] [I]Sin F4MTESTER[/I]</title>
 <link>$doregex[makelist2]</link>
@@ -144,7 +144,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 </item> 
-
+<!---
 <item>
 <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTAS IPTV[/COLOR] [I]Sin F4MTESTER[/I]</title>
 <link>$doregex[makelist2]</link>
