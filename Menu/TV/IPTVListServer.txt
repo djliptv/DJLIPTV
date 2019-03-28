@@ -261,7 +261,7 @@ Server:"T V [COLOR gray]235[/COLOR]" URL="http://151.80.100.155:25443/get.php?us
 Server:"T V [COLOR gray]236[/COLOR]" URL="http://163.172.107.234:1914/get.php?username=medoum1&password=FH6Oxe1vOH&type=m3u"; regex""
 Server:"T V [COLOR gray]237[/COLOR]" URL="http://zaptuga.dynu.com:12500/get.php?username=mmcjwqokdl&password=ndkwichwlc&type=m3u"; regex""
 Server:"T V [COLOR gray]238[/COLOR]" URL="http://uni-iptv.com:8000/get.php?username=magdi3&password=magdi3&type=m3u"; regex""
-Server:"T V [COLOR gray]239[/COLOR]" URL="http://uni-iptv.com:8000/get.php?username=magdi3&password=magdi3&type=m3u"; regex""
+Server:"T V [COLOR gray]239[/COLOR]" URL="http://192.99.80.6:8000/get.php?username=123456789&password=123456789&type=m3u"; regex""
 Server:"T V [COLOR gray]240[/COLOR]" URL="http://qyshdush.dyndns.info:5500/get.php?username=atv1&password=8888&type=m3u"; regex""
 Server:"T V [COLOR gray]241[/COLOR]" URL="http://maxptv.ddns.net:25461/get.php?username=ana&password=ana&type=m3u"; regex""
 Server:"T V [COLOR gray]242[/COLOR]" URL="http://zaptuga.dynu.com:12500/get.php?username=mmcjwqokdl&password=ndkwichwlc&type=m3u"; regex""
