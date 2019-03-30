@@ -308,7 +308,7 @@ Server:"T V [COLOR gray]283[/COLOR]" URL="http://super1.ideaiptv.com:8000/get.ph
 Server:"T V [COLOR gray]284[/COLOR]" URL="http://zaptuga.dynu.com:12500/get.php?username=mmcjwqokdl&password=ndkwichwlc&type=m3u"; regex""
 Server:"T V [COLOR gray]285[/COLOR]" URL="http://cdn1.tvaberta.ml:8080/get.php?username=kleber&password=36145544&type=m3u"; regex""
 Server:"T V [COLOR gray]286[/COLOR]" URL="http://151.80.100.155:25443/get.php?username=vodall&password=vrIzSCaxGN&type=m3u"; regex""
-
+Server:"T V [COLOR gray]287[/COLOR]" URL="http://x3iptv.com:57000/get.php?username=sir&password=12345&type=m3u"; regex""
 
 
 https://pastebin.com/raw/yt1ME6pW
