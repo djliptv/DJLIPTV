@@ -67,7 +67,7 @@ Server:"T V [COLOR gray]43[/COLOR]" URL="http://carlo.kim:2015/get.php?username=
 Server:"T V [COLOR gray]44[/COLOR]" URL="http://cdn1.tvaberta.ml:8080/get.php?username=kleber&password=36145544&type=m3u"; regex""
 Server:"T V [COLOR gray]45[/COLOR]" URL="http://darktv.myvnc.com:9666/get.php?username=darktv&password=gratis&type=m3u"; regex""
 Server:"T V [COLOR gray]46[/COLOR]" URL="http://dns.infinitytv.xyz:8000/get.php?username=sampa&password=sampa&type=m3u"; regex""
-Server:"T V [COLOR gray]47[/COLOR]" URL="http://ecuaplaytv.com:8000/get.php?username=Gabriel&password=1234&type=m3u"; regex""
+Server:"T V [COLOR gray]47[/COLOR]" URL="http://zoneiptv.us:8080/get.php?username=derbimac&password=16derbi16&type=m3u"; regex""
 Server:"T V [COLOR gray]48[/COLOR]" URL="http://ecuaplaytv.com:8000/get.php?username=usuario1&password=usuario1&type=m3u"; regex""
 Server:"T V [COLOR gray]49[/COLOR]" URL="http://extremo.dyndns.ws:25461/get.php?username=ROKUMASLT&password=YYUUEHUSDU5754987638756dgusnuy75dhd34&type=m3u"; regex""
 Server:"T V [COLOR gray]50[/COLOR]" URL="http://fonte.iptvmaishd.com:25461/get.php?username=1184&password=1184&type=m3u"; regex""
@@ -209,7 +209,7 @@ Server:"T V [COLOR gray]185[/COLOR]" URL="http://xx2.servelive.net:80/get.php?us
 Server:"T V [COLOR gray]186[/COLOR]" URL="http://xx2.servelive.net:80/get.php?username=samila&password=samila&type=m3u"; regex""
 Server:"T V [COLOR gray]187[/COLOR]" URL="http://xx2.servelive.net:80/get.php?username=samuel&password=samuel1234&type=m3u"; regex""
 Server:"T V [COLOR gray]188[/COLOR]" URL="http://zaptuga.dynu.com:12500/get.php?username=mmcjwqokdl&password=ndkwichwlc&type=m3u"; regex""
-Server:"T V [COLOR gray]189[/COLOR]" URL="http://zoneiptv.us:8080/get.php?username=derbimac&password=16derbi16&type=m3u"; regex""
+
 
 
 
