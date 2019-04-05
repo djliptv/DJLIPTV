@@ -209,7 +209,7 @@ Server:"T V [COLOR gray]185[/COLOR]" URL="http://xx2.servelive.net:80/get.php?us
 Server:"T V [COLOR gray]186[/COLOR]" URL="http://xx2.servelive.net:80/get.php?username=samila&password=samila&type=m3u"; regex""
 Server:"T V [COLOR gray]187[/COLOR]" URL="http://xx2.servelive.net:80/get.php?username=samuel&password=samuel1234&type=m3u"; regex""
 Server:"T V [COLOR gray]188[/COLOR]" URL="http://zaptuga.dynu.com:12500/get.php?username=mmcjwqokdl&password=ndkwichwlc&type=m3u"; regex""
-
+Server:"T V [COLOR gray]189[/COLOR]" URL="http://123orca.com:25461/get.php?username=20560077&password=20560077&type=m3u"; regex""
 
 
 
