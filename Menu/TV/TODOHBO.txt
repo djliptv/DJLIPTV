@@ -1,0 +1,104 @@
+#EXTM3U
+#EXTINF:-1,UK: HBO
+http://restoreup.dynu.com:1920/009191/Cognatofrancoangelocasal/11067
+#EXTINF:-1,UK: HBO Comedy HD
+http://restoreup.dynu.com:1920/009191/Cognatofrancoangelocasal/11066
+#EXTINF:-1,RO: HBO 2
+http://restoreup.dynu.com:1920/009191/Cognatofrancoangelocasal/14284
+#EXTINF:-1,RO: HBO 3
+http://restoreup.dynu.com:1920/009191/Cognatofrancoangelocasal/14283
+#EXTINF:-1,RO: HBO Romania
+http://restoreup.dynu.com:1920/009191/Cognatofrancoangelocasal/14282
+#EXTINF:-1,24/7: HBO 2 HD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/19618
+#EXTINF:-1,24/7: HBO Signature HD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/19617
+#EXTINF:-1,NL : Hbo 1
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/5177
+#EXTINF:-1,NL : Hbo 2
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/5178
+#EXTINF:-1,NL : Hbo 3
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/5179
+#EXTINF:-1,EXYU: HBO 1 HD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/26276
+#EXTINF:-1,EXYU: HBO 2 HD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/26275
+#EXTINF:-1,EXYU: HBO 3 HD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/26274
+#EXTINF:-1,RO: HBO ROMANIA
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/29471
+#EXTINF:-1,RO: HBO 2
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/29470
+#EXTINF:-1,RO: HBO 3
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/29446
+#EXTINF:-1,BU: HBO HD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/15217
+#EXTINF:-1,BG: HBO 2 HD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/15219
+#EXTINF:-1,BG: HBO 3 HD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/15218
+#EXTINF:-1,CO: HBO
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21443
+#EXTINF:-1,CO: HBO 2
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21442
+#EXTINF:-1,CO: HBO FAMILY
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21441
+#EXTINF:-1,CO: HBO PLUS
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21440
+#EXTINF:-1,CO: HBO SIGNATURE HD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21439
+#EXTINF:-1,PL: HBO HD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/16017
+#EXTINF:-1,PL: HBO2 HD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/16016
+#EXTINF:-1,PL: HBO3 HD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/16015
+#EXTINF:-1,BR: HBO
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/28517
+#EXTINF:-1,BR: HBO AUDIO1
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/28516
+#EXTINF:-1,BR: HBO AUDIO2
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/28515
+#EXTINF:-1,BR: HBO2
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/28514
+#EXTINF:-1,BR: HBO Family
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/28513
+#EXTINF:-1,BR: HBO Family AUDIO1
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/28512
+#EXTINF:-1,BR: HBO Family AUDIO2
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/28511
+#EXTINF:-1,BR: HBO Plus
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/28510
+#EXTINF:-1,BR: HBO Plus AUDIO1
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/28509
+#EXTINF:-1,BR: HBO Plus AUDIO2
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/28508
+#EXTINF:-1,BR: HBO Signature
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/28507
+#EXTINF:-1,BR: HBO Signature AUDIO1
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/28506
+#EXTINF:-1,BR: HBO Signature AUDIO2
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/28505#EXTINF:-1,LA: HBO 1
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21945
+#EXTINF:-1,LA: HBO 2 HD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21944
+#EXTINF:-1,LA: HBO CHILE
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21943
+#EXTINF:-1,LA: HBO East FHD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21942
+#EXTINF:-1,LA: HBO Family FHD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21941
+#EXTINF:-1,LA: HBO HD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21940
+#EXTINF:-1,LA: HBO Plus FHD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21939
+#EXTINF:-1,LA: HBO Plus West FHD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21938
+#EXTINF:-1,LA: HBO Signature FHD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21937
+#EXTINF:-1,LA: HBO Sub
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21936
+#EXTINF:-1,LA: HBO West FHD
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21935
+#EXTINF:-1,LA: SUR HBO
+http://gatoriptv.pro:25461/029556285616/AiDezBpOgyS0Smx/21728
