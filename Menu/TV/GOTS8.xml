@@ -1,0 +1,370 @@
+ <item>
+ <title>HBO</title>
+<link>http://flow.nibbletv.info/CH/DSstpMnnGUca/HBO.m3u8</link>
+<thumbnail>https://i.dlpng.com/static/png/1609119_thumb.png</thumbnail>
+<fanart>https://images5.alphacoders.com/403/thumb-1920-403408.jpg</fanart>
+</item>
+  <item>
+ <title>HBO 2</title>
+<link>http://flow.nibbletv.info/CH/DSstpMnnGUca/HBO-2.m3u8</link>
+<thumbnail>https://i.dlpng.com/static/png/1609119_thumb.png</thumbnail>
+<fanart>https://images5.alphacoders.com/403/thumb-1920-403408.jpg</fanart>
+</item>
+
+
+  <item>
+ <title>HBO plus</title>
+<link>http://tvpremiumhd.club/lista-gratuita/213013/tv/live.php?id=2764</link>
+<thumbnail>https://i.dlpng.com/static/png/1609119_thumb.png</thumbnail>
+<fanart>https://images5.alphacoders.com/403/thumb-1920-403408.jpg</fanart>
+</item>
+  <item>
+ <title>HBO</title>
+<link>http://tvpremiumhd.club/lista-gratuita/213013/tv/live.php?id=1300</link>
+<thumbnail>https://i.dlpng.com/static/png/1609119_thumb.png</thumbnail>
+<fanart>https://images5.alphacoders.com/403/thumb-1920-403408.jpg</fanart>
+</item>
+  <item>
+ <title>HBO</title>
+<link>http://tvpremiumhd.club/lista-gratuita/213013/tv/live.php?id=2626</link>
+<thumbnail>https://i.dlpng.com/static/png/1609119_thumb.png</thumbnail>
+<fanart>https://images5.alphacoders.com/403/thumb-1920-403408.jpg</fanart>
+</item>
+
+  <item>
+ <title>HBO</title>
+<link>http://tvpremiumhd.club/lista-gratuita/213013/tv/live.php?id=2727</link>
+<thumbnail>https://i.dlpng.com/static/png/1609119_thumb.png</thumbnail>
+<fanart>https://images5.alphacoders.com/403/thumb-1920-403408.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+  <item>
+ <title>HBO ES</title>
+<link>$doregex[url]|Referer=http://stream.televall.website/hbo.php&amp;User-Agent=Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.</link>
+  <regex>
+<name>url</name>
+<expres><![CDATA["(.*?m3u8.*?)"]]></expres>
+<page>http://stream.televall.website/hboes.php</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+</regex>
+<thumbnail>https://i.dlpng.com/static/png/1609119_thumb.png</thumbnail>
+<fanart>https://images5.alphacoders.com/403/thumb-1920-403408.jpg</fanart></item>
+
+
+  <item>
+ <title>HBO</title>
+<link>$doregex[url]|Referer=http://stream.televall.website/hbo.php&amp;User-Agent=Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.</link>
+  <regex>
+<name>url</name>
+<expres><![CDATA[source: "(.*?)"]]></expres>
+<page>http://stream.televall.website/hbo.php</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+</regex>
+
+<thumbnail>https://i.dlpng.com/static/png/1609119_thumb.png</thumbnail>
+<fanart>https://images5.alphacoders.com/403/thumb-1920-403408.jpg</fanart></item>
+
+  <item>
+ <title>HBO2 LATINO</title>
+<link>$doregex[url]|Referer=http://stream.televall.website/hbo.php&amp;User-Agent=Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.</link>
+  <regex>
+<name>url</name>
+<expres><![CDATA["(.*?m3u8.*?)"]]></expres>
+<page>http://stream.televall.website/hbo2.php</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+</regex>
+  <regex>
+<name>canal</name>
+<expres><![CDATA[javascript.*?id="(.*?)"]]></expres>
+<page>http://www.televall.website/hbo2.html</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+</regex> 
+<thumbnail>https://i.dlpng.com/static/png/1609119_thumb.png</thumbnail>
+<fanart>https://images5.alphacoders.com/403/thumb-1920-403408.jpg</fanart></item>
+
+
+  <item>
+ <title>HBO plus</title>
+<link>$doregex[url]|Referer=http://stream.televall.website/hbo.php&amp;User-Agent=Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.</link>
+  <regex>
+<name>url</name>
+<expres><![CDATA["(.*?m3u8.*?)"]]></expres>
+<page>http://stream.televall.website/hboplus.php</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+</regex>
+  <regex>
+<name>canal</name>
+<expres><![CDATA[javascript.*?id="(.*?)"]]></expres>
+<page>http://www.televall.website/hboplus.html</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+</regex> 
+<thumbnail>https://i.dlpng.com/static/png/1609119_thumb.png</thumbnail>
+<fanart>https://images5.alphacoders.com/403/thumb-1920-403408.jpg</fanart></item>
+
+
+
+  <item>
+ <title>HBO plus</title>
+<link>$doregex[url]|Referer=http://www.liketvw.com/embed/fox&amp;Origin=http://www.liketvw.com&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<thumbnail>[makelist.param2]</thumbnail>
+<regex>
+   <name>url</name>   
+   <expres>file: "(.*?)"</expres>
+   <page>http://www.liketvw.com/embed/$doregex[temp]</page>
+   <referer>http://www.liketvw.com</referer>
+   <cookieJar/>
+</regex>
+<regex> 
+   <name>temp</name>   
+   <expres>\"\>id=\"(.*?)\"</expres>  
+   <page>http://www.liketvw.com/channels/HBO-Plus-en-vivo/</page>
+   <cookieJar/>
+</regex>
+
+<thumbnail>https://i.dlpng.com/static/png/1609119_thumb.png</thumbnail>
+<fanart>https://images5.alphacoders.com/403/thumb-1920-403408.jpg</fanart></item>
+
+
+
+  <item>
+ <title>HBO </title>
+<link>$doregex[url]|Referer=http://www.liketvw.com/embed/fox&amp;Origin=http://www.liketvw.com&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<thumbnail>[makelist.param2]</thumbnail>
+<regex>
+   <name>url</name>   
+   <expres>file: "(.*?)"</expres>
+   <page>http://www.liketvw.com/embed/$doregex[temp]</page>
+   <referer>http://www.liketvw.com</referer>
+   <cookieJar/>
+</regex>
+<regex> 
+   <name>temp</name>   
+   <expres>\"\>id=\"(.*?)\"</expres>  
+   <page>http://www.liketvw.com/channels/HBO-en-vivo/</page>
+   <cookieJar/>
+</regex>
+
+<thumbnail>https://i.dlpng.com/static/png/1609119_thumb.png</thumbnail>
+<fanart>https://images5.alphacoders.com/403/thumb-1920-403408.jpg</fanart></item>
+
+
+
+
+  <item>
+ <title>HBO2</title>
+<link>$doregex[url]|Referer=http://www.liketvw.com/embed/fox&amp;Origin=http://www.liketvw.com&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<thumbnail>[makelist.param2]</thumbnail>
+<regex>
+   <name>url</name>   
+   <expres>file: "(.*?)"</expres>
+   <page>http://www.liketvw.com/embed/$doregex[temp]</page>
+   <referer>http://www.liketvw.com</referer>
+   <cookieJar/>
+</regex>
+<regex> 
+   <name>temp</name>   
+   <expres>\"\>id=\"(.*?)\"</expres>  
+   <page>http://www.liketvw.com/channels/HBO-2-en-vivo/</page>
+   <cookieJar/>
+</regex>
+
+<thumbnail>https://i.dlpng.com/static/png/1609119_thumb.png</thumbnail>
+<fanart>https://images5.alphacoders.com/403/thumb-1920-403408.jpg</fanart></item>
+
+
+
+http://stream.televall.website/hboes.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>GoT 8x1 [updating]</title>
+<link>$doregex[makelist]</link>
+
+
+
+
+
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+
+<title>GOT | Idioma:[B][makelist3.param1][/B]  Calidad:[B][makelist3.param5][/B]  Server:[B][makelist3.param3][/B]        </title>
+<link>$doregex[oload]</link>
+]]></listrepeat>
+<expres><![CDATA[idioma[\w\W\s]{0,17}images\/(.*?)\.p[\w\W\s]{0,30}fecha\"\>\n(.*?)<[\w\W\s]{0,117}(Openlo.*?)<[\w\W\s]{0,37}href="(.*?)"[\w\W\s]{0,87}calidad">\n(.*?)<]]></expres>
+<page>http://www.seriespapaya.com/ver/games-of-thrones/temporada-8/capitulo-1.html</page>
+</regex>
+
+
+
+
+
+<regex>
+<name>oload</name>
+<expres><![CDATA[#$pyFunction:
+def GetLSProData(page_data,Cookie_Jar,m):
+
+
+   import cookielib
+   import re
+   import urllib
+   import urllib2
+
+   def read(url):
+       opener = urllib2.build_opener()
+       opener.addheaders = [('User-Agent', 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3163.100 Safari/537.36')]
+       response = opener.open(url)
+       data = response.read()
+       return data
+
+   def read_openload(url):
+       default_headers = dict()
+       default_headers["User-Agent"] = "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3163.100 Safari/537.36"
+       default_headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+       default_headers["Accept-Language"] = "es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3"
+       default_headers["Accept-Charset"] = "UTF-8"
+       default_headers["Accept-Encoding"] = "gzip"
+       cj = cookielib.MozillaCookieJar()
+       request_headers = default_headers.copy()
+       url = urllib.quote(url, safe="%/:=&?~#+!$,;'@()*[]")
+       handlers = [urllib2.HTTPHandler(debuglevel=False)]
+       handlers.append(NoRedirectHandler())
+       handlers.append(urllib2.HTTPCookieProcessor(cj))
+       opener = urllib2.build_opener(*handlers)
+       req = urllib2.Request(url, None, request_headers)
+       handle = opener.open(req, timeout=None)
+
+       return handle.headers.dict.get('location')
+
+   def decode(code, parseInt, _0x59ce16, _1x4bfb36):
+       import math
+
+       _0x1bf6e5 = ''
+       ke = []
+
+       for i in range(0, len(code[0:9*8]),8):
+           ke.append(int(code[i:i+8],16))
+
+       _0x439a49 = 0
+       _0x145894 = 0
+
+       while _0x439a49 < len(code[9*8:]):
+           _0x5eb93a = 64
+           _0x896767 = 0
+           _0x1a873b = 0
+           _0x3c9d8e = 0
+           while True:
+               if _0x439a49 + 1 >= len(code[9*8:]):
+                   _0x5eb93a = 143;
+
+               _0x3c9d8e = int(code[9*8+_0x439a49:9*8+_0x439a49+2], 16)
+               _0x439a49 +=2
+
+               if _0x1a873b < 6*5:
+                   _0x332549 = _0x3c9d8e & 63
+                   _0x896767 += _0x332549 << _0x1a873b
+               else:
+                   _0x332549 = _0x3c9d8e & 63
+                   _0x896767 += int(_0x332549 * math.pow(2, _0x1a873b))
+
+               _0x1a873b += 6
+               if not _0x3c9d8e >= _0x5eb93a: break
+
+           # _0x30725e = _0x896767 ^ ke[_0x145894 % 9] ^ _0x59ce16 ^ parseInt ^ _1x4bfb36
+           _0x30725e = _0x896767 ^ ke[_0x145894 % 9] ^ parseInt ^ _1x4bfb36
+           _0x2de433 = _0x5eb93a * 2 + 127
+
+           for i in range(4):
+               _0x3fa834 = chr(((_0x30725e & _0x2de433) >> (9*8/ 9)* i) - 1)
+               if _0x3fa834 != '$':
+                   _0x1bf6e5 += _0x3fa834
+               _0x2de433 = (_0x2de433 << (9*8/ 9))
+
+           _0x145894 += 1
+
+
+       url = "https://openload.co/stream/%s?mime=true" % _0x1bf6e5
+       return url
+
+   class NoRedirectHandler(urllib2.HTTPRedirectHandler):
+       def http_error_302(self, req, fp, code, msg, headers):
+           infourl = urllib.addinfourl(fp, headers, req.get_full_url())
+           infourl.status = code
+           infourl.code = code
+           return infourl
+
+       http_error_300 = http_error_302
+       http_error_301 = http_error_302
+       http_error_303 = http_error_302
+       http_error_307 = http_error_302
+
+   url = '$doregex[link]'
+   data = read(url)
+   try:
+       try:
+           code = re.findall('p style="" id="[^"]+">(.*?)<\/p', data, flags=re.DOTALL)[0]
+       except:
+           code = re.findall('<p id=\".*?\" style=\"\">(.*?)<\/p', data, flags=re.DOTALL)[0]
+       _0x59ce16 = eval(re.findall('_0x59ce16=([^;]+)',data)[0].replace('parseInt', 'int'))
+       _1x4bfb36 = eval(re.findall('_1x4bfb36=([^;]+)',data)[0].replace('parseInt', 'int'))
+       parseInt  = eval(re.findall('_0x30725e,(\(parseInt.*?)\),',data)[0].replace('parseInt', 'int'))
+       url = decode(code, parseInt, _0x59ce16, _1x4bfb36)
+       url = read_openload(url)
+   except:
+       pass
+       return ''
+       
+   header_test = {'user-agent': 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3163.100 Safari/537.36'}
+   header_test = '|' + urllib.urlencode(header_test)
+   return url + header_test
+]]></expres>        
+<page></page>
+</regex>
+
+
+<regex>
+<name>link</name>
+<expres>location\.href=\'(.*?)\'</expres>
+<page>[makelist3.param4]</page>[makelist3.param2]
+</regex>
+<thumbnail>https://i.dlpng.com/static/png/1609119_thumb.png</thumbnail>
+<fanart>https://images5.alphacoders.com/403/thumb-1920-403408.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+http://test900.gcdn.co/234.m3u8
