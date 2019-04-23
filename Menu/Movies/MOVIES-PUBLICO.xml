@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]PELICULAS[/COLOR] [COLOR grey]PACK 1[/COLOR]</title>
+	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	<link>http://ignoreme</link>
+	<externallink>http://srregio.xyz/IPTV/regioflix.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] [COLOR gray]PELICULAS[/COLOR] [COLOR grey][Cinecalidad Latino][/COLOR]</title>
+
+<link>$doregex[makelist0]</link>
+
+
+<regex>
+    <name>makelist0</name> movies  (all pages)
+ <listrepeat><![CDATA[
+   <title>[makelist0.param3]</title>
+   <link>$doregex[makelist]</link>
+   <thumbnail>[makelist0.param2]</thumbnail>
+<fanart>[makelist0.param2]</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re, requests
+def GetLSProData(page_data,Cookie_Jar,m):
+
+################################################################## FORMULARY #################################################################
+ starturl = 'https://www.cinecalidad.to/'     ### usually, ~ 'http://website.com/category/' ### 
+ categorylink = '' ### check the number of the param ###
+ centerurl = 'page/'      ### something like  '/page/' ###
+ firstpage = 1 ### probably  = 1 ###
+ endurl = '/' ### can be empty ###    ### endurl without final / (SLASH) ###
+#
+ dataregex = 'post_box.*?href=([^>]+).*?src=(.*?jpg).*?alt="([^"]+).*?title="([^"]+)'      ### To adapt ###
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': ''}      ### To adapt ###
+##############################################################################################################################################
+
+############################## GENERIC PART #####################################
+ fullurl = starturl + centerurl + str(firstpage) + endurl + categorylink #
+ source = requests.get(fullurl, headers= headers).text #
+ data = [] #
+#
+ last = 200 #
+ while firstpage <= last: #
+    try: #
+        fullurl = starturl + centerurl + str(firstpage) + endurl + categorylink #
+        source = requests.get(fullurl, headers=headers).text #
+        data += re.findall(dataregex, source) #
+        firstpage += 1 #
+    except: #
+        pass #
+ return data #
+
+]]></expres><page></page>
+</regex>
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[makelist0.param3]   server:[makelist.param1]</title>
+  <link>$doregex[oload]</link>
+   <thumbnail>[makelist0.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import re
+  def dec(strdata):
+    d=''
+    strdata=strdata.split(' ')
+    for strchar in strdata:
+        d += chr(int(strchar)-2)
+    return d
+
+  embeds = {'OnlineUpToBox' : 'https://uptobox.com/%s',
+            'OnlineYourUpload' : 'https://www.yourupload.com/watch/%s',
+            'TheVideoMe' : 'https://thevideo.me/embed-%s.html',
+            'OnlineFilesCDN' : 'https://filescdn.com/%s',
+            'OnlineGD' : '/protect/gdredirect.php?l=%s',
+            'OnlineUsersCloud' : 'https://userscloud.com/%s',
+            'OnlineUsersFiles' : 'https://usersfiles.com/%s',
+            'OnlineOkRu' : 'https://ok.ru/video/%s',
+            'OnlineOpenload' : 'https://openload.co/f/%s',
+            'OnlineStreamango' : 'https://streamango.com/f/%s',
+            'OnlineRapidVideo' : 'https://www.rapidvideo.com/v/%s',
+            'OnlineMega': 'https://mega.nz/#!%s',
+            'Trailer' : 'https://www.youtube.com/watch?v=%s'}
+  srcs = []
+  items = re.findall('class=\"link\sonlinelink\"\sservice=(OnlineOpen.*?)\sdata="(.*?)"',page_data)
+  for embed,sdata in items:
+    srcs.append((embed.replace('Online',''), embeds[embed]%dec(sdata)))
+  return srcs
+]]></expres>
+<page>[makelist0.param1]</page>
+</regex>
+
+OnlineOpen
+
+<regex>
+<name>oload</name>
+<expres><![CDATA[#$pyFunction:
+def GetLSProData(page_data,Cookie_Jar,m):
+
+
+   import cookielib
+   import re
+   import urllib
+   import urllib2
+
+   def read(url):
+       opener = urllib2.build_opener()
+       opener.addheaders = [('User-Agent', 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3163.100 Safari/537.36')]
+       response = opener.open(url)
+       data = response.read()
+       return data
+
+   def read_openload(url):
+       default_headers = dict()
+       default_headers["User-Agent"] = "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3163.100 Safari/537.36"
+       default_headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+       default_headers["Accept-Language"] = "es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3"
+       default_headers["Accept-Charset"] = "UTF-8"
+       default_headers["Accept-Encoding"] = "gzip"
+       cj = cookielib.MozillaCookieJar()
+       request_headers = default_headers.copy()
+       url = urllib.quote(url, safe="%/:=&?~#+!$,;'@()*[]")
+       handlers = [urllib2.HTTPHandler(debuglevel=False)]
+       handlers.append(NoRedirectHandler())
+       handlers.append(urllib2.HTTPCookieProcessor(cj))
+       opener = urllib2.build_opener(*handlers)
+       req = urllib2.Request(url, None, request_headers)
+       handle = opener.open(req, timeout=None)
+
+       return handle.headers.dict.get('location')
+
+   def decode(code, parseInt, _0x59ce16, _1x4bfb36):
+       import math
+
+       _0x1bf6e5 = ''
+       ke = []
+
+       for i in range(0, len(code[0:9*8]),8):
+           ke.append(int(code[i:i+8],16))
+
+       _0x439a49 = 0
+       _0x145894 = 0
+
+       while _0x439a49 < len(code[9*8:]):
+           _0x5eb93a = 64
+           _0x896767 = 0
+           _0x1a873b = 0
+           _0x3c9d8e = 0
+           while True:
+               if _0x439a49 + 1 >= len(code[9*8:]):
+                   _0x5eb93a = 143;
+
+               _0x3c9d8e = int(code[9*8+_0x439a49:9*8+_0x439a49+2], 16)
+               _0x439a49 +=2
+
+               if _0x1a873b < 6*5:
+                   _0x332549 = _0x3c9d8e & 63
+                   _0x896767 += _0x332549 << _0x1a873b
+               else:
+                   _0x332549 = _0x3c9d8e & 63
+                   _0x896767 += int(_0x332549 * math.pow(2, _0x1a873b))
+
+               _0x1a873b += 6
+               if not _0x3c9d8e >= _0x5eb93a: break
+
+           # _0x30725e = _0x896767 ^ ke[_0x145894 % 9] ^ _0x59ce16 ^ parseInt ^ _1x4bfb36
+           _0x30725e = _0x896767 ^ ke[_0x145894 % 9] ^ parseInt ^ _1x4bfb36
+           _0x2de433 = _0x5eb93a * 2 + 127
+
+           for i in range(4):
+               _0x3fa834 = chr(((_0x30725e & _0x2de433) >> (9*8/ 9)* i) - 1)
+               if _0x3fa834 != '$':
+                   _0x1bf6e5 += _0x3fa834
+               _0x2de433 = (_0x2de433 << (9*8/ 9))
+
+           _0x145894 += 1
+
+
+       url = "https://openload.co/stream/%s?mime=true" % _0x1bf6e5
+       return url
+
+   class NoRedirectHandler(urllib2.HTTPRedirectHandler):
+       def http_error_302(self, req, fp, code, msg, headers):
+           infourl = urllib.addinfourl(fp, headers, req.get_full_url())
+           infourl.status = code
+           infourl.code = code
+           return infourl
+
+       http_error_300 = http_error_302
+       http_error_301 = http_error_302
+       http_error_303 = http_error_302
+       http_error_307 = http_error_302
+
+   url = '[makelist.param2]'
+   data = read(url)
+   try:
+       try:
+           code = re.findall('p style="" id="[^"]+">(.*?)<\/p', data, flags=re.DOTALL)[0]
+       except:
+           code = re.findall('<p id=\".*?\" style=\"\">(.*?)<\/p', data, flags=re.DOTALL)[0]
+       _0x59ce16 = eval(re.findall('_0x59ce16=([^;]+)',data)[0].replace('parseInt', 'int'))
+       _1x4bfb36 = eval(re.findall('_1x4bfb36=([^;]+)',data)[0].replace('parseInt', 'int'))
+       parseInt  = eval(re.findall('_0x30725e,(\(parseInt.*?)\),',data)[0].replace('parseInt', 'int'))
+       url = decode(code, parseInt, _0x59ce16, _1x4bfb36)
+       url = read_openload(url)
+   except:
+       pass
+       return ''
+       
+   header_test = {'user-agent': 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3163.100 Safari/537.36'}
+   header_test = '|' + urllib.urlencode(header_test)
+   return url + header_test
+]]></expres>        
+<page></page>
+</regex>
+
+ 
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
+</item>
+
+<item>
+<title>[COLOR white]+[/COLOR] [COLOR gray]PELICULAS ESTRENOS[/COLOR] [COLOR grey][CineVall Latino][/COLOR]</title>
+
+<link>$doregex[makelist3]</link>
+
+<regex>
+    <name>makelist3</name> movies  (all pages)
+ <listrepeat><![CDATA[
+<title>[makelist3.param3]</title>
+ <link>$doregex[finalURL]|Referer=http://www.cinevall.website&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
+<thumbnail>[makelist3.param2]</thumbnail>
+ <regex>
+<name>finalURL</name>
+<expres>file: "(.*?)\"</expres>
+<page>[makelist3.param1]</page>
+<referer>http://www.cinevall.website/release/2018/</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+</regex>
+ </item>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re, requests
+def GetLSProData(page_data,Cookie_Jar,m):
+
+################################################################## FORMULARY #################################################################
+ starturl = 'http://www.cinevall.website/movies/'     ### usually, ~ 'http://website.com/category/' ###
+ categorylink = '' ### check the number of the param ###
+ centerurl = 'page/'      ### something like  '/page/' ###
+ firstpage = 1 ### probably  = 1 ###
+ endurl = '/' ### can be empty ###    ### endurl without final / (SLASH) ###
+#
+ dataregex = 'poster[\w\W\s]{0,15}href="(.*?)".*?src="(.*?)".*?lt="(.*?)"'      ### To adapt ###
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': ''}      ### To adapt ###
+##############################################################################################################################################
+
+############################## GENERIC PART #####################################
+ fullurl = starturl + centerurl + str(firstpage) + endurl + categorylink #
+ source = requests.get(fullurl, headers= headers).text #
+ data = [] #
+#
+ last = 5 #
+ while firstpage <= last: #
+    try: #
+        fullurl = starturl + centerurl + str(firstpage) + endurl + categorylink #
+        source = requests.get(fullurl, headers=headers).text #
+        data += re.findall(dataregex, source) #
+        firstpage += 1 #
+    except: #
+        pass #
+ return data #
+
+]]></expres><page></page>
+</regex>
+
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
+ </item>
+
+<item>
+<title>[COLOR white]+[/COLOR] [COLOR deepskyblue]PELICULAS[/COLOR] [COLOR white][CineVall Latino][/COLOR]</title>
+
+<link>$doregex[makelist3]</link>
+
+<regex>
+    <name>makelist3</name> movies  (all pages)
+ <listrepeat><![CDATA[
+<title>[makelist3.param3]</title>
+ <link>$doregex[finalURL]|Referer=http://www.cinevall.website&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
+<thumbnail>[makelist3.param2]</thumbnail>
+ <regex>
+<name>finalURL</name>
+<expres>file: "(.*?)\"</expres>
+<page>[makelist3.param1]</page>
+<referer>http://www.cinevall.website/movies/</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+</regex>
+ </item>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re, requests
+def GetLSProData(page_data,Cookie_Jar,m):
+
+################################################################## FORMULARY #################################################################
+ starturl = 'http://www.cinevall.website/movies/'     ### usually, ~ 'http://website.com/category/' ###
+ categorylink = '' ### check the number of the param ###
+ centerurl = 'page/'      ### something like  '/page/' ###
+ firstpage = 1 ### probably  = 1 ###
+ endurl = '/' ### can be empty ###    ### endurl without final / (SLASH) ###
+#
+ dataregex = 'poster[\w\W\s]{0,15}href="(.*?)".*?src="(.*?)".*?lt="(.*?)"'      ### To adapt ###
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': ''}      ### To adapt ###
+##############################################################################################################################################
+
+############################## GENERIC PART #####################################
+ fullurl = starturl + centerurl + str(firstpage) + endurl + categorylink #
+ source = requests.get(fullurl, headers= headers).text #
+ data = [] #
+#
+ last = 20 #
+ while firstpage <= last: #
+    try: #
+        fullurl = starturl + centerurl + str(firstpage) + endurl + categorylink #
+        source = requests.get(fullurl, headers=headers).text #
+        data += re.findall(dataregex, source) #
+        firstpage += 1 #
+    except: #
+        pass #
+ return data #
+
+]]></expres><page></page>
+</regex>
+
+<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
+<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
+ </item>
