@@ -240,7 +240,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>finalURL</name>
 <expres>file: "(.*?)\"</expres>
 <page>[makelist3.param1]</page>
-<referer>http://www.cinevall.website/release/2018/</referer>
+<referer>http://www.cinevall.website/movies/</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
 </regex>
  </item>
@@ -250,7 +250,7 @@ import re, requests
 def GetLSProData(page_data,Cookie_Jar,m):
 
 ################################################################## FORMULARY #################################################################
- starturl = 'http://www.cinevall.website/movies/'     ### usually, ~ 'http://website.com/category/' ###
+ starturl = 'http://www.grupovalltv.net/peliculas/'     ### usually, ~ 'http://website.com/category/' ###
  categorylink = '' ### check the number of the param ###
  centerurl = 'page/'      ### something like  '/page/' ###
  firstpage = 1 ### probably  = 1 ###
@@ -265,13 +265,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
  source = requests.get(fullurl, headers= headers).text #
  data = [] #
 #
- last = 5 #
+ last = 1 #
  while firstpage <= last: #
     try: #
         fullurl = starturl + centerurl + str(firstpage) + endurl + categorylink #
         source = requests.get(fullurl, headers=headers).text #
         data += re.findall(dataregex, source) #
-        firstpage += 1 #
+        firstpage = firstpage + 1 #
     except: #
         pass #
  return data #
@@ -308,7 +308,7 @@ import re, requests
 def GetLSProData(page_data,Cookie_Jar,m):
 
 ################################################################## FORMULARY #################################################################
- starturl = 'http://www.cinevall.website/movies/'     ### usually, ~ 'http://website.com/category/' ###
+ starturl = 'http://www.grupovalltv.net/peliculas/'     ### usually, ~ 'http://website.com/category/' ###
  categorylink = '' ### check the number of the param ###
  centerurl = 'page/'      ### something like  '/page/' ###
  firstpage = 1 ### probably  = 1 ###
@@ -323,13 +323,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
  source = requests.get(fullurl, headers= headers).text #
  data = [] #
 #
- last = 20 #
+ last = 12 #
  while firstpage <= last: #
     try: #
         fullurl = starturl + centerurl + str(firstpage) + endurl + categorylink #
         source = requests.get(fullurl, headers=headers).text #
         data += re.findall(dataregex, source) #
-        firstpage += 1 #
+        firstpage = firstpage + 1 #
     except: #
         pass #
  return data #
@@ -340,3 +340,4 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
  </item>
+
