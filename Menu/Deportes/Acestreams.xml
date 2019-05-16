@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<item>
+<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]EVENTOS DEPORTIVOS[/COLOR] [COLOR grey]LISTA COMPLETA[/COLOR]</title>
+
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR grey][makelist.param1][/COLOR][COLOR white]$doregex[hora][makelist.param6][/COLOR][COLOR gray][UPPERCASE] [makelist.param9][/UPPERCASE] [/COLOR][COLOR white]  [makelist.param10][/COLOR][COLOR grey] [makelist.param12] [makelist.param13][/COLOR]</title>
+<info>[COLOR grey][makelist.param1][/COLOR][COLOR white][makelist.param4][/COLOR][COLOR gray][UPPERCASE] [makelist.param6][/UPPERCASE] [/COLOR][COLOR white] [makelist.param7] [makelist.param8][/COLOR][COLOR grey] [makelist.param10] [makelist.param11][/COLOR]</info>
+<thumbnail>http://blackghost.co/gray/img/acestreams.png</thumbnail>
+<link>plugin://program.plexus/?url=[makelist.param11]&amp;mode=1&amp;name=[COLOR grey]DJLIPTV[/COLOR]</link>
+]]></listrepeat>
+<expres><![CDATA[(?s)colspan="3">.*?h4>\s*((.*?) (.*?)201\d)|style="margin-left: auto\;">.*?class="text-right">\n                           ((.*?):)(.+?)\s*</.*?<td class.*?>\s*(.*?)\s*</td.*?<td>\s*(.*?)\s*<.*?<td colspan="2">\s*(.*?)\s*<.*?class.*?>\s*(.*?)\s*</td|href="aces.*?//(.*?)".*?Channel(.*?)<.*?>(.*?)"]]></expres>
+<page>https://acelisting.in/</page>
+</regex>
+ <regex>
+<name>hora</name>
+<expres>$pyFunction:('[makelist.param4]').replace(' 0:','01:').replace(' 1:','02:').replace(' 2:','03:').replace(' 3:','04:').replace(' 4:','05:').replace(' 5:','06:').replace(' 6:','07:').replace(' 7:','08:').replace(' 8:','09:').replace(' 9:','10:').replace(' 10:','11:').replace(' 11:','12:').replace(' 12:','13:').replace(' 13:','14:').replace(' 14:','15:').replace(' 15:','16:').replace(' 16:','17:').replace(' 17:','18:').replace(' 18:','19:').replace(' 19:','20:').replace(' 20:','21:').replace(' 21:','22:').replace(' 22:','23:').replace(' 23:','00:')</expres>
+<page></page>
+</regex>
+ 
+ <thumbnail>http://www.androidaba.com/wp-content/uploads/2016/03/acestream-engine.jpg</thumbnail>
+</item>
+
+<!---
 <channel>
     <name>Acestreams</name>
     <thumbnail></thumbnail>
     <fanart></fanart>
      <items>
-     <items_info> <!-- this is opitonal -->
+     <items_info> <!-- this is opitonal --
       <title>DJLIPTV </title>
       <genre>Tv Live</genre>
       <description>: Lista de Canales para el Livestreamspro :</description>
@@ -18,7 +43,7 @@
 
 
 
-<!---<SetViewMode>55</SetViewMode> --->
+<!---<SetViewMode>55</SetViewMode> ---
 
 			<item>
 			<title>        [COLOR white]::: | DJLIPTV - Sports | :::[/COLOR]</title> 
@@ -241,7 +266,7 @@
 </regex>
 <thumbnail>http://www.androidaba.com/wp-content/uploads/2016/03/acestream-engine.jpg</thumbnail>
 </item>
---->
+---
 <item>
 	<title>[B]Canales Arenavision[/B]</title>
 	<link>$doregex[makelist]</link>
@@ -512,7 +537,7 @@
 	<externallink>http://DJLIPTV.org/adryan/ace.xml</externallink>
 	<thumbnail>http://www.androidaba.com/wp-content/uploads/2016/03/acestream-engine.jpg</thumbnail>
 </item>
---->
+---
 <item>
 	<title>AceStream Sports Channels</title>
 	<link>http://ignor.ame</link>
@@ -611,7 +636,7 @@
 </regex>
 <thumbnail>http://www.androidaba.com/wp-content/uploads/2016/03/acestream-engine.jpg</thumbnail>
 </item>		
---->		
+---
 		
 <item>
 	<title>ALL ACESTREAMS (b)</title>
