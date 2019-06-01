@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+	<title>[COLOR lightcyan]TECNOTV[/COLOR] [COLOR lightgray]PRINCIPAL[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	<externallink>http://tecnotv.club/lista.m3u</externallink>
+</item>
+
+<item>
+	<title>[COLOR lightcyan]TECNOTV[/COLOR] [COLOR lightgray]ANDROID[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	<externallink>http://tecnotv.club/lista2.m3u</externallink>
+</item>
+
+<item>
+	<title>[COLOR lightcyan]TECNOTV[/COLOR] [COLOR lightgray]EXTERNA[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	<externallink>http://tecnotv.club/ext.m3u</externallink>
+</item>
+
+<item>
+	<title>[COLOR lightcyan]TECNOTV[/COLOR] [COLOR lightgray]PELICULAS[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	<externallink>http://tecnotv.club/peliculas.m3u</externallink>
+</item>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+	<title>[COLOR lightcyan]REGIO[/COLOR] [COLOR lightgray]TV[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	<externallink>http://srregio.xyz/IPTV/regiotv.m3u</externallink>
+</item>
+
+<item>
+	<title>[COLOR lightcyan]REGIO[/COLOR] [COLOR lightgray]FLIX[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	<externallink>http://srregio.xyz/IPTV/regioflix.m3u</externallink>
+</item>
+
+<item>
+	<title>[COLOR lightcyan]REGIO[/COLOR] [COLOR lightgray]ALTERNA[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	<externallink>http://srregio.xyz/IPTV/alterna.m3u</externallink>
+</item>
+
+<item>
+	<title>[COLOR lightcyan]REGIO[/COLOR] [COLOR lightgray]ALTERNA 1[/COLOR]</title>
+	<link>http://ignorame</link>
+	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	<externallink>http://srregio.xyz/IPTV/alterna2.m3u</externallink>
+</item>
