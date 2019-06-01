@@ -8,12 +8,12 @@ Srregio:"M3U [COLOR gray]TV[/COLOR]" URL="http://srregio.xyz/IPTV/regiotv.m3u"; 
 rregio:"M3U [COLOR gray]FLIX[/COLOR]" URL="http://srregio.xyz/IPTV/regioflix.m3u"; regex""
 rregio:"M3U [COLOR gray]03:[/COLOR]" URL="http://srregio.xyz/IPTV/deportes.m3u"; regex""
 Srregio:"M3U [COLOR gray]ALTERNA[/COLOR]" URL="http://srregio.xyz/IPTV/alterna.m3u"; regex""
-Srregio:"M3U [COLOR gray]ALTERNA[/COLOR]" URL="http://srregio.xyz/IPTV/alterna2.m3u"; regex""
+Srregio:"M3U [COLOR gray]ALTERNA 1[/COLOR]" URL="http://srregio.xyz/IPTV/alterna2.m3u"; regex""
 rregio:"M3U [COLOR gray]06:[/COLOR]" URL="http://srregio.xyz/IPTV/spain.m3u"; regex""
 Tecnotv:"M3U [COLOR gray]PRINCIPAL[/COLOR]" URL="http://tecnotv.club/lista.m3u"; regex""
 Tecnotv:"M3U [COLOR gray]ANDROID[/COLOR]" URL="http://tecnotv.club/lista2.m3u"; regex""
 Tecnotv:"M3U [COLOR gray]EXTERNA[/COLOR]" URL="http://tecnotv.club/ext.m3u"; regex""
-Tecnotv:"M3U [COLOR gray]PELICULAS[/COLOR]" URL="http://tecnotv.club/peliculas.m3u"; regex""
+ecnotv:"M3U [COLOR gray]PELICULAS[/COLOR]" URL="http://tecnotv.club/peliculas.m3u"; regex""
 Serverm3u:"M3U [COLOR gray]10:[/COLOR]" URL="https://www.achoapps.com/listas/acho.m3u"; regex""
 
 

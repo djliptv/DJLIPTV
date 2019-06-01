@@ -9,6 +9,14 @@
 </item>
 
 <item>
+	<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]PELICULAS[/COLOR] [COLOR grey]PACK 2[/COLOR]</title>
+	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+	<link>http://ignoreme</link>
+	<externallink>http://tecnotv.club/peliculas.m3u</externallink>
+</item>
+
+<item>
 <title>[COLOR white]+[/COLOR] [COLOR gray]PELICULAS[/COLOR] [COLOR grey][Cinecalidad Latino][/COLOR]</title>
 
 <link>$doregex[makelist0]</link>
