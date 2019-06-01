@@ -6,23 +6,7 @@
 		<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/GOTS8.xml</externallink>
 	</item>
 
-
-<item>
-		<title>[COLOR lightcyan]MOVISTAR FORMULA 1[/COLOR]</title>
-		<link>plugin://plugin.video.f4mTester/?url=http://tv.nousiptv.com:25462/123/123/3094&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]DJLIPTV[/COLOR]</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		
-	</item>
-	
-	<item>
-		<title>[COLOR lightcyan]MOVISTAR FORMULA 1[/COLOR]</title>
-		<link>plugin://plugin.video.f4mTester/?url=http://tv.trexiptv.com:8000/Andre2/Andre123/7461&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]DJLIPTV[/COLOR]</link>
-		<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
-<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-		
-	</item>
-
+<!---
 	<item>
 		<title>[COLOR lightcyan]FOX ACTION[/COLOR]</title>
 		<link>plugin://plugin.video.f4mTester/?url=http://tv.trexiptv.com:8000/Andre2/Andre123/25554&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]DJLIPTV[/COLOR]</link>
@@ -30,7 +14,7 @@
 <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 		
 	</item>
-
+--->
 <item>
 <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTAS IPTV[/COLOR] [I]Con F4MTESTER[/I]</title>
 <link>$doregex[makelist2]</link>
@@ -162,19 +146,19 @@ def GetLSProData(page_data,Cookie_Jar,m):
 		<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 		<externallink>https://pastebin.com/raw/P7BEGxd0</externallink>
 	</item>
-
+<!---
 <item>
 	<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]IPTVHIT SPAIN[/COLOR]</title>
 	<link>http://ignorame</link>
 	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-	<externallink>https://iptvhit.live/TVxNET/iptvhit/telegramSPAIN/</externallink> <!--- https://pastebin.com/raw/fWeGMryE --->
+	<externallink>https://iptvhit.live/TVxNET/iptvhit/telegramSPAIN/</externallink> <!--- https://pastebin.com/raw/fWeGMryE ---
 </item>
 
 
 
 
-<!---
+
 <item>
 <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTAS IPTV[/COLOR] [I]Sin F4MTESTER[/I]</title>
 <link>$doregex[makelist2]</link>
