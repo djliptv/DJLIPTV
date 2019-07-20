@@ -15,6 +15,27 @@
 		
 	</item>
 --->
+
+<item>
+<title>[B][COLOR grey]+[/COLOR][COLOR white]IPTV[/COLOR] [COLOR gray][PRIVADA][/COLOR][/B]</title>
+<link>NA</link>
+<externallink>$doregex[select]</externallink>
+<regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import xbmcgui
+   dialog = xbmcgui.Dialog()
+   ret = dialog.select('[B][COLOR white]IPTV[/COLOR] [COLOR gray][PRIVADA][/COLOR][/B][COLOR deepskygray]**************************************[/COLOR]', ['[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]IPTV[/COLOR] [COLOR gray]1[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]IPTV[/COLOR] [COLOR gray]2[/COLOR][/B]' , '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]MSC[/COLOR] [COLOR gray]1[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]MSC[/COLOR] [COLOR gray]2[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]MOVIES[/COLOR] [COLOR gray]1[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]MOVIES[/COLOR] [COLOR gray]2[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]MOVIES[/COLOR] [COLOR gray]3[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]TV[/COLOR] [COLOR gray]1[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]TV[/COLOR] [COLOR gray]2[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]TV[/COLOR] [COLOR gray]3[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]TV[/COLOR] [COLOR gray]4[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]TV[/COLOR] [COLOR gray]5[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]TV[/COLOR] [COLOR gray]6[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]TV[/COLOR] [COLOR gray]7[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]TV[/COLOR] [COLOR gray]8[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]TV[/COLOR] [COLOR gray]9[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]TV[/COLOR] [COLOR gray]10[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]TV[/COLOR] [COLOR gray]11[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]TV[/COLOR] [COLOR gray]12[/COLOR][/B]', '[B][COLOR grey]   •   [/B][/COLOR][B][COLOR white]TV[/COLOR] [COLOR gray]13[/COLOR][/B]'])
+   lists = ['http://bit.ly/DJLPRIPTV1', 'http://bit.ly/DJLPRIPTV2', 'http://bit.ly/DJLPRMSC1', 'http://bit.ly/DJLPRMSC2', 'http://bit.ly/DJLPRMV1', 'http://bit.ly/DJLPRMV2', 'http://bit.ly/DJLPRMV3', 'http://bit.ly/DJLPRTV1', 'http://bit.ly/DJLPRTV2', 'http://bit.ly/DJLPRTV3', 'http://bit.ly/DJLPRTV4', 'http://bit.ly/DJLPRTV5', 'http://bit.ly/DJLPRTV6', 'http://bit.ly/DJLPRTV7', 'http://bit.ly/DJLPRTV8', 'http://bit.ly/DJLPRTV9', 'http://bit.ly/DJLPRTV10', 'http://bit.ly/DJLPRTV11', 'http://bit.ly/DJLPRTV12', 'http://bit.ly/DJLPRTV13']
+   return lists[ret]
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
+<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
+</item>
+
 <item>
 <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTAS IPTV[/COLOR] [I]Con F4MTESTER[/I]</title>
 <link>$doregex[makelist2]</link>
