@@ -121,65 +121,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-
-<item>
-<title>[COLOR white]+[/COLOR] [COLOR gray]PELICULAS ESTRENOS[/COLOR] [COLOR grey][CineVall Latino][/COLOR]</title>
-
-<link>$doregex[makelist3]</link>
-
-<regex>
-    <name>makelist3</name> movies  (all pages)
- <listrepeat><![CDATA[
-<title>[makelist3.param3]</title>
- <link>$doregex[finalURL]|Referer=http://www.cinevall.website&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
-<thumbnail>[makelist3.param2]</thumbnail>
- <regex>
-<name>finalURL</name>
-<expres>file: "(.*?)\"</expres>
-<page>[makelist3.param1]</page>
-<referer>http://www.cinevall.website/movies/</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
-</regex>
- </item>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re, requests
-def GetLSProData(page_data,Cookie_Jar,m):
-
-################################################################## FORMULARY #################################################################
- starturl = 'http://www.grupovalltv.net/peliculas/'     ### usually, ~ 'http://website.com/category/' ###
- categorylink = '' ### check the number of the param ###
- centerurl = 'page/'      ### something like  '/page/' ###
- firstpage = 1 ### probably  = 1 ###
- endurl = '/' ### can be empty ###    ### endurl without final / (SLASH) ###
-#
- dataregex = 'poster[\w\W\s]{0,15}href="(.*?)".*?src="(.*?)".*?lt="(.*?)"'      ### To adapt ###
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': ''}      ### To adapt ###
-##############################################################################################################################################
-
-############################## GENERIC PART #####################################
- fullurl = starturl + centerurl + str(firstpage) + endurl + categorylink #
- source = requests.get(fullurl, headers= headers).text #
- data = [] #
-#
- last = 1 #
- while firstpage <= last: #
-    try: #
-        fullurl = starturl + centerurl + str(firstpage) + endurl + categorylink #
-        source = requests.get(fullurl, headers=headers).text #
-        data += re.findall(dataregex, source) #
-        firstpage = firstpage + 1 #
-    except: #
-        pass #
- return data #
-
-]]></expres><page></page>
-</regex>
-
-<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
- </item>
-
 <item>
 <title>[COLOR white]+[/COLOR] [COLOR gray]PELICULAS[/COLOR] [COLOR grey][CineVall Latino][/COLOR]</title>
 
@@ -205,7 +146,7 @@ import re, requests
 def GetLSProData(page_data,Cookie_Jar,m):
 
 ################################################################## FORMULARY #################################################################
- starturl = 'http://www.grupovalltv.net/peliculas/'     ### usually, ~ 'http://website.com/category/' ###
+ starturl = 'http://www.speedvall.net/peliculas/'     ### usually, ~ 'http://website.com/category/' ###
  categorylink = '' ### check the number of the param ###
  centerurl = 'page/'      ### something like  '/page/' ###
  firstpage = 1 ### probably  = 1 ###
@@ -237,7 +178,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
  </item>
-
+<!---
  <item>
 <title>[COLOR white]+[/COLOR] [COLOR gray]PELICULAS[/COLOR] [COLOR grey][SoloCastellano][/COLOR]</title>
  <link>$doregex[makelist2]</link>
