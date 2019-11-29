@@ -87,7 +87,7 @@
 <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 </item> 
---->
+
 <item>
 <title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]TELEVISION 24/7[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -114,7 +114,7 @@
 <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 </item>
-
+--->
 
 <item>
 	<title>[COLOR white][B]+[/B][/COLOR] [COLOR gray]PELICULAS[/COLOR]</title>

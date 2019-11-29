@@ -5,7 +5,7 @@
 	<thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
 	<fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
 	<link>http://ignoreme</link>
-	<externallink>http://regioflix.club/IPTV/regioflix.m3u</externallink>
+	<externallink>http://srregio.net/21n/regioflix.m3u</externallink>
 </item>
 
 <item>
@@ -20,6 +20,8 @@
 <item>
 <title>[COLOR white]+[/COLOR] [COLOR gray]PELICULAS[/COLOR] [COLOR grey][Cinecalidad Latino][/COLOR]</title>
 <link>$doregex[makelist0]</link>
+
+
 <regex>
     <name>makelist0</name> movies  (all pages)
  <listrepeat><![CDATA[
@@ -62,6 +64,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres><page></page>
 </regex>
 
+
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -80,14 +83,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return d
 
   embeds = {'OnlineUpToBox' : 'https://uptobox.com/%s',
-            'OnlineYourUpload' : 'https://www.yourupload.com/watch/%s',
+            'OnlineOpenplay' : 'https://player.openplay.vip/player.php?id=%s',
             'TheVideoMe' : 'https://thevideo.me/embed-%s.html',
             'OnlineFilesCDN' : 'https://filescdn.com/%s',
             'OnlineGD' : '/protect/gdredirect.php?l=%s',
             'OnlineUsersCloud' : 'https://userscloud.com/%s',
             'OnlineUsersFiles' : 'https://usersfiles.com/%s',
             'OnlineOkRu' : 'https://ok.ru/video/%s',
-            'OnlineOpenload' : 'https://openload.co/f/%s',
+            'OnlineJetload' : 'https://jetload.net/p/%s',
 			'OnlineVidoza' : 'https://vidoza.net/%s',
 			'OnlineClipwatching' : 'https://clipwatching.com/%s',
             'OnlineStreamango' : 'https://streamango.com/f/%s',
@@ -107,6 +110,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page>[makelist0.param1]</page>
 </regex>
+
+
+
+
+
+ class="link onlinelink
+ 
+
  
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
@@ -122,23 +133,23 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <name>makelist3</name> movies  (all pages)
  <listrepeat><![CDATA[
 <title>[makelist3.param3]</title>
- <link>$doregex[finalURL]|Referer=http://www.cinevall.website&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
+ <link>$doregex[finalURL]|Referer=http://www.cinevall.online&amp;User-Agent=ipad</link>
 <thumbnail>[makelist3.param2]</thumbnail>
  <regex>
 <name>finalURL</name>
-<expres>file: "(.*?)\"</expres>
+<expres>(?:\{file\:\s*|iframe\s*src=)"(.*?)"</expres>
 <page>[makelist3.param1]</page>
-<referer>http://www.cinevall.website/movies/</referer>
+<referer>http://www.cinevall.online/release/2018/</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
 </regex>
- </item>
+
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 import re, requests
 def GetLSProData(page_data,Cookie_Jar,m):
 
 ################################################################## FORMULARY #################################################################
- starturl = 'http://www.speedvall.net/peliculas/'     ### usually, ~ 'http://website.com/category/' ###
+ starturl = 'http://www.cinevall.online/peliculas/'     ### usually, ~ 'http://website.com/category/' ###
  categorylink = '' ### check the number of the param ###
  centerurl = 'page/'      ### something like  '/page/' ###
  firstpage = 1 ### probably  = 1 ###
@@ -159,14 +170,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
         fullurl = starturl + centerurl + str(firstpage) + endurl + categorylink #
         source = requests.get(fullurl, headers=headers).text #
         data += re.findall(dataregex, source) #
-        firstpage = firstpage + 1 #
+        firstpage += 1 #
     except: #
         pass #
  return data #
 
 ]]></expres><page></page>
 </regex>
-
 <thumbnail>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesThumbnail.jpg?raw=true</thumbnail>
 <fanart>https://github.com/djliptv/DJLIPTV/blob/master/Pics/Logos/MoviesFanart.jpg?raw=true</fanart>
  </item>

@@ -15,14 +15,14 @@
 <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 		
 	</item>
---->
+
 
 <item>
 	<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LATINO[/COLOR]</title>
 	<link>http://ignorame</link>
 	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-	<externallink>http://colussus.net/document/latino/onlinehd.xml</externallink> <!--- https://pastebin.com/raw/fWeGMryE --->
+	<externallink>http://colussus.net/document/latino/onlinehd.xml</externallink> <!--- https://pastebin.com/raw/fWeGMryE ---
 </item>
 
 <item>
@@ -115,13 +115,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
---->
+
 <item>
 	<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]SR REGIO[/COLOR]</title>
 	<link>http://ignorame</link>
 	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/External/SRREGIO.xml</externallink> <!--- https://pastebin.com/raw/fWeGMryE --->
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/External/SRREGIO.xml</externallink>
 </item>
 
 <item>
@@ -129,9 +129,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	<link>http://ignorame</link>
 	<thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
-	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/External/TECNOTV.xml</externallink> <!--- https://pastebin.com/raw/fWeGMryE --->
+	<externallink>https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/External/TECNOTV.xml</externallink>
 </item>
-
+--->
 <item>
 	<title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]TV PREMIUM HD[/COLOR]</title>
 	<link>http://ignorame</link>
