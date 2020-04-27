@@ -20,7 +20,7 @@ Serverm3u:"M3U [COLOR gray]10:[/COLOR]" URL="https://www.achoapps.com/listas/ach
 http://mediabox.world:80/get.php?username=s123456789&password=s123456789&type=m3u
 https://pastebin.com/raw/Fjxx1AXM
 
-Server:"T V [COLOR gray]LOLO-TV[/COLOR]" URL="http://live.firetv.me:83/get.php?username=Mike9765&password=86656121&type=m3u_plus&output=m3u8"; regex""
+Server:"T V [COLOR gray]LOLO-TV[/COLOR]" URL="http://live.firetv.me:83/get.php?username=Mike9765&password=86656121&type=m3u_plus"; regex""
 
 
 erver:"T V [COLOR gray]HBO - GAME OF THRONES[/COLOR]" URL="https://raw.githubusercontent.com/djliptv/DJLIPTV/master/Menu/TV/TODOHBO.m3u"; regex""
