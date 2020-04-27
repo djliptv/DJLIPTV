@@ -24,7 +24,7 @@
 	<fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 	<externallink>http://colussus.net/document/latino/onlinehd.xml</externallink> <!--- https://pastebin.com/raw/fWeGMryE ---
 </item>
-
+--->
 <item>
 <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTAS IPTV[/COLOR] [I]Con F4MTESTER[/I]</title>
 <link>$doregex[makelist2]</link>
@@ -57,7 +57,7 @@
 <thumbnail>http://www.pvhc.net/img22/bmgqrahfpzrruxfuquvl.png</thumbnail>
 <fanart>https://hdwallsource.com/img/2016/8/fedora-linux-desktop-wallpaper-51274-52970-hd-wallpapers.jpg</fanart>
 </item> 
-
+<!---
 <item>
 <title>[COLOR lightcyan]TV[/COLOR] [COLOR lightgray]LISTAS IPTV M3U[/COLOR] [I]Con F4MTESTER[/I]</title>
 <link>$doregex[makelist2]</link>
